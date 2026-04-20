@@ -1,0 +1,75 @@
+/* ============================================================
+   hotloop.ai — colors_and_type.css
+   Quick-start stylesheet for design work. Imports the full
+   token system from globals.css and adds semantic helpers
+   (h1, h2, code, p, eyebrow, etc.) already mapped.
+
+   For a full token reference, see globals.css. This file
+   covers the 90% case — drop it in and start designing.
+   ============================================================ */
+
+@import url("./globals.css");
+
+/* ---------- Semantic type aliases ---------- */
+
+.h-display {
+  font-family: var(--font-display-override, var(--font-sans));
+  font-size: var(--text-4xl);
+  font-weight: var(--weight-medium);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: var(--color-text-primary);
+}
+
+.h-hero {
+  font-family: var(--font-display-override, var(--font-sans));
+  font-size: var(--text-5xl);
+  font-weight: var(--weight-medium);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+}
+
+.h1 { font-size: var(--text-2xl); line-height: var(--leading-tight); font-weight: var(--weight-medium); letter-spacing: var(--tracking-tight); }
+.h2 { font-size: var(--text-xl); line-height: var(--leading-snug); font-weight: var(--weight-medium); letter-spacing: var(--tracking-tight); }
+.h3 { font-size: var(--text-lg); line-height: var(--leading-snug); font-weight: var(--weight-medium); }
+.h4 { font-size: var(--text-md); line-height: var(--leading-snug); font-weight: var(--weight-medium); }
+
+.body { font-size: var(--text-base); line-height: var(--leading-relaxed); color: var(--color-text-secondary); }
+.body-sm { font-size: var(--text-sm); line-height: var(--leading-normal); color: var(--color-text-secondary); }
+.caption { font-size: var(--text-xs); color: var(--color-text-muted); }
+
+.mono, code, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--color-surface-muted);
+  padding: 1px 5px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Brand-semantic text colors ---------- */
+
+.fg-primary { color: var(--color-text-primary); }
+.fg-secondary { color: var(--color-text-secondary); }
+.fg-muted { color: var(--color-text-muted); }
+.fg-subtle { color: var(--color-text-subtle); }
+.fg-human { color: var(--color-human); }
+.fg-ai { color: var(--color-ai); }
+.fg-governance { color: var(--color-governance); }
+
+.bg-page { background: var(--color-surface-page); }
+.bg-card { background: var(--color-surface-card); }
+.bg-muted { background: var(--color-surface-muted); }
+.bg-inverse { background: var(--color-surface-inverse); color: var(--color-text-inverse); }
+
+/* ---------- Editorial "hero number" — a signature pattern ---------- */
+
+.hero-number {
+  font-family: var(--font-serif);
+  font-size: var(--text-5xl);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  letter-spacing: var(--tracking-tight);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.hero-number--human { color: var(--color-human); }
+.hero-number--ai { color: var(--color-ai); }

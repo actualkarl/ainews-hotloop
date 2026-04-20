@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" role="img" aria-label="hotloop.ai mark">
+  <defs>
+    <linearGradient id="hotloop-mark-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="var(--logo-gradient-start, #D85A30)"></stop>
+      <stop offset="100%" stop-color="var(--logo-gradient-end, #8A2F19)"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M 92.0,25.0 L 91.3,29.3 L 89.4,33.2 L 86.5,36.3 L 82.9,38.4 L 79.1,39.5 L 75.3,39.8 L 71.6,39.4 L 68.1,38.5 L 64.9,37.1 L 62.0,35.4 L 59.3,33.5 L 56.8,31.5 L 54.5,29.4 L 52.2,27.2 L 50.0,25.0 L 47.8,22.8 L 45.5,20.6 L 43.2,18.5 L 40.7,16.5 L 38.0,14.6 L 35.1,12.9 L 31.9,11.5 L 28.4,10.6 L 24.7,10.2 L 20.9,10.5 L 17.1,11.6 L 13.5,13.7 L 10.6,16.8 L 8.7,20.7 L 8.0,25.0 L 8.7,29.3 L 10.6,33.2 L 13.5,36.3 L 17.1,38.4 L 20.9,39.5 L 24.7,39.8 L 28.4,39.4 L 31.9,38.5 L 35.1,37.1 L 38.0,35.4 L 40.7,33.5 L 43.2,31.5 L 45.5,29.4 L 47.8,27.2 L 50.0,25.0 L 52.2,22.8 L 54.5,20.6 L 56.8,18.5 L 59.3,16.5 L 62.0,14.6 L 64.9,12.9 L 68.1,11.5 L 71.6,10.6 L 75.3,10.2 L 79.1,10.5 L 82.9,11.6 L 86.5,13.7 L 89.4,16.8 L 91.3,20.7 L 92.0,25.0 Z" fill="none" stroke="url(#hotloop-mark-grad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
