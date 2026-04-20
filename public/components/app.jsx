@@ -126,7 +126,8 @@ function App() {
 
   return (
     <div className="app" data-density={tweaks.density} data-layout={tweaks.layout}>
-      <TopBar onRefresh={handleRefresh} loading={loading} lastRefresh={lastRefresh} refreshState={refreshState} query={query} onQuery={setQuery} />
+      <TopBar onRefresh={handleRefresh} loading={loading} lastRefresh={lastRefresh} refreshState={refreshState} />
+      <SearchRow query={query} onQuery={setQuery} />
       <main className="main">
         <div className="main__inner">
           <PageHeader total={items.length} fresh={items.filter(i => i.timeAgoMins < 60).length} />
@@ -172,7 +173,26 @@ function App() {
   );
 }
 
-function TopBar({ onRefresh, loading, lastRefresh, refreshState, query, onQuery }) {
+function SearchRow({ query, onQuery }) {
+  return (
+    <div className="searchrow">
+      <div className="searchrow__inner">
+        <div className="topbar__search">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input
+            type="search"
+            placeholder="Search titles, summaries, tags…"
+            value={query}
+            onChange={e => onQuery(e.target.value)}
+            aria-label="Search"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TopBar({ onRefresh, loading, lastRefresh, refreshState }) {
   const [tick, setTick] = React.useState(0);
   React.useEffect(() => {
     const id = setInterval(() => setTick(t => t + 1), 30000);
@@ -198,16 +218,11 @@ function TopBar({ onRefresh, loading, lastRefresh, refreshState, query, onQuery 
             <span className="topbar__page">daily</span>
           </div>
         </div>
-        <div className="topbar__search">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-          <input
-            type="search"
-            placeholder="Search titles, summaries, tags…"
-            value={query}
-            onChange={e => onQuery(e.target.value)}
-            aria-label="Search"
-          />
-        </div>
+        <nav className="topbar__nav">
+          <a className="topbar__nav-item topbar__nav-item--active" href="#">Feed</a>
+          <a className="topbar__nav-item topbar__nav-item--disabled" href="#" title="Coming soon" aria-disabled="true" onClick={e => e.preventDefault()}>Saved</a>
+          <a className="topbar__nav-item topbar__nav-item--disabled" href="#" title="Coming soon" aria-disabled="true" onClick={e => e.preventDefault()}>Digest</a>
+        </nav>
         <div className="topbar__actions">
           <span className="topbar__refresh-time">{refreshLabel}</span>
           <button className={"btn btn--primary" + (loading ? " btn--loading" : "")} onClick={onRefresh} disabled={loading}>

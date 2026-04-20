@@ -576,14 +576,21 @@ button { font-family: inherit; }
 
 /* ---------- ainews additions: search input + region/tier badges ---------- */
 
+.searchrow {
+  border-bottom: 1px solid var(--color-border, var(--color-surface-muted));
+  background: var(--color-surface-page);
+}
+.searchrow__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 24px;
+}
 .topbar__search {
-  flex: 1 1 auto;
-  max-width: 480px;
-  margin: 0 16px;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 12px;
+  padding: 8px 12px;
   background: var(--color-surface-muted);
   border: 1px solid transparent;
   border-radius: var(--radius-md);
@@ -604,6 +611,11 @@ button { font-family: inherit; }
   color: var(--color-text-primary);
 }
 .topbar__search input::placeholder { color: var(--color-text-muted); }
+.topbar__nav-item--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: auto;
+}
 
 .region-badge,
 .tier-badge {
@@ -628,6 +640,7 @@ button { font-family: inherit; }
 .tier-badge[data-tier="3"] { background: var(--stone-100, var(--color-surface-muted)); color: var(--color-text-muted); }
 
 @media (max-width: 720px) {
-  .topbar__search { display: none; }
+  .topbar__nav { display: none; }
+  .searchrow__inner { padding: 8px 16px; }
 }
 
