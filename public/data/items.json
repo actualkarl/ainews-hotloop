@@ -1,8 +1,214 @@
 {
-  "generated_at": "2026-04-21T06:22:26.022873Z",
+  "generated_at": "2026-04-21T11:06:57.669467Z",
   "next_refresh_at": "2026-04-21T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "items": [
+    {
+      "id": "a0f97af1ab63b85b",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
+      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
+      "title_translated": null,
+      "source": "nvidia-genai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "NVIDIA optimises Google Gemma 4 for RTX and DGX Spark hardware, enabling local on-device agentic AI workflows. Extends capable open model inference to workstation and consumer hardware without cloud dependency.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "6a79992e5d99dc4c",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
+      "title": "New NVIDIA Nemotron 3 Super Delivers 5x Higher Throughput for Agentic AI",
+      "title_translated": null,
+      "source": "nvidia-genai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Nemotron 3 Super achieves 5x inference throughput versus prior Nemotron models, optimised for multi-step agentic workloads. Targets production agent deployments where latency and cost are constraints.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ea34d2b67722ab5f",
+      "url": "https://x.ai/news/grok-4-1-fast",
+      "title": "Grok 4.1 Fast and Agent Tools API",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "xAI releases Grok 4.1 Fast, a speed-optimised model variant, alongside a new Agent Tools API for agentic integrations. Closes the Grok developer tooling gap compared with OpenAI and Anthropic agent SDKs.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ff9a42787c4e98e8",
+      "url": "https://x.ai/news/grok-stt-and-tts-apis",
+      "title": "Grok Speech-to-Text and Text-to-Speech APIs",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "xAI launches STT and TTS APIs via Grok, opening voice-interface capability to developers. Expands xAI beyond text-only LLM into the multimodal audio stack.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "16be76934336ff4d",
+      "url": "https://x.ai/news/el-salvador-partnership",
+      "title": "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "xAI partners with El Salvador to deploy a national AI education curriculum built on Grok. First country-scale deployment of a frontier AI model as an educational platform; governance and geopolitical precedent.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "1ab5b5461c7c1c91",
+      "url": "https://x.ai/news/us-gov-dept-of-war",
+      "title": "xAI Supports the US Department of War with AI",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "xAI announces a partnership with the US Department of War (formerly Defense) to deploy Grok for military mission support. Marks the frontier lab's entry into defence-sector AI alongside Palantir and Microsoft.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a8336fe361e14b12",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Meta introduces Muse Spark, a creative AI system framed as a step towards personal superintelligence, focused on scaling generative and reasoning capabilities for individual users.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4f7644b6b48ca01b",
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "title": "SAM 3.1: Real-Time Video Detection and Tracking with Multiplexing",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": null,
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Meta releases SAM 3.1 with multiplexed real-time video segmentation and global reasoning, significantly faster than SAM 2. Key primitive for video-based agentic perception and content workflows.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "aef8afa7768165e1",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "title": "QIMMA: A Quality-First Arabic LLM Leaderboard",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-21T10:09:58Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Hugging Face and TII launch QIMMA, a quality-first leaderboard for Arabic LLMs covering dialect, culture, and reasoning benchmarks. Fills a critical gap in non-English model evaluation, relevant for any multilingual or regional AI deployment work.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "cded0d0ae6dfe183",
+      "url": "https://x.com/i/status/2046494659644399749",
+      "title": "OpenAI Images v2 rolling out to all ChatGPT accounts",
+      "title_translated": null,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-21T09:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 0.4605,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "56ebdace8acca49f",
+      "url": "https://x.com/i/status/2046464332444160074",
+      "title": "Anthropic launches Claude Design, hiring senior designers at $400K+",
+      "title_translated": null,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-21T08:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.4237,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "dac127f4fb18d708",
       "url": "https://x.com/i/status/2046393908629004443",
@@ -35,7 +241,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.7344,
       "mention_count": 1,
       "related_ids": []
     },
@@ -54,7 +260,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.7093,
       "mention_count": 1,
       "related_ids": []
     },
@@ -91,7 +297,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.9955,
+      "trending_score": 0.6705,
       "mention_count": 1,
       "related_ids": []
     },
@@ -127,7 +333,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.9689,
+      "trending_score": 0.6526,
       "mention_count": 1,
       "related_ids": []
     },
@@ -145,7 +351,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.9689,
+      "trending_score": 0.6526,
       "mention_count": 1,
       "related_ids": []
     },
@@ -163,7 +369,7 @@
       "tags": [
         "Automation"
       ],
-      "trending_score": 0.9689,
+      "trending_score": 0.6526,
       "mention_count": 1,
       "related_ids": []
     },
@@ -181,7 +387,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.9689,
+      "trending_score": 0.6526,
       "mention_count": 1,
       "related_ids": []
     },
@@ -200,7 +406,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.9039,
+      "trending_score": 0.6088,
       "mention_count": 1,
       "related_ids": []
     },
@@ -243,6 +449,25 @@
       "related_ids": []
     },
     {
+      "id": "e59c7e5acd302ce3",
+      "url": "https://x.com/i/status/2046017433199374610",
+      "title": "Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points",
+      "title_translated": null,
+      "source": "karpathy",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-20T22:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "trending_score": 0.1841,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "081667069d228400",
       "url": "https://www.rnz.co.nz/news/business/592911/ai-tells-tenant-she-should-ask-for-40-000-tribunal-hands-her-80",
       "title": "AI told NZ tenant to claim $40,000; Tenancy Tribunal awarded $80",
@@ -256,7 +481,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.8201,
+      "trending_score": 0.5524,
       "mention_count": 1,
       "related_ids": []
     },
@@ -275,7 +500,7 @@
         "Governance",
         "Content"
       ],
-      "trending_score": 0.9801,
+      "trending_score": 0.6602,
       "mention_count": 2,
       "related_ids": []
     },
@@ -294,7 +519,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.9766,
+      "trending_score": 0.6594,
       "mention_count": 2,
       "related_ids": []
     },
@@ -312,7 +537,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.734,
+      "trending_score": 0.4944,
       "mention_count": 1,
       "related_ids": []
     },
@@ -331,7 +556,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.7239,
+      "trending_score": 0.4876,
       "mention_count": 1,
       "related_ids": []
     },
@@ -349,7 +574,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.713,
+      "trending_score": 0.4802,
       "mention_count": 1,
       "related_ids": []
     },
@@ -368,7 +593,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.7089,
+      "trending_score": 0.4775,
       "mention_count": 1,
       "related_ids": []
     },
@@ -387,8 +612,26 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.7678,
+      "trending_score": 0.5171,
       "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "f0b73109d4237fd8",
+      "url": "https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/",
+      "title": "Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T17:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "NVIDIA details how AGENTS.md files can be weaponised for indirect prompt injection in multi-agent pipelines, and provides practical mitigations. Essential reading for anyone building or auditing production agentic systems.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 0.7283,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -405,7 +648,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.5095,
+      "trending_score": 0.3432,
       "mention_count": 1,
       "related_ids": []
     },
@@ -424,7 +667,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.6114,
+      "trending_score": 0.4118,
       "mention_count": 2,
       "related_ids": []
     },
@@ -442,7 +685,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.1404,
+      "trending_score": 0.0945,
       "mention_count": 1,
       "related_ids": []
     },
@@ -461,7 +704,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.9788,
+      "trending_score": 0.6593,
       "mention_count": 2,
       "related_ids": []
     },
@@ -480,7 +723,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.4691,
+      "trending_score": 0.316,
       "mention_count": 2,
       "related_ids": []
     },
@@ -499,7 +742,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.4648,
+      "trending_score": 0.3131,
       "mention_count": 2,
       "related_ids": []
     },
@@ -517,7 +760,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.1269,
+      "trending_score": 0.0855,
       "mention_count": 2,
       "related_ids": []
     },
@@ -536,7 +779,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.6728,
+      "trending_score": 0.4532,
       "mention_count": 2,
       "related_ids": []
     },
@@ -555,7 +798,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.1407,
+      "trending_score": 0.0948,
       "mention_count": 1,
       "related_ids": []
     },
@@ -574,7 +817,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.2622,
+      "trending_score": 0.1766,
       "mention_count": 1,
       "related_ids": []
     },
@@ -593,7 +836,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.1089,
+      "trending_score": 0.0734,
       "mention_count": 1,
       "related_ids": []
     },
@@ -612,7 +855,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0177,
+      "trending_score": 0.0119,
       "mention_count": 1,
       "related_ids": []
     },
@@ -631,7 +874,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0068,
+      "trending_score": 0.0046,
       "mention_count": 1,
       "related_ids": []
     },
@@ -650,7 +893,7 @@
         "Agents",
         "Skills"
       ],
-      "trending_score": 0.0042,
+      "trending_score": 0.0029,
       "mention_count": 1,
       "related_ids": []
     },
@@ -668,7 +911,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0004,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": []
     },

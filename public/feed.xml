@@ -6,7 +6,95 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 21 Apr 2026 06:22:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 11:06:57 +0000</lastBuildDate>
+    <item>
+      <title>From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI</title>
+      <link>https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</link>
+      <description>NVIDIA optimises Google Gemma 4 for RTX and DGX Spark hardware, enabling local on-device agentic AI workflows. Extends capable open model inference to workstation and consumer hardware without cloud dependency.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>New NVIDIA Nemotron 3 Super Delivers 5x Higher Throughput for Agentic AI</title>
+      <link>https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/</link>
+      <description>Nemotron 3 Super achieves 5x inference throughput versus prior Nemotron models, optimised for multi-step agentic workloads. Targets production agent deployments where latency and cost are constraints.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>Grok 4.1 Fast and Agent Tools API</title>
+      <link>https://x.ai/news/grok-4-1-fast</link>
+      <description>xAI releases Grok 4.1 Fast, a speed-optimised model variant, alongside a new Agent Tools API for agentic integrations. Closes the Grok developer tooling gap compared with OpenAI and Anthropic agent SDKs.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>Grok Speech-to-Text and Text-to-Speech APIs</title>
+      <link>https://x.ai/news/grok-stt-and-tts-apis</link>
+      <description>xAI launches STT and TTS APIs via Grok, opening voice-interface capability to developers. Expands xAI beyond text-only LLM into the multimodal audio stack.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/grok-stt-and-tts-apis</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>xAI and El Salvador Pioneer the World's First Nationwide AI Education Program</title>
+      <link>https://x.ai/news/el-salvador-partnership</link>
+      <description>xAI partners with El Salvador to deploy a national AI education curriculum built on Grok. First country-scale deployment of a frontier AI model as an educational platform; governance and geopolitical precedent.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/el-salvador-partnership</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>xAI Supports the US Department of War with AI</title>
+      <link>https://x.ai/news/us-gov-dept-of-war</link>
+      <description>xAI announces a partnership with the US Department of War (formerly Defense) to deploy Grok for military mission support. Marks the frontier lab's entry into defence-sector AI alongside Palantir and Microsoft.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/us-gov-dept-of-war</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <description>Meta introduces Muse Spark, a creative AI system framed as a step towards personal superintelligence, focused on scaling generative and reasoning capabilities for individual users.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>SAM 3.1: Real-Time Video Detection and Tracking with Multiplexing</title>
+      <link>https://ai.meta.com/blog/segment-anything-model-3/</link>
+      <description>Meta releases SAM 3.1 with multiplexed real-time video segmentation and global reasoning, significantly faster than SAM 2. Key primitive for video-based agentic perception and content workflows.</description>
+      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
+      <guid isPermaLink="true">https://ai.meta.com/blog/segment-anything-model-3/</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>QIMMA: A Quality-First Arabic LLM Leaderboard</title>
+      <link>https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard</link>
+      <description>Hugging Face and TII launch QIMMA, a quality-first leaderboard for Arabic LLMs covering dialect, culture, and reasoning benchmarks. Fills a critical gap in non-English model evaluation, relevant for any multilingual or regional AI deployment work.</description>
+      <pubDate>Tue, 21 Apr 2026 10:09:58 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>OpenAI Images v2 rolling out to all ChatGPT accounts</title>
+      <link>https://x.com/i/status/2046494659644399749</link>
+      <description>OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.</description>
+      <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2046494659644399749</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>Anthropic launches Claude Design, hiring senior designers at $400K+</title>
+      <link>https://x.com/i/status/2046464332444160074</link>
+      <description>Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.</description>
+      <pubDate>Tue, 21 Apr 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2046464332444160074</guid>
+      <category>Models</category>
+    </item>
     <item>
       <title>Google: Gemini expands in Chrome to more Asia-Pacific countries with summarization and image editing</title>
       <link>https://x.com/i/status/2046393908629004443</link>
@@ -112,6 +200,14 @@
       <category>Models, Coding</category>
     </item>
     <item>
+      <title>Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points</title>
+      <link>https://x.com/i/status/2046017433199374610</link>
+      <description>Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.</description>
+      <pubDate>Mon, 20 Apr 2026 22:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2046017433199374610</guid>
+      <category>Agents, Models</category>
+    </item>
+    <item>
       <title>AI told NZ tenant to claim $40,000; Tenancy Tribunal awarded $80</title>
       <link>https://www.rnz.co.nz/news/business/592911/ai-tells-tenant-she-should-ask-for-40-000-tribunal-hands-her-80</link>
       <description>A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.</description>
@@ -149,102 +245,6 @@
       <description>Microsoft paused new signups for GitHub Copilot Pro, Pro+, and Student tiers while tightening usage limits. Opus models removed from Pro and Opus 4.7 restricted to Pro+ tier only.</description>
       <pubDate>Mon, 20 Apr 2026 20:30:12 +0000</pubDate>
       <guid isPermaLink="true">https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</guid>
-      <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>AI Resistance is growing: anti-AI pushback worth tracking</title>
-      <link>https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</link>
-      <description>Roundup of organized resistance to AI deployments across creative industries, academic institutions, and labor movements, with 150+ HN points. Covers key campaigns, boycotts, and legislation attempts targeting AI systems.</description>
-      <pubDate>Mon, 20 Apr 2026 20:19:13 +0000</pubDate>
-      <guid isPermaLink="true">https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Microsoft plans token-based billing for GitHub Copilot</title>
-      <link>https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</link>
-      <description>Internal documents reveal Microsoft intends to shift GitHub Copilot from request-based to token-based billing. The week-over-week cost to run it has nearly doubled since January.</description>
-      <pubDate>Mon, 20 Apr 2026 20:15:07 +0000</pubDate>
-      <guid isPermaLink="true">https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</guid>
-      <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>Reading today's open-closed performance gap</title>
-      <link>https://www.interconnects.ai/p/reading-todays-open-closed-performance</link>
-      <description>Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.</description>
-      <pubDate>Mon, 20 Apr 2026 18:25:02 +0000</pubDate>
-      <guid isPermaLink="true">https://www.interconnects.ai/p/reading-todays-open-closed-performance</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>Training Transformers to solve 95% failure rate of Cancer Trials — Noetik</title>
-      <link>https://www.latent.space/p/noetik</link>
-      <description>Noetik uses transformers trained on spatial transcriptomics to predict patient responses to cancer treatments. Their TARIO-2 model addresses a core bottleneck where 95% of cancer drugs fail clinical trials despite being effective for specific patient populations.</description>
-      <pubDate>Mon, 20 Apr 2026 16:17:17 +0000</pubDate>
-      <guid isPermaLink="true">https://www.latent.space/p/noetik</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Deezer says 44% of songs uploaded to its platform daily are AI-generated</title>
-      <link>https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/</link>
-      <description>The music streaming service reports that nearly half of daily song uploads are machine-generated, reflecting widespread adoption in music production.</description>
-      <pubDate>Mon, 20 Apr 2026 15:41:02 +0000</pubDate>
-      <guid isPermaLink="true">https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/</guid>
-      <category>Content, Governance</category>
-    </item>
-    <item>
-      <title>Chollet: AI tools shift jobs toward higher complexity rather than eliminating them</title>
-      <link>https://x.com/i/status/2046213029835239889</link>
-      <description>François Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics — echoing Aaron Levie's view that AI raises the floor for what developers tackle.</description>
-      <pubDate>Mon, 20 Apr 2026 14:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2046213029835239889</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP</title>
-      <link>https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/</link>
-      <description>NVIDIA, Adobe, and WPP collaborate on agentic AI for enterprise marketing. Adobe's creative platforms + WPP's expertise + NVIDIA's Nemotron models and OpenShell runtime enable intelligent systems that plan, create, produce and activate content continuously while maintaining brand safety.</description>
-      <pubDate>Mon, 20 Apr 2026 13:00:50 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/</guid>
-      <category>Agents, Automation</category>
-    </item>
-    <item>
-      <title>Import AI 454: Automating alignment research; Huawei HiFloat4; Kimi K2.5 safety study</title>
-      <link>https://importai.substack.com/p/import-ai-454-automating-alignment</link>
-      <description>Anthropic demonstrates autonomous AI agents conducting alignment research that outperform human researchers (97% recovery vs 23%). Also covers Huawei's HiFloat4 training format outperforming Western MXFP4, and safety evaluation of Chinese model Kimi K2.5 showing fewer CBRN refusals than Western counterparts.</description>
-      <pubDate>Mon, 20 Apr 2026 12:30:19 +0000</pubDate>
-      <guid isPermaLink="true">https://importai.substack.com/p/import-ai-454-automating-alignment</guid>
-      <category>Governance, Models</category>
-    </item>
-    <item>
-      <title>Atlassian enables default data collection to train AI</title>
-      <link>https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8</link>
-      <description>Atlassian activates automatic data gathering from users to support artificial intelligence model development.</description>
-      <pubDate>Mon, 20 Apr 2026 12:23:39 +0000</pubDate>
-      <guid isPermaLink="true">https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8</guid>
-      <category>Governance, Automation</category>
-    </item>
-    <item>
-      <title>LeCun: consult economists not AI CEOs on job displacement; AI adds ~0.6% GDP annually</title>
-      <link>https://x.com/i/status/2046201823652909528</link>
-      <description>Yann LeCun pushes back on Hinton's AI job displacement warnings, arguing labour economists like Daron Acemoglu are better authorities on workforce impact than AI scientists or CEOs. LeCun estimates AI may add approximately 0.6% annual GDP growth rather than causing mass unemployment.</description>
-      <pubDate>Mon, 20 Apr 2026 10:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2046201823652909528</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe</title>
-      <link>https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/</link>
-      <description>NVIDIA demonstrates AI-powered manufacturing innovations including factory digital twins, vision AI agents, and humanoid robots. Partners show how accelerated computing, AI physics, agents and robotics are powering industrial innovation.</description>
-      <pubDate>Mon, 20 Apr 2026 08:30:55 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/</guid>
-      <category>Automation, Agents</category>
-    </item>
-    <item>
-      <title>Claude Token Counter, now with model comparisons</title>
-      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/</link>
-      <description>Tool upgraded to compare token counts across Claude models. Opus 4.7 uses roughly 1.46x the number of tokens as Opus 4.6 on system prompts.</description>
-      <pubDate>Mon, 20 Apr 2026 00:50:45 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/20/claude-token-counts/</guid>
       <category>Coding, Models</category>
     </item>
   </channel>
