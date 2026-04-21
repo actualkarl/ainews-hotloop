@@ -617,6 +617,47 @@ button { font-family: inherit; }
   pointer-events: auto;
 }
 
+.refresh-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+  font-variant-numeric: tabular-nums;
+}
+.refresh-status__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--success-500, #2b8a3e);
+  box-shadow: 0 0 0 3px rgba(43, 138, 62, 0.15);
+}
+.refresh-status__dot[data-state="loading"] {
+  background: var(--warning-500, #e08e00);
+  box-shadow: 0 0 0 3px rgba(224, 142, 0, 0.18);
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+.refresh-status__lines {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.refresh-status__last {
+  font-size: var(--text-xs);
+  color: var(--color-text-primary);
+  font-weight: var(--weight-medium);
+}
+.refresh-status__next {
+  font-size: 10px;
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
+
 .region-badge,
 .tier-badge {
   display: inline-flex;

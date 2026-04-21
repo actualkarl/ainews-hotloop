@@ -20,8 +20,8 @@ function App() {
   const [windowId, setWindowId] = React.useState('24h');
   const [query, setQuery] = React.useState('');
   const [loading, setLoading] = React.useState(false);
-  const [refreshState, setRefreshState] = React.useState(null); // null | 'sent' | 'error'
-  const [lastRefresh, setLastRefresh] = React.useState(new Date());
+  const [generatedAt, setGeneratedAt] = React.useState(null);
+  const [nextRefreshAt, setNextRefreshAt] = React.useState(null);
   const [showBreaking, setShowBreaking] = React.useState(true);
   const [tweaks, setTweaks] = React.useState(() => window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true });
   const [tweaksOpen, setTweaksOpen] = React.useState(false);
@@ -53,7 +53,10 @@ function App() {
       const raw = await res.json();
       const arr = Array.isArray(raw) ? raw : (raw.items || []);
       setItems(arr.map(window.normalizeItem));
-      setLastRefresh(new Date());
+      if (!Array.isArray(raw)) {
+        setGeneratedAt(raw.generated_at ? new Date(raw.generated_at) : null);
+        setNextRefreshAt(raw.next_refresh_at ? new Date(raw.next_refresh_at) : null);
+      }
     } catch (err) {
       console.error('Failed to load items.json', err);
       setItems([]);
@@ -104,20 +107,6 @@ function App() {
   const breakingIds = new Set(breaking.map(b => b.id));
   const feedItems = showBreaking ? filtered.filter(i => !breakingIds.has(i.id)) : filtered;
 
-  const handleRefresh = async () => {
-    setRefreshState(null);
-    setLoading(true);
-    try {
-      const res = await fetch('/api/refresh', { method: 'POST' });
-      setRefreshState(res.ok ? 'sent' : 'error');
-    } catch (err) {
-      console.error('Refresh ping failed', err);
-      setRefreshState('error');
-    } finally {
-      await loadItems();
-    }
-  };
-
   const toggleSet = (set, value) => {
     const next = new Set(set);
     next.has(value) ? next.delete(value) : next.add(value);
@@ -126,7 +115,7 @@ function App() {
 
   return (
     <div className="app" data-density={tweaks.density} data-layout={tweaks.layout}>
-      <TopBar onRefresh={handleRefresh} loading={loading} lastRefresh={lastRefresh} refreshState={refreshState} />
+      <TopBar generatedAt={generatedAt} nextRefreshAt={nextRefreshAt} loading={loading} />
       <SearchRow query={query} onQuery={setQuery} />
       <main className="main">
         <div className="main__inner">
@@ -192,18 +181,28 @@ function SearchRow({ query, onQuery }) {
   );
 }
 
-function TopBar({ onRefresh, loading, lastRefresh, refreshState }) {
-  const [tick, setTick] = React.useState(0);
+function formatRelative(ms) {
+  const abs = Math.abs(ms);
+  const future = ms > 0;
+  const mins = Math.round(abs / 60000);
+  if (mins < 1) return future ? 'in moments' : 'just now';
+  if (mins < 60) return future ? `in ${mins}m` : `${mins}m ago`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return future ? `in ${hours}h` : `${hours}h ago`;
+  const days = Math.round(hours / 24);
+  return future ? `in ${days}d` : `${days}d ago`;
+}
+
+function TopBar({ generatedAt, nextRefreshAt, loading }) {
+  const [, setTick] = React.useState(0);
   React.useEffect(() => {
     const id = setInterval(() => setTick(t => t + 1), 30000);
     return () => clearInterval(id);
   }, []);
-  const ago = Math.max(0, Math.floor((Date.now() - lastRefresh.getTime()) / 60000));
-  const refreshLabel =
-    refreshState === 'sent' ? 'Pinged your phone' :
-    refreshState === 'error' ? 'Refresh failed' :
-    loading ? 'Refreshing…' :
-    (ago === 0 ? 'Just refreshed' : `Refreshed ${ago}m ago`);
+  const lastLabel = loading ? 'Loading…' :
+    generatedAt ? `Last refresh ${formatRelative(generatedAt.getTime() - Date.now())}` :
+    'No refresh yet';
+  const nextLabel = nextRefreshAt ? `Next ${formatRelative(nextRefreshAt.getTime() - Date.now())}` : null;
   return (
     <header className="topbar">
       <div className="topbar__inner">
@@ -224,15 +223,13 @@ function TopBar({ onRefresh, loading, lastRefresh, refreshState }) {
           <a className="topbar__nav-item topbar__nav-item--disabled" href="#" title="Coming soon" aria-disabled="true" onClick={e => e.preventDefault()}>Digest</a>
         </nav>
         <div className="topbar__actions">
-          <span className="topbar__refresh-time">{refreshLabel}</span>
-          <button className={"btn btn--primary" + (loading ? " btn--loading" : "")} onClick={onRefresh} disabled={loading}>
-            {loading ? (
-              <svg className="spin" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 1 1-6.22-8.56"/></svg>
-            ) : (
-              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a9 9 0 1 1-6.22-8.56"/><path d="M21 3v6h-6"/></svg>
-            )}
-            Refresh
-          </button>
+          <div className="refresh-status" title={generatedAt ? `Generated ${generatedAt.toLocaleString('en-NZ')}` : ''}>
+            <span className="refresh-status__dot" data-state={loading ? 'loading' : 'ok'} />
+            <div className="refresh-status__lines">
+              <span className="refresh-status__last">{lastLabel}</span>
+              {nextLabel && <span className="refresh-status__next">{nextLabel}</span>}
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -334,7 +331,7 @@ function EmptyState({ onReset, hasItems }) {
         <circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>
       </svg>
       <h3>{hasItems ? "No stories match these filters." : "No items yet — first run hasn't completed."}</h3>
-      <p>{hasItems ? "Try a different tag, region, or widen the time window." : "The 6am NZT routine will populate this. Or trigger a refresh to ping yourself."}</p>
+      <p>{hasItems ? "Try a different tag, region, or widen the time window." : "The 6am NZT routine populates this once a day. Sit tight."}</p>
       {hasItems && <button className="btn btn--secondary" onClick={onReset}>Reset filters</button>}
     </div>
   );
