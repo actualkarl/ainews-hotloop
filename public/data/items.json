@@ -294,8 +294,8 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.7758,
-      "mention_count": 1,
+      "trending_score": 0.9766,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -501,25 +501,6 @@
       ],
       "trending_score": 0.4648,
       "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "68915a4ce668af3d",
-      "url": "https://x.com/i/status/2046330082726384051",
-      "title": "OpenAI Chronicle in Codex: memory-building for coding agents",
-      "title_translated": null,
-      "source": "sama",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-20T12:00:00Z",
-      "first_seen_at": "2026-04-21T06:22:26.022873Z",
-      "summary": "Sam Altman previews OpenAI's Chronicle feature in Codex, which builds persistent memory for coding agents across sessions. Available for Mac Pro users; Altman describes the result as feeling like 'telepathy' between developer intent and agent execution.",
-      "tags": [
-        "Coding",
-        "Agents"
-      ],
-      "trending_score": 0.1188,
-      "mention_count": 1,
       "related_ids": []
     },
     {

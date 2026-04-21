@@ -224,14 +224,6 @@
       <category>Governance, Automation</category>
     </item>
     <item>
-      <title>OpenAI Chronicle in Codex: memory-building for coding agents</title>
-      <link>https://x.com/i/status/2046330082726384051</link>
-      <description>Sam Altman previews OpenAI's Chronicle feature in Codex, which builds persistent memory for coding agents across sessions. Available for Mac Pro users; Altman describes the result as feeling like 'telepathy' between developer intent and agent execution.</description>
-      <pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2046330082726384051</guid>
-      <category>Coding, Agents</category>
-    </item>
-    <item>
       <title>LeCun: consult economists not AI CEOs on job displacement; AI adds ~0.6% GDP annually</title>
       <link>https://x.com/i/status/2046201823652909528</link>
       <description>Yann LeCun pushes back on Hinton's AI job displacement warnings, arguing labour economists like Daron Acemoglu are better authorities on workforce impact than AI scientists or CEOs. LeCun estimates AI may add approximately 0.6% annual GDP growth rather than causing mass unemployment.</description>
@@ -246,6 +238,14 @@
       <pubDate>Mon, 20 Apr 2026 08:30:55 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/</guid>
       <category>Automation, Agents</category>
+    </item>
+    <item>
+      <title>Claude Token Counter, now with model comparisons</title>
+      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/</link>
+      <description>Tool upgraded to compare token counts across Claude models. Opus 4.7 uses roughly 1.46x the number of tokens as Opus 4.6 on system prompts.</description>
+      <pubDate>Mon, 20 Apr 2026 00:50:45 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/20/claude-token-counts/</guid>
+      <category>Coding, Models</category>
     </item>
   </channel>
 </rss>
