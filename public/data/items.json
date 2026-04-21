@@ -1,6 +1,530 @@
 {
-  "generated_at": "2026-04-21T00:34:09.101634Z",
+  "generated_at": "2026-04-21T01:03:55.742300Z",
   "next_refresh_at": "2026-04-21T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "items": []
+  "items": [
+    {
+      "id": "767083dc76ef5a32",
+      "url": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
+      "title": "How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-21T00:40:10Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Guide on building Korean AI agents using NVIDIA Nemotron with synthetic personas to ensure demographic accuracy and cultural relevance in AI systems.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "95a943a002619f61",
+      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
+      "title": "Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "cn",
+      "published_at": "2026-04-21T00:19:33Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4c9be652c5fb7d9d",
+      "url": "https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/",
+      "title": "OpenAI rolls out Chronicle for Codex on macOS",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T21:20:02Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "OpenAI introduced Chronicle, a feature that builds memories from screen captures to enhance Codex's contextual awareness. Currently a research preview for Pro subscribers on macOS.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "db67618a1fb2f432",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "title": "Amazon invests $25B more in Anthropic, total now $33B",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:40:07Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Amazon committed an additional $25 billion investment in Anthropic, bringing total investment to $33 billion. Anthropic pledged to spend over $100 billion on AWS infrastructure over the next decade.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "e59e6f351c8b5541",
+      "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:30:12Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Microsoft paused new signups for GitHub Copilot Pro, Pro+, and Student tiers while tightening usage limits. Opus models removed from Pro and Opus 4.7 restricted to Pro+ tier only.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "65c9467b7424d749",
+      "url": "https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/",
+      "title": "Microsoft plans token-based billing for GitHub Copilot",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:15:07Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Internal documents reveal Microsoft intends to shift GitHub Copilot from request-based to token-based billing. The week-over-week cost to run it has nearly doubled since January.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "424cf6cb40fc0b36",
+      "url": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
+      "title": "Reading today's open-closed performance gap",
+      "title_translated": null,
+      "source": "interconnects",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T18:25:02Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.947,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "f8363d42b74365e2",
+      "url": "https://www.latent.space/p/noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T16:17:17Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Noetik uses transformers trained on spatial transcriptomics to predict patient responses to cancer treatments. Their TARIO-2 model addresses a core bottleneck where 95% of cancer drugs fail clinical trials despite being effective for specific patient populations.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.793,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "e630391cbbae25ff",
+      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T15:41:02Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "The music streaming service reports that nearly half of daily song uploads are machine-generated, reflecting widespread adoption in music production.",
+      "tags": [
+        "Content",
+        "Governance"
+      ],
+      "trending_score": 0.7541,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "11b16a8eda3d2846",
+      "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+      "title": "Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
+      "title_translated": null,
+      "source": "nvidia-blog",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T13:00:50Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA, Adobe, and WPP collaborate on agentic AI for enterprise marketing. Adobe's creative platforms + WPP's expertise + NVIDIA's Nemotron models and OpenShell runtime enable intelligent systems that plan, create, produce and activate content continuously while maintaining brand safety.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d2f757ea8858e0cd",
+      "url": "https://importai.substack.com/p/import-ai-454-automating-alignment",
+      "title": "Import AI 454: Automating alignment research; Huawei HiFloat4; Kimi K2.5 safety study",
+      "title_translated": null,
+      "source": "import-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T12:30:19Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Anthropic demonstrates autonomous AI agents conducting alignment research that outperform human researchers (97% recovery vs 23%). Also covers Huawei's HiFloat4 training format outperforming Western MXFP4, and safety evaluation of Chinese model Kimi K2.5 showing fewer CBRN refusals than Western counterparts.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.5786,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "f72fedfae9b1a1b1",
+      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
+      "title": "Atlassian enables default data collection to train AI",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T12:23:39Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Atlassian activates automatic data gathering from users to support artificial intelligence model development.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "trending_score": 0.5733,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "717a1241cb1bf6e7",
+      "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+      "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe",
+      "title_translated": null,
+      "source": "nvidia-blog",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T08:30:55Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA demonstrates AI-powered manufacturing innovations including factory digital twins, vision AI agents, and humanoid robots. Partners show how accelerated computing, AI physics, agents and robotics are powering industrial innovation.",
+      "tags": [
+        "Automation",
+        "Agents"
+      ],
+      "trending_score": 0.8298,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a2c45ad9360a2536",
+      "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+      "title": "Claude Token Counter, now with model comparisons",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T00:50:45Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Tool upgraded to compare token counts across Claude models. Opus 4.7 uses roughly 1.46x the number of tokens as Opus 4.6 on system prompts.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 0.219,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "24cb1873b9d2d37a",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T00:00:00Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, utilizing GPT-5.4 and Codex to enhance productivity, operations, and guest experiences.",
+      "tags": [
+        "Content",
+        "Automation"
+      ],
+      "trending_score": 0.4081,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "2597cb1c45deb23c",
+      "url": "https://simonwillison.net/2026/Apr/19/headless-everything/",
+      "title": "Headless everything for personal AI",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-19T21:46:38Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Analysis of emerging trend toward API-first services designed for AI agents rather than GUI-based user interfaces, reshaping SaaS pricing models.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "trending_score": 0.1696,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "af313d625d47cf19",
+      "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-18T23:59:40Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Detailed analysis of system prompt modifications including expanded child safety instructions, improved tool search capabilities, and reduced verbosity guidance.",
+      "tags": [
+        "Models",
+        "Skills"
+      ],
+      "trending_score": 0.0276,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "e84ea474e8637899",
+      "url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/",
+      "title": "Claude system prompts as a git timeline",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-18T12:25:00Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Research project converting Anthropic's published system prompts into a git repository with fake commit dates to track changes across Claude model versions.",
+      "tags": [
+        "Models",
+        "Skills"
+      ],
+      "trending_score": 0.0105,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "58f994275c6ac200",
+      "url": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
+      "title": "The Two Sides of OpenClaw",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-18T06:50:57Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Analysis contrasting OpenClaw's public narrative of breakthrough AI agents with engineering realities of unprecedented security incidents and scaling challenges as the fastest-growing open source project in history.",
+      "tags": [
+        "Agents",
+        "Skills"
+      ],
+      "trending_score": 0.0066,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b2505b70da0900a6",
+      "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
+      "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-17T01:36:17Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Claude Opus 4.7 launched with improvements across coding, vision, and reasoning tasks. Supports images up to 3.75 megapixels (3x larger than prior versions), introduces a new xhigh reasoning effort level, and demonstrates approximately 11-point gains on SWE-Bench Pro.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0006,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "f5afeabfec92889e",
+      "url": "https://huggingface.co/blog/ecom-rlve",
+      "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-16T00:00:00Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Introduces Ecom-RLVE, an adaptive verifiable environment framework designed for training and evaluating e-commerce conversational agents with real-world scenarios.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d730085c407f5394",
+      "url": "https://huggingface.co/blog/transformers-to-mlx",
+      "title": "Transformers to MLX: efficient inference on Apple Silicon",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-16T00:00:00Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Discusses converting Transformers models to MLX format, enabling efficient inference on Apple Silicon devices.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "fc2ae7c68319ae88",
+      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-16T00:00:00Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Comprehensive guide on training multimodal embedding and reranker models using Sentence Transformers library for improved semantic search and ranking tasks.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "0911a48b408e9182",
+      "url": "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026",
+      "title": "My bets on open models, mid-2026",
+      "title_translated": null,
+      "source": "interconnects",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-15T18:20:00Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Details key beliefs about open model development including technical strength of open labs, focus on benchmark scores versus robustness, dominance in repetitive automation tasks, and funding challenges for Chinese open-weight companies.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "099f9582ba24fbd2",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "title_translated": null,
+      "source": "google-deepmind",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-15T16:03:19Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Google DeepMind introduced a new audio model with granular audio tags that give precise control for directing AI-generated speech with enhanced expressiveness.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "0745c31938f2edf5",
+      "url": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
+      "title": "Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters",
+      "title_translated": null,
+      "source": "nvidia-blog",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-15T15:00:26Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA argues enterprises should evaluate AI infrastructure on cost per token rather than compute cost or FLOPS per dollar. Blackwell delivers 35x lower cost per million tokens compared to Hopper.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4b7acb24964fa61f",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-15T12:07:25Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "In-depth analysis of the VAKRA benchmark examining how AI agents reason, utilize tools, and fail, providing insights into agent behavior and limitations.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ebe82643ac57755c",
+      "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents",
+      "title": "Import AI 453: Breaking AI agents; MirrorCode; gradual disempowerment",
+      "title_translated": null,
+      "source": "import-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-13T10:02:22Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "METR and Epoch's MirrorCode benchmark demonstrates AI systems can reverse-engineer complex software with thousands of lines of code. Google DeepMind outlines six genres of attacks against AI agents and necessary mitigations across technical, ecosystem, and legal frameworks.",
+      "tags": [
+        "Agents",
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    }
+  ]
 }

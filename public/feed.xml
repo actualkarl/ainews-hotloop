@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ainews — Karl's daily AI news</title>
+    <link>https://ainews.hotloop.ai</link>
+    <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
+    <language>en</language>
+    <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 01:03:55 +0000</lastBuildDate>
+    <item>
+      <title>How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas</title>
+      <link>https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas</link>
+      <description>Guide on building Korean AI agents using NVIDIA Nemotron with synthetic personas to ensure demographic accuracy and cultural relevance in AI systems.</description>
+      <pubDate>Tue, 21 Apr 2026 00:40:10 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas</guid>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6</title>
+      <link>https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</link>
+      <description>Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.</description>
+      <pubDate>Tue, 21 Apr 2026 00:19:33 +0000</pubDate>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>OpenAI rolls out Chronicle for Codex on macOS</title>
+      <link>https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/</link>
+      <description>OpenAI introduced Chronicle, a feature that builds memories from screen captures to enhance Codex's contextual awareness. Currently a research preview for Pro subscribers on macOS.</description>
+      <pubDate>Mon, 20 Apr 2026 21:20:02 +0000</pubDate>
+      <guid isPermaLink="true">https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/</guid>
+      <category>Coding, Agents</category>
+    </item>
+    <item>
+      <title>Amazon invests $25B more in Anthropic, total now $33B</title>
+      <link>https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html</link>
+      <description>Amazon committed an additional $25 billion investment in Anthropic, bringing total investment to $33 billion. Anthropic pledged to spend over $100 billion on AWS infrastructure over the next decade.</description>
+      <pubDate>Mon, 20 Apr 2026 20:40:07 +0000</pubDate>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+</title>
+      <link>https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</link>
+      <description>Microsoft paused new signups for GitHub Copilot Pro, Pro+, and Student tiers while tightening usage limits. Opus models removed from Pro and Opus 4.7 restricted to Pro+ tier only.</description>
+      <pubDate>Mon, 20 Apr 2026 20:30:12 +0000</pubDate>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>Microsoft plans token-based billing for GitHub Copilot</title>
+      <link>https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</link>
+      <description>Internal documents reveal Microsoft intends to shift GitHub Copilot from request-based to token-based billing. The week-over-week cost to run it has nearly doubled since January.</description>
+      <pubDate>Mon, 20 Apr 2026 20:15:07 +0000</pubDate>
+      <guid isPermaLink="true">https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>Reading today's open-closed performance gap</title>
+      <link>https://www.interconnects.ai/p/reading-todays-open-closed-performance</link>
+      <description>Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.</description>
+      <pubDate>Mon, 20 Apr 2026 18:25:02 +0000</pubDate>
+      <guid isPermaLink="true">https://www.interconnects.ai/p/reading-todays-open-closed-performance</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>Training Transformers to solve 95% failure rate of Cancer Trials — Noetik</title>
+      <link>https://www.latent.space/p/noetik</link>
+      <description>Noetik uses transformers trained on spatial transcriptomics to predict patient responses to cancer treatments. Their TARIO-2 model addresses a core bottleneck where 95% of cancer drugs fail clinical trials despite being effective for specific patient populations.</description>
+      <pubDate>Mon, 20 Apr 2026 16:17:17 +0000</pubDate>
+      <guid isPermaLink="true">https://www.latent.space/p/noetik</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Deezer says 44% of songs uploaded to its platform daily are AI-generated</title>
+      <link>https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/</link>
+      <description>The music streaming service reports that nearly half of daily song uploads are machine-generated, reflecting widespread adoption in music production.</description>
+      <pubDate>Mon, 20 Apr 2026 15:41:02 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/</guid>
+      <category>Content, Governance</category>
+    </item>
+    <item>
+      <title>Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP</title>
+      <link>https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/</link>
+      <description>NVIDIA, Adobe, and WPP collaborate on agentic AI for enterprise marketing. Adobe's creative platforms + WPP's expertise + NVIDIA's Nemotron models and OpenShell runtime enable intelligent systems that plan, create, produce and activate content continuously while maintaining brand safety.</description>
+      <pubDate>Mon, 20 Apr 2026 13:00:50 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/</guid>
+      <category>Agents, Automation</category>
+    </item>
+    <item>
+      <title>Import AI 454: Automating alignment research; Huawei HiFloat4; Kimi K2.5 safety study</title>
+      <link>https://importai.substack.com/p/import-ai-454-automating-alignment</link>
+      <description>Anthropic demonstrates autonomous AI agents conducting alignment research that outperform human researchers (97% recovery vs 23%). Also covers Huawei's HiFloat4 training format outperforming Western MXFP4, and safety evaluation of Chinese model Kimi K2.5 showing fewer CBRN refusals than Western counterparts.</description>
+      <pubDate>Mon, 20 Apr 2026 12:30:19 +0000</pubDate>
+      <guid isPermaLink="true">https://importai.substack.com/p/import-ai-454-automating-alignment</guid>
+      <category>Governance, Models</category>
+    </item>
+    <item>
+      <title>Atlassian enables default data collection to train AI</title>
+      <link>https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8</link>
+      <description>Atlassian activates automatic data gathering from users to support artificial intelligence model development.</description>
+      <pubDate>Mon, 20 Apr 2026 12:23:39 +0000</pubDate>
+      <guid isPermaLink="true">https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8</guid>
+      <category>Governance, Automation</category>
+    </item>
+    <item>
+      <title>NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe</title>
+      <link>https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/</link>
+      <description>NVIDIA demonstrates AI-powered manufacturing innovations including factory digital twins, vision AI agents, and humanoid robots. Partners show how accelerated computing, AI physics, agents and robotics are powering industrial innovation.</description>
+      <pubDate>Mon, 20 Apr 2026 08:30:55 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/</guid>
+      <category>Automation, Agents</category>
+    </item>
+    <item>
+      <title>Claude Token Counter, now with model comparisons</title>
+      <link>https://simonwillison.net/2026/Apr/20/claude-token-counts/</link>
+      <description>Tool upgraded to compare token counts across Claude models. Opus 4.7 uses roughly 1.46x the number of tokens as Opus 4.6 on system prompts.</description>
+      <pubDate>Mon, 20 Apr 2026 00:50:45 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/20/claude-token-counts/</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>OpenAI helps Hyatt advance AI among colleagues</title>
+      <link>https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</link>
+      <description>Hyatt deploys ChatGPT Enterprise across its global workforce, utilizing GPT-5.4 and Codex to enhance productivity, operations, and guest experiences.</description>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise</guid>
+      <category>Content, Automation</category>
+    </item>
+    <item>
+      <title>Headless everything for personal AI</title>
+      <link>https://simonwillison.net/2026/Apr/19/headless-everything/</link>
+      <description>Analysis of emerging trend toward API-first services designed for AI agents rather than GUI-based user interfaces, reshaping SaaS pricing models.</description>
+      <pubDate>Sun, 19 Apr 2026 21:46:38 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/19/headless-everything/</guid>
+      <category>Agents, Automation</category>
+    </item>
+    <item>
+      <title>Changes in the system prompt between Claude Opus 4.6 and 4.7</title>
+      <link>https://simonwillison.net/2026/Apr/18/opus-system-prompt/</link>
+      <description>Detailed analysis of system prompt modifications including expanded child safety instructions, improved tool search capabilities, and reduced verbosity guidance.</description>
+      <pubDate>Sat, 18 Apr 2026 23:59:40 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/18/opus-system-prompt/</guid>
+      <category>Models, Skills</category>
+    </item>
+    <item>
+      <title>Claude system prompts as a git timeline</title>
+      <link>https://simonwillison.net/2026/Apr/18/extract-system-prompts/</link>
+      <description>Research project converting Anthropic's published system prompts into a git repository with fake commit dates to track changes across Claude model versions.</description>
+      <pubDate>Sat, 18 Apr 2026 12:25:00 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/18/extract-system-prompts/</guid>
+      <category>Models, Skills</category>
+    </item>
+    <item>
+      <title>The Two Sides of OpenClaw</title>
+      <link>https://www.latent.space/p/ainews-the-two-sides-of-openclaw</link>
+      <description>Analysis contrasting OpenClaw's public narrative of breakthrough AI agents with engineering realities of unprecedented security incidents and scaling challenges as the fastest-growing open source project in history.</description>
+      <pubDate>Sat, 18 Apr 2026 06:50:57 +0000</pubDate>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-the-two-sides-of-openclaw</guid>
+      <category>Agents, Skills</category>
+    </item>
+    <item>
+      <title>Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension</title>
+      <link>https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally</link>
+      <description>Claude Opus 4.7 launched with improvements across coding, vision, and reasoning tasks. Supports images up to 3.75 megapixels (3x larger than prior versions), introduces a new xhigh reasoning effort level, and demonstrates approximately 11-point gains on SWE-Bench Pro.</description>
+      <pubDate>Fri, 17 Apr 2026 01:36:17 +0000</pubDate>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents</title>
+      <link>https://huggingface.co/blog/ecom-rlve</link>
+      <description>Introduces Ecom-RLVE, an adaptive verifiable environment framework designed for training and evaluating e-commerce conversational agents with real-world scenarios.</description>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/ecom-rlve</guid>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>Transformers to MLX: efficient inference on Apple Silicon</title>
+      <link>https://huggingface.co/blog/transformers-to-mlx</link>
+      <description>Discusses converting Transformers models to MLX format, enabling efficient inference on Apple Silicon devices.</description>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/transformers-to-mlx</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers</title>
+      <link>https://huggingface.co/blog/train-multimodal-sentence-transformers</link>
+      <description>Comprehensive guide on training multimodal embedding and reranker models using Sentence Transformers library for improved semantic search and ranking tasks.</description>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/train-multimodal-sentence-transformers</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>My bets on open models, mid-2026</title>
+      <link>https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026</link>
+      <description>Details key beliefs about open model development including technical strength of open labs, focus on benchmark scores versus robustness, dominance in repetitive automation tasks, and funding challenges for Chinese open-weight companies.</description>
+      <pubDate>Wed, 15 Apr 2026 18:20:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Gemini 3.1 Flash TTS: the next generation of expressive AI speech</title>
+      <link>https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/</link>
+      <description>Google DeepMind introduced a new audio model with granular audio tags that give precise control for directing AI-generated speech with enhanced expressiveness.</description>
+      <pubDate>Wed, 15 Apr 2026 16:03:19 +0000</pubDate>
+      <guid isPermaLink="true">https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters</title>
+      <link>https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/</link>
+      <description>NVIDIA argues enterprises should evaluate AI infrastructure on cost per token rather than compute cost or FLOPS per dollar. Blackwell delivers 35x lower cost per million tokens compared to Hopper.</description>
+      <pubDate>Wed, 15 Apr 2026 15:00:26 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents</title>
+      <link>https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis</link>
+      <description>In-depth analysis of the VAKRA benchmark examining how AI agents reason, utilize tools, and fail, providing insights into agent behavior and limitations.</description>
+      <pubDate>Wed, 15 Apr 2026 12:07:25 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis</guid>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>Import AI 453: Breaking AI agents; MirrorCode; gradual disempowerment</title>
+      <link>https://importai.substack.com/p/import-ai-453-breaking-ai-agents</link>
+      <description>METR and Epoch's MirrorCode benchmark demonstrates AI systems can reverse-engineer complex software with thousands of lines of code. Google DeepMind outlines six genres of attacks against AI agents and necessary mitigations across technical, ecosystem, and legal frameworks.</description>
+      <pubDate>Mon, 13 Apr 2026 10:02:22 +0000</pubDate>
+      <guid isPermaLink="true">https://importai.substack.com/p/import-ai-453-breaking-ai-agents</guid>
+      <category>Agents, Governance</category>
+    </item>
+  </channel>
+</rss>
