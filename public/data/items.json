@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T03:01:52Z",
+  "generated_at": "2026-04-21T03:06:26.082027Z",
   "next_refresh_at": "2026-04-21T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "items": [
@@ -22,16 +22,34 @@
       "related_ids": []
     },
     {
+      "id": "477e516231cd562d",
+      "url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded",
+      "title": "Jeff Bezos' Project Prometheus nears $10B fundraising deal at $38B valuation",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-21T01:25:01Z",
+      "first_seen_at": "2026-04-21T03:06:26.082027Z",
+      "summary": "Jeff Bezos' AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "5a62757c703dd941",
       "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
-      "title": "Anthropic board director Chris Liddell: NZ has 5 years \u2014 not 20 \u2014 to adapt to AI",
+      "title": "Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI",
       "title_translated": null,
       "source": "theaicorner",
       "source_tier": 2,
       "region": "nz",
       "published_at": "2026-04-21T01:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years \u2014 not 20 \u2014 to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
+      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
       "tags": [
         "Governance",
         "Models"
@@ -72,6 +90,24 @@
       "tags": [
         "Models",
         "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b70bf3b4c119b716",
+      "url": "https://news.microsoft.com/source/asia/features/auckland-ai-tour-economic-impact-report/",
+      "title": "Microsoft doubles AI upskilling commitment in NZ, targeting 200,000 Kiwis by 2028",
+      "title_translated": null,
+      "source": "blogs-microsoft-ai",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-21T03:06:26.082027Z",
+      "summary": "Microsoft President Jane Livesey announced NZ$9.4 billion in economic contribution to New Zealand in FY25 and a commitment to double AI and digital upskilling initiatives, reaching 200,000 Kiwis by 2028. The report highlights the NZ North datacentre region's role in enabling digital sovereignty alongside Microsoft's AI partnership commitments.",
+      "tags": [
+        "Governance"
       ],
       "trending_score": 1.0,
       "mention_count": 1,
@@ -150,6 +186,25 @@
       "related_ids": []
     },
     {
+      "id": "384a710feb7e12b2",
+      "url": "https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design",
+      "title": "Canva CEO on building proprietary AI, token pricing, and competing with AI-first design tools",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T23:10:00Z",
+      "first_seen_at": "2026-04-21T03:06:26.082027Z",
+      "summary": "Canva CEO Melanie Perkins discusses the company's enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva's positioning against Adobe's AI suite and the growing wave of AI-first design entrants.",
+      "tags": [
+        "Content",
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "d674facf95f566ee",
       "url": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
       "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
@@ -197,7 +252,7 @@
       "region": "nz",
       "published_at": "2026-04-20T22:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute \u2014 the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
       "tags": [
         "Governance"
       ],
@@ -257,14 +312,14 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.9698,
+      "trending_score": 0.9636,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "e59e6f351c8b5541",
       "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "title": "Microsoft adjusts GitHub Copilot plans and pricing \u2014 Opus 4.7 restricted to Pro+",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
@@ -276,7 +331,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.9565,
+      "trending_score": 0.9505,
       "mention_count": 1,
       "related_ids": []
     },
@@ -294,7 +349,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.942,
+      "trending_score": 0.9361,
       "mention_count": 1,
       "related_ids": []
     },
@@ -313,7 +368,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.9367,
+      "trending_score": 0.9308,
       "mention_count": 1,
       "related_ids": []
     },
@@ -332,14 +387,14 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.8039,
+      "trending_score": 0.7988,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "f8363d42b74365e2",
       "url": "https://www.latent.space/p/noetik",
-      "title": "Training Transformers to solve 95% failure rate of Cancer Trials \u2014 Noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
@@ -350,7 +405,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.6732,
+      "trending_score": 0.6689,
       "mention_count": 1,
       "related_ids": []
     },
@@ -369,7 +424,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.6401,
+      "trending_score": 0.6361,
       "mention_count": 1,
       "related_ids": []
     },
@@ -407,7 +462,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.4912,
+      "trending_score": 0.4881,
       "mention_count": 1,
       "related_ids": []
     },
@@ -426,7 +481,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.4866,
+      "trending_score": 0.4836,
       "mention_count": 1,
       "related_ids": []
     },
@@ -445,7 +500,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.7045,
+      "trending_score": 0.7,
       "mention_count": 1,
       "related_ids": []
     },
@@ -464,7 +519,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.1859,
+      "trending_score": 0.1847,
       "mention_count": 1,
       "related_ids": []
     },
@@ -483,7 +538,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.3465,
+      "trending_score": 0.3443,
       "mention_count": 1,
       "related_ids": []
     },
@@ -502,7 +557,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.1439,
+      "trending_score": 0.143,
       "mention_count": 1,
       "related_ids": []
     },
@@ -521,7 +576,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0234,
+      "trending_score": 0.0233,
       "mention_count": 1,
       "related_ids": []
     },
@@ -566,7 +621,7 @@
     {
       "id": "b2505b70da0900a6",
       "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
-      "title": "Anthropic Claude Opus 4.7 \u2014 literally one step better than 4.6 in every dimension",
+      "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
