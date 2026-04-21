@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T01:03:55.742300Z",
+  "generated_at": "2026-04-21T01:17:17.598878Z",
   "next_refresh_at": "2026-04-21T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "items": [
@@ -35,6 +35,63 @@
       "tags": [
         "Models",
         "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d674facf95f566ee",
+      "url": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
+      "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
+      "title_translated": null,
+      "source": "nvidia-developer",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T23:01:04Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "Technical guide covering quantization, flash attention, and KV cache management techniques to deploy multi-billion-parameter generative AI models on memory-constrained NVIDIA Jetson edge devices.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "3adba36cab5ab6b7",
+      "url": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
+      "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
+      "title_translated": null,
+      "source": "nvidia-developer",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T22:52:15Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "NVIDIA details end-to-end FP8 precision training for LLM reinforcement learning using GRPO, addressing GPU utilization bottlenecks during high-intensity RL phases with significant throughput improvements.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d1b8a9a5f0cca467",
+      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+      "title": "Leaked deck reveals OpenAI ad partner selling ChatGPT placements by prompt relevance",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T21:20:52Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "StackAdapt, an OpenAI advertising partner, is selling ChatGPT ad placements targeted by user query relevance according to a leaked internal deck. This marks a new monetization phase for LLM chat interfaces through contextual advertising.",
+      "tags": [
+        "Governance",
+        "Content"
       ],
       "trending_score": 1.0,
       "mention_count": 1,
@@ -97,6 +154,24 @@
       "related_ids": []
     },
     {
+      "id": "53438aba5557cfce",
+      "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
+      "title": "AI Resistance is growing: anti-AI pushback worth tracking",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:19:13Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "Roundup of organized resistance to AI deployments across creative industries, academic institutions, and labor movements, with 150+ HN points. Covers key campaigns, boycotts, and legislation attempts targeting AI systems.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "65c9467b7424d749",
       "url": "https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/",
       "title": "Microsoft plans token-based billing for GitHub Copilot",
@@ -130,7 +205,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.947,
+      "trending_score": 0.9295,
       "mention_count": 1,
       "related_ids": []
     },
@@ -148,7 +223,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.793,
+      "trending_score": 0.7784,
       "mention_count": 1,
       "related_ids": []
     },
@@ -167,7 +242,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.7541,
+      "trending_score": 0.7402,
       "mention_count": 1,
       "related_ids": []
     },
@@ -205,7 +280,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.5786,
+      "trending_score": 0.5679,
       "mention_count": 1,
       "related_ids": []
     },
@@ -224,7 +299,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.5733,
+      "trending_score": 0.5627,
       "mention_count": 1,
       "related_ids": []
     },
@@ -243,7 +318,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.8298,
+      "trending_score": 0.8146,
       "mention_count": 1,
       "related_ids": []
     },
@@ -262,7 +337,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.219,
+      "trending_score": 0.2149,
       "mention_count": 1,
       "related_ids": []
     },
@@ -281,7 +356,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.4081,
+      "trending_score": 0.4006,
       "mention_count": 1,
       "related_ids": []
     },
@@ -300,7 +375,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.1696,
+      "trending_score": 0.1664,
       "mention_count": 1,
       "related_ids": []
     },
@@ -319,7 +394,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0276,
+      "trending_score": 0.0271,
       "mention_count": 1,
       "related_ids": []
     },
@@ -338,7 +413,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0105,
+      "trending_score": 0.0103,
       "mention_count": 1,
       "related_ids": []
     },
@@ -357,7 +432,7 @@
         "Agents",
         "Skills"
       ],
-      "trending_score": 0.0066,
+      "trending_score": 0.0065,
       "mention_count": 1,
       "related_ids": []
     },
@@ -503,7 +578,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },

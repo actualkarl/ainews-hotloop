@@ -6,7 +6,7 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 21 Apr 2026 01:03:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 01:17:17 +0000</lastBuildDate>
     <item>
       <title>How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas</title>
       <link>https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas</link>
@@ -22,6 +22,30 @@
       <pubDate>Tue, 21 Apr 2026 00:19:33 +0000</pubDate>
       <guid isPermaLink="true">https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</guid>
       <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson</title>
+      <link>https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/</link>
+      <description>Technical guide covering quantization, flash attention, and KV cache management techniques to deploy multi-billion-parameter generative AI models on memory-constrained NVIDIA Jetson edge devices.</description>
+      <pubDate>Mon, 20 Apr 2026 23:01:04 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
+      <title>Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision</title>
+      <link>https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/</link>
+      <description>NVIDIA details end-to-end FP8 precision training for LLM reinforcement learning using GRPO, addressing GPU utilization bottlenecks during high-intensity RL phases with significant throughput improvements.</description>
+      <pubDate>Mon, 20 Apr 2026 22:52:15 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
+      <title>Leaked deck reveals OpenAI ad partner selling ChatGPT placements by prompt relevance</title>
+      <link>https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/</link>
+      <description>StackAdapt, an OpenAI advertising partner, is selling ChatGPT ad placements targeted by user query relevance according to a leaked internal deck. This marks a new monetization phase for LLM chat interfaces through contextual advertising.</description>
+      <pubDate>Mon, 20 Apr 2026 21:20:52 +0000</pubDate>
+      <guid isPermaLink="true">https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/</guid>
+      <category>Governance, Content</category>
     </item>
     <item>
       <title>OpenAI rolls out Chronicle for Codex on macOS</title>
@@ -46,6 +70,14 @@
       <pubDate>Mon, 20 Apr 2026 20:30:12 +0000</pubDate>
       <guid isPermaLink="true">https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</guid>
       <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>AI Resistance is growing: anti-AI pushback worth tracking</title>
+      <link>https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</link>
+      <description>Roundup of organized resistance to AI deployments across creative industries, academic institutions, and labor movements, with 150+ HN points. Covers key campaigns, boycotts, and legislation attempts targeting AI systems.</description>
+      <pubDate>Mon, 20 Apr 2026 20:19:13 +0000</pubDate>
+      <guid isPermaLink="true">https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</guid>
+      <category>Governance</category>
     </item>
     <item>
       <title>Microsoft plans token-based billing for GitHub Copilot</title>
@@ -214,22 +246,6 @@
       <pubDate>Wed, 15 Apr 2026 15:00:26 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/</guid>
       <category>Models</category>
-    </item>
-    <item>
-      <title>Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents</title>
-      <link>https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis</link>
-      <description>In-depth analysis of the VAKRA benchmark examining how AI agents reason, utilize tools, and fail, providing insights into agent behavior and limitations.</description>
-      <pubDate>Wed, 15 Apr 2026 12:07:25 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis</guid>
-      <category>Agents</category>
-    </item>
-    <item>
-      <title>Import AI 453: Breaking AI agents; MirrorCode; gradual disempowerment</title>
-      <link>https://importai.substack.com/p/import-ai-453-breaking-ai-agents</link>
-      <description>METR and Epoch's MirrorCode benchmark demonstrates AI systems can reverse-engineer complex software with thousands of lines of code. Google DeepMind outlines six genres of attacks against AI agents and necessary mitigations across technical, ecosystem, and legal frameworks.</description>
-      <pubDate>Mon, 13 Apr 2026 10:02:22 +0000</pubDate>
-      <guid isPermaLink="true">https://importai.substack.com/p/import-ai-453-breaking-ai-agents</guid>
-      <category>Agents, Governance</category>
     </item>
   </channel>
 </rss>
