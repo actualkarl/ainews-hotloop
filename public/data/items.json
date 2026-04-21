@@ -1,8 +1,45 @@
 {
-  "generated_at": "2026-04-21T01:17:17.598878Z",
+  "generated_at": "2026-04-21T03:01:52Z",
   "next_refresh_at": "2026-04-21T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "items": [
+    {
+      "id": "dac127f4fb18d708",
+      "url": "https://x.com/i/status/2046393908629004443",
+      "title": "Google: Gemini expands in Chrome to more Asia-Pacific countries with summarization and image editing",
+      "title_translated": null,
+      "source": "google-x",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-21T02:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google's browser-native AI layer to a wider international audience as part of Chrome's AI-first roadmap.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "5a62757c703dd941",
+      "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
+      "title": "Anthropic board director Chris Liddell: NZ has 5 years \u2014 not 20 \u2014 to adapt to AI",
+      "title_translated": null,
+      "source": "theaicorner",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T01:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years \u2014 not 20 \u2014 to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "767083dc76ef5a32",
       "url": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
@@ -41,6 +78,78 @@
       "related_ids": []
     },
     {
+      "id": "c9711cd4e574d92a",
+      "url": "https://www.nzherald.co.nz/business/microsoft-dangles-102-billion-ai-boost-to-new-zealands-economy-by-2038-as-its-ceo-hits-auckland/premium/YERWHGFXHNBRBN4UVF3BAQJSIQ",
+      "title": "Microsoft CEO in Auckland: AI could add $102B to NZ economy by 2038",
+      "title_translated": null,
+      "source": "nzherald",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "Microsoft CEO Satya Nadella visited Auckland and projected AI could add NZ$102 billion to New Zealand's economy by 2038. Microsoft also announced expanded AI training initiatives alongside the visit, framing AI adoption as urgent for NZ productivity and competitiveness.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c2fa488c4525dd43",
+      "url": "https://www.nbr.co.nz/law/law-commission-to-review-government-use-of-ai",
+      "title": "NZ Law Commission launches review of AI in public sector decision-making",
+      "title_translated": null,
+      "source": "nbr",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "New Zealand's Law Commission is launching a formal review of AI use in public sector decision-making, responding to legal challenges around AI-driven government outcomes. The review will examine accountability, transparency, and citizen appeal rights for automated decisions.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "67bdc4e16e27a527",
+      "url": "https://www.nzherald.co.nz/business/ideally-raises-16m-at-100m-valuation-for-its-ai-powered-market-research-software/premium/H6Q2JTAOIFBHJOK2XDSNPCRNY4",
+      "title": "NZ startup Ideally raises $16M at $100M valuation for AI market research platform",
+      "title_translated": null,
+      "source": "nzherald",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "Auckland-based Ideally raised NZ$16M at a NZ$100M valuation for its AI-powered market research platform. The tool automates consumer insights gathering for enterprise clients, compressing research cycles from weeks to hours.",
+      "tags": [
+        "Automation"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "537fd53c0227a21c",
+      "url": "https://thepress.co.nz/nz-news/360988884/christchurch-developed-ai-forecasting-tool-improves-wildfire-prediction-30",
+      "title": "Christchurch-developed AI tool improves wildfire prediction accuracy by 30%",
+      "title_translated": null,
+      "source": "thepress",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "A machine learning forecasting tool developed in Christchurch achieved 30% improvement in wildfire prediction accuracy using historical fire data from Australia. The model uses ensemble methods and is being evaluated for deployment across Pacific fire-prone regions.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "d674facf95f566ee",
       "url": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
       "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
@@ -73,6 +182,24 @@
       "tags": [
         "Models",
         "Coding"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "081667069d228400",
+      "url": "https://www.rnz.co.nz/news/business/592911/ai-tells-tenant-she-should-ask-for-40-000-tribunal-hands-her-80",
+      "title": "AI told NZ tenant to claim $40,000; Tenancy Tribunal awarded $80",
+      "title_translated": null,
+      "source": "rnz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-20T22:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute \u2014 the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "tags": [
+        "Governance"
       ],
       "trending_score": 1.0,
       "mention_count": 1,
@@ -130,14 +257,14 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.9698,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "e59e6f351c8b5541",
       "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing \u2014 Opus 4.7 restricted to Pro+",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
@@ -149,7 +276,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.9565,
       "mention_count": 1,
       "related_ids": []
     },
@@ -167,7 +294,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.942,
       "mention_count": 1,
       "related_ids": []
     },
@@ -186,7 +313,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.9367,
       "mention_count": 1,
       "related_ids": []
     },
@@ -205,14 +332,14 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.9295,
+      "trending_score": 0.8039,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "f8363d42b74365e2",
       "url": "https://www.latent.space/p/noetik",
-      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials \u2014 Noetik",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
@@ -223,7 +350,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.7784,
+      "trending_score": 0.6732,
       "mention_count": 1,
       "related_ids": []
     },
@@ -242,7 +369,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.7402,
+      "trending_score": 0.6401,
       "mention_count": 1,
       "related_ids": []
     },
@@ -280,7 +407,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.5679,
+      "trending_score": 0.4912,
       "mention_count": 1,
       "related_ids": []
     },
@@ -299,7 +426,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.5627,
+      "trending_score": 0.4866,
       "mention_count": 1,
       "related_ids": []
     },
@@ -318,7 +445,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.8146,
+      "trending_score": 0.7045,
       "mention_count": 1,
       "related_ids": []
     },
@@ -337,7 +464,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.2149,
+      "trending_score": 0.1859,
       "mention_count": 1,
       "related_ids": []
     },
@@ -356,7 +483,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.4006,
+      "trending_score": 0.3465,
       "mention_count": 1,
       "related_ids": []
     },
@@ -375,7 +502,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.1664,
+      "trending_score": 0.1439,
       "mention_count": 1,
       "related_ids": []
     },
@@ -394,7 +521,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0271,
+      "trending_score": 0.0234,
       "mention_count": 1,
       "related_ids": []
     },
@@ -413,7 +540,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0103,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": []
     },
@@ -432,14 +559,14 @@
         "Agents",
         "Skills"
       ],
-      "trending_score": 0.0065,
+      "trending_score": 0.0056,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "b2505b70da0900a6",
       "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
-      "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
+      "title": "Anthropic Claude Opus 4.7 \u2014 literally one step better than 4.6 in every dimension",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
@@ -450,7 +577,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0005,
       "mention_count": 1,
       "related_ids": []
     },
