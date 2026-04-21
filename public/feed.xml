@@ -6,11 +6,35 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 21 Apr 2026 20:48:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 21:16:54 +0000</lastBuildDate>
+    <item>
+      <title>Where's the raccoon with the ham radio? (ChatGPT Images 2.0)</title>
+      <link>https://simonwillison.net/2026/Apr/21/gpt-image-2/</link>
+      <description>Simon Willison tested ChatGPT Images 2.0 with a Where's-Waldo-style prompt and compares output against gpt-image-1. Sam Altman claimed on the livestream that the leap was equivalent to jumping from GPT-3 to GPT-5; Simon's review adds nuance from real prompts.</description>
+      <pubDate>Tue, 21 Apr 2026 20:32:24 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/21/gpt-image-2/</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Images 2.0 with Instant and Thinking variants</title>
+      <link>https://openai.com/index/introducing-chatgpt-images-2-0/</link>
+      <description>OpenAI released ChatGPT Images 2.0 globally with Instant and Thinking variants that can generate up to 2K-resolution images, render non-Latin scripts (Japanese, Korean, Hindi, Bengali) more accurately, and optionally search the web while composing an image. A more powerful tier is reserved for paying subscribers.</description>
+      <pubDate>Tue, 21 Apr 2026 15:05:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/introducing-chatgpt-images-2-0/</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>Three new ways Ads Advisor is making Google Ads safer and faster</title>
+      <link>https://blog.google/products/ads-commerce/ads-advisor-google-ads/</link>
+      <description>Google announced three new agentic safety and policy features integrated into Ads Advisor, designed to protect advertiser accounts and streamline campaign creation. The update adds real-time policy checks and automated anomaly detection for generated ads.</description>
+      <pubDate>Tue, 21 Apr 2026 14:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/products/ads-commerce/ads-advisor-google-ads/</guid>
+      <category>Agents, Automation</category>
+    </item>
     <item>
       <title>Chollet: current AI systems lack metacognition — they cannot accurately model their own capabilities</title>
       <link>https://x.com/i/status/2046598650055500094</link>
-      <description>François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don&apos;t know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.</description>
+      <description>François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.</description>
       <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2046598650055500094</guid>
       <category>Models, Agents</category>
@@ -48,17 +72,33 @@
       <category>Models</category>
     </item>
     <item>
+      <title>When AI quietly shifts what organisations value</title>
+      <link>https://technewzealand.org.nz/2026/04/21/when-ai-quietly-shifts-what-organisations-value/</link>
+      <description>Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values — a "value drift" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.</description>
+      <pubDate>Tue, 21 Apr 2026 03:59:15 +0000</pubDate>
+      <guid isPermaLink="true">https://technewzealand.org.nz/2026/04/21/when-ai-quietly-shifts-what-organisations-value/</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Anthropic says OpenClaw-style Claude CLI usage is allowed again</title>
+      <link>https://docs.openclaw.ai/providers/anthropic</link>
+      <description>Anthropic has updated its provider documentation to permit OpenClaw-style Claude CLI integrations after a prior restriction. The move re-opens a popular path for local agent tooling that had been in limbo for two weeks. HN front page with 465 points.</description>
+      <pubDate>Tue, 21 Apr 2026 03:43:03 +0000</pubDate>
+      <guid isPermaLink="true">https://docs.openclaw.ai/providers/anthropic</guid>
+      <category>Coding, Skills, Governance</category>
+    </item>
+    <item>
       <title>Google: Gemini expands in Chrome to more Asia-Pacific countries with summarization and image editing</title>
       <link>https://x.com/i/status/2046393908629004443</link>
-      <description>Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google&apos;s browser-native AI layer to a wider international audience as part of Chrome&apos;s AI-first roadmap.</description>
+      <description>Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google's browser-native AI layer to a wider international audience as part of Chrome's AI-first roadmap.</description>
       <pubDate>Tue, 21 Apr 2026 02:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2046393908629004443</guid>
       <category>Models</category>
     </item>
     <item>
-      <title>Jeff Bezos&apos; Project Prometheus nears $10B fundraising deal at $38B valuation</title>
+      <title>Jeff Bezos' Project Prometheus nears $10B fundraising deal at $38B valuation</title>
       <link>https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded</link>
-      <description>Jeff Bezos&apos; AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.</description>
+      <description>Jeff Bezos' AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.</description>
       <pubDate>Tue, 21 Apr 2026 01:25:01 +0000</pubDate>
       <guid isPermaLink="true">https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded</guid>
       <category>Models</category>
@@ -66,7 +106,7 @@
     <item>
       <title>Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI</title>
       <link>https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20</link>
-      <description>Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft&apos;s Auckland AI summit frame AI readiness as a national emergency.</description>
+      <description>Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.</description>
       <pubDate>Tue, 21 Apr 2026 01:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20</guid>
       <category>Governance, Models</category>
@@ -80,7 +120,7 @@
       <category>Agents</category>
     </item>
     <item>
-      <title>Moonshot Kimi K2.6: world&apos;s leading Open Model refreshes to catch up to Opus 4.6</title>
+      <title>Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6</title>
       <link>https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</link>
       <description>Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.</description>
       <pubDate>Tue, 21 Apr 2026 00:19:33 +0000</pubDate>
@@ -106,7 +146,7 @@
     <item>
       <title>Microsoft doubles AI upskilling commitment in NZ, targeting 200,000 Kiwis by 2028</title>
       <link>https://news.microsoft.com/source/asia/features/auckland-ai-tour-economic-impact-report/</link>
-      <description>Microsoft President Jane Livesey announced NZ$9.4 billion in economic contribution to New Zealand in FY25 and a commitment to double AI and digital upskilling initiatives, reaching 200,000 Kiwis by 2028. The report highlights the NZ North datacentre region&apos;s role in enabling digital sovereignty alongside Microsoft&apos;s AI partnership commitments.</description>
+      <description>Microsoft President Jane Livesey announced NZ$9.4 billion in economic contribution to New Zealand in FY25 and a commitment to double AI and digital upskilling initiatives, reaching 200,000 Kiwis by 2028. The report highlights the NZ North datacentre region's role in enabling digital sovereignty alongside Microsoft's AI partnership commitments.</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://news.microsoft.com/source/asia/features/auckland-ai-tour-economic-impact-report/</guid>
       <category>Governance</category>
@@ -114,7 +154,7 @@
     <item>
       <title>Microsoft CEO in Auckland: AI could add $102B to NZ economy by 2038</title>
       <link>https://www.nzherald.co.nz/business/microsoft-dangles-102-billion-ai-boost-to-new-zealands-economy-by-2038-as-its-ceo-hits-auckland/premium/YERWHGFXHNBRBN4UVF3BAQJSIQ</link>
-      <description>Microsoft CEO Satya Nadella visited Auckland and projected AI could add NZ$102 billion to New Zealand&apos;s economy by 2038. Microsoft also announced expanded AI training initiatives alongside the visit, framing AI adoption as urgent for NZ productivity and competitiveness.</description>
+      <description>Microsoft CEO Satya Nadella visited Auckland and projected AI could add NZ$102 billion to New Zealand's economy by 2038. Microsoft also announced expanded AI training initiatives alongside the visit, framing AI adoption as urgent for NZ productivity and competitiveness.</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nzherald.co.nz/business/microsoft-dangles-102-billion-ai-boost-to-new-zealands-economy-by-2038-as-its-ceo-hits-auckland/premium/YERWHGFXHNBRBN4UVF3BAQJSIQ</guid>
       <category>Governance</category>
@@ -122,7 +162,7 @@
     <item>
       <title>NZ Law Commission launches review of AI in public sector decision-making</title>
       <link>https://www.nbr.co.nz/law/law-commission-to-review-government-use-of-ai</link>
-      <description>New Zealand&apos;s Law Commission is launching a formal review of AI use in public sector decision-making, responding to legal challenges around AI-driven government outcomes. The review will examine accountability, transparency, and citizen appeal rights for automated decisions.</description>
+      <description>New Zealand's Law Commission is launching a formal review of AI use in public sector decision-making, responding to legal challenges around AI-driven government outcomes. The review will examine accountability, transparency, and citizen appeal rights for automated decisions.</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nbr.co.nz/law/law-commission-to-review-government-use-of-ai</guid>
       <category>Governance</category>
@@ -146,7 +186,7 @@
     <item>
       <title>Canva CEO on building proprietary AI, token pricing, and competing with AI-first design tools</title>
       <link>https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design</link>
-      <description>Canva CEO Melanie Perkins discusses the company&apos;s enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva&apos;s positioning against Adobe&apos;s AI suite and the growing wave of AI-first design entrants.</description>
+      <description>Canva CEO Melanie Perkins discusses the company's enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva's positioning against Adobe's AI suite and the growing wave of AI-first design entrants.</description>
       <pubDate>Mon, 20 Apr 2026 23:10:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design</guid>
       <category>Content, Models</category>
@@ -170,7 +210,7 @@
     <item>
       <title>Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points</title>
       <link>https://x.com/i/status/2046017433199374610</link>
-      <description>Andrej Karpathy highlights Bryan Johnson&apos;s deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.</description>
+      <description>Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.</description>
       <pubDate>Mon, 20 Apr 2026 22:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2046017433199374610</guid>
       <category>Agents, Models</category>
@@ -194,7 +234,7 @@
     <item>
       <title>OpenAI rolls out Chronicle for Codex on macOS</title>
       <link>https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/</link>
-      <description>OpenAI introduced Chronicle, a feature that builds memories from screen captures to enhance Codex&apos;s contextual awareness. Currently a research preview for Pro subscribers on macOS.</description>
+      <description>OpenAI introduced Chronicle, a feature that builds memories from screen captures to enhance Codex's contextual awareness. Currently a research preview for Pro subscribers on macOS.</description>
       <pubDate>Mon, 20 Apr 2026 21:20:02 +0000</pubDate>
       <guid isPermaLink="true">https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/</guid>
       <category>Coding, Agents</category>
@@ -206,46 +246,6 @@
       <pubDate>Mon, 20 Apr 2026 20:40:07 +0000</pubDate>
       <guid isPermaLink="true">https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html</guid>
       <category>Models</category>
-    </item>
-    <item>
-      <title>Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+</title>
-      <link>https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</link>
-      <description>Microsoft paused new signups for GitHub Copilot Pro, Pro+, and Student tiers while tightening usage limits. Opus models removed from Pro and Opus 4.7 restricted to Pro+ tier only.</description>
-      <pubDate>Mon, 20 Apr 2026 20:30:12 +0000</pubDate>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</guid>
-      <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>AI Resistance is growing: anti-AI pushback worth tracking</title>
-      <link>https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</link>
-      <description>Roundup of organized resistance to AI deployments across creative industries, academic institutions, and labor movements, with 150+ HN points. Covers key campaigns, boycotts, and legislation attempts targeting AI systems.</description>
-      <pubDate>Mon, 20 Apr 2026 20:19:13 +0000</pubDate>
-      <guid isPermaLink="true">https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Microsoft plans token-based billing for GitHub Copilot</title>
-      <link>https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</link>
-      <description>Internal documents reveal Microsoft intends to shift GitHub Copilot from request-based to token-based billing. The week-over-week cost to run it has nearly doubled since January.</description>
-      <pubDate>Mon, 20 Apr 2026 20:15:07 +0000</pubDate>
-      <guid isPermaLink="true">https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</guid>
-      <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>Reading today&apos;s open-closed performance gap</title>
-      <link>https://www.interconnects.ai/p/reading-todays-open-closed-performance</link>
-      <description>Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.</description>
-      <pubDate>Mon, 20 Apr 2026 18:25:02 +0000</pubDate>
-      <guid isPermaLink="true">https://www.interconnects.ai/p/reading-todays-open-closed-performance</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments</title>
-      <link>https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/</link>
-      <description>NVIDIA details how AGENTS.md files can be weaponised for indirect prompt injection in multi-agent pipelines, and provides practical mitigations. Essential reading for anyone building or auditing production agentic systems.</description>
-      <pubDate>Mon, 20 Apr 2026 17:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/</guid>
-      <category>Agents</category>
     </item>
   </channel>
 </rss>

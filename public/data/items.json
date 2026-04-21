@@ -1,24 +1,81 @@
 {
-  "generated_at": "2026-04-21T20:48:22.565200Z",
+  "generated_at": "2026-04-21T21:16:54Z",
   "next_refresh_at": "2026-04-22T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "items": [
     {
+      "id": "7694e1f914850915",
+      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-21T20:32:24Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Simon Willison tested ChatGPT Images 2.0 with a Where's-Waldo-style prompt and compares output against gpt-image-1. Sam Altman claimed on the livestream that the leap was equivalent to jumping from GPT-3 to GPT-5; Simon's review adds nuance from real prompts.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d148c51f9554fe18",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "title": "Introducing ChatGPT Images 2.0 with Instant and Thinking variants",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-21T15:05:00Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "OpenAI released ChatGPT Images 2.0 globally with Instant and Thinking variants that can generate up to 2K-resolution images, render non-Latin scripts (Japanese, Korean, Hindi, Bengali) more accurately, and optionally search the web while composing an image. A more powerful tier is reserved for paying subscribers.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "9e99c29859c55854",
+      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "title": "Three new ways Ads Advisor is making Google Ads safer and faster",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-21T14:30:00Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Google announced three new agentic safety and policy features integrated into Ads Advisor, designed to protect advertiser accounts and streamline campaign creation. The update adds real-time policy checks and automated anomaly detection for generated ads.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "5eff7f5b72e4e28d",
       "url": "https://x.com/i/status/2046598650055500094",
-      "title": "Chollet: current AI systems lack metacognition \u2014 they cannot accurately model their own capabilities",
+      "title": "Chollet: current AI systems lack metacognition — they cannot accurately model their own capabilities",
       "title_translated": null,
       "source": "fchollet",
       "source_tier": 3,
       "region": "us",
       "published_at": "2026-04-21T12:00:00Z",
       "first_seen_at": "2026-04-21T20:48:22Z",
-      "summary": "Fran\u00e7ois Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
+      "summary": "François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
       "tags": [
         "Models",
         "Agents"
       ],
-      "trending_score": 0.2637,
+      "trending_score": 0.2535,
       "mention_count": 1,
       "related_ids": []
     },
@@ -44,7 +101,7 @@
     {
       "id": "93ffe6672ecff2d7",
       "url": "https://x.com/i/status/2046577402264870958",
-      "title": "LeCun: AI existential risk framing is wrong \u2014 misuse and power concentration are the real dangers",
+      "title": "LeCun: AI existential risk framing is wrong — misuse and power concentration are the real dangers",
       "title_translated": null,
       "source": "ylecun",
       "source_tier": 3,
@@ -56,7 +113,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.2232,
+      "trending_score": 0.2145,
       "mention_count": 1,
       "related_ids": []
     },
@@ -75,7 +132,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.2591,
+      "trending_score": 0.2491,
       "mention_count": 2,
       "related_ids": []
     },
@@ -93,8 +150,46 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.1889,
+      "trending_score": 0.1816,
       "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "23cd8736e18ef22a",
+      "url": "https://technewzealand.org.nz/2026/04/21/when-ai-quietly-shifts-what-organisations-value/",
+      "title": "When AI quietly shifts what organisations value",
+      "title_translated": null,
+      "source": "tech-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T03:59:15Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values — a \"value drift\" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.39,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b3d0897aba68e123",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-21T03:43:03Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Anthropic has updated its provider documentation to permit OpenClaw-style Claude CLI integrations after a prior restriction. The move re-opens a popular path for local agent tooling that had been in limbo for two weeks. HN front page with 465 points.",
+      "tags": [
+        "Coding",
+        "Skills",
+        "Governance"
+      ],
+      "trending_score": 0.4811,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -111,7 +206,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.6876,
+      "trending_score": 0.6609,
       "mention_count": 1,
       "related_ids": []
     },
@@ -129,26 +224,26 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3275,
+      "trending_score": 0.3148,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "5a62757c703dd941",
       "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
-      "title": "Anthropic board director Chris Liddell: NZ has 5 years \u2014 not 20 \u2014 to adapt to AI",
+      "title": "Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI",
       "title_translated": null,
       "source": "theaicorner",
       "source_tier": 2,
       "region": "nz",
       "published_at": "2026-04-21T01:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years \u2014 not 20 \u2014 to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
+      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
       "tags": [
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3163,
+      "trending_score": 0.304,
       "mention_count": 1,
       "related_ids": []
     },
@@ -166,7 +261,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.6154,
+      "trending_score": 0.5915,
       "mention_count": 1,
       "related_ids": []
     },
@@ -185,7 +280,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.299,
+      "trending_score": 0.2874,
       "mention_count": 1,
       "related_ids": []
     },
@@ -204,7 +299,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.5821,
+      "trending_score": 0.5594,
       "mention_count": 1,
       "related_ids": []
     },
@@ -223,7 +318,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.5821,
+      "trending_score": 0.5594,
       "mention_count": 1,
       "related_ids": []
     },
@@ -241,7 +336,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.5821,
+      "trending_score": 0.5594,
       "mention_count": 1,
       "related_ids": []
     },
@@ -259,7 +354,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.291,
+      "trending_score": 0.2797,
       "mention_count": 1,
       "related_ids": []
     },
@@ -277,7 +372,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.291,
+      "trending_score": 0.2797,
       "mention_count": 1,
       "related_ids": []
     },
@@ -295,7 +390,7 @@
       "tags": [
         "Automation"
       ],
-      "trending_score": 0.291,
+      "trending_score": 0.2797,
       "mention_count": 1,
       "related_ids": []
     },
@@ -313,7 +408,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.291,
+      "trending_score": 0.2797,
       "mention_count": 1,
       "related_ids": []
     },
@@ -332,7 +427,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.2715,
+      "trending_score": 0.261,
       "mention_count": 1,
       "related_ids": []
     },
@@ -351,7 +446,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.5363,
+      "trending_score": 0.5155,
       "mention_count": 1,
       "related_ids": []
     },
@@ -370,7 +465,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.6685,
+      "trending_score": 0.6425,
       "mention_count": 2,
       "related_ids": []
     },
@@ -389,7 +484,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0821,
+      "trending_score": 0.0789,
       "mention_count": 1,
       "related_ids": []
     },
@@ -403,11 +498,11 @@
       "region": "nz",
       "published_at": "2026-04-20T22:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute \u2014 the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2463,
+      "trending_score": 0.2368,
       "mention_count": 1,
       "related_ids": []
     },
@@ -426,7 +521,7 @@
         "Governance",
         "Content"
       ],
-      "trending_score": 0.2944,
+      "trending_score": 0.283,
       "mention_count": 2,
       "related_ids": []
     },
@@ -445,7 +540,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.2941,
+      "trending_score": 0.2826,
       "mention_count": 2,
       "related_ids": []
     },
@@ -463,14 +558,14 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.2205,
+      "trending_score": 0.2119,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "e59e6f351c8b5541",
       "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "title": "Microsoft adjusts GitHub Copilot plans and pricing \u2014 Opus 4.7 restricted to Pro+",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
@@ -482,7 +577,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.2175,
+      "trending_score": 0.209,
       "mention_count": 1,
       "related_ids": []
     },
@@ -500,7 +595,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2142,
+      "trending_score": 0.2059,
       "mention_count": 1,
       "related_ids": []
     },
@@ -519,7 +614,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.213,
+      "trending_score": 0.2047,
       "mention_count": 1,
       "related_ids": []
     },
@@ -538,7 +633,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.2306,
+      "trending_score": 0.2217,
       "mention_count": 2,
       "related_ids": []
     },
@@ -556,14 +651,14 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.3248,
+      "trending_score": 0.3122,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "f8363d42b74365e2",
       "url": "https://www.latent.space/p/noetik",
-      "title": "Training Transformers to solve 95% failure rate of Cancer Trials \u2014 Noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
@@ -574,7 +669,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.153,
+      "trending_score": 0.1471,
       "mention_count": 1,
       "related_ids": []
     },
@@ -593,7 +688,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.1836,
+      "trending_score": 0.1765,
       "mention_count": 2,
       "related_ids": []
     },
@@ -607,11 +702,11 @@
       "region": "us",
       "published_at": "2026-04-20T14:00:00Z",
       "first_seen_at": "2026-04-21T06:22:26.022873Z",
-      "summary": "Fran\u00e7ois Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics \u2014 echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
+      "summary": "François Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics — echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0422,
+      "trending_score": 0.0405,
       "mention_count": 1,
       "related_ids": []
     },
@@ -630,7 +725,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.294,
+      "trending_score": 0.2826,
       "mention_count": 2,
       "related_ids": []
     },
@@ -649,7 +744,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.1409,
+      "trending_score": 0.1354,
       "mention_count": 2,
       "related_ids": []
     },
@@ -668,7 +763,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.1396,
+      "trending_score": 0.1342,
       "mention_count": 2,
       "related_ids": []
     },
@@ -686,7 +781,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0381,
+      "trending_score": 0.0366,
       "mention_count": 2,
       "related_ids": []
     },
@@ -705,7 +800,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.2021,
+      "trending_score": 0.1942,
       "mention_count": 2,
       "related_ids": []
     },
@@ -724,7 +819,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0423,
+      "trending_score": 0.0406,
       "mention_count": 1,
       "related_ids": []
     },
@@ -743,7 +838,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.0788,
+      "trending_score": 0.0757,
       "mention_count": 1,
       "related_ids": []
     },
@@ -762,7 +857,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0327,
+      "trending_score": 0.0315,
       "mention_count": 1,
       "related_ids": []
     },
@@ -781,7 +876,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0053,
+      "trending_score": 0.0051,
       "mention_count": 1,
       "related_ids": []
     },
@@ -819,14 +914,14 @@
         "Agents",
         "Skills"
       ],
-      "trending_score": 0.0013,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": []
     },
     {
       "id": "b2505b70da0900a6",
       "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
-      "title": "Anthropic Claude Opus 4.7 \u2014 literally one step better than 4.6 in every dimension",
+      "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
