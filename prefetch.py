@@ -45,8 +45,7 @@ META_AGGREGATOR_SOURCES = [
 
 # Phase 2: T1 lab blogs — fetched after meta-aggregators, deduped against them
 T1_LAB_SOURCES = [
-    {"url": "https://www.anthropic.com/news/rss.xml",
-     "name": "anthropic",    "tier": 1, "region": "us"},
+    # anthropic + mistral omitted — they post on X, caught via X handles
     {"url": "https://openai.com/blog/rss.xml",
      "name": "openai",       "tier": 1, "region": "us"},
     {"url": "https://deepmind.google/blog/rss.xml",
@@ -55,8 +54,6 @@ T1_LAB_SOURCES = [
      "name": "google-ai",    "tier": 1, "region": "us"},
     {"url": "https://blogs.microsoft.com/ai/feed/",
      "name": "microsoft-ai", "tier": 1, "region": "us"},
-    {"url": "https://mistral.ai/news/rss.xml",
-     "name": "mistral",      "tier": 1, "region": "eu"},
     {"url": "https://huggingface.co/blog/feed.xml",
      "name": "huggingface",  "tier": 1, "region": "us"},
     {"url": "https://blogs.nvidia.com/feed/",
@@ -77,8 +74,7 @@ WEB_SOURCES = [
      "name": "xai",          "tier": 1, "region": "us"},
     {"url": "https://blogs.nvidia.com/blog/category/generative-ai/",
      "name": "nvidia-genai", "tier": 1, "region": "us"},
-    {"url": "https://api-docs.deepseek.com/news/news",
-     "name": "deepseek",     "tier": 1, "region": "cn"},
+    # deepseek omitted — posts on X, caught via X handles
     {"url": "https://qwen.readthedocs.io/en/latest/",
      "name": "qwen",         "tier": 1, "region": "cn"},
 ]
