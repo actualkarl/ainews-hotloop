@@ -658,6 +658,29 @@ button { font-family: inherit; }
   letter-spacing: 0.02em;
 }
 
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: var(--color-surface-muted);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--easing-default), color var(--duration-fast) var(--easing-default), border-color var(--duration-fast) var(--easing-default);
+}
+.theme-toggle:hover {
+  background: var(--color-surface-card);
+  color: var(--color-text-primary);
+  border-color: var(--color-border, var(--color-text-muted));
+}
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--color-text-primary);
+  outline-offset: 2px;
+}
+
 .region-badge,
 .tier-badge {
   display: inline-flex;

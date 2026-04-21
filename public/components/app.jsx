@@ -23,7 +23,14 @@ function App() {
   const [generatedAt, setGeneratedAt] = React.useState(null);
   const [nextRefreshAt, setNextRefreshAt] = React.useState(null);
   const [showBreaking, setShowBreaking] = React.useState(true);
-  const [tweaks, setTweaks] = React.useState(() => window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true });
+  const [tweaks, setTweaks] = React.useState(() => {
+    const defaults = window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true };
+    try {
+      const stored = JSON.parse(localStorage.getItem('ainews:tweaks') || 'null');
+      if (stored && typeof stored === 'object') return { ...defaults, ...stored };
+    } catch (e) {}
+    return defaults;
+  });
   const [tweaksOpen, setTweaksOpen] = React.useState(false);
 
   // Edit mode wiring (only fires inside Claude Design tool; harmless in prod)
@@ -68,6 +75,7 @@ function App() {
   const updateTweak = (patch) => {
     const next = { ...tweaks, ...patch };
     setTweaks(next);
+    try { localStorage.setItem('ainews:tweaks', JSON.stringify(next)); } catch (e) {}
     window.parent.postMessage({ type: '__edit_mode_set_keys', edits: patch }, '*');
   };
 
@@ -115,7 +123,7 @@ function App() {
 
   return (
     <div className="app" data-density={tweaks.density} data-layout={tweaks.layout}>
-      <TopBar generatedAt={generatedAt} nextRefreshAt={nextRefreshAt} loading={loading} />
+      <TopBar generatedAt={generatedAt} nextRefreshAt={nextRefreshAt} loading={loading} dark={tweaks.dark} onToggleDark={() => updateTweak({ dark: !tweaks.dark })} />
       <SearchRow query={query} onQuery={setQuery} />
       <main className="main">
         <div className="main__inner">
@@ -193,7 +201,7 @@ function formatRelative(ms) {
   return future ? `in ${days}d` : `${days}d ago`;
 }
 
-function TopBar({ generatedAt, nextRefreshAt, loading }) {
+function TopBar({ generatedAt, nextRefreshAt, loading, dark, onToggleDark }) {
   const [, setTick] = React.useState(0);
   React.useEffect(() => {
     const id = setInterval(() => setTick(t => t + 1), 30000);
@@ -230,6 +238,18 @@ function TopBar({ generatedAt, nextRefreshAt, loading }) {
               {nextLabel && <span className="refresh-status__next">{nextLabel}</span>}
             </div>
           </div>
+          <button
+            className="theme-toggle"
+            onClick={onToggleDark}
+            aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+            title={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+          >
+            {dark ? (
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            ) : (
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            )}
+          </button>
         </div>
       </div>
     </header>
