@@ -6,70 +6,14 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 21 Apr 2026 11:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 20:48:22 +0000</lastBuildDate>
     <item>
-      <title>From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI</title>
-      <link>https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</link>
-      <description>NVIDIA optimises Google Gemma 4 for RTX and DGX Spark hardware, enabling local on-device agentic AI workflows. Extends capable open model inference to workstation and consumer hardware without cloud dependency.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</guid>
+      <title>Chollet: current AI systems lack metacognition — they cannot accurately model their own capabilities</title>
+      <link>https://x.com/i/status/2046598650055500094</link>
+      <description>François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don&apos;t know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.</description>
+      <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2046598650055500094</guid>
       <category>Models, Agents</category>
-    </item>
-    <item>
-      <title>New NVIDIA Nemotron 3 Super Delivers 5x Higher Throughput for Agentic AI</title>
-      <link>https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/</link>
-      <description>Nemotron 3 Super achieves 5x inference throughput versus prior Nemotron models, optimised for multi-step agentic workloads. Targets production agent deployments where latency and cost are constraints.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/</guid>
-      <category>Models, Agents</category>
-    </item>
-    <item>
-      <title>Grok 4.1 Fast and Agent Tools API</title>
-      <link>https://x.ai/news/grok-4-1-fast</link>
-      <description>xAI releases Grok 4.1 Fast, a speed-optimised model variant, alongside a new Agent Tools API for agentic integrations. Closes the Grok developer tooling gap compared with OpenAI and Anthropic agent SDKs.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
-      <category>Models, Agents</category>
-    </item>
-    <item>
-      <title>Grok Speech-to-Text and Text-to-Speech APIs</title>
-      <link>https://x.ai/news/grok-stt-and-tts-apis</link>
-      <description>xAI launches STT and TTS APIs via Grok, opening voice-interface capability to developers. Expands xAI beyond text-only LLM into the multimodal audio stack.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-stt-and-tts-apis</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
-      <title>xAI and El Salvador Pioneer the World's First Nationwide AI Education Program</title>
-      <link>https://x.ai/news/el-salvador-partnership</link>
-      <description>xAI partners with El Salvador to deploy a national AI education curriculum built on Grok. First country-scale deployment of a frontier AI model as an educational platform; governance and geopolitical precedent.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/el-salvador-partnership</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>xAI Supports the US Department of War with AI</title>
-      <link>https://x.ai/news/us-gov-dept-of-war</link>
-      <description>xAI announces a partnership with the US Department of War (formerly Defense) to deploy Grok for military mission support. Marks the frontier lab's entry into defence-sector AI alongside Palantir and Microsoft.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/us-gov-dept-of-war</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <description>Meta introduces Muse Spark, a creative AI system framed as a step towards personal superintelligence, focused on scaling generative and reasoning capabilities for individual users.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
-      <title>SAM 3.1: Real-Time Video Detection and Tracking with Multiplexing</title>
-      <link>https://ai.meta.com/blog/segment-anything-model-3/</link>
-      <description>Meta releases SAM 3.1 with multiplexed real-time video segmentation and global reasoning, significantly faster than SAM 2. Key primitive for video-based agentic perception and content workflows.</description>
-      <pubDate>Tue, 21 Apr 2026 11:06:57 +0000</pubDate>
-      <guid isPermaLink="true">https://ai.meta.com/blog/segment-anything-model-3/</guid>
-      <category>Models, Content</category>
     </item>
     <item>
       <title>QIMMA: A Quality-First Arabic LLM Leaderboard</title>
@@ -78,6 +22,14 @@
       <pubDate>Tue, 21 Apr 2026 10:09:58 +0000</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard</guid>
       <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>LeCun: AI existential risk framing is wrong — misuse and power concentration are the real dangers</title>
+      <link>https://x.com/i/status/2046577402264870958</link>
+      <description>Yann LeCun pushes back on p(doom) framing, arguing the real AI risk is not autonomous superintelligence but concentration of AI power in a few companies and misuse by state or corporate actors. He calls for open-source AI development and international governance structures as the appropriate countermeasures.</description>
+      <pubDate>Tue, 21 Apr 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2046577402264870958</guid>
+      <category>Governance, Models</category>
     </item>
     <item>
       <title>OpenAI Images v2 rolling out to all ChatGPT accounts</title>
@@ -98,15 +50,15 @@
     <item>
       <title>Google: Gemini expands in Chrome to more Asia-Pacific countries with summarization and image editing</title>
       <link>https://x.com/i/status/2046393908629004443</link>
-      <description>Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google's browser-native AI layer to a wider international audience as part of Chrome's AI-first roadmap.</description>
+      <description>Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google&apos;s browser-native AI layer to a wider international audience as part of Chrome&apos;s AI-first roadmap.</description>
       <pubDate>Tue, 21 Apr 2026 02:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2046393908629004443</guid>
       <category>Models</category>
     </item>
     <item>
-      <title>Jeff Bezos' Project Prometheus nears $10B fundraising deal at $38B valuation</title>
+      <title>Jeff Bezos&apos; Project Prometheus nears $10B fundraising deal at $38B valuation</title>
       <link>https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded</link>
-      <description>Jeff Bezos' AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.</description>
+      <description>Jeff Bezos&apos; AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.</description>
       <pubDate>Tue, 21 Apr 2026 01:25:01 +0000</pubDate>
       <guid isPermaLink="true">https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded</guid>
       <category>Models</category>
@@ -114,7 +66,7 @@
     <item>
       <title>Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI</title>
       <link>https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20</link>
-      <description>Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.</description>
+      <description>Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft&apos;s Auckland AI summit frame AI readiness as a national emergency.</description>
       <pubDate>Tue, 21 Apr 2026 01:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20</guid>
       <category>Governance, Models</category>
@@ -128,7 +80,7 @@
       <category>Agents</category>
     </item>
     <item>
-      <title>Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6</title>
+      <title>Moonshot Kimi K2.6: world&apos;s leading Open Model refreshes to catch up to Opus 4.6</title>
       <link>https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds</link>
       <description>Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.</description>
       <pubDate>Tue, 21 Apr 2026 00:19:33 +0000</pubDate>
@@ -136,9 +88,25 @@
       <category>Models, Agents</category>
     </item>
     <item>
+      <title>AI and the Future of Cybersecurity: Why Openness Matters</title>
+      <link>https://huggingface.co/blog/cybersecurity-openness</link>
+      <description>HuggingFace argues that open AI models are essential for cybersecurity: open weights let defenders audit, adapt, and harden AI systems without vendor lock-in, while closed models create opaque attack surfaces. The post surveys open-source security tooling built on HF-hosted models and calls for the community to prioritise security benchmarks alongside capability evals.</description>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/cybersecurity-openness</guid>
+      <category>Governance, Models</category>
+    </item>
+    <item>
+      <title>Scaling Codex to enterprises worldwide</title>
+      <link>https://openai.com/index/scaling-codex-to-enterprises-worldwide</link>
+      <description>OpenAI launches Codex Labs for enterprise, partnering with Accenture, PwC, and Infosys to deploy Codex across software development lifecycles at scale. The rollout comes as Codex reached 4 million weekly active users in under two weeks, validating rapid adoption of AI-native coding agents beyond individual developers.</description>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/scaling-codex-to-enterprises-worldwide</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
       <title>Microsoft doubles AI upskilling commitment in NZ, targeting 200,000 Kiwis by 2028</title>
       <link>https://news.microsoft.com/source/asia/features/auckland-ai-tour-economic-impact-report/</link>
-      <description>Microsoft President Jane Livesey announced NZ$9.4 billion in economic contribution to New Zealand in FY25 and a commitment to double AI and digital upskilling initiatives, reaching 200,000 Kiwis by 2028. The report highlights the NZ North datacentre region's role in enabling digital sovereignty alongside Microsoft's AI partnership commitments.</description>
+      <description>Microsoft President Jane Livesey announced NZ$9.4 billion in economic contribution to New Zealand in FY25 and a commitment to double AI and digital upskilling initiatives, reaching 200,000 Kiwis by 2028. The report highlights the NZ North datacentre region&apos;s role in enabling digital sovereignty alongside Microsoft&apos;s AI partnership commitments.</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://news.microsoft.com/source/asia/features/auckland-ai-tour-economic-impact-report/</guid>
       <category>Governance</category>
@@ -146,7 +114,7 @@
     <item>
       <title>Microsoft CEO in Auckland: AI could add $102B to NZ economy by 2038</title>
       <link>https://www.nzherald.co.nz/business/microsoft-dangles-102-billion-ai-boost-to-new-zealands-economy-by-2038-as-its-ceo-hits-auckland/premium/YERWHGFXHNBRBN4UVF3BAQJSIQ</link>
-      <description>Microsoft CEO Satya Nadella visited Auckland and projected AI could add NZ$102 billion to New Zealand's economy by 2038. Microsoft also announced expanded AI training initiatives alongside the visit, framing AI adoption as urgent for NZ productivity and competitiveness.</description>
+      <description>Microsoft CEO Satya Nadella visited Auckland and projected AI could add NZ$102 billion to New Zealand&apos;s economy by 2038. Microsoft also announced expanded AI training initiatives alongside the visit, framing AI adoption as urgent for NZ productivity and competitiveness.</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nzherald.co.nz/business/microsoft-dangles-102-billion-ai-boost-to-new-zealands-economy-by-2038-as-its-ceo-hits-auckland/premium/YERWHGFXHNBRBN4UVF3BAQJSIQ</guid>
       <category>Governance</category>
@@ -154,7 +122,7 @@
     <item>
       <title>NZ Law Commission launches review of AI in public sector decision-making</title>
       <link>https://www.nbr.co.nz/law/law-commission-to-review-government-use-of-ai</link>
-      <description>New Zealand's Law Commission is launching a formal review of AI use in public sector decision-making, responding to legal challenges around AI-driven government outcomes. The review will examine accountability, transparency, and citizen appeal rights for automated decisions.</description>
+      <description>New Zealand&apos;s Law Commission is launching a formal review of AI use in public sector decision-making, responding to legal challenges around AI-driven government outcomes. The review will examine accountability, transparency, and citizen appeal rights for automated decisions.</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nbr.co.nz/law/law-commission-to-review-government-use-of-ai</guid>
       <category>Governance</category>
@@ -178,7 +146,7 @@
     <item>
       <title>Canva CEO on building proprietary AI, token pricing, and competing with AI-first design tools</title>
       <link>https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design</link>
-      <description>Canva CEO Melanie Perkins discusses the company's enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva's positioning against Adobe's AI suite and the growing wave of AI-first design entrants.</description>
+      <description>Canva CEO Melanie Perkins discusses the company&apos;s enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva&apos;s positioning against Adobe&apos;s AI suite and the growing wave of AI-first design entrants.</description>
       <pubDate>Mon, 20 Apr 2026 23:10:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design</guid>
       <category>Content, Models</category>
@@ -202,7 +170,7 @@
     <item>
       <title>Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points</title>
       <link>https://x.com/i/status/2046017433199374610</link>
-      <description>Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.</description>
+      <description>Andrej Karpathy highlights Bryan Johnson&apos;s deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.</description>
       <pubDate>Mon, 20 Apr 2026 22:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2046017433199374610</guid>
       <category>Agents, Models</category>
@@ -226,7 +194,7 @@
     <item>
       <title>OpenAI rolls out Chronicle for Codex on macOS</title>
       <link>https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/</link>
-      <description>OpenAI introduced Chronicle, a feature that builds memories from screen captures to enhance Codex's contextual awareness. Currently a research preview for Pro subscribers on macOS.</description>
+      <description>OpenAI introduced Chronicle, a feature that builds memories from screen captures to enhance Codex&apos;s contextual awareness. Currently a research preview for Pro subscribers on macOS.</description>
       <pubDate>Mon, 20 Apr 2026 21:20:02 +0000</pubDate>
       <guid isPermaLink="true">https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/</guid>
       <category>Coding, Agents</category>
@@ -246,6 +214,38 @@
       <pubDate>Mon, 20 Apr 2026 20:30:12 +0000</pubDate>
       <guid isPermaLink="true">https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/</guid>
       <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>AI Resistance is growing: anti-AI pushback worth tracking</title>
+      <link>https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</link>
+      <description>Roundup of organized resistance to AI deployments across creative industries, academic institutions, and labor movements, with 150+ HN points. Covers key campaigns, boycotts, and legislation attempts targeting AI systems.</description>
+      <pubDate>Mon, 20 Apr 2026 20:19:13 +0000</pubDate>
+      <guid isPermaLink="true">https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Microsoft plans token-based billing for GitHub Copilot</title>
+      <link>https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</link>
+      <description>Internal documents reveal Microsoft intends to shift GitHub Copilot from request-based to token-based billing. The week-over-week cost to run it has nearly doubled since January.</description>
+      <pubDate>Mon, 20 Apr 2026 20:15:07 +0000</pubDate>
+      <guid isPermaLink="true">https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>Reading today&apos;s open-closed performance gap</title>
+      <link>https://www.interconnects.ai/p/reading-todays-open-closed-performance</link>
+      <description>Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.</description>
+      <pubDate>Mon, 20 Apr 2026 18:25:02 +0000</pubDate>
+      <guid isPermaLink="true">https://www.interconnects.ai/p/reading-todays-open-closed-performance</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments</title>
+      <link>https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/</link>
+      <description>NVIDIA details how AGENTS.md files can be weaponised for indirect prompt injection in multi-agent pipelines, and provides practical mitigations. Essential reading for anyone building or auditing production agentic systems.</description>
+      <pubDate>Mon, 20 Apr 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/</guid>
+      <category>Agents</category>
     </item>
   </channel>
 </rss>
