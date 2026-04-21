@@ -2,8 +2,8 @@
 // filters/searches client-side, renders the design-system feed.
 
 const ALL_TAGS = ["Models", "Agents", "Automation", "Coding", "Skills", "Content", "Governance"];
-const ALL_REGIONS = [{ id: 'us', label: 'US' }, { id: 'cn', label: 'CN' }, { id: 'eu', label: 'EU' }];
-const ALL_TIERS = [{ id: 1, label: 'T1' }, { id: 2, label: 'T2' }, { id: 3, label: 'T3' }];
+const ALL_REGIONS = [{ id: 'us', label: 'US' }, { id: 'cn', label: 'CN' }, { id: 'eu', label: 'EU' }, { id: 'nz', label: 'NZ' }];
+const DEFAULT_WINDOW = '24h';
 
 const TIME_WINDOWS = [
   { id: 'today',  label: 'Today',   maxMins: 60 * 24 },
@@ -16,8 +16,8 @@ function App() {
   const [items, setItems] = React.useState([]);
   const [activeTag, setActiveTag] = React.useState(null);
   const [activeRegions, setActiveRegions] = React.useState(new Set());
-  const [activeTiers, setActiveTiers] = React.useState(new Set());
-  const [windowId, setWindowId] = React.useState('24h');
+  const [windowId, setWindowId] = React.useState(DEFAULT_WINDOW);
+  const [drawerOpen, setDrawerOpen] = React.useState(false);
   const [query, setQuery] = React.useState('');
   const [loading, setLoading] = React.useState(false);
   const [generatedAt, setGeneratedAt] = React.useState(null);
@@ -93,14 +93,32 @@ function App() {
     let pool = items
       .filter(i => i.timeAgoMins <= win.maxMins)
       .filter(i => !activeTag || i.tags.includes(activeTag))
-      .filter(i => activeRegions.size === 0 || (i.region && activeRegions.has(i.region)))
-      .filter(i => activeTiers.size === 0 || (i.source_tier && activeTiers.has(i.source_tier)));
+      .filter(i => activeRegions.size === 0 || (i.region && activeRegions.has(i.region)));
     if (query.trim() && fuse) {
       const hits = new Set(fuse.search(query.trim()).map(r => r.item.id));
       pool = pool.filter(i => hits.has(i.id));
     }
     return pool.sort((a, b) => a.timeAgoMins - b.timeAgoMins);
-  }, [items, activeTag, activeRegions, activeTiers, windowId, query, fuse]);
+  }, [items, activeTag, activeRegions, windowId, query, fuse]);
+
+  const activeFilterCount =
+    (activeTag ? 1 : 0) +
+    activeRegions.size +
+    (windowId !== DEFAULT_WINDOW ? 1 : 0);
+
+  const resetAllFilters = () => {
+    setActiveTag(null);
+    setActiveRegions(new Set());
+    setWindowId(DEFAULT_WINDOW);
+  };
+
+  // Close drawer on ESC
+  React.useEffect(() => {
+    if (!drawerOpen) return;
+    const onKey = (e) => { if (e.key === 'Escape') setDrawerOpen(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [drawerOpen]);
 
   const breaking = React.useMemo(() => {
     return [...items]
@@ -123,7 +141,15 @@ function App() {
 
   return (
     <div className="app" data-density={tweaks.density} data-layout={tweaks.layout}>
-      <TopBar generatedAt={generatedAt} nextRefreshAt={nextRefreshAt} loading={loading} dark={tweaks.dark} onToggleDark={() => updateTweak({ dark: !tweaks.dark })} />
+      <TopBar
+        generatedAt={generatedAt}
+        nextRefreshAt={nextRefreshAt}
+        loading={loading}
+        dark={tweaks.dark}
+        onToggleDark={() => updateTweak({ dark: !tweaks.dark })}
+        activeFilterCount={activeFilterCount}
+        onOpenFilters={() => setDrawerOpen(true)}
+      />
       <SearchRow query={query} onQuery={setQuery} />
       <main className="main">
         <div className="main__inner">
@@ -133,27 +159,19 @@ function App() {
             <BreakingStrip items={breaking} />
           )}
 
-          <FilterBar
-            tags={ALL_TAGS}
-            tagCounts={tagCounts}
-            activeTag={activeTag}
-            onTagClick={t => setActiveTag(activeTag === t ? null : t)}
-            windowId={windowId}
-            onWindowChange={setWindowId}
-            windows={TIME_WINDOWS}
-            count={feedItems.length}
-            regions={ALL_REGIONS}
-            activeRegions={activeRegions}
-            onRegionToggle={r => setActiveRegions(s => toggleSet(s, r))}
-            tiers={ALL_TIERS}
-            activeTiers={activeTiers}
-            onTierToggle={t => setActiveTiers(s => toggleSet(s, t))}
-          />
+          <div className="feed-meta">
+            <span className="feed-meta__count">
+              <span className="feed-meta__count-num">{feedItems.length}</span> stor{feedItems.length === 1 ? 'y' : 'ies'} showing
+            </span>
+            {activeFilterCount > 0 && (
+              <button className="feed-meta__reset" onClick={resetAllFilters}>Reset filters</button>
+            )}
+          </div>
 
           {feedItems.length === 0 ? (
             <EmptyState
               hasItems={items.length > 0}
-              onReset={() => { setActiveTag(null); setActiveRegions(new Set()); setActiveTiers(new Set()); setWindowId('all'); setQuery(''); }}
+              onReset={() => { resetAllFilters(); setQuery(''); }}
             />
           ) : (
             <div className={"feed feed--" + (tweaks.layout || 'grid')}>
@@ -164,6 +182,24 @@ function App() {
           )}
         </div>
       </main>
+
+      <FilterDrawer
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+        tags={ALL_TAGS}
+        tagCounts={tagCounts}
+        activeTag={activeTag}
+        onTagClick={t => setActiveTag(activeTag === t ? null : t)}
+        windowId={windowId}
+        onWindowChange={setWindowId}
+        windows={TIME_WINDOWS}
+        regions={ALL_REGIONS}
+        activeRegions={activeRegions}
+        onRegionToggle={r => setActiveRegions(s => toggleSet(s, r))}
+        count={feedItems.length}
+        activeFilterCount={activeFilterCount}
+        onResetAll={resetAllFilters}
+      />
 
       {tweaksOpen && <TweaksPanel tweaks={tweaks} onChange={updateTweak} onClose={() => setTweaksOpen(false)} />}
     </div>
@@ -201,7 +237,7 @@ function formatRelative(ms) {
   return future ? `in ${days}d` : `${days}d ago`;
 }
 
-function TopBar({ generatedAt, nextRefreshAt, loading, dark, onToggleDark }) {
+function TopBar({ generatedAt, nextRefreshAt, loading, dark, onToggleDark, activeFilterCount, onOpenFilters }) {
   const [, setTick] = React.useState(0);
   React.useEffect(() => {
     const id = setInterval(() => setTick(t => t + 1), 30000);
@@ -239,6 +275,20 @@ function TopBar({ generatedAt, nextRefreshAt, loading, dark, onToggleDark }) {
             </div>
           </div>
           <button
+            className="filters-trigger"
+            onClick={onOpenFilters}
+            aria-label="Open filters"
+            title="Open filters"
+          >
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <line x1="4" y1="6" x2="14" y2="6"/><circle cx="17" cy="6" r="2"/>
+              <line x1="4" y1="12" x2="9" y2="12"/><circle cx="12" cy="12" r="2"/><line x1="14" y1="12" x2="20" y2="12"/>
+              <line x1="4" y1="18" x2="14" y2="18"/><circle cx="17" cy="18" r="2"/>
+            </svg>
+            <span className="filters-trigger__label">Filters</span>
+            {activeFilterCount > 0 && <span className="filters-trigger__badge">{activeFilterCount}</span>}
+          </button>
+          <button
             className="theme-toggle"
             onClick={onToggleDark}
             aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
@@ -271,76 +321,99 @@ function PageHeader({ total, fresh }) {
   );
 }
 
-function FilterBar({
+function FilterDrawer({
+  open, onClose,
   tags, tagCounts, activeTag, onTagClick,
-  windowId, onWindowChange, windows, count,
+  windowId, onWindowChange, windows,
   regions, activeRegions, onRegionToggle,
-  tiers, activeTiers, onTierToggle,
+  count, activeFilterCount, onResetAll,
 }) {
   return (
-    <div className="filterbar">
-      <div className="filterbar__row">
-        <div className="filterbar__chips">
-          <button
-            className={"tag-chip" + (!activeTag ? " tag-chip--active" : "")}
-            onClick={() => onTagClick(null)}
-          >
-            <span className="tag-dot tag-dot--all" />
-            All
+    <React.Fragment>
+      <div
+        className={"drawer-backdrop" + (open ? " drawer-backdrop--open" : "")}
+        onClick={onClose}
+        aria-hidden={!open}
+      />
+      <aside
+        className={"drawer" + (open ? " drawer--open" : "")}
+        role="dialog"
+        aria-label="Filters"
+        aria-hidden={!open}
+      >
+        <header className="drawer__head">
+          <h2 className="drawer__title">Filters</h2>
+          <button className="drawer__close" onClick={onClose} aria-label="Close filters">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
           </button>
-          {tags.map(t => (
-            <TagChip
-              key={t}
-              label={t}
-              active={activeTag === t}
-              onClick={() => onTagClick(t)}
-              count={tagCounts[t]}
-            />
-          ))}
+        </header>
+        <div className="drawer__body">
+          <section className="drawer__section">
+            <h3 className="drawer__section-title">Tags</h3>
+            <div className="drawer__chips">
+              <button
+                className={"tag-chip" + (!activeTag ? " tag-chip--active" : "")}
+                onClick={() => onTagClick(null)}
+              >
+                <span className="tag-dot tag-dot--all" />
+                All
+              </button>
+              {tags.map(t => (
+                <TagChip
+                  key={t}
+                  label={t}
+                  active={activeTag === t}
+                  onClick={() => onTagClick(t)}
+                  count={tagCounts[t]}
+                />
+              ))}
+            </div>
+          </section>
+
+          <section className="drawer__section">
+            <h3 className="drawer__section-title">Time window</h3>
+            <div className="drawer__buttons">
+              {windows.map(w => (
+                <button
+                  key={w.id}
+                  className={"window-btn" + (windowId === w.id ? " window-btn--active" : "")}
+                  onClick={() => onWindowChange(w.id)}
+                >
+                  {w.label}
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <section className="drawer__section">
+            <h3 className="drawer__section-title">Region</h3>
+            <div className="drawer__buttons">
+              {regions.map(r => (
+                <button
+                  key={r.id}
+                  className={"window-btn" + (activeRegions.has(r.id) ? " window-btn--active" : "")}
+                  onClick={() => onRegionToggle(r.id)}
+                >
+                  {r.label}
+                </button>
+              ))}
+            </div>
+          </section>
         </div>
-      </div>
-      <div className="filterbar__row filterbar__row--meta">
-        <div className="filterbar__windows">
-          <span className="filterbar__meta-label">Time</span>
-          {windows.map(w => (
-            <button
-              key={w.id}
-              className={"window-btn" + (windowId === w.id ? " window-btn--active" : "")}
-              onClick={() => onWindowChange(w.id)}
-            >
-              {w.label}
-            </button>
-          ))}
-        </div>
-        <div className="filterbar__windows">
-          <span className="filterbar__meta-label">Region</span>
-          {regions.map(r => (
-            <button
-              key={r.id}
-              className={"window-btn" + (activeRegions.has(r.id) ? " window-btn--active" : "")}
-              onClick={() => onRegionToggle(r.id)}
-            >
-              {r.label}
-            </button>
-          ))}
-        </div>
-        <div className="filterbar__windows">
-          <span className="filterbar__meta-label">Tier</span>
-          {tiers.map(t => (
-            <button
-              key={t.id}
-              className={"window-btn" + (activeTiers.has(t.id) ? " window-btn--active" : "")}
-              onClick={() => onTierToggle(t.id)}
-            >
-              {t.label}
-            </button>
-          ))}
-        </div>
-        <div className="filterbar__count">
-          <span className="filterbar__count-num">{count}</span> stor{count === 1 ? 'y' : 'ies'} showing
-        </div>
-      </div>
-    </div>
+        <footer className="drawer__foot">
+          <span className="drawer__count">
+            <span className="drawer__count-num">{count}</span> stor{count === 1 ? 'y' : 'ies'} matching
+          </span>
+          <button
+            className="btn btn--secondary"
+            onClick={onResetAll}
+            disabled={activeFilterCount === 0}
+          >
+            Reset all
+          </button>
+        </footer>
+      </aside>
+    </React.Fragment>
   );
 }
 

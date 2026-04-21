@@ -12,7 +12,7 @@ const TAG_COLORS = {
   "Governance":  { bg: "var(--stone-100)",  fg: "var(--stone-900)",   dot: "var(--stone-700)" },
 };
 
-const REGION_LABELS = { us: "US", cn: "CN", eu: "EU" };
+const REGION_LABELS = { us: "US", cn: "CN", eu: "EU", nz: "NZ" };
 
 function TagChip({ label, active, onClick, count }) {
   const c = TAG_COLORS[label] || TAG_COLORS["Models"];
@@ -42,11 +42,6 @@ function TagBadge({ label }) {
 function RegionBadge({ region }) {
   if (!region) return null;
   return <span className="region-badge" data-region={region}>{REGION_LABELS[region] || region.toUpperCase()}</span>;
-}
-
-function TierBadge({ tier }) {
-  if (!tier) return null;
-  return <span className="tier-badge" data-tier={tier}>T{tier}</span>;
 }
 
 function formatAgo(mins) {
@@ -98,7 +93,6 @@ function NewsCard({ item, density, featured }) {
       {density !== 'compact' && item.summary && <p className="news-card__summary">{item.summary}</p>}
       <footer className="news-card__sources">
         <span className="news-card__sources-label">
-          <TierBadge tier={item.source_tier} />
           {item.citations.length} source{item.citations.length !== 1 ? 's' : ''}
         </span>
         <div className="news-card__sources-list">
@@ -201,6 +195,6 @@ function makeSearchIndex(items) {
 
 Object.assign(window, {
   TagChip, TagBadge, NewsCard, BreakingStrip, TimeBadge, SourcePill,
-  RegionBadge, TierBadge, TAG_COLORS, REGION_LABELS, formatAgo,
+  RegionBadge, TAG_COLORS, REGION_LABELS, formatAgo,
   normalizeItem, makeSearchIndex,
 });
