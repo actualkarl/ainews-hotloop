@@ -1,158 +1,8 @@
 {
-  "generated_at": "2026-04-21T11:06:57.669467Z",
+  "generated_at": "2026-04-21T11:14:18.963379Z",
   "next_refresh_at": "2026-04-21T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "items": [
-    {
-      "id": "a0f97af1ab63b85b",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "NVIDIA optimises Google Gemma 4 for RTX and DGX Spark hardware, enabling local on-device agentic AI workflows. Extends capable open model inference to workstation and consumer hardware without cloud dependency.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "6a79992e5d99dc4c",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
-      "title": "New NVIDIA Nemotron 3 Super Delivers 5x Higher Throughput for Agentic AI",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Nemotron 3 Super achieves 5x inference throughput versus prior Nemotron models, optimised for multi-step agentic workloads. Targets production agent deployments where latency and cost are constraints.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "ea34d2b67722ab5f",
-      "url": "https://x.ai/news/grok-4-1-fast",
-      "title": "Grok 4.1 Fast and Agent Tools API",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "xAI releases Grok 4.1 Fast, a speed-optimised model variant, alongside a new Agent Tools API for agentic integrations. Closes the Grok developer tooling gap compared with OpenAI and Anthropic agent SDKs.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "ff9a42787c4e98e8",
-      "url": "https://x.ai/news/grok-stt-and-tts-apis",
-      "title": "Grok Speech-to-Text and Text-to-Speech APIs",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "xAI launches STT and TTS APIs via Grok, opening voice-interface capability to developers. Expands xAI beyond text-only LLM into the multimodal audio stack.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "16be76934336ff4d",
-      "url": "https://x.ai/news/el-salvador-partnership",
-      "title": "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "xAI partners with El Salvador to deploy a national AI education curriculum built on Grok. First country-scale deployment of a frontier AI model as an educational platform; governance and geopolitical precedent.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "1ab5b5461c7c1c91",
-      "url": "https://x.ai/news/us-gov-dept-of-war",
-      "title": "xAI Supports the US Department of War with AI",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "xAI announces a partnership with the US Department of War (formerly Defense) to deploy Grok for military mission support. Marks the frontier lab's entry into defence-sector AI alongside Palantir and Microsoft.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "a8336fe361e14b12",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Meta introduces Muse Spark, a creative AI system framed as a step towards personal superintelligence, focused on scaling generative and reasoning capabilities for individual users.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "4f7644b6b48ca01b",
-      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
-      "title": "SAM 3.1: Real-Time Video Detection and Tracking with Multiplexing",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": null,
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Meta releases SAM 3.1 with multiplexed real-time video segmentation and global reasoning, significantly faster than SAM 2. Key primitive for video-based agentic perception and content workflows.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
     {
       "id": "aef8afa7768165e1",
       "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
@@ -916,6 +766,25 @@
       "related_ids": []
     },
     {
+      "id": "ff9a42787c4e98e8",
+      "url": "https://x.ai/news/grok-stt-and-tts-apis",
+      "title": "Grok Speech-to-Text and Text-to-Speech APIs",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-17T00:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "xAI launches STT and TTS APIs via Grok, opening voice-interface capability to developers. Expands xAI beyond text-only LLM into the multimodal audio stack.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 0.0004,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "f5afeabfec92889e",
       "url": "https://huggingface.co/blog/ecom-rlve",
       "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
@@ -1057,6 +926,25 @@
       "tags": [
         "Agents",
         "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a8336fe361e14b12",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-08T00:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Meta introduces Muse Spark, a creative AI system framed as a step towards personal superintelligence, focused on scaling generative and reasoning capabilities for individual users.",
+      "tags": [
+        "Models",
+        "Content"
       ],
       "trending_score": 0.0,
       "mention_count": 1,
