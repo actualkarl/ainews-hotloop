@@ -403,6 +403,21 @@ button { font-family: inherit; }
   object-fit: cover;
   display: block;
 }
+/* Avatar variant: tweet profile pics — shorter strip, centered circle */
+.news-card__image--avatar {
+  height: 88px;
+  aspect-ratio: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news-card__image--avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 2px solid var(--color-border-subtle);
+}
 /* List layout: fixed thumbnail on the left */
 .feed--list .news-card__image {
   width: 140px;
@@ -414,8 +429,18 @@ button { font-family: inherit; }
   align-self: center;
   order: -1;
 }
+.feed--list .news-card__image--avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 9999px;
+  margin: 0;
+}
+.feed--list .news-card__image--avatar img {
+  width: 56px;
+  height: 56px;
+}
 /* Magazine featured card: taller image */
-.feed--magazine .news-card:nth-child(7n+1) .news-card__image {
+.feed--magazine .news-card:nth-child(7n+1) .news-card__image:not(.news-card__image--avatar) {
   aspect-ratio: 21 / 9;
 }
 

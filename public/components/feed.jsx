@@ -81,7 +81,7 @@ function NewsCard({ item, density, featured }) {
   return (
     <article className={"news-card" + (featured ? " news-card--featured" : "") + (density === 'compact' ? " news-card--compact" : "")}>
       {item.image_url && density !== 'compact' && (
-        <div className="news-card__image">
+        <div className={"news-card__image" + (item.image_type === 'avatar' ? ' news-card__image--avatar' : '')}>
           <img
             src={item.image_url}
             alt=""
@@ -168,6 +168,7 @@ function normalizeItem(raw) {
     id: raw.id,
     url: raw.url,
     image_url: raw.image_url || null,
+    image_type: raw.image_type || 'photo',
     title: raw.title_translated || raw.title,
     summary: raw.summary || '',
     tags: raw.tags || [],
