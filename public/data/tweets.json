@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-04-22T19:11:41.953245Z",
+  "tweets": [
+    {
+      "handle": "sama",
+      "display_name": "Sam Altman",
+      "text": "These are cool! I think most companies will want to use them [re: OpenAI workspace agents in ChatGPT]",
+      "url": "https://x.com/i/status/2047017964105597009",
+      "posted_at": "2026-04-22T20:00:00Z"
+    },
+    {
+      "handle": "gdb",
+      "display_name": "Greg Brockman",
+      "text": "New workspace agents on cloud-hosted Codex harness. Connect to tools, recurring tasks, Slack integration — Easier than ever to bring agents to your work.",
+      "url": "https://x.com/i/status/2047023089087606814",
+      "posted_at": "2026-04-22T21:00:00Z"
+    },
+    {
+      "handle": "fchollet",
+      "display_name": "François Chollet",
+      "text": "Judging AGI by how well it can mimic us is a category error. We should judge AGI by how well it learns to do things we didn't teach it.",
+      "url": "https://x.com/i/status/2047006540549509248",
+      "posted_at": "2026-04-22T19:00:00Z"
+    },
+    {
+      "handle": "OfficialLoganK",
+      "display_name": "Logan Kilpatrick",
+      "text": "Google's 8th generation TPU — 2-3x performance improvements. So excited for Gemini to leverage these!",
+      "url": "https://x.com/i/status/2046998921508249624",
+      "posted_at": "2026-04-22T22:00:00Z"
+    },
+    {
+      "handle": "OfficialLoganK",
+      "display_name": "Logan Kilpatrick",
+      "text": "This is the agent cloud era [re: Google Cloud CEO Thomas Kurian's Agentic Enterprise keynote at Cloud Next]",
+      "url": "https://x.com/i/status/2046963338878632331",
+      "posted_at": "2026-04-22T16:00:00Z"
+    },
+    {
+      "handle": "sama",
+      "display_name": "Sam Altman",
+      "text": "We want you to have a lot of AI! [confirming Codex remains on free and Plus plans]",
+      "url": "https://x.com/i/status/2046752492093165708",
+      "posted_at": "2026-04-22T12:00:00Z"
+    }
+  ]
+}
