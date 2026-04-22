@@ -1121,5 +1121,10 @@
       "mention_count": 1,
       "related_ids": []
     }
-  ]
+  ],
+  "newsflash": [
+    "d148c51f9554fe18",
+    "7694e1f914850915"
+  ],
+  "daily_summary": "OpenAI launched ChatGPT Images 2.0 globally, the headline move of the day: Instant and Thinking variants now render 2K-resolution images with accurate non-Latin script support (Japanese, Korean, Hindi, Bengali), with a more powerful tier reserved for subscribers. Simon Willison stress-tested it with real prompts and added nuance to the headline claims. Google also pushed three agentic safety features into Ads Advisor, and HuggingFace launched QIMMA, the first quality-first Arabic LLM leaderboard. The thread: frontier labs are shipping product, not just research."
 }
