@@ -154,7 +154,7 @@ function BreakingStrip({ items, onOpen }) {
 // Source shape (from routine):  { id, url, title, summary, tags, source, source_tier,
 //                                 region, published_at, trending_score, ... }
 // Card shape: { id, url, title, summary, tags, region, source_tier,
-//               timeAgoMins, importance, citations[{domain,label,url}] }
+//               timeAgoMins, importance, trending_score, citations[{domain,label,url}] }
 function normalizeItem(raw) {
   const published = raw.published_at ? new Date(raw.published_at).getTime() : Date.now();
   const timeAgoMins = Math.max(0, (Date.now() - published) / 60000);
@@ -175,8 +175,51 @@ function normalizeItem(raw) {
     source_tier: raw.source_tier || null,
     timeAgoMins,
     importance,
+    trending_score: score,
     citations,
   };
+}
+
+function NewsflashBanner({ items }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <div className="newsflash" role="alert" aria-live="polite">
+      <div className="newsflash__inner">
+        <div className="newsflash__label">
+          <span className="newsflash__pulse">
+            <span className="newsflash__pulse-dot" />
+            <span className="newsflash__pulse-ring" />
+          </span>
+          <span className="newsflash__label-text">Newsflash</span>
+        </div>
+        <div className="newsflash__list">
+          {items.map((item, i) => (
+            <a
+              key={i}
+              href={item.url || '#'}
+              target="_blank"
+              rel="noreferrer"
+              className="newsflash__item"
+              onClick={e => { if (!item.url || item.url === '#') e.preventDefault(); }}
+            >
+              <span className="newsflash__item-title">{item.title}</span>
+              {item.source && <span className="newsflash__item-source">{item.source}</span>}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function DailySummary({ text }) {
+  if (!text) return null;
+  return (
+    <div className="daily-summary">
+      <div className="daily-summary__label">Today's brief</div>
+      <p className="daily-summary__text">{text}</p>
+    </div>
+  );
 }
 
 // Build a Fuse index over title + summary + tags. Fuse must be loaded globally.
@@ -197,4 +240,5 @@ Object.assign(window, {
   TagChip, TagBadge, NewsCard, BreakingStrip, TimeBadge, SourcePill,
   RegionBadge, TAG_COLORS, REGION_LABELS, formatAgo,
   normalizeItem, makeSearchIndex,
+  NewsflashBanner, DailySummary,
 });

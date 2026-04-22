@@ -23,6 +23,8 @@ function App() {
   const [generatedAt, setGeneratedAt] = React.useState(null);
   const [nextRefreshAt, setNextRefreshAt] = React.useState(null);
   const [showBreaking, setShowBreaking] = React.useState(true);
+  const [rawNewsflash, setRawNewsflash] = React.useState(null);
+  const [dailySummary, setDailySummary] = React.useState(null);
   const [tweaks, setTweaks] = React.useState(() => {
     const defaults = window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true };
     try {
@@ -63,6 +65,8 @@ function App() {
       if (!Array.isArray(raw)) {
         setGeneratedAt(raw.generated_at ? new Date(raw.generated_at) : null);
         setNextRefreshAt(raw.next_refresh_at ? new Date(raw.next_refresh_at) : null);
+        setRawNewsflash(Array.isArray(raw.newsflash) ? raw.newsflash : null);
+        setDailySummary(raw.daily_summary || null);
       }
     } catch (err) {
       console.error('Failed to load items.json', err);
@@ -133,6 +137,26 @@ function App() {
   const breakingIds = new Set(breaking.map(b => b.id));
   const feedItems = showBreaking ? filtered.filter(i => !breakingIds.has(i.id)) : filtered;
 
+  // Newsflash: explicit array from items.json (published within last 24h),
+  // falling back to high-score T1 feed items when the array is absent.
+  const newsflashItems = React.useMemo(() => {
+    const maxAgeMs = 24 * 3600 * 1000;
+    if (rawNewsflash !== null) {
+      return rawNewsflash
+        .filter(item => {
+          if (!item.published_at) return true;
+          return (Date.now() - new Date(item.published_at).getTime()) < maxAgeMs;
+        })
+        .slice(0, 5);
+    }
+    // Fallback: fresh T1 items with score >= 0.9 not already in breaking strip
+    return items
+      .filter(i => i.source_tier === 1 && i.trending_score >= 0.9 && i.timeAgoMins < 360)
+      .sort((a, b) => b.trending_score - a.trending_score)
+      .slice(0, 3)
+      .map(i => ({ title: i.title, url: i.url, source: i.citations[0]?.label || '', published_at: null }));
+  }, [rawNewsflash, items]);
+
   const toggleSet = (set, value) => {
     const next = new Set(set);
     next.has(value) ? next.delete(value) : next.add(value);
@@ -150,10 +174,12 @@ function App() {
         activeFilterCount={activeFilterCount}
         onOpenFilters={() => setDrawerOpen(true)}
       />
+      {newsflashItems.length > 0 && <NewsflashBanner items={newsflashItems} />}
       <SearchRow query={query} onQuery={setQuery} />
       <main className="main">
         <div className="main__inner">
           <PageHeader total={items.length} fresh={items.filter(i => i.timeAgoMins < 60).length} />
+          {dailySummary && <DailySummary text={dailySummary} />}
 
           {showBreaking && tweaks.showBreaking !== false && breaking.length > 0 && (
             <BreakingStrip items={breaking} />

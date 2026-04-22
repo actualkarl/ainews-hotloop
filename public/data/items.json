@@ -2,6 +2,33 @@
   "generated_at": "2026-04-21T21:16:54Z",
   "next_refresh_at": "2026-04-22T18:00:00Z",
   "schedule": "daily 06:00 NZT",
+  "newsflash": [
+    {
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
+      "source": "simonwillison",
+      "published_at": "2026-04-21T20:32:24Z"
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.0 with Instant and Thinking variants",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "source": "openai",
+      "published_at": "2026-04-21T15:05:00Z"
+    },
+    {
+      "title": "Three new ways Ads Advisor is making Google Ads safer and faster",
+      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "source": "google-ai",
+      "published_at": "2026-04-21T14:30:00Z"
+    },
+    {
+      "title": "QIMMA: A Quality-First Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "source": "huggingface",
+      "published_at": "2026-04-21T10:09:58Z"
+    }
+  ],
+  "daily_summary": "OpenAI led the day with ChatGPT Images 2.0, shipping Instant and Thinking variants with 2K-resolution output, reliable non-Latin script rendering (Japanese, Korean, Hindi, Bengali), and optional web-search grounding during image composition. Simon Willison's stress test — a Where's-Waldo scene featuring a raccoon with a ham radio — confirmed real quality gains while tempering Altman's GPT-3-to-GPT-5 framing with actual prompt results. Google pushed three agentic safety features into Ads Advisor: real-time policy checks, automated anomaly detection on generated ads, and account-protection primitives baked into the agent. Hugging Face and TII co-launched QIMMA, a quality-first Arabic LLM leaderboard covering dialect, culture, and reasoning — a useful calibration tool for multilingual deployments.",
   "items": [
     {
       "id": "7694e1f914850915",
