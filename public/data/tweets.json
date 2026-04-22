@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-04-22T20:00:00Z",
+  "tweets": [
+    {
+      "handle": "gdb",
+      "display_name": "Greg Brockman",
+      "text": "OpenAI co-founder Greg Brockman describes Codex workspace agents running on a cloud-hosted harness with tools and tasks scoped per session. Practical architecture signal for teams building production agentic coding systems on top of Codex.",
+      "url": "https://x.com/i/status/2047023089087606814",
+      "posted_at": "2026-04-22T18:00:00Z"
+    },
+    {
+      "handle": "fchollet",
+      "display_name": "François Chollet",
+      "text": "François Chollet argues that evaluating AGI by how well systems mimic human outputs is a category error. True AGI should be measured by how well a system learns to do things it was not explicitly trained on, including tasks humans themselves cannot perform.",
+      "url": "https://x.com/i/status/2047006540549509248",
+      "posted_at": "2026-04-22T12:00:00Z"
+    },
+    {
+      "handle": "fchollet",
+      "display_name": "François Chollet",
+      "text": "François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
+      "url": "https://x.com/i/status/2046598650055500094",
+      "posted_at": "2026-04-21T12:00:00Z"
+    },
+    {
+      "handle": "ylecun",
+      "display_name": "Yann LeCun",
+      "text": "Yann LeCun pushes back on p(doom) framing, arguing the real AI risk is not autonomous superintelligence but concentration of AI power in a few companies and misuse by state or corporate actors. He calls for open-source AI development and international governance structures as the appropriate countermeasures.",
+      "url": "https://x.com/i/status/2046577402264870958",
+      "posted_at": "2026-04-21T10:00:00Z"
+    },
+    {
+      "handle": "OfficialLoganK",
+      "display_name": "Logan Kilpatrick",
+      "text": "OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.",
+      "url": "https://x.com/i/status/2046494659644399749",
+      "posted_at": "2026-04-21T09:00:00Z"
+    },
+    {
+      "handle": "OfficialLoganK",
+      "display_name": "Logan Kilpatrick",
+      "text": "Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.",
+      "url": "https://x.com/i/status/2046464332444160074",
+      "posted_at": "2026-04-21T08:00:00Z"
+    },
+    {
+      "handle": "google-x",
+      "display_name": "Google AI",
+      "text": "Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google's browser-native AI layer to a wider international audience as part of Chrome's AI-first roadmap.",
+      "url": "https://x.com/i/status/2046393908629004443",
+      "posted_at": "2026-04-21T02:00:00Z"
+    },
+    {
+      "handle": "karpathy",
+      "display_name": "Andrej Karpathy",
+      "text": "Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.",
+      "url": "https://x.com/i/status/2046017433199374610",
+      "posted_at": "2026-04-20T22:00:00Z"
+    }
+  ]
+}

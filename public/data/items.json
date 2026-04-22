@@ -1,8 +1,376 @@
 {
-  "generated_at": "2026-04-21T21:16:54Z",
-  "next_refresh_at": "2026-04-22T18:00:00Z",
+  "generated_at": "2026-04-22T20:00:00Z",
+  "next_refresh_at": "2026-04-23T18:00:00Z",
   "schedule": "daily 06:00 NZT",
+  "newsflash": [
+    "15ad61048ebe01b8",
+    "5a37387ce0e8b8ab",
+    "89013bd05f8d139d",
+    "8f555fe918e1ef56",
+    "3efc4342b784ee3a"
+  ],
+  "daily_summary": "Google Cloud Next dominated the AI hardware story: Google unveiled two 8th-gen TPUs purpose-built for the agentic era, while NVIDIA and Google deepened their physical-AI partnership. Meta released SAM 3.1 with faster video tracking, and OpenAI open-sourced a Privacy Filter model for PII redaction. xAI launched Grok 4.1 Fast with an Agent Tools API, continuing a sprint of model and infrastructure releases that are making the agentic stack significantly more capable and deployable.",
   "items": [
+    {
+      "id": "b5186aea499a7be4",
+      "url": "https://x.com/i/status/2047023089087606814",
+      "title": "Brockman: Codex workspace agents use cloud-hosted harness with scoped tools and tasks",
+      "title_translated": null,
+      "source": "gdb",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-22T18:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "OpenAI co-founder Greg Brockman describes Codex workspace agents running on a cloud-hosted harness with tools and tasks scoped per session. Practical architecture signal for teams building production agentic coding systems on top of Codex.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "trending_score": 0.465,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "15ad61048ebe01b8",
+      "url": "https://huggingface.co/blog/nvidia/gemma4",
+      "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T15:40:50Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "NVIDIA demonstrates Google's Gemma 4 Vision-Language-Action model on the Jetson Orin Nano Super for robotics. The demo shows Gemma 4's VLA capabilities enabling real-time robot control from natural language instructions on edge hardware.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "5a37387ce0e8b8ab",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+      "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+      "title_translated": null,
+      "source": "nvidia",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T12:00:42Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "NVIDIA and Google Cloud deepen a decade-long collaboration into a full-stack AI platform targeting agentic and physical AI. The partnership focuses on production deployment of autonomous agents and AI factories, with joint engineering across NVIDIA's compute stack and Google Cloud's managed services.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "89013bd05f8d139d",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "title": "Google launches two specialized 8th-gen TPUs for the agentic era",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T12:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "Google unveiled the 8th-generation TPU with two specialised chips — v8t for training and v8i for inference — purpose-built for agentic AI workloads powering Gemini. Major performance gains over prior generations confirmed at Google Cloud Next.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "77a1719a394c087b",
+      "url": "https://x.com/i/status/2047006540549509248",
+      "title": "Chollet: judging AGI by mimicry is a category error — measure by learning what wasn't taught",
+      "title_translated": null,
+      "source": "fchollet",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-22T12:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "François Chollet argues that evaluating AGI by how well systems mimic human outputs is a category error. True AGI should be measured by how well a system learns to do things it was not explicitly trained on, including tasks humans themselves cannot perform.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.282,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "8f555fe918e1ef56",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T10:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "OpenAI details how WebSocket connections and connection-scoped caching in the Responses API reduced latency in the Codex agent loop. Persistent connections cut API overhead in long-running agent tasks, with benchmarks showing the improvement.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "3efc4342b784ee3a",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "title": "Introducing OpenAI Privacy Filter",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "OpenAI releases Privacy Filter, an open-weight model for detecting and redacting PII in text with claimed state-of-the-art accuracy. Available as a standalone model for developers building privacy-compliant pipelines without closed API dependencies.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a0f97af1ab63b85b",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
+      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
+      "title_translated": null,
+      "source": "nvidia-genai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "NVIDIA walks through running Google Gemma 4 locally on RTX PCs and DGX Sparks for agentic tasks without cloud dependency. Practical guide for developers deploying Gemma 4 at the edge for latency-sensitive agent applications.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "2815eb572abf549b",
+      "url": "https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/",
+      "title": "The Future of AI Is Open and Proprietary",
+      "title_translated": null,
+      "source": "nvidia-genai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "NVIDIA argues the AI future isn't a binary open-vs-closed debate: proprietary models drive frontier capabilities while open models enable customisation and local deployment. Maps which approach wins in each enterprise scenario.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "bc30b236bf7907bd",
+      "url": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/",
+      "title": "How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell",
+      "title_translated": null,
+      "source": "nvidia-genai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "NVIDIA's OpenShell runtime provides a secure execution environment for autonomous agents, enforcing least-privilege policies and sandboxing agent actions. Relevant for anyone deploying production agents that interact with external systems or sensitive data.",
+      "tags": [
+        "Agents",
+        "Governance"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ea34d2b67722ab5f",
+      "url": "https://x.ai/news/grok-4-1-fast",
+      "title": "Grok 4.1 Fast and Agent Tools API",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "xAI releases Grok 4.1 Fast, a speed-optimised variant of Grok 4, alongside an Agent Tools API for building agentic workflows. Positions Grok as a low-latency inference option for agent applications and opens programmatic tool use to developers.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "1ab5b5461c7c1c91",
+      "url": "https://x.ai/news/us-gov-dept-of-war",
+      "title": "xAI partners with US Department of War on AI for national security",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "xAI announced a partnership with the US Department of War to deploy Grok models for national security applications. Extends the pattern of frontier AI labs securing large government defence contracts alongside commercial enterprise expansion.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "16be76934336ff4d",
+      "url": "https://x.ai/news/el-salvador-partnership",
+      "title": "xAI and El Salvador launch world's first nationwide AI education programme",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "xAI and El Salvador's government launched what they describe as the world's first nationwide AI education programme, integrating Grok-powered tools into the school system. Part of xAI's broader international government partnership strategy.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "e65262c197927255",
+      "url": "https://x.ai/news/grok-goes-global",
+      "title": "Grok goes global with Saudi Arabia partnership",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "xAI announced a partnership with Saudi Arabia to expand Grok's global footprint, part of a broader international push. Adds KSA to xAI's growing list of government and regional AI deployment partnerships.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "55765f0baff44519",
+      "url": "https://x.ai/news/onegov",
+      "title": "Expanding xAI for Government with GSA OneGov",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "xAI expands its government offering via a GSA OneGov contract, making Grok accessible to US federal agencies through standard government procurement. Signals a serious enterprise-government market entry with structured acquisition pathway.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4f7644b6b48ca01b",
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "title": "SAM 3.1: Faster Real-Time Video Detection and Tracking With Multiplexing",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "Meta releases SAM 3.1, an improved Segment Anything Model with multiplexing for higher throughput and global reasoning for better tracking across complex video scenes. Faster and more accessible than SAM 2 for real-time video AI applications.",
+      "tags": [
+        "Models",
+        "Automation"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "350cc9107a36541f",
+      "url": "https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/",
+      "title": "Scaling How We Build and Test Our Most Advanced AI",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "Meta details the engineering pipeline for building and evaluating its most advanced AI systems at scale, covering infrastructure, evaluation frameworks, and red-teaming. Provides insight into Meta's frontier model development practices.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "51b61252710c259d",
+      "url": "https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/",
+      "title": "Four MTIA Chips in Two Years: Scaling AI Experiences for Billions",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "Meta outlines four generations of MTIA chips in two years, built to power AI experiences for billions of users. Custom silicon strategy reduces inference costs versus GPU-only approaches at consumer scale.",
+      "tags": [
+        "Models",
+        "Automation"
+      ],
+      "trending_score": 0.6225,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c894915c4c4b0256",
+      "url": "https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-are-acing-the-pivot",
+      "title": "Demand for AI-related skills is growing and older NZ workers are acing the pivot",
+      "title_translated": null,
+      "source": "rnz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "RNZ reports demand for AI-related skills in New Zealand has grown sharply in 2026, with 300,000 new AI skill sets projected. Surveys show older workers are successfully retraining, challenging the assumption that AI upskilling skews young.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "trending_score": 0.3113,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "7694e1f914850915",
       "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
@@ -18,7 +386,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.2333,
       "mention_count": 1,
       "related_ids": []
     },
@@ -37,7 +405,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.3736,
       "mention_count": 2,
       "related_ids": []
     },
@@ -56,7 +424,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.282,
       "mention_count": 1,
       "related_ids": []
     },
@@ -75,7 +443,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.2535,
+      "trending_score": 0.0382,
       "mention_count": 1,
       "related_ids": []
     },
@@ -94,7 +462,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.1966,
       "mention_count": 1,
       "related_ids": []
     },
@@ -113,7 +481,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.2145,
+      "trending_score": 0.0323,
       "mention_count": 1,
       "related_ids": []
     },
@@ -132,7 +500,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.2491,
+      "trending_score": 0.0375,
       "mention_count": 2,
       "related_ids": []
     },
@@ -150,7 +518,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.1816,
+      "trending_score": 0.0273,
       "mention_count": 1,
       "related_ids": []
     },
@@ -168,7 +536,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.39,
+      "trending_score": 0.0587,
       "mention_count": 1,
       "related_ids": []
     },
@@ -188,7 +556,7 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.4811,
+      "trending_score": 0.0725,
       "mention_count": 2,
       "related_ids": []
     },
@@ -206,7 +574,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.6609,
+      "trending_score": 0.0995,
       "mention_count": 1,
       "related_ids": []
     },
@@ -224,7 +592,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3148,
+      "trending_score": 0.0474,
       "mention_count": 1,
       "related_ids": []
     },
@@ -243,7 +611,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.304,
+      "trending_score": 0.0458,
       "mention_count": 1,
       "related_ids": []
     },
@@ -261,7 +629,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.5915,
+      "trending_score": 0.0891,
       "mention_count": 1,
       "related_ids": []
     },
@@ -280,7 +648,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.2874,
+      "trending_score": 0.0433,
       "mention_count": 1,
       "related_ids": []
     },
@@ -299,7 +667,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.5594,
+      "trending_score": 0.0842,
       "mention_count": 1,
       "related_ids": []
     },
@@ -318,7 +686,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.5594,
+      "trending_score": 0.0842,
       "mention_count": 1,
       "related_ids": []
     },
@@ -336,7 +704,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.5594,
+      "trending_score": 0.0842,
       "mention_count": 1,
       "related_ids": []
     },
@@ -354,7 +722,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2797,
+      "trending_score": 0.0421,
       "mention_count": 1,
       "related_ids": []
     },
@@ -372,7 +740,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2797,
+      "trending_score": 0.0421,
       "mention_count": 1,
       "related_ids": []
     },
@@ -390,7 +758,7 @@
       "tags": [
         "Automation"
       ],
-      "trending_score": 0.2797,
+      "trending_score": 0.0421,
       "mention_count": 1,
       "related_ids": []
     },
@@ -408,7 +776,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.2797,
+      "trending_score": 0.0421,
       "mention_count": 1,
       "related_ids": []
     },
@@ -427,7 +795,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.261,
+      "trending_score": 0.0393,
       "mention_count": 1,
       "related_ids": []
     },
@@ -446,7 +814,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.5155,
+      "trending_score": 0.0776,
       "mention_count": 1,
       "related_ids": []
     },
@@ -465,7 +833,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.6425,
+      "trending_score": 0.0968,
       "mention_count": 2,
       "related_ids": []
     },
@@ -484,7 +852,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0789,
+      "trending_score": 0.0119,
       "mention_count": 1,
       "related_ids": []
     },
@@ -502,7 +870,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2368,
+      "trending_score": 0.0357,
       "mention_count": 1,
       "related_ids": []
     },
@@ -521,7 +889,7 @@
         "Governance",
         "Content"
       ],
-      "trending_score": 0.283,
+      "trending_score": 0.0426,
       "mention_count": 2,
       "related_ids": []
     },
@@ -540,7 +908,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.2826,
+      "trending_score": 0.0426,
       "mention_count": 2,
       "related_ids": []
     },
@@ -558,7 +926,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.2119,
+      "trending_score": 0.0319,
       "mention_count": 1,
       "related_ids": []
     },
@@ -577,7 +945,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.209,
+      "trending_score": 0.0315,
       "mention_count": 1,
       "related_ids": []
     },
@@ -595,7 +963,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2059,
+      "trending_score": 0.031,
       "mention_count": 1,
       "related_ids": []
     },
@@ -614,7 +982,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.2047,
+      "trending_score": 0.0308,
       "mention_count": 1,
       "related_ids": []
     },
@@ -633,7 +1001,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.2217,
+      "trending_score": 0.0334,
       "mention_count": 2,
       "related_ids": []
     },
@@ -651,7 +1019,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.3122,
+      "trending_score": 0.047,
       "mention_count": 1,
       "related_ids": []
     },
@@ -669,7 +1037,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.1471,
+      "trending_score": 0.0222,
       "mention_count": 1,
       "related_ids": []
     },
@@ -688,7 +1056,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.1765,
+      "trending_score": 0.0266,
       "mention_count": 2,
       "related_ids": []
     },
@@ -706,7 +1074,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0405,
+      "trending_score": 0.0061,
       "mention_count": 1,
       "related_ids": []
     },
@@ -725,7 +1093,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.2826,
+      "trending_score": 0.0426,
       "mention_count": 2,
       "related_ids": []
     },
@@ -744,7 +1112,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.1354,
+      "trending_score": 0.0204,
       "mention_count": 2,
       "related_ids": []
     },
@@ -763,7 +1131,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.1342,
+      "trending_score": 0.0202,
       "mention_count": 2,
       "related_ids": []
     },
@@ -781,7 +1149,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0366,
+      "trending_score": 0.0055,
       "mention_count": 2,
       "related_ids": []
     },
@@ -800,7 +1168,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.1942,
+      "trending_score": 0.0293,
       "mention_count": 2,
       "related_ids": []
     },
@@ -819,7 +1187,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0406,
+      "trending_score": 0.0061,
       "mention_count": 1,
       "related_ids": []
     },
@@ -838,7 +1206,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.0757,
+      "trending_score": 0.0114,
       "mention_count": 1,
       "related_ids": []
     },
@@ -857,7 +1225,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0315,
+      "trending_score": 0.0047,
       "mention_count": 1,
       "related_ids": []
     },
@@ -876,7 +1244,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0051,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -895,7 +1263,7 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.002,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": []
     },
@@ -914,7 +1282,7 @@
         "Agents",
         "Skills"
       ],
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -932,7 +1300,26 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "423d0bb8b30280df",
+      "url": "https://thespinoff.co.nz/the-bulletin/17-04-2026/from-merino-to-machine-learning-allbirds-wild-ai-pivot",
+      "title": "From merino to machine learning: Allbirds' wild AI pivot",
+      "title_translated": null,
+      "source": "thespinoff",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-17T00:00:00Z",
+      "first_seen_at": "2026-04-22T20:00:00Z",
+      "summary": "The Spinoff reports Allbirds is rebranding as 'NewBird AI', pivoting from sustainable footwear to an AI-powered product recommendation platform. A NZ example of the AI-pivot trend hitting consumer brands under commercial pressure.",
+      "tags": [
+        "Automation",
+        "Content"
+      ],
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -951,7 +1338,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1101,30 +1488,6 @@
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
-    },
-    {
-      "id": "a8336fe361e14b12",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-08T00:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Meta introduces Muse Spark, a creative AI system framed as a step towards personal superintelligence, focused on scaling generative and reasoning capabilities for individual users.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
     }
-  ],
-  "newsflash": [
-    "d148c51f9554fe18",
-    "7694e1f914850915"
-  ],
-  "daily_summary": "OpenAI launched ChatGPT Images 2.0 globally, the headline move of the day: Instant and Thinking variants now render 2K-resolution images with accurate non-Latin script support (Japanese, Korean, Hindi, Bengali), with a more powerful tier reserved for subscribers. Simon Willison stress-tested it with real prompts and added nuance to the headline claims. Google also pushed three agentic safety features into Ads Advisor, and HuggingFace launched QIMMA, the first quality-first Arabic LLM leaderboard. The thread: frontier labs are shipping product, not just research."
+  ]
 }
