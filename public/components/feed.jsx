@@ -179,6 +179,52 @@ function normalizeItem(raw) {
   };
 }
 
+function NewsflashBanner({ items, onDismiss }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <section className="newsflash" role="alert" aria-live="polite">
+      <div className="newsflash__header">
+        <span className="newsflash__pulse" aria-hidden="true">
+          <span className="newsflash__pulse-dot" />
+          <span className="newsflash__pulse-ring" />
+        </span>
+        <span className="newsflash__label">Newsflash</span>
+        <span className="newsflash__count">{items.length} major development{items.length !== 1 ? 's' : ''}</span>
+        <button className="newsflash__dismiss" onClick={onDismiss} aria-label="Dismiss newsflash">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div className="newsflash__items">
+        {items.map(item => (
+          <article key={item.id} className="newsflash__item">
+            <div className="newsflash__item-meta">
+              {item.tags.slice(0, 1).map(t => <TagBadge key={t} label={t} />)}
+              <RegionBadge region={item.region} />
+            </div>
+            <h3 className="newsflash__item-title">
+              {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a> : item.title}
+            </h3>
+            {item.summary && <p className="newsflash__item-summary">{item.summary}</p>}
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function DailySummary({ text }) {
+  if (!text) return null;
+  return (
+    <section className="daily-summary">
+      <div className="daily-summary__label">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></svg>
+        Last 24 hours
+      </div>
+      <p className="daily-summary__text">{text}</p>
+    </section>
+  );
+}
+
 // Build a Fuse index over title + summary + tags. Fuse must be loaded globally.
 function makeSearchIndex(items) {
   if (!window.Fuse) return null;
@@ -194,7 +240,7 @@ function makeSearchIndex(items) {
 }
 
 Object.assign(window, {
-  TagChip, TagBadge, NewsCard, BreakingStrip, TimeBadge, SourcePill,
-  RegionBadge, TAG_COLORS, REGION_LABELS, formatAgo,
+  TagChip, TagBadge, NewsCard, BreakingStrip, NewsflashBanner, DailySummary,
+  TimeBadge, SourcePill, RegionBadge, TAG_COLORS, REGION_LABELS, formatAgo,
   normalizeItem, makeSearchIndex,
 });
