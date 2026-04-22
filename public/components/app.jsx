@@ -23,6 +23,9 @@ function App() {
   const [generatedAt, setGeneratedAt] = React.useState(null);
   const [nextRefreshAt, setNextRefreshAt] = React.useState(null);
   const [showBreaking, setShowBreaking] = React.useState(true);
+  const [newsflashIds, setNewsflashIds] = React.useState([]);
+  const [dailySummary, setDailySummary] = React.useState('');
+  const [newsflashDismissed, setNewsflashDismissed] = React.useState(false);
   const [tweaks, setTweaks] = React.useState(() => {
     const defaults = window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true };
     try {
@@ -63,6 +66,10 @@ function App() {
       if (!Array.isArray(raw)) {
         setGeneratedAt(raw.generated_at ? new Date(raw.generated_at) : null);
         setNextRefreshAt(raw.next_refresh_at ? new Date(raw.next_refresh_at) : null);
+        setNewsflashIds(Array.isArray(raw.newsflash) ? raw.newsflash : []);
+        setDailySummary(typeof raw.daily_summary === 'string' ? raw.daily_summary : '');
+        const dismissed = localStorage.getItem('ainews:newsflash_dismissed');
+        setNewsflashDismissed(dismissed === raw.generated_at);
       }
     } catch (err) {
       console.error('Failed to load items.json', err);
@@ -133,6 +140,19 @@ function App() {
   const breakingIds = new Set(breaking.map(b => b.id));
   const feedItems = showBreaking ? filtered.filter(i => !breakingIds.has(i.id)) : filtered;
 
+  const newsflashItems = React.useMemo(() => {
+    const idSet = new Set(newsflashIds);
+    return items.filter(i => idSet.has(i.id));
+  }, [items, newsflashIds]);
+
+  const dismissNewsflash = () => {
+    setNewsflashDismissed(true);
+    try {
+      const key = generatedAt ? generatedAt.toISOString().replace('.000Z', 'Z') : '';
+      localStorage.setItem('ainews:newsflash_dismissed', key);
+    } catch (e) {}
+  };
+
   const toggleSet = (set, value) => {
     const next = new Set(set);
     next.has(value) ? next.delete(value) : next.add(value);
@@ -154,6 +174,14 @@ function App() {
       <main className="main">
         <div className="main__inner">
           <PageHeader total={items.length} fresh={items.filter(i => i.timeAgoMins < 60).length} />
+
+          {!newsflashDismissed && newsflashItems.length > 0 && (
+            <NewsflashBanner items={newsflashItems} onDismiss={dismissNewsflash} />
+          )}
+
+          {dailySummary && (
+            <DailySummary text={dailySummary} />
+          )}
 
           {showBreaking && tweaks.showBreaking !== false && breaking.length > 0 && (
             <BreakingStrip items={breaking} />
