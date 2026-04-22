@@ -18,7 +18,6 @@ function App() {
   const [activeRegions, setActiveRegions] = React.useState(new Set());
   const [windowId, setWindowId] = React.useState(DEFAULT_WINDOW);
   const [drawerOpen, setDrawerOpen] = React.useState(false);
-  const [query, setQuery] = React.useState('');
   const [loading, setLoading] = React.useState(false);
   const [generatedAt, setGeneratedAt] = React.useState(null);
   const [nextRefreshAt, setNextRefreshAt] = React.useState(null);
@@ -26,6 +25,8 @@ function App() {
   const [newsflashIds, setNewsflashIds] = React.useState([]);
   const [dailySummary, setDailySummary] = React.useState('');
   const [newsflashDismissed, setNewsflashDismissed] = React.useState(false);
+  const [tweets, setTweets] = React.useState([]);
+  const [xfeedDismissed, setXfeedDismissed] = React.useState(false);
   const [tweaks, setTweaks] = React.useState(() => {
     const defaults = window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true };
     try {
@@ -54,7 +55,18 @@ function App() {
     else { html.classList.remove('dark'); body.classList.remove('dark'); }
   }, [tweaks.dark]);
 
-  React.useEffect(() => { loadItems(); }, []);
+  React.useEffect(() => { loadItems(); loadTweets(); }, []);
+
+  async function loadTweets() {
+    try {
+      const res = await fetch('/data/tweets.json', { cache: 'no-store' });
+      if (!res.ok) return;
+      const raw = await res.json();
+      setTweets(Array.isArray(raw.tweets) ? raw.tweets : []);
+    } catch (err) {
+      // graceful fallback — hide ticker
+    }
+  }
 
   async function loadItems() {
     setLoading(true);
@@ -93,20 +105,14 @@ function App() {
     return c;
   }, [items]);
 
-  const fuse = React.useMemo(() => window.makeSearchIndex(items), [items]);
-
   const filtered = React.useMemo(() => {
     const win = TIME_WINDOWS.find(w => w.id === windowId) || TIME_WINDOWS[3];
-    let pool = items
+    return items
       .filter(i => i.timeAgoMins <= win.maxMins)
       .filter(i => !activeTag || i.tags.includes(activeTag))
-      .filter(i => activeRegions.size === 0 || (i.region && activeRegions.has(i.region)));
-    if (query.trim() && fuse) {
-      const hits = new Set(fuse.search(query.trim()).map(r => r.item.id));
-      pool = pool.filter(i => hits.has(i.id));
-    }
-    return pool.sort((a, b) => a.timeAgoMins - b.timeAgoMins);
-  }, [items, activeTag, activeRegions, windowId, query, fuse]);
+      .filter(i => activeRegions.size === 0 || (i.region && activeRegions.has(i.region)))
+      .sort((a, b) => a.timeAgoMins - b.timeAgoMins);
+  }, [items, activeTag, activeRegions, windowId]);
 
   const activeFilterCount =
     (activeTag ? 1 : 0) +
@@ -173,14 +179,10 @@ function App() {
         activeFilterCount={activeFilterCount}
         onOpenFilters={() => setDrawerOpen(true)}
       />
-      <SearchRow query={query} onQuery={setQuery} />
+      <XFeedTicker tweets={tweets} dismissed={xfeedDismissed} onDismiss={() => setXfeedDismissed(true)} />
       <main className="main">
         <div className="main__inner">
           <PageHeader total={items.length} fresh={items.filter(i => i.timeAgoMins < 60).length} />
-
-          {!newsflashDismissed && newsflashItems.length > 0 && (
-            <NewsflashBanner items={newsflashItems} onDismiss={dismissNewsflash} />
-          )}
 
           {dailySummary && (
             <DailySummary text={dailySummary} />
@@ -233,25 +235,6 @@ function App() {
       />
 
       {tweaksOpen && <TweaksPanel tweaks={tweaks} onChange={updateTweak} onClose={() => setTweaksOpen(false)} />}
-    </div>
-  );
-}
-
-function SearchRow({ query, onQuery }) {
-  return (
-    <div className="searchrow">
-      <div className="searchrow__inner">
-        <div className="topbar__search">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-          <input
-            type="search"
-            placeholder="Search titles, summaries, tags…"
-            value={query}
-            onChange={e => onQuery(e.target.value)}
-            aria-label="Search"
-          />
-        </div>
-      </div>
     </div>
   );
 }

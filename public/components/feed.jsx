@@ -222,6 +222,64 @@ function DailySummary({ text }) {
   );
 }
 
+function XFeedTicker({ tweets, dismissed, onDismiss }) {
+  const [current, setCurrent] = React.useState(0);
+  const [fading, setFading] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!tweets || tweets.length <= 1) return;
+    let timeoutId;
+    const id = setInterval(() => {
+      setFading(true);
+      timeoutId = setTimeout(() => {
+        setCurrent(c => (c + 1) % tweets.length);
+        setFading(false);
+      }, 280);
+    }, 5000);
+    return () => { clearInterval(id); clearTimeout(timeoutId); };
+  }, [tweets]);
+
+  if (!tweets || tweets.length === 0 || dismissed) return null;
+
+  const tweet = tweets[current];
+  const timeAgo = formatAgo(Math.max(0, (Date.now() - new Date(tweet.posted_at).getTime()) / 60000));
+  const truncated = tweet.text.length > 110 ? tweet.text.slice(0, 109) + '…' : tweet.text;
+
+  return (
+    <div className="xfeed-ticker" role="marquee" aria-label="X feed">
+      <div className="xfeed-ticker__inner">
+        <span className="xfeed-ticker__badge" aria-hidden="true">𝕏 FEED</span>
+        <a
+          className={"xfeed-ticker__content" + (fading ? " xfeed-ticker__content--fade" : "")}
+          href={tweet.url}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={"@" + tweet.handle + ": " + tweet.text}
+        >
+          <span className="xfeed-ticker__handle">@{tweet.handle}</span>
+          <span className="xfeed-ticker__sep" aria-hidden="true">·</span>
+          <span className="xfeed-ticker__text">{truncated}</span>
+          <span className="xfeed-ticker__sep xfeed-ticker__time-sep" aria-hidden="true">·</span>
+          <span className="xfeed-ticker__time">{timeAgo}</span>
+        </a>
+        <span className="xfeed-ticker__counter" aria-live="polite" aria-atomic="true">
+          {current + 1}/{tweets.length}
+        </span>
+        <button
+          className="xfeed-ticker__dismiss"
+          onClick={onDismiss}
+          aria-label="Dismiss X feed ticker"
+          title="Dismiss"
+        >
+          <svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M18 6 6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+}
+
 // Build a Fuse index over title + summary + tags. Fuse must be loaded globally.
 function makeSearchIndex(items) {
   if (!window.Fuse) return null;
@@ -238,6 +296,6 @@ function makeSearchIndex(items) {
 
 Object.assign(window, {
   TagChip, TagBadge, NewsCard, BreakingStrip, NewsflashBanner, DailySummary,
-  TimeBadge, SourcePill, RegionBadge, TAG_COLORS, REGION_LABELS, formatAgo,
-  normalizeItem, makeSearchIndex,
+  XFeedTicker, TimeBadge, SourcePill, RegionBadge, TAG_COLORS, REGION_LABELS,
+  formatAgo, normalizeItem, makeSearchIndex,
 });

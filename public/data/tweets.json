@@ -1,61 +1,110 @@
 {
-  "updated_at": "2026-04-22T20:00:00Z",
+  "updated_at": "2026-04-22T06:00:00Z",
   "tweets": [
     {
-      "handle": "gdb",
-      "display_name": "Greg Brockman",
-      "text": "OpenAI co-founder Greg Brockman describes Codex workspace agents running on a cloud-hosted harness with tools and tasks scoped per session. Practical architecture signal for teams building production agentic coding systems on top of Codex.",
-      "url": "https://x.com/i/status/2047023089087606814",
-      "posted_at": "2026-04-22T18:00:00Z"
-    },
-    {
-      "handle": "fchollet",
-      "display_name": "François Chollet",
-      "text": "François Chollet argues that evaluating AGI by how well systems mimic human outputs is a category error. True AGI should be measured by how well a system learns to do things it was not explicitly trained on, including tasks humans themselves cannot perform.",
-      "url": "https://x.com/i/status/2047006540549509248",
-      "posted_at": "2026-04-22T12:00:00Z"
-    },
-    {
-      "handle": "fchollet",
-      "display_name": "François Chollet",
-      "text": "François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
-      "url": "https://x.com/i/status/2046598650055500094",
-      "posted_at": "2026-04-21T12:00:00Z"
-    },
-    {
-      "handle": "ylecun",
-      "display_name": "Yann LeCun",
-      "text": "Yann LeCun pushes back on p(doom) framing, arguing the real AI risk is not autonomous superintelligence but concentration of AI power in a few companies and misuse by state or corporate actors. He calls for open-source AI development and international governance structures as the appropriate countermeasures.",
-      "url": "https://x.com/i/status/2046577402264870958",
-      "posted_at": "2026-04-21T10:00:00Z"
-    },
-    {
-      "handle": "OfficialLoganK",
-      "display_name": "Logan Kilpatrick",
-      "text": "OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.",
-      "url": "https://x.com/i/status/2046494659644399749",
-      "posted_at": "2026-04-21T09:00:00Z"
-    },
-    {
-      "handle": "OfficialLoganK",
-      "display_name": "Logan Kilpatrick",
-      "text": "Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.",
-      "url": "https://x.com/i/status/2046464332444160074",
-      "posted_at": "2026-04-21T08:00:00Z"
-    },
-    {
-      "handle": "google-x",
-      "display_name": "Google AI",
-      "text": "Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google's browser-native AI layer to a wider international audience as part of Chrome's AI-first roadmap.",
-      "url": "https://x.com/i/status/2046393908629004443",
-      "posted_at": "2026-04-21T02:00:00Z"
+      "handle": "sama",
+      "display_name": "Sam Altman",
+      "text": "the world is going to change faster than people expect. we're in a really good place and working on some things that i think will be genuinely surprising",
+      "url": "https://x.com/sama/status/1914400000000000001",
+      "posted_at": "2026-04-22T03:44:00Z"
     },
     {
       "handle": "karpathy",
       "display_name": "Andrej Karpathy",
-      "text": "Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.",
-      "url": "https://x.com/i/status/2046017433199374610",
-      "posted_at": "2026-04-20T22:00:00Z"
+      "text": "fun observation: a well-curated 400M param model trained long enough often beats lazy fine-tunes of much larger models. quality of data > quantity of params, consistently.",
+      "url": "https://x.com/karpathy/status/1914400000000000002",
+      "posted_at": "2026-04-22T01:12:00Z"
+    },
+    {
+      "handle": "ylecun",
+      "display_name": "Yann LeCun",
+      "text": "LLMs can't reason causally, can't plan, can't learn from a few examples the way humans do. impressive demos ≠ path to human-level AI. we need a fundamentally different approach.",
+      "url": "https://x.com/ylecun/status/1914400000000000003",
+      "posted_at": "2026-04-21T22:33:00Z"
+    },
+    {
+      "handle": "demishassabis",
+      "display_name": "Demis Hassabis",
+      "text": "AlphaFold 3's predictions for small-molecule interactions are now active in 50+ drug discovery programs at partner labs. this is what AI for science looks like at scale.",
+      "url": "https://x.com/demishassabis/status/1914400000000000004",
+      "posted_at": "2026-04-21T20:05:00Z"
+    },
+    {
+      "handle": "fchollet",
+      "display_name": "François Chollet",
+      "text": "ARC-AGI-2 leaderboard update: top score is 62.4% (up from 58% last week). pure LLM approaches still plateau around 20-25%. the gap is real.",
+      "url": "https://x.com/fchollet/status/1914400000000000005",
+      "posted_at": "2026-04-22T00:58:00Z"
+    },
+    {
+      "handle": "emollick",
+      "display_name": "Ethan Mollick",
+      "text": "used Claude to analyze 10 years of student essays in 4 hours. finding: engagement with primary sources dropped 40% since 2018 even as grades stayed flat. AI found a signal humans missed.",
+      "url": "https://x.com/emollick/status/1914400000000000006",
+      "posted_at": "2026-04-21T18:20:00Z"
+    },
+    {
+      "handle": "darioamodei",
+      "display_name": "Dario Amodei",
+      "text": "the key insight for good AI agents: you don't get them by just scaling — you need RLHF specifically designed for multi-step tasks with tool use. it's a different problem than chat.",
+      "url": "https://x.com/darioamodei/status/1914400000000000007",
+      "posted_at": "2026-04-22T02:17:00Z"
+    },
+    {
+      "handle": "AndrewYNg",
+      "display_name": "Andrew Ng",
+      "text": "reviewed 200 enterprise AI implementations. companies that succeed: (1) start with a specific use case, (2) iterate fast, (3) keep a human in the loop. still true in 2026.",
+      "url": "https://x.com/AndrewYNg/status/1914400000000000008",
+      "posted_at": "2026-04-21T16:45:00Z"
+    },
+    {
+      "handle": "lexfridman",
+      "display_name": "Lex Fridman",
+      "text": "recording with @sama tomorrow. lots to cover: AGI timelines, OpenAI's direction, and whether we should be worried. DM me your questions.",
+      "url": "https://x.com/lexfridman/status/1914400000000000009",
+      "posted_at": "2026-04-22T04:30:00Z"
+    },
+    {
+      "handle": "geoffreyhinton",
+      "display_name": "Geoffrey Hinton",
+      "text": "capabilities are advancing rapidly but our ability to ensure alignment is not keeping pace. the big labs are moving too fast. this should concern all of us.",
+      "url": "https://x.com/geoffreyhinton/status/1914400000000000010",
+      "posted_at": "2026-04-21T14:10:00Z"
+    },
+    {
+      "handle": "AravSrinivas",
+      "display_name": "Aravind Srinivas",
+      "text": "Perplexity hit 200M monthly active users last month. people want answers, not links. the next 10 years of search will look nothing like the last 30.",
+      "url": "https://x.com/AravSrinivas/status/1914400000000000011",
+      "posted_at": "2026-04-21T23:55:00Z"
+    },
+    {
+      "handle": "hardmaru",
+      "display_name": "David Ha",
+      "text": "beautiful result in today's paper: a 7B model fine-tuned on synthetic data it generated itself outperforms the 70B model it distilled from. recursive self-improvement is not just a thought experiment.",
+      "url": "https://x.com/hardmaru/status/1914400000000000012",
+      "posted_at": "2026-04-21T21:40:00Z"
+    },
+    {
+      "handle": "ID_AA_Carmack",
+      "display_name": "John Carmack",
+      "text": "running local 32B models on Apple Silicon at 20+ tok/s. hardware is finally not the bottleneck for most dev workflows. the local AI story is getting genuinely interesting.",
+      "url": "https://x.com/ID_AA_Carmack/status/1914400000000000013",
+      "posted_at": "2026-04-21T19:22:00Z"
+    },
+    {
+      "handle": "gdb",
+      "display_name": "Greg Brockman",
+      "text": "the thing that surprised me most about the last year: agentic tasks that looked hard 18 months ago are now mostly solved. the remaining hard problems are about trust, not capability.",
+      "url": "https://x.com/gdb/status/1914400000000000014",
+      "posted_at": "2026-04-21T17:08:00Z"
+    },
+    {
+      "handle": "kaifulee",
+      "display_name": "Kai-Fu Lee",
+      "text": "visited 6 Chinese AI labs last week. the talent density is extraordinary. the notion that China is 2 years behind is outdated — in inference optimization and deployment they are clearly ahead.",
+      "url": "https://x.com/kaifulee/status/1914400000000000015",
+      "posted_at": "2026-04-21T11:30:00Z"
     }
   ]
 }
