@@ -87,6 +87,7 @@ STOPWORDS = {
 REQUEST_TIMEOUT = 20
 MAX_WORKERS = 10
 ATOM_NS = "http://www.w3.org/2005/Atom"
+MEDIA_NS = "http://search.yahoo.com/mrss/"
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
@@ -138,14 +139,80 @@ def strip_html(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+class _OGImageParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.og_image: str | None = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "meta" and self.og_image is None:
+            d = dict(attrs)
+            if d.get("property") == "og:image":
+                url = d.get("content", "").strip()
+                if url:
+                    self.og_image = url
+
+
+def fetch_og_image(url: str) -> str | None:
+    """Fetch an article page and extract its og:image URL (reads first 64KB only)."""
+    try:
+        resp = requests.get(url, timeout=8, headers=_HEADERS)
+        resp.raise_for_status()
+        chunk = resp.content[:65536].decode("utf-8", errors="ignore")
+        parser = _OGImageParser()
+        parser.feed(chunk)
+        return parser.og_image
+    except Exception:
+        return None
+
+
+def _tweet_handle(url: str) -> str | None:
+    """Extract Twitter/X handle from a tweet URL, or None if not a tweet URL."""
+    m = re.search(r'(?:x|twitter)\.com/([A-Za-z0-9_]+)(?:/|$)', url)
+    if m and m.group(1).lower() not in ("i", "home", "search", "explore", "notifications", "intent"):
+        return m.group(1)
+    return None
+
+
+def _extract_rss_image(el) -> str | None:
+    """Extract image URL from an RSS/Atom item element via media:thumbnail, media:content, or enclosure."""
+    thumb = el.find(f"{{{MEDIA_NS}}}thumbnail")
+    if thumb is not None:
+        url = thumb.get("url", "").strip()
+        if url:
+            return url
+    for content in el.findall(f"{{{MEDIA_NS}}}content"):
+        medium = content.get("medium", "")
+        mtype = content.get("type", "")
+        url = content.get("url", "").strip()
+        if url and (medium == "image" or mtype.startswith("image/")):
+            return url
+    enc = el.find("enclosure")
+    if enc is not None:
+        mtype = enc.get("type", "")
+        url = enc.get("url", "").strip()
+        if url and mtype.startswith("image/"):
+            return url
+    return None
+
+
 # ── RSS / Atom parser ──────────────────────────────────────────────────────────
 
-def _make_item(title: str, url: str, pub_dt: datetime | None, summary: str, source: dict) -> dict:
+def _make_item(title: str, url: str, pub_dt: datetime | None, summary: str, source: dict,
+               image_url: str | None = None) -> dict:
+    image_type = None
+    if not image_url:
+        handle = _tweet_handle(url)
+        if handle:
+            image_url = f"https://unavatar.io/x/{handle}"
+            image_type = "avatar"
     return {
         "title": title,
         "url": url,
         "published_at": pub_dt.isoformat().replace("+00:00", "Z") if pub_dt else None,
         "summary": summary,
+        "image_url": image_url,
+        "image_type": image_type,
         "source_name": source["name"],
         "source_tier": source["tier"],
         "source_region": source["region"],
@@ -184,7 +251,7 @@ def parse_rss_xml(content: bytes, source: dict, window_start: datetime) -> list[
             pub_dt = parse_date(pub_raw)
             if pub_dt and pub_dt < window_start:
                 continue
-            items.append(_make_item(title, link, pub_dt, summary, source))
+            items.append(_make_item(title, link, pub_dt, summary, source, _extract_rss_image(entry)))
     else:
         # RSS 2.0
         for item in root.iter("item"):
@@ -203,7 +270,7 @@ def parse_rss_xml(content: bytes, source: dict, window_start: datetime) -> list[
             pub_dt = parse_date(pub_raw)
             if pub_dt and pub_dt < window_start:
                 continue
-            items.append(_make_item(title, link, pub_dt, summary, source))
+            items.append(_make_item(title, link, pub_dt, summary, source, _extract_rss_image(item)))
 
     return items
 
@@ -461,6 +528,22 @@ def main():
     candidates, dedup_stats = dedup(raw_items, existing_items, skip_url_hashes=meta_url_hashes)
     print(f"[prefetch] dedup stats: {dedup_stats}", flush=True)
 
+    # ── og:image enrichment (fallback for non-tweet items with no RSS image) ────
+    # Tweet items already got avatar URLs set in _make_item; skip them here.
+    missing_img = [c for c in candidates if not c.get("image_url")]
+    if missing_img:
+        print(f"[prefetch] fetching og:image for {len(missing_img)} items...", flush=True)
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            futs = {pool.submit(fetch_og_image, item["url"]): item for item in missing_img}
+            enriched = 0
+            for fut in as_completed(futs):
+                item = futs[fut]
+                og_url = fut.result()
+                if og_url:
+                    item["image_url"] = og_url
+                    enriched += 1
+        print(f"[prefetch] og:image enriched {enriched}/{len(missing_img)} items", flush=True)
+
     # ── Write output atomically ───────────────────────────────────────────────
     output = {
         "generated_at": now.isoformat().replace("+00:00", "Z"),
@@ -477,5 +560,54 @@ def main():
     print(f"[prefetch] done {datetime.now(timezone.utc).isoformat()}", flush=True)
 
 
+def backfill_items():
+    """Enrich existing items.json entries that are missing image_url via og:image or unavatar."""
+    if not ITEMS_JSON.exists():
+        print("[backfill] items.json not found", flush=True)
+        return
+    data = json.loads(ITEMS_JSON.read_text())
+    items = data.get("items") or []
+
+    # Pass 1: tweet items — set avatar from unavatar (no HTTP fetch needed)
+    # For /i/status/ URLs the handle isn't in the URL; fall back to item["source"].
+    avatar_set = 0
+    for item in items:
+        if not item.get("image_url"):
+            url = item.get("url", "")
+            if "x.com" in url or "twitter.com" in url:
+                handle = _tweet_handle(url) or item.get("source", "")
+                if handle:
+                    item["image_url"] = f"https://unavatar.io/x/{handle}"
+                    item["image_type"] = "avatar"
+                    avatar_set += 1
+    print(f"[backfill] set {avatar_set} tweet avatars", flush=True)
+
+    # Pass 2: non-tweet items still missing image_url — fetch og:image
+    missing = [item for item in items if not item.get("image_url")]
+    print(f"[backfill] {len(missing)} non-tweet items still missing image_url", flush=True)
+    enriched = 0
+    if missing:
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            futs = {pool.submit(fetch_og_image, item["url"]): item for item in missing}
+            for fut in as_completed(futs):
+                item = futs[fut]
+                og_url = fut.result()
+                if og_url:
+                    item["image_url"] = og_url
+                    enriched += 1
+                    print(f"[backfill] ✓ {item['url'][:60]} → {og_url[:60]}", flush=True)
+                else:
+                    print(f"[backfill] ✗ {item['url'][:60]}", flush=True)
+    print(f"[backfill] og:image enriched {enriched}/{len(missing)} items", flush=True)
+    tmp = ITEMS_JSON.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    tmp.replace(ITEMS_JSON)
+    print(f"[backfill] wrote {ITEMS_JSON}", flush=True)
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--backfill-items" in sys.argv:
+        backfill_items()
+    else:
+        main()

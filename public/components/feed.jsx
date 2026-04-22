@@ -80,6 +80,16 @@ function NewsCard({ item, density, featured }) {
   const fresh = item.timeAgoMins < 120;
   return (
     <article className={"news-card" + (featured ? " news-card--featured" : "") + (density === 'compact' ? " news-card--compact" : "")}>
+      {item.image_url && density !== 'compact' && (
+        <div className={"news-card__image" + (item.image_type === 'avatar' ? ' news-card__image--avatar' : '')}>
+          <img
+            src={item.image_url}
+            alt=""
+            loading="lazy"
+            onError={e => { e.currentTarget.parentElement.style.display = 'none'; }}
+          />
+        </div>
+      )}
       <header className="news-card__head">
         <div className="news-card__tags">
           {item.tags.map(t => <TagBadge key={t} label={t} />)}
@@ -157,6 +167,8 @@ function normalizeItem(raw) {
   return {
     id: raw.id,
     url: raw.url,
+    image_url: raw.image_url || null,
+    image_type: raw.image_type || 'photo',
     title: raw.title_translated || raw.title,
     summary: raw.summary || '',
     tags: raw.tags || [],
