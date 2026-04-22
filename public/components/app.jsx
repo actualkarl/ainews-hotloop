@@ -137,10 +137,13 @@ function App() {
       .slice(0, 5);
   }, [items]);
 
-  const breakingIds = new Set(breaking.map(b => b.id));
-  const feedItems = showBreaking ? filtered.filter(i => !breakingIds.has(i.id)) : filtered;
+  const feedItems = filtered;
 
   const newsflashItems = React.useMemo(() => {
+    if (!newsflashIds.length) return [];
+    if (typeof newsflashIds[0] === 'object' && newsflashIds[0] !== null) {
+      return newsflashIds;
+    }
     const idSet = new Set(newsflashIds);
     return items.filter(i => idSet.has(i.id));
   }, [items, newsflashIds]);

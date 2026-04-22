@@ -105,8 +105,7 @@ function NewsCard({ item, density, featured }) {
 
 function BreakingStrip({ items, onOpen }) {
   if (!items || items.length === 0) return null;
-  const hero = items[0];
-  const rest = items.slice(1, 3);
+  const shown = items.slice(0, 5);
   return (
     <section className="breaking">
       <div className="breaking__label">
@@ -118,33 +117,23 @@ function BreakingStrip({ items, onOpen }) {
         <span className="breaking__time">Top {items.length} from the last 24h</span>
       </div>
       <div className="breaking__grid">
-        <article className="breaking__hero" onClick={() => onOpen && onOpen(hero)}>
-          <div className="breaking__hero-tags">
-            {hero.tags.slice(0, 2).map(t => <TagBadge key={t} label={t} />)}
-            <RegionBadge region={hero.region} />
-            <TimeBadge mins={hero.timeAgoMins} fresh />
-          </div>
-          <h2 className="breaking__hero-title">
-            {hero.url ? <a href={hero.url} target="_blank" rel="noreferrer">{hero.title}</a> : hero.title}
-          </h2>
-          {hero.summary && <p className="breaking__hero-summary">{hero.summary}</p>}
-          <div className="breaking__hero-sources">
-            {hero.citations.map((c, i) => <SourcePill key={i} citation={c} />)}
-          </div>
-        </article>
-        <div className="breaking__rest">
-          {rest.map(item => (
-            <article key={item.id} className="breaking__mini" onClick={() => onOpen && onOpen(item)}>
-              <div className="breaking__mini-meta">
-                {item.tags[0] && <TagBadge label={item.tags[0]} />}
-                <TimeBadge mins={item.timeAgoMins} fresh />
-              </div>
-              <h3 className="breaking__mini-title">
-                {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a> : item.title}
-              </h3>
-            </article>
-          ))}
-        </div>
+        {shown.map((item, i) => (
+          <article
+            key={item.id}
+            className={"breaking__card" + (i === 0 ? " breaking__card--lead" : "")}
+            onClick={() => onOpen && onOpen(item)}
+          >
+            <div className="breaking__card-meta">
+              {item.tags.slice(0, 1).map(t => <TagBadge key={t} label={t} />)}
+              <RegionBadge region={item.region} />
+              <TimeBadge mins={item.timeAgoMins} fresh />
+            </div>
+            <h3 className="breaking__card-title">
+              {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a> : item.title}
+            </h3>
+            {i === 0 && item.summary && <p className="breaking__card-summary">{item.summary}</p>}
+          </article>
+        ))}
       </div>
     </section>
   );
@@ -183,44 +172,52 @@ function NewsflashBanner({ items, onDismiss }) {
   if (!items || items.length === 0) return null;
   return (
     <section className="newsflash" role="alert" aria-live="polite">
-      <div className="newsflash__header">
+      <div className="newsflash__strip">
         <span className="newsflash__pulse" aria-hidden="true">
           <span className="newsflash__pulse-dot" />
           <span className="newsflash__pulse-ring" />
         </span>
         <span className="newsflash__label">Newsflash</span>
-        <span className="newsflash__count">{items.length} major development{items.length !== 1 ? 's' : ''}</span>
+        <div className="newsflash__links">
+          {items.map((item, i) => {
+            const src = item.source || (item.citations && item.citations[0]?.label) || '';
+            return (
+              <React.Fragment key={item.id || i}>
+                {i > 0 && <span className="newsflash__sep" aria-hidden="true">·</span>}
+                <span className="newsflash__entry">
+                  <a href={item.url || '#'} target="_blank" rel="noreferrer" className="newsflash__link">{item.title}</a>
+                  {src && <span className="newsflash__src">— {src}</span>}
+                </span>
+              </React.Fragment>
+            );
+          })}
+        </div>
         <button className="newsflash__dismiss" onClick={onDismiss} aria-label="Dismiss newsflash">
-          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
         </button>
-      </div>
-      <div className="newsflash__items">
-        {items.map(item => (
-          <article key={item.id} className="newsflash__item">
-            <div className="newsflash__item-meta">
-              {item.tags.slice(0, 1).map(t => <TagBadge key={t} label={t} />)}
-              <RegionBadge region={item.region} />
-            </div>
-            <h3 className="newsflash__item-title">
-              {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a> : item.title}
-            </h3>
-            {item.summary && <p className="newsflash__item-summary">{item.summary}</p>}
-          </article>
-        ))}
       </div>
     </section>
   );
 }
 
 function DailySummary({ text }) {
+  const [expanded, setExpanded] = React.useState(false);
   if (!text) return null;
+  const THRESHOLD = 320;
+  const isLong = text.length > THRESHOLD;
+  const displayed = isLong && !expanded ? text.slice(0, THRESHOLD - 1) + '…' : text;
   return (
     <section className="daily-summary">
       <div className="daily-summary__label">
         <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></svg>
-        Last 24 hours
+        Today's Brief
       </div>
-      <p className="daily-summary__text">{text}</p>
+      <p className="daily-summary__text">{displayed}</p>
+      {isLong && (
+        <button className="daily-summary__toggle" onClick={() => setExpanded(e => !e)}>
+          {expanded ? 'Show less' : 'Read more'}
+        </button>
+      )}
     </section>
   );
 }
