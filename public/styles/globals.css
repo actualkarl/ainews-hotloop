@@ -265,7 +265,7 @@
 [data-theme="dark"] {
 
   --color-surface-page: var(--burgundy-950);
-  --color-surface-card: var(--stone-900);
+  --color-surface-card: #2E2B23;
   --color-surface-muted: var(--stone-800);
   --color-surface-inverse: var(--stone-50);
 
@@ -275,9 +275,10 @@
   --color-text-subtle: var(--stone-500);
   --color-text-inverse: var(--stone-950);
 
-  --color-border-subtle: rgba(255, 255, 255, 0.08);
-  --color-border-default: rgba(255, 255, 255, 0.15);
-  --color-border-strong: rgba(255, 255, 255, 0.3);
+  --border-hairline: 1px;
+  --color-border-subtle: rgba(255, 255, 255, 0.14);
+  --color-border-default: rgba(255, 255, 255, 0.22);
+  --color-border-strong: rgba(255, 255, 255, 0.38);
 
   /* Brand — lighter stops on dark so colours glow, not sink */
   --color-human: var(--coral-400);
