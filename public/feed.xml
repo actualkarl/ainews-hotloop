@@ -6,14 +6,70 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 22 Apr 2026 19:11:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 20:41:23 +0000</lastBuildDate>
+    <item>
+      <title>Winning a Kaggle Competition with Generative AI-Assisted Coding</title>
+      <link>https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/</link>
+      <description>Three LLM agents generated 600,000+ lines of code and ran 850 experiments to win a Kaggle playground competition. Demonstrates how agentic coding plus GPU acceleration compresses the ML development cycle from weeks to days.</description>
+      <pubDate>Thu, 23 Apr 2026 20:15:02 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/</guid>
+      <category>Coding</category><category>Agents</category>
+    </item>
+    <item>
+      <title>A pelican for GPT-5.5 via the Codex backdoor API</title>
+      <link>https://simonwillison.net/2026/Apr/23/gpt-5-5/</link>
+      <description>Simon Willison builds an llm-openai-via-codex plugin to access GPT-5.5 through the Codex subscriber API before the official API launch. Finds it highly capable but notes the model's default output is less polished than extended-reasoning mode.</description>
+      <pubDate>Thu, 23 Apr 2026 19:59:47 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/23/gpt-5-5/</guid>
+      <category>Coding</category><category>Models</category>
+    </item>
+    <item>
+      <title>OpenAI's GPT-5.5 Powers Codex on NVIDIA Infrastructure</title>
+      <link>https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</link>
+      <description>NVIDIA deploys GPT-5.5-powered Codex company-wide on GB200 NVL72 systems with 10,000+ employees using it. Debugging cycles reduced from days to hours — enterprise proof-of-concept for frontier model plus specialised inference hardware.</description>
+      <pubDate>Thu, 23 Apr 2026 18:57:55 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</guid>
+      <category>Models</category><category>Coding</category>
+    </item>
+    <item>
+      <title>An update on recent Claude Code quality reports</title>
+      <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
+      <description>Anthropic confirms and resolves three issues degrading Claude Code quality since March 2026: reduced default reasoning effort, a caching bug causing context loss, and a verbosity-reduction prompt hurting coding performance. All three now fixed.</description>
+      <pubDate>Thu, 23 Apr 2026 14:50:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.anthropic.com/engineering/april-23-postmortem</guid>
+      <category>Coding</category><category>Models</category>
+    </item>
+    <item>
+      <title>Meta Plans to Cut 10% of Workers to Offset AI Spending</title>
+      <link>https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency</link>
+      <description>Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta — layoffs framed explicitly as an AI-productivity dividend.</description>
+      <pubDate>Thu, 23 Apr 2026 13:47:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Introducing GPT-5.5</title>
+      <link>https://openai.com/index/introducing-gpt-5-5</link>
+      <description>OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output — double GPT-5.4 pricing.</description>
+      <pubDate>Thu, 23 Apr 2026 11:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/introducing-gpt-5-5</guid>
+      <category>Models</category><category>Coding</category><category>Agents</category>
+    </item>
+    <item>
+      <title>Microsoft doubles NZ AI upskilling commitment to train 200,000 Kiwis</title>
+      <link>https://www.rnz.co.nz/news/business/592939/microsoft-announces-boost-in-nz-ai-training</link>
+      <description>Microsoft has doubled its New Zealand AI upskilling target to 200,000 people, expanding beyond basic digital literacy to real-world AI skills. Announced by Satya Nadella, targeting workforce readiness for AI-driven productivity.</description>
+      <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.rnz.co.nz/news/business/592939/microsoft-announces-boost-in-nz-ai-training</guid>
+      <category>Skills</category><category>Governance</category>
+    </item>
     <item>
       <title>OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams</title>
       <link>https://x.com/i/status/2047017964105597009</link>
-      <description>Sam Altman endorsed OpenAI&#x27;s new workspace agents in ChatGPT, calling them &#x27;cool&#x27; and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.</description>
+      <description>Sam Altman endorsed OpenAI's new workspace agents in ChatGPT, calling them 'cool' and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.</description>
       <pubDate>Wed, 22 Apr 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2047017964105597009</guid>
-      <category>Agents, Coding</category>
+      <category>Agents</category><category>Coding</category>
     </item>
     <item>
       <title>From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI</title>
@@ -21,15 +77,15 @@
       <description>NVIDIA details running Gemma 4 locally on RTX PCs and the DGX Spark desktop, including supported open models in the RTX AI Garage. Positions local agentic AI on consumer hardware as a practical path for developers and enterprises wanting on-premise inference.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</guid>
-      <category>Models, Coding</category>
+      <category>Models</category><category>Coding</category>
     </item>
     <item>
       <title>The Future of AI Is Open and Proprietary</title>
       <link>https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/</link>
-      <description>NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting — open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI&#x27;s structural future.</description>
+      <description>NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting — open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI's structural future.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/</guid>
-      <category>Models, Governance</category>
+      <category>Models</category><category>Governance</category>
     </item>
     <item>
       <title>How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell</title>
@@ -37,7 +93,7 @@
       <description>NVIDIA outlines how the OpenShell agent runtime enforces security-by-design for autonomous AI agents, covering sandboxing, policy enforcement, and auditability. Addresses a critical production gap as enterprises move from demos to live agentic deployments.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/</guid>
-      <category>Agents, Governance</category>
+      <category>Agents</category><category>Governance</category>
     </item>
     <item>
       <title>Blowing Off Steam: How Power-Flexible AI Factories Can Stabilize the Global Energy Grid</title>
@@ -45,7 +101,7 @@
       <description>NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers — absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/power-flexible-ai-factories-energy-grid/</guid>
-      <category>Governance, Models</category>
+      <category>Governance</category><category>Models</category>
     </item>
     <item>
       <title>From Simulation to Production: How to Build Robots With AI</title>
@@ -53,12 +109,12 @@
       <description>NVIDIA guide covering the full pipeline from simulation-based robot training to production deployment using Isaac Lab, Omniverse, and foundation models. Practical reference for teams building physical AI systems across manufacturing, logistics, and service robotics.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/build-robots-with-ai/</guid>
-      <category>Agents, Models</category>
+      <category>Agents</category><category>Models</category>
     </item>
     <item>
       <title>Introducing Grok Business and Grok Enterprise</title>
       <link>https://x.ai/news/grok-business</link>
-      <description>xAI announced Grok Business and Grok Enterprise tiers with team management, higher usage limits, and enterprise-grade controls. Positions Grok as a direct competitor to OpenAI Teams and Anthropic&#x27;s enterprise offerings in the commercial AI market.</description>
+      <description>xAI announced Grok Business and Grok Enterprise tiers with team management, higher usage limits, and enterprise-grade controls. Positions Grok as a direct competitor to OpenAI Teams and Anthropic's enterprise offerings in the commercial AI market.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/grok-business</guid>
       <category>Models</category>
@@ -69,12 +125,12 @@
       <description>xAI announced a partnership with the US Department of War to deploy Grok for military applications, joining other frontier labs with government defence contracts. Adds xAI to the growing roster of AI companies providing capabilities to national security programmes.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/us-gov-dept-of-war</guid>
-      <category>Governance, Models</category>
+      <category>Governance</category><category>Models</category>
     </item>
     <item>
-      <title>xAI and El Salvador Pioneer the World&#x27;s First Nationwide AI Education Program</title>
+      <title>xAI and El Salvador Pioneer the World's First Nationwide AI Education Program</title>
       <link>https://x.ai/news/el-salvador-partnership</link>
-      <description>xAI and the El Salvador government launched what they describe as the world&#x27;s first nationwide AI education programme, using Grok to deliver AI literacy across the country&#x27;s education system. Positions xAI as both a commercial and geopolitical actor in global AI adoption.</description>
+      <description>xAI and the El Salvador government launched what they describe as the world's first nationwide AI education programme, using Grok to deliver AI literacy across the country's education system. Positions xAI as both a commercial and geopolitical actor in global AI adoption.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/el-salvador-partnership</guid>
       <category>Governance</category>
@@ -85,23 +141,23 @@
       <description>xAI released Grok 4.1 Fast, an optimised variant tuned for lower latency in production pipelines, alongside an Agent Tools API enabling external tool calls and multi-step reasoning. Targets developers building real-time agentic applications requiring fast inference.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
-      <category>Models, Agents</category>
+      <category>Models</category><category>Agents</category>
     </item>
     <item>
       <title>Grok goes Global with KSA</title>
       <link>https://x.ai/news/grok-goes-global</link>
-      <description>xAI expanded Grok access to Saudi Arabia as part of a broader global rollout, partnering with local entities to provide AI capabilities regionally. Part of xAI&#x27;s push to compete internationally against OpenAI and Anthropic beyond the US market.</description>
+      <description>xAI expanded Grok access to Saudi Arabia as part of a broader global rollout, partnering with local entities to provide AI capabilities regionally. Part of xAI's push to compete internationally against OpenAI and Anthropic beyond the US market.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/grok-goes-global</guid>
-      <category>Models, Governance</category>
+      <category>Models</category><category>Governance</category>
     </item>
     <item>
       <title>Expanding xAI for Government with GSA OneGov</title>
       <link>https://x.ai/news/onegov</link>
-      <description>xAI expanded its government programme through a partnership with the GSA&#x27;s OneGov platform, making Grok available to US federal agencies through existing procurement channels. Builds on the initial xAI for Government announcement with a concrete federal acquisition pathway.</description>
+      <description>xAI expanded its government programme through a partnership with the GSA's OneGov platform, making Grok available to US federal agencies through existing procurement channels. Builds on the initial xAI for Government announcement with a concrete federal acquisition pathway.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/onegov</guid>
-      <category>Governance, Models</category>
+      <category>Governance</category><category>Models</category>
     </item>
     <item>
       <title>Announcing xAI for Government</title>
@@ -109,23 +165,23 @@
       <description>xAI formally announced a government programme bringing Grok to federal and state agencies, emphasising security, compliance, and enterprise controls. Positions xAI as a direct competitor to Microsoft/OpenAI and Google in the government AI market.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://x.ai/news/government</guid>
-      <category>Governance, Models</category>
+      <category>Governance</category><category>Models</category>
     </item>
     <item>
       <title>Scaling How We Build and Test Our Most Advanced AI</title>
       <link>https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</link>
-      <description>Meta describes its internal methodology for scaling AI development and testing, including evaluation frameworks, red-teaming processes, and infrastructure for assessing increasingly capable models. Adds transparency to Meta&#x27;s AI safety and capability evaluation approach.</description>
+      <description>Meta describes its internal methodology for scaling AI development and testing, including evaluation frameworks, red-teaming processes, and infrastructure for assessing increasingly capable models. Adds transparency to Meta's AI safety and capability evaluation approach.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/</guid>
-      <category>Models, Governance</category>
+      <category>Models</category><category>Governance</category>
     </item>
     <item>
-      <title>How Alta Daily Uses Meta&#x27;s Segment Anything to Reimagine the Digital Closet</title>
+      <title>How Alta Daily Uses Meta's Segment Anything to Reimagine the Digital Closet</title>
       <link>https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</link>
-      <description>Fashion startup Alta Daily uses Meta&#x27;s Segment Anything Model to automatically extract and categorise clothing items from photos for a digital wardrobe app. A commercial use case demonstrating SAM&#x27;s reach into consumer product applications beyond research.</description>
+      <description>Fashion startup Alta Daily uses Meta's Segment Anything Model to automatically extract and categorise clothing items from photos for a digital wardrobe app. A commercial use case demonstrating SAM's reach into consumer product applications beyond research.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</guid>
-      <category>Content, Models</category>
+      <category>Content</category><category>Models</category>
     </item>
     <item>
       <title>SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking</title>
@@ -138,18 +194,18 @@
     <item>
       <title>Four MTIA Chips in Two Years: Scaling AI Experiences for Billions</title>
       <link>https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/</link>
-      <description>Meta released its fourth MTIA (Meta Training and Inference Accelerator) chip in two years, each generation purpose-built for scaling AI inference at the billions-of-users level. Demonstrates Meta&#x27;s aggressive pace in custom silicon alongside its open-model strategy.</description>
+      <description>Meta released its fourth MTIA (Meta Training and Inference Accelerator) chip in two years, each generation purpose-built for scaling AI inference at the billions-of-users level. Demonstrates Meta's aggressive pace in custom silicon alongside its open-model strategy.</description>
       <pubDate>Wed, 22 Apr 2026 19:11:41 +0000</pubDate>
       <guid isPermaLink="true">https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/</guid>
       <category>Models</category>
     </item>
     <item>
-      <title>Chollet: Judging AGI by human mimicry is a category error — learn what wasn&#x27;t taught</title>
+      <title>Chollet: Judging AGI by human mimicry is a category error — learn what wasn't taught</title>
       <link>https://x.com/i/status/2047006540549509248</link>
       <description>François Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught — a framing that challenges LLM-centric definitions and current benchmark culture.</description>
       <pubDate>Wed, 22 Apr 2026 19:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2047006540549509248</guid>
-      <category>Models, Governance</category>
+      <category>Models</category><category>Governance</category>
     </item>
     <item>
       <title>NZ AI skills demand quadruples; older workers outperforming juniors on AI adoption</title>
@@ -168,9 +224,9 @@
       <category>Governance</category>
     </item>
     <item>
-      <title>Logan Kilpatrick: Google Cloud is entering the &#x27;agent cloud&#x27; era</title>
+      <title>Logan Kilpatrick: Google Cloud is entering the 'agent cloud' era</title>
       <link>https://x.com/i/status/2046963338878632331</link>
-      <description>Logan Kilpatrick (Google AI Studio) described Google Cloud&#x27;s direction at Cloud Next as the &#x27;agent cloud&#x27; — positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company&#x27;s core strategic direction.</description>
+      <description>Logan Kilpatrick (Google AI Studio) described Google Cloud's direction at Cloud Next as the 'agent cloud' — positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company's core strategic direction.</description>
       <pubDate>Wed, 22 Apr 2026 16:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2046963338878632331</guid>
       <category>Agents</category>
@@ -181,71 +237,15 @@
       <description>Google and NVIDIA demonstrate Gemma 4 running as a Vision-Language-Action (VLA) model on the Jetson Orin Nano Super, enabling on-device robot perception and planning. Gemma 4 proves capable as a lightweight foundation model for physical AI applications on constrained edge hardware.</description>
       <pubDate>Wed, 22 Apr 2026 15:40:50 +0000</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/nvidia/gemma4</guid>
-      <category>Models, Agents</category>
+      <category>Models</category><category>Agents</category>
     </item>
     <item>
       <title>From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet</title>
       <link>https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/</link>
-      <description>NVIDIA&#x27;s Earth Day roundup covers five production deployments of AI-accelerated computing across climate modelling, biodiversity conservation, disaster monitoring, and recycling-plant automation. Documents real deployments rather than research demos.</description>
+      <description>NVIDIA's Earth Day roundup covers five production deployments of AI-accelerated computing across climate modelling, biodiversity conservation, disaster monitoring, and recycling-plant automation. Documents real deployments rather than research demos.</description>
       <pubDate>Wed, 22 Apr 2026 13:00:42 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI</title>
-      <link>https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/</link>
-      <description>NVIDIA and Google Cloud deepened their decade-long joint platform spanning every technology layer from optimised libraries to enterprise cloud services, enabling developers to push agentic and physical AI from lab to production. The collaboration targets robotics, autonomous systems, and large-scale agent deployment pipelines.</description>
-      <pubDate>Wed, 22 Apr 2026 12:00:42 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/</guid>
-      <category>Agents, Models</category>
-    </item>
-    <item>
-      <title>Google launches eighth-generation TPUs: 8T for training, 8I for inference</title>
-      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/</link>
-      <description>Google unveiled two specialized eighth-generation TPUs at Cloud Next 2026 — the 8T (training) and 8I (inference) — each delivering 2-3x performance over the previous generation and purpose-built for the agentic era. Logan Kilpatrick (Google AI Studio) called them &#x27;Google&#x27;s secret sauce&#x27; now available through Cloud.</description>
-      <pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>AI is handling 1,000+ NZ job interviews a month — humans still carry all the legal risk</title>
-      <link>https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk</link>
-      <description>AI tools are conducting over 1,000 job interviews per month in New Zealand, but legal and ethical accountability remains entirely with human hiring managers. Examines the widening gap between AI deployment in HR and the employment law frameworks governing those decisions.</description>
-      <pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk</guid>
-      <category>Governance, Automation</category>
-    </item>
-    <item>
-      <title>Sam Altman confirms Codex stays on free and Plus plans</title>
-      <link>https://x.com/i/status/2046752492093165708</link>
-      <description>Sam Altman confirmed Codex will remain accessible on free and Plus ($20/month) ChatGPT plans, directly addressing user concerns that Codex access was being restricted. Extends Codex&#x27;s reach to millions of individual developers beyond enterprise tiers.</description>
-      <pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2046752492093165708</guid>
-      <category>Coding</category>
-    </item>
-    <item>
-      <title>Speeding up agentic workflows with WebSockets in the Responses API</title>
-      <link>https://openai.com/index/speeding-up-agentic-workflows-with-websockets</link>
-      <description>OpenAI details how WebSocket connections and connection-scoped caching in the Responses API reduced API overhead and improved model latency inside the Codex agent loop. A practical deep dive for builders running long-horizon agentic workflows at scale.</description>
-      <pubDate>Wed, 22 Apr 2026 10:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/speeding-up-agentic-workflows-with-websockets</guid>
-      <category>Coding, Agents</category>
-    </item>
-    <item>
-      <title>Employment Hero launches HeroForce: AI co-employment model for NZ SMEs</title>
-      <link>https://auckland.scoop.co.nz/2026/04/employment-hero-ai-unlocks-new-employment-model-for-kiwi-smes-targetingnzs-complex-costly-compliance-burden</link>
-      <description>Employment Hero launched HeroForce, an AI-powered co-employment model designed to simplify payroll, HR admin, and employment law compliance for New Zealand SMEs. Targets the country&#x27;s complex regulatory environment as a commercial obstacle being solved through AI automation.</description>
-      <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://auckland.scoop.co.nz/2026/04/employment-hero-ai-unlocks-new-employment-model-for-kiwi-smes-targetingnzs-complex-costly-compliance-burden</guid>
-      <category>Automation, Governance</category>
-    </item>
-    <item>
-      <title>Health NZ develops BroPilot: culturally-grounded Māori version of Microsoft Copilot</title>
-      <link>https://www.hinz.org.nz/news/725776/Culturally-grounded-BroPilot-developed-by-Hauora-Mori-Services.htm</link>
-      <description>Hauora Māori Services developed BroPilot, a version of Microsoft Copilot incorporating te reo Māori and tikanga principles for Māori health contexts. Addresses a critical gap in AI tools for indigenous healthcare and demonstrates a model for culturally-responsive AI adaptation.</description>
-      <pubDate>Wed, 22 Apr 2026 08:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.hinz.org.nz/news/725776/Culturally-grounded-BroPilot-developed-by-Hauora-Mori-Services.htm</guid>
-      <category>Governance, Models</category>
+      <category>Models</category><category>Governance</category>
     </item>
   </channel>
 </rss>
