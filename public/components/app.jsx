@@ -180,6 +180,7 @@ function App() {
         onOpenFilters={() => setDrawerOpen(true)}
       />
       <XFeedTicker tweets={tweets} dismissed={xfeedDismissed} onDismiss={() => setXfeedDismissed(true)} />
+      <HeroBanner generatedAt={generatedAt} />
       <main className="main">
         <div className="main__inner">
           <PageHeader total={items.length} fresh={items.filter(i => i.timeAgoMins < 60).length} />
@@ -508,6 +509,25 @@ function SegmentedControl({ value, options, onChange }) {
           {o.l}
         </button>
       ))}
+    </div>
+  );
+}
+
+function HeroBanner({ generatedAt }) {
+  const d = generatedAt || new Date();
+  const dateStr = d.toLocaleDateString('en-NZ', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  return (
+    <div className="hero-banner">
+      <picture>
+        <source media="(max-width: 768px)" srcSet="/images/hero_mobile.png" />
+        <img src="/images/hero_desktop.png" alt="" className="hero-banner__img" />
+      </picture>
+      <div className="hero-banner__overlay" aria-hidden="true" />
+      <div className="hero-banner__text">
+        <span className="hero-banner__date">{dateStr}</span>
+        <h2 className="hero-banner__title">AI News — Today's Intelligence Brief</h2>
+        <p className="hero-banner__sub">The signals that matter, sourced and summarised.</p>
+      </div>
     </div>
   );
 }
