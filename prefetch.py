@@ -18,6 +18,7 @@ Does NOT handle X/Twitter searches or NZ Grok searches — those still need Clau
 import hashlib
 import json
 import re
+import tomllib
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
@@ -33,6 +34,53 @@ import requests
 REPO_DIR = Path(__file__).parent
 ITEMS_JSON = REPO_DIR / "public" / "data" / "items.json"
 CANDIDATES_JSON = REPO_DIR / "prefetch-candidates.json"
+
+# ── Cloudflare KV config ───────────────────────────────────────────────────────
+
+CF_ACCOUNT_ID = "97f9fae52c8c337245f0c1cfff7e5cd3"
+KV_NAMESPACE_ID = "491c62f3f6a94b2185edc68a7bf0f30a"
+KV_KEY = "prefetch-candidates"
+
+
+def _cf_token() -> str | None:
+    """Return a Cloudflare bearer token. Checks env first, then wrangler config."""
+    token = __import__("os").environ.get("CLOUDFLARE_API_TOKEN")
+    if token:
+        return token
+    wrangler_config = Path.home() / ".wrangler" / "config" / "default.toml"
+    if wrangler_config.exists():
+        try:
+            cfg = tomllib.loads(wrangler_config.read_text())
+            return cfg.get("oauth_token")
+        except Exception:
+            pass
+    return None
+
+
+def kv_write(payload_json: str) -> bool:
+    """Write payload_json to the AINEWS KV namespace. Returns True on success."""
+    token = _cf_token()
+    if not token:
+        print("[prefetch] KV: no auth token found — skipping KV write", flush=True)
+        return False
+    url = (
+        f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}"
+        f"/storage/kv/namespaces/{KV_NAMESPACE_ID}/values/{KV_KEY}"
+    )
+    try:
+        resp = requests.put(
+            url,
+            data=payload_json.encode(),
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            timeout=30,
+        )
+        if resp.ok:
+            return True
+        print(f"[prefetch] KV write failed: {resp.status_code} {resp.text[:200]}", flush=True)
+        return False
+    except Exception as e:
+        print(f"[prefetch] KV write error: {e}", flush=True)
+        return False
 
 # ── Source registry ────────────────────────────────────────────────────────────
 # Phase 1: meta-aggregators — fetch first, their URLs seed the dedup set
@@ -553,10 +601,15 @@ def main():
         "dedup_stats": dedup_stats,
         "skipped_sources": SKIPPED_SOURCES,
     }
+    payload_json = json.dumps(output, indent=2)
     tmp = CANDIDATES_JSON.with_suffix(".json.tmp")
-    tmp.write_text(json.dumps(output, indent=2))
+    tmp.write_text(payload_json)
     tmp.replace(CANDIDATES_JSON)
     print(f"[prefetch] wrote {len(candidates)} candidates → {CANDIDATES_JSON}", flush=True)
+
+    # Write to Cloudflare KV for cloud-routine consumption
+    kv_ok = kv_write(payload_json)
+    print(f"[prefetch] KV write: {'ok' if kv_ok else 'failed (local file is fallback)'}", flush=True)
     print(f"[prefetch] done {datetime.now(timezone.utc).isoformat()}", flush=True)
 
 
