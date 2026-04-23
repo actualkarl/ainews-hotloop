@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T21:06:53.560332Z",
+  "generated_at": "2026-04-23T21:35:25.576136Z",
   "candidates": [
     {
       "title": "Tag, You\u2019re It: GeForce NOW Levels Up Game Discovery With Xbox Game Pass and Ubisoft+ Labels",
@@ -50,7 +50,7 @@
       "url": "https://openai.com/academy/what-is-codex",
       "published_at": "2026-04-23T10:00:00Z",
       "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "image_url": null,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill",
       "image_type": null,
       "source_name": "openai",
       "source_tier": 1,
@@ -72,7 +72,7 @@
       "url": "https://openai.com/academy/codex-plugins-and-skills",
       "published_at": "2026-04-23T10:00:00Z",
       "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7v5h6Z00V6Tt9XQW2AVW62/4ec32f6ad895b9fb038c46ab27b10067/Academy-SEO.png?w=1600&h=900&fit=fill",
+      "image_url": null,
       "image_type": null,
       "source_name": "openai",
       "source_tier": 1,
@@ -156,6 +156,16 @@
       "source_region": "us"
     },
     {
+      "title": "NVIDIA GTC 2026: Live Updates on What\u2019s Next in AI",
+      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+      "published_at": null,
+      "summary": "",
+      "source_name": "nvidia-genai",
+      "source_tier": 1,
+      "source_region": "us",
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg"
+    },
+    {
       "title": "Chat with Qwen (with Deep Research and Web Dev)",
       "url": "https://chat.qwen.ai",
       "published_at": null,
@@ -192,17 +202,7 @@
       "source_name": "meta-ai",
       "source_tier": 1,
       "source_region": "us",
-      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ofzm8o9mjYQ7kNvwGtULFT&_nc_oc=AdqJLti-c523yAElssrDxTU02XgXBpkMF1ja100mgNhNxDxnb71BhtLrYS_HFkdHUMs&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=qgrNUmiIk2YDpvvysmzU2A&oh=00_Af36LI2Ve70mL19uqF3Z0cEm2khA6UQAvHC41Se1E9kXCw&oe=6A04DDAC"
-    },
-    {
-      "title": "NVIDIA GTC 2026: Live Updates on What\u2019s Next in AI",
-      "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
-      "published_at": null,
-      "summary": "",
-      "source_name": "nvidia-genai",
-      "source_tier": 1,
-      "source_region": "us",
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg"
+      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ofzm8o9mjYQ7kNvwGtULFT&_nc_oc=AdqJLti-c523yAElssrDxTU02XgXBpkMF1ja100mgNhNxDxnb71BhtLrYS_HFkdHUMs&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=98iV6vwGy1tAV2lyAsFXjg&oh=00_Af1Rkwci0wZm3R5Dd9kRbq3mv2ly4YVjJR8ny7Vvoer3tg&oe=6A04DDAC"
     }
   ],
   "source_health": {
@@ -212,9 +212,9 @@
       "last_error": null
     },
     "hackernews": {
-      "status": "failed",
-      "consecutive_failures": 1,
-      "last_error": "502 Server Error: Bad Gateway for url: https://hnrss.org/frontpage?points=150&q=AI+OR+LLM+OR+Claude+OR+GPT+OR+Anthropic+OR+OpenAI+OR+Gemini"
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_error": null
     },
     "nvidia": {
       "status": "ok",
@@ -256,6 +256,11 @@
       "consecutive_failures": 0,
       "last_error": null
     },
+    "nvidia-genai": {
+      "status": "ok",
+      "consecutive_failures": 0,
+      "last_error": null
+    },
     "xai": {
       "status": "ok",
       "consecutive_failures": 0,
@@ -265,18 +270,13 @@
       "status": "ok",
       "consecutive_failures": 0,
       "last_error": null
-    },
-    "nvidia-genai": {
-      "status": "ok",
-      "consecutive_failures": 0,
-      "last_error": null
     }
   },
   "existing_item_count": 99,
   "dedup_stats": {
-    "total_fetched": 58,
-    "duplicates_removed": 39,
-    "meta_aggregator_skips": 15,
+    "total_fetched": 60,
+    "duplicates_removed": 41,
+    "meta_aggregator_skips": 17,
     "candidates_remaining": 19
   },
   "skipped_sources": [
