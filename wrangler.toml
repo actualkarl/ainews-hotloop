@@ -13,3 +13,7 @@ binding = "ASSETS"
 
 [observability]
 enabled = true
+
+[[kv_namespaces]]
+binding = "AINEWS"
+id = "491c62f3f6a94b2185edc68a7bf0f30a"
