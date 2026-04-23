@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T20:41:23.681708Z",
+  "generated_at": "2026-04-23T22:05:00Z",
   "next_refresh_at": "2026-04-24T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "newsflash": [
@@ -9,7 +9,7 @@
     "d39f323dca4db435",
     "7686e66f5d526caf"
   ],
-  "daily_summary": "OpenAI released GPT-5.5 yesterday, its highest-capability model to date, scoring 82.7% on Terminal-Bench 2.0 and optimised for agentic coding and long-context research \u2014 at double GPT-5.4 pricing. NVIDIA immediately announced company-wide Codex deployment on GB200 NVL72 infrastructure, with 10,000+ employees reporting debugging cycles cut from days to hours. Separately, Anthropic published a postmortem confirming three root causes of recent Claude Code quality regressions \u2014 reduced reasoning effort, a caching bug, and a verbosity prompt \u2014 all now resolved. Meta announced it will cut 10% of its workforce (8,000 jobs) on May 20 to offset AI infrastructure spending, framing it as an AI-productivity dividend.",
+  "daily_summary": "OpenAI released GPT-5.5 today — its highest-capability model, scoring 82.7% on Terminal-Bench 2.0 and optimised for agentic coding and long-context research — with an accompanying system card and a $25,000 bio bug bounty for red-teaming biosecurity safeguards. Meta unveiled Muse Spark, a personal AI system that continuously models each user's goals and context, positioning it as a step toward individual-scale superintelligence. NVIDIA announced company-wide Codex deployment on GB200 NVL72 infrastructure, with 10,000+ employees cutting debugging cycles from days to hours. Anthropic resolved three Claude Code quality regressions — reduced reasoning effort, a caching bug, and a verbosity prompt — all confirmed fixed. Meta separately announced 8,000 job cuts (10% of workforce) as an AI-productivity dividend, while Microsoft doubled its NZ AI upskilling target to 200,000 people.",
   "items": [
     {
       "id": "7686e66f5d526caf",
@@ -59,7 +59,7 @@
       "region": "us",
       "published_at": "2026-04-23T18:57:55Z",
       "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "NVIDIA deploys GPT-5.5-powered Codex company-wide on GB200 NVL72 systems with 10,000+ employees using it. Debugging cycles reduced from days to hours \u2014 enterprise proof-of-concept for frontier model plus specialised inference hardware.",
+      "summary": "NVIDIA deploys GPT-5.5-powered Codex company-wide on GB200 NVL72 systems with 10,000+ employees using it. Debugging cycles reduced from days to hours — enterprise proof-of-concept for frontier model plus specialised inference hardware.",
       "tags": [
         "Models",
         "Coding"
@@ -97,7 +97,7 @@
       "region": "us",
       "published_at": "2026-04-23T13:47:00Z",
       "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta \u2014 layoffs framed explicitly as an AI-productivity dividend.",
+      "summary": "Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta — layoffs framed explicitly as an AI-productivity dividend.",
       "tags": [
         "Governance"
       ],
@@ -115,7 +115,7 @@
       "region": "us",
       "published_at": "2026-04-23T11:00:00Z",
       "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output \u2014 double GPT-5.4 pricing.",
+      "summary": "OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output — double GPT-5.4 pricing.",
       "tags": [
         "Models",
         "Coding",
@@ -124,6 +124,50 @@
       "trending_score": 1.0,
       "mention_count": 5,
       "related_ids": []
+    },
+    {
+      "id": "a07eb39dec044669",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "title": "GPT-5.5 System Card",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T11:00:00Z",
+      "first_seen_at": "2026-04-23T22:05:00Z",
+      "summary": "OpenAI's safety documentation for GPT-5.5 covers capability evaluations including Terminal-Bench 2.0 and ARC-AGI-2, biosecurity mitigations, and preparedness framework updates. Published alongside the model launch to satisfy responsible scaling commitments.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.85,
+      "mention_count": 2,
+      "related_ids": [
+        "dfe7e0c6ff398140"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4qBEDs71GX4NIuRrjXfZpA/8e5c587702a354616d4d99b1489a49b1/System_Card_Card_SEO_16x9.jpg?w=1600&h=900&fit=fill",
+      "image_type": null
+    },
+    {
+      "id": "a8336fe361e14b12",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T20:00:00Z",
+      "first_seen_at": "2026-04-23T22:05:00Z",
+      "summary": "Meta introduces Muse Spark, a personal AI system that continuously builds a detailed model of each user's goals, preferences, and context — designed to grow more capable and personalised over time. Meta's clearest statement yet on the path to individual-scale AI.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 0.82,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": null,
+      "image_type": null
     },
     {
       "id": "fb6a27e6b6291374",
@@ -145,25 +189,27 @@
       "related_ids": []
     },
     {
-      "id": "29ee52dce1758d6e",
-      "url": "https://x.com/i/status/2047017964105597009",
-      "title": "OpenAI workspace agents launch \u2014 shared agents for multi-step workflows across tools and teams",
+      "id": "d2f04a645a936fa0",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "title": "GPT-5.5 Bio Bug Bounty",
       "title_translated": null,
-      "source": "sama",
-      "source_tier": 3,
+      "source": "openai",
+      "source_tier": 1,
       "region": "us",
-      "published_at": "2026-04-22T20:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Sam Altman endorsed OpenAI's new workspace agents in ChatGPT, calling them 'cool' and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.",
+      "published_at": "2026-04-23T00:00:00Z",
+      "first_seen_at": "2026-04-23T22:05:00Z",
+      "summary": "OpenAI opens a red-teaming challenge targeting GPT-5.5's biosecurity guardrails, offering up to $25,000 for researchers who find universal jailbreaks for bio-related safety risks. Part of the responsible release process for a frontier model at higher capability thresholds.",
       "tags": [
-        "Agents",
-        "Coding"
+        "Governance",
+        "Models"
       ],
-      "trending_score": 0.0886,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/sama",
-      "image_type": "avatar"
+      "trending_score": 0.55,
+      "mention_count": 1,
+      "related_ids": [
+        "dfe7e0c6ff398140"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3dibW4TSEOQpjByxBjnpr2/8cefbfd6ae3b56e540fbd8e54fabbc64/Frame__16_.png?w=1600&h=900&fit=fill",
+      "image_type": null
     },
     {
       "id": "a0f97af1ab63b85b",
@@ -195,7 +241,7 @@
       "region": "us",
       "published_at": "2026-04-22T19:11:41.953245Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting \u2014 open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI's structural future.",
+      "summary": "NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting — open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI's structural future.",
       "tags": [
         "Models",
         "Governance"
@@ -235,7 +281,7 @@
       "region": "us",
       "published_at": "2026-04-22T19:11:41.953245Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers \u2014 absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.",
+      "summary": "NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers — absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.",
       "tags": [
         "Governance",
         "Models"
@@ -482,85 +528,6 @@
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=HgHNcKCHqUgQ7kNvwG1L3vC&_nc_oc=AdpBp4mNBT7vn0IRKtYkco02RPmjBJkgiU9sHrrbbrTcDrpH-HSq3Qbu7AYjfstkI90&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=W-tR6q2uMeYim-DWmT1UdA&_nc_ss=7a20f&oh=00_Af0miZ-T6QRYJVkqiFP3Za31kcKolqGjrB2d86UiEdtXFA&oe=6A03856C"
     },
     {
-      "id": "77a1719a394c087b",
-      "url": "https://x.com/i/status/2047006540549509248",
-      "title": "Chollet: Judging AGI by human mimicry is a category error \u2014 learn what wasn't taught",
-      "title_translated": null,
-      "source": "fchollet",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-22T19:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Fran\u00e7ois Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught \u2014 a framing that challenges LLM-centric definitions and current benchmark culture.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "trending_score": 0.0646,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/fchollet",
-      "image_type": "avatar"
-    },
-    {
-      "id": "c894915c4c4b0256",
-      "url": "https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-are-acing-the-pivot",
-      "title": "NZ AI skills demand quadruples; older workers outperforming juniors on AI adoption",
-      "title_translated": null,
-      "source": "rnz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-22T18:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Demand for AI-related skills in New Zealand has quadrupled in job ads over the past decade, and workers over 55 are outperforming younger colleagues in AI adoption rates. Despite 44% of NZ workers using AI daily, only 13% have received formal training \u2014 a gap Microsoft aims to close with 200,000 upskilling spots.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.1782,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--9o-cMIlJ--/t_tohu-badge-facebook/v1753230313/4K3TG61_AI_fact_check_jpg?_a=BACCd2AD"
-    },
-    {
-      "id": "49a790b799cbce79",
-      "url": "https://newsroom.co.nz/2026/04/22/were-not-actively-choosing-an-ai-future-were-just-clicking-accept",
-      "title": "NZ workers not actively choosing an AI future \u2014 just clicking accept",
-      "title_translated": null,
-      "source": "newsroom",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-22T18:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "A Newsroom analysis argues New Zealanders are defaulting into an AI-dependent future through passive consent clicks rather than deliberate policy choices. Frames AI adoption as a governance gap \u2014 organisations and individuals face AI exposure they have not consciously evaluated.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.1782,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://newsroom.co.nz/wp-content/uploads/2026/04/accept.png"
-    },
-    {
-      "id": "811cc5963f2c2730",
-      "url": "https://x.com/i/status/2046963338878632331",
-      "title": "Logan Kilpatrick: Google Cloud is entering the 'agent cloud' era",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-22T16:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Logan Kilpatrick (Google AI Studio) described Google Cloud's direction at Cloud Next as the 'agent cloud' \u2014 positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company's core strategic direction.",
-      "tags": [
-        "Agents"
-      ],
-      "trending_score": 0.0503,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/OfficialLoganK",
-      "image_type": "avatar"
-    },
-    {
       "id": "15ad61048ebe01b8",
       "url": "https://huggingface.co/blog/nvidia/gemma4",
       "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
@@ -579,6 +546,46 @@
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/gemma4.png"
+    },
+    {
+      "id": "89013bd05f8d139d",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "title": "Google launches eighth-generation TPUs: 8T for training, 8I for inference",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T12:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "Google unveiled two specialized eighth-generation TPUs at Cloud Next 2026 — the 8T (training) and 8I (inference) — each delivering 2-3x performance over the previous generation and purpose-built for the agentic era. Logan Kilpatrick (Google AI Studio) called them 'Google's secret sauce' now available through Cloud.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.2728,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-1440x810.png"
+    },
+    {
+      "id": "fd02f90b4d79825b",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "title": "Google invests in its first data center in Austria",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T09:00:00Z",
+      "first_seen_at": "2026-04-23T22:05:00Z",
+      "summary": "Google opens its first Austrian data center in Kronstorf, creating 100 direct jobs and expanding European AI compute capacity. Part of the ongoing global infrastructure build-out to meet surging AI demand.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.24,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp",
+      "image_type": null
     },
     {
       "id": "da1309709ea8cc13",
@@ -621,64 +628,6 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/google-cloud-nvidia.jpg"
     },
     {
-      "id": "89013bd05f8d139d",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-      "title": "Google launches eighth-generation TPUs: 8T for training, 8I for inference",
-      "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T12:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Google unveiled two specialized eighth-generation TPUs at Cloud Next 2026 \u2014 the 8T (training) and 8I (inference) \u2014 each delivering 2-3x performance over the previous generation and purpose-built for the agentic era. Logan Kilpatrick (Google AI Studio) called them 'Google's secret sauce' now available through Cloud.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.2728,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-1440x810.png"
-    },
-    {
-      "id": "cf59f6940e0fc95a",
-      "url": "https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk",
-      "title": "AI is handling 1,000+ NZ job interviews a month \u2014 humans still carry all the legal risk",
-      "title_translated": null,
-      "source": "thepost",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-22T12:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "AI tools are conducting over 1,000 job interviews per month in New Zealand, but legal and ethical accountability remains entirely with human hiring managers. Examines the widening gap between AI deployment in HR and the employment law frameworks governing those decisions.",
-      "tags": [
-        "Governance",
-        "Automation"
-      ],
-      "trending_score": 0.1081,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "b8ca2dd1382938d3",
-      "url": "https://x.com/i/status/2046752492093165708",
-      "title": "Sam Altman confirms Codex stays on free and Plus plans",
-      "title_translated": null,
-      "source": "sama",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-22T12:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Sam Altman confirmed Codex will remain accessible on free and Plus ($20/month) ChatGPT plans, directly addressing user concerns that Codex access was being restricted. Extends Codex's reach to millions of individual developers beyond enterprise tiers.",
-      "tags": [
-        "Coding"
-      ],
-      "trending_score": 0.036,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/sama",
-      "image_type": "avatar"
-    },
-    {
       "id": "a9b507c37a919260",
       "url": "https://deepmind.google/blog/decoupled-diloco/",
       "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
@@ -717,6 +666,105 @@
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&h=900&fit=fill"
     },
     {
+      "id": "c894915c4c4b0256",
+      "url": "https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-are-acing-the-pivot",
+      "title": "NZ AI skills demand quadruples; older workers outperforming juniors on AI adoption",
+      "title_translated": null,
+      "source": "rnz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T18:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "Demand for AI-related skills in New Zealand has quadrupled in job ads over the past decade, and workers over 55 are outperforming younger colleagues in AI adoption rates. Despite 44% of NZ workers using AI daily, only 13% have received formal training — a gap Microsoft aims to close with 200,000 upskilling spots.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.1782,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--9o-cMIlJ--/t_tohu-badge-facebook/v1753230313/4K3TG61_AI_fact_check_jpg?_a=BACCd2AD"
+    },
+    {
+      "id": "49a790b799cbce79",
+      "url": "https://newsroom.co.nz/2026/04/22/were-not-actively-choosing-an-ai-future-were-just-clicking-accept",
+      "title": "NZ workers not actively choosing an AI future — just clicking accept",
+      "title_translated": null,
+      "source": "newsroom",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T18:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "A Newsroom analysis argues New Zealanders are defaulting into an AI-dependent future through passive consent clicks rather than deliberate policy choices. Frames AI adoption as a governance gap — organisations and individuals face AI exposure they have not consciously evaluated.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.1782,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://newsroom.co.nz/wp-content/uploads/2026/04/accept.png"
+    },
+    {
+      "id": "a462f03b0ef4b893",
+      "url": "https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/",
+      "title": "Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T23:50:10Z",
+      "first_seen_at": "2026-04-23T22:05:00Z",
+      "summary": "NVIDIA expands nvmath-python with a Universal Sparse Tensor API that decouples sparsity from memory layout, simplifying sparse model training and inference. Practical tooling for ML engineers optimising large models for efficiency.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 0.12,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/Sparse-Deep-Learning-e1774302337562.webp",
+      "image_type": null
+    },
+    {
+      "id": "cf59f6940e0fc95a",
+      "url": "https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk",
+      "title": "AI is handling 1,000+ NZ job interviews a month — humans still carry all the legal risk",
+      "title_translated": null,
+      "source": "thepost",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T12:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "AI tools are conducting over 1,000 job interviews per month in New Zealand, but legal and ethical accountability remains entirely with human hiring managers. Examines the widening gap between AI deployment in HR and the employment law frameworks governing those decisions.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "trending_score": 0.1081,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "29ee52dce1758d6e",
+      "url": "https://x.com/i/status/2047017964105597009",
+      "title": "OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams",
+      "title_translated": null,
+      "source": "sama",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-22T20:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "Sam Altman endorsed OpenAI's new workspace agents in ChatGPT, calling them 'cool' and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "trending_score": 0.0886,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/sama",
+      "image_type": "avatar"
+    },
+    {
       "id": "800ab97e4ed81203",
       "url": "https://auckland.scoop.co.nz/2026/04/employment-hero-ai-unlocks-new-employment-model-for-kiwi-smes-targetingnzs-complex-costly-compliance-burden",
       "title": "Employment Hero launches HeroForce: AI co-employment model for NZ SMEs",
@@ -737,16 +785,36 @@
       "image_url": "http://img.scoop.co.nz/stories/images/1509/scoop_placeholder.jpg"
     },
     {
+      "id": "3efc4342b784ee3a",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "title": "Introducing OpenAI Privacy Filter",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "OpenAI released an open-weight model for detecting and redacting personally identifiable information (PII) in text, claiming state-of-the-art accuracy on standard benchmarks. Designed for privacy-preserving pipelines that need to scrub user data before forwarding to LLMs.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.0795,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
+    },
+    {
       "id": "4b0fe072e48f8a61",
       "url": "https://www.hinz.org.nz/news/725776/Culturally-grounded-BroPilot-developed-by-Hauora-Mori-Services.htm",
-      "title": "Health NZ develops BroPilot: culturally-grounded M\u0101ori version of Microsoft Copilot",
+      "title": "Health NZ develops BroPilot: culturally-grounded Māori version of Microsoft Copilot",
       "title_translated": null,
       "source": "hinz",
       "source_tier": 2,
       "region": "nz",
       "published_at": "2026-04-22T08:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Hauora M\u0101ori Services developed BroPilot, a version of Microsoft Copilot incorporating te reo M\u0101ori and tikanga principles for M\u0101ori health contexts. Addresses a critical gap in AI tools for indigenous healthcare and demonstrates a model for culturally-responsive AI adaptation.",
+      "summary": "Hauora Māori Services developed BroPilot, a version of Microsoft Copilot incorporating te reo Māori and tikanga principles for Māori health contexts. Addresses a critical gap in AI tools for indigenous healthcare and demonstrates a model for culturally-responsive AI adaptation.",
       "tags": [
         "Governance",
         "Models"
@@ -774,44 +842,45 @@
       "related_ids": []
     },
     {
-      "id": "3efc4342b784ee3a",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter",
-      "title": "Introducing OpenAI Privacy Filter",
+      "id": "77a1719a394c087b",
+      "url": "https://x.com/i/status/2047006540549509248",
+      "title": "Chollet: Judging AGI by human mimicry is a category error — learn what wasn't taught",
       "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
+      "source": "fchollet",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-22T00:00:00Z",
+      "published_at": "2026-04-22T19:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "OpenAI released an open-weight model for detecting and redacting personally identifiable information (PII) in text, claiming state-of-the-art accuracy on standard benchmarks. Designed for privacy-preserving pipelines that need to scrub user data before forwarding to LLMs.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0795,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
-    },
-    {
-      "id": "7694e1f914850915",
-      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "title_translated": null,
-      "source": "simonwillison",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-21T20:32:24Z",
-      "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Simon Willison tested ChatGPT Images 2.0 with a Where's-Waldo-style prompt and compares output against gpt-image-1. Sam Altman claimed on the livestream that the leap was equivalent to jumping from GPT-3 to GPT-5; Simon's review adds nuance from real prompts.",
+      "summary": "François Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught — a framing that challenges LLM-centric definitions and current benchmark culture.",
       "tags": [
         "Models",
-        "Content"
+        "Governance"
       ],
-      "trending_score": 0.0298,
+      "trending_score": 0.0646,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
+      "image_url": "https://unavatar.io/x/fchollet",
+      "image_type": "avatar"
+    },
+    {
+      "id": "811cc5963f2c2730",
+      "url": "https://x.com/i/status/2046963338878632331",
+      "title": "Logan Kilpatrick: Google Cloud is entering the 'agent cloud' era",
+      "title_translated": null,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-22T16:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "Logan Kilpatrick (Google AI Studio) described Google Cloud's direction at Cloud Next as the 'agent cloud' — positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company's core strategic direction.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 0.0503,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/OfficialLoganK",
+      "image_type": "avatar"
     },
     {
       "id": "d148c51f9554fe18",
@@ -834,6 +903,26 @@
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7fPF7LU0YzPr5PrlNT6lo3/823a11178d4aac15d4f4260b9fcc490d/Blog_art_card.png?w=1600&h=900&fit=fill"
     },
     {
+      "id": "b8ca2dd1382938d3",
+      "url": "https://x.com/i/status/2046752492093165708",
+      "title": "Sam Altman confirms Codex stays on free and Plus plans",
+      "title_translated": null,
+      "source": "sama",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-22T12:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "Sam Altman confirmed Codex will remain accessible on free and Plus ($20/month) ChatGPT plans, directly addressing user concerns that Codex access was being restricted. Extends Codex's reach to millions of individual developers beyond enterprise tiers.",
+      "tags": [
+        "Coding"
+      ],
+      "trending_score": 0.036,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/sama",
+      "image_type": "avatar"
+    },
+    {
       "id": "9e99c29859c55854",
       "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
       "title": "Three new ways Ads Advisor is making Google Ads safer and faster",
@@ -854,25 +943,24 @@
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.width-1300.png"
     },
     {
-      "id": "5eff7f5b72e4e28d",
-      "url": "https://x.com/i/status/2046598650055500094",
-      "title": "Chollet: current AI systems lack metacognition \u2014 they cannot accurately model their own capabilities",
+      "id": "7694e1f914850915",
+      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
       "title_translated": null,
-      "source": "fchollet",
-      "source_tier": 3,
+      "source": "simonwillison",
+      "source_tier": 2,
       "region": "us",
-      "published_at": "2026-04-21T12:00:00Z",
-      "first_seen_at": "2026-04-21T20:48:22Z",
-      "summary": "Fran\u00e7ois Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
+      "published_at": "2026-04-21T20:32:24Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Simon Willison tested ChatGPT Images 2.0 with a Where's-Waldo-style prompt and compares output against gpt-image-1. Sam Altman claimed on the livestream that the leap was equivalent to jumping from GPT-3 to GPT-5; Simon's review adds nuance from real prompts.",
       "tags": [
         "Models",
-        "Agents"
+        "Content"
       ],
-      "trending_score": 0.0049,
+      "trending_score": 0.0298,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "https://unavatar.io/x/fchollet",
-      "image_type": "avatar"
+      "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
     },
     {
       "id": "aef8afa7768165e1",
@@ -895,108 +983,6 @@
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/659bc8a7b0f43ed69f0b2300/KdH3z5dRfyIAyxgGPN5Ey.png"
     },
     {
-      "id": "93ffe6672ecff2d7",
-      "url": "https://x.com/i/status/2046577402264870958",
-      "title": "LeCun: AI existential risk framing is wrong \u2014 misuse and power concentration are the real dangers",
-      "title_translated": null,
-      "source": "ylecun",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-21T10:00:00Z",
-      "first_seen_at": "2026-04-21T20:48:22Z",
-      "summary": "Yann LeCun pushes back on p(doom) framing, arguing the real AI risk is not autonomous superintelligence but concentration of AI power in a few companies and misuse by state or corporate actors. He calls for open-source AI development and international governance structures as the appropriate countermeasures.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0041,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/ylecun",
-      "image_type": "avatar"
-    },
-    {
-      "id": "cded0d0ae6dfe183",
-      "url": "https://x.com/i/status/2046494659644399749",
-      "title": "OpenAI Images v2 rolling out to all ChatGPT accounts",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-21T09:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 0.0048,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/OfficialLoganK",
-      "image_type": "avatar"
-    },
-    {
-      "id": "56ebdace8acca49f",
-      "url": "https://x.com/i/status/2046464332444160074",
-      "title": "Anthropic launches Claude Design, hiring senior designers at $400K+",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-21T08:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0035,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/OfficialLoganK",
-      "image_type": "avatar"
-    },
-    {
-      "id": "23cd8736e18ef22a",
-      "url": "https://technewzealand.org.nz/2026/04/21/when-ai-quietly-shifts-what-organisations-value/",
-      "title": "When AI quietly shifts what organisations value",
-      "title_translated": null,
-      "source": "tech-nz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-21T03:59:15Z",
-      "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values \u2014 a \"value drift\" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.0075,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://technewzealand.org.nz/wp-content/uploads/sites/44/2026/04/EdTech-Website-Event-Banner-23-1024x455.png"
-    },
-    {
-      "id": "b3d0897aba68e123",
-      "url": "https://docs.openclaw.ai/providers/anthropic",
-      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
-      "title_translated": null,
-      "source": "hn-ai",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-21T03:43:03Z",
-      "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Anthropic has updated its provider documentation to permit OpenClaw-style Claude CLI integrations after a prior restriction. The move re-opens a popular path for local agent tooling that had been in limbo for two weeks. HN front page with 465 points.",
-      "tags": [
-        "Coding",
-        "Skills",
-        "Governance"
-      ],
-      "trending_score": 0.0093,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://clawdhub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DProviders%26title%3DAnthropic%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26primaryColor%3D%2523FF5A36%26lightColor%3D%2523FF8A6B%26darkColor%3D%2523FF5A36%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230e0c0d&w=1200&q=100"
-    },
-    {
       "id": "dac127f4fb18d708",
       "url": "https://x.com/i/status/2046393908629004443",
       "title": "Google: Gemini expands in Chrome to more Asia-Pacific countries with summarization and image editing",
@@ -1017,42 +1003,24 @@
       "image_type": "avatar"
     },
     {
-      "id": "477e516231cd562d",
-      "url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded",
-      "title": "Jeff Bezos' Project Prometheus nears $10B fundraising deal at $38B valuation",
+      "id": "3adba36cab5ab6b7",
+      "url": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
+      "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
       "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
+      "source": "nvidia-developer",
+      "source_tier": 1,
       "region": "us",
-      "published_at": "2026-04-21T01:25:01Z",
-      "first_seen_at": "2026-04-21T03:06:26.082027Z",
-      "summary": "Jeff Bezos' AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.",
+      "published_at": "2026-04-20T22:52:15Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "NVIDIA details end-to-end FP8 precision training for LLM reinforcement learning using GRPO, addressing GPU utilization bottlenecks during high-intensity RL phases with significant throughput improvements.",
       "tags": [
-        "Models"
+        "Models",
+        "Coding"
       ],
-      "trending_score": 0.0061,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "5a62757c703dd941",
-      "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
-      "title": "Anthropic board director Chris Liddell: NZ has 5 years \u2014 not 20 \u2014 to adapt to AI",
-      "title_translated": null,
-      "source": "theaicorner",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-21T01:00:00Z",
-      "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years \u2014 not 20 \u2014 to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0059,
-      "mention_count": 1,
+      "trending_score": 0.0124,
+      "mention_count": 2,
       "related_ids": [],
-      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2e471680-c77a-4665-8b9a-b72ea8db7b8e/The_AI_Corner__Logo_1200_x_630_.png?t=1756538663"
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp"
     },
     {
       "id": "767083dc76ef5a32",
@@ -1072,26 +1040,6 @@
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/build-korean-agents-with-nemotron-personas.png"
-    },
-    {
-      "id": "95a943a002619f61",
-      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
-      "title": "Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6",
-      "title_translated": null,
-      "source": "latent-space",
-      "source_tier": 2,
-      "region": "cn",
-      "published_at": "2026-04-21T00:19:33Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "trending_score": 0.0055,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
     },
     {
       "id": "373897d12f779670",
@@ -1151,6 +1099,143 @@
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://news.microsoft.com/source/asia/wp-content/uploads/2026/04/Jane-Livesey-President-Microsoft-AU-NZ-Copy-scaled.jpg"
+    },
+    {
+      "id": "d674facf95f566ee",
+      "url": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
+      "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
+      "title_translated": null,
+      "source": "nvidia-developer",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T23:01:04Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "Technical guide covering quantization, flash attention, and KV cache management techniques to deploy multi-billion-parameter generative AI models on memory-constrained NVIDIA Jetson edge devices.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "trending_score": 0.0099,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp"
+    },
+    {
+      "id": "b3d0897aba68e123",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-21T03:43:03Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Anthropic has updated its provider documentation to permit OpenClaw-style Claude CLI integrations after a prior restriction. The move re-opens a popular path for local agent tooling that had been in limbo for two weeks. HN front page with 465 points.",
+      "tags": [
+        "Coding",
+        "Skills",
+        "Governance"
+      ],
+      "trending_score": 0.0093,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://clawdhub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DProviders%26title%3DAnthropic%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26primaryColor%3D%2523FF5A36%26lightColor%3D%2523FF8A6B%26darkColor%3D%2523FF5A36%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230e0c0d&w=1200&q=100"
+    },
+    {
+      "id": "23cd8736e18ef22a",
+      "url": "https://technewzealand.org.nz/2026/04/21/when-ai-quietly-shifts-what-organisations-value/",
+      "title": "When AI quietly shifts what organisations value",
+      "title_translated": null,
+      "source": "tech-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T03:59:15Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values — a \"value drift\" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0075,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://technewzealand.org.nz/wp-content/uploads/sites/44/2026/04/EdTech-Website-Event-Banner-23-1024x455.png"
+    },
+    {
+      "id": "477e516231cd562d",
+      "url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded",
+      "title": "Jeff Bezos' Project Prometheus nears $10B fundraising deal at $38B valuation",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-21T01:25:01Z",
+      "first_seen_at": "2026-04-21T03:06:26.082027Z",
+      "summary": "Jeff Bezos' AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0061,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "f0b73109d4237fd8",
+      "url": "https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/",
+      "title": "Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T17:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "NVIDIA details how AGENTS.md files can be weaponised for indirect prompt injection in multi-agent pipelines, and provides practical mitigations. Essential reading for anyone building or auditing production agentic systems.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 0.006,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
+    },
+    {
+      "id": "5a62757c703dd941",
+      "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
+      "title": "Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI",
+      "title_translated": null,
+      "source": "theaicorner",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T01:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.0059,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2e471680-c77a-4665-8b9a-b72ea8db7b8e/The_AI_Corner__Logo_1200_x_630_.png?t=1756538663"
+    },
+    {
+      "id": "95a943a002619f61",
+      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
+      "title": "Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "cn",
+      "published_at": "2026-04-21T00:19:33Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 0.0055,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
     },
     {
       "id": "c9711cd4e574d92a",
@@ -1228,106 +1313,6 @@
       "related_ids": []
     },
     {
-      "id": "384a710feb7e12b2",
-      "url": "https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design",
-      "title": "Canva CEO on building proprietary AI, token pricing, and competing with AI-first design tools",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-20T23:10:00Z",
-      "first_seen_at": "2026-04-21T03:06:26.082027Z",
-      "summary": "Canva CEO Melanie Perkins discusses the company's enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva's positioning against Adobe's AI suite and the growing wave of AI-first design entrants.",
-      "tags": [
-        "Content",
-        "Models"
-      ],
-      "trending_score": 0.005,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/DCD_Perkins_Canva.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "id": "d674facf95f566ee",
-      "url": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
-      "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
-      "title_translated": null,
-      "source": "nvidia-developer",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-20T23:01:04Z",
-      "first_seen_at": "2026-04-21T01:17:17.598878Z",
-      "summary": "Technical guide covering quantization, flash attention, and KV cache management techniques to deploy multi-billion-parameter generative AI models on memory-constrained NVIDIA Jetson edge devices.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "trending_score": 0.0099,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp"
-    },
-    {
-      "id": "3adba36cab5ab6b7",
-      "url": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
-      "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
-      "title_translated": null,
-      "source": "nvidia-developer",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-20T22:52:15Z",
-      "first_seen_at": "2026-04-21T01:17:17.598878Z",
-      "summary": "NVIDIA details end-to-end FP8 precision training for LLM reinforcement learning using GRPO, addressing GPU utilization bottlenecks during high-intensity RL phases with significant throughput improvements.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "trending_score": 0.0124,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp"
-    },
-    {
-      "id": "e59c7e5acd302ce3",
-      "url": "https://x.com/i/status/2046017433199374610",
-      "title": "Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points",
-      "title_translated": null,
-      "source": "karpathy",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-20T22:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.",
-      "tags": [
-        "Agents",
-        "Models"
-      ],
-      "trending_score": 0.0015,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/karpathy",
-      "image_type": "avatar"
-    },
-    {
-      "id": "081667069d228400",
-      "url": "https://www.rnz.co.nz/news/business/592911/ai-tells-tenant-she-should-ask-for-40-000-tribunal-hands-her-80",
-      "title": "AI told NZ tenant to claim $40,000; Tenancy Tribunal awarded $80",
-      "title_translated": null,
-      "source": "rnz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-20T22:00:00Z",
-      "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute \u2014 the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.0046,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
-    },
-    {
       "id": "d1b8a9a5f0cca467",
       "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
       "title": "Leaked deck reveals OpenAI ad partner selling ChatGPT placements by prompt relevance",
@@ -1367,6 +1352,148 @@
       "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/02/codex-app-icon-openai.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
     },
     {
+      "id": "11b16a8eda3d2846",
+      "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+      "title": "Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
+      "title_translated": null,
+      "source": "nvidia-blog",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T13:00:50Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA, Adobe, and WPP collaborate on agentic AI for enterprise marketing. Adobe's creative platforms + WPP's expertise + NVIDIA's Nemotron models and OpenShell runtime enable intelligent systems that plan, create, produce and activate content continuously while maintaining brand safety.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "trending_score": 0.0054,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg"
+    },
+    {
+      "id": "384a710feb7e12b2",
+      "url": "https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design",
+      "title": "Canva CEO on building proprietary AI, token pricing, and competing with AI-first design tools",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T23:10:00Z",
+      "first_seen_at": "2026-04-21T03:06:26.082027Z",
+      "summary": "Canva CEO Melanie Perkins discusses the company's enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva's positioning against Adobe's AI suite and the growing wave of AI-first design entrants.",
+      "tags": [
+        "Content",
+        "Models"
+      ],
+      "trending_score": 0.005,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/DCD_Perkins_Canva.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
+    {
+      "id": "5eff7f5b72e4e28d",
+      "url": "https://x.com/i/status/2046598650055500094",
+      "title": "Chollet: current AI systems lack metacognition — they cannot accurately model their own capabilities",
+      "title_translated": null,
+      "source": "fchollet",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-21T12:00:00Z",
+      "first_seen_at": "2026-04-21T20:48:22Z",
+      "summary": "François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "trending_score": 0.0049,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/fchollet",
+      "image_type": "avatar"
+    },
+    {
+      "id": "cded0d0ae6dfe183",
+      "url": "https://x.com/i/status/2046494659644399749",
+      "title": "OpenAI Images v2 rolling out to all ChatGPT accounts",
+      "title_translated": null,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-21T09:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 0.0048,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/OfficialLoganK",
+      "image_type": "avatar"
+    },
+    {
+      "id": "081667069d228400",
+      "url": "https://www.rnz.co.nz/news/business/592911/ai-tells-tenant-she-should-ask-for-40-000-tribunal-hands-her-80",
+      "title": "AI told NZ tenant to claim $40,000; Tenancy Tribunal awarded $80",
+      "title_translated": null,
+      "source": "rnz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-20T22:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0046,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
+    },
+    {
+      "id": "424cf6cb40fc0b36",
+      "url": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
+      "title": "Reading today's open-closed performance gap",
+      "title_translated": null,
+      "source": "interconnects",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T18:25:02Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.0043,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!pKEq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c69ea-fa59-4eba-8034-25b0af9b5443_3182x1790.png"
+    },
+    {
+      "id": "93ffe6672ecff2d7",
+      "url": "https://x.com/i/status/2046577402264870958",
+      "title": "LeCun: AI existential risk framing is wrong — misuse and power concentration are the real dangers",
+      "title_translated": null,
+      "source": "ylecun",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-21T10:00:00Z",
+      "first_seen_at": "2026-04-21T20:48:22Z",
+      "summary": "Yann LeCun pushes back on p(doom) framing, arguing the real AI risk is not autonomous superintelligence but concentration of AI power in a few companies and misuse by state or corporate actors. He calls for open-source AI development and international governance structures as the appropriate countermeasures.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.0041,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/ylecun",
+      "image_type": "avatar"
+    },
+    {
       "id": "db67618a1fb2f432",
       "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
       "title": "Amazon invests $25B more in Anthropic, total now $33B",
@@ -1388,7 +1515,7 @@
     {
       "id": "e59e6f351c8b5541",
       "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "title": "Microsoft adjusts GitHub Copilot plans and pricing \u2014 Opus 4.7 restricted to Pro+",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
@@ -1444,62 +1571,44 @@
       "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg"
     },
     {
-      "id": "424cf6cb40fc0b36",
-      "url": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
-      "title": "Reading today's open-closed performance gap",
+      "id": "717a1241cb1bf6e7",
+      "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+      "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe",
       "title_translated": null,
-      "source": "interconnects",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-20T18:25:02Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "trending_score": 0.0043,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://substackcdn.com/image/fetch/$s_!pKEq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c69ea-fa59-4eba-8034-25b0af9b5443_3182x1790.png"
-    },
-    {
-      "id": "f0b73109d4237fd8",
-      "url": "https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/",
-      "title": "Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments",
-      "title_translated": null,
-      "source": "nvidia-dev",
+      "source": "nvidia-blog",
       "source_tier": 1,
       "region": "us",
-      "published_at": "2026-04-20T17:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "NVIDIA details how AGENTS.md files can be weaponised for indirect prompt injection in multi-agent pipelines, and provides practical mitigations. Essential reading for anyone building or auditing production agentic systems.",
+      "published_at": "2026-04-20T08:30:55Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA demonstrates AI-powered manufacturing innovations including factory digital twins, vision AI agents, and humanoid robots. Partners show how accelerated computing, AI physics, agents and robotics are powering industrial innovation.",
       "tags": [
+        "Automation",
         "Agents"
       ],
-      "trending_score": 0.006,
-      "mention_count": 1,
+      "trending_score": 0.0037,
+      "mention_count": 2,
       "related_ids": [],
-      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
     },
     {
-      "id": "f8363d42b74365e2",
-      "url": "https://www.latent.space/p/noetik",
-      "title": "Training Transformers to solve 95% failure rate of Cancer Trials \u2014 Noetik",
+      "id": "56ebdace8acca49f",
+      "url": "https://x.com/i/status/2046464332444160074",
+      "title": "Anthropic launches Claude Design, hiring senior designers at $400K+",
       "title_translated": null,
-      "source": "latent-space",
-      "source_tier": 2,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-20T16:17:17Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Noetik uses transformers trained on spatial transcriptomics to predict patient responses to cancer treatments. Their TARIO-2 model addresses a core bottleneck where 95% of cancer drugs fail clinical trials despite being effective for specific patient populations.",
+      "published_at": "2026-04-21T08:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.",
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0028,
+      "trending_score": 0.0035,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
+      "image_url": "https://unavatar.io/x/OfficialLoganK",
+      "image_type": "avatar"
     },
     {
       "id": "e630391cbbae25ff",
@@ -1522,44 +1631,23 @@
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Copy-of-2000x1000-EN-1240x600-1.jpg?resize=1200,581"
     },
     {
-      "id": "f0222a29050a28e2",
-      "url": "https://x.com/i/status/2046213029835239889",
-      "title": "Chollet: AI tools shift jobs toward higher complexity rather than eliminating them",
+      "id": "f8363d42b74365e2",
+      "url": "https://www.latent.space/p/noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
       "title_translated": null,
-      "source": "fchollet",
-      "source_tier": 3,
+      "source": "latent-space",
+      "source_tier": 2,
       "region": "us",
-      "published_at": "2026-04-20T14:00:00Z",
-      "first_seen_at": "2026-04-21T06:22:26.022873Z",
-      "summary": "Fran\u00e7ois Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics \u2014 echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
+      "published_at": "2026-04-20T16:17:17Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Noetik uses transformers trained on spatial transcriptomics to predict patient responses to cancer treatments. Their TARIO-2 model addresses a core bottleneck where 95% of cancer drugs fail clinical trials despite being effective for specific patient populations.",
       "tags": [
-        "Governance"
+        "Models"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0028,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "https://unavatar.io/x/fchollet",
-      "image_type": "avatar"
-    },
-    {
-      "id": "11b16a8eda3d2846",
-      "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
-      "title": "Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
-      "title_translated": null,
-      "source": "nvidia-blog",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-20T13:00:50Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "NVIDIA, Adobe, and WPP collaborate on agentic AI for enterprise marketing. Adobe's creative platforms + WPP's expertise + NVIDIA's Nemotron models and OpenShell runtime enable intelligent systems that plan, create, produce and activate content continuously while maintaining brand safety.",
-      "tags": [
-        "Agents",
-        "Automation"
-      ],
-      "trending_score": 0.0054,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg"
+      "image_url": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
     },
     {
       "id": "d2f757ea8858e0cd",
@@ -1601,44 +1689,65 @@
       "related_ids": []
     },
     {
-      "id": "9b9fdf79f83603a3",
-      "url": "https://x.com/i/status/2046201823652909528",
-      "title": "LeCun: consult economists not AI CEOs on job displacement; AI adds ~0.6% GDP annually",
+      "id": "e59c7e5acd302ce3",
+      "url": "https://x.com/i/status/2046017433199374610",
+      "title": "Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points",
       "title_translated": null,
-      "source": "ylecun",
+      "source": "karpathy",
       "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-20T10:00:00Z",
-      "first_seen_at": "2026-04-21T06:22:26.022873Z",
-      "summary": "Yann LeCun pushes back on Hinton's AI job displacement warnings, arguing labour economists like Daron Acemoglu are better authorities on workforce impact than AI scientists or CEOs. LeCun estimates AI may add approximately 0.6% annual GDP growth rather than causing mass unemployment.",
+      "published_at": "2026-04-20T22:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.",
       "tags": [
-        "Governance"
+        "Agents",
+        "Models"
       ],
-      "trending_score": 0.0007,
-      "mention_count": 2,
+      "trending_score": 0.0015,
+      "mention_count": 1,
       "related_ids": [],
-      "image_url": "https://unavatar.io/x/ylecun",
+      "image_url": "https://unavatar.io/x/karpathy",
       "image_type": "avatar"
     },
     {
-      "id": "717a1241cb1bf6e7",
-      "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
-      "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe",
+      "id": "24cb1873b9d2d37a",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
       "title_translated": null,
-      "source": "nvidia-blog",
+      "source": "openai",
       "source_tier": 1,
       "region": "us",
-      "published_at": "2026-04-20T08:30:55Z",
+      "published_at": "2026-04-20T00:00:00Z",
       "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "NVIDIA demonstrates AI-powered manufacturing innovations including factory digital twins, vision AI agents, and humanoid robots. Partners show how accelerated computing, AI physics, agents and robotics are powering industrial innovation.",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, utilizing GPT-5.4 and Codex to enhance productivity, operations, and guest experiences.",
       "tags": [
-        "Automation",
-        "Agents"
+        "Content",
+        "Automation"
       ],
-      "trending_score": 0.0037,
-      "mention_count": 2,
+      "trending_score": 0.0015,
+      "mention_count": 1,
       "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "id": "f0222a29050a28e2",
+      "url": "https://x.com/i/status/2046213029835239889",
+      "title": "Chollet: AI tools shift jobs toward higher complexity rather than eliminating them",
+      "title_translated": null,
+      "source": "fchollet",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-20T14:00:00Z",
+      "first_seen_at": "2026-04-21T06:22:26.022873Z",
+      "summary": "François Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics — echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0008,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/fchollet",
+      "image_type": "avatar"
     },
     {
       "id": "a2c45ad9360a2536",
@@ -1661,24 +1770,24 @@
       "image_url": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
     },
     {
-      "id": "24cb1873b9d2d37a",
-      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "id": "9b9fdf79f83603a3",
+      "url": "https://x.com/i/status/2046201823652909528",
+      "title": "LeCun: consult economists not AI CEOs on job displacement; AI adds ~0.6% GDP annually",
       "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
+      "source": "ylecun",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-20T00:00:00Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, utilizing GPT-5.4 and Codex to enhance productivity, operations, and guest experiences.",
+      "published_at": "2026-04-20T10:00:00Z",
+      "first_seen_at": "2026-04-21T06:22:26.022873Z",
+      "summary": "Yann LeCun pushes back on Hinton's AI job displacement warnings, arguing labour economists like Daron Acemoglu are better authorities on workforce impact than AI scientists or CEOs. LeCun estimates AI may add approximately 0.6% annual GDP growth rather than causing mass unemployment.",
       "tags": [
-        "Content",
-        "Automation"
+        "Governance"
       ],
-      "trending_score": 0.0015,
-      "mention_count": 1,
+      "trending_score": 0.0007,
+      "mention_count": 2,
       "related_ids": [],
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill"
+      "image_url": "https://unavatar.io/x/ylecun",
+      "image_type": "avatar"
     },
     {
       "id": "2597cb1c45deb23c",
@@ -1760,7 +1869,7 @@
     {
       "id": "b2505b70da0900a6",
       "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
-      "title": "Anthropic Claude Opus 4.7 \u2014 literally one step better than 4.6 in every dimension",
+      "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,

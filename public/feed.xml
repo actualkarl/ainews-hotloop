@@ -3,10 +3,10 @@
   <channel>
     <title>ainews — Karl's daily AI news</title>
     <link>https://ainews.hotloop.ai</link>
-    <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
+    <description>Daily AI news, deduped + tagged for hotloop’s workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 23 Apr 2026 20:41:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 22:05:00 +0000</lastBuildDate>
     <item>
       <title>Winning a Kaggle Competition with Generative AI-Assisted Coding</title>
       <link>https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/</link>
@@ -56,6 +56,22 @@
       <category>Models</category><category>Coding</category><category>Agents</category>
     </item>
     <item>
+      <title>GPT-5.5 System Card</title>
+      <link>https://openai.com/index/gpt-5-5-system-card</link>
+      <description>OpenAI's safety documentation for GPT-5.5 covers capability evaluations including Terminal-Bench 2.0 and ARC-AGI-2, biosecurity mitigations, and preparedness framework updates. Published alongside the model launch to satisfy responsible scaling commitments.</description>
+      <pubDate>Thu, 23 Apr 2026 11:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/gpt-5-5-system-card</guid>
+      <category>Models</category><category>Governance</category>
+    </item>
+    <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <description>Meta introduces Muse Spark, a personal AI system that continuously builds a detailed model of each user's goals, preferences, and context — designed to grow more capable and personalised over time. Meta's clearest statement yet on the path to individual-scale AI.</description>
+      <pubDate>Thu, 23 Apr 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category>Models</category><category>Agents</category>
+    </item>
+    <item>
       <title>Microsoft doubles NZ AI upskilling commitment to train 200,000 Kiwis</title>
       <link>https://www.rnz.co.nz/news/business/592939/microsoft-announces-boost-in-nz-ai-training</link>
       <description>Microsoft has doubled its New Zealand AI upskilling target to 200,000 people, expanding beyond basic digital literacy to real-world AI skills. Announced by Satya Nadella, targeting workforce readiness for AI-driven productivity.</description>
@@ -64,12 +80,12 @@
       <category>Skills</category><category>Governance</category>
     </item>
     <item>
-      <title>OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams</title>
-      <link>https://x.com/i/status/2047017964105597009</link>
-      <description>Sam Altman endorsed OpenAI's new workspace agents in ChatGPT, calling them 'cool' and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.</description>
-      <pubDate>Wed, 22 Apr 2026 20:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2047017964105597009</guid>
-      <category>Agents</category><category>Coding</category>
+      <title>GPT-5.5 Bio Bug Bounty</title>
+      <link>https://openai.com/index/gpt-5-5-bio-bug-bounty</link>
+      <description>OpenAI opens a red-teaming challenge targeting GPT-5.5's biosecurity guardrails, offering up to $25,000 for researchers who find universal jailbreaks for bio-related safety risks. Part of the responsible release process for a frontier model at higher capability thresholds.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/gpt-5-5-bio-bug-bounty</guid>
+      <category>Governance</category><category>Models</category>
     </item>
     <item>
       <title>From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI</title>
@@ -200,12 +216,60 @@
       <category>Models</category>
     </item>
     <item>
-      <title>Chollet: Judging AGI by human mimicry is a category error — learn what wasn't taught</title>
-      <link>https://x.com/i/status/2047006540549509248</link>
-      <description>François Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught — a framing that challenges LLM-centric definitions and current benchmark culture.</description>
-      <pubDate>Wed, 22 Apr 2026 19:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2047006540549509248</guid>
+      <title>Gemma 4 VLA Demo on Jetson Orin Nano Super</title>
+      <link>https://huggingface.co/blog/nvidia/gemma4</link>
+      <description>Google and NVIDIA demonstrate Gemma 4 running as a Vision-Language-Action (VLA) model on the Jetson Orin Nano Super, enabling on-device robot perception and planning. Gemma 4 proves capable as a lightweight foundation model for physical AI applications on constrained edge hardware.</description>
+      <pubDate>Wed, 22 Apr 2026 15:40:50 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/nvidia/gemma4</guid>
+      <category>Models</category><category>Agents</category>
+    </item>
+    <item>
+      <title>Google launches eighth-generation TPUs: 8T for training, 8I for inference</title>
+      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/</link>
+      <description>Google unveiled two specialized eighth-generation TPUs at Cloud Next 2026 — the 8T (training) and 8I (inference) — each delivering 2-3x performance over the previous generation and purpose-built for the agentic era. Logan Kilpatrick (Google AI Studio) called them 'Google's secret sauce' now available through Cloud.</description>
+      <pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Google invests in its first data center in Austria</title>
+      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/</link>
+      <description>Google opens its first Austrian data center in Kronstorf, creating 100 direct jobs and expanding European AI compute capacity. Part of the ongoing global infrastructure build-out to meet surging AI demand.</description>
+      <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/</guid>
+      <category>Governance</category><category>Models</category>
+    </item>
+    <item>
+      <title>From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet</title>
+      <link>https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/</link>
+      <description>NVIDIA's Earth Day roundup covers five production deployments of AI-accelerated computing across climate modelling, biodiversity conservation, disaster monitoring, and recycling-plant automation. Documents real deployments rather than research demos.</description>
+      <pubDate>Wed, 22 Apr 2026 13:00:42 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/</guid>
       <category>Models</category><category>Governance</category>
+    </item>
+    <item>
+      <title>NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI</title>
+      <link>https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/</link>
+      <description>NVIDIA and Google Cloud deepened their decade-long joint platform spanning every technology layer from optimised libraries to enterprise cloud services, enabling developers to push agentic and physical AI from lab to production. The collaboration targets robotics, autonomous systems, and large-scale agent deployment pipelines.</description>
+      <pubDate>Wed, 22 Apr 2026 12:00:42 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/</guid>
+      <category>Agents</category><category>Models</category>
+    </item>
+    <item>
+      <title>Decoupled DiLoCo: A new frontier for resilient, distributed AI training</title>
+      <link>https://deepmind.google/blog/decoupled-diloco/</link>
+      <description>DeepMind introduces Decoupled DiLoCo, a distributed training method separating gradient computation from parameter updates for improved resilience on heterogeneous hardware. Enables efficient LLM training across commodity clusters without tight synchronisation.</description>
+      <pubDate>Wed, 22 Apr 2026 10:20:03 +0000</pubDate>
+      <guid isPermaLink="true">https://deepmind.google/blog/decoupled-diloco/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Speeding up agentic workflows with WebSockets in the Responses API</title>
+      <link>https://openai.com/index/speeding-up-agentic-workflows-with-websockets</link>
+      <description>OpenAI details how WebSocket connections and connection-scoped caching in the Responses API reduced API overhead and improved model latency inside the Codex agent loop. A practical deep dive for builders running long-horizon agentic workflows at scale.</description>
+      <pubDate>Wed, 22 Apr 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/speeding-up-agentic-workflows-with-websockets</guid>
+      <category>Coding</category><category>Agents</category>
     </item>
     <item>
       <title>NZ AI skills demand quadruples; older workers outperforming juniors on AI adoption</title>
@@ -224,28 +288,44 @@
       <category>Governance</category>
     </item>
     <item>
-      <title>Logan Kilpatrick: Google Cloud is entering the 'agent cloud' era</title>
-      <link>https://x.com/i/status/2046963338878632331</link>
-      <description>Logan Kilpatrick (Google AI Studio) described Google Cloud's direction at Cloud Next as the 'agent cloud' — positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company's core strategic direction.</description>
-      <pubDate>Wed, 22 Apr 2026 16:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2046963338878632331</guid>
-      <category>Agents</category>
+      <title>Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python</title>
+      <link>https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/</link>
+      <description>NVIDIA expands nvmath-python with a Universal Sparse Tensor API that decouples sparsity from memory layout, simplifying sparse model training and inference. Practical tooling for ML engineers optimising large models for efficiency.</description>
+      <pubDate>Wed, 22 Apr 2026 23:50:10 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/</guid>
+      <category>Coding</category><category>Models</category>
     </item>
     <item>
-      <title>Gemma 4 VLA Demo on Jetson Orin Nano Super</title>
-      <link>https://huggingface.co/blog/nvidia/gemma4</link>
-      <description>Google and NVIDIA demonstrate Gemma 4 running as a Vision-Language-Action (VLA) model on the Jetson Orin Nano Super, enabling on-device robot perception and planning. Gemma 4 proves capable as a lightweight foundation model for physical AI applications on constrained edge hardware.</description>
-      <pubDate>Wed, 22 Apr 2026 15:40:50 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/nvidia/gemma4</guid>
-      <category>Models</category><category>Agents</category>
+      <title>AI is handling 1,000+ NZ job interviews a month — humans still carry all the legal risk</title>
+      <link>https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk</link>
+      <description>AI tools are conducting over 1,000 job interviews per month in New Zealand, but legal and ethical accountability remains entirely with human hiring managers. Examines the widening gap between AI deployment in HR and the employment law frameworks governing those decisions.</description>
+      <pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk</guid>
+      <category>Governance</category><category>Automation</category>
     </item>
     <item>
-      <title>From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet</title>
-      <link>https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/</link>
-      <description>NVIDIA's Earth Day roundup covers five production deployments of AI-accelerated computing across climate modelling, biodiversity conservation, disaster monitoring, and recycling-plant automation. Documents real deployments rather than research demos.</description>
-      <pubDate>Wed, 22 Apr 2026 13:00:42 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/</guid>
-      <category>Models</category><category>Governance</category>
+      <title>OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams</title>
+      <link>https://x.com/i/status/2047017964105597009</link>
+      <description>Sam Altman endorsed OpenAI's new workspace agents in ChatGPT, calling them 'cool' and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.</description>
+      <pubDate>Wed, 22 Apr 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2047017964105597009</guid>
+      <category>Agents</category><category>Coding</category>
+    </item>
+    <item>
+      <title>Employment Hero launches HeroForce: AI co-employment model for NZ SMEs</title>
+      <link>https://auckland.scoop.co.nz/2026/04/employment-hero-ai-unlocks-new-employment-model-for-kiwi-smes-targetingnzs-complex-costly-compliance-burden</link>
+      <description>Employment Hero launched HeroForce, an AI-powered co-employment model designed to simplify payroll, HR admin, and employment law compliance for New Zealand SMEs. Targets the country's complex regulatory environment as a commercial obstacle being solved through AI automation.</description>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://auckland.scoop.co.nz/2026/04/employment-hero-ai-unlocks-new-employment-model-for-kiwi-smes-targetingnzs-complex-costly-compliance-burden</guid>
+      <category>Automation</category><category>Governance</category>
+    </item>
+    <item>
+      <title>Introducing OpenAI Privacy Filter</title>
+      <link>https://openai.com/index/introducing-openai-privacy-filter</link>
+      <description>OpenAI released an open-weight model for detecting and redacting personally identifiable information (PII) in text, claiming state-of-the-art accuracy on standard benchmarks. Designed for privacy-preserving pipelines that need to scrub user data before forwarding to LLMs.</description>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/introducing-openai-privacy-filter</guid>
+      <category>Governance</category><category>Models</category>
     </item>
   </channel>
 </rss>
