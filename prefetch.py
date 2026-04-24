@@ -15,8 +15,10 @@ Fetch strategy (reduces ~25 sources → ~10-12 effective fetches):
 Does NOT handle X/Twitter searches or NZ Grok searches — those still need Claude.
 """
 
+import base64
 import hashlib
 import json
+import os
 import re
 import tomllib
 import xml.etree.ElementTree as ET
@@ -29,11 +31,43 @@ from urllib.parse import urljoin
 
 import requests
 
+try:
+    from PIL import Image
+    _PIL_AVAILABLE = True
+except ImportError:
+    _PIL_AVAILABLE = False
+
 # ── Paths ──────────────────────────────────────────────────────────────────────
 
 REPO_DIR = Path(__file__).parent
 ITEMS_JSON = REPO_DIR / "public" / "data" / "items.json"
 CANDIDATES_JSON = REPO_DIR / "prefetch-candidates.json"
+COVER_IMAGE = REPO_DIR / "public" / "data" / "cover.png"
+COVER_IMAGE_MOBILE = REPO_DIR / "public" / "data" / "cover-mobile.png"
+SECRETS_ENV = Path.home() / ".openclaw" / "ainews-secrets.env"
+OPENCLAW_JSON = Path.home() / ".openclaw" / "openclaw.json"
+
+# ── Daily cover-banner config ─────────────────────────────────────────────────
+# ONE image per day, generated off the top trending candidate.
+# Primary: gpt-image-2 low 1536x1024 ≈ $0.006/image = $2.19/year.
+# Fallbacks (all reach for the same visual slot):
+#   gpt-image-1 low 1536x1024 ≈ $0.011, dall-e-3 standard 1792x1024 ≈ $0.080.
+# If ALL image-gen fails, caller should fall back to the existing SVG cover.
+
+COVER_TIMEOUT = 120
+COVER_PRIMARY = {"model": "gpt-image-2", "size": "1536x1024", "quality": "low"}
+COVER_FALLBACKS = [
+    {"model": "gpt-image-1", "size": "1536x1024", "quality": "low"},
+    {"model": "gpt-image-1", "size": "1024x1024", "quality": "low"},
+    {"model": "dall-e-3", "size": "1792x1024", "quality": "standard"},
+]
+COVER_PROMPT = (
+    "Wide editorial hero banner illustration for the AI news headline: \"{title}\". "
+    "Mobile-first crop: key subject centered vertically, generous negative space "
+    "left/right for text overlay. Clean, minimalist, modern tech-journalism aesthetic. "
+    "Muted colors, warm white background, rose (#FF5B6E) and teal (#14B8BF) accents "
+    "only where natural. No text or letters. 3:2 landscape composition."
+)
 
 # ── Cloudflare KV config ───────────────────────────────────────────────────────
 
@@ -142,6 +176,141 @@ MEDIA_NS = "http://search.yahoo.com/mrss/"
 
 def url_hash(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()[:16]
+
+
+def slugify(text: str, max_len: int = 60) -> str:
+    """URL-safe slug from text, truncated to max_len."""
+    t = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    return t[:max_len].rstrip("-") or "item"
+
+
+def _openai_key() -> str | None:
+    """Resolve the OpenAI API key. Order: env → secrets.env → openclaw.json."""
+    k = os.environ.get("OPENAI_API_KEY")
+    if k:
+        return k.strip()
+    # secrets.env (simple `export OPENAI_API_KEY="..."` style)
+    try:
+        if SECRETS_ENV.exists():
+            for line in SECRETS_ENV.read_text().splitlines():
+                m = re.match(r'\s*(?:export\s+)?OPENAI_API_KEY\s*=\s*"?([^"\s]+)"?', line)
+                if m:
+                    return m.group(1).strip()
+    except Exception:
+        pass
+    # openclaw.json fallback
+    try:
+        if OPENCLAW_JSON.exists():
+            d = json.loads(OPENCLAW_JSON.read_text())
+            v = d.get("models", {}).get("providers", {}).get("openai", {}).get("apiKey")
+            if v:
+                return v.strip()
+    except Exception:
+        pass
+    return None
+
+
+def generate_cover(title: str, api_key: str, out_path: Path = COVER_IMAGE) -> tuple[bool, str | None, str | None]:
+    """Generate the daily hero banner. Tries gpt-image-2 → gpt-image-1 → dall-e-3.
+    Writes to out_path. Returns (success, model_used, error_message)."""
+    clean_title = title.replace('"', "").replace("'", "").strip()
+    prompt = COVER_PROMPT.format(title=clean_title)
+    last_err: str | None = None
+    for cfg in [COVER_PRIMARY, *COVER_FALLBACKS]:
+        body: dict = {"model": cfg["model"], "prompt": prompt,
+                      "size": cfg["size"], "n": 1}
+        if cfg["model"].startswith("dall-e"):
+            body["response_format"] = "b64_json"
+        if "quality" in cfg:
+            body["quality"] = cfg["quality"]
+        try:
+            resp = requests.post(
+                "https://api.openai.com/v1/images/generations",
+                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                json=body,
+                timeout=COVER_TIMEOUT,
+            )
+            if resp.status_code in (400, 403, 404):
+                last_err = f"{cfg['model']} {cfg['size']}: HTTP {resp.status_code}"
+                continue
+            if not resp.ok:
+                last_err = f"{cfg['model']} {cfg['size']}: HTTP {resp.status_code} {resp.text[:200]}"
+                continue
+            payload = resp.json()
+            data = payload.get("data", [])
+            if not data:
+                last_err = f"{cfg['model']}: empty data"
+                continue
+            entry = data[0]
+            b64 = entry.get("b64_json")
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            if b64:
+                out_path.write_bytes(base64.b64decode(b64))
+            elif entry.get("url"):
+                img_resp = requests.get(entry["url"], timeout=COVER_TIMEOUT)
+                img_resp.raise_for_status()
+                out_path.write_bytes(img_resp.content)
+            else:
+                last_err = f"{cfg['model']}: no b64 or url in response"
+                continue
+            label = f"{cfg['model']} {cfg['size']} {cfg.get('quality','')}".strip()
+            return True, label, None
+        except Exception as e:
+            last_err = f"{cfg['model']}: {e}"
+            continue
+    return False, None, last_err
+
+
+def cover_was_written_today() -> bool:
+    """Idempotency: cover.png exists AND was modified today (UTC)."""
+    if not COVER_IMAGE.exists():
+        return False
+    mtime = datetime.fromtimestamp(COVER_IMAGE.stat().st_mtime, tz=timezone.utc)
+    return mtime.date() == datetime.now(timezone.utc).date()
+
+
+def crop_cover_to_mobile(
+    src: Path = COVER_IMAGE,
+    dst: Path = COVER_IMAGE_MOBILE,
+    target: int = 1024,
+) -> tuple[bool, str | None]:
+    """Center-crop the daily cover.png to a mobile-friendly square PNG.
+
+    Source is typically 1536×1024 (gpt-image-2). A center-square crop becomes
+    1024×1024 — works as a mobile hero in both portrait and landscape viewports;
+    the frontend can CSS-crop further if needed.
+
+    Idempotent: if dst already exists and was written on the same UTC day as src,
+    skip the re-crop. Returns (success, error_message). Never raises — a crop
+    failure should not fail the whole prefetch run.
+    """
+    if not src.exists():
+        return False, f"source {src.name} does not exist"
+    if not _PIL_AVAILABLE:
+        return False, "Pillow not installed — run `pip3.13 install --break-system-packages Pillow`"
+
+    # Idempotency: same UTC-day mtime on both files means the crop is fresh.
+    if dst.exists():
+        src_day = datetime.fromtimestamp(src.stat().st_mtime, tz=timezone.utc).date()
+        dst_day = datetime.fromtimestamp(dst.stat().st_mtime, tz=timezone.utc).date()
+        if src_day == dst_day:
+            return True, "already cropped today"
+
+    try:
+        with Image.open(src) as img:
+            w, h = img.size
+            side = min(w, h)
+            left = (w - side) // 2
+            top = (h - side) // 2
+            cropped = img.crop((left, top, left + side, top + side))
+            if side != target:
+                cropped = cropped.resize((target, target), Image.LANCZOS)
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            # PIL default PNG — preserves source, no recompression artifacts.
+            cropped.save(dst, format="PNG", optimize=True)
+        return True, None
+    except Exception as e:
+        return False, f"crop failed: {e}"
 
 
 def tokenize(text: str) -> set:
@@ -592,6 +761,48 @@ def main():
                     enriched += 1
         print(f"[prefetch] og:image enriched {enriched}/{len(missing_img)} items", flush=True)
 
+    # ── Daily cover banner (ONE gpt-image-2 call) ─────────────────────────────
+    cover_status: dict = {"generated": False, "model": None, "error": None}
+    if candidates:
+        if cover_was_written_today():
+            cover_status = {"generated": False, "reused": True, "model": None,
+                            "error": "cover.png already fresh today"}
+            print(f"[prefetch] cover: {COVER_IMAGE.name} is fresh today — skipping", flush=True)
+        else:
+            api_key = _openai_key()
+            if not api_key:
+                cover_status["error"] = "no OpenAI key"
+                print(f"[prefetch] cover: no OpenAI key — SVG fallback remains", flush=True)
+            else:
+                top = candidates[0]  # candidates are ordered meta→T1→web; meta-aggregators first
+                title = top.get("title", "AI news")
+                print(f"[prefetch] cover: generating for \"{title[:60]}\"...", flush=True)
+                ok, model_used, err = generate_cover(title, api_key)
+                if ok:
+                    cover_status.update({"generated": True, "model": model_used,
+                                         "title": title, "error": None})
+                    print(f"[prefetch] cover ✓ {COVER_IMAGE.name} via {model_used}", flush=True)
+                else:
+                    cover_status["error"] = err
+                    print(f"[prefetch] cover ✗ all models failed: {err}  (SVG fallback remains)",
+                          flush=True)
+
+    # ── Mobile-cropped companion (same source, zero extra API cost) ───────────
+    # Run whenever cover.png exists — idempotent by same-day mtime.
+    mobile_ok, mobile_err = crop_cover_to_mobile()
+    if mobile_ok:
+        cover_status["mobile_crop"] = "ok" if not mobile_err else mobile_err
+        if not mobile_err:
+            print(f"[prefetch] cover-mobile ✓ {COVER_IMAGE_MOBILE.name} (1024×1024 center crop)",
+                  flush=True)
+        else:
+            # "already cropped today" — fine.
+            print(f"[prefetch] cover-mobile: {mobile_err}", flush=True)
+    else:
+        cover_status["mobile_crop_error"] = mobile_err
+        print(f"[prefetch] cover-mobile ✗ {mobile_err} (desktop cover.png still available)",
+              flush=True)
+
     # ── Write output atomically ───────────────────────────────────────────────
     output = {
         "generated_at": now.isoformat().replace("+00:00", "Z"),
@@ -600,6 +811,9 @@ def main():
         "existing_item_count": len(existing_items),
         "dedup_stats": dedup_stats,
         "skipped_sources": SKIPPED_SOURCES,
+        "cover_status": cover_status,
+        "cover_image_url": "/data/cover.png" if COVER_IMAGE.exists() else None,
+        "cover_image_mobile_url": "/data/cover-mobile.png" if COVER_IMAGE_MOBILE.exists() else None,
     }
     payload_json = json.dumps(output, indent=2)
     tmp = CANDIDATES_JSON.with_suffix(".json.tmp")
@@ -652,15 +866,35 @@ def backfill_items():
                 else:
                     print(f"[backfill] ✗ {item['url'][:60]}", flush=True)
     print(f"[backfill] og:image enriched {enriched}/{len(missing)} items", flush=True)
+
     tmp = ITEMS_JSON.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False))
     tmp.replace(ITEMS_JSON)
     print(f"[backfill] wrote {ITEMS_JSON}", flush=True)
 
 
+def cover_only():
+    """Run only the mobile-crop step on the existing cover.png. For testing."""
+    if not COVER_IMAGE.exists():
+        print(f"[cover-only] {COVER_IMAGE} does not exist — nothing to crop", flush=True)
+        return
+    ok, err = crop_cover_to_mobile()
+    if ok and not err:
+        from PIL import Image as _I
+        with _I.open(COVER_IMAGE_MOBILE) as im:
+            print(f"[cover-only] ✓ wrote {COVER_IMAGE_MOBILE} ({im.size[0]}×{im.size[1]}, mode={im.mode})",
+                  flush=True)
+    elif ok and err:
+        print(f"[cover-only] no-op: {err}", flush=True)
+    else:
+        print(f"[cover-only] FAILED: {err}", flush=True)
+
+
 if __name__ == "__main__":
     import sys
     if "--backfill-items" in sys.argv:
         backfill_items()
+    elif "--cover-only" in sys.argv:
+        cover_only()
     else:
         main()

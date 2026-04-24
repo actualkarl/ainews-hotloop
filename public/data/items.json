@@ -2,6 +2,8 @@
   "generated_at": "2026-04-23T23:06:52Z",
   "next_refresh_at": "2026-04-24T18:00:00Z",
   "schedule": "daily 06:00 NZT",
+  "cover_image_url": "/data/cover.png",
+  "cover_image_mobile_url": "/data/cover-mobile.png",
   "items": [
     {
       "id": "1d5a5362b45242bf",
@@ -17,10 +19,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/data/images/singapore-emerges-as-neutral-ground-for-ai-firms-navigating.png",
       "trending_score": 1.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_type": "generated"
     },
     {
       "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/",
@@ -39,7 +42,8 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 1.0
+      "trending_score": 1.0,
+      "image_url": "https://static.simonwillison.net/static/2026/liteparse-web-card.jpg"
     },
     {
       "id": "fbdf0b99a6629cbd",
@@ -56,10 +60,11 @@
         "Agents",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/data/images/ai-coding-firm-cognition-in-early-talks-to-raise-funds-at-25.png",
       "trending_score": 1.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_type": "generated"
     },
     {
       "id": "7686e66f5d526caf",
@@ -79,7 +84,7 @@
       "trending_score": 1.0,
       "mention_count": 2,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
     },
     {
       "id": "0ca8af00d317b9ea",
@@ -99,7 +104,7 @@
       "trending_score": 1.0,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://static.simonwillison.net/static/2026/gpt-5.5-pelican-xhigh.png"
     },
     {
       "url": "https://www.latent.space/p/unsupervised-learning-2026",
@@ -118,7 +123,8 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 1.0
+      "trending_score": 1.0,
+      "image_url": "https://substackcdn.com/image/fetch/$s_!45KJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F195264855%2F9555e9f7-7fae-4334-a611-77c682f215d5%2Ftranscoded-1776972950.png"
     },
     {
       "id": "8e6b6aeefff51fff",
@@ -138,7 +144,7 @@
       "trending_score": 1.0,
       "mention_count": 3,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png"
     },
     {
       "id": "4a2ecf1c44a53e68",
@@ -154,10 +160,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/data/images/gpt-5-5-pricing-5-m-input-30-m-output-double-gpt-5-4.png",
       "trending_score": 1.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_type": "generated"
     },
     {
       "id": "fe370f3118dcd626",
@@ -174,7 +181,7 @@
         "Coding",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "https://blog.meshcore.io/assets/images/icon.png",
       "trending_score": 0.9835,
       "mention_count": 1,
       "related_ids": []
@@ -197,7 +204,7 @@
       "trending_score": 1.0,
       "mention_count": 5,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/3f522820d47355885631ebda60e5d1f3e5c0fbc2-2000x1050.heif"
     },
     {
       "id": "d39f323dca4db435",
@@ -216,7 +223,8 @@
       "trending_score": 1.0,
       "mention_count": 4,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/images/meta-plans-to-cut-10-of-workers-to-offset-ai-spending.png",
+      "image_type": "generated"
     },
     {
       "id": "4286eb4691c1507d",
@@ -253,10 +261,11 @@
         "Agents",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/data/images/gpt-5-5-system-card.png",
       "trending_score": 1.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_type": "generated"
     },
     {
       "id": "dfe7e0c6ff398140",
@@ -277,7 +286,8 @@
       "trending_score": 1.0,
       "mention_count": 9,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/images/introducing-gpt-5-5.png",
+      "image_type": "generated"
     },
     {
       "id": "a8336fe361e14b12",
@@ -293,7 +303,7 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ofzm8o9mjYQ7kNvwGtULFT&_nc_oc=AdqJLti-c523yAElssrDxTU02XgXBpkMF1ja100mgNhNxDxnb71BhtLrYS_HFkdHUMs&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=wSc-0O757M3ykrDuzFJPxw&oh=00_Af1AoGbTytxuVDiYPm3tYVZEp5RMgoUUg8Yt3Dv0-4n4TQ&oe=6A0515EC",
       "trending_score": 1.0,
       "mention_count": 1,
       "related_ids": []
@@ -335,7 +345,7 @@
       "trending_score": 0.6414,
       "mention_count": 2,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--nTavqkEY--/t_tohu-badge-facebook/v1661033484/4LMPJPT_54470630_m_jpg?_a=BACCd2AD"
     },
     {
       "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
@@ -354,7 +364,8 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.3022
+      "trending_score": 0.3022,
+      "image_url": "https://substackcdn.com/image/fetch/$s_!4_2l!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb2b6f77-150d-4fb4-a74a-259318cba0dd_1698x1172.png"
     },
     {
       "id": "d2f04a645a936fa0",
@@ -371,10 +382,11 @@
         "Models",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/data/images/gpt-5-5-bio-bug-bounty.png",
       "trending_score": 0.4802,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_type": "generated"
     },
     {
       "url": "https://www.ncsc.govt.nz/protect-your-organisation/the-implications-of-frontier-ai-models-for-cyber-defence/",
@@ -393,7 +405,9 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.4802
+      "trending_score": 0.4802,
+      "image_url": "/data/images/nz-ncsc-implications-of-frontier-ai-models-for-cyber-defence.png",
+      "image_type": "generated"
     },
     {
       "id": "29ee52dce1758d6e",
@@ -908,7 +922,8 @@
       "trending_score": 0.0883,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/images/ai-is-handling-1-000-nz-job-interviews-a-month-humans-still.png",
+      "image_type": "generated"
     },
     {
       "id": "b8ca2dd1382938d3",
@@ -946,7 +961,8 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.0883
+      "trending_score": 0.0883,
+      "image_url": "http://img.scoop.co.nz/stories/images/1908/scoop_image.jpg"
     },
     {
       "id": "a9b507c37a919260",
@@ -965,7 +981,7 @@
       "trending_score": 0.194,
       "mention_count": 2,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://lh3.googleusercontent.com/1-K_kcmoX-fIzTJ13T0-uF4gylS2tK00ZVvx87B2WSayzUS2fxDoDDXFq5hOhxptrBeG8AbjG_URN5OOTpGMqad9zILjMsTdAHWroiDKpziBQjzErw=w1200-h630-n-nu-rw"
     },
     {
       "id": "8f555fe918e1ef56",
@@ -1025,7 +1041,8 @@
       "trending_score": 0.0633,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/images/health-nz-develops-bropilot-culturally-grounded-m-ori-versio.png",
+      "image_type": "generated"
     },
     {
       "id": "9353c534ed8e85f2",
@@ -1044,7 +1061,7 @@
       "trending_score": 0.0536,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://www.reseller.co.nz/wp-content/uploads/2026/04/4161687-0-41751800-1776819663-Jeyan_Jeevaratnam.png?w=1024"
     },
     {
       "id": "7e96c59684fecfda",
@@ -1060,10 +1077,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/data/images/new-pilot-helps-small-businesses-harness-ai.png",
       "trending_score": 0.065,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_type": "generated"
     },
     {
       "id": "3efc4342b784ee3a",
@@ -1325,7 +1343,7 @@
       "trending_score": 0.0049,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc142aba1-b453-4312-96e2-c86dad5b8c42.jpg?source=next-barrier-page"
     },
     {
       "id": "5a62757c703dd941",
@@ -1639,7 +1657,7 @@
       "trending_score": 0.0044,
       "mention_count": 2,
       "related_ids": [],
-      "image_url": null
+      "image_url": "https://static-www.adweek.com/wp-content/uploads/2025/05/open-ai-data-chatgpt-2025.jpg?w=600&h=315&crop=1"
     },
     {
       "id": "4c9be652c5fb7d9d",

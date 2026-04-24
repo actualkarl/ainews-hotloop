@@ -3,8 +3,11 @@ node_modules/
 .claude/
 .wrangler/
 .env
-.env.local
+.env*
+secrets.env
+*.secrets
 *.log
 __pycache__/
 *.consumed.json
 a47ab14b-*.png
+
