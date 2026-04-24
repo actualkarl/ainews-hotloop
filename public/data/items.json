@@ -26,11 +26,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": "/data/slices/slice-1-2.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.5493,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "027b7edb0c933457",
@@ -314,11 +314,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": "/data/slices/slice-1-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.5189,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "c8852cc459c62d39",
@@ -334,11 +334,11 @@
       "tags": [
         "Agents"
       ],
-      "image_url": "/data/slices/slice-0-2.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.5094,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "a9010abe1031b287",
@@ -355,11 +355,11 @@
         "Coding",
         "Skills"
       ],
-      "image_url": "/data/slices/slice-0-0.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.4195,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "1d5a5362b45242bf",
@@ -517,11 +517,11 @@
         "Models",
         "Coding"
       ],
-      "image_url": "/data/slices/slice-0-0.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2449,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "8e6b6aeefff51fff",
@@ -577,11 +577,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": "/data/slices/slice-0-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2189,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "fe370f3118dcd626",
@@ -657,11 +657,11 @@
       "tags": [
         "Coding"
       ],
-      "image_url": "/data/slices/slice-1-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.1513,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "4e2d46ca7b7754de",
@@ -798,11 +798,11 @@
         "Coding",
         "Automation"
       ],
-      "image_url": "/data/slices/slice-1-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "533227aa43914c8e",
@@ -819,11 +819,11 @@
         "Coding",
         "Automation"
       ],
-      "image_url": "/data/slices/slice-1-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "277cf65bf8c8d0a7",
@@ -841,11 +841,11 @@
         "Skills",
         "Automation"
       ],
-      "image_url": "/data/slices/slice-1-2.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "40d5894d1daf7129",
@@ -861,11 +861,11 @@
       "tags": [
         "Coding"
       ],
-      "image_url": "/data/slices/slice-1-2.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "72f200cf8d8a54af",
@@ -882,11 +882,11 @@
         "Coding",
         "Automation"
       ],
-      "image_url": "/data/slices/slice-0-2.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "34f009d107cc6ed8",
@@ -902,11 +902,11 @@
       "tags": [
         "Coding"
       ],
-      "image_url": "/data/slices/slice-1-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "0bd514e3244e4be3",
@@ -922,11 +922,11 @@
       "tags": [
         "Coding"
       ],
-      "image_url": "/data/slices/slice-1-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "fd02f90b4d79825b",
@@ -1698,11 +1698,11 @@
         "Governance",
         "Models"
       ],
-      "image_url": "/data/slices/slice-0-1.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.0066,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "cover_slice"
+      "image_source": "cover_fallback"
     },
     {
       "id": "7e96c59684fecfda",
@@ -2178,8 +2178,8 @@
       "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "/data/slices/slice-1-2.png",
-      "image_source": "cover_slice"
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
     },
     {
       "id": "384a710feb7e12b2",
@@ -2377,8 +2377,8 @@
       "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "/data/slices/slice-1-2.png",
-      "image_source": "cover_slice"
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
     },
     {
       "id": "65c9467b7424d749",
@@ -2556,8 +2556,8 @@
       "trending_score": 0.0004,
       "mention_count": 2,
       "related_ids": [],
-      "image_url": "/data/slices/slice-1-1.png",
-      "image_source": "cover_slice"
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
     },
     {
       "id": "9b9fdf79f83603a3",
@@ -2657,8 +2657,8 @@
       "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "/data/slices/slice-0-1.png",
-      "image_source": "cover_slice"
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
     },
     {
       "id": "af313d625d47cf19",
@@ -2678,8 +2678,8 @@
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "/data/slices/slice-1-0.png",
-      "image_source": "cover_slice"
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
     },
     {
       "id": "e84ea474e8637899",
@@ -2699,8 +2699,8 @@
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": "/data/slices/slice-0-1.png",
-      "image_source": "cover_slice"
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
     },
     {
       "id": "58f994275c6ac200",

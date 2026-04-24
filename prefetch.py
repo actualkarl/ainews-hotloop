@@ -83,21 +83,27 @@ COVER_FALLBACKS = [
 ]
 COVER_PROMPT_TEMPLATE = (
     "Editorial mood-board photograph, detective-investigation aesthetic. "
-    "Dark corkboard or black velvet background with subtle texture. "
-    "Six Polaroid-style instant photos arranged in a rough 3×2 grid, "
-    "slightly rotated at varied angles (-10° to +10°), corners overlapping, "
-    "pinned with gold/brass pushpins. Red investigation string loosely connects "
-    "some photos. Each Polaroid has a handwritten-in-black-marker label on its "
-    "white bottom strip.\n\n"
-    "Polaroid labels (top-left → bottom-right, render each EXACTLY as written):\n"
+    "Dark corkboard or black velvet background with subtle texture.\n\n"
+    "CENTER of the composition: a stylised anatomical brain illustration, "
+    "rendered as a diagram or pinned specimen, with red-string 'neurons' "
+    "radiating outward from it like investigation threads. The brain is the "
+    "focal anchor — centered both horizontally and vertically so a square "
+    "mobile crop frames it cleanly.\n\n"
+    "Around the brain (scattered on the corkboard, NOT overlapping the brain "
+    "itself): six Polaroid-style instant photos, slightly rotated at varied "
+    "angles (-10° to +10°), corners sometimes overlapping each other or "
+    "peeking under string, pinned with gold/brass pushpins. The red string "
+    "connects the brain to each Polaroid like neural pathways.\n\n"
+    "Each Polaroid has a handwritten-in-black-marker label on its white bottom "
+    "strip. Labels (EXACTLY as written):\n"
     "{labels_block}\n\n"
-    "For each Polaroid, render a minimal editorial illustration that visually "
-    "captures the theme of its label — abstract motifs, objects, or metaphors. "
-    "Muted palette — warm cream Polaroid frames, rose (#FF5B6E) and teal (#14B8BF) "
-    "hints naturally in the photo subjects and the string. Slight chaos and grain; "
-    "informality is the point. Shot from directly above, flat lay. 3:2 landscape.\n\n"
+    "For each Polaroid, render a minimal editorial illustration of the label's "
+    "theme — abstract motifs, objects, or metaphors. Muted palette — warm "
+    "cream Polaroid frames, rose (#FF5B6E) and teal (#14B8BF) accents in the "
+    "brain, photos, and string. Slight chaos and grain; informality is the "
+    "point. Shot from directly above, flat lay. 3:2 landscape.\n\n"
     "No real human faces or identifiable likenesses. No real brand logos or "
-    "trademarked symbols. No text outside the handwritten labels."
+    "trademarked symbols. No text outside the handwritten Polaroid labels."
 )
 
 # Max chars per Polaroid label — long headlines get truncated with ellipsis so
@@ -479,31 +485,37 @@ def slice_cover_into_tiles(
         return False, [], f"slice failed: {e}"
 
 
-def assign_slices_to_items(
+def assign_cover_to_items(
     items: list[dict],
-    slice_urls: list[str],
+    cover_url: str = "/data/cover-mobile.png",
 ) -> int:
-    """Assign a cover-slice URL to each item that has no `image_url`.
+    """Assign the daily cover banner (center-cropped on the brain) to every
+    item missing an `image_url`.
 
-    Deterministic — same item.url always maps to the same slice across runs,
-    so thumbnails are stable until the cover itself regenerates. Items that
-    already have an og:image / twitter:image / avatar keep it untouched.
+    The cover-mobile.png is a 1024×1024 center crop of the wide banner — the
+    brain motif lives at the center of the banner, so the mobile crop is
+    brain-centered and scales as a square article thumbnail. Baked Polaroid
+    labels stay visible and scale with the image. Items that already have an
+    og:image / twitter:image / avatar keep those untouched.
 
-    Returns the number of items that got a slice assigned."""
-    if not slice_urls:
-        return 0
+    Returns the number of items that got the cover assigned."""
     assigned = 0
     for item in items:
         if item.get("image_url"):
             continue
-        url = item.get("url") or item.get("id") or ""
-        if not url:
-            continue
-        idx = int(hashlib.md5(url.encode("utf-8")).hexdigest(), 16) % len(slice_urls)
-        item["image_url"] = slice_urls[idx]
-        item["image_source"] = "cover_slice"
+        item["image_url"] = cover_url
+        item["image_source"] = "cover_fallback"
         assigned += 1
     return assigned
+
+
+# Kept for API stability — earlier code called assign_slices_to_items. Now a
+# thin alias. Slicing still runs (slice_cover_into_tiles populates
+# public/data/slices/ for any frontend that wants them), but the default
+# fallback is the whole cover.
+def assign_slices_to_items(items: list[dict], slice_urls: list[str]) -> int:
+    """Deprecated — use assign_cover_to_items. Retained for backward compat."""
+    return assign_cover_to_items(items)
 
 
 def tokenize(text: str) -> set:
