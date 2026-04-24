@@ -1,16 +1,66 @@
 {
-  "generated_at": "2026-04-23T20:41:23.681708Z",
+  "generated_at": "2026-04-23T23:06:52Z",
   "next_refresh_at": "2026-04-24T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "newsflash": [
-    "dfe7e0c6ff398140",
-    "85b0ca3c45b5c993",
-    "8e6b6aeefff51fff",
-    "d39f323dca4db435",
-    "7686e66f5d526caf"
-  ],
-  "daily_summary": "OpenAI released GPT-5.5 yesterday, its highest-capability model to date, scoring 82.7% on Terminal-Bench 2.0 and optimised for agentic coding and long-context research \u2014 at double GPT-5.4 pricing. NVIDIA immediately announced company-wide Codex deployment on GB200 NVL72 infrastructure, with 10,000+ employees reporting debugging cycles cut from days to hours. Separately, Anthropic published a postmortem confirming three root causes of recent Claude Code quality regressions \u2014 reduced reasoning effort, a caching bug, and a verbosity prompt \u2014 all now resolved. Meta announced it will cut 10% of its workforce (8,000 jobs) on May 20 to offset AI infrastructure spending, framing it as an AI-productivity dividend.",
   "items": [
+    {
+      "id": "1d5a5362b45242bf",
+      "url": "https://www.reuters.com/world/china/singapore-emerging-neutral-ground-ai-firms-navigate-sino-us-rivalry-2026-04-24/",
+      "title": "Singapore emerges as neutral ground for AI firms navigating Sino-US rivalry",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T01:45:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "Reuters reports Singapore is transforming from an East-West gateway into a neutral ground for the AI sector, with Chinese startups relocating or opening offices there to sidestep US and Chinese regulation. Adds a third hub to the global AI map alongside the Bay Area and Shenzhen.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/",
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T21:54:24Z",
+      "summary": "Simon Willison ships a browser-based PDF text extraction tool built with Claude Code. Uses spatial parsing without AI plus optional OCR; demonstrates how AI-assisted coding compresses side-project development to hours.",
+      "tags": [
+        "Coding",
+        "Skills"
+      ],
+      "mention_count": 1,
+      "id": "793dd2b420ff13b9",
+      "title_translated": null,
+      "first_seen_at": "2026-04-23T23:06:52Z",
+      "related_ids": [],
+      "trending_score": 1.0
+    },
+    {
+      "id": "fbdf0b99a6629cbd",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-23/ai-coding-firm-cognition-in-funding-talks-at-25-billion-value",
+      "title": "AI coding firm Cognition in early talks to raise funds at $25B valuation",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T20:35:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "Cognition AI, maker of the Devin coding agent, is in early talks to raise hundreds of millions at a $25B valuation, up from $10.2B in September 2025. The round signals continued appetite for agentic-coding startups despite the crowded field.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "7686e66f5d526caf",
       "url": "https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding/",
@@ -27,8 +77,9 @@
         "Agents"
       ],
       "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "0ca8af00d317b9ea",
@@ -47,7 +98,27 @@
       ],
       "trending_score": 1.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
+    },
+    {
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "title": "AIE Europe Debrief + Agent Labs Thesis (Latent Space × Unsupervised Learning)",
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T19:37:19Z",
+      "summary": "Swyx and Jacob Effron discuss AIE Europe takeaways and the emerging 'agent lab' playbook: domain-specific model training, harness engineering, memory systems, and world models as intelligence primitives. State of AI coding wars — multi-billion ARR products emerging.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "mention_count": 1,
+      "id": "a28033b82077f4f8",
+      "title_translated": null,
+      "first_seen_at": "2026-04-23T23:06:52Z",
+      "related_ids": [],
+      "trending_score": 1.0
     },
     {
       "id": "8e6b6aeefff51fff",
@@ -59,13 +130,53 @@
       "region": "us",
       "published_at": "2026-04-23T18:57:55Z",
       "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "NVIDIA deploys GPT-5.5-powered Codex company-wide on GB200 NVL72 systems with 10,000+ employees using it. Debugging cycles reduced from days to hours \u2014 enterprise proof-of-concept for frontier model plus specialised inference hardware.",
+      "summary": "NVIDIA deploys GPT-5.5-powered Codex company-wide on GB200 NVL72 systems with 10,000+ employees using it. Debugging cycles reduced from days to hours — enterprise proof-of-concept for frontier model plus specialised inference hardware.",
       "tags": [
         "Models",
         "Coding"
       ],
       "trending_score": 1.0,
-      "mention_count": 2,
+      "mention_count": 3,
+      "related_ids": [],
+      "image_url": null
+    },
+    {
+      "id": "4a2ecf1c44a53e68",
+      "url": "https://venturebeat.com/ai/openais-gpt-5-5-is-here-and-its-no-potato-narrowly-beats-anthropics-claude-mythos-preview-on-terminal-bench-2-0",
+      "title": "GPT-5.5 pricing: $5/M input, $30/M output — double GPT-5.4",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T18:40:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "GPT-5.5 is priced at $5 per million input tokens and $30 per million output tokens, double GPT-5.4; GPT-5.5 Pro costs $30 input and $180 output. VentureBeat notes the model narrowly beats Anthropic's Claude Mythos Preview on Terminal Bench 2.0.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "fe370f3118dcd626",
+      "url": "https://blog.meshcore.io/2026/04/23/the-split",
+      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+      "title_translated": null,
+      "source": "hnrss",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T16:55:13Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "The MeshCore project has split following disputes over the project's trademark and contributions of AI-generated code. Highlights governance friction as open-source projects grapple with AI-tool usage norms.",
+      "tags": [
+        "Coding",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.9835,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -84,8 +195,9 @@
         "Models"
       ],
       "trending_score": 1.0,
-      "mention_count": 2,
-      "related_ids": []
+      "mention_count": 5,
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "d39f323dca4db435",
@@ -97,12 +209,53 @@
       "region": "us",
       "published_at": "2026-04-23T13:47:00Z",
       "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta \u2014 layoffs framed explicitly as an AI-productivity dividend.",
+      "summary": "Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta — layoffs framed explicitly as an AI-productivity dividend.",
       "tags": [
         "Governance"
       ],
       "trending_score": 1.0,
-      "mention_count": 3,
+      "mention_count": 4,
+      "related_ids": [],
+      "image_url": null
+    },
+    {
+      "id": "4286eb4691c1507d",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "title": "How our TPUs power increasingly demanding AI workloads",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T12:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "Google released an explainer video on how its TPU generations have scaled to power increasingly demanding AI workloads. Educational, but a marker that Google continues to position TPUs as competitive with NVIDIA for training the largest models.",
+      "tags": [
+        "Content"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a07eb39dec044669",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "title": "GPT-5.5 System Card",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T11:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "OpenAI published the GPT-5.5 system card with safety evaluations, red-teaming results, and capability benchmarks. Reports improvements in agentic coding and scientific research, with the bio-risk evaluations separately covered in a bug bounty challenge.",
+      "tags": [
+        "Models",
+        "Agents",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -115,14 +268,53 @@
       "region": "us",
       "published_at": "2026-04-23T11:00:00Z",
       "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output \u2014 double GPT-5.4 pricing.",
+      "summary": "OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output — double GPT-5.4 pricing.",
       "tags": [
         "Models",
         "Coding",
         "Agents"
       ],
       "trending_score": 1.0,
-      "mention_count": 5,
+      "mention_count": 9,
+      "related_ids": [],
+      "image_url": null
+    },
+    {
+      "id": "a8336fe361e14b12",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "title_translated": null,
+      "source": "meta-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "Meta's MSL lab introduced Muse Spark, framing it as a step toward what Meta is calling personal superintelligence. Details are thin on capability specs; the branding positions it squarely against OpenAI's consumer play.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "fd02f90b4d79825b",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "title": "Google invests in first data center in the Austrian Alps",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T09:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "Google announced its first Austrian data center in Kronstorf, generating 100 direct jobs. Part of Google's push to expand EU AI compute capacity ahead of EU AI Act enforcement milestones.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -140,14 +332,73 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.6221,
+      "trending_score": 0.6414,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": null
+    },
+    {
+      "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
+      "title": "[AINews] Tasteful Tokenmaxxing",
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T02:45:37Z",
+      "summary": "AI leaders debate optimal token consumption — serial depth vs parallel breadth in model runs, and implications for code quality as AI-generated software volume explodes. Discussion of tokenmaxxing as a deliberate strategy vs efficiency.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "mention_count": 1,
+      "id": "afb716a2daffcda4",
+      "title_translated": null,
+      "first_seen_at": "2026-04-23T23:06:52Z",
+      "related_ids": [],
+      "trending_score": 0.3022
+    },
+    {
+      "id": "d2f04a645a936fa0",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T00:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "OpenAI is running a red-teaming challenge to find universal jailbreaks for GPT-5.5's bio safety guardrails, with rewards up to $25,000. Shows OpenAI is taking bio-risk evals seriously for its latest frontier model.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.4802,
       "mention_count": 1,
       "related_ids": []
     },
     {
+      "url": "https://www.ncsc.govt.nz/protect-your-organisation/the-implications-of-frontier-ai-models-for-cyber-defence/",
+      "title": "NZ NCSC: Implications of Frontier AI Models for Cyber Defence",
+      "source": "ncsc-nz",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-04-23T00:00:00Z",
+      "summary": "New Zealand's National Cyber Security Centre publishes guidance for senior leaders on how frontier AI models create dual-use cyber risks: enabling attackers to find vulnerabilities faster while offering defenders AI-assisted code review and vulnerability detection.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "mention_count": 1,
+      "id": "9ba6a1fafa2cc94b",
+      "title_translated": null,
+      "first_seen_at": "2026-04-23T23:06:52Z",
+      "related_ids": [],
+      "trending_score": 0.4802
+    },
+    {
       "id": "29ee52dce1758d6e",
       "url": "https://x.com/i/status/2047017964105597009",
-      "title": "OpenAI workspace agents launch \u2014 shared agents for multi-step workflows across tools and teams",
+      "title": "OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams",
       "title_translated": null,
       "source": "sama",
       "source_tier": 3,
@@ -159,7 +410,7 @@
         "Agents",
         "Coding"
       ],
-      "trending_score": 0.0886,
+      "trending_score": 0.0724,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/sama",
@@ -180,7 +431,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/eevee-nv-blog-1280x680-1.jpg"
@@ -195,12 +446,12 @@
       "region": "us",
       "published_at": "2026-04-22T19:11:41.953245Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting \u2014 open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI's structural future.",
+      "summary": "NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting — open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI's structural future.",
       "tags": [
         "Models",
         "Governance"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg"
@@ -220,7 +471,7 @@
         "Agents",
         "Governance"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/agentic-ai-visual-nemoclaw-opie-r2-1680x938.png"
@@ -235,12 +486,12 @@
       "region": "us",
       "published_at": "2026-04-22T19:11:41.953245Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers \u2014 absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.",
+      "summary": "NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers — absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.",
       "tags": [
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/02/Copy-of-Blog-1280x680.pptx-2.jpg"
@@ -260,7 +511,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-models-and-frameworks-1920x1080-1-1680x945.gif"
@@ -279,7 +530,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491"
@@ -299,7 +550,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e"
@@ -318,7 +569,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/el-salvador-partnership/opengraph-image-a4id79.png?af3ffb6a20040211"
@@ -338,7 +589,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a"
@@ -358,7 +609,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-goes-global/opengraph-image-1hc9y2.png?90f5f7a4ae2d2121"
@@ -378,7 +629,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/onegov/opengraph-image-1hepv9.png?a627c3d2277f3233"
@@ -398,7 +649,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/government/opengraph-image-lqj1b7.png?f1aa0f448e8273c9"
@@ -418,7 +669,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ju3IackF430Q7kNvwFBTu7q&_nc_oc=AdrXrXAAULayAsG0V8mz83vQKX8b3b7q2RYNOTMa2erJX8-uNNYE1Bg5Evr0sBfBtAQ&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RMFb5tIUyhhqaQ1poXn2xg&_nc_ss=7a20f&oh=00_Af0s4gm4ajP_y6y0WJ-enq-ukVyfsVt0_HIps9qHlCX0EQ&oe=6A0387EE"
@@ -438,7 +689,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/658967078_993415586351079_325919381939729048_n.gif?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FD9jqO43oIIQ7kNvwGhxeMf&_nc_oc=AdpBCkur8KJ6goLpl3nXNHcYNSJJTf2pRERTCRq5CMotRQaUgR3FAcmWXYgqqNU1-Mo&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=B77mkxV5iAXhdyomqupkLQ&_nc_ss=7a20f&oh=00_Af3O1ZpjaNNl4ubxlZ1n4DOez-VxSOMcwz080bVac9n_5g&oe=6A036C52"
@@ -457,7 +708,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OQF0YD6bwmIQ7kNvwFegFh3&_nc_oc=AdrZyZokBD94I9hUaushIKcm3N7sm1NOSriddKJ-sLWy0XTLkedXUbveJg-prQvN70M&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=jBIjXSzAOYeM4hrY3XfGBw&_nc_ss=7a20f&oh=00_Af0XCNzeBk_FgXJJo0-y2gdkTVcteT5FcFhEVvyogFO8vw&oe=6A038A61"
@@ -476,7 +727,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3938,
+      "trending_score": 0.3218,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=HgHNcKCHqUgQ7kNvwG1L3vC&_nc_oc=AdpBp4mNBT7vn0IRKtYkco02RPmjBJkgiU9sHrrbbrTcDrpH-HSq3Qbu7AYjfstkI90&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=W-tR6q2uMeYim-DWmT1UdA&_nc_ss=7a20f&oh=00_Af0miZ-T6QRYJVkqiFP3Za31kcKolqGjrB2d86UiEdtXFA&oe=6A03856C"
@@ -484,19 +735,19 @@
     {
       "id": "77a1719a394c087b",
       "url": "https://x.com/i/status/2047006540549509248",
-      "title": "Chollet: Judging AGI by human mimicry is a category error \u2014 learn what wasn't taught",
+      "title": "Chollet: Judging AGI by human mimicry is a category error — learn what wasn't taught",
       "title_translated": null,
       "source": "fchollet",
       "source_tier": 3,
       "region": "us",
       "published_at": "2026-04-22T19:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Fran\u00e7ois Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught \u2014 a framing that challenges LLM-centric definitions and current benchmark culture.",
+      "summary": "François Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught — a framing that challenges LLM-centric definitions and current benchmark culture.",
       "tags": [
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0646,
+      "trending_score": 0.0528,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -512,11 +763,11 @@
       "region": "nz",
       "published_at": "2026-04-22T18:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Demand for AI-related skills in New Zealand has quadrupled in job ads over the past decade, and workers over 55 are outperforming younger colleagues in AI adoption rates. Despite 44% of NZ workers using AI daily, only 13% have received formal training \u2014 a gap Microsoft aims to close with 200,000 upskilling spots.",
+      "summary": "Demand for AI-related skills in New Zealand has quadrupled in job ads over the past decade, and workers over 55 are outperforming younger colleagues in AI adoption rates. Despite 44% of NZ workers using AI daily, only 13% have received formal training — a gap Microsoft aims to close with 200,000 upskilling spots.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.1782,
+      "trending_score": 0.1456,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--9o-cMIlJ--/t_tohu-badge-facebook/v1753230313/4K3TG61_AI_fact_check_jpg?_a=BACCd2AD"
@@ -524,18 +775,18 @@
     {
       "id": "49a790b799cbce79",
       "url": "https://newsroom.co.nz/2026/04/22/were-not-actively-choosing-an-ai-future-were-just-clicking-accept",
-      "title": "NZ workers not actively choosing an AI future \u2014 just clicking accept",
+      "title": "NZ workers not actively choosing an AI future — just clicking accept",
       "title_translated": null,
       "source": "newsroom",
       "source_tier": 2,
       "region": "nz",
       "published_at": "2026-04-22T18:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "A Newsroom analysis argues New Zealanders are defaulting into an AI-dependent future through passive consent clicks rather than deliberate policy choices. Frames AI adoption as a governance gap \u2014 organisations and individuals face AI exposure they have not consciously evaluated.",
+      "summary": "A Newsroom analysis argues New Zealanders are defaulting into an AI-dependent future through passive consent clicks rather than deliberate policy choices. Frames AI adoption as a governance gap — organisations and individuals face AI exposure they have not consciously evaluated.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.1782,
+      "trending_score": 0.1456,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://newsroom.co.nz/wp-content/uploads/2026/04/accept.png"
@@ -550,11 +801,11 @@
       "region": "us",
       "published_at": "2026-04-22T16:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Logan Kilpatrick (Google AI Studio) described Google Cloud's direction at Cloud Next as the 'agent cloud' \u2014 positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company's core strategic direction.",
+      "summary": "Logan Kilpatrick (Google AI Studio) described Google Cloud's direction at Cloud Next as the 'agent cloud' — positioning Google Cloud not just as infrastructure but as the orchestration layer for agentic enterprise workflows. Google CEO Thomas Kurian cited this as the company's core strategic direction.",
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0503,
+      "trending_score": 0.0411,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -575,8 +826,8 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.2938,
-      "mention_count": 1,
+      "trending_score": 0.3029,
+      "mention_count": 2,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/gemma4.png"
     },
@@ -595,7 +846,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.2352,
+      "trending_score": 0.1922,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/Earth-2_thumbnail-1680x945.png"
@@ -615,7 +866,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.2164,
+      "trending_score": 0.1768,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/google-cloud-nvidia.jpg"
@@ -630,11 +881,11 @@
       "region": "us",
       "published_at": "2026-04-22T12:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Google unveiled two specialized eighth-generation TPUs at Cloud Next 2026 \u2014 the 8T (training) and 8I (inference) \u2014 each delivering 2-3x performance over the previous generation and purpose-built for the agentic era. Logan Kilpatrick (Google AI Studio) called them 'Google's secret sauce' now available through Cloud.",
+      "summary": "Google unveiled two specialized eighth-generation TPUs at Cloud Next 2026 — the 8T (training) and 8I (inference) — each delivering 2-3x performance over the previous generation and purpose-built for the agentic era. Logan Kilpatrick (Google AI Studio) called them 'Google's secret sauce' now available through Cloud.",
       "tags": [
         "Models"
       ],
-      "trending_score": 0.2728,
+      "trending_score": 0.2229,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-1440x810.png"
@@ -642,7 +893,7 @@
     {
       "id": "cf59f6940e0fc95a",
       "url": "https://www.thepost.co.nz/business/360989722/ai-might-be-taking-over-recruitment-humans-still-carry-all-risk",
-      "title": "AI is handling 1,000+ NZ job interviews a month \u2014 humans still carry all the legal risk",
+      "title": "AI is handling 1,000+ NZ job interviews a month — humans still carry all the legal risk",
       "title_translated": null,
       "source": "thepost",
       "source_tier": 2,
@@ -654,9 +905,10 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.1081,
+      "trending_score": 0.0883,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "b8ca2dd1382938d3",
@@ -672,11 +924,29 @@
       "tags": [
         "Coding"
       ],
-      "trending_score": 0.036,
+      "trending_score": 0.0294,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/sama",
       "image_type": "avatar"
+    },
+    {
+      "url": "https://www.scoop.co.nz/stories/PA2604/S00123/business-ai-use-covered-by-new-national-survey.htm",
+      "title": "NZ Government launches national survey on business AI adoption",
+      "source": "scoop-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T12:00:00Z",
+      "summary": "New Zealand government launches a national survey of businesses to measure AI adoption rates and gauge responses to economic and technological change. Data will directly inform implementation of the MBIE AI Strategy.",
+      "tags": [
+        "Governance"
+      ],
+      "mention_count": 1,
+      "id": "f1a452730074658a",
+      "title_translated": null,
+      "first_seen_at": "2026-04-23T23:06:52Z",
+      "related_ids": [],
+      "trending_score": 0.0883
     },
     {
       "id": "a9b507c37a919260",
@@ -692,9 +962,10 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.1882,
-      "mention_count": 1,
-      "related_ids": []
+      "trending_score": 0.194,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "8f555fe918e1ef56",
@@ -711,7 +982,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.183,
+      "trending_score": 0.1495,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&h=900&fit=fill"
@@ -731,7 +1002,7 @@
         "Automation",
         "Governance"
       ],
-      "trending_score": 0.0842,
+      "trending_score": 0.0688,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "http://img.scoop.co.nz/stories/images/1509/scoop_placeholder.jpg"
@@ -739,21 +1010,22 @@
     {
       "id": "4b0fe072e48f8a61",
       "url": "https://www.hinz.org.nz/news/725776/Culturally-grounded-BroPilot-developed-by-Hauora-Mori-Services.htm",
-      "title": "Health NZ develops BroPilot: culturally-grounded M\u0101ori version of Microsoft Copilot",
+      "title": "Health NZ develops BroPilot: culturally-grounded Māori version of Microsoft Copilot",
       "title_translated": null,
       "source": "hinz",
       "source_tier": 2,
       "region": "nz",
       "published_at": "2026-04-22T08:00:00Z",
       "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Hauora M\u0101ori Services developed BroPilot, a version of Microsoft Copilot incorporating te reo M\u0101ori and tikanga principles for M\u0101ori health contexts. Addresses a critical gap in AI tools for indigenous healthcare and demonstrates a model for culturally-responsive AI adaptation.",
+      "summary": "Hauora Māori Services developed BroPilot, a version of Microsoft Copilot incorporating te reo Māori and tikanga principles for Māori health contexts. Addresses a critical gap in AI tools for indigenous healthcare and demonstrates a model for culturally-responsive AI adaptation.",
       "tags": [
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0775,
+      "trending_score": 0.0633,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "9353c534ed8e85f2",
@@ -769,7 +1041,27 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0656,
+      "trending_score": 0.0536,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": null
+    },
+    {
+      "id": "7e96c59684fecfda",
+      "url": "https://www.beehive.govt.nz/release/new-pilot-helps-small-businesses-harness-ai",
+      "title": "New pilot helps small businesses harness AI",
+      "title_translated": null,
+      "source": "beehive-govt",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "The NZ Government announced a pilot programme to help small and medium-sized businesses adopt AI tools, part of the broader MBIE AI strategy released earlier this year.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.065,
       "mention_count": 1,
       "related_ids": []
     },
@@ -788,7 +1080,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0795,
+      "trending_score": 0.065,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
@@ -808,7 +1100,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0298,
+      "trending_score": 0.0244,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
@@ -828,7 +1120,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0477,
+      "trending_score": 0.039,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7fPF7LU0YzPr5PrlNT6lo3/823a11178d4aac15d4f4260b9fcc490d/Blog_art_card.png?w=1600&h=900&fit=fill"
@@ -848,7 +1140,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.036,
+      "trending_score": 0.0294,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.width-1300.png"
@@ -856,19 +1148,19 @@
     {
       "id": "5eff7f5b72e4e28d",
       "url": "https://x.com/i/status/2046598650055500094",
-      "title": "Chollet: current AI systems lack metacognition \u2014 they cannot accurately model their own capabilities",
+      "title": "Chollet: current AI systems lack metacognition — they cannot accurately model their own capabilities",
       "title_translated": null,
       "source": "fchollet",
       "source_tier": 3,
       "region": "us",
       "published_at": "2026-04-21T12:00:00Z",
       "first_seen_at": "2026-04-21T20:48:22Z",
-      "summary": "Fran\u00e7ois Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
+      "summary": "François Chollet argues that LLMs fundamentally lack metacognition: they cannot accurately assess what they know or don't know, producing confident errors and unreliable self-evaluation. He frames this as a key gap separating current systems from robust general reasoning, with direct implications for building reliable agentic pipelines.",
       "tags": [
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0049,
+      "trending_score": 0.004,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -889,7 +1181,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0251,
+      "trending_score": 0.0205,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/659bc8a7b0f43ed69f0b2300/KdH3z5dRfyIAyxgGPN5Ey.png"
@@ -897,7 +1189,7 @@
     {
       "id": "93ffe6672ecff2d7",
       "url": "https://x.com/i/status/2046577402264870958",
-      "title": "LeCun: AI existential risk framing is wrong \u2014 misuse and power concentration are the real dangers",
+      "title": "LeCun: AI existential risk framing is wrong — misuse and power concentration are the real dangers",
       "title_translated": null,
       "source": "ylecun",
       "source_tier": 3,
@@ -909,7 +1201,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0041,
+      "trending_score": 0.0034,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
@@ -930,7 +1222,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0048,
+      "trending_score": 0.0039,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -950,7 +1242,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0035,
+      "trending_score": 0.0029,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -966,11 +1258,11 @@
       "region": "nz",
       "published_at": "2026-04-21T03:59:15Z",
       "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values \u2014 a \"value drift\" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.",
+      "summary": "Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values — a \"value drift\" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0075,
+      "trending_score": 0.0061,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://technewzealand.org.nz/wp-content/uploads/sites/44/2026/04/EdTech-Website-Event-Banner-23-1024x455.png"
@@ -991,7 +1283,7 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.0093,
+      "trending_score": 0.0076,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://clawdhub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DProviders%26title%3DAnthropic%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26primaryColor%3D%2523FF5A36%26lightColor%3D%2523FF8A6B%26darkColor%3D%2523FF5A36%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230e0c0d&w=1200&q=100"
@@ -1010,7 +1302,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0127,
+      "trending_score": 0.0104,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/google-x",
@@ -1030,26 +1322,27 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0061,
+      "trending_score": 0.0049,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "5a62757c703dd941",
       "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
-      "title": "Anthropic board director Chris Liddell: NZ has 5 years \u2014 not 20 \u2014 to adapt to AI",
+      "title": "Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI",
       "title_translated": null,
       "source": "theaicorner",
       "source_tier": 2,
       "region": "nz",
       "published_at": "2026-04-21T01:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years \u2014 not 20 \u2014 to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
+      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
       "tags": [
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0059,
+      "trending_score": 0.0048,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2e471680-c77a-4665-8b9a-b72ea8db7b8e/The_AI_Corner__Logo_1200_x_630_.png?t=1756538663"
@@ -1068,7 +1361,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0114,
+      "trending_score": 0.0093,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/build-korean-agents-with-nemotron-personas.png"
@@ -1088,7 +1381,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0055,
+      "trending_score": 0.0045,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
@@ -1108,7 +1401,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0108,
+      "trending_score": 0.0088,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png"
@@ -1128,7 +1421,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0108,
+      "trending_score": 0.0088,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill"
@@ -1147,7 +1440,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0108,
+      "trending_score": 0.0088,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://news.microsoft.com/source/asia/wp-content/uploads/2026/04/Jane-Livesey-President-Microsoft-AU-NZ-Copy-scaled.jpg"
@@ -1166,7 +1459,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.nzherald.co.nz/resizer/v2/5R2LUEXL55HNJFA5VWAWXIKQ3Q.JPG?auth=468d0a785f381f1a25dc67986086afd3b34f6b6fe87c37a457358ae74febcfa9&width=1200&height=675&quality=70&smart=true"
@@ -1185,7 +1478,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn.nbr.co.nz/assets/Uploads/2023-12/AI-Artificial-Intelligence-Human-gif-web.gif"
@@ -1204,7 +1497,7 @@
       "tags": [
         "Automation"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.nzherald.co.nz/resizer/v2/OIVRPERFFNECRFOXS7TSPMLWAE.jpg?auth=38dbb06c88ec9b46bae0964786760fe476db37e58eb49f78ad7d22c15d5b13cd&width=1200&height=675&quality=70&smart=true"
@@ -1223,9 +1516,10 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "384a710feb7e12b2",
@@ -1242,7 +1536,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.005,
+      "trending_score": 0.0041,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/DCD_Perkins_Canva.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -1262,7 +1556,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.0099,
+      "trending_score": 0.0081,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp"
@@ -1282,7 +1576,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.0124,
+      "trending_score": 0.0101,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp"
@@ -1302,7 +1596,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0015,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/karpathy",
@@ -1318,11 +1612,11 @@
       "region": "nz",
       "published_at": "2026-04-20T22:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute \u2014 the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0046,
+      "trending_score": 0.0037,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
@@ -1342,9 +1636,10 @@
         "Governance",
         "Content"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 2,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "4c9be652c5fb7d9d",
@@ -1361,7 +1656,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/02/codex-app-icon-openai.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
@@ -1380,7 +1675,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0041,
+      "trending_score": 0.0033,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://image.cnbcfm.com/api/v1/image/108254538-1770326418274-108254538-1768938695162-CNBC_Stage_01_062.jpg?v=1771351348&w=1920&h=1080"
@@ -1388,7 +1683,7 @@
     {
       "id": "e59e6f351c8b5541",
       "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "title": "Microsoft adjusts GitHub Copilot plans and pricing \u2014 Opus 4.7 restricted to Pro+",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
@@ -1400,7 +1695,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.004,
+      "trending_score": 0.0033,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg"
@@ -1419,9 +1714,10 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.004,
+      "trending_score": 0.0032,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "65c9467b7424d749",
@@ -1438,7 +1734,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0039,
+      "trending_score": 0.0032,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg"
@@ -1458,7 +1754,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0043,
+      "trending_score": 0.0035,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!pKEq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c69ea-fa59-4eba-8034-25b0af9b5443_3182x1790.png"
@@ -1477,7 +1773,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.006,
+      "trending_score": 0.0049,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
@@ -1485,7 +1781,7 @@
     {
       "id": "f8363d42b74365e2",
       "url": "https://www.latent.space/p/noetik",
-      "title": "Training Transformers to solve 95% failure rate of Cancer Trials \u2014 Noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
@@ -1496,7 +1792,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0028,
+      "trending_score": 0.0023,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
@@ -1516,7 +1812,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.0034,
+      "trending_score": 0.0028,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Copy-of-2000x1000-EN-1240x600-1.jpg?resize=1200,581"
@@ -1531,11 +1827,11 @@
       "region": "us",
       "published_at": "2026-04-20T14:00:00Z",
       "first_seen_at": "2026-04-21T06:22:26.022873Z",
-      "summary": "Fran\u00e7ois Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics \u2014 echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
+      "summary": "François Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics — echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -1556,7 +1852,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0054,
+      "trending_score": 0.0044,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg"
@@ -1576,7 +1872,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0026,
+      "trending_score": 0.0021,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
@@ -1596,9 +1892,10 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.0026,
+      "trending_score": 0.0021,
       "mention_count": 2,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "9b9fdf79f83603a3",
@@ -1614,7 +1911,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0006,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
@@ -1635,7 +1932,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.0037,
+      "trending_score": 0.0031,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
@@ -1655,7 +1952,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
@@ -1675,7 +1972,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.0015,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill"
@@ -1695,9 +1992,10 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0005,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "af313d625d47cf19",
@@ -1716,7 +2014,8 @@
       ],
       "trending_score": 0.0001,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "e84ea474e8637899",
@@ -1735,7 +2034,8 @@
       ],
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_url": null
     },
     {
       "id": "58f994275c6ac200",
@@ -1760,7 +2060,7 @@
     {
       "id": "b2505b70da0900a6",
       "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
-      "title": "Anthropic Claude Opus 4.7 \u2014 literally one step better than 4.6 in every dimension",
+      "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
