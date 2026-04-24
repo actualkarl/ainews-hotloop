@@ -1,10 +1,366 @@
 {
-  "generated_at": "2026-04-23T23:06:52Z",
-  "next_refresh_at": "2026-04-24T18:00:00Z",
+  "generated_at": "2026-04-24T18:15:11Z",
+  "next_refresh_at": "2026-04-25T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "cover_image_url": "/data/cover.png",
   "cover_image_mobile_url": "/data/cover-mobile.png",
+  "newsflash": [
+    "c6c586873e55a0ba",
+    "849dbccc0c4d96e9",
+    "3d462a37e82b391b",
+    "8e6b6aeefff51fff"
+  ],
+  "daily_summary": "xAI launched Grok Voice Think Fast 1.0, combining real-time speech with fast reasoning and targeting developers building conversational agents. DeepSeek V4's million-token context continues attracting analysis, with HuggingFace providing a detailed breakdown of its practical agentic utility. On governance, New Zealand's Reserve Bank joined Australia's central bank in monitoring Anthropic's Claude Mythos over cyber threat risks to banking infrastructure — the first time central banks have publicly flagged a specific AI model as a systemic risk. US senators Sanders and AOC introduced the AI Data Center Moratorium Act, proposing a legislative pause on frontier AI expansion.",
   "items": [
+    {
+      "id": "8e494cf5218b0f60",
+      "url": "https://x.com/i/status/2047728242707046599",
+      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
+      "title_translated": null,
+      "source": "x-governance",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-24T23:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "/data/slices/slice-1-2.png",
+      "trending_score": 0.5493,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "027b7edb0c933457",
+      "url": "https://x.com/i/status/2047666340370993420",
+      "title": "LeCun: LLMs fail at physical world understanding — JEPA/world models are the path forward",
+      "title_translated": null,
+      "source": "ylecun",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-24T18:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Yann LeCun argues in a multi-tweet thread that LLMs perform worse than a cat at anticipating physical-world consequences, making them unsuitable for robotics. Predicts JEPA-style world models will supersede token-based generative architectures for next-generation embodied AI.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://unavatar.io/x/ylecun",
+      "trending_score": 0.5378,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c6c586873e55a0ba",
+      "url": "https://x.ai/news/grok-voice-think-fast-1",
+      "title": "Grok Voice Think Fast 1.0",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T17:37:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "xAI launches Grok Voice Think Fast 1.0, combining real-time speech interaction with fast-reasoning capability. Adds a competitive low-latency voice AI option for developers building conversational agents and voice-first applications.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "849dbccc0c4d96e9",
+      "url": "https://developer.nvidia.com/blog/federated-learning-without-the-refactoring-overhead-using-nvidia-flare/",
+      "title": "Federated Learning Without the Refactoring Overhead Using NVIDIA FLARE",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T15:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "NVIDIA FLARE enables federated learning without requiring developers to refactor existing ML training code, using adapter layers to privacy-preserve distributed training. Targets healthcare, finance, and regulated sectors where training data cannot leave local environments.",
+      "tags": [
+        "Models",
+        "Automation"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2023/06/connected-healthcare-facilities-graphic.jpg",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "20836e91313113ef",
+      "url": "http://www.techmeme.com/260424/p18#a260424p18",
+      "title": "Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta's Manus acquisition (Bloomberg)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T10:40:01Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Bloomberg : Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta's Manus acquisition &nbsp; &mdash;&nbsp; Chinese regulators plan to restrict technology firms including some of the country's highest-profile AI pioneers &hellip;",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iqHO82tbKQSA/v1/1200x801.jpg",
+      "trending_score": 0.8758,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "f1a065b4440b10a5",
+      "url": "http://www.techmeme.com/260424/p17#a260424p17",
+      "title": "Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models (Evelyn Cheng/CNBC)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T10:20:01Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Evelyn Cheng / CNBC : Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models &nbsp; &mdash;&nbsp; BEIJING &mdash; Chinese tech giant Alibaba said Friday that its Qwen artificial intelligence model will be…",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108296640-1777002560704-20260424_Audi_Beiingautoshow.jpg?v=1777003089&w=1920&h=1080",
+      "trending_score": 0.8518,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "9b094039695ad33a",
+      "url": "https://x.com/i/status/2047489218998628780",
+      "title": "OpenAI Codex ships auto-review: guardian agent cuts human approval overhead",
+      "title_translated": null,
+      "source": "gdb",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-24T10:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Greg Brockman announces auto-review is live in OpenAI Codex: a guardian agent evaluates whether proposed actions are safe before execution, reducing required human approvals to only the most critical cases. Directly addresses a key friction point in production agentic deployments.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "image_url": "https://unavatar.io/x/gdb",
+      "trending_score": 0.2761,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "30fe24fa3c8fd8a7",
+      "url": "http://www.techmeme.com/260424/p12#a260424p12",
+      "title": "Tracxn: global edtech funding fell from $16.7B in 2021 to $2.6B in 2025, while the number of startups launched dropped from 10,491 in 2021 to just 645 in 2025 (Ananya Bhattacharya/Rest of World)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T06:40:01Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Ananya Bhattacharya / Rest of World : Tracxn: global edtech funding fell from $16.7B in 2021 to $2.6B in 2025, while the number of startups launched dropped from 10,491 in 2021 to just 645 in 2025 &nbsp; &mdash;&nbsp; Venture capital is moving away from K-12 edtech worldwide as investors prioritize AI tools and…",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "https://restofworld.org/wp-content/uploads/2026/04/EdTech-downfall-1600x900.jpg",
+      "trending_score": 0.6275,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "8703c98efc8bed19",
+      "url": "http://www.techmeme.com/260424/p10#a260424p10",
+      "title": "DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class (Simon Willison/Simon Willison's Weblog)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T06:30:02Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Simon Willison / Simon Willison's Weblog : DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class &nbsp; &mdash;&nbsp; Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last…",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg",
+      "trending_score": 0.6189,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "21d70f21fbc5653b",
+      "url": "http://www.techmeme.com/260424/p8#a260424p8",
+      "title": "Sources: Cursor hit $2.7B in annualized sales in March, up ~14x from a year ago, and reported a ~$900M loss in its last fiscal year on $770M in total revenue (The Information)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T06:15:01Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "The Information : Sources: Cursor hit $2.7B in annualized sales in March, up ~14x from a year ago, and reported a ~$900M loss in its last fiscal year on $770M in total revenue &nbsp; &mdash;&nbsp; Weeks before Cursor agreed to a $60 billion potential takeover from SpaceX, the hot AI coding startup set out to…",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "https://tii.imgix.net/production/articles/16984/b0fee05f-7479-40dd-b399-95a22269bbe6.png?fm=jpeg&auto=compress&w=610",
+      "trending_score": 0.6061,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "27bcfa436b9ffbab",
+      "url": "http://www.techmeme.com/260424/p7#a260424p7",
+      "title": "China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI (Ben Jiang/South China Morning Post)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T06:10:01Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Ben Jiang / South China Morning Post : China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI &nbsp; &mdash;&nbsp; Market watchdog flags AI abuse and traffic-driven tactics as it launches first campaign to…",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/04/23/e3963db0-2ed5-4738-95ed-b3bf4af829d5_e56eddd3.jpg?itok=zE65YzXd&v=1776949403",
+      "trending_score": 0.6019,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "173507185225dea0",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T06:01:04Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.6T total…",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg",
+      "trending_score": 0.5945,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4dd95130915436c8",
+      "url": "http://www.techmeme.com/260424/p5#a260424p5",
+      "title": "DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens (South China Morning Post)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T05:50:01Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "South China Morning Post : DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens &nbsp; &mdash;&nbsp; The company says its cost-efficient new V4 model is competitive with top closed-source models from OpenAI…",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/04/24/1aa9c8af-9ec0-47a7-bb39-4cc1aabd00a0_511d071c.jpg?itok=EBhP0LrL&v=1777001132",
+      "trending_score": 0.5854,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "0014b81155649f24",
+      "url": "http://www.techmeme.com/260424/p4#a260424p4",
+      "title": "Huawei says its Ascend supernode based on the Ascend 950 AI chips will fully support DeepSeek V4, as DeepSeek launches a preview of its V4 model (Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T05:20:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Reuters : Huawei says its Ascend supernode based on the Ascend 950 AI chips will fully support DeepSeek V4, as DeepSeek launches a preview of its V4 model &nbsp; &mdash;&nbsp; Huawei Technologies said on Friday its Ascend supernode based on Ascend 950 AI chips would fully support Deepseek's V4 versions &hellip;",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://www.reuters.com/resizer/v2/X7Q4LXPA4BIRDPA5P7VFXX3ITA.jpg?auth=56f664d31d0d7f8df7253405413b77e810d7286fe30a3c65d22886f6c53db00d&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.5615,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "02f30bda6a56c9a3",
+      "url": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+      "title": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T04:40:43Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Spud lives!",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!0uGP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f9f5845-e1e6-497a-9bed-f6457169247c_2048x684.png",
+      "trending_score": 0.5317,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "900e4e02634ba81b",
+      "url": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+      "title": "Millisecond Converter",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T04:23:11Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Tool: Millisecond Converter LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes. Tags: tools",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "/data/slices/slice-1-1.png",
+      "trending_score": 0.5189,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "c8852cc459c62d39",
+      "url": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
+      "title": "It's a big one",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T04:09:54Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide. Tags: newsletter",
+      "tags": [
+        "Agents"
+      ],
+      "image_url": "/data/slices/slice-0-2.png",
+      "trending_score": 0.5094,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "a9010abe1031b287",
+      "url": "https://simonwillison.net/2026/Apr/24/honker/#atom-everything",
+      "title": "russellromney/honker",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T01:50:07Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "russellromney/honker \"Postgres NOTIFY/LISTEN semantics\" for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker . open ( \"app.db\" ) emails…",
+      "tags": [
+        "Coding",
+        "Skills"
+      ],
+      "image_url": "/data/slices/slice-0-0.png",
+      "trending_score": 0.4195,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
     {
       "id": "1d5a5362b45242bf",
       "url": "https://www.reuters.com/world/china/singapore-emerging-neutral-ground-ai-firms-navigate-sino-us-rivalry-2026-04-24/",
@@ -20,10 +376,30 @@
         "Governance"
       ],
       "image_url": "/data/images/singapore-emerges-as-neutral-ground-for-ai-firms-navigating.png",
-      "trending_score": 1.0,
+      "trending_score": 0.4166,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
+    },
+    {
+      "id": "3d462a37e82b391b",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T00:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "HuggingFace's technical analysis of DeepSeek V4 highlights the practical utility of its million-token context window for long-horizon agentic workflows. Covers both V4-Pro (1.6T parameters, MoE) and V4-Flash, positioning DeepSeek V4 as a cost-effective near-frontier model that competes on pricing with top closed-source offerings.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "image_url": "https://huggingface.co/blog/assets/deepseekv4/thumbnail.png",
+      "trending_score": 0.7201,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/",
@@ -37,12 +413,12 @@
         "Coding",
         "Skills"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "id": "793dd2b420ff13b9",
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 1.0,
+      "trending_score": 0.3816,
       "image_url": "https://static.simonwillison.net/static/2026/liteparse-web-card.jpg"
     },
     {
@@ -61,7 +437,7 @@
         "Coding"
       ],
       "image_url": "/data/images/ai-coding-firm-cognition-in-early-talks-to-raise-funds-at-25.png",
-      "trending_score": 1.0,
+      "trending_score": 0.2708,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -81,8 +457,8 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 1.0,
-      "mention_count": 2,
+      "trending_score": 0.7718,
+      "mention_count": 3,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
     },
@@ -101,8 +477,8 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 1.0,
-      "mention_count": 1,
+      "trending_score": 0.3254,
+      "mention_count": 2,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/gpt-5.5-pelican-xhigh.png"
     },
@@ -118,13 +494,34 @@
         "Agents",
         "Coding"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "id": "a28033b82077f4f8",
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 1.0,
+      "trending_score": 0.3154,
       "image_url": "https://substackcdn.com/image/fetch/$s_!45KJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F195264855%2F9555e9f7-7fae-4334-a611-77c682f215d5%2Ftranscoded-1776972950.png"
+    },
+    {
+      "id": "05e2420165d7e645",
+      "url": "https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything",
+      "title": "llm-openai-via-codex 0.1a0",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T19:22:29Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Release: llm-openai-via-codex 0.1a0 Hijacks your Codex CLI credentials to make API calls with LLM, as described in my post about GPT-5.5 . Tags: openai , llm , codex-cli",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": "/data/slices/slice-0-0.png",
+      "trending_score": 0.2449,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
     },
     {
       "id": "8e6b6aeefff51fff",
@@ -141,8 +538,8 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 1.0,
-      "mention_count": 3,
+      "trending_score": 0.7719,
+      "mention_count": 4,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png"
     },
@@ -161,10 +558,30 @@
         "Models"
       ],
       "image_url": "/data/images/gpt-5-5-pricing-5-m-input-30-m-output-double-gpt-5-4.png",
-      "trending_score": 1.0,
+      "trending_score": 0.2308,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
+    },
+    {
+      "id": "1b0938288101b6f8",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "title": "GPT-5.5",
+      "title_translated": null,
+      "source": "hnrss",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T18:01:39Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Article URL: https://openai.com/index/introducing-gpt-5-5/ Comments URL: https://news.ycombinator.com/item?id=47879092 Points: 1387 # Comments: 910",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "/data/slices/slice-0-1.png",
+      "trending_score": 0.2189,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
     },
     {
       "id": "fe370f3118dcd626",
@@ -182,8 +599,8 @@
         "Governance"
       ],
       "image_url": "https://blog.meshcore.io/assets/images/icon.png",
-      "trending_score": 0.9835,
-      "mention_count": 1,
+      "trending_score": 0.2518,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -201,8 +618,8 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 1.0,
-      "mention_count": 5,
+      "trending_score": 0.6709,
+      "mention_count": 7,
       "related_ids": [],
       "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/3f522820d47355885631ebda60e5d1f3e5c0fbc2-2000x1050.heif"
     },
@@ -220,11 +637,69 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 1.0,
+      "trending_score": 0.2506,
       "mention_count": 4,
       "related_ids": [],
       "image_url": "/data/images/meta-plans-to-cut-10-of-workers-to-offset-ai-spending.png",
       "image_type": "generated"
+    },
+    {
+      "id": "1336fec95b3824cd",
+      "url": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
+      "title": "Quoting Maggie Appleton",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-23T13:35:37Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have…",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "/data/slices/slice-1-1.png",
+      "trending_score": 0.1513,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "4e2d46ca7b7754de",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-in-app-labels/",
+      "title": "Tag, You’re It: GeForce NOW Levels Up Game Discovery With Xbox Game Pass and Ubisoft+ Labels",
+      "title_translated": null,
+      "source": "nvidia",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T13:00:51Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "GeForce NOW is doubling down on what matters most: gamers. This week’s upgrades bring smarter libraries, making it easier than ever for gamers to turn a PC collection into a cloud-powered flex. It starts with giving existing libraries time to shine. Gamers can bring the games they love to the cloud, stream them…",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/gfn-thursday-feature-launch-library-nv-blog-1280x680-logo.jpg",
+      "trending_score": 0.2883,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "da8232909c412961",
+      "url": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/",
+      "title": "Making Sense of the Early Universe",
+      "title_translated": null,
+      "source": "nvidia",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T13:00:22Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "This Spring Astronomy Day, here’s a look at how AI and GPUs are helping astronomers work through volumes of cosmic data.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/AstroUCSC_IntroPoster_v2.png",
+      "trending_score": 0.2881,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "4286eb4691c1507d",
@@ -241,8 +716,8 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp",
-      "trending_score": 1.0,
-      "mention_count": 1,
+      "trending_score": 0.3343,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -262,8 +737,8 @@
         "Coding"
       ],
       "image_url": "/data/images/gpt-5-5-system-card.png",
-      "trending_score": 1.0,
-      "mention_count": 1,
+      "trending_score": 0.3075,
+      "mention_count": 2,
       "related_ids": [],
       "image_type": "generated"
     },
@@ -283,8 +758,8 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 1.0,
-      "mention_count": 9,
+      "trending_score": 0.5512,
+      "mention_count": 10,
       "related_ids": [],
       "image_url": "/data/images/introducing-gpt-5-5.png",
       "image_type": "generated"
@@ -304,9 +779,154 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ofzm8o9mjYQ7kNvwGtULFT&_nc_oc=AdqJLti-c523yAElssrDxTU02XgXBpkMF1ja100mgNhNxDxnb71BhtLrYS_HFkdHUMs&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=wSc-0O757M3ykrDuzFJPxw&oh=00_Af1AoGbTytxuVDiYPm3tYVZEp5RMgoUUg8Yt3Dv0-4n4TQ&oe=6A0515EC",
-      "trending_score": 1.0,
+      "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": []
+    },
+    {
+      "id": "9fab69c8c968c73d",
+      "url": "https://openai.com/academy/codex-automations",
+      "title": "Automations",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "tags": [
+        "Coding",
+        "Automation"
+      ],
+      "image_url": "/data/slices/slice-1-1.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "533227aa43914c8e",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "title": "Top 10 uses for Codex at work",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "tags": [
+        "Coding",
+        "Automation"
+      ],
+      "image_url": "/data/slices/slice-1-1.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "277cf65bf8c8d0a7",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "title": "Plugins and skills",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+      "tags": [
+        "Coding",
+        "Skills",
+        "Automation"
+      ],
+      "image_url": "/data/slices/slice-1-2.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "40d5894d1daf7129",
+      "url": "https://openai.com/academy/working-with-codex",
+      "title": "Working with Codex",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "/data/slices/slice-1-2.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "72f200cf8d8a54af",
+      "url": "https://openai.com/academy/codex-settings",
+      "title": "Codex settings",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "tags": [
+        "Coding",
+        "Automation"
+      ],
+      "image_url": "/data/slices/slice-0-2.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "34f009d107cc6ed8",
+      "url": "https://openai.com/academy/what-is-codex",
+      "title": "What is Codex?",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "/data/slices/slice-1-1.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
+    },
+    {
+      "id": "0bd514e3244e4be3",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "title": "How to get started with Codex",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-23T10:00:00Z",
+      "first_seen_at": "2026-04-24T10:48:27.170713Z",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "/data/slices/slice-1-1.png",
+      "trending_score": 0.2242,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
     },
     {
       "id": "fd02f90b4d79825b",
@@ -323,8 +943,8 @@
         "Governance"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp",
-      "trending_score": 1.0,
-      "mention_count": 1,
+      "trending_score": 0.2603,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -342,7 +962,7 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.6414,
+      "trending_score": 0.1302,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--nTavqkEY--/t_tohu-badge-facebook/v1661033484/4LMPJPT_54470630_m_jpg?_a=BACCd2AD"
@@ -364,7 +984,7 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.3022,
+      "trending_score": 0.0613,
       "image_url": "https://substackcdn.com/image/fetch/$s_!4_2l!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb2b6f77-150d-4fb4-a74a-259318cba0dd_1698x1172.png"
     },
     {
@@ -383,7 +1003,7 @@
         "Governance"
       ],
       "image_url": "/data/images/gpt-5-5-bio-bug-bounty.png",
-      "trending_score": 0.4802,
+      "trending_score": 0.0974,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -405,7 +1025,7 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.4802,
+      "trending_score": 0.0974,
       "image_url": "/data/images/nz-ncsc-implications-of-frontier-ai-models-for-cyber-defence.png",
       "image_type": "generated"
     },
@@ -424,7 +1044,7 @@
         "Agents",
         "Coding"
       ],
-      "trending_score": 0.0724,
+      "trending_score": 0.0147,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/sama",
@@ -445,7 +1065,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/eevee-nv-blog-1280x680-1.jpg"
@@ -465,7 +1085,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg"
@@ -485,7 +1105,7 @@
         "Agents",
         "Governance"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/agentic-ai-visual-nemoclaw-opie-r2-1680x938.png"
@@ -505,7 +1125,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/02/Copy-of-Blog-1280x680.pptx-2.jpg"
@@ -525,7 +1145,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-models-and-frameworks-1920x1080-1-1680x945.gif"
@@ -544,7 +1164,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491"
@@ -564,7 +1184,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e"
@@ -583,7 +1203,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/el-salvador-partnership/opengraph-image-a4id79.png?af3ffb6a20040211"
@@ -603,7 +1223,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a"
@@ -623,7 +1243,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-goes-global/opengraph-image-1hc9y2.png?90f5f7a4ae2d2121"
@@ -643,7 +1263,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/onegov/opengraph-image-1hepv9.png?a627c3d2277f3233"
@@ -663,7 +1283,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/government/opengraph-image-lqj1b7.png?f1aa0f448e8273c9"
@@ -683,7 +1303,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ju3IackF430Q7kNvwFBTu7q&_nc_oc=AdrXrXAAULayAsG0V8mz83vQKX8b3b7q2RYNOTMa2erJX8-uNNYE1Bg5Evr0sBfBtAQ&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RMFb5tIUyhhqaQ1poXn2xg&_nc_ss=7a20f&oh=00_Af0s4gm4ajP_y6y0WJ-enq-ukVyfsVt0_HIps9qHlCX0EQ&oe=6A0387EE"
@@ -703,7 +1323,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/658967078_993415586351079_325919381939729048_n.gif?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FD9jqO43oIIQ7kNvwGhxeMf&_nc_oc=AdpBCkur8KJ6goLpl3nXNHcYNSJJTf2pRERTCRq5CMotRQaUgR3FAcmWXYgqqNU1-Mo&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=B77mkxV5iAXhdyomqupkLQ&_nc_ss=7a20f&oh=00_Af3O1ZpjaNNl4ubxlZ1n4DOez-VxSOMcwz080bVac9n_5g&oe=6A036C52"
@@ -722,7 +1342,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OQF0YD6bwmIQ7kNvwFegFh3&_nc_oc=AdrZyZokBD94I9hUaushIKcm3N7sm1NOSriddKJ-sLWy0XTLkedXUbveJg-prQvN70M&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=jBIjXSzAOYeM4hrY3XfGBw&_nc_ss=7a20f&oh=00_Af0XCNzeBk_FgXJJo0-y2gdkTVcteT5FcFhEVvyogFO8vw&oe=6A038A61"
@@ -741,7 +1361,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.3218,
+      "trending_score": 0.0653,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=HgHNcKCHqUgQ7kNvwG1L3vC&_nc_oc=AdpBp4mNBT7vn0IRKtYkco02RPmjBJkgiU9sHrrbbrTcDrpH-HSq3Qbu7AYjfstkI90&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=W-tR6q2uMeYim-DWmT1UdA&_nc_ss=7a20f&oh=00_Af0miZ-T6QRYJVkqiFP3Za31kcKolqGjrB2d86UiEdtXFA&oe=6A03856C"
@@ -761,7 +1381,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0528,
+      "trending_score": 0.0107,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -781,7 +1401,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.1456,
+      "trending_score": 0.0296,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--9o-cMIlJ--/t_tohu-badge-facebook/v1753230313/4K3TG61_AI_fact_check_jpg?_a=BACCd2AD"
@@ -800,7 +1420,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.1456,
+      "trending_score": 0.0296,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://newsroom.co.nz/wp-content/uploads/2026/04/accept.png"
@@ -819,7 +1439,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0411,
+      "trending_score": 0.0083,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -840,7 +1460,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.3029,
+      "trending_score": 0.0615,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/gemma4.png"
@@ -860,7 +1480,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.1922,
+      "trending_score": 0.039,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/Earth-2_thumbnail-1680x945.png"
@@ -880,7 +1500,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.1768,
+      "trending_score": 0.0359,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/google-cloud-nvidia.jpg"
@@ -899,7 +1519,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.2229,
+      "trending_score": 0.0452,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-1440x810.png"
@@ -919,7 +1539,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.0883,
+      "trending_score": 0.0179,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/images/ai-is-handling-1-000-nz-job-interviews-a-month-humans-still.png",
@@ -939,7 +1559,7 @@
       "tags": [
         "Coding"
       ],
-      "trending_score": 0.0294,
+      "trending_score": 0.006,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/sama",
@@ -961,7 +1581,7 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.0883,
+      "trending_score": 0.0179,
       "image_url": "http://img.scoop.co.nz/stories/images/1908/scoop_image.jpg"
     },
     {
@@ -978,7 +1598,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.194,
+      "trending_score": 0.0394,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://lh3.googleusercontent.com/1-K_kcmoX-fIzTJ13T0-uF4gylS2tK00ZVvx87B2WSayzUS2fxDoDDXFq5hOhxptrBeG8AbjG_URN5OOTpGMqad9zILjMsTdAHWroiDKpziBQjzErw=w1200-h630-n-nu-rw"
@@ -998,7 +1618,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.1495,
+      "trending_score": 0.0303,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&h=900&fit=fill"
@@ -1018,7 +1638,7 @@
         "Automation",
         "Governance"
       ],
-      "trending_score": 0.0688,
+      "trending_score": 0.014,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "http://img.scoop.co.nz/stories/images/1509/scoop_placeholder.jpg"
@@ -1038,7 +1658,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0633,
+      "trending_score": 0.0128,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/images/health-nz-develops-bropilot-culturally-grounded-m-ori-versio.png",
@@ -1058,10 +1678,31 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0536,
+      "trending_score": 0.0109,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.reseller.co.nz/wp-content/uploads/2026/04/4161687-0-41751800-1776819663-Jeyan_Jeevaratnam.png?w=1024"
+    },
+    {
+      "id": "115d2bb21f326adb",
+      "url": "https://www.reuters.com/world/asia-pacific/australia-new-zealand-central-banks-monitoring-anthropics-mythos-release-2026-04-22",
+      "title": "NZ and Australian central banks monitoring Anthropic Claude Mythos over cyber threat risk",
+      "title_translated": null,
+      "source": "reuters",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "New Zealand's Reserve Bank and Australia's central bank announced they are actively monitoring Anthropic's Claude Mythos AI model for cyber threats to banking and critical infrastructure. Both institutions are coordinating with domestic regulators on the developing risk posed by a model that can detect thousands of previously unknown software vulnerabilities.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "image_url": "/data/slices/slice-0-1.png",
+      "trending_score": 0.0066,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "cover_slice"
     },
     {
       "id": "7e96c59684fecfda",
@@ -1078,7 +1719,7 @@
         "Governance"
       ],
       "image_url": "/data/images/new-pilot-helps-small-businesses-harness-ai.png",
-      "trending_score": 0.065,
+      "trending_score": 0.0132,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -1098,7 +1739,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.065,
+      "trending_score": 0.0132,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
@@ -1118,7 +1759,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0244,
+      "trending_score": 0.0049,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
@@ -1138,7 +1779,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.039,
+      "trending_score": 0.0079,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7fPF7LU0YzPr5PrlNT6lo3/823a11178d4aac15d4f4260b9fcc490d/Blog_art_card.png?w=1600&h=900&fit=fill"
@@ -1158,7 +1799,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0294,
+      "trending_score": 0.006,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.width-1300.png"
@@ -1178,7 +1819,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.004,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -1199,7 +1840,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0205,
+      "trending_score": 0.0042,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/659bc8a7b0f43ed69f0b2300/KdH3z5dRfyIAyxgGPN5Ey.png"
@@ -1219,7 +1860,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0034,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
@@ -1240,7 +1881,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0039,
+      "trending_score": 0.0008,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -1260,7 +1901,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0029,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -1280,7 +1921,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0061,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://technewzealand.org.nz/wp-content/uploads/sites/44/2026/04/EdTech-Website-Event-Banner-23-1024x455.png"
@@ -1301,7 +1942,7 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.0076,
+      "trending_score": 0.0015,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://clawdhub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DProviders%26title%3DAnthropic%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26primaryColor%3D%2523FF5A36%26lightColor%3D%2523FF8A6B%26darkColor%3D%2523FF5A36%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230e0c0d&w=1200&q=100"
@@ -1320,7 +1961,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0104,
+      "trending_score": 0.0021,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/google-x",
@@ -1340,7 +1981,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0049,
+      "trending_score": 0.001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc142aba1-b453-4312-96e2-c86dad5b8c42.jpg?source=next-barrier-page"
@@ -1360,7 +2001,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0048,
+      "trending_score": 0.001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2e471680-c77a-4665-8b9a-b72ea8db7b8e/The_AI_Corner__Logo_1200_x_630_.png?t=1756538663"
@@ -1379,7 +2020,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0093,
+      "trending_score": 0.0019,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/build-korean-agents-with-nemotron-personas.png"
@@ -1399,7 +2040,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0045,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
@@ -1419,7 +2060,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0088,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png"
@@ -1439,7 +2080,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0088,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill"
@@ -1458,7 +2099,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0088,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://news.microsoft.com/source/asia/wp-content/uploads/2026/04/Jane-Livesey-President-Microsoft-AU-NZ-Copy-scaled.jpg"
@@ -1477,7 +2118,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.nzherald.co.nz/resizer/v2/5R2LUEXL55HNJFA5VWAWXIKQ3Q.JPG?auth=468d0a785f381f1a25dc67986086afd3b34f6b6fe87c37a457358ae74febcfa9&width=1200&height=675&quality=70&smart=true"
@@ -1496,7 +2137,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn.nbr.co.nz/assets/Uploads/2023-12/AI-Artificial-Intelligence-Human-gif-web.gif"
@@ -1515,7 +2156,7 @@
       "tags": [
         "Automation"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.nzherald.co.nz/resizer/v2/OIVRPERFFNECRFOXS7TSPMLWAE.jpg?auth=38dbb06c88ec9b46bae0964786760fe476db37e58eb49f78ad7d22c15d5b13cd&width=1200&height=675&quality=70&smart=true"
@@ -1534,10 +2175,11 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/slices/slice-1-2.png",
+      "image_source": "cover_slice"
     },
     {
       "id": "384a710feb7e12b2",
@@ -1554,7 +2196,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.0041,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/DCD_Perkins_Canva.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -1574,7 +2216,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.0081,
+      "trending_score": 0.0016,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp"
@@ -1594,7 +2236,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.0101,
+      "trending_score": 0.002,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp"
@@ -1614,7 +2256,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0012,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/karpathy",
@@ -1634,7 +2276,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0037,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
@@ -1654,7 +2296,7 @@
         "Governance",
         "Content"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://static-www.adweek.com/wp-content/uploads/2025/05/open-ai-data-chatgpt-2025.jpg?w=600&h=315&crop=1"
@@ -1674,7 +2316,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/02/codex-app-icon-openai.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
@@ -1693,7 +2335,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0033,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://image.cnbcfm.com/api/v1/image/108254538-1770326418274-108254538-1768938695162-CNBC_Stage_01_062.jpg?v=1771351348&w=1920&h=1080"
@@ -1713,7 +2355,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0033,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg"
@@ -1732,10 +2374,11 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0032,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/slices/slice-1-2.png",
+      "image_source": "cover_slice"
     },
     {
       "id": "65c9467b7424d749",
@@ -1752,7 +2395,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0032,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg"
@@ -1772,7 +2415,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0035,
+      "trending_score": 0.0007,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!pKEq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c69ea-fa59-4eba-8034-25b0af9b5443_3182x1790.png"
@@ -1791,7 +2434,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0049,
+      "trending_score": 0.001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
@@ -1810,7 +2453,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0023,
+      "trending_score": 0.0005,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
@@ -1830,7 +2473,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.0028,
+      "trending_score": 0.0006,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Copy-of-2000x1000-EN-1240x600-1.jpg?resize=1200,581"
@@ -1849,7 +2492,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -1870,7 +2513,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0044,
+      "trending_score": 0.0009,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg"
@@ -1890,7 +2533,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0021,
+      "trending_score": 0.0004,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
@@ -1910,10 +2553,11 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.0021,
+      "trending_score": 0.0004,
       "mention_count": 2,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/slices/slice-1-1.png",
+      "image_source": "cover_slice"
     },
     {
       "id": "9b9fdf79f83603a3",
@@ -1929,7 +2573,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
@@ -1950,7 +2594,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.0031,
+      "trending_score": 0.0006,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
@@ -1970,7 +2614,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
@@ -1990,7 +2634,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill"
@@ -2010,10 +2654,11 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/slices/slice-0-1.png",
+      "image_source": "cover_slice"
     },
     {
       "id": "af313d625d47cf19",
@@ -2030,10 +2675,11 @@
         "Models",
         "Skills"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/slices/slice-1-0.png",
+      "image_source": "cover_slice"
     },
     {
       "id": "e84ea474e8637899",
@@ -2053,7 +2699,8 @@
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "image_url": null
+      "image_url": "/data/slices/slice-0-1.png",
+      "image_source": "cover_slice"
     },
     {
       "id": "58f994275c6ac200",
@@ -2269,5 +2916,13 @@
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
     }
+  ],
+  "cover_slice_urls": [
+    "/data/slices/slice-0-0.png",
+    "/data/slices/slice-0-1.png",
+    "/data/slices/slice-0-2.png",
+    "/data/slices/slice-1-0.png",
+    "/data/slices/slice-1-1.png",
+    "/data/slices/slice-1-2.png"
   ]
 }

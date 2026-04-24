@@ -1,0 +1,15 @@
+{
+  "top_headline": "Sanders and AOC introduce AI Data Center Moratorium Act",
+  "top_headlines": [
+    "Sanders and AOC introduce AI Data Center Moratorium Act",
+    "LeCun: LLMs fail at physical world understanding — JEPA/world models are the path forward",
+    "Grok Voice Think Fast 1.0",
+    "Federated Learning Without the Refactoring Overhead Using NVIDIA FLARE",
+    "Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta's Manus acquisition (Bloomberg)",
+    "Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models (Evelyn Cheng/CNBC)"
+  ],
+  "top_fingerprint": "sanders and aoc introduce ai data center moratorium act || lecun: llms fail at physical world understanding — jepa/world models are the path forward || grok voice think fast 1.0 || federated learning without the refactoring overhead using nvidia flare || sources: china recently told tech companies, including bytedance and moonshot ai, to reject us capital without state approval, after meta's manus acquisition (bloomberg) || alibaba says its qwen ai models will be integrated into byd, volkswagen, and other cars, letting users buy food and tickets via voice commands on select models (evelyn cheng/cnbc)",
+  "generated_at": "2026-04-24T22:18:29.493825Z",
+  "model": "gpt-image-2 1536x1024 low",
+  "regen_reason": "manual-image-refresh"
+}

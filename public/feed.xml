@@ -6,7 +6,151 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 23 Apr 2026 23:06:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 18:15:11 GMT</lastBuildDate>
+    <item>
+      <title>Sanders and AOC introduce AI Data Center Moratorium Act</title>
+      <link>https://x.com/i/status/2047728242707046599</link>
+      <description>Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.</description>
+      <pubDate>Fri, 24 Apr 2026 23:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2047728242707046599</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>LeCun: LLMs fail at physical world understanding — JEPA/world models are the path forward</title>
+      <link>https://x.com/i/status/2047666340370993420</link>
+      <description>Yann LeCun argues in a multi-tweet thread that LLMs perform worse than a cat at anticipating physical-world consequences, making them unsuitable for robotics. Predicts JEPA-style world models will supersede token-based generative architectures for next-generation embodied AI.</description>
+      <pubDate>Fri, 24 Apr 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2047666340370993420</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Grok Voice Think Fast 1.0</title>
+      <link>https://x.ai/news/grok-voice-think-fast-1</link>
+      <description>xAI launches Grok Voice Think Fast 1.0, combining real-time speech interaction with fast-reasoning capability. Adds a competitive low-latency voice AI option for developers building conversational agents and voice-first applications.</description>
+      <pubDate>Fri, 24 Apr 2026 17:37:00 GMT</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/grok-voice-think-fast-1</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Federated Learning Without the Refactoring Overhead Using NVIDIA FLARE</title>
+      <link>https://developer.nvidia.com/blog/federated-learning-without-the-refactoring-overhead-using-nvidia-flare/</link>
+      <description>NVIDIA FLARE enables federated learning without requiring developers to refactor existing ML training code, using adapter layers to privacy-preserve distributed training. Targets healthcare, finance, and regulated sectors where training data cannot leave local environments.</description>
+      <pubDate>Fri, 24 Apr 2026 15:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/federated-learning-without-the-refactoring-overhead-using-nvidia-flare/</guid>
+      <category>Models, Automation</category>
+    </item>
+    <item>
+      <title>Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta&#x27;s Manus acquisition (Bloomberg)</title>
+      <link>http://www.techmeme.com/260424/p18#a260424p18</link>
+      <description>Bloomberg : Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta&#x27;s Manus acquisition &amp;nbsp; &amp;mdash;&amp;nbsp; Chinese regulators plan to restrict technology firms including some of the country&#x27;s highest-profile AI pioneers &amp;hellip;</description>
+      <pubDate>Fri, 24 Apr 2026 10:40:01 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p18#a260424p18</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models (Evelyn Cheng/CNBC)</title>
+      <link>http://www.techmeme.com/260424/p17#a260424p17</link>
+      <description>Evelyn Cheng / CNBC : Alibaba says its Qwen AI models will be integrated into BYD, Volkswagen, and other cars, letting users buy food and tickets via voice commands on select models &amp;nbsp; &amp;mdash;&amp;nbsp; BEIJING &amp;mdash; Chinese tech giant Alibaba said Friday that its Qwen artificial intelligence model will be…</description>
+      <pubDate>Fri, 24 Apr 2026 10:20:01 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p17#a260424p17</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>OpenAI Codex ships auto-review: guardian agent cuts human approval overhead</title>
+      <link>https://x.com/i/status/2047489218998628780</link>
+      <description>Greg Brockman announces auto-review is live in OpenAI Codex: a guardian agent evaluates whether proposed actions are safe before execution, reducing required human approvals to only the most critical cases. Directly addresses a key friction point in production agentic deployments.</description>
+      <pubDate>Fri, 24 Apr 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2047489218998628780</guid>
+      <category>Agents, Coding</category>
+    </item>
+    <item>
+      <title>Tracxn: global edtech funding fell from $16.7B in 2021 to $2.6B in 2025, while the number of startups launched dropped from 10,491 in 2021 to just 645 in 2025 (Ananya Bhattacharya/Rest of World)</title>
+      <link>http://www.techmeme.com/260424/p12#a260424p12</link>
+      <description>Ananya Bhattacharya / Rest of World : Tracxn: global edtech funding fell from $16.7B in 2021 to $2.6B in 2025, while the number of startups launched dropped from 10,491 in 2021 to just 645 in 2025 &amp;nbsp; &amp;mdash;&amp;nbsp; Venture capital is moving away from K-12 edtech worldwide as investors prioritize AI tools and…</description>
+      <pubDate>Fri, 24 Apr 2026 06:40:01 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p12#a260424p12</guid>
+      <category>Coding</category>
+    </item>
+    <item>
+      <title>DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class (Simon Willison/Simon Willison&#x27;s Weblog)</title>
+      <link>http://www.techmeme.com/260424/p10#a260424p10</link>
+      <description>Simon Willison / Simon Willison&#x27;s Weblog : DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class &amp;nbsp; &amp;mdash;&amp;nbsp; Chinese AI lab DeepSeek&#x27;s last model release was V3.2 (and V3.2 Speciale) last…</description>
+      <pubDate>Fri, 24 Apr 2026 06:30:02 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p10#a260424p10</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Sources: Cursor hit $2.7B in annualized sales in March, up ~14x from a year ago, and reported a ~$900M loss in its last fiscal year on $770M in total revenue (The Information)</title>
+      <link>http://www.techmeme.com/260424/p8#a260424p8</link>
+      <description>The Information : Sources: Cursor hit $2.7B in annualized sales in March, up ~14x from a year ago, and reported a ~$900M loss in its last fiscal year on $770M in total revenue &amp;nbsp; &amp;mdash;&amp;nbsp; Weeks before Cursor agreed to a $60 billion potential takeover from SpaceX, the hot AI coding startup set out to…</description>
+      <pubDate>Fri, 24 Apr 2026 06:15:01 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p8#a260424p8</guid>
+      <category>Coding</category>
+    </item>
+    <item>
+      <title>China&#x27;s top market regulator says it is launching a six-month crackdown on the country&#x27;s online ad sector, targeting malpractices including the misuse of AI (Ben Jiang/South China Morning Post)</title>
+      <link>http://www.techmeme.com/260424/p7#a260424p7</link>
+      <description>Ben Jiang / South China Morning Post : China&#x27;s top market regulator says it is launching a six-month crackdown on the country&#x27;s online ad sector, targeting malpractices including the misuse of AI &amp;nbsp; &amp;mdash;&amp;nbsp; Market watchdog flags AI abuse and traffic-driven tactics as it launches first campaign to…</description>
+      <pubDate>Fri, 24 Apr 2026 06:10:01 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p7#a260424p7</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>DeepSeek V4 - almost on the frontier, a fraction of the price</title>
+      <link>https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything</link>
+      <description>Chinese AI lab DeepSeek&#x27;s last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.6T total…</description>
+      <pubDate>Fri, 24 Apr 2026 06:01:04 GMT</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens (South China Morning Post)</title>
+      <link>http://www.techmeme.com/260424/p5#a260424p5</link>
+      <description>South China Morning Post : DeepSeek V4 Pro has 1.6T total parameters, its largest model by that metric, and V4 Flash has 284B parameters; both models have a context window of 1M tokens &amp;nbsp; &amp;mdash;&amp;nbsp; The company says its cost-efficient new V4 model is competitive with top closed-source models from OpenAI…</description>
+      <pubDate>Fri, 24 Apr 2026 05:50:01 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p5#a260424p5</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Huawei says its Ascend supernode based on the Ascend 950 AI chips will fully support DeepSeek V4, as DeepSeek launches a preview of its V4 model (Reuters)</title>
+      <link>http://www.techmeme.com/260424/p4#a260424p4</link>
+      <description>Reuters : Huawei says its Ascend supernode based on the Ascend 950 AI chips will fully support DeepSeek V4, as DeepSeek launches a preview of its V4 model &amp;nbsp; &amp;mdash;&amp;nbsp; Huawei Technologies said on Friday its Ascend supernode based on Ascend 950 AI chips would fully support Deepseek&#x27;s V4 versions &amp;hellip;</description>
+      <pubDate>Fri, 24 Apr 2026 05:20:00 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p4#a260424p4</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>[AINews] GPT 5.5 and OpenAI Codex Superapp</title>
+      <link>https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp</link>
+      <description>Spud lives!</description>
+      <pubDate>Fri, 24 Apr 2026 04:40:43 GMT</pubDate>
+      <guid isPermaLink="true">https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp</guid>
+      <category>Coding</category>
+    </item>
+    <item>
+      <title>Millisecond Converter</title>
+      <link>https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything</link>
+      <description>Tool: Millisecond Converter LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes. Tags: tools</description>
+      <pubDate>Fri, 24 Apr 2026 04:23:11 GMT</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>It&#x27;s a big one</title>
+      <link>https://simonwillison.net/2026/Apr/24/weekly/#atom-everything</link>
+      <description>This week&#x27;s edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide. Tags: newsletter</description>
+      <pubDate>Fri, 24 Apr 2026 04:09:54 GMT</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/24/weekly/#atom-everything</guid>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>russellromney/honker</title>
+      <link>https://simonwillison.net/2026/Apr/24/honker/#atom-everything</link>
+      <description>russellromney/honker &quot;Postgres NOTIFY/LISTEN semantics&quot; for SQLite, implemented as a Rust SQLite extension and various language bindings to help make use of it. The design of this looks very solid. It lets you write Python code for queues that looks like this: import honker db = honker . open ( &quot;app.db&quot; ) emails…</description>
+      <pubDate>Fri, 24 Apr 2026 01:50:07 GMT</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/24/honker/#atom-everything</guid>
+      <category>Coding, Skills</category>
+    </item>
     <item>
       <title>Singapore emerges as neutral ground for AI firms navigating Sino-US rivalry</title>
       <link>https://www.reuters.com/world/china/singapore-emerging-neutral-ground-ai-firms-navigate-sino-us-rivalry-2026-04-24/</link>
@@ -14,6 +158,14 @@
       <pubDate>Fri, 24 Apr 2026 01:45:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.reuters.com/world/china/singapore-emerging-neutral-ground-ai-firms-navigate-sino-us-rivalry-2026-04-24/</guid>
       <category>Governance</category>
+    </item>
+    <item>
+      <title>DeepSeek-V4: a million-token context that agents can actually use</title>
+      <link>https://huggingface.co/blog/deepseekv4</link>
+      <description>HuggingFace&#x27;s technical analysis of DeepSeek V4 highlights the practical utility of its million-token context window for long-horizon agentic workflows. Covers both V4-Pro (1.6T parameters, MoE) and V4-Flash, positioning DeepSeek V4 as a cost-effective near-frontier model that competes on pricing with top closed-source offerings.</description>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/deepseekv4</guid>
+      <category>Models, Agents</category>
     </item>
     <item>
       <title>Extract PDF text in your browser with LiteParse for the web</title>
@@ -56,6 +208,14 @@
       <category>Agents, Coding</category>
     </item>
     <item>
+      <title>llm-openai-via-codex 0.1a0</title>
+      <link>https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything</link>
+      <description>Release: llm-openai-via-codex 0.1a0 Hijacks your Codex CLI credentials to make API calls with LLM, as described in my post about GPT-5.5 . Tags: openai , llm , codex-cli</description>
+      <pubDate>Thu, 23 Apr 2026 19:22:29 GMT</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
       <title>OpenAI&#x27;s GPT-5.5 Powers Codex on NVIDIA Infrastructure</title>
       <link>https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</link>
       <description>NVIDIA deploys GPT-5.5-powered Codex company-wide on GB200 NVL72 systems with 10,000+ employees using it. Debugging cycles reduced from days to hours — enterprise proof-of-concept for frontier model plus specialised inference hardware.</description>
@@ -72,180 +232,20 @@
       <category>Models</category>
     </item>
     <item>
+      <title>GPT-5.5</title>
+      <link>https://openai.com/index/introducing-gpt-5-5/</link>
+      <description>Article URL: https://openai.com/index/introducing-gpt-5-5/ Comments URL: https://news.ycombinator.com/item?id=47879092 Points: 1387 # Comments: 910</description>
+      <pubDate>Thu, 23 Apr 2026 18:01:39 GMT</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/introducing-gpt-5-5/</guid>
+      <category>Models</category>
+    </item>
+    <item>
       <title>MeshCore development team splits over trademark dispute and AI-generated code</title>
       <link>https://blog.meshcore.io/2026/04/23/the-split</link>
       <description>The MeshCore project has split following disputes over the project&#x27;s trademark and contributions of AI-generated code. Highlights governance friction as open-source projects grapple with AI-tool usage norms.</description>
       <pubDate>Thu, 23 Apr 2026 16:55:13 GMT</pubDate>
       <guid isPermaLink="true">https://blog.meshcore.io/2026/04/23/the-split</guid>
       <category>Coding, Governance</category>
-    </item>
-    <item>
-      <title>An update on recent Claude Code quality reports</title>
-      <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
-      <description>Anthropic confirms and resolves three issues degrading Claude Code quality since March 2026: reduced default reasoning effort, a caching bug causing context loss, and a verbosity-reduction prompt hurting coding performance. All three now fixed.</description>
-      <pubDate>Thu, 23 Apr 2026 14:50:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.anthropic.com/engineering/april-23-postmortem</guid>
-      <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>Meta Plans to Cut 10% of Workers to Offset AI Spending</title>
-      <link>https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency</link>
-      <description>Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta — layoffs framed explicitly as an AI-productivity dividend.</description>
-      <pubDate>Thu, 23 Apr 2026 13:47:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>How our TPUs power increasingly demanding AI workloads</title>
-      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/</link>
-      <description>Google released an explainer video on how its TPU generations have scaled to power increasingly demanding AI workloads. Educational, but a marker that Google continues to position TPUs as competitive with NVIDIA for training the largest models.</description>
-      <pubDate>Thu, 23 Apr 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/</guid>
-      <category>Content</category>
-    </item>
-    <item>
-      <title>GPT-5.5 System Card</title>
-      <link>https://openai.com/index/gpt-5-5-system-card</link>
-      <description>OpenAI published the GPT-5.5 system card with safety evaluations, red-teaming results, and capability benchmarks. Reports improvements in agentic coding and scientific research, with the bio-risk evaluations separately covered in a bug bounty challenge.</description>
-      <pubDate>Thu, 23 Apr 2026 11:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/gpt-5-5-system-card</guid>
-      <category>Models, Agents, Coding</category>
-    </item>
-    <item>
-      <title>Introducing GPT-5.5</title>
-      <link>https://openai.com/index/introducing-gpt-5-5</link>
-      <description>OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output — double GPT-5.4 pricing.</description>
-      <pubDate>Thu, 23 Apr 2026 11:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/introducing-gpt-5-5</guid>
-      <category>Models, Coding, Agents</category>
-    </item>
-    <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <description>Meta&#x27;s MSL lab introduced Muse Spark, framing it as a step toward what Meta is calling personal superintelligence. Details are thin on capability specs; the branding positions it squarely against OpenAI&#x27;s consumer play.</description>
-      <pubDate>Thu, 23 Apr 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Google invests in first data center in the Austrian Alps</title>
-      <link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/</link>
-      <description>Google announced its first Austrian data center in Kronstorf, generating 100 direct jobs. Part of Google&#x27;s push to expand EU AI compute capacity ahead of EU AI Act enforcement milestones.</description>
-      <pubDate>Thu, 23 Apr 2026 09:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Microsoft doubles NZ AI upskilling commitment to train 200,000 Kiwis</title>
-      <link>https://www.rnz.co.nz/news/business/592939/microsoft-announces-boost-in-nz-ai-training</link>
-      <description>Microsoft has doubled its New Zealand AI upskilling target to 200,000 people, expanding beyond basic digital literacy to real-world AI skills. Announced by Satya Nadella, targeting workforce readiness for AI-driven productivity.</description>
-      <pubDate>Thu, 23 Apr 2026 09:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.rnz.co.nz/news/business/592939/microsoft-announces-boost-in-nz-ai-training</guid>
-      <category>Skills, Governance</category>
-    </item>
-    <item>
-      <title>[AINews] Tasteful Tokenmaxxing</title>
-      <link>https://www.latent.space/p/ainews-tasteful-tokenmaxxing</link>
-      <description>AI leaders debate optimal token consumption — serial depth vs parallel breadth in model runs, and implications for code quality as AI-generated software volume explodes. Discussion of tokenmaxxing as a deliberate strategy vs efficiency.</description>
-      <pubDate>Thu, 23 Apr 2026 02:45:37 GMT</pubDate>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-tasteful-tokenmaxxing</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>GPT-5.5 Bio Bug Bounty</title>
-      <link>https://openai.com/index/gpt-5-5-bio-bug-bounty</link>
-      <description>OpenAI is running a red-teaming challenge to find universal jailbreaks for GPT-5.5&#x27;s bio safety guardrails, with rewards up to $25,000. Shows OpenAI is taking bio-risk evals seriously for its latest frontier model.</description>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/gpt-5-5-bio-bug-bounty</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>NZ NCSC: Implications of Frontier AI Models for Cyber Defence</title>
-      <link>https://www.ncsc.govt.nz/protect-your-organisation/the-implications-of-frontier-ai-models-for-cyber-defence/</link>
-      <description>New Zealand&#x27;s National Cyber Security Centre publishes guidance for senior leaders on how frontier AI models create dual-use cyber risks: enabling attackers to find vulnerabilities faster while offering defenders AI-assisted code review and vulnerability detection.</description>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.ncsc.govt.nz/protect-your-organisation/the-implications-of-frontier-ai-models-for-cyber-defence/</guid>
-      <category>Governance, Models</category>
-    </item>
-    <item>
-      <title>OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams</title>
-      <link>https://x.com/i/status/2047017964105597009</link>
-      <description>Sam Altman endorsed OpenAI&#x27;s new workspace agents in ChatGPT, calling them &#x27;cool&#x27; and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.</description>
-      <pubDate>Wed, 22 Apr 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2047017964105597009</guid>
-      <category>Agents, Coding</category>
-    </item>
-    <item>
-      <title>From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI</title>
-      <link>https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</link>
-      <description>NVIDIA details running Gemma 4 locally on RTX PCs and the DGX Spark desktop, including supported open models in the RTX AI Garage. Positions local agentic AI on consumer hardware as a practical path for developers and enterprises wanting on-premise inference.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>The Future of AI Is Open and Proprietary</title>
-      <link>https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/</link>
-      <description>NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting — open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI&#x27;s structural future.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell</title>
-      <link>https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/</link>
-      <description>NVIDIA outlines how the OpenShell agent runtime enforces security-by-design for autonomous AI agents, covering sandboxing, policy enforcement, and auditability. Addresses a critical production gap as enterprises move from demos to live agentic deployments.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/</guid>
-      <category>Agents, Governance</category>
-    </item>
-    <item>
-      <title>Blowing Off Steam: How Power-Flexible AI Factories Can Stabilize the Global Energy Grid</title>
-      <link>https://blogs.nvidia.com/blog/power-flexible-ai-factories-energy-grid/</link>
-      <description>NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers — absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/power-flexible-ai-factories-energy-grid/</guid>
-      <category>Governance, Models</category>
-    </item>
-    <item>
-      <title>From Simulation to Production: How to Build Robots With AI</title>
-      <link>https://blogs.nvidia.com/blog/build-robots-with-ai/</link>
-      <description>NVIDIA guide covering the full pipeline from simulation-based robot training to production deployment using Isaac Lab, Omniverse, and foundation models. Practical reference for teams building physical AI systems across manufacturing, logistics, and service robotics.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/build-robots-with-ai/</guid>
-      <category>Agents, Models</category>
-    </item>
-    <item>
-      <title>Introducing Grok Business and Grok Enterprise</title>
-      <link>https://x.ai/news/grok-business</link>
-      <description>xAI announced Grok Business and Grok Enterprise tiers with team management, higher usage limits, and enterprise-grade controls. Positions Grok as a direct competitor to OpenAI Teams and Anthropic&#x27;s enterprise offerings in the commercial AI market.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-business</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>xAI partners with US Department of War to apply Grok to military applications</title>
-      <link>https://x.ai/news/us-gov-dept-of-war</link>
-      <description>xAI announced a partnership with the US Department of War to deploy Grok for military applications, joining other frontier labs with government defence contracts. Adds xAI to the growing roster of AI companies providing capabilities to national security programmes.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/us-gov-dept-of-war</guid>
-      <category>Governance, Models</category>
-    </item>
-    <item>
-      <title>xAI and El Salvador Pioneer the World&#x27;s First Nationwide AI Education Program</title>
-      <link>https://x.ai/news/el-salvador-partnership</link>
-      <description>xAI and the El Salvador government launched what they describe as the world&#x27;s first nationwide AI education programme, using Grok to deliver AI literacy across the country&#x27;s education system. Positions xAI as both a commercial and geopolitical actor in global AI adoption.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/el-salvador-partnership</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Grok 4.1 Fast and Agent Tools API</title>
-      <link>https://x.ai/news/grok-4-1-fast</link>
-      <description>xAI released Grok 4.1 Fast, an optimised variant tuned for lower latency in production pipelines, alongside an Agent Tools API enabling external tool calls and multi-step reasoning. Targets developers building real-time agentic applications requiring fast inference.</description>
-      <pubDate>Wed, 22 Apr 2026 19:11:41 GMT</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
-      <category>Models, Agents</category>
     </item>
   </channel>
 </rss>

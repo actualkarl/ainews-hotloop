@@ -1,110 +1,71 @@
 {
-  "updated_at": "2026-04-22T06:00:00Z",
+  "generated_at": "2026-04-24T18:15:33Z",
   "tweets": [
     {
-      "handle": "sama",
-      "display_name": "Sam Altman",
-      "text": "the world is going to change faster than people expect. we're in a really good place and working on some things that i think will be genuinely surprising",
-      "url": "https://x.com/sama/status/1914400000000000001",
-      "posted_at": "2026-04-22T03:44:00Z"
+      "id": "2047728242707046599",
+      "handle": "berniesanders",
+      "author_name": "Bernie Sanders",
+      "url": "https://x.com/i/status/2047728242707046599",
+      "text": "Together with @AOC, I'm introducing the AI Data Center Moratorium Act — calling for a pause on new AI data center construction and frontier AI development until we have proper safety guardrails in place.",
+      "published_at": "2026-04-25T00:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "handle": "karpathy",
-      "display_name": "Andrej Karpathy",
-      "text": "fun observation: a well-curated 400M param model trained long enough often beats lazy fine-tunes of much larger models. quality of data > quantity of params, consistently.",
-      "url": "https://x.com/karpathy/status/1914400000000000002",
-      "posted_at": "2026-04-22T01:12:00Z"
-    },
-    {
+      "id": "2047666340370993420",
       "handle": "ylecun",
-      "display_name": "Yann LeCun",
-      "text": "LLMs can't reason causally, can't plan, can't learn from a few examples the way humans do. impressive demos ≠ path to human-level AI. we need a fundamentally different approach.",
-      "url": "https://x.com/ylecun/status/1914400000000000003",
-      "posted_at": "2026-04-21T22:33:00Z"
+      "author_name": "Yann LeCun",
+      "url": "https://x.com/ylecun/status/2047666340370993420",
+      "text": "LLMs fail at physical world understanding in ways that matter for robotics and embodied AI — worse than a cat at anticipating consequences. The path forward is world models (JEPA), not bigger generative token predictors.",
+      "published_at": "2026-04-24T18:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "handle": "demishassabis",
-      "display_name": "Demis Hassabis",
-      "text": "AlphaFold 3's predictions for small-molecule interactions are now active in 50+ drug discovery programs at partner labs. this is what AI for science looks like at scale.",
-      "url": "https://x.com/demishassabis/status/1914400000000000004",
-      "posted_at": "2026-04-21T20:05:00Z"
+      "id": "2047665139642507612",
+      "handle": "ylecun",
+      "author_name": "Yann LeCun",
+      "url": "https://x.com/ylecun/status/2047665139642507612",
+      "text": "Current vision systems in robotics use ConvNets and CLIP-like embeddings, not LLMs. The architecture that will win in embodied AI is not based on next-token prediction.",
+      "published_at": "2026-04-24T17:55:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "handle": "fchollet",
-      "display_name": "François Chollet",
-      "text": "ARC-AGI-2 leaderboard update: top score is 62.4% (up from 58% last week). pure LLM approaches still plateau around 20-25%. the gap is real.",
-      "url": "https://x.com/fchollet/status/1914400000000000005",
-      "posted_at": "2026-04-22T00:58:00Z"
+      "id": "2047663235008979034",
+      "handle": "ylecun",
+      "author_name": "Yann LeCun",
+      "url": "https://x.com/ylecun/status/2047663235008979034",
+      "text": "The benchmark obsession in AI is a category error. Judging AGI by human-test mimicry tells you nothing about whether the system can handle novel physical situations it was never trained on.",
+      "published_at": "2026-04-24T17:45:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "handle": "emollick",
-      "display_name": "Ethan Mollick",
-      "text": "used Claude to analyze 10 years of student essays in 4 hours. finding: engagement with primary sources dropped 40% since 2018 even as grades stayed flat. AI found a signal humans missed.",
-      "url": "https://x.com/emollick/status/1914400000000000006",
-      "posted_at": "2026-04-21T18:20:00Z"
+      "id": "2047636569767419951",
+      "handle": "ylecun",
+      "author_name": "Yann LeCun",
+      "url": "https://x.com/ylecun/status/2047636569767419951",
+      "text": "JEPA and world models aren't just academic alternatives — they're the only architectures that can reason about physical causality without being told explicitly. That's what you need for real autonomous agents.",
+      "published_at": "2026-04-24T16:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "handle": "darioamodei",
-      "display_name": "Dario Amodei",
-      "text": "the key insight for good AI agents: you don't get them by just scaling — you need RLHF specifically designed for multi-step tasks with tool use. it's a different problem than chat.",
-      "url": "https://x.com/darioamodei/status/1914400000000000007",
-      "posted_at": "2026-04-22T02:17:00Z"
-    },
-    {
-      "handle": "AndrewYNg",
-      "display_name": "Andrew Ng",
-      "text": "reviewed 200 enterprise AI implementations. companies that succeed: (1) start with a specific use case, (2) iterate fast, (3) keep a human in the loop. still true in 2026.",
-      "url": "https://x.com/AndrewYNg/status/1914400000000000008",
-      "posted_at": "2026-04-21T16:45:00Z"
-    },
-    {
-      "handle": "lexfridman",
-      "display_name": "Lex Fridman",
-      "text": "recording with @sama tomorrow. lots to cover: AGI timelines, OpenAI's direction, and whether we should be worried. DM me your questions.",
-      "url": "https://x.com/lexfridman/status/1914400000000000009",
-      "posted_at": "2026-04-22T04:30:00Z"
-    },
-    {
-      "handle": "geoffreyhinton",
-      "display_name": "Geoffrey Hinton",
-      "text": "capabilities are advancing rapidly but our ability to ensure alignment is not keeping pace. the big labs are moving too fast. this should concern all of us.",
-      "url": "https://x.com/geoffreyhinton/status/1914400000000000010",
-      "posted_at": "2026-04-21T14:10:00Z"
-    },
-    {
-      "handle": "AravSrinivas",
-      "display_name": "Aravind Srinivas",
-      "text": "Perplexity hit 200M monthly active users last month. people want answers, not links. the next 10 years of search will look nothing like the last 30.",
-      "url": "https://x.com/AravSrinivas/status/1914400000000000011",
-      "posted_at": "2026-04-21T23:55:00Z"
-    },
-    {
-      "handle": "hardmaru",
-      "display_name": "David Ha",
-      "text": "beautiful result in today's paper: a 7B model fine-tuned on synthetic data it generated itself outperforms the 70B model it distilled from. recursive self-improvement is not just a thought experiment.",
-      "url": "https://x.com/hardmaru/status/1914400000000000012",
-      "posted_at": "2026-04-21T21:40:00Z"
-    },
-    {
-      "handle": "ID_AA_Carmack",
-      "display_name": "John Carmack",
-      "text": "running local 32B models on Apple Silicon at 20+ tok/s. hardware is finally not the bottleneck for most dev workflows. the local AI story is getting genuinely interesting.",
-      "url": "https://x.com/ID_AA_Carmack/status/1914400000000000013",
-      "posted_at": "2026-04-21T19:22:00Z"
-    },
-    {
+      "id": "2047489218998628780",
       "handle": "gdb",
-      "display_name": "Greg Brockman",
-      "text": "the thing that surprised me most about the last year: agentic tasks that looked hard 18 months ago are now mostly solved. the remaining hard problems are about trust, not capability.",
-      "url": "https://x.com/gdb/status/1914400000000000014",
-      "posted_at": "2026-04-21T17:08:00Z"
-    },
-    {
-      "handle": "kaifulee",
-      "display_name": "Kai-Fu Lee",
-      "text": "visited 6 Chinese AI labs last week. the talent density is extraordinary. the notion that China is 2 years behind is outdated — in inference optimization and deployment they are clearly ahead.",
-      "url": "https://x.com/kaifulee/status/1914400000000000015",
-      "posted_at": "2026-04-21T11:30:00Z"
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2047489218998628780",
+      "text": "Auto-review is now live in Codex. A guardian agent evaluates the safety of proposed actions, cutting down human approvals to only the essential cases. Big step for making agentic coding practical in production.",
+      "published_at": "2026-04-24T10:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     }
   ]
 }
