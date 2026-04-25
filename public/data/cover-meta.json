@@ -1,15 +1,12 @@
 {
-  "top_headline": "Sanders and AOC introduce AI Data Center Moratorium Act",
+  "top_headline": "NVIDIA GTC 2026: Live Updates on What’s Next in AI",
   "top_headlines": [
-    "Sanders and AOC introduce AI Data Center Moratorium Act",
-    "LeCun: LLMs fail at physical world understanding —…",
-    "Grok Voice Think Fast 1.0",
-    "Federated Learning Without the Refactoring Overhead…",
-    "Sources: China recently told tech companies,…",
-    "Alibaba says its Qwen AI models will be integrated…"
+    "NVIDIA GTC 2026: Live Updates on What’s Next in AI",
+    "Chat with Qwen (with Deep Research and Web Dev)",
+    "Grok 3 Beta — The Age of Reasoning Agents"
   ],
-  "top_fingerprint": "sanders and aoc introduce ai data center moratorium act || lecun: llms fail at physical world understanding —… || grok voice think fast 1.0 || federated learning without the refactoring overhead… || sources: china recently told tech companies,… || alibaba says its qwen ai models will be integrated…",
-  "generated_at": "2026-04-24T22:50:00Z",
+  "top_fingerprint": "nvidia gtc 2026: live updates on what’s next in ai || chat with qwen (with deep research and web dev) || grok 3 beta — the age of reasoning agents",
+  "generated_at": "2026-04-25T17:37:58.335667Z",
   "model": "gpt-image-2 1536x1024 low",
-  "regen_reason": "brain-center redesign"
+  "regen_reason": "top-6 headlines changed"
 }

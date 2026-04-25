@@ -1,68 +1,46 @@
 {
-  "generated_at": "2026-04-24T18:15:33Z",
+  "generated_at": "2026-04-25T18:10:50.641157Z",
   "tweets": [
     {
-      "id": "2047728242707046599",
-      "handle": "berniesanders",
-      "author_name": "Bernie Sanders",
-      "url": "https://x.com/i/status/2047728242707046599",
-      "text": "Together with @AOC, I'm introducing the AI Data Center Moratorium Act — calling for a pause on new AI data center construction and frontier AI development until we have proper safety guardrails in place.",
-      "published_at": "2026-04-25T00:30:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2047666340370993420",
-      "handle": "ylecun",
-      "author_name": "Yann LeCun",
-      "url": "https://x.com/ylecun/status/2047666340370993420",
-      "text": "LLMs fail at physical world understanding in ways that matter for robotics and embodied AI — worse than a cat at anticipating consequences. The path forward is world models (JEPA), not bigger generative token predictors.",
-      "published_at": "2026-04-24T18:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2047665139642507612",
-      "handle": "ylecun",
-      "author_name": "Yann LeCun",
-      "url": "https://x.com/ylecun/status/2047665139642507612",
-      "text": "Current vision systems in robotics use ConvNets and CLIP-like embeddings, not LLMs. The architecture that will win in embodied AI is not based on next-token prediction.",
-      "published_at": "2026-04-24T17:55:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2047663235008979034",
-      "handle": "ylecun",
-      "author_name": "Yann LeCun",
-      "url": "https://x.com/ylecun/status/2047663235008979034",
-      "text": "The benchmark obsession in AI is a category error. Judging AGI by human-test mimicry tells you nothing about whether the system can handle novel physical situations it was never trained on.",
-      "published_at": "2026-04-24T17:45:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2047636569767419951",
-      "handle": "ylecun",
-      "author_name": "Yann LeCun",
-      "url": "https://x.com/ylecun/status/2047636569767419951",
-      "text": "JEPA and world models aren't just academic alternatives — they're the only architectures that can reason about physical causality without being told explicitly. That's what you need for real autonomous agents.",
-      "published_at": "2026-04-24T16:30:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2047489218998628780",
+      "id": "2048067919289147674",
       "handle": "gdb",
       "author_name": "Greg Brockman",
-      "url": "https://x.com/gdb/status/2047489218998628780",
-      "text": "Auto-review is now live in Codex. A guardian agent evaluates the safety of proposed actions, cutting down human approvals to only the essential cases. Big step for making agentic coding practical in production.",
-      "published_at": "2026-04-24T10:00:00Z",
+      "url": "https://x.com/gdb/status/2048067919289147674",
+      "text": "GPT Image 2 is wonderful for educational visual summaries — used it on Darwin's Origin of Species and the result is genuinely useful as a teaching aid.",
+      "published_at": "2026-04-25T16:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2048056060460626292",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2048056060460626292",
+      "text": "GPT-5.5 keeps raising the bar for what teams can ambitiously build on top of the API.",
+      "published_at": "2026-04-25T15:45:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2048062261584077149",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2048062261584077149",
+      "text": "5.5 has that earnest \"little engine that could\" energy. Quietly excited about what people are shipping with it.",
+      "published_at": "2026-04-25T16:10:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2047872041827910093",
+      "handle": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "url": "https://x.com/demishassabis/status/2047872041827910093",
+      "text": "Great chat highlighting startups building on @googlegemma — open-weights work continues to compound.",
+      "published_at": "2026-04-25T03:30:00Z",
       "like_count": 0,
       "retweet_count": 0,
       "reply_count": 0

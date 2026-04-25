@@ -1,17 +1,173 @@
 {
-  "generated_at": "2026-04-24T18:15:11Z",
-  "next_refresh_at": "2026-04-25T18:00:00Z",
+  "generated_at": "2026-04-25T18:10:00.094110Z",
+  "next_refresh_at": "2026-04-26T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "cover_image_url": "/data/cover.png",
   "cover_image_mobile_url": "/data/cover-mobile.png",
   "newsflash": [
-    "c6c586873e55a0ba",
-    "849dbccc0c4d96e9",
-    "3d462a37e82b391b",
-    "8e6b6aeefff51fff"
+    "9a8e8b6625737391",
+    "a3f943a1ae954ade"
   ],
-  "daily_summary": "xAI launched Grok Voice Think Fast 1.0, combining real-time speech with fast reasoning and targeting developers building conversational agents. DeepSeek V4's million-token context continues attracting analysis, with HuggingFace providing a detailed breakdown of its practical agentic utility. On governance, New Zealand's Reserve Bank joined Australia's central bank in monitoring Anthropic's Claude Mythos over cyber threat risks to banking infrastructure — the first time central banks have publicly flagged a specific AI model as a systemic risk. US senators Sanders and AOC introduced the AI Data Center Moratorium Act, proposing a legislative pause on frontier AI expansion.",
+  "daily_summary": "Google has committed roughly $40 billion to Anthropic, with the lab reporting tripled annualised revenue past $30 billion and deepening its reliance on Google Cloud TPU capacity even as its enterprise agent stack continues to ship. OpenAI's Sam Altman issued a public apology for not escalating a Canadian school shooter's ChatGPT activity to police, sharpening the duty-of-care debate around consumer AI. Closer to home, reporting indicates the New Zealand Defence Force has shifted its experimental targeting-AI partner from Anthropic to OpenAI — the most concrete public signal yet on which frontier vendors NZ Defence is willing to operationalise.",
   "items": [
+    {
+      "id": "9a8e8b6625737391",
+      "url": "https://www.yahoo.com/news/articles/altman-says-openai-deeply-sorry-134355866.html",
+      "title": "Altman says OpenAI \"deeply sorry\" for not flagging Canadian school shooter's ChatGPT use to police",
+      "title_translated": null,
+      "source": "yahoo-news",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-25T13:43:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "Sam Altman issued a public apology for OpenAI's failure to escalate a Canadian school shooter's ChatGPT activity to law enforcement, calling the lapse a serious one and committing to revised internal escalation policies. The incident is fuelling fresh debate over consumer-AI duty-of-care obligations.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a3f943a1ae954ade",
+      "url": "https://www.wataugademocrat.com/news/national/anthropic-says-google-to-pump-40-bn-into-ai-startup/article_a27301b4-d017-5bf8-a201-08609a563b10.html",
+      "title": "Google to invest $40B into Anthropic; annualised revenue triples to $30B+",
+      "title_translated": null,
+      "source": "agency-wire",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-25T08:00:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "Anthropic confirmed a fresh capital commitment from Google reported at $40 billion alongside an annualised revenue figure that has tripled past $30 billion. The deal deepens Anthropic's reliance on Google Cloud TPU capacity and lands as Anthropic's enterprise agent stack continues to ship.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.7063,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "54191b1b79e6fe46",
+      "url": "https://www.teaonews.co.nz/2026/04/25/indigenous-land-defenders-are-being-killed-ai-is-scraping-their-knowledge",
+      "title": "Te Ao News: AI scraping of indigenous knowledge; Te Hiku Media's te reo Māori speech model held up as positive counter-example",
+      "title_translated": null,
+      "source": "teao-news",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-25T06:00:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "Te Ao News covers global concern that AI companies are scraping indigenous knowledge without consent, citing Aotearoa's Te Hiku Media as a counter-example: a community-governed te reo Māori speech recognition model whose data is held under indigenous data sovereignty terms. The piece is being shared as a reference model for Pacific AI governance discussions.",
+      "tags": [
+        "Governance",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.5979,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "78ef5d8ebcbff8f6",
+      "url": "https://www.facebook.com/newstalkzb/posts/microsoft-has-today-announced-it-will-double-its-existing-ai-and-digital-skillin/1355312189953288",
+      "title": "Microsoft to double NZ AI and digital skilling commitment — 200,000+ Kiwis by 2028",
+      "title_translated": null,
+      "source": "newstalk-zb",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-25T03:00:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "Microsoft announced during its Auckland visit that it will double its existing New Zealand AI and digital skilling commitment, targeting 200,000+ Kiwis trained by 2028. The announcement sits alongside Microsoft's projected $102B AI economic boost to NZ by 2038 and is being amplified through NZTech and government channels.",
+      "tags": [
+        "Skills"
+      ],
+      "image_url": null,
+      "trending_score": 0.4656,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d51658229d495c24",
+      "url": "https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister",
+      "title": "NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI",
+      "title_translated": null,
+      "source": "scoop-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-25T00:00:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "New Zealand's incoming Defence Minister confirms the current procurement path on US drones will continue, with reporting noting the Defence Force has shifted its experimental targeting-AI partner from Anthropic to OpenAI after a contract fallout. The move is the most concrete public signal yet on which frontier vendors NZ Defence is willing to operationalise.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 0.3626,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "897651d38a61be2d",
+      "url": "https://www.nzherald.co.nz/video/herald-now/ryan-bridge-today/ai-supply-chains-are-fragile-technology-finance-commentator-jonty-kelt-herald-now-business/XA3RY7VZYHEPWZ6H4UMB6OQFFE",
+      "title": "NZ Herald: AI supply chains are fragile — Jonty Kelt on hardware, energy and capital concentration",
+      "title_translated": null,
+      "source": "nzherald",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-25T00:00:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "Technology finance commentator Jonty Kelt walks NZ Herald viewers through the layered fragility of AI supply chains — chip fab concentration, energy bottlenecks and capital intensity — and what NZ exposure looks like in a stress scenario. Useful for board-level conversations about second-order AI risk in NZ corporates.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "image_url": null,
+      "trending_score": 0.3626,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c19e047960b0d2a4",
+      "url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
+      "title": "llm 0.31",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T23:35:07Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "llm 0.31.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 0.3503,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4d073e0079fcb041",
+      "url": "https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/",
+      "title": "Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "cn",
+      "published_at": "2026-04-24T23:29:56Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<img width=\"768\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/ai-model-representation-2-768x432.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://develo…",
+      "tags": [
+        "Models",
+        "Coding",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.6956,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "8e494cf5218b0f60",
       "url": "https://x.com/i/status/2047728242707046599",
@@ -27,10 +183,107 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.5493,
+      "trending_score": 0.1112,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
+    },
+    {
+      "id": "b156fcbc8e043598",
+      "url": "http://www.techmeme.com/260424/p44#a260424p44",
+      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T20:10:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.3677,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "8131ce6e063313c5",
+      "url": "http://www.techmeme.com/260424/p43#a260424p43",
+      "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T19:05:03-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.336,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "caecb50726ec83a1",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T19:00:00Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 0.4781,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c2e9c3f0479e1b68",
+      "url": "http://www.techmeme.com/260424/p42#a260424p42",
+      "title": "Diplomatic cable: US State Department has ordered a global push to bring attention to what it says are efforts by Chinese companies to steal IP from US AI labs (Raphael Satter/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T18:55:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"bor",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.3313,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "49e8d0577a5e1f9d",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "title": "OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API",
+      "title_translated": null,
+      "source": "hnrss",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T18:23:32Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "GPT-5.5 - https://news.ycombinator.com/item?id=47879092 - April 2026 (1010 comments) Comments URL: https://news.ycombinator.com/item?id=47894000 Points: 201 # Comments: 112",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 0.2273,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "027b7edb0c933457",
@@ -47,7 +300,7 @@
         "Models"
       ],
       "image_url": "https://unavatar.io/x/ylecun",
-      "trending_score": 0.5378,
+      "trending_score": 0.0733,
       "mention_count": 1,
       "related_ids": []
     },
@@ -66,7 +319,46 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 1.0,
+      "trending_score": 0.4261,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "858699580058a9a4",
+      "url": "http://www.techmeme.com/260424/p33#a260424p33",
+      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T16:45:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.2766,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "87ee8b56db584fc5",
+      "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+      "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+      "title_translated": null,
+      "source": "hnrss",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T15:59:19Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "Article URL: https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ Comments URL: https://news.ycombinator.com/item?id=47892019 Points: 747 # Comments: 445",
+      "tags": [
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 0.186,
       "mention_count": 1,
       "related_ids": []
     },
@@ -86,8 +378,8 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2023/06/connected-healthcare-facilities-graphic.jpg",
-      "trending_score": 1.0,
-      "mention_count": 1,
+      "trending_score": 0.4323,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -105,7 +397,7 @@
         "Governance"
       ],
       "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iqHO82tbKQSA/v1/1200x801.jpg",
-      "trending_score": 0.8758,
+      "trending_score": 0.1194,
       "mention_count": 1,
       "related_ids": []
     },
@@ -124,7 +416,7 @@
         "Models"
       ],
       "image_url": "https://image.cnbcfm.com/api/v1/image/108296640-1777002560704-20260424_Audi_Beiingautoshow.jpg?v=1777003089&w=1920&h=1080",
-      "trending_score": 0.8518,
+      "trending_score": 0.1161,
       "mention_count": 1,
       "related_ids": []
     },
@@ -144,7 +436,7 @@
         "Coding"
       ],
       "image_url": "https://unavatar.io/x/gdb",
-      "trending_score": 0.2761,
+      "trending_score": 0.0376,
       "mention_count": 1,
       "related_ids": []
     },
@@ -163,7 +455,7 @@
         "Coding"
       ],
       "image_url": "https://restofworld.org/wp-content/uploads/2026/04/EdTech-downfall-1600x900.jpg",
-      "trending_score": 0.6275,
+      "trending_score": 0.0855,
       "mention_count": 1,
       "related_ids": []
     },
@@ -182,7 +474,7 @@
         "Models"
       ],
       "image_url": "https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg",
-      "trending_score": 0.6189,
+      "trending_score": 0.0844,
       "mention_count": 1,
       "related_ids": []
     },
@@ -201,7 +493,7 @@
         "Coding"
       ],
       "image_url": "https://tii.imgix.net/production/articles/16984/b0fee05f-7479-40dd-b399-95a22269bbe6.png?fm=jpeg&auto=compress&w=610",
-      "trending_score": 0.6061,
+      "trending_score": 0.0826,
       "mention_count": 1,
       "related_ids": []
     },
@@ -220,7 +512,7 @@
         "Governance"
       ],
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/04/23/e3963db0-2ed5-4738-95ed-b3bf4af829d5_e56eddd3.jpg?itok=zE65YzXd&v=1776949403",
-      "trending_score": 0.6019,
+      "trending_score": 0.082,
       "mention_count": 1,
       "related_ids": []
     },
@@ -239,8 +531,8 @@
         "Models"
       ],
       "image_url": "https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg",
-      "trending_score": 0.5945,
-      "mention_count": 1,
+      "trending_score": 0.1023,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -258,7 +550,7 @@
         "Models"
       ],
       "image_url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/04/24/1aa9c8af-9ec0-47a7-bb39-4cc1aabd00a0_511d071c.jpg?itok=EBhP0LrL&v=1777001132",
-      "trending_score": 0.5854,
+      "trending_score": 0.0798,
       "mention_count": 1,
       "related_ids": []
     },
@@ -277,7 +569,7 @@
         "Models"
       ],
       "image_url": "https://www.reuters.com/resizer/v2/X7Q4LXPA4BIRDPA5P7VFXX3ITA.jpg?auth=56f664d31d0d7f8df7253405413b77e810d7286fe30a3c65d22886f6c53db00d&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.5615,
+      "trending_score": 0.0765,
       "mention_count": 1,
       "related_ids": []
     },
@@ -296,8 +588,8 @@
         "Coding"
       ],
       "image_url": "https://substackcdn.com/image/fetch/$s_!0uGP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f9f5845-e1e6-497a-9bed-f6457169247c_2048x684.png",
-      "trending_score": 0.5317,
-      "mention_count": 1,
+      "trending_score": 0.0915,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -315,8 +607,8 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.5189,
-      "mention_count": 1,
+      "trending_score": 0.0893,
+      "mention_count": 2,
       "related_ids": [],
       "image_source": "cover_fallback"
     },
@@ -335,8 +627,8 @@
         "Agents"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.5094,
-      "mention_count": 1,
+      "trending_score": 0.0876,
+      "mention_count": 2,
       "related_ids": [],
       "image_source": "cover_fallback"
     },
@@ -356,8 +648,8 @@
         "Skills"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.4195,
-      "mention_count": 1,
+      "trending_score": 0.0722,
+      "mention_count": 2,
       "related_ids": [],
       "image_source": "cover_fallback"
     },
@@ -376,7 +668,7 @@
         "Governance"
       ],
       "image_url": "/data/images/singapore-emerges-as-neutral-ground-for-ai-firms-navigating.png",
-      "trending_score": 0.4166,
+      "trending_score": 0.0568,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -397,8 +689,8 @@
         "Agents"
       ],
       "image_url": "https://huggingface.co/blog/assets/deepseekv4/thumbnail.png",
-      "trending_score": 0.7201,
-      "mention_count": 1,
+      "trending_score": 0.1239,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -413,12 +705,12 @@
         "Coding",
         "Skills"
       ],
-      "mention_count": 2,
+      "mention_count": 3,
       "id": "793dd2b420ff13b9",
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.3816,
+      "trending_score": 0.0604,
       "image_url": "https://static.simonwillison.net/static/2026/liteparse-web-card.jpg"
     },
     {
@@ -437,7 +729,7 @@
         "Coding"
       ],
       "image_url": "/data/images/ai-coding-firm-cognition-in-early-talks-to-raise-funds-at-25.png",
-      "trending_score": 0.2708,
+      "trending_score": 0.0369,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -457,8 +749,8 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.7718,
-      "mention_count": 3,
+      "trending_score": 0.1171,
+      "mention_count": 4,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
     },
@@ -477,8 +769,8 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.3254,
-      "mention_count": 2,
+      "trending_score": 0.0515,
+      "mention_count": 3,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/gpt-5.5-pelican-xhigh.png"
     },
@@ -494,12 +786,12 @@
         "Agents",
         "Coding"
       ],
-      "mention_count": 2,
+      "mention_count": 3,
       "id": "a28033b82077f4f8",
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.3154,
+      "trending_score": 0.0499,
       "image_url": "https://substackcdn.com/image/fetch/$s_!45KJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F195264855%2F9555e9f7-7fae-4334-a611-77c682f215d5%2Ftranscoded-1776972950.png"
     },
     {
@@ -518,8 +810,8 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2449,
-      "mention_count": 1,
+      "trending_score": 0.0421,
+      "mention_count": 2,
       "related_ids": [],
       "image_source": "cover_fallback"
     },
@@ -538,8 +830,8 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.7719,
-      "mention_count": 4,
+      "trending_score": 0.1143,
+      "mention_count": 5,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png"
     },
@@ -558,7 +850,7 @@
         "Models"
       ],
       "image_url": "/data/images/gpt-5-5-pricing-5-m-input-30-m-output-double-gpt-5-4.png",
-      "trending_score": 0.2308,
+      "trending_score": 0.0315,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -578,7 +870,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2189,
+      "trending_score": 0.0298,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -599,7 +891,7 @@
         "Governance"
       ],
       "image_url": "https://blog.meshcore.io/assets/images/icon.png",
-      "trending_score": 0.2518,
+      "trending_score": 0.0343,
       "mention_count": 2,
       "related_ids": []
     },
@@ -618,8 +910,8 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.6709,
-      "mention_count": 7,
+      "trending_score": 0.0958,
+      "mention_count": 8,
       "related_ids": [],
       "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/3f522820d47355885631ebda60e5d1f3e5c0fbc2-2000x1050.heif"
     },
@@ -637,7 +929,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.2506,
+      "trending_score": 0.0342,
       "mention_count": 4,
       "related_ids": [],
       "image_url": "/data/images/meta-plans-to-cut-10-of-workers-to-offset-ai-spending.png",
@@ -658,8 +950,8 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.1513,
-      "mention_count": 1,
+      "trending_score": 0.026,
+      "mention_count": 2,
       "related_ids": [],
       "image_source": "cover_fallback"
     },
@@ -678,8 +970,8 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/gfn-thursday-feature-launch-library-nv-blog-1280x680-logo.jpg",
-      "trending_score": 0.2883,
-      "mention_count": 1,
+      "trending_score": 0.0496,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -697,8 +989,8 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/AstroUCSC_IntroPoster_v2.png",
-      "trending_score": 0.2881,
-      "mention_count": 1,
+      "trending_score": 0.0495,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -716,7 +1008,7 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp",
-      "trending_score": 0.3343,
+      "trending_score": 0.0456,
       "mention_count": 2,
       "related_ids": []
     },
@@ -737,7 +1029,7 @@
         "Coding"
       ],
       "image_url": "/data/images/gpt-5-5-system-card.png",
-      "trending_score": 0.3075,
+      "trending_score": 0.0419,
       "mention_count": 2,
       "related_ids": [],
       "image_type": "generated"
@@ -758,7 +1050,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.5512,
+      "trending_score": 0.0751,
       "mention_count": 10,
       "related_ids": [],
       "image_url": "/data/images/introducing-gpt-5-5.png",
@@ -779,7 +1071,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ofzm8o9mjYQ7kNvwGtULFT&_nc_oc=AdqJLti-c523yAElssrDxTU02XgXBpkMF1ja100mgNhNxDxnb71BhtLrYS_HFkdHUMs&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=wSc-0O757M3ykrDuzFJPxw&oh=00_Af1AoGbTytxuVDiYPm3tYVZEp5RMgoUUg8Yt3Dv0-4n4TQ&oe=6A0515EC",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": []
     },
@@ -799,7 +1091,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -820,7 +1112,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -842,7 +1134,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -862,7 +1154,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -883,7 +1175,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -903,7 +1195,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -923,7 +1215,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "cover_fallback"
@@ -943,7 +1235,7 @@
         "Governance"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp",
-      "trending_score": 0.2603,
+      "trending_score": 0.0355,
       "mention_count": 2,
       "related_ids": []
     },
@@ -962,7 +1254,7 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.1302,
+      "trending_score": 0.0177,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--nTavqkEY--/t_tohu-badge-facebook/v1661033484/4LMPJPT_54470630_m_jpg?_a=BACCd2AD"
@@ -984,7 +1276,7 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.0613,
+      "trending_score": 0.0084,
       "image_url": "https://substackcdn.com/image/fetch/$s_!4_2l!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb2b6f77-150d-4fb4-a74a-259318cba0dd_1698x1172.png"
     },
     {
@@ -1003,7 +1295,7 @@
         "Governance"
       ],
       "image_url": "/data/images/gpt-5-5-bio-bug-bounty.png",
-      "trending_score": 0.0974,
+      "trending_score": 0.0133,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -1025,7 +1317,7 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.0974,
+      "trending_score": 0.0133,
       "image_url": "/data/images/nz-ncsc-implications-of-frontier-ai-models-for-cyber-defence.png",
       "image_type": "generated"
     },
@@ -1044,7 +1336,7 @@
         "Agents",
         "Coding"
       ],
-      "trending_score": 0.0147,
+      "trending_score": 0.002,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/sama",
@@ -1065,7 +1357,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/eevee-nv-blog-1280x680-1.jpg"
@@ -1085,7 +1377,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg"
@@ -1105,7 +1397,7 @@
         "Agents",
         "Governance"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/agentic-ai-visual-nemoclaw-opie-r2-1680x938.png"
@@ -1125,7 +1417,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/02/Copy-of-Blog-1280x680.pptx-2.jpg"
@@ -1145,7 +1437,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-models-and-frameworks-1920x1080-1-1680x945.gif"
@@ -1164,7 +1456,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491"
@@ -1184,7 +1476,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e"
@@ -1203,7 +1495,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/el-salvador-partnership/opengraph-image-a4id79.png?af3ffb6a20040211"
@@ -1223,7 +1515,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a"
@@ -1243,7 +1535,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/grok-goes-global/opengraph-image-1hc9y2.png?90f5f7a4ae2d2121"
@@ -1263,7 +1555,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/onegov/opengraph-image-1hepv9.png?a627c3d2277f3233"
@@ -1283,7 +1575,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://x.ai/news/government/opengraph-image-lqj1b7.png?f1aa0f448e8273c9"
@@ -1303,7 +1595,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ju3IackF430Q7kNvwFBTu7q&_nc_oc=AdrXrXAAULayAsG0V8mz83vQKX8b3b7q2RYNOTMa2erJX8-uNNYE1Bg5Evr0sBfBtAQ&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RMFb5tIUyhhqaQ1poXn2xg&_nc_ss=7a20f&oh=00_Af0s4gm4ajP_y6y0WJ-enq-ukVyfsVt0_HIps9qHlCX0EQ&oe=6A0387EE"
@@ -1323,7 +1615,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/658967078_993415586351079_325919381939729048_n.gif?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FD9jqO43oIIQ7kNvwGhxeMf&_nc_oc=AdpBCkur8KJ6goLpl3nXNHcYNSJJTf2pRERTCRq5CMotRQaUgR3FAcmWXYgqqNU1-Mo&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=B77mkxV5iAXhdyomqupkLQ&_nc_ss=7a20f&oh=00_Af3O1ZpjaNNl4ubxlZ1n4DOez-VxSOMcwz080bVac9n_5g&oe=6A036C52"
@@ -1342,7 +1634,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OQF0YD6bwmIQ7kNvwFegFh3&_nc_oc=AdrZyZokBD94I9hUaushIKcm3N7sm1NOSriddKJ-sLWy0XTLkedXUbveJg-prQvN70M&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=jBIjXSzAOYeM4hrY3XfGBw&_nc_ss=7a20f&oh=00_Af0XCNzeBk_FgXJJo0-y2gdkTVcteT5FcFhEVvyogFO8vw&oe=6A038A61"
@@ -1361,7 +1653,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0653,
+      "trending_score": 0.0089,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=HgHNcKCHqUgQ7kNvwG1L3vC&_nc_oc=AdpBp4mNBT7vn0IRKtYkco02RPmjBJkgiU9sHrrbbrTcDrpH-HSq3Qbu7AYjfstkI90&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=W-tR6q2uMeYim-DWmT1UdA&_nc_ss=7a20f&oh=00_Af0miZ-T6QRYJVkqiFP3Za31kcKolqGjrB2d86UiEdtXFA&oe=6A03856C"
@@ -1381,7 +1673,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0107,
+      "trending_score": 0.0015,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -1401,7 +1693,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0296,
+      "trending_score": 0.004,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--9o-cMIlJ--/t_tohu-badge-facebook/v1753230313/4K3TG61_AI_fact_check_jpg?_a=BACCd2AD"
@@ -1420,7 +1712,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0296,
+      "trending_score": 0.004,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://newsroom.co.nz/wp-content/uploads/2026/04/accept.png"
@@ -1439,7 +1731,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0083,
+      "trending_score": 0.0011,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -1460,7 +1752,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0615,
+      "trending_score": 0.0084,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/gemma4.png"
@@ -1480,7 +1772,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.039,
+      "trending_score": 0.0053,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/Earth-2_thumbnail-1680x945.png"
@@ -1500,7 +1792,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0359,
+      "trending_score": 0.0049,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/google-cloud-nvidia.jpg"
@@ -1519,7 +1811,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0452,
+      "trending_score": 0.0062,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-1440x810.png"
@@ -1539,7 +1831,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.0179,
+      "trending_score": 0.0024,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/images/ai-is-handling-1-000-nz-job-interviews-a-month-humans-still.png",
@@ -1559,7 +1851,7 @@
       "tags": [
         "Coding"
       ],
-      "trending_score": 0.006,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/sama",
@@ -1581,7 +1873,7 @@
       "title_translated": null,
       "first_seen_at": "2026-04-23T23:06:52Z",
       "related_ids": [],
-      "trending_score": 0.0179,
+      "trending_score": 0.0024,
       "image_url": "http://img.scoop.co.nz/stories/images/1908/scoop_image.jpg"
     },
     {
@@ -1598,7 +1890,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0394,
+      "trending_score": 0.0054,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://lh3.googleusercontent.com/1-K_kcmoX-fIzTJ13T0-uF4gylS2tK00ZVvx87B2WSayzUS2fxDoDDXFq5hOhxptrBeG8AbjG_URN5OOTpGMqad9zILjMsTdAHWroiDKpziBQjzErw=w1200-h630-n-nu-rw"
@@ -1618,7 +1910,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.0303,
+      "trending_score": 0.0041,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4OePmYEOLzZNcxVLLd9pMH/cc16f505aa589ef72ef3c1c265705727/SEO.png?w=1600&h=900&fit=fill"
@@ -1638,7 +1930,7 @@
         "Automation",
         "Governance"
       ],
-      "trending_score": 0.014,
+      "trending_score": 0.0019,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "http://img.scoop.co.nz/stories/images/1509/scoop_placeholder.jpg"
@@ -1658,7 +1950,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0128,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/images/health-nz-develops-bropilot-culturally-grounded-m-ori-versio.png",
@@ -1678,7 +1970,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0109,
+      "trending_score": 0.0015,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.reseller.co.nz/wp-content/uploads/2026/04/4161687-0-41751800-1776819663-Jeyan_Jeevaratnam.png?w=1024"
@@ -1699,8 +1991,8 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0066,
-      "mention_count": 1,
+      "trending_score": 0.0011,
+      "mention_count": 2,
       "related_ids": [],
       "image_source": "cover_fallback"
     },
@@ -1719,7 +2011,7 @@
         "Governance"
       ],
       "image_url": "/data/images/new-pilot-helps-small-businesses-harness-ai.png",
-      "trending_score": 0.0132,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
@@ -1739,7 +2031,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0132,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
@@ -1759,7 +2051,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0049,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
@@ -1779,7 +2071,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0079,
+      "trending_score": 0.0011,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7fPF7LU0YzPr5PrlNT6lo3/823a11178d4aac15d4f4260b9fcc490d/Blog_art_card.png?w=1600&h=900&fit=fill"
@@ -1799,7 +2091,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.006,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.width-1300.png"
@@ -1819,7 +2111,7 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -1840,7 +2132,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0042,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/659bc8a7b0f43ed69f0b2300/KdH3z5dRfyIAyxgGPN5Ey.png"
@@ -1860,7 +2152,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
@@ -1881,7 +2173,7 @@
         "Models",
         "Content"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -1901,7 +2193,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/OfficialLoganK",
@@ -1921,7 +2213,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://technewzealand.org.nz/wp-content/uploads/sites/44/2026/04/EdTech-Website-Event-Banner-23-1024x455.png"
@@ -1942,7 +2234,7 @@
         "Skills",
         "Governance"
       ],
-      "trending_score": 0.0015,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://clawdhub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DProviders%26title%3DAnthropic%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26primaryColor%3D%2523FF5A36%26lightColor%3D%2523FF8A6B%26darkColor%3D%2523FF5A36%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230e0c0d&w=1200&q=100"
@@ -1961,7 +2253,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0021,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/google-x",
@@ -1981,7 +2273,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc142aba1-b453-4312-96e2-c86dad5b8c42.jpg?source=next-barrier-page"
@@ -2001,7 +2293,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2e471680-c77a-4665-8b9a-b72ea8db7b8e/The_AI_Corner__Logo_1200_x_630_.png?t=1756538663"
@@ -2020,7 +2312,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.0019,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/build-korean-agents-with-nemotron-personas.png"
@@ -2040,10 +2332,30 @@
         "Models",
         "Agents"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
+    },
+    {
+      "id": "9eb37fbe11286fd6",
+      "url": "https://technewzealand.org.nz/category/nztech-newsletter/",
+      "title": "NZTech newsletter: \"When AI quietly shifts what organisations value\"",
+      "title_translated": null,
+      "source": "nztech",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-25T18:10:00.094110Z",
+      "summary": "NZTech's 21 April newsletter argues that the most consequential AI effects on Kiwi organisations are not headline product launches but slow shifts in what teams come to value: speed of synthesis, willingness to delegate judgement, tolerance for ambiguous output. Frames this as a leadership rather than tooling problem.",
+      "tags": [
+        "Skills",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "373897d12f779670",
@@ -2060,7 +2372,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png"
@@ -2080,7 +2392,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6vVWsdD8Je8NBRf5rzcKgO/627fd8bf52395077f3ed200aaeb615b9/Frame.png?w=1600&h=900&fit=fill"
@@ -2099,7 +2411,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://news.microsoft.com/source/asia/wp-content/uploads/2026/04/Jane-Livesey-President-Microsoft-AU-NZ-Copy-scaled.jpg"
@@ -2118,7 +2430,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.nzherald.co.nz/resizer/v2/5R2LUEXL55HNJFA5VWAWXIKQ3Q.JPG?auth=468d0a785f381f1a25dc67986086afd3b34f6b6fe87c37a457358ae74febcfa9&width=1200&height=675&quality=70&smart=true"
@@ -2137,7 +2449,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://cdn.nbr.co.nz/assets/Uploads/2023-12/AI-Artificial-Intelligence-Human-gif-web.gif"
@@ -2156,7 +2468,7 @@
       "tags": [
         "Automation"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://www.nzherald.co.nz/resizer/v2/OIVRPERFFNECRFOXS7TSPMLWAE.jpg?auth=38dbb06c88ec9b46bae0964786760fe476db37e58eb49f78ad7d22c15d5b13cd&width=1200&height=675&quality=70&smart=true"
@@ -2175,7 +2487,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/cover-mobile.png",
@@ -2196,7 +2508,7 @@
         "Content",
         "Models"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/DCD_Perkins_Canva.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -2216,7 +2528,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.0016,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp"
@@ -2236,7 +2548,7 @@
         "Models",
         "Coding"
       ],
-      "trending_score": 0.002,
+      "trending_score": 0.0003,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp"
@@ -2256,7 +2568,7 @@
         "Agents",
         "Models"
       ],
-      "trending_score": 0.0003,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/karpathy",
@@ -2276,7 +2588,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
@@ -2296,7 +2608,7 @@
         "Governance",
         "Content"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://static-www.adweek.com/wp-content/uploads/2025/05/open-ai-data-chatgpt-2025.jpg?w=600&h=315&crop=1"
@@ -2316,7 +2628,7 @@
         "Coding",
         "Agents"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/02/codex-app-icon-openai.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
@@ -2335,7 +2647,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://image.cnbcfm.com/api/v1/image/108254538-1770326418274-108254538-1768938695162-CNBC_Stage_01_062.jpg?v=1771351348&w=1920&h=1080"
@@ -2355,7 +2667,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg"
@@ -2374,7 +2686,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/cover-mobile.png",
@@ -2395,7 +2707,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg"
@@ -2415,7 +2727,7 @@
         "Models",
         "Governance"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!pKEq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c69ea-fa59-4eba-8034-25b0af9b5443_3182x1790.png"
@@ -2434,7 +2746,7 @@
       "tags": [
         "Agents"
       ],
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
@@ -2453,7 +2765,7 @@
       "tags": [
         "Models"
       ],
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
@@ -2473,7 +2785,7 @@
         "Content",
         "Governance"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Copy-of-2000x1000-EN-1240x600-1.jpg?resize=1200,581"
@@ -2492,7 +2804,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/fchollet",
@@ -2513,7 +2825,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg"
@@ -2533,7 +2845,7 @@
         "Governance",
         "Models"
       ],
-      "trending_score": 0.0004,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
@@ -2553,7 +2865,7 @@
         "Governance",
         "Automation"
       ],
-      "trending_score": 0.0004,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "/data/cover-mobile.png",
@@ -2573,7 +2885,7 @@
       "tags": [
         "Governance"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
@@ -2594,7 +2906,7 @@
         "Automation",
         "Agents"
       ],
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
@@ -2614,7 +2926,7 @@
         "Coding",
         "Models"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
@@ -2634,7 +2946,7 @@
         "Content",
         "Automation"
       ],
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill"
@@ -2654,7 +2966,7 @@
         "Agents",
         "Automation"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_url": "/data/cover-mobile.png",
@@ -2916,13 +3228,5 @@
       "related_ids": [],
       "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
     }
-  ],
-  "cover_slice_urls": [
-    "/data/slices/slice-0-0.png",
-    "/data/slices/slice-0-1.png",
-    "/data/slices/slice-0-2.png",
-    "/data/slices/slice-1-0.png",
-    "/data/slices/slice-1-1.png",
-    "/data/slices/slice-1-2.png"
   ]
 }
