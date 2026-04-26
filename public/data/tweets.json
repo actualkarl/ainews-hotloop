@@ -1,49 +1,82 @@
 {
-  "generated_at": "2026-04-25T18:10:50.641157Z",
+  "generated_at": "2026-04-26T18:09:39.418644Z",
   "tweets": [
     {
-      "id": "2048067919289147674",
+      "id": "2048426122854228141",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "text": "Contrasting post-AGI economic fears with the 'GPT-5.5 in codex' hype — a quip on overwork culture.",
+      "published_at": "2026-04-26T08:00:00Z",
+      "like_count": 5000,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "url": "https://x.com/sama/status/2048426122854228141"
+    },
+    {
+      "id": "2048449695622586576",
       "handle": "gdb",
       "author_name": "Greg Brockman",
-      "url": "https://x.com/gdb/status/2048067919289147674",
-      "text": "GPT Image 2 is wonderful for educational visual summaries — used it on Darwin's Origin of Species and the result is genuinely useful as a teaching aid.",
-      "published_at": "2026-04-25T16:30:00Z",
+      "text": "Amplifying GPT Image 2 demos — math infographics with consistent yet diverse outputs.",
+      "published_at": "2026-04-26T09:30:00Z",
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0
+      "reply_count": 0,
+      "url": "https://x.com/gdb/status/2048449695622586576"
+    },
+    {
+      "id": "2048184797374325031",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "text": "GPT Image 2 restoring damaged photos to 4K and rendering endangered-animal compositions.",
+      "published_at": "2026-04-26T05:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "url": "https://x.com/gdb/status/2048184797374325031"
+    },
+    {
+      "id": "2048166616119353820",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "text": "GPT-5.5 now on Databricks for enterprise agents, Codex coding, and data queries.",
+      "published_at": "2026-04-26T04:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0,
+      "url": "https://x.com/gdb/status/2048166616119353820"
     },
     {
       "id": "2048056060460626292",
       "handle": "gdb",
       "author_name": "Greg Brockman",
-      "url": "https://x.com/gdb/status/2048056060460626292",
-      "text": "GPT-5.5 keeps raising the bar for what teams can ambitiously build on top of the API.",
-      "published_at": "2026-04-25T15:45:00Z",
+      "text": "GPT-5.5 raises the 'ambition ceiling' on complex tasks per early enterprise users.",
+      "published_at": "2026-04-26T01:00:00Z",
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0
+      "reply_count": 0,
+      "url": "https://x.com/gdb/status/2048056060460626292"
     },
     {
-      "id": "2048062261584077149",
-      "handle": "sama",
-      "author_name": "Sam Altman",
-      "url": "https://x.com/sama/status/2048062261584077149",
-      "text": "5.5 has that earnest \"little engine that could\" energy. Quietly excited about what people are shipping with it.",
-      "published_at": "2026-04-25T16:10:00Z",
+      "id": "2048053303062241444",
+      "handle": "alliekmiller",
+      "author_name": "Allie K. Miller",
+      "text": "Honored to be on the TIME 100 AI list. Asked Claude to help pick lotto numbers — it suggested ducks first.",
+      "published_at": "2026-04-26T01:00:00Z",
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0
+      "reply_count": 0,
+      "url": "https://x.com/alliekmiller/status/2048053303062241444"
     },
     {
-      "id": "2047872041827910093",
-      "handle": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "url": "https://x.com/demishassabis/status/2047872041827910093",
-      "text": "Great chat highlighting startups building on @googlegemma — open-weights work continues to compound.",
-      "published_at": "2026-04-25T03:30:00Z",
+      "id": "2047901060803784865",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "text": "Shoutout to the OpenAI team's shipping pace these past two weeks.",
+      "published_at": "2026-04-25T15:00:00Z",
       "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0
+      "reply_count": 0,
+      "url": "https://x.com/gdb/status/2047901060803784865"
     }
   ]
 }

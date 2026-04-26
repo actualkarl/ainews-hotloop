@@ -6,11 +6,27 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 25 Apr 2026 18:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 18:09:39 +0000</lastBuildDate>
     <item>
-      <title>Altman says OpenAI "deeply sorry" for not flagging Canadian school shooter's ChatGPT use to police</title>
+      <title>NZ media flags Anthropic Claude Mythos Preview as &quot;too dangerous&quot;, urges domestic guardrails</title>
+      <link>https://www.thepost.co.nz/nz-news/360990602/warning-too-dangerous-ai-knocking-new-zealands-door</link>
+      <description>The Post frames Anthropic&#x27;s Claude Mythos Preview as a high-risk frontier release reaching New Zealand without local regulatory infrastructure. References the central-bank monitoring posture established last week and pushes for NZ-side governance rather than relying on US/AU regulators.</description>
+      <pubDate>Sun, 26 Apr 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.thepost.co.nz/nz-news/360990602/warning-too-dangerous-ai-knocking-new-zealands-door</guid>
+      <category>Governance,Models</category>
+    </item>
+    <item>
+      <title>NZ MPs and AI in Parliament: which party uses it most, an MP running his own AI server, and Grok in Question Time</title>
+      <link>https://www.thepost.co.nz/politics/360987049/how-are-mps-using-ai-party-using-it-most-mp-his-own-ai-server-and-one-using-grok-question-time</link>
+      <description>The Post investigates how New Zealand MPs use AI tools day-to-day in Parliament. The piece names the party with the highest AI adoption, identifies an MP self-hosting an LLM, and documents Grok being used to formulate questions during Question Time. First substantive look at AI usage inside the Beehive.</description>
+      <pubDate>Sun, 26 Apr 2026 03:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.thepost.co.nz/politics/360987049/how-are-mps-using-ai-party-using-it-most-mp-his-own-ai-server-and-one-using-grok-question-time</guid>
+      <category>Governance,Automation</category>
+    </item>
+    <item>
+      <title>Altman says OpenAI &quot;deeply sorry&quot; for not flagging Canadian school shooter&#x27;s ChatGPT use to police</title>
       <link>https://www.yahoo.com/news/articles/altman-says-openai-deeply-sorry-134355866.html</link>
-      <description>Sam Altman issued a public apology for OpenAI's failure to escalate a Canadian school shooter's ChatGPT activity to law enforcement, calling the lapse a serious one and committing to revised internal escalation policies. The incident is fuelling fresh debate over consumer-AI duty-of-care obligations.</description>
+      <description>Sam Altman issued a public apology for OpenAI&#x27;s failure to escalate a Canadian school shooter&#x27;s ChatGPT activity to law enforcement, calling the lapse a serious one and committing to revised internal escalation policies. The incident is fuelling fresh debate over consumer-AI duty-of-care obligations.</description>
       <pubDate>Sat, 25 Apr 2026 13:43:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.yahoo.com/news/articles/altman-says-openai-deeply-sorry-134355866.html</guid>
       <category>Governance</category>
@@ -18,34 +34,42 @@
     <item>
       <title>Google to invest $40B into Anthropic; annualised revenue triples to $30B+</title>
       <link>https://www.wataugademocrat.com/news/national/anthropic-says-google-to-pump-40-bn-into-ai-startup/article_a27301b4-d017-5bf8-a201-08609a563b10.html</link>
-      <description>Anthropic confirmed a fresh capital commitment from Google reported at $40 billion alongside an annualised revenue figure that has tripled past $30 billion. The deal deepens Anthropic's reliance on Google Cloud TPU capacity and lands as Anthropic's enterprise agent stack continues to ship.</description>
+      <description>Anthropic confirmed a fresh capital commitment from Google reported at $40 billion alongside an annualised revenue figure that has tripled past $30 billion. The deal deepens Anthropic&#x27;s reliance on Google Cloud TPU capacity and lands as Anthropic&#x27;s enterprise agent stack continues to ship.</description>
       <pubDate>Sat, 25 Apr 2026 08:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.wataugademocrat.com/news/national/anthropic-says-google-to-pump-40-bn-into-ai-startup/article_a27301b4-d017-5bf8-a201-08609a563b10.html</guid>
-      <category>Models, Governance</category>
+      <category>Models,Governance</category>
     </item>
     <item>
-      <title>Te Ao News: AI scraping of indigenous knowledge; Te Hiku Media's te reo Māori speech model held up as positive counter-example</title>
+      <title>Te Ao News: AI scraping of indigenous knowledge; Te Hiku Media&#x27;s te reo Māori speech model held up as positive counter-example</title>
       <link>https://www.teaonews.co.nz/2026/04/25/indigenous-land-defenders-are-being-killed-ai-is-scraping-their-knowledge</link>
-      <description>Te Ao News covers global concern that AI companies are scraping indigenous knowledge without consent, citing Aotearoa's Te Hiku Media as a counter-example: a community-governed te reo Māori speech recognition model whose data is held under indigenous data sovereignty terms. The piece is being shared as a reference model for Pacific AI governance discussions.</description>
+      <description>Te Ao News covers global concern that AI companies are scraping indigenous knowledge without consent, citing Aotearoa&#x27;s Te Hiku Media as a counter-example: a community-governed te reo Māori speech recognition model whose data is held under indigenous data sovereignty terms. The piece is being shared as a reference model for Pacific AI governance discussions.</description>
       <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.teaonews.co.nz/2026/04/25/indigenous-land-defenders-are-being-killed-ai-is-scraping-their-knowledge</guid>
-      <category>Governance, Content</category>
+      <category>Governance,Content</category>
     </item>
     <item>
       <title>Microsoft to double NZ AI and digital skilling commitment — 200,000+ Kiwis by 2028</title>
       <link>https://www.facebook.com/newstalkzb/posts/microsoft-has-today-announced-it-will-double-its-existing-ai-and-digital-skillin/1355312189953288</link>
-      <description>Microsoft announced during its Auckland visit that it will double its existing New Zealand AI and digital skilling commitment, targeting 200,000+ Kiwis trained by 2028. The announcement sits alongside Microsoft's projected $102B AI economic boost to NZ by 2038 and is being amplified through NZTech and government channels.</description>
+      <description>Microsoft announced during its Auckland visit that it will double its existing New Zealand AI and digital skilling commitment, targeting 200,000+ Kiwis trained by 2028. The announcement sits alongside Microsoft&#x27;s projected $102B AI economic boost to NZ by 2038 and is being amplified through NZTech and government channels.</description>
       <pubDate>Sat, 25 Apr 2026 03:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.facebook.com/newstalkzb/posts/microsoft-has-today-announced-it-will-double-its-existing-ai-and-digital-skillin/1355312189953288</guid>
       <category>Skills</category>
     </item>
     <item>
+      <title>A US judge dismisses Elon Musk&#x27;s fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)</title>
+      <link>http://www.techmeme.com/260424/p44#a260424p44</link>
+      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC=&quot;http://www.techmeme.com/img/pml.png&quot; STYLE=&quot;border:none;paddi</description>
+      <pubDate>Fri, 24 Apr 2026 20:10:01 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p44#a260424p44</guid>
+      <category>Governance</category>
+    </item>
+    <item>
       <title>NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI</title>
       <link>https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister</link>
-      <description>New Zealand's incoming Defence Minister confirms the current procurement path on US drones will continue, with reporting noting the Defence Force has shifted its experimental targeting-AI partner from Anthropic to OpenAI after a contract fallout. The move is the most concrete public signal yet on which frontier vendors NZ Defence is willing to operationalise.</description>
+      <description>New Zealand&#x27;s incoming Defence Minister confirms the current procurement path on US drones will continue, with reporting noting the Defence Force has shifted its experimental targeting-AI partner from Anthropic to OpenAI after a contract fallout. The move is the most concrete public signal yet on which frontier vendors NZ Defence is willing to operationalise.</description>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister</guid>
-      <category>Governance, Models</category>
+      <category>Governance,Models</category>
     </item>
     <item>
       <title>NZ Herald: AI supply chains are fragile — Jonty Kelt on hardware, energy and capital concentration</title>
@@ -53,7 +77,7 @@
       <description>Technology finance commentator Jonty Kelt walks NZ Herald viewers through the layered fragility of AI supply chains — chip fab concentration, energy bottlenecks and capital intensity — and what NZ exposure looks like in a stress scenario. Useful for board-level conversations about second-order AI risk in NZ corporates.</description>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nzherald.co.nz/video/herald-now/ryan-bridge-today/ai-supply-chains-are-fragile-technology-finance-commentator-jonty-kelt-herald-now-business/XA3RY7VZYHEPWZ6H4UMB6OQFFE</guid>
-      <category>Governance, Automation</category>
+      <category>Governance,Automation</category>
     </item>
     <item>
       <title>llm 0.31</title>
@@ -66,10 +90,18 @@
     <item>
       <title>Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints</title>
       <link>https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/</link>
-      <description>&lt;img width="768" height="432" src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/ai-model-representation-2-768x432.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" srcset="https://develo…</description>
+      <description>&lt;img width=&quot;768&quot; height=&quot;432&quot; src=&quot;https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/ai-model-representation-2-768x432.png&quot; class=&quot;webfeedsFeaturedVisual wp-post-image&quot; alt=&quot;&quot; style=&quot;display: block; margin-bottom: 5px; clear:both;max-width: 100%;&quot; link_thumbnail=&quot;&quot; decoding=&quot;async&quot; srcset=&quot;https://develo…</description>
       <pubDate>Fri, 24 Apr 2026 23:29:56 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/</guid>
-      <category>Models, Coding, Content</category>
+      <category>Models,Coding,Content</category>
+    </item>
+    <item>
+      <title>The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)</title>
+      <link>http://www.techmeme.com/260424/p43#a260424p43</link>
+      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC=&quot;http://www.techmeme.com/img/pml.png&quot; STYLE=&quot;border:none;padding:0;</description>
+      <pubDate>Fri, 24 Apr 2026 19:05:03 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p43#a260424p43</guid>
+      <category>Models,Governance</category>
     </item>
     <item>
       <title>Sanders and AOC introduce AI Data Center Moratorium Act</title>
@@ -80,20 +112,20 @@
       <category>Governance</category>
     </item>
     <item>
-      <title>A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)</title>
-      <link>http://www.techmeme.com/260424/p44#a260424p44</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;paddi</description>
-      <pubDate>Fri, 24 Apr 2026 20:10:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p44#a260424p44</guid>
+      <title>Diplomatic cable: US State Department has ordered a global push to bring attention to what it says are efforts by Chinese companies to steal IP from US AI labs (Raphael Satter/Reuters)</title>
+      <link>http://www.techmeme.com/260424/p42#a260424p42</link>
+      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC=&quot;http://www.techmeme.com/img/pml.png&quot; STYLE=&quot;bor</description>
+      <pubDate>Fri, 24 Apr 2026 18:55:01 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p42#a260424p42</guid>
       <category>Governance</category>
     </item>
     <item>
-      <title>The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)</title>
-      <link>http://www.techmeme.com/260424/p43#a260424p43</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;padding:0;</description>
-      <pubDate>Fri, 24 Apr 2026 19:05:03 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p43#a260424p43</guid>
-      <category>Models, Governance</category>
+      <title>ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)</title>
+      <link>http://www.techmeme.com/260424/p33#a260424p33</link>
+      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC=&quot;http://www.techmeme.com/img/pml.png&quot; STYLE=&quot;border:none;</description>
+      <pubDate>Fri, 24 Apr 2026 16:45:01 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260424/p33#a260424p33</guid>
+      <category>Models,Content</category>
     </item>
     <item>
       <title>8 Gemini tips for organizing your space (and life)</title>
@@ -104,20 +136,12 @@
       <category>Models</category>
     </item>
     <item>
-      <title>Diplomatic cable: US State Department has ordered a global push to bring attention to what it says are efforts by Chinese companies to steal IP from US AI labs (Raphael Satter/Reuters)</title>
-      <link>http://www.techmeme.com/260424/p42#a260424p42</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="bor</description>
-      <pubDate>Fri, 24 Apr 2026 18:55:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p42#a260424p42</guid>
-      <category>Governance</category>
-    </item>
-    <item>
       <title>OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API</title>
       <link>https://developers.openai.com/api/docs/changelog</link>
       <description>GPT-5.5 - https://news.ycombinator.com/item?id=47879092 - April 2026 (1010 comments) Comments URL: https://news.ycombinator.com/item?id=47894000 Points: 201 # Comments: 112</description>
       <pubDate>Fri, 24 Apr 2026 18:23:32 +0000</pubDate>
       <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog</guid>
-      <category>Models, Coding</category>
+      <category>Models,Coding</category>
     </item>
     <item>
       <title>LeCun: LLMs fail at physical world understanding — JEPA/world models are the path forward</title>
@@ -136,14 +160,6 @@
       <category>Models</category>
     </item>
     <item>
-      <title>ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)</title>
-      <link>http://www.techmeme.com/260424/p33#a260424p33</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;</description>
-      <pubDate>Fri, 24 Apr 2026 16:45:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p33#a260424p33</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
       <title>I cancelled Claude: Token issues, declining quality, and poor support</title>
       <link>https://nickyreinert.de/en/2026/2026-04-24-claude-critics/</link>
       <description>Article URL: https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ Comments URL: https://news.ycombinator.com/item?id=47892019 Points: 747 # Comments: 445</description>
@@ -157,12 +173,12 @@
       <description>NVIDIA FLARE enables federated learning without requiring developers to refactor existing ML training code, using adapter layers to privacy-preserve distributed training. Targets healthcare, finance, and regulated sectors where training data cannot leave local environments.</description>
       <pubDate>Fri, 24 Apr 2026 15:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/federated-learning-without-the-refactoring-overhead-using-nvidia-flare/</guid>
-      <category>Models, Automation</category>
+      <category>Models,Automation</category>
     </item>
     <item>
-      <title>Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta's Manus acquisition (Bloomberg)</title>
+      <title>Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta&#x27;s Manus acquisition (Bloomberg)</title>
       <link>http://www.techmeme.com/260424/p18#a260424p18</link>
-      <description>Bloomberg : Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta's Manus acquisition &amp;nbsp; &amp;mdash;&amp;nbsp; Chinese regulators plan to restrict technology firms including some of the country's highest-profile AI pioneers &amp;hellip;</description>
+      <description>Bloomberg : Sources: China recently told tech companies, including ByteDance and Moonshot AI, to reject US capital without state approval, after Meta&#x27;s Manus acquisition &amp;nbsp; &amp;mdash;&amp;nbsp; Chinese regulators plan to restrict technology firms including some of the country&#x27;s highest-profile AI pioneers &amp;hellip;</description>
       <pubDate>Fri, 24 Apr 2026 10:40:01 +0000</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260424/p18#a260424p18</guid>
       <category>Governance</category>
@@ -181,7 +197,7 @@
       <description>Greg Brockman announces auto-review is live in OpenAI Codex: a guardian agent evaluates whether proposed actions are safe before execution, reducing required human approvals to only the most critical cases. Directly addresses a key friction point in production agentic deployments.</description>
       <pubDate>Fri, 24 Apr 2026 10:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/i/status/2047489218998628780</guid>
-      <category>Agents, Coding</category>
+      <category>Agents,Coding</category>
     </item>
     <item>
       <title>Tracxn: global edtech funding fell from $16.7B in 2021 to $2.6B in 2025, while the number of startups launched dropped from 10,491 in 2021 to just 645 in 2025 (Ananya Bhattacharya/Rest of World)</title>
@@ -192,9 +208,9 @@
       <category>Coding</category>
     </item>
     <item>
-      <title>DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class (Simon Willison/Simon Willison's Weblog)</title>
+      <title>DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class (Simon Willison/Simon Willison&#x27;s Weblog)</title>
       <link>http://www.techmeme.com/260424/p10#a260424p10</link>
-      <description>Simon Willison / Simon Willison's Weblog : DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class &amp;nbsp; &amp;mdash;&amp;nbsp; Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last…</description>
+      <description>Simon Willison / Simon Willison&#x27;s Weblog : DeepSeek V4 Pro costs $1.74/1M input tokens and $3.48/1M output tokens, while V4 Flash costs $0.14/1M and $0.28/1M; both models are the cheapest in their class &amp;nbsp; &amp;mdash;&amp;nbsp; Chinese AI lab DeepSeek&#x27;s last model release was V3.2 (and V3.2 Speciale) last…</description>
       <pubDate>Fri, 24 Apr 2026 06:30:02 +0000</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260424/p10#a260424p10</guid>
       <category>Models</category>
@@ -208,9 +224,9 @@
       <category>Coding</category>
     </item>
     <item>
-      <title>China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI (Ben Jiang/South China Morning Post)</title>
+      <title>China&#x27;s top market regulator says it is launching a six-month crackdown on the country&#x27;s online ad sector, targeting malpractices including the misuse of AI (Ben Jiang/South China Morning Post)</title>
       <link>http://www.techmeme.com/260424/p7#a260424p7</link>
-      <description>Ben Jiang / South China Morning Post : China's top market regulator says it is launching a six-month crackdown on the country's online ad sector, targeting malpractices including the misuse of AI &amp;nbsp; &amp;mdash;&amp;nbsp; Market watchdog flags AI abuse and traffic-driven tactics as it launches first campaign to…</description>
+      <description>Ben Jiang / South China Morning Post : China&#x27;s top market regulator says it is launching a six-month crackdown on the country&#x27;s online ad sector, targeting malpractices including the misuse of AI &amp;nbsp; &amp;mdash;&amp;nbsp; Market watchdog flags AI abuse and traffic-driven tactics as it launches first campaign to…</description>
       <pubDate>Fri, 24 Apr 2026 06:10:01 +0000</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260424/p7#a260424p7</guid>
       <category>Governance</category>
@@ -218,7 +234,7 @@
     <item>
       <title>DeepSeek V4 - almost on the frontier, a fraction of the price</title>
       <link>https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything</link>
-      <description>Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.6T total…</description>
+      <description>Chinese AI lab DeepSeek&#x27;s last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.6T total…</description>
       <pubDate>Fri, 24 Apr 2026 06:01:04 +0000</pubDate>
       <guid isPermaLink="true">https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything</guid>
       <category>Models</category>
@@ -230,22 +246,6 @@
       <pubDate>Fri, 24 Apr 2026 05:50:01 +0000</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260424/p5#a260424p5</guid>
       <category>Models</category>
-    </item>
-    <item>
-      <title>Huawei says its Ascend supernode based on the Ascend 950 AI chips will fully support DeepSeek V4, as DeepSeek launches a preview of its V4 model (Reuters)</title>
-      <link>http://www.techmeme.com/260424/p4#a260424p4</link>
-      <description>Reuters : Huawei says its Ascend supernode based on the Ascend 950 AI chips will fully support DeepSeek V4, as DeepSeek launches a preview of its V4 model &amp;nbsp; &amp;mdash;&amp;nbsp; Huawei Technologies said on Friday its Ascend supernode based on Ascend 950 AI chips would fully support Deepseek's V4 versions &amp;hellip;</description>
-      <pubDate>Fri, 24 Apr 2026 05:20:00 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p4#a260424p4</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>[AINews] GPT 5.5 and OpenAI Codex Superapp</title>
-      <link>https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp</link>
-      <description>Spud lives!</description>
-      <pubDate>Fri, 24 Apr 2026 04:40:43 +0000</pubDate>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp</guid>
-      <category>Coding</category>
     </item>
   </channel>
 </rss>
