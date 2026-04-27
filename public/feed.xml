@@ -6,14 +6,78 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 27 Apr 2026 18:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 22:22:39 +0000</lastBuildDate>
+    <item>
+      <title>Elon Musk boosts an X post by Ronan Farrow promoting his New Yorker article on Sam Altman&#x27;s alleged deceptions, as Musk&#x27;s lawsuit against OpenAI heads to trial (Wired)</title>
+      <link>http://www.techmeme.com/260427/p36#a260427p36</link>
+      <description>Wired : Elon Musk boosts an X post by Ronan Farrow promoting his New Yorker article on Sam Altman&#x27;s alleged deceptions, as Musk&#x27;s lawsuit against OpenAI heads to trial &amp;nbsp; &amp;mdash;&amp;nbsp; The move comes as the trial for Elon Musk&#x27;s lawsuit against OpenAI kicks off in federal court in Oakland.</description>
+      <pubDate>Mon, 27 Apr 2026 20:40:02 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p36#a260427p36</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Jury selection complete in Musk v. Altman trial; opening arguments begin Tuesday in Oakland</title>
+      <link>http://www.techmeme.com/260427/p35#a260427p35</link>
+      <description>A nine-person jury was seated Monday in the federal Musk v. Altman trial in Oakland, California; both Sam Altman and Greg Brockman attended. Opening statements and witness testimony begin Tuesday. The civil case centres on whether OpenAI&#x27;s shift to a for-profit structure breached its founding charter, with Musk, Altman, and possibly Satya Nadella expected to testify over four weeks.</description>
+      <pubDate>Mon, 27 Apr 2026 20:05:02 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p35#a260427p35</guid>
+      <category>Governance</category>
+    </item>
     <item>
       <title>NZ mid-sized firms lag on AI readiness, MYOB finds</title>
       <link>https://itbrief.co.nz/story/new-zealand-mid-sized-firms-lag-on-ai-readiness-myob-finds</link>
-      <description>MYOB's annual readiness survey shows New Zealand's mid-market is investing in AI but trailing on workforce skills, governance, and process autonomy. Useful baseline for any NZ corporate AI conversation in 2026.</description>
+      <description>MYOB&#x27;s annual readiness survey shows New Zealand&#x27;s mid-market is investing in AI but trailing on workforce skills, governance, and process autonomy. Useful baseline for any NZ corporate AI conversation in 2026.</description>
       <pubDate>Mon, 27 Apr 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://itbrief.co.nz/story/new-zealand-mid-sized-firms-lag-on-ai-readiness-myob-finds</guid>
       <category>Governance</category>
+    </item>
+    <item>
+      <title>Tracking the history of the now-deceased OpenAI Microsoft AGI clause</title>
+      <link>https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</link>
+      <description>For many years, Microsoft and OpenAI&#x27;s relationship has included a weird clause saying that, should AGI be achieved, Microsoft&#x27;s commercial IP rights to OpenAI&#x27;s technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . OpenAI, July 22nd 2019 in Microsoft invests in and partners with OpenAI to support us building benef</description>
+      <pubDate>Mon, 27 Apr 2026 18:38:17 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Speech translation in Google Meet is now rolling out to mobile devices</title>
+      <link>https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</link>
+      <description>Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a &quot;try this out now&quot; prompt in a Google Meet meeting. It kind-of worked! This is Google&#x27;s implementation of the ultimate sci-fi translation app, where two people can talk to each other in two separate languages and Meet translates from one to the other and - with a short delay - repeats the t</description>
+      <pubDate>Mon, 27 Apr 2026 17:37:47 +0000</pubDate>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</guid>
+      <category>Content</category>
+    </item>
+    <item>
+      <title>GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits (Mario Rodriguez/The GitHub Blog)</title>
+      <link>http://www.techmeme.com/260427/p33#a260427p33</link>
+      <description>Mario Rodriguez / The GitHub Blog : GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits &amp;nbsp; &amp;mdash;&amp;nbsp; Starting June 1, your Copilot usage will consume GitHub AI Credits.&amp;nbsp; &amp;mdash;&amp;nbsp; TL;DR: Today, we are announcing that all GitHub Copilot plans will transition to usage-based billing on June 1, 2026.</description>
+      <pubDate>Mon, 27 Apr 2026 17:01:51 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p33#a260427p33</guid>
+      <category>Coding</category>
+    </item>
+    <item>
+      <title>The EU unveils new proposals under the DMA aimed at opening up Android to rivals&#x27; AI services; Google says the measures are &quot;unwarranted intervention&quot; (Samuel Stolton/Bloomberg)</title>
+      <link>http://www.techmeme.com/260427/p32#a260427p32</link>
+      <description>Samuel Stolton / Bloomberg : The EU unveils new proposals under the DMA aimed at opening up Android to rivals&#x27; AI services; Google says the measures are &amp;ldquo;unwarranted intervention&amp;rdquo; &amp;nbsp; &amp;mdash;&amp;nbsp; Google was targeted by European Union watchdogs who unveiled a slate of proposals aimed at prising open its Android ecosystem to rivals&#x27; AI services.</description>
+      <pubDate>Mon, 27 Apr 2026 16:55:01 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p32#a260427p32</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>600+ Google and DeepMind employees sign open letter demanding Pichai bar DOD from using Google AI for classified military work</title>
+      <link>http://www.techmeme.com/260427/p31#a260427p31</link>
+      <description>More than 600 Google and DeepMind employees signed a letter to CEO Sundar Pichai demanding he reject classified AI contracts with the US Department of Defense as Google negotiates to deploy Gemini in Pentagon settings. Over 100 DeepMind researchers separately sent an internal letter barring use of DeepMind research in weapons development or autonomous targeting.</description>
+      <pubDate>Mon, 27 Apr 2026 16:35:01 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p31#a260427p31</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>The founder of car rental platform PocketOS says a Cursor agent using Claude Opus 4.6 accidentally deleted a production database while in a staging environment (Jer/@lifeof_jer)</title>
+      <link>http://www.techmeme.com/260427/p29#a260427p29</link>
+      <description>Jer / @lifeof_jer : The founder of car rental platform PocketOS says a Cursor agent using Claude Opus 4.6 accidentally deleted a production database while in a staging environment &amp;nbsp; &amp;mdash;&amp;nbsp; An AI Agent Just Destroyed Our Production Data. It Confessed in Writing.</description>
+      <pubDate>Mon, 27 Apr 2026 15:35:02 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p29#a260427p29</guid>
+      <category>Models, Agents, Coding</category>
     </item>
     <item>
       <title>Andrew Ng: AI-native software engineering teams operate very differently</title>
@@ -24,6 +88,46 @@
       <category>Coding, Skills</category>
     </item>
     <item>
+      <title>Canva Magic Layers silently replaced &#x27;Palestine&#x27; in user designs; company says issue is fixed</title>
+      <link>http://www.techmeme.com/260427/p28#a260427p28</link>
+      <description>Canva&#x27;s newly launched Magic Layers feature automatically replaced the word &#x27;Palestine&#x27; in user designs, sparking a viral backlash on X. Canva said it &#x27;moved quickly to investigate and fix&#x27; the issue. The incident highlights risks of AI content moderation embedded directly in creative tools.</description>
+      <pubDate>Mon, 27 Apr 2026 14:40:07 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p28#a260427p28</guid>
+      <category>Governance, Content</category>
+    </item>
+    <item>
+      <title>Ex-DeepMind Principal Scientist David Silver raises $1.1B seed at $5.1B valuation for Ineffable Intelligence</title>
+      <link>https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/</link>
+      <description>David Silver, who led DeepMind&#x27;s reinforcement learning team and co-created AlphaZero, has raised $1.1B at a $5.1B valuation for UK startup Ineffable Intelligence — the largest seed round in European history. The lab aims to build AI &#x27;superlearners&#x27; that acquire knowledge without human data via RL. Backers include Sequoia, Lightspeed, NVIDIA, Google, DST Global, and the UK Sovereign AI Fund.</description>
+      <pubDate>Mon, 27 Apr 2026 14:25:01 +0000</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>OpenAI available at FedRAMP Moderate</title>
+      <link>https://openai.com/index/openai-available-at-fedramp-moderate</link>
+      <description>OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.</description>
+      <pubDate>Mon, 27 Apr 2026 14:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/openai-available-at-fedramp-moderate</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>Microsoft and OpenAI remove a clause that would have given Microsoft IP rights until OpenAI achieved &quot;AGI&quot;; Microsoft retains use of OpenAI&#x27;s models until 2032 (Aaron Holmes/The Information)</title>
+      <link>http://www.techmeme.com/260427/p26#a260427p26</link>
+      <description>Aaron Holmes / The Information : Microsoft and OpenAI remove a clause that would have given Microsoft IP rights until OpenAI achieved &amp;ldquo;AGI&amp;rdquo;; Microsoft retains use of OpenAI&#x27;s models until 2032 &amp;nbsp; &amp;mdash;&amp;nbsp; Microsoft and OpenAI amended the terms of their arrangement, allowing OpenAI to sell its models on competing cloud providers, the companies said on Monday.</description>
+      <pubDate>Mon, 27 Apr 2026 13:55:01 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p26#a260427p26</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI (OpenAI)</title>
+      <link>http://www.techmeme.com/260427/p24#a260427p24</link>
+      <description>OpenAI : Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI &amp;nbsp; &amp;mdash;&amp;nbsp; Amended agreement provides long-term clarity.&amp;nbsp; &amp;mdash;&amp;nbsp; The rapid pace of innovation requires us to continue to evolve our partnership to benefit our customers and both companies.</description>
+      <pubDate>Mon, 27 Apr 2026 13:10:02 +0000</pubDate>
+      <guid isPermaLink="true">http://www.techmeme.com/260427/p24#a260427p24</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
       <title>Join the new AI Agents Vibe Coding Course from Google and Kaggle</title>
       <link>https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/</link>
       <description>Google and Kaggle launch a free intensive on building agents with Gemini and Vertex AI, scheduled for June 2026. Aimed at developers shifting from chat-completions to agentic workflows.</description>
@@ -32,7 +136,7 @@
       <category>Agents, Coding, Skills</category>
     </item>
     <item>
-      <title>1News: US vows crackdown on Chinese firms 'exploiting' AI models</title>
+      <title>1News: US vows crackdown on Chinese firms &#x27;exploiting&#x27; AI models</title>
       <link>https://www.1news.co.nz/2026/04/27/us-vows-crackdown-on-chinese-firms-exploiting-ai-models</link>
       <description>1News reports US administration commitments to act against Chinese AI firms accused by Anthropic and others of model distillation. Follows DeepSeek V4 release; reframes the supply-chain governance debate from a NZ-Pacific viewpoint.</description>
       <pubDate>Mon, 27 Apr 2026 13:00:00 +0000</pubDate>
@@ -40,11 +144,35 @@
       <category>Governance, Models</category>
     </item>
     <item>
+      <title>Open-source Dirac agent tops TerminalBench 2.0 at 65.2% using Gemini-3-flash-preview</title>
+      <link>https://github.com/dirac-run/dirac</link>
+      <description>Community-built open-source agent Dirac scored 65.2% on TerminalBench 2.0 with Gemini-3-flash-preview, beating Google&#x27;s official 47.8% and closed-source leader Junie CLI&#x27;s 64.3%. The project includes steps to avoid the benchmark gaming recently documented by researchers. HN discussion at 663 points.</description>
+      <pubDate>Mon, 27 Apr 2026 12:35:55 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/dirac-run/dirac</guid>
+      <category>Agents, Coding</category>
+    </item>
+    <item>
+      <title>China&#x27;s NDRC orders Meta to cancel its $2B acquisition of AI agent startup Manus</title>
+      <link>https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html</link>
+      <description>China&#x27;s National Development and Reform Commission ordered Meta to unwind its $2B acquisition of Chinese-founded AI agent startup Manus, citing tech sovereignty concerns after a months-long probe. Co-founders have been banned from leaving China. The deal, announced in December 2025, had already been partially integrated into Meta AI.</description>
+      <pubDate>Mon, 27 Apr 2026 11:43:59 +0000</pubDate>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html</guid>
+      <category>Governance</category>
+    </item>
+    <item>
       <title>RNZ on Musk vs Altman trial: ongoing power struggle for OpenAI</title>
       <link>https://www.rnz.co.nz/news/world/593527/elon-musk-s-trial-against-sam-altman-to-reveal-the-ongoing-power-struggle-for-openai</link>
       <description>RNZ frames the upcoming Musk vs Altman trial as the next public chapter of the OpenAI control fight, following the dismissal of fraud claims earlier this week. NZ pickup of the global story for domestic readers.</description>
       <pubDate>Mon, 27 Apr 2026 11:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/world/593527/elon-musk-s-trial-against-sam-altman-to-reveal-the-ongoing-power-struggle-for-openai</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Lapsus$ hack of Mercor exposed 4TB of voice and biometric data from 40,000 AI contractors</title>
+      <link>https://app.oravys.com/blog/mercor-breach-2026</link>
+      <description>A new analysis of the April Mercor breach (via LiteLLM supply chain attack) details how Lapsus$ stole 4TB of biometric data — including voice samples and ID documents — from 40,000 AI data contractors serving OpenAI, Anthropic, and Meta. Six class-action lawsuits have been filed. Mercor disputes the claims.</description>
+      <pubDate>Mon, 27 Apr 2026 09:57:10 +0000</pubDate>
+      <guid isPermaLink="true">https://app.oravys.com/blog/mercor-breach-2026</guid>
       <category>Governance</category>
     </item>
     <item>
@@ -72,9 +200,9 @@
       <category>Models, Governance</category>
     </item>
     <item>
-      <title>How to build scalable web apps with OpenAI's Privacy Filter</title>
+      <title>How to build scalable web apps with OpenAI&#x27;s Privacy Filter</title>
       <link>https://huggingface.co/blog/openai-privacy-filter-web-apps</link>
-      <description>Hugging Face publishes an integration guide for OpenAI's open-weight Privacy Filter PII redaction model in production web stacks. Covers latency tradeoffs, batching, and deployment on HF Inference Endpoints.</description>
+      <description>Hugging Face publishes an integration guide for OpenAI&#x27;s open-weight Privacy Filter PII redaction model in production web stacks. Covers latency tradeoffs, batching, and deployment on HF Inference Endpoints.</description>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/openai-privacy-filter-web-apps</guid>
       <category>Models, Coding</category>
@@ -96,9 +224,9 @@
       <category>Agents, Automation</category>
     </item>
     <item>
-      <title>NZ media flags Anthropic Claude Mythos Preview as "too dangerous", urges domestic guardrails</title>
+      <title>NZ media flags Anthropic Claude Mythos Preview as &quot;too dangerous&quot;, urges domestic guardrails</title>
       <link>https://www.thepost.co.nz/nz-news/360990602/warning-too-dangerous-ai-knocking-new-zealands-door</link>
-      <description>The Post frames Anthropic's Claude Mythos Preview as a high-risk frontier release reaching New Zealand without local regulatory infrastructure. References the central-bank monitoring posture established last week and pushes for NZ-side governance rather than relying on US/AU regulators.</description>
+      <description>The Post frames Anthropic&#x27;s Claude Mythos Preview as a high-risk frontier release reaching New Zealand without local regulatory infrastructure. References the central-bank monitoring posture established last week and pushes for NZ-side governance rather than relying on US/AU regulators.</description>
       <pubDate>Sun, 26 Apr 2026 05:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.thepost.co.nz/nz-news/360990602/warning-too-dangerous-ai-knocking-new-zealands-door</guid>
       <category>Governance, Models</category>
@@ -112,140 +240,12 @@
       <category>Governance, Automation</category>
     </item>
     <item>
-      <title>Altman says OpenAI "deeply sorry" for not flagging Canadian school shooter's ChatGPT use to police</title>
+      <title>Altman says OpenAI &quot;deeply sorry&quot; for not flagging Canadian school shooter&#x27;s ChatGPT use to police</title>
       <link>https://www.yahoo.com/news/articles/altman-says-openai-deeply-sorry-134355866.html</link>
-      <description>Sam Altman issued a public apology for OpenAI's failure to escalate a Canadian school shooter's ChatGPT activity to law enforcement, calling the lapse a serious one and committing to revised internal escalation policies. The incident is fuelling fresh debate over consumer-AI duty-of-care obligations.</description>
+      <description>Sam Altman issued a public apology for OpenAI&#x27;s failure to escalate a Canadian school shooter&#x27;s ChatGPT activity to law enforcement, calling the lapse a serious one and committing to revised internal escalation policies. The incident is fuelling fresh debate over consumer-AI duty-of-care obligations.</description>
       <pubDate>Sat, 25 Apr 2026 13:43:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.yahoo.com/news/articles/altman-says-openai-deeply-sorry-134355866.html</guid>
       <category>Governance</category>
-    </item>
-    <item>
-      <title>Google to invest $40B into Anthropic; annualised revenue triples to $30B+</title>
-      <link>https://www.wataugademocrat.com/news/national/anthropic-says-google-to-pump-40-bn-into-ai-startup/article_a27301b4-d017-5bf8-a201-08609a563b10.html</link>
-      <description>Anthropic confirmed a fresh capital commitment from Google reported at $40 billion alongside an annualised revenue figure that has tripled past $30 billion. The deal deepens Anthropic's reliance on Google Cloud TPU capacity and lands as Anthropic's enterprise agent stack continues to ship.</description>
-      <pubDate>Sat, 25 Apr 2026 08:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.wataugademocrat.com/news/national/anthropic-says-google-to-pump-40-bn-into-ai-startup/article_a27301b4-d017-5bf8-a201-08609a563b10.html</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>Te Ao News: AI scraping of indigenous knowledge; Te Hiku Media's te reo Māori speech model held up as positive counter-example</title>
-      <link>https://www.teaonews.co.nz/2026/04/25/indigenous-land-defenders-are-being-killed-ai-is-scraping-their-knowledge</link>
-      <description>Te Ao News covers global concern that AI companies are scraping indigenous knowledge without consent, citing Aotearoa's Te Hiku Media as a counter-example: a community-governed te reo Māori speech recognition model whose data is held under indigenous data sovereignty terms. The piece is being shared as a reference model for Pacific AI governance discussions.</description>
-      <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.teaonews.co.nz/2026/04/25/indigenous-land-defenders-are-being-killed-ai-is-scraping-their-knowledge</guid>
-      <category>Governance, Content</category>
-    </item>
-    <item>
-      <title>Microsoft to double NZ AI and digital skilling commitment — 200,000+ Kiwis by 2028</title>
-      <link>https://www.facebook.com/newstalkzb/posts/microsoft-has-today-announced-it-will-double-its-existing-ai-and-digital-skillin/1355312189953288</link>
-      <description>Microsoft announced during its Auckland visit that it will double its existing New Zealand AI and digital skilling commitment, targeting 200,000+ Kiwis trained by 2028. The announcement sits alongside Microsoft's projected $102B AI economic boost to NZ by 2038 and is being amplified through NZTech and government channels.</description>
-      <pubDate>Sat, 25 Apr 2026 03:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.facebook.com/newstalkzb/posts/microsoft-has-today-announced-it-will-double-its-existing-ai-and-digital-skillin/1355312189953288</guid>
-      <category>Skills</category>
-    </item>
-    <item>
-      <title>A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)</title>
-      <link>http://www.techmeme.com/260424/p44#a260424p44</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;paddi</description>
-      <pubDate>Sat, 25 Apr 2026 00:10:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p44#a260424p44</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI</title>
-      <link>https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister</link>
-      <description>New Zealand's incoming Defence Minister confirms the current procurement path on US drones will continue, with reporting noting the Defence Force has shifted its experimental targeting-AI partner from Anthropic to OpenAI after a contract fallout. The move is the most concrete public signal yet on which frontier vendors NZ Defence is willing to operationalise.</description>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister</guid>
-      <category>Governance, Models</category>
-    </item>
-    <item>
-      <title>NZ Herald: AI supply chains are fragile — Jonty Kelt on hardware, energy and capital concentration</title>
-      <link>https://www.nzherald.co.nz/video/herald-now/ryan-bridge-today/ai-supply-chains-are-fragile-technology-finance-commentator-jonty-kelt-herald-now-business/XA3RY7VZYHEPWZ6H4UMB6OQFFE</link>
-      <description>Technology finance commentator Jonty Kelt walks NZ Herald viewers through the layered fragility of AI supply chains — chip fab concentration, energy bottlenecks and capital intensity — and what NZ exposure looks like in a stress scenario. Useful for board-level conversations about second-order AI risk in NZ corporates.</description>
-      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.nzherald.co.nz/video/herald-now/ryan-bridge-today/ai-supply-chains-are-fragile-technology-finance-commentator-jonty-kelt-herald-now-business/XA3RY7VZYHEPWZ6H4UMB6OQFFE</guid>
-      <category>Governance, Automation</category>
-    </item>
-    <item>
-      <title>llm 0.31</title>
-      <link>https://simonwillison.net/2026/Apr/24/llm/#atom-everything</link>
-      <description>llm 0.31.</description>
-      <pubDate>Fri, 24 Apr 2026 23:35:07 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/24/llm/#atom-everything</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Build with DeepSeek V4 Using NVIDIA Blackwell and GPU-Accelerated Endpoints</title>
-      <link>https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/</link>
-      <description>&lt;img width="768" height="432" src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/ai-model-representation-2-768x432.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="display: block; margin-bottom: 5px; clear:both;max-width: 100%;" link_thumbnail="" decoding="async" srcset="https://develo…</description>
-      <pubDate>Fri, 24 Apr 2026 23:29:56 +0000</pubDate>
-      <guid isPermaLink="true">https://developer.nvidia.com/blog/build-with-deepseek-v4-using-nvidia-blackwell-and-gpu-accelerated-endpoints/</guid>
-      <category>Models, Coding, Content</category>
-    </item>
-    <item>
-      <title>The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)</title>
-      <link>http://www.techmeme.com/260424/p43#a260424p43</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;padding:0;</description>
-      <pubDate>Fri, 24 Apr 2026 23:05:03 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p43#a260424p43</guid>
-      <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>Sanders and AOC introduce AI Data Center Moratorium Act</title>
-      <link>https://x.com/i/status/2047728242707046599</link>
-      <description>Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.</description>
-      <pubDate>Fri, 24 Apr 2026 23:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2047728242707046599</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Diplomatic cable: US State Department has ordered a global push to bring attention to what it says are efforts by Chinese companies to steal IP from US AI labs (Raphael Satter/Reuters)</title>
-      <link>http://www.techmeme.com/260424/p42#a260424p42</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="bor</description>
-      <pubDate>Fri, 24 Apr 2026 22:55:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p42#a260424p42</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)</title>
-      <link>http://www.techmeme.com/260424/p33#a260424p33</link>
-      <description>&lt;IMG WIDTH=11 HEIGHT=12 SRC="http://www.techmeme.com/img/pml.png" STYLE="border:none;</description>
-      <pubDate>Fri, 24 Apr 2026 20:45:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260424/p33#a260424p33</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
-      <title>8 Gemini tips for organizing your space (and life)</title>
-      <link>https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/</link>
-      <description>Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.</description>
-      <pubDate>Fri, 24 Apr 2026 19:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API</title>
-      <link>https://developers.openai.com/api/docs/changelog</link>
-      <description>GPT-5.5 - https://news.ycombinator.com/item?id=47879092 - April 2026 (1010 comments) Comments URL: https://news.ycombinator.com/item?id=47894000 Points: 201 # Comments: 112</description>
-      <pubDate>Fri, 24 Apr 2026 18:23:32 +0000</pubDate>
-      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>LeCun: LLMs fail at physical world understanding — JEPA/world models are the path forward</title>
-      <link>https://x.com/i/status/2047666340370993420</link>
-      <description>Yann LeCun argues in a multi-tweet thread that LLMs perform worse than a cat at anticipating physical-world consequences, making them unsuitable for robotics. Predicts JEPA-style world models will supersede token-based generative architectures for next-generation embodied AI.</description>
-      <pubDate>Fri, 24 Apr 2026 18:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/i/status/2047666340370993420</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Grok Voice Think Fast 1.0</title>
-      <link>https://x.ai/news/grok-voice-think-fast-1</link>
-      <description>xAI launches Grok Voice Think Fast 1.0, combining real-time speech interaction with fast-reasoning capability. Adds a competitive low-latency voice AI option for developers building conversational agents and voice-first applications.</description>
-      <pubDate>Fri, 24 Apr 2026 17:37:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-voice-think-fast-1</guid>
-      <category>Models</category>
     </item>
   </channel>
 </rss>

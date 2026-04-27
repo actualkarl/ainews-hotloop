@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-04-27T18:13:35.698099Z",
+  "generated_at": "2026-04-27T22:22:55Z",
   "tweets": [
-    {
-      "id": "2048793852702757151",
-      "handle": "AndrewYNg",
-      "author_name": "Andrew Ng",
-      "url": "https://x.com/AndrewYNg/status/2048793852702757151",
-      "text": "AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how we operate.",
-      "published_at": "2026-04-27T15:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
     {
       "id": "2048796696755212660",
       "handle": "gdb",
@@ -22,6 +11,17 @@
       "like_count": 264,
       "retweet_count": 18,
       "reply_count": 41
+    },
+    {
+      "id": "2048793852702757151",
+      "handle": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "url": "https://x.com/AndrewYNg/status/2048793852702757151",
+      "text": "AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how we operate.",
+      "published_at": "2026-04-27T15:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
       "id": "2048777802586149331",
