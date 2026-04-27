@@ -1,82 +1,49 @@
 {
-  "generated_at": "2026-04-26T18:09:39.418644Z",
+  "generated_at": "2026-04-27T18:13:35.698099Z",
   "tweets": [
     {
-      "id": "2048426122854228141",
-      "handle": "sama",
-      "author_name": "Sam Altman",
-      "text": "Contrasting post-AGI economic fears with the 'GPT-5.5 in codex' hype — a quip on overwork culture.",
-      "published_at": "2026-04-26T08:00:00Z",
-      "like_count": 5000,
+      "id": "2048793852702757151",
+      "handle": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "url": "https://x.com/AndrewYNg/status/2048793852702757151",
+      "text": "AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how we operate.",
+      "published_at": "2026-04-27T15:00:00Z",
+      "like_count": 0,
       "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/sama/status/2048426122854228141"
+      "reply_count": 0
     },
     {
-      "id": "2048449695622586576",
+      "id": "2048796696755212660",
       "handle": "gdb",
       "author_name": "Greg Brockman",
-      "text": "Amplifying GPT Image 2 demos — math infographics with consistent yet diverse outputs.",
-      "published_at": "2026-04-26T09:30:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/gdb/status/2048449695622586576"
+      "url": "https://x.com/gdb/status/2048796696755212660",
+      "text": "GPT Image 2 for learning about anything",
+      "published_at": "2026-04-27T16:09:31Z",
+      "like_count": 264,
+      "retweet_count": 18,
+      "reply_count": 41
     },
     {
-      "id": "2048184797374325031",
+      "id": "2048777802586149331",
       "handle": "gdb",
       "author_name": "Greg Brockman",
-      "text": "GPT Image 2 restoring damaged photos to 4K and rendering endangered-animal compositions.",
-      "published_at": "2026-04-26T05:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/gdb/status/2048184797374325031"
+      "url": "https://x.com/gdb/status/2048777802586149331",
+      "text": "gpt-5.5 great for hard tasks like writing GPU kernels",
+      "published_at": "2026-04-27T14:54:27Z",
+      "like_count": 829,
+      "retweet_count": 23,
+      "reply_count": 60
     },
     {
-      "id": "2048166616119353820",
-      "handle": "gdb",
-      "author_name": "Greg Brockman",
-      "text": "GPT-5.5 now on Databricks for enterprise agents, Codex coding, and data queries.",
-      "published_at": "2026-04-26T04:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/gdb/status/2048166616119353820"
-    },
-    {
-      "id": "2048056060460626292",
-      "handle": "gdb",
-      "author_name": "Greg Brockman",
-      "text": "GPT-5.5 raises the 'ambition ceiling' on complex tasks per early enterprise users.",
-      "published_at": "2026-04-26T01:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/gdb/status/2048056060460626292"
-    },
-    {
-      "id": "2048053303062241444",
-      "handle": "alliekmiller",
-      "author_name": "Allie K. Miller",
-      "text": "Honored to be on the TIME 100 AI list. Asked Claude to help pick lotto numbers — it suggested ducks first.",
-      "published_at": "2026-04-26T01:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/alliekmiller/status/2048053303062241444"
-    },
-    {
-      "id": "2047901060803784865",
-      "handle": "gdb",
-      "author_name": "Greg Brockman",
-      "text": "Shoutout to the OpenAI team's shipping pace these past two weeks.",
-      "published_at": "2026-04-25T15:00:00Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0,
-      "url": "https://x.com/gdb/status/2047901060803784865"
+      "id": "2048554074107470305",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "url": "https://x.com/OfficialLoganK/status/2048554074107470305",
+      "text": "Every company building on top of AI should be making their own benchmarks. This is the way if you want model progress to disproportionally benefit your company.",
+      "published_at": "2026-04-27T00:05:26Z",
+      "like_count": 1524,
+      "retweet_count": 84,
+      "reply_count": 116
     }
   ]
 }

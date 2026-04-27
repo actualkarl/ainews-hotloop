@@ -1,12 +1,15 @@
 {
-  "top_headline": "NVIDIA GTC 2026: Live Updates on What’s Next in AI",
+  "top_headline": "How to build scalable web apps with OpenAI's Privacy Filter",
   "top_headlines": [
-    "NVIDIA GTC 2026: Live Updates on What’s Next in AI",
-    "Chat with Qwen (with Deep Research and Web Dev)",
-    "Grok 3 Beta — The Age of Reasoning Agents"
+    "How to build scalable web apps with OpenAI's Privacy Filter",
+    "Announcing our partnership with the Republic of Korea",
+    "The next phase of the Microsoft OpenAI partnership",
+    "An open-source spec for orchestration: Symphony",
+    "Choco automates food distribution with AI agents",
+    "Join the new AI Agents Vibe Coding Course from Google and Kaggle"
   ],
-  "top_fingerprint": "nvidia gtc 2026: live updates on what’s next in ai || chat with qwen (with deep research and web dev) || grok 3 beta — the age of reasoning agents",
-  "generated_at": "2026-04-25T17:37:58.335667Z",
+  "top_fingerprint": "how to build scalable web apps with openai's privacy filter || announcing our partnership with the republic of korea || the next phase of the microsoft openai partnership || an open-source spec for orchestration: symphony || choco automates food distribution with ai agents || join the new ai agents vibe coding course from google and kaggle",
+  "generated_at": "2026-04-27T17:38:25.170866Z",
   "model": "gpt-image-2 1536x1024 low",
   "regen_reason": "top-6 headlines changed"
 }

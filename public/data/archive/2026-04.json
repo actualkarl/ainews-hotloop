@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ebe82643ac57755c",
+    "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents",
+    "title": "Import AI 453: Breaking AI agents; MirrorCode; gradual disempowerment",
+    "title_translated": null,
+    "source": "import-ai",
+    "source_tier": 2,
+    "region": "us",
+    "published_at": "2026-04-13T10:02:22Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "METR and Epoch's MirrorCode benchmark demonstrates AI systems can reverse-engineer complex software with thousands of lines of code. Google DeepMind outlines six genres of attacks against AI agents and necessary mitigations across technical, ecosystem, and legal frameworks.",
+    "tags": [
+      "Agents",
+      "Governance"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  }
+]
