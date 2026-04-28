@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-04-27T22:22:55Z",
+  "generated_at": "2026-04-28T21:54:26Z",
   "tweets": [
     {
-      "id": "2048796696755212660",
-      "handle": "gdb",
-      "author_name": "Greg Brockman",
-      "url": "https://x.com/gdb/status/2048796696755212660",
-      "text": "GPT Image 2 for learning about anything",
-      "published_at": "2026-04-27T16:09:31Z",
-      "like_count": 264,
-      "retweet_count": 18,
-      "reply_count": 41
+      "id": "2049241518540808440",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2049241518540808440",
+      "text": "more model updates coming soon — the pace of progress is continuing to accelerate",
+      "published_at": "2026-04-29T00:00:00Z",
+      "like_count": 1000,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "id": "2048793852702757151",
-      "handle": "AndrewYNg",
-      "author_name": "Andrew Ng",
-      "url": "https://x.com/AndrewYNg/status/2048793852702757151",
-      "text": "AI-native software engineering teams operate very differently than traditional teams. The obvious difference is that AI-native teams use coding agents to build products much faster, but this leads to many other changes in how we operate.",
-      "published_at": "2026-04-27T15:00:00Z",
+      "id": "2048940671487152366",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2048940671487152366",
+      "text": "Engineering team productivity is up significantly. How is gpt-5.5 performing for you?",
+      "published_at": "2026-04-28T12:00:00Z",
       "like_count": 0,
       "retweet_count": 0,
       "reply_count": 0
     },
     {
-      "id": "2048777802586149331",
-      "handle": "gdb",
-      "author_name": "Greg Brockman",
-      "url": "https://x.com/gdb/status/2048777802586149331",
-      "text": "gpt-5.5 great for hard tasks like writing GPU kernels",
-      "published_at": "2026-04-27T14:54:27Z",
-      "like_count": 829,
-      "retweet_count": 23,
-      "reply_count": 60
+      "id": "2049114654404673925",
+      "handle": "alliekmiller",
+      "author_name": "Allie K. Miller",
+      "url": "https://x.com/alliekmiller/status/2049114654404673925",
+      "text": "How to use models like Claude, ChatGPT, or Gemini to reinvent workflows — shift from pain minimization to possibility maximization via detailed context logs and advanced prompting for radical idea generation.",
+      "published_at": "2026-04-28T08:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     },
     {
-      "id": "2048554074107470305",
-      "handle": "OfficialLoganK",
-      "author_name": "Logan Kilpatrick",
-      "url": "https://x.com/OfficialLoganK/status/2048554074107470305",
-      "text": "Every company building on top of AI should be making their own benchmarks. This is the way if you want model progress to disproportionally benefit your company.",
-      "published_at": "2026-04-27T00:05:26Z",
-      "like_count": 1524,
-      "retweet_count": 84,
-      "reply_count": 116
+      "id": "2049204303198368115",
+      "handle": "alliekmiller",
+      "author_name": "Allie K. Miller",
+      "url": "https://x.com/alliekmiller/status/2049204303198368115",
+      "text": "Tracking AI productivity metrics: dictation word count and tool usage as key indicators of how AI is changing the way I work.",
+      "published_at": "2026-04-28T14:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
     }
   ]
 }

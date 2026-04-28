@@ -18,5 +18,121 @@
     "mention_count": 1,
     "related_ids": [],
     "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  },
+  {
+    "id": "d730085c407f5394",
+    "url": "https://huggingface.co/blog/transformers-to-mlx",
+    "title": "Transformers to MLX: efficient inference on Apple Silicon",
+    "title_translated": null,
+    "source": "huggingface",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-16T00:00:00Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Discusses converting Transformers models to MLX format, enabling efficient inference on Apple Silicon devices.",
+    "tags": [
+      "Coding",
+      "Models"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://huggingface.co/blog/assets/transformers-to-mlx/thumbnail.jpg"
+  },
+  {
+    "id": "fc2ae7c68319ae88",
+    "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+    "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "title_translated": null,
+    "source": "huggingface",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-16T00:00:00Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Comprehensive guide on training multimodal embedding and reranker models using Sentence Transformers library for improved semantic search and ranking tasks.",
+    "tags": [
+      "Models"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+  },
+  {
+    "id": "0911a48b408e9182",
+    "url": "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026",
+    "title": "My bets on open models, mid-2026",
+    "title_translated": null,
+    "source": "interconnects",
+    "source_tier": 2,
+    "region": "us",
+    "published_at": "2026-04-15T18:20:00Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Details key beliefs about open model development including technical strength of open labs, focus on benchmark scores versus robustness, dominance in repetitive automation tasks, and funding challenges for Chinese open-weight companies.",
+    "tags": [
+      "Models"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!VSGK!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8be08b29-d70a-43f3-8422-6b952816ddab_3182x1790.png"
+  },
+  {
+    "id": "099f9582ba24fbd2",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "title_translated": null,
+    "source": "google-deepmind",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-15T16:03:19Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Google DeepMind introduced a new audio model with granular audio tags that give precise control for directing AI-generated speech with enhanced expressiveness.",
+    "tags": [
+      "Models",
+      "Content"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-tts_metacard_dark_1920x1080.width-1300.png"
+  },
+  {
+    "id": "0745c31938f2edf5",
+    "url": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
+    "title": "Rethinking AI TCO: Why Cost per Token Is the Only Metric That Matters",
+    "title_translated": null,
+    "source": "nvidia-blog",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-15T15:00:26Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "NVIDIA argues enterprises should evaluate AI infrastructure on cost per token rather than compute cost or FLOPS per dollar. Blackwell delivers 35x lower cost per million tokens compared to Hopper.",
+    "tags": [
+      "Models"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/inference-blogheader-token-1920x1080-5144600_HEADLINE.jpg.jpg"
+  },
+  {
+    "id": "4b7acb24964fa61f",
+    "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+    "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+    "title_translated": null,
+    "source": "huggingface",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-15T12:07:25Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "In-depth analysis of the VAKRA benchmark examining how AI agents reason, utilize tools, and fail, providing insights into agent behavior and limitations.",
+    "tags": [
+      "Agents"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/677629b4931b3b2eb8d5820a/aheSsLHG7bQqr_2b8A6cS.png"
   }
 ]
