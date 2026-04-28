@@ -10,7 +10,7 @@
     "1a4f1c3fbf13cbbe"
   ],
   "daily_summary": "OpenAI deepened its cloud reach with an expanded AWS partnership, making models, Codex, and Managed Agents available on Amazon's platform the day after renegotiating its Microsoft deal to allow multi-cloud distribution. NVIDIA launched Nemotron 3 Nano Omni, a unified multimodal model combining vision, audio, and language in one system with claimed 9x agent throughput improvements over comparable open models. In Oakland, Elon Musk took the witness stand in the OpenAI trial, telling the court he sued because 'it is not okay to steal a charity' — the presiding judge simultaneously warned both Musk and Altman to keep their dispute off social media.",
-  "cover_image_url": "/data/cover.svg",
+  "cover_image_url": "/data/cover.png",
   "items": [
     {
       "id": "3ffd03977d2b7ee2",
@@ -3979,5 +3979,6 @@
       "related_ids": [],
       "image_url": "https://huggingface.co/blog/assets/ecom-rlve/thumbnail.png"
     }
-  ]
+  ],
+  "cover_image_mobile_url": "/data/cover-mobile.png"
 }

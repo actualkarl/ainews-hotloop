@@ -1,15 +1,8 @@
 {
-  "top_headline": "How to build scalable web apps with OpenAI's Privacy Filter",
-  "top_headlines": [
-    "How to build scalable web apps with OpenAI's Privacy Filter",
-    "Announcing our partnership with the Republic of Korea",
-    "The next phase of the Microsoft OpenAI partnership",
-    "An open-source spec for orchestration: Symphony",
-    "Choco automates food distribution with AI agents",
-    "Join the new AI Agents Vibe Coding Course from Google and Kaggle"
-  ],
-  "top_fingerprint": "how to build scalable web apps with openai's privacy filter || announcing our partnership with the republic of korea || the next phase of the microsoft openai partnership || an open-source spec for orchestration: symphony || choco automates food distribution with ai agents || join the new ai agents vibe coding course from google and kaggle",
-  "generated_at": "2026-04-27T17:38:25.170866Z",
+  "top_headline": "Into the Omniverse: Manufacturing’s Simulation-First Era Has Arrived",
+  "top_fingerprint": "into the omniverse: manufacturing’s simulation-first era has arrived || introducing nvidia nemotron 3 nano omni: long-context multimodal intelligence for documents, audio and video agents || scaling biomolecular modeling using context parallelism in nvidia bionemo || nvidia nemotron 3 nano omni powers multimodal agent reasoning in a single efficient open model || 24/7 simulation loops: how agentic ai keeps subsurface engineering moving || chat with qwen (with deep research and web dev)",
+  "cover_title": "THE OMNIVERSE UNLEASHED",
+  "generated_at": "2026-04-28T22:21:28.409758Z",
   "model": "gpt-image-2 1536x1024 low",
-  "regen_reason": "top-6 headlines changed"
+  "regen_reason": "first run / no prior cover"
 }
