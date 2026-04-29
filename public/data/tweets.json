@@ -1,4 +1,82 @@
 {
-  "generated_at": "2026-04-29T18:07:31Z",
-  "tweets": []
+  "generated_at": "2026-04-29T18:11:37.217822Z",
+  "tweets": [
+    {
+      "id": "2049521160430457315",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "text": "Multi-chat is live in Google AI Studio — run parallel Gemini conversations side-by-side; Search Grounding is now integrated.",
+      "published_at": "2026-04-29T08:00:00Z",
+      "url": "https://x.com/OfficialLoganK/status/2049521160430457315",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2049465379039416637",
+      "handle": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "text": "Follow-up from Seoul: continuing conversations on AI safety frameworks, scientific applications and growing AI research talent in Korea, on the 10-year anniversary of AlphaGo.",
+      "published_at": "2026-04-29T07:00:00Z",
+      "url": "https://x.com/demishassabis/status/2049465379039416637",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2049359943028068780",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "text": "Gemini models now hold the top 7 spots on OpenRouter's new audio input ranking.",
+      "published_at": "2026-04-29T05:00:00Z",
+      "url": "https://x.com/OfficialLoganK/status/2049359943028068780",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2049358795055546642",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "text": "Excited to launch Grounding With Exa in Gemini — agentic web search across billions of sites, in partnership with Exa Labs.",
+      "published_at": "2026-04-29T04:00:00Z",
+      "url": "https://x.com/OfficialLoganK/status/2049358795055546642",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2049314747074695225",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "text": "Thanks — really glad GPT-5.5 is helping for everyday work like copywriting. More improvements coming.",
+      "published_at": "2026-04-29T03:30:00Z",
+      "url": "https://x.com/sama/status/2049314747074695225",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2049313996214603902",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "text": "Audio input is having a moment — Gemini taking the top of OpenRouter's new audio rankings shows how fast multimodal usage is growing.",
+      "published_at": "2026-04-29T03:00:00Z",
+      "url": "https://x.com/OfficialLoganK/status/2049313996214603902",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2049291051266142574",
+      "handle": "demishassabis",
+      "author_name": "Demis Hassabis",
+      "text": "Met with Korean President Lee Jae-myung and the Ministry of Science and ICT to discuss AI safety, scientific discovery, and investment in AI talent — 10 years on from AlphaGo.",
+      "published_at": "2026-04-29T02:00:00Z",
+      "url": "https://x.com/demishassabis/status/2049291051266142574",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }

@@ -6,7 +6,7 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 29 Apr 2026 18:07:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 18:11:49 +0000</lastBuildDate>
     <item>
       <title>AI evals are becoming the new compute bottleneck</title>
       <link>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</link>
@@ -32,6 +32,14 @@
       <category>Models</category>
     </item>
     <item>
+      <title>Google AI Studio adds multi-chat sessions and integrated Search Grounding for the Gemini API</title>
+      <link>https://x.com/OfficialLoganK/status/2049521160430457315</link>
+      <description>Google AI Studio now supports running parallel Gemini chat sessions side-by-side, and Search Grounding is integrated directly into the Gemini API. Logan Kilpatrick teased more launches before Google I/O.</description>
+      <pubDate>Wed, 29 Apr 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049521160430457315</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
       <title>Cybersecurity in the Intelligence Age</title>
       <link>https://openai.com/index/cybersecurity-in-the-intelligence-age</link>
       <description>OpenAI outlines a five-part action plan for strengthening cybersecurity using AI: democratising AI-powered cyber defence, protecting critical systems, combating adversarial AI use, building international norms, and partnering with governments. The post frames AI as both a threat vector and the primary defence tool for the intelligence era.</description>
@@ -40,12 +48,28 @@
       <category>Governance</category>
     </item>
     <item>
+      <title>Google launches Grounding With Exa for Gemini — agentic web search across billions of pages, partnership with Exa Labs</title>
+      <link>https://x.com/OfficialLoganK/status/2049358795055546642</link>
+      <description>Google partnered with Exa Labs to ship &quot;Grounding With Exa&quot; inside Gemini, giving Gemini agentic web search across billions of indexed sites. Aimed at Gemini API developers building agents that need broad web retrieval.</description>
+      <pubDate>Wed, 29 Apr 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049358795055546642</guid>
+      <category>Agents, Models</category>
+    </item>
+    <item>
       <title>DeepInfra on Hugging Face Inference Providers</title>
       <link>https://huggingface.co/blog/inference-providers-deepinfra</link>
       <description>Hugging Face adds DeepInfra as an official inference provider, giving users direct access to a wide catalog of open models via DeepInfra&#x27;s infrastructure from the HF hub. This extends the inference ecosystem alongside existing partners like Together AI and Fireworks AI, simplifying multi-provider model deployment.</description>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-deepinfra</guid>
       <category>Models, Automation</category>
+    </item>
+    <item>
+      <title>TUANZ launches 2026 Digital Priorities Report: warns NZ innovation gap widening, urges national AI workforce framework</title>
+      <link>https://www.rnz.co.nz/news/business/593697/tuanz-seeks-bold-leadership-from-government-over-ai-worker-training-national-framework</link>
+      <description>TUANZ released its 2026 Digital Priorities Report calling on government to lead on AI worker training, mandatory cybersecurity standards treating AI as digital employees under zero-trust, a national digital clearing house, and national digital ID. Report warns NZ has dropped to 23rd in the Network Readiness Index and that &quot;Shadow AI&quot; is expanding the attack surface.</description>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.rnz.co.nz/news/business/593697/tuanz-seeks-bold-leadership-from-government-over-ai-worker-training-national-framework</guid>
+      <category>Governance</category>
     </item>
     <item>
       <title>Musk testifies in OpenAI trial: &#x27;it is not okay to steal a charity&#x27;; judge warns both sides on social media</title>
@@ -222,30 +246,6 @@
       <pubDate>Mon, 27 Apr 2026 16:55:01 +0000</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260427/p32#a260427p32</guid>
       <category>Governance</category>
-    </item>
-    <item>
-      <title>600+ Google and DeepMind employees sign open letter demanding Pichai bar DOD from using Google AI for classified military work</title>
-      <link>http://www.techmeme.com/260427/p31#a260427p31</link>
-      <description>More than 600 Google and DeepMind employees signed a letter to CEO Sundar Pichai demanding he reject classified AI contracts with the US Department of Defense as Google negotiates to deploy Gemini in Pentagon settings. Over 100 DeepMind researchers separately sent an internal letter barring use of DeepMind research in weapons development or autonomous targeting.</description>
-      <pubDate>Mon, 27 Apr 2026 16:35:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260427/p31#a260427p31</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>The founder of car rental platform PocketOS says a Cursor agent using Claude Opus 4.6 accidentally deleted a production database while in a staging environment (Jer/@lifeof_jer)</title>
-      <link>http://www.techmeme.com/260427/p29#a260427p29</link>
-      <description>Jer / @lifeof_jer : The founder of car rental platform PocketOS says a Cursor agent using Claude Opus 4.6 accidentally deleted a production database while in a staging environment &amp;nbsp; &amp;mdash;&amp;nbsp; An AI Agent Just Destroyed Our Production Data. It Confessed in Writing.</description>
-      <pubDate>Mon, 27 Apr 2026 15:35:02 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260427/p29#a260427p29</guid>
-      <category>Models, Agents, Coding</category>
-    </item>
-    <item>
-      <title>Andrew Ng: AI-native software engineering teams operate very differently</title>
-      <link>https://x.com/AndrewYNg/status/2048793852702757151</link>
-      <description>Andrew Ng essay on how AI-native engineering teams collapse the engineer/PM ratio, why generalists win, and how coding agents shift bottlenecks to design, marketing, and legal. Useful frame for hotloop-style team design conversations.</description>
-      <pubDate>Mon, 27 Apr 2026 15:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/AndrewYNg/status/2048793852702757151</guid>
-      <category>Coding, Skills</category>
     </item>
   </channel>
 </rss>

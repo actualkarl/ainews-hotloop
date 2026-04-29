@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-04-29T18:07:21.075923Z",
+  "generated_at": "2026-04-29T18:11:07.721289Z",
   "next_refresh_at": "2026-04-30T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "cover_image_url": "/data/cover.svg",
   "newsflash": [
     "565ca109c9e02f51",
     "3ea9b02b0083101a",
     "3fdfbee0f4329f1f",
     "180302e63d71fe71",
-    "a6667f2f9dae6746"
+    "82356b62524ebed4"
   ],
-  "daily_summary": "Today's standout items: NVIDIA-DEV published \"Powering AI Factories with NVIDIA Enterprise Reference Architectures\"; HUGGINGFACE published \"AI evals are becoming the new compute bottleneck\". Hugging Face's analysis on eval costs signals a broader shift in where AI compute goes — less on training, more on measurement. IBM's Granite 4.1 training post and OpenAI's cybersecurity action plan round out a day heavy on infrastructure and safety themes rather than headline model drops.",
+  "daily_summary": "IBM released Granite 4.1 weights through Hugging Face with a build-process write-up, while OpenAI published a cybersecurity policy paper outlining a five-part action plan for the Intelligence Age. NVIDIA's developer team shipped enterprise reference architectures for AI factories, and a Hugging Face research piece argued that AI evaluation cost — not training compute — is becoming the next infrastructure bottleneck.",
+  "cover_image_url": "/data/cover.png",
+  "cover_image_mobile_url": "/data/cover-mobile.png",
   "items": [
     {
       "id": "565ca109c9e02f51",
@@ -29,7 +30,7 @@
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png",
       "trending_score": 1.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -49,7 +50,7 @@
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory.webp",
       "trending_score": 1.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -68,6 +69,26 @@
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-1.png",
       "trending_score": 1.0,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "34a4bb57aecfc359",
+      "url": "https://x.com/OfficialLoganK/status/2049521160430457315",
+      "title": "Google AI Studio adds multi-chat sessions and integrated Search Grounding for the Gemini API",
+      "title_translated": null,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-29T08:00:00Z",
+      "first_seen_at": "2026-04-29T18:11:07.721289Z",
+      "summary": "Google AI Studio now supports running parallel Gemini chat sessions side-by-side, and Search Grounding is integrated directly into the Gemini API. Logan Kilpatrick teased more launches before Google I/O.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 0.2351,
       "mention_count": 1,
       "related_ids": []
     },
@@ -87,6 +108,26 @@
       ],
       "image_url": null,
       "trending_score": 1.0,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "dc3bdc358a297d10",
+      "url": "https://x.com/OfficialLoganK/status/2049358795055546642",
+      "title": "Google launches Grounding With Exa for Gemini — agentic web search across billions of pages, partnership with Exa Labs",
+      "title_translated": null,
+      "source": "OfficialLoganK",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-29T04:00:00Z",
+      "first_seen_at": "2026-04-29T18:11:07.721289Z",
+      "summary": "Google partnered with Exa Labs to ship \"Grounding With Exa\" inside Gemini, giving Gemini agentic web search across billions of indexed sites. Aimed at Gemini API developers building agents that need broad web retrieval.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 0.1684,
       "mention_count": 1,
       "related_ids": []
     },
@@ -106,7 +147,26 @@
         "Automation"
       ],
       "image_url": "https://huggingface.co/blog/assets/inference-providers/welcome-deepinfra.jpg",
-      "trending_score": 0.7289,
+      "trending_score": 0.9137,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "b9a193c338d03faa",
+      "url": "https://www.rnz.co.nz/news/business/593697/tuanz-seeks-bold-leadership-from-government-over-ai-worker-training-national-framework",
+      "title": "TUANZ launches 2026 Digital Priorities Report: warns NZ innovation gap widening, urges national AI workforce framework",
+      "title_translated": null,
+      "source": "rnz.co.nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-29T00:00:00Z",
+      "first_seen_at": "2026-04-29T18:11:07.721289Z",
+      "summary": "TUANZ released its 2026 Digital Priorities Report calling on government to lead on AI worker training, mandatory cybersecurity standards treating AI as digital employees under zero-trust, a national digital clearing house, and national digital ID. Report warns NZ has dropped to 23rd in the Network Readiness Index and that \"Shadow AI\" is expanding the attack surface.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 0.3621,
       "mention_count": 1,
       "related_ids": []
     },
@@ -125,7 +185,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.2914,
+      "trending_score": 0.2899,
       "mention_count": 1,
       "related_ids": []
     },
@@ -145,7 +205,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.2626,
+      "trending_score": 0.2612,
       "mention_count": 1,
       "related_ids": []
     },
@@ -165,7 +225,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.5216,
+      "trending_score": 0.5189,
       "mention_count": 1,
       "related_ids": []
     },
@@ -184,8 +244,8 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/biomolecule-1.webp",
-      "trending_score": 0.4805,
-      "mention_count": 1,
+      "trending_score": 0.6024,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -204,7 +264,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.2301,
+      "trending_score": 0.2289,
       "mention_count": 1,
       "related_ids": []
     },
@@ -223,7 +283,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.2212,
+      "trending_score": 0.22,
       "mention_count": 1,
       "related_ids": []
     },
@@ -242,7 +302,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.2192,
+      "trending_score": 0.2181,
       "mention_count": 1,
       "related_ids": []
     },
@@ -261,7 +321,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.2103,
+      "trending_score": 0.2092,
       "mention_count": 1,
       "related_ids": []
     },
@@ -281,7 +341,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.4177,
+      "trending_score": 0.4155,
       "mention_count": 1,
       "related_ids": []
     },
@@ -301,7 +361,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.2003,
+      "trending_score": 0.1993,
       "mention_count": 1,
       "related_ids": []
     },
@@ -320,7 +380,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.1935,
+      "trending_score": 0.1925,
       "mention_count": 1,
       "related_ids": []
     },
@@ -340,7 +400,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1908,
+      "trending_score": 0.1898,
       "mention_count": 1,
       "related_ids": []
     },
@@ -360,7 +420,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0788,
+      "trending_score": 0.0784,
       "mention_count": 1,
       "related_ids": []
     },
@@ -380,7 +440,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0484,
+      "trending_score": 0.0481,
       "mention_count": 1,
       "related_ids": []
     },
@@ -399,7 +459,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0455,
+      "trending_score": 0.0452,
       "mention_count": 1,
       "related_ids": []
     },
@@ -418,7 +478,7 @@
         "Governance"
       ],
       "image_url": "https://media.wired.com/photos/69efb98c62f06e966778ac07/191:100/w_1280,c_limit/GettyImages-491588398.jpg",
-      "trending_score": 0.0373,
+      "trending_score": 0.0371,
       "mention_count": 1,
       "related_ids": []
     },
@@ -436,7 +496,7 @@
       "image_url": null,
       "id": "bf7073427d71b3ff",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0355,
+      "trending_score": 0.0354,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -456,7 +516,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0353,
+      "trending_score": 0.0351,
       "mention_count": 1,
       "related_ids": []
     },
@@ -475,7 +535,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0315,
+      "trending_score": 0.0313,
       "mention_count": 1,
       "related_ids": []
     },
@@ -494,7 +554,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.029,
+      "trending_score": 0.0288,
       "mention_count": 1,
       "related_ids": []
     },
@@ -513,7 +573,7 @@
         "Coding"
       ],
       "image_url": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-logo.png",
-      "trending_score": 0.0276,
+      "trending_score": 0.0274,
       "mention_count": 1,
       "related_ids": []
     },
@@ -532,7 +592,7 @@
         "Governance"
       ],
       "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8orBo4nhDOM/v1/1200x800.jpg",
-      "trending_score": 0.0273,
+      "trending_score": 0.0272,
       "mention_count": 1,
       "related_ids": []
     },
@@ -550,7 +610,7 @@
       "image_url": null,
       "id": "563f3b4043e7971d",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0265,
+      "trending_score": 0.0264,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -572,7 +632,7 @@
         "Coding"
       ],
       "image_url": "https://pbs.twimg.com/media/HGxS00ubIAEDGlV?format=jpg&name=large",
-      "trending_score": 0.0244,
+      "trending_score": 0.0243,
       "mention_count": 1,
       "related_ids": []
     },
@@ -592,7 +652,7 @@
         "Skills"
       ],
       "image_url": "https://unavatar.io/x/AndrewYNg",
-      "trending_score": 0.0078,
+      "trending_score": 0.0077,
       "mention_count": 1,
       "related_ids": []
     },
@@ -611,7 +671,7 @@
       "image_url": null,
       "id": "aab3a43fde791a0c",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0226,
+      "trending_score": 0.0225,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -630,7 +690,7 @@
       "image_url": null,
       "id": "330777892e36ae31",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0222,
+      "trending_score": 0.022,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -651,7 +711,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0428,
+      "trending_score": 0.0426,
       "mention_count": 1,
       "related_ids": []
     },
@@ -670,7 +730,7 @@
         "Models"
       ],
       "image_url": "http://www.techmeme.com/img/techmeme_sq328.png",
-      "trending_score": 0.0213,
+      "trending_score": 0.0211,
       "mention_count": 1,
       "related_ids": []
     },
@@ -690,7 +750,7 @@
         "Governance"
       ],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5sMBiZdiwBzV2SqR3iLo80/55329fd0accaa73127e712ac86621c6a/oai-ms-16x9.png?w=1600&h=900&fit=fill",
-      "trending_score": 0.02,
+      "trending_score": 0.0199,
       "mention_count": 1,
       "related_ids": []
     },
@@ -711,7 +771,7 @@
         "Skills"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
-      "trending_score": 0.0497,
+      "trending_score": 0.0494,
       "mention_count": 2,
       "related_ids": []
     },
@@ -731,7 +791,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0197,
+      "trending_score": 0.0196,
       "mention_count": 1,
       "related_ids": []
     },
@@ -750,7 +810,7 @@
       "image_url": null,
       "id": "ff52c1488d8ab631",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.019,
+      "trending_score": 0.0189,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -771,7 +831,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0362,
+      "trending_score": 0.0361,
       "mention_count": 1,
       "related_ids": []
     },
@@ -789,7 +849,7 @@
       "image_url": null,
       "id": "d867737c665b69d1",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0177,
+      "trending_score": 0.0176,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -809,7 +869,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0167,
+      "trending_score": 0.0166,
       "mention_count": 1,
       "related_ids": []
     },
@@ -827,7 +887,7 @@
       "image_url": null,
       "id": "aba3999211db1823",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0153,
+      "trending_score": 0.0152,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -847,7 +907,7 @@
         "Governance"
       ],
       "image_url": "https://lh3.googleusercontent.com/3q6uiTEWOv5PKJQYWgYLxCgohyndMqdWTFiwFDbxSzk-tW0HeannPdF7kvqR2hmE_tvSeryfw4IvG7gwuZ11rBgIYGvapEQvHO9RRJXw4JCqyme6uA=w528-h297-n-nu-rw-lo",
-      "trending_score": 0.0302,
+      "trending_score": 0.03,
       "mention_count": 2,
       "related_ids": []
     },
@@ -867,7 +927,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0277,
+      "trending_score": 0.0276,
       "mention_count": 2,
       "related_ids": []
     },
@@ -887,7 +947,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0086,
+      "trending_score": 0.0085,
       "mention_count": 1,
       "related_ids": []
     },
@@ -907,7 +967,7 @@
         "Coding"
       ],
       "image_url": "https://huggingface.co/blog/assets/openai-privacy-filter-web-apps/thumbnail.png",
-      "trending_score": 0.0168,
+      "trending_score": 0.0167,
       "mention_count": 2,
       "related_ids": []
     },
@@ -928,7 +988,7 @@
         "Skills"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0168,
+      "trending_score": 0.0167,
       "mention_count": 2,
       "related_ids": []
     },
@@ -948,7 +1008,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0168,
+      "trending_score": 0.0167,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1073,6 +1133,25 @@
       "related_ids": []
     },
     {
+      "id": "b156fcbc8e043598",
+      "url": "http://www.techmeme.com/260424/p44#a260424p44",
+      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T20:10:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "d51658229d495c24",
       "url": "https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister",
       "title": "NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI",
@@ -1153,45 +1232,6 @@
       "related_ids": []
     },
     {
-      "id": "8e494cf5218b0f60",
-      "url": "https://x.com/i/status/2047728242707046599",
-      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
-      "title_translated": null,
-      "source": "x-governance",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-24T23:00:00Z",
-      "first_seen_at": "2026-04-24T18:15:11Z",
-      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "b156fcbc8e043598",
-      "url": "http://www.techmeme.com/260424/p44#a260424p44",
-      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T20:10:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.0001,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "8131ce6e063313c5",
       "url": "http://www.techmeme.com/260424/p43#a260424p43",
       "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
@@ -1212,23 +1252,24 @@
       "related_ids": []
     },
     {
-      "id": "caecb50726ec83a1",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "title": "8 Gemini tips for organizing your space (and life)",
+      "id": "8e494cf5218b0f60",
+      "url": "https://x.com/i/status/2047728242707046599",
+      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
       "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
+      "source": "x-governance",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-24T19:00:00Z",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "published_at": "2026-04-24T23:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
       "tags": [
-        "Models"
+        "Governance"
       ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
-      "trending_score": 0.0002,
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "cover_fallback"
     },
     {
       "id": "c2e9c3f0479e1b68",
@@ -1246,6 +1287,45 @@
       ],
       "image_url": "https://www.reuters.com/resizer/v2/KIK4AUMDLBLZ3MA7ULN3KENZZQ.jpg?auth=4daeda6a00bb880345fa05de17b38bfaba770f66458d51fd3a707542e01f98ee&height=1005&width=1920&quality=80&smart=true",
       "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "858699580058a9a4",
+      "url": "http://www.techmeme.com/260424/p33#a260424p33",
+      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T16:45:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
+      "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "caecb50726ec83a1",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T19:00:00Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1303,26 +1383,6 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0001,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "858699580058a9a4",
-      "url": "http://www.techmeme.com/260424/p33#a260424p33",
-      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T16:45:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
       "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
@@ -3914,67 +3974,6 @@
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
-    },
-    {
-      "id": "a2c45ad9360a2536",
-      "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
-      "title": "Claude Token Counter, now with model comparisons",
-      "title_translated": null,
-      "source": "simonwillison",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-20T00:50:45Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Tool upgraded to compare token counts across Claude models. Opus 4.7 uses roughly 1.46x the number of tokens as Opus 4.6 on system prompts.",
-      "tags": [
-        "Coding",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://static.simonwillison.net/static/2026/claude-token-card.jpg"
-    },
-    {
-      "id": "24cb1873b9d2d37a",
-      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "title": "OpenAI helps Hyatt advance AI among colleagues",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-20T00:00:00Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, utilizing GPT-5.4 and Codex to enhance productivity, operations, and guest experiences.",
-      "tags": [
-        "Content",
-        "Automation"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1MeERIeoNc82SnZJ2iRVos/58f1b56cd3df77da092ed3ef877e5bf7/Frame__2_.png?w=1600&h=900&fit=fill"
-    },
-    {
-      "id": "2597cb1c45deb23c",
-      "url": "https://simonwillison.net/2026/Apr/19/headless-everything/",
-      "title": "Headless everything for personal AI",
-      "title_translated": null,
-      "source": "simonwillison",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-19T21:46:38Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Analysis of emerging trend toward API-first services designed for AI agents rather than GUI-based user interfaces, reshaping SaaS pricing models.",
-      "tags": [
-        "Agents",
-        "Automation"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback"
     }
   ]
 }

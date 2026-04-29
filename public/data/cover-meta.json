@@ -1,8 +1,13 @@
 {
-  "top_headline": "Into the Omniverse: Manufacturing’s Simulation-First Era Has Arrived",
-  "top_fingerprint": "into the omniverse: manufacturing’s simulation-first era has arrived || introducing nvidia nemotron 3 nano omni: long-context multimodal intelligence for documents, audio and video agents || scaling biomolecular modeling using context parallelism in nvidia bionemo || nvidia nemotron 3 nano omni powers multimodal agent reasoning in a single efficient open model || 24/7 simulation loops: how agentic ai keeps subsurface engineering moving || chat with qwen (with deep research and web dev)",
-  "cover_title": "THE OMNIVERSE UNLEASHED",
-  "generated_at": "2026-04-28T22:21:28.409758Z",
+  "top_headline": "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
+  "top_headlines": [
+    "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
+    "Scaling Biomolecular Modeling Using Context Parallelism in NVIDIA BioNeMo",
+    "AI evals are becoming the new compute bottleneck",
+    "Granite 4.1 LLMs: How They’re Built"
+  ],
+  "top_fingerprint": "powering ai factories with nvidia enterprise reference architectures || scaling biomolecular modeling using context parallelism in nvidia bionemo || ai evals are becoming the new compute bottleneck || granite 4.1 llms: how they’re built",
+  "generated_at": "2026-04-29T17:38:36.120948Z",
   "model": "gpt-image-2 1536x1024 low",
-  "regen_reason": "first run / no prior cover"
+  "regen_reason": "top-4 headlines changed"
 }
