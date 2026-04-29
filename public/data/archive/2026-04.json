@@ -134,5 +134,125 @@
     "mention_count": 1,
     "related_ids": [],
     "image_url": "https://cdn-uploads.huggingface.co/production/uploads/677629b4931b3b2eb8d5820a/aheSsLHG7bQqr_2b8A6cS.png"
+  },
+  {
+    "id": "af313d625d47cf19",
+    "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "title_translated": null,
+    "source": "simonwillison",
+    "source_tier": 2,
+    "region": "us",
+    "published_at": "2026-04-18T23:59:40Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Detailed analysis of system prompt modifications including expanded child safety instructions, improved tool search capabilities, and reduced verbosity guidance.",
+    "tags": [
+      "Models",
+      "Skills"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "/data/cover-mobile.png",
+    "image_source": "cover_fallback"
+  },
+  {
+    "id": "e84ea474e8637899",
+    "url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/",
+    "title": "Claude system prompts as a git timeline",
+    "title_translated": null,
+    "source": "simonwillison",
+    "source_tier": 2,
+    "region": "us",
+    "published_at": "2026-04-18T12:25:00Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Research project converting Anthropic's published system prompts into a git repository with fake commit dates to track changes across Claude model versions.",
+    "tags": [
+      "Models",
+      "Skills"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "/data/cover-mobile.png",
+    "image_source": "cover_fallback"
+  },
+  {
+    "id": "58f994275c6ac200",
+    "url": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
+    "title": "The Two Sides of OpenClaw",
+    "title_translated": null,
+    "source": "latent-space",
+    "source_tier": 2,
+    "region": "us",
+    "published_at": "2026-04-18T06:50:57Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Analysis contrasting OpenClaw's public narrative of breakthrough AI agents with engineering realities of unprecedented security incidents and scaling challenges as the fastest-growing open source project in history.",
+    "tags": [
+      "Agents",
+      "Skills"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!w4xU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd938eb29-488f-4a91-9b9d-7ba5dabf55af_1416x1022.png"
+  },
+  {
+    "id": "b2505b70da0900a6",
+    "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally",
+    "title": "Anthropic Claude Opus 4.7 — literally one step better than 4.6 in every dimension",
+    "title_translated": null,
+    "source": "latent-space",
+    "source_tier": 2,
+    "region": "us",
+    "published_at": "2026-04-17T01:36:17Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Claude Opus 4.7 launched with improvements across coding, vision, and reasoning tasks. Supports images up to 3.75 megapixels (3x larger than prior versions), introduces a new xhigh reasoning effort level, and demonstrates approximately 11-point gains on SWE-Bench Pro.",
+    "tags": [
+      "Models"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://substackcdn.com/image/fetch/$s_!iEJA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7242e5f5-6105-4489-bc8b-143002fe7da6_1344x756.png"
+  },
+  {
+    "id": "ff9a42787c4e98e8",
+    "url": "https://x.ai/news/grok-stt-and-tts-apis",
+    "title": "Grok Speech-to-Text and Text-to-Speech APIs",
+    "title_translated": null,
+    "source": "xai",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-17T00:00:00Z",
+    "first_seen_at": "2026-04-21T11:06:57.669467Z",
+    "summary": "xAI launches STT and TTS APIs via Grok, opening voice-interface capability to developers. Expands xAI beyond text-only LLM into the multimodal audio stack.",
+    "tags": [
+      "Models",
+      "Content"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://x.ai/news/grok-stt-and-tts-apis/opengraph-image-1w4o4b.png?0fdbe00a983a8d52"
+  },
+  {
+    "id": "f5afeabfec92889e",
+    "url": "https://huggingface.co/blog/ecom-rlve",
+    "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+    "title_translated": null,
+    "source": "huggingface",
+    "source_tier": 1,
+    "region": "us",
+    "published_at": "2026-04-16T00:00:00Z",
+    "first_seen_at": "2026-04-21T01:03:55.742300Z",
+    "summary": "Introduces Ecom-RLVE, an adaptive verifiable environment framework designed for training and evaluating e-commerce conversational agents with real-world scenarios.",
+    "tags": [
+      "Agents"
+    ],
+    "trending_score": 0.0,
+    "mention_count": 1,
+    "related_ids": [],
+    "image_url": "https://huggingface.co/blog/assets/ecom-rlve/thumbnail.png"
   }
 ]
