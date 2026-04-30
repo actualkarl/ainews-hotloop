@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-04-29T18:11:37.217822Z",
+  "generated_at": "2026-04-30T18:08:56Z",
   "tweets": [
     {
-      "id": "2049521160430457315",
-      "handle": "OfficialLoganK",
-      "author_name": "Logan Kilpatrick",
-      "text": "Multi-chat is live in Google AI Studio — run parallel Gemini conversations side-by-side; Search Grounding is now integrated.",
-      "published_at": "2026-04-29T08:00:00Z",
-      "url": "https://x.com/OfficialLoganK/status/2049521160430457315",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2049465379039416637",
-      "handle": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "text": "Follow-up from Seoul: continuing conversations on AI safety frameworks, scientific applications and growing AI research talent in Korea, on the 10-year anniversary of AlphaGo.",
-      "published_at": "2026-04-29T07:00:00Z",
-      "url": "https://x.com/demishassabis/status/2049465379039416637",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2049359943028068780",
-      "handle": "OfficialLoganK",
-      "author_name": "Logan Kilpatrick",
-      "text": "Gemini models now hold the top 7 spots on OpenRouter's new audio input ranking.",
-      "published_at": "2026-04-29T05:00:00Z",
-      "url": "https://x.com/OfficialLoganK/status/2049359943028068780",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2049358795055546642",
-      "handle": "OfficialLoganK",
-      "author_name": "Logan Kilpatrick",
-      "text": "Excited to launch Grounding With Exa in Gemini — agentic web search across billions of sites, in partnership with Exa Labs.",
-      "published_at": "2026-04-29T04:00:00Z",
-      "url": "https://x.com/OfficialLoganK/status/2049358795055546642",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
-    },
-    {
-      "id": "2049314747074695225",
+      "id": "2049712078836170843",
       "handle": "sama",
       "author_name": "Sam Altman",
-      "text": "Thanks — really glad GPT-5.5 is helping for everyday work like copywriting. More improvements coming.",
-      "published_at": "2026-04-29T03:30:00Z",
-      "url": "https://x.com/sama/status/2049314747074695225",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
+      "url": "https://x.com/sama/status/2049712078836170843",
+      "text": "Rolling out GPT-5.5-Cyber for critical cybersecurity defenders, with ecosystem and government collaboration.",
+      "published_at": "2026-04-30T15:30:00Z",
+      "like_count": 10000,
+      "retweet_count": 2000,
+      "reply_count": 800
     },
     {
-      "id": "2049313996214603902",
+      "id": "2049886895530967534",
+      "handle": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "url": "https://x.com/AndrewYNg/status/2049886895530967534",
+      "text": "New course: AI Prompting for Everyone. Teaches techniques applicable to ChatGPT, Gemini, and Claude — deep research, attaching docs/images, and developing intuition for model behaviour.",
+      "published_at": "2026-04-30T20:00:00Z",
+      "like_count": 5000,
+      "retweet_count": 1200,
+      "reply_count": 300
+    },
+    {
+      "id": "2049683099672547499",
       "handle": "OfficialLoganK",
       "author_name": "Logan Kilpatrick",
-      "text": "Audio input is having a moment — Gemini taking the top of OpenRouter's new audio rankings shows how fast multimodal usage is growing.",
-      "published_at": "2026-04-29T03:00:00Z",
-      "url": "https://x.com/OfficialLoganK/status/2049313996214603902",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
+      "url": "https://x.com/OfficialLoganK/status/2049683099672547499",
+      "text": "We are pushing Gemini full gas. More to come soon.",
+      "published_at": "2026-04-30T14:00:00Z",
+      "like_count": 4000,
+      "retweet_count": 700,
+      "reply_count": 250
     },
     {
-      "id": "2049291051266142574",
-      "handle": "demishassabis",
-      "author_name": "Demis Hassabis",
-      "text": "Met with Korean President Lee Jae-myung and the Ministry of Science and ICT to discuss AI safety, scientific discovery, and investment in AI talent — 10 years on from AlphaGo.",
-      "published_at": "2026-04-29T02:00:00Z",
-      "url": "https://x.com/demishassabis/status/2049291051266142574",
-      "like_count": 0,
-      "retweet_count": 0,
-      "reply_count": 0
+      "id": "2049644995293163830",
+      "handle": "fchollet",
+      "author_name": "François Chollet",
+      "url": "https://x.com/fchollet/status/2049644995293163830",
+      "text": "AI automates tasks, not jobs. Translators, customer support reps — no end-to-end automation yet. Cheaper tasks historically expand demand for the surrounding work (see radiologists).",
+      "published_at": "2026-04-30T11:00:00Z",
+      "like_count": 6000,
+      "retweet_count": 1500,
+      "reply_count": 400
+    },
+    {
+      "id": "2049661559950180556",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2049661559950180556",
+      "text": "GPT-5.5 picked 5/5 at 5:55pm for its own party. RSVP via Luma; Codex picks attendees from replies.",
+      "published_at": "2026-04-30T12:00:00Z",
+      "like_count": 5000,
+      "retweet_count": 800,
+      "reply_count": 600
+    },
+    {
+      "id": "2049534651702956103",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2049534651702956103",
+      "text": "OpenAI DevDay 2026 — September 29, San Francisco.",
+      "published_at": "2026-04-30T03:00:00Z",
+      "like_count": 8000,
+      "retweet_count": 2000,
+      "reply_count": 500
+    },
+    {
+      "id": "2049905602797633938",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2049905602797633938",
+      "text": "Day 4 of the Musk v. OpenAI trial in Oakland. Judge limiting AI safety discussions to focus on breach of trust.",
+      "published_at": "2026-04-30T22:00:00Z",
+      "like_count": 3000,
+      "retweet_count": 1500,
+      "reply_count": 600
     }
   ]
 }

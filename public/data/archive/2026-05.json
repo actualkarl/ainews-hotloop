@@ -1,0 +1,282 @@
+{
+  "items": [
+    {
+      "id": "db67618a1fb2f432",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "title": "Amazon invests $25B more in Anthropic, total now $33B",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:40:07Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Amazon committed an additional $25 billion investment in Anthropic, bringing total investment to $33 billion. Anthropic pledged to spend over $100 billion on AWS infrastructure over the next decade.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108254538-1770326418274-108254538-1768938695162-CNBC_Stage_01_062.jpg?v=1771351348&w=1920&h=1080"
+    },
+    {
+      "id": "e59e6f351c8b5541",
+      "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:30:12Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Microsoft paused new signups for GitHub Copilot Pro, Pro+, and Student tiers while tightening usage limits. Opus models removed from Pro and Opus 4.7 restricted to Pro+ tier only.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-deprecations.jpg"
+    },
+    {
+      "id": "53438aba5557cfce",
+      "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
+      "title": "AI Resistance is growing: anti-AI pushback worth tracking",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:19:13Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "Roundup of organized resistance to AI deployments across creative industries, academic institutions, and labor movements, with 150+ HN points. Covers key campaigns, boycotts, and legislation attempts targeting AI systems.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
+    },
+    {
+      "id": "65c9467b7424d749",
+      "url": "https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/",
+      "title": "Microsoft plans token-based billing for GitHub Copilot",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T20:15:07Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Internal documents reveal Microsoft intends to shift GitHub Copilot from request-based to token-based billing. The week-over-week cost to run it has nearly doubled since January.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2024/01/wyea--1.jpeg"
+    },
+    {
+      "id": "424cf6cb40fc0b36",
+      "url": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
+      "title": "Reading today's open-closed performance gap",
+      "title_translated": null,
+      "source": "interconnects",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T18:25:02Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Examines how the performance gap between open and closed AI models is misunderstood when reduced to a single benchmark score, exploring how benchmark evolution, model capabilities, and training regimes interact over time.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!pKEq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c69ea-fa59-4eba-8034-25b0af9b5443_3182x1790.png"
+    },
+    {
+      "id": "f0b73109d4237fd8",
+      "url": "https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments/",
+      "title": "Mitigating Indirect AGENTS.md Injection Attacks in Agentic Environments",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T17:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "NVIDIA details how AGENTS.md files can be weaponised for indirect prompt injection in multi-agent pipelines, and provides practical mitigations. Essential reading for anyone building or auditing production agentic systems.",
+      "tags": [
+        "Agents"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/agentic-ai.webp"
+    },
+    {
+      "id": "f8363d42b74365e2",
+      "url": "https://www.latent.space/p/noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
+      "title_translated": null,
+      "source": "latent-space",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T16:17:17Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Noetik uses transformers trained on spatial transcriptomics to predict patient responses to cancer treatments. Their TARIO-2 model addresses a core bottleneck where 95% of cancer drugs fail clinical trials despite being effective for specific patient populations.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!4KQH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F194810752%2F0d06304d-46fc-4b3a-89f6-e70a7ff556f1%2Ftranscoded-1776701411.png"
+    },
+    {
+      "id": "e630391cbbae25ff",
+      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T15:41:02Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "The music streaming service reports that nearly half of daily song uploads are machine-generated, reflecting widespread adoption in music production.",
+      "tags": [
+        "Content",
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Copy-of-2000x1000-EN-1240x600-1.jpg?resize=1200,581"
+    },
+    {
+      "id": "f0222a29050a28e2",
+      "url": "https://x.com/i/status/2046213029835239889",
+      "title": "Chollet: AI tools shift jobs toward higher complexity rather than eliminating them",
+      "title_translated": null,
+      "source": "fchollet",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-20T14:00:00Z",
+      "first_seen_at": "2026-04-21T06:22:26.022873Z",
+      "summary": "François Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics — echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/fchollet",
+      "image_type": "avatar"
+    },
+    {
+      "id": "11b16a8eda3d2846",
+      "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+      "title": "Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
+      "title_translated": null,
+      "source": "nvidia-blog",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T13:00:50Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA, Adobe, and WPP collaborate on agentic AI for enterprise marketing. Adobe's creative platforms + WPP's expertise + NVIDIA's Nemotron models and OpenShell runtime enable intelligent systems that plan, create, produce and activate content continuously while maintaining brand safety.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg"
+    },
+    {
+      "id": "d2f757ea8858e0cd",
+      "url": "https://importai.substack.com/p/import-ai-454-automating-alignment",
+      "title": "Import AI 454: Automating alignment research; Huawei HiFloat4; Kimi K2.5 safety study",
+      "title_translated": null,
+      "source": "import-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T12:30:19Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Anthropic demonstrates autonomous AI agents conducting alignment research that outperform human researchers (97% recovery vs 23%). Also covers Huawei's HiFloat4 training format outperforming Western MXFP4, and safety evaluation of Chinese model Kimi K2.5 showing fewer CBRN refusals than Western counterparts.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+    },
+    {
+      "id": "f72fedfae9b1a1b1",
+      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
+      "title": "Atlassian enables default data collection to train AI",
+      "title_translated": null,
+      "source": "hn-ai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T12:23:39Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "Atlassian activates automatic data gathering from users to support artificial intelligence model development.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
+    },
+    {
+      "id": "9b9fdf79f83603a3",
+      "url": "https://x.com/i/status/2046201823652909528",
+      "title": "LeCun: consult economists not AI CEOs on job displacement; AI adds ~0.6% GDP annually",
+      "title_translated": null,
+      "source": "ylecun",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-20T10:00:00Z",
+      "first_seen_at": "2026-04-21T06:22:26.022873Z",
+      "summary": "Yann LeCun pushes back on Hinton's AI job displacement warnings, arguing labour economists like Daron Acemoglu are better authorities on workforce impact than AI scientists or CEOs. LeCun estimates AI may add approximately 0.6% annual GDP growth rather than causing mass unemployment.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/ylecun",
+      "image_type": "avatar"
+    },
+    {
+      "id": "717a1241cb1bf6e7",
+      "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+      "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe",
+      "title_translated": null,
+      "source": "nvidia-blog",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T08:30:55Z",
+      "first_seen_at": "2026-04-21T01:03:55.742300Z",
+      "summary": "NVIDIA demonstrates AI-powered manufacturing innovations including factory digital twins, vision AI agents, and humanoid robots. Partners show how accelerated computing, AI physics, agents and robotics are powering industrial innovation.",
+      "tags": [
+        "Automation",
+        "Agents"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
+    }
+  ]
+}

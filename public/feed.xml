@@ -6,7 +6,95 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 29 Apr 2026 18:11:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 18:07:31 +0000</lastBuildDate>
+    <item>
+      <title>Andrew Ng launches &quot;AI Prompting for Everyone&quot; course</title>
+      <link>https://x.com/AndrewYNg/status/2049886895530967534</link>
+      <description>Andrew Ng announced a new course teaching prompting techniques applicable across ChatGPT, Gemini, and Claude. Covers deep research, attaching docs and images for context, and developing intuition for model behaviour.</description>
+      <pubDate>Thu, 30 Apr 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/AndrewYNg/status/2049886895530967534</guid>
+      <category>Skills, Content</category>
+    </item>
+    <item>
+      <title>Build AI-Powered Games with NVIDIA DLSS 4.5, RTX, and Unreal Engine 5</title>
+      <link>https://developer.nvidia.com/blog/build-ai-powered-games-with-nvidia-dlss-4-5-rtx-and-unreal-engine-5/</link>
+      <description>Today, game developers can begin integrating NVIDIA DLSS 4.5 with Dynamic Multi Frame Generation, Multi Frame Generation 6X, and the second-generation...</description>
+      <pubDate>Thu, 30 Apr 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/build-ai-powered-games-with-nvidia-dlss-4-5-rtx-and-unreal-engine-5/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>How to Build, Run, and Scale High-Quality Creator Workflows in ComfyUI</title>
+      <link>https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/</link>
+      <description>Creative and visualization teams today produce more assets, in more formats, with leaner teams. Generative AI can accelerate that work – compressing tasks...</description>
+      <pubDate>Thu, 30 Apr 2026 16:16:04 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/</guid>
+      <category>Content, Automation</category>
+    </item>
+    <item>
+      <title>Automating GPU Kernel Translation with AI Agents: cuTile Python to cuTile.jl</title>
+      <link>https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/</link>
+      <description>NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and...</description>
+      <pubDate>Thu, 30 Apr 2026 15:54:38 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/</guid>
+      <category>Agents, Coding, Models</category>
+    </item>
+    <item>
+      <title>OpenAI rolls out GPT-5.5-Cyber for critical cybersecurity defenders</title>
+      <link>https://x.com/sama/status/2049712078836170843</link>
+      <description>Sam Altman announced the rollout of GPT-5.5-Cyber, a cybersecurity-focused model for critical defenders, with ecosystem and government collaboration. The post drew over 10k likes and 696k views, signalling significant interest in domain-specialised frontier models.</description>
+      <pubDate>Thu, 30 Apr 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/sama/status/2049712078836170843</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>Logan Kilpatrick: Google &quot;pushing Gemini full gas&quot; against OpenAI hype</title>
+      <link>https://x.com/OfficialLoganK/status/2049683099672547499</link>
+      <description>Google AI lead Logan Kilpatrick said the team is &quot;pushing Gemini full gas,&quot; responding to the wave of attention around OpenAI announcements this week. The comment came alongside the GPT-5.5 rollout and Musk-OpenAI trial coverage.</description>
+      <pubDate>Thu, 30 Apr 2026 14:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049683099672547499</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Enabling a new model for healthcare with AI co-clinician</title>
+      <link>https://deepmind.google/blog/ai-co-clinician/</link>
+      <description>Researching the path to AI-augmented care and development of an AI co-clinician.</description>
+      <pubDate>Thu, 30 Apr 2026 12:14:15 +0000</pubDate>
+      <guid isPermaLink="true">https://deepmind.google/blog/ai-co-clinician/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Chollet: AI automates tasks, not jobs — cheaper tasks expand demand</title>
+      <link>https://x.com/fchollet/status/2049644995293163830</link>
+      <description>François Chollet argues that AI is automating individual tasks rather than wholesale jobs — citing translators and customer support reps as examples where end-to-end automation has not arrived. He notes that cheaper tasks historically increase demand for the surrounding work, citing radiologists.</description>
+      <pubDate>Thu, 30 Apr 2026 11:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/fchollet/status/2049644995293163830</guid>
+      <category>Governance, Automation</category>
+    </item>
+    <item>
+      <title>OpenAI DevDay 2026 announced for September 29 in San Francisco</title>
+      <link>https://x.com/sama/status/2049534651702956103</link>
+      <description>OpenAI confirmed DevDay 2026 will be held on September 29 in San Francisco, the company&#x27;s flagship developer event where new APIs and models are typically unveiled.</description>
+      <pubDate>Thu, 30 Apr 2026 03:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/sama/status/2049534651702956103</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
+      <title>Introducing Advanced Account Security</title>
+      <link>https://openai.com/index/advanced-account-security</link>
+      <description>Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.</description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/advanced-account-security</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Where the goblins came from</title>
+      <link>https://openai.com/index/where-the-goblins-came-from</link>
+      <description>How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.</description>
+      <pubDate>Wed, 29 Apr 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/where-the-goblins-came-from</guid>
+      <category>Models</category>
+    </item>
     <item>
       <title>AI evals are becoming the new compute bottleneck</title>
       <link>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</link>
@@ -158,94 +246,6 @@
       <pubDate>Tue, 28 Apr 2026 16:25:00 +0000</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260428/p30#a260428p30</guid>
       <category>Coding</category>
-    </item>
-    <item>
-      <title>FIDO Alliance launches working groups to set security standards for AI agent transactions; Google contributes Agent Payments Protocol</title>
-      <link>http://www.techmeme.com/260428/p28#a260428p28</link>
-      <description>The FIDO Alliance formed two working groups to develop industry standards for securing AI agent-initiated financial transactions, with Google contributing its Agent Payments Protocol. The initiative addresses the emerging risk of autonomous AI systems conducting purchases or transfers without adequate authentication.</description>
-      <pubDate>Tue, 28 Apr 2026 16:15:00 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260428/p28#a260428p28</guid>
-      <category>Agents, Governance</category>
-    </item>
-    <item>
-      <title>Latent Space: ImageGen is on the path to AGI — GPT-Image-2 and multimodal reasoning</title>
-      <link>https://www.latent.space/p/ainews-imagegen-is-on-the-path-to</link>
-      <description>Latent Space&#x27;s AINews analysis argues GPT-Image-2&#x27;s closed-loop integration with coding systems represents a qualitative leap toward AGI-level multimodal reasoning, not just better image generation. Examines how image generation benchmarks are becoming proxies for general reasoning capability.</description>
-      <pubDate>Tue, 28 Apr 2026 05:38:19 +0000</pubDate>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-imagegen-is-on-the-path-to</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
-      <title>microsoft/VibeVoice: open-source speech-to-text with built-in speaker diarization</title>
-      <link>https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything</link>
-      <description>Microsoft released VibeVoice under MIT licence, a speech-to-text model with built-in speaker diarization. Simon Willison benchmarked the 4-bit quantised version transcribing an hour-long podcast in under 9 minutes on an M5 MacBook Pro.</description>
-      <pubDate>Mon, 27 Apr 2026 23:46:56 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
-      <title>Latent Space: Physical AI that moves the world — Applied Intuition on deploying AI to safety-critical systems</title>
-      <link>https://www.latent.space/p/appliedintuition</link>
-      <description>Applied Intuition&#x27;s Qasar Younis and Peter Ludwig discuss deploying AI to autonomous vehicles, mining equipment, and defence applications on the Latent Space podcast. Covers simulation-first development, domain-specific operating systems, and why safety-critical physical AI requires fundamentally different engineering from software agents.</description>
-      <pubDate>Mon, 27 Apr 2026 23:02:37 +0000</pubDate>
-      <guid isPermaLink="true">https://www.latent.space/p/appliedintuition</guid>
-      <category>Agents</category>
-    </item>
-    <item>
-      <title>Elon Musk boosts an X post by Ronan Farrow promoting his New Yorker article on Sam Altman&#x27;s alleged deceptions, as Musk&#x27;s lawsuit against OpenAI heads to trial (Wired)</title>
-      <link>http://www.techmeme.com/260427/p36#a260427p36</link>
-      <description>Wired : Elon Musk boosts an X post by Ronan Farrow promoting his New Yorker article on Sam Altman&#x27;s alleged deceptions, as Musk&#x27;s lawsuit against OpenAI heads to trial &amp;nbsp; &amp;mdash;&amp;nbsp; The move comes as the trial for Elon Musk&#x27;s lawsuit against OpenAI kicks off in federal court in Oakland.</description>
-      <pubDate>Mon, 27 Apr 2026 20:40:02 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260427/p36#a260427p36</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Jury selection complete in Musk v. Altman trial; opening arguments begin Tuesday in Oakland</title>
-      <link>http://www.techmeme.com/260427/p35#a260427p35</link>
-      <description>A nine-person jury was seated Monday in the federal Musk v. Altman trial in Oakland, California; both Sam Altman and Greg Brockman attended. Opening statements and witness testimony begin Tuesday. The civil case centres on whether OpenAI&#x27;s shift to a for-profit structure breached its founding charter, with Musk, Altman, and possibly Satya Nadella expected to testify over four weeks.</description>
-      <pubDate>Mon, 27 Apr 2026 20:05:02 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260427/p35#a260427p35</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>NZ mid-sized firms lag on AI readiness, MYOB finds</title>
-      <link>https://itbrief.co.nz/story/new-zealand-mid-sized-firms-lag-on-ai-readiness-myob-finds</link>
-      <description>MYOB&#x27;s annual readiness survey shows New Zealand&#x27;s mid-market is investing in AI but trailing on workforce skills, governance, and process autonomy. Useful baseline for any NZ corporate AI conversation in 2026.</description>
-      <pubDate>Mon, 27 Apr 2026 20:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://itbrief.co.nz/story/new-zealand-mid-sized-firms-lag-on-ai-readiness-myob-finds</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Tracking the history of the now-deceased OpenAI Microsoft AGI clause</title>
-      <link>https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</link>
-      <description>For many years, Microsoft and OpenAI&#x27;s relationship has included a weird clause saying that, should AGI be achieved, Microsoft&#x27;s commercial IP rights to OpenAI&#x27;s technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . OpenAI, July 22nd 2019 in Microsoft invests in and partners with OpenAI to support us building benef</description>
-      <pubDate>Mon, 27 Apr 2026 18:38:17 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Speech translation in Google Meet is now rolling out to mobile devices</title>
-      <link>https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</link>
-      <description>Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a &quot;try this out now&quot; prompt in a Google Meet meeting. It kind-of worked! This is Google&#x27;s implementation of the ultimate sci-fi translation app, where two people can talk to each other in two separate languages and Meet translates from one to the other and - with a short delay - repeats the t</description>
-      <pubDate>Mon, 27 Apr 2026 17:37:47 +0000</pubDate>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</guid>
-      <category>Content</category>
-    </item>
-    <item>
-      <title>GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits (Mario Rodriguez/The GitHub Blog)</title>
-      <link>http://www.techmeme.com/260427/p33#a260427p33</link>
-      <description>Mario Rodriguez / The GitHub Blog : GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits &amp;nbsp; &amp;mdash;&amp;nbsp; Starting June 1, your Copilot usage will consume GitHub AI Credits.&amp;nbsp; &amp;mdash;&amp;nbsp; TL;DR: Today, we are announcing that all GitHub Copilot plans will transition to usage-based billing on June 1, 2026.</description>
-      <pubDate>Mon, 27 Apr 2026 17:01:51 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260427/p33#a260427p33</guid>
-      <category>Coding</category>
-    </item>
-    <item>
-      <title>The EU unveils new proposals under the DMA aimed at opening up Android to rivals&#x27; AI services; Google says the measures are &quot;unwarranted intervention&quot; (Samuel Stolton/Bloomberg)</title>
-      <link>http://www.techmeme.com/260427/p32#a260427p32</link>
-      <description>Samuel Stolton / Bloomberg : The EU unveils new proposals under the DMA aimed at opening up Android to rivals&#x27; AI services; Google says the measures are &amp;ldquo;unwarranted intervention&amp;rdquo; &amp;nbsp; &amp;mdash;&amp;nbsp; Google was targeted by European Union watchdogs who unveiled a slate of proposals aimed at prising open its Android ecosystem to rivals&#x27; AI services.</description>
-      <pubDate>Mon, 27 Apr 2026 16:55:01 +0000</pubDate>
-      <guid isPermaLink="true">http://www.techmeme.com/260427/p32#a260427p32</guid>
-      <category>Governance</category>
     </item>
   </channel>
 </rss>
