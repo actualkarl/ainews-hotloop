@@ -1,4 +1,27 @@
 {
-  "generated_at": "2026-05-01T18:09:54.056938Z",
-  "tweets": []
+  "generated_at": "2026-05-02T18:09:39.740615Z",
+  "tweets": [
+    {
+      "id": "2050274547061129577",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2050274547061129577",
+      "text": "you know what — all of these \"which is better\" polls are silly. use codex or claude code, whatever works best for you. i am grateful we live in a time with such amazing tools, and grateful there is a choice.",
+      "published_at": "2026-05-01T22:09:39.740733Z",
+      "like_count": 20000,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2050099778072047756",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2050099778072047756",
+      "text": "Scribblified version of the OpenAI logo, prompted via ChatGPT.",
+      "published_at": "2026-05-01T20:09:39.740738Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }

@@ -277,6 +277,126 @@
       "mention_count": 2,
       "related_ids": [],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg"
+    },
+    {
+      "id": "537fd53c0227a21c",
+      "url": "https://thepress.co.nz/nz-news/360988884/christchurch-developed-ai-forecasting-tool-improves-wildfire-prediction-30",
+      "title": "Christchurch-developed AI tool improves wildfire prediction accuracy by 30%",
+      "title_translated": null,
+      "source": "thepress",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-21T00:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "A machine learning forecasting tool developed in Christchurch achieved 30% improvement in wildfire prediction accuracy using historical fire data from Australia. The model uses ensemble methods and is being evaluated for deployment across Pacific fire-prone regions.",
+      "tags": [
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "/data/cover-mobile.png",
+      "image_source": "cover_fallback"
+    },
+    {
+      "id": "384a710feb7e12b2",
+      "url": "https://www.theverge.com/podcast/913793/melanie-perkins-canva-ai-adobe-affinity-design",
+      "title": "Canva CEO on building proprietary AI, token pricing, and competing with AI-first design tools",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-20T23:10:00Z",
+      "first_seen_at": "2026-04-21T03:06:26.082027Z",
+      "summary": "Canva CEO Melanie Perkins discusses the company's enterprise expansion, its investment in proprietary AI models, and how token-based pricing is reshaping competitive dynamics in the design software market. She addresses Canva's positioning against Adobe's AI suite and the growing wave of AI-first design entrants.",
+      "tags": [
+        "Content",
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/DCD_Perkins_Canva.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
+    {
+      "id": "d674facf95f566ee",
+      "url": "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
+      "title": "Maximizing Memory Efficiency to Run Bigger Models on NVIDIA Jetson",
+      "title_translated": null,
+      "source": "nvidia-developer",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T23:01:04Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "Technical guide covering quantization, flash attention, and KV cache management techniques to deploy multi-billion-parameter generative AI models on memory-constrained NVIDIA Jetson edge devices.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Robotics-Jetson-OSS.webp"
+    },
+    {
+      "id": "3adba36cab5ab6b7",
+      "url": "https://developer.nvidia.com/blog/run-high-throughput-reinforcement-learning-training-with-end-to-end-fp8-precision/",
+      "title": "Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision",
+      "title_translated": null,
+      "source": "nvidia-developer",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-20T22:52:15Z",
+      "first_seen_at": "2026-04-21T01:17:17.598878Z",
+      "summary": "NVIDIA details end-to-end FP8 precision training for LLM reinforcement learning using GRPO, addressing GPU utilization bottlenecks during high-intensity RL phases with significant throughput improvements.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/RL-FP8-e1776716106922.webp"
+    },
+    {
+      "id": "e59c7e5acd302ce3",
+      "url": "https://x.com/i/status/2046017433199374610",
+      "title": "Karpathy: Bryan Johnson uses Claude to analyze 1.5 billion personal health data points",
+      "title_translated": null,
+      "source": "karpathy",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-04-20T22:00:00Z",
+      "first_seen_at": "2026-04-21T11:06:57.669467Z",
+      "summary": "Andrej Karpathy highlights Bryan Johnson's deep-dive into personal health analytics using Claude across 1.5 billion data points. Demonstrates frontier use of LLMs for personal longitudinal data reasoning at extreme scale.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://unavatar.io/x/karpathy",
+      "image_type": "avatar"
+    },
+    {
+      "id": "081667069d228400",
+      "url": "https://www.rnz.co.nz/news/business/592911/ai-tells-tenant-she-should-ask-for-40-000-tribunal-hands-her-80",
+      "title": "AI told NZ tenant to claim $40,000; Tenancy Tribunal awarded $80",
+      "title_translated": null,
+      "source": "rnz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-20T22:00:00Z",
+      "first_seen_at": "2026-04-21T03:01:52Z",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
     }
   ]
 }
