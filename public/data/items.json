@@ -1,15 +1,12 @@
 {
-  "generated_at": "2026-05-02T18:09:23.906675Z",
-  "next_refresh_at": "2026-05-03T18:00:00Z",
+  "generated_at": "2026-05-03T18:05:38.051626Z",
+  "next_refresh_at": "2026-05-04T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "newsflash": [
-    "e2a608c4c68d4da6",
-    "5cdb3450cafb66a7",
-    "67c81557e07f61f4"
-  ],
-  "daily_summary": "Anthropic formalised its Australia and New Zealand presence with a Sydney office and a new GM, Theo Hourmouzis, the same week NCSC-NZ joined Five Eyes partners in releasing guidance on careful adoption of agentic AI. OpenAI signalled it will extend its ChatGPT ads pilot to Australia, New Zealand and Canada, while the Pentagon awarded AI contracts to seven major vendors after shunning Anthropic over its military-use restrictions. Qwen also opened a public chat interface with Deep Research and Web Dev modes.",
   "cover_image_url": "/data/cover.svg",
-  "cover_image_mobile_url": "/data/cover-mobile.png",
+  "newsflash": [
+    "e2a608c4c68d4da6"
+  ],
+  "daily_summary": "Qwen notes: Chat with Qwen (with Deep Research and Web Dev).",
   "items": [
     {
       "id": "e2a608c4c68d4da6",
@@ -28,7 +25,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 1.0,
+      "trending_score": 0.4484,
       "mention_count": 1,
       "related_ids": []
     },
@@ -49,7 +46,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 1.0,
+      "trending_score": 0.2081,
       "mention_count": 2,
       "related_ids": []
     },
@@ -70,7 +67,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.6475,
+      "trending_score": 0.0881,
       "mention_count": 2,
       "related_ids": []
     },
@@ -91,7 +88,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.928,
+      "trending_score": 0.1262,
       "mention_count": 2,
       "related_ids": []
     },
@@ -112,7 +109,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.3928,
+      "trending_score": 0.0534,
       "mention_count": 2,
       "related_ids": []
     },
@@ -133,7 +130,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.2635,
+      "trending_score": 0.0358,
       "mention_count": 1,
       "related_ids": []
     },
@@ -153,7 +150,7 @@
         "Content"
       ],
       "image_url": "https://x.ai/news/grok-custom-voices/opengraph-image-1dmibn.png?090657c897727150",
-      "trending_score": 0.427,
+      "trending_score": 0.0581,
       "mention_count": 1,
       "related_ids": []
     },
@@ -172,7 +169,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/nemotron-labs-openclaw-1920x1080-1.jpg",
-      "trending_score": 0.0705,
+      "trending_score": 0.0096,
       "mention_count": 1,
       "related_ids": []
     },
@@ -192,7 +189,7 @@
         "Content"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0148,
+      "trending_score": 0.002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -211,7 +208,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/image4-6.webp",
-      "trending_score": 0.0548,
+      "trending_score": 0.0075,
       "mention_count": 1,
       "related_ids": []
     },
@@ -231,7 +228,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/workstation-tech-blog-600x338-1-500x282.gif",
-      "trending_score": 0.0516,
+      "trending_score": 0.007,
       "mention_count": 1,
       "related_ids": []
     },
@@ -251,7 +248,7 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow.webp",
-      "trending_score": 0.0501,
+      "trending_score": 0.0068,
       "mention_count": 1,
       "related_ids": []
     },
@@ -271,7 +268,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0098,
+      "trending_score": 0.0013,
       "mention_count": 2,
       "related_ids": []
     },
@@ -290,7 +287,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.009,
+      "trending_score": 0.0012,
       "mention_count": 2,
       "related_ids": []
     },
@@ -309,7 +306,7 @@
         "Models"
       ],
       "image_url": "https://lh3.googleusercontent.com/z2sN_eil5tgap-Ji1W_4l1xnbfLRghzxdXzyCMdnKFVW1xTfgm0o8bpg9pNwE4RcHTR2QGEGhGx7LFn7Q6bg-LEPBW20d4Djo3Erii8PBYYrWz36=w528-h297-n-nu-rw-lo",
-      "trending_score": 0.0369,
+      "trending_score": 0.005,
       "mention_count": 1,
       "related_ids": []
     },
@@ -329,7 +326,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.007,
+      "trending_score": 0.001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -349,7 +346,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0036,
+      "trending_score": 0.0005,
       "mention_count": 2,
       "related_ids": []
     },
@@ -368,7 +365,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-stt-and-tts-apis/opengraph-image-1w4o4b.png?0fdbe00a983a8d52",
-      "trending_score": 0.0133,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": []
     },
@@ -387,7 +384,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0133,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": []
     },
@@ -406,7 +403,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0095,
+      "trending_score": 0.0013,
       "mention_count": 1,
       "related_ids": []
     },
@@ -426,7 +423,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png",
-      "trending_score": 0.0092,
+      "trending_score": 0.0012,
       "mention_count": 2,
       "related_ids": []
     },
@@ -446,7 +443,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory.webp",
-      "trending_score": 0.0091,
+      "trending_score": 0.0012,
       "mention_count": 2,
       "related_ids": []
     },
@@ -465,7 +462,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-1.png",
-      "trending_score": 0.0079,
+      "trending_score": 0.0011,
       "mention_count": 2,
       "related_ids": []
     },
@@ -485,7 +482,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -504,7 +501,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0032,
+      "trending_score": 0.0004,
       "mention_count": 2,
       "related_ids": []
     },
@@ -524,7 +521,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0004,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -544,7 +541,7 @@
         "Automation"
       ],
       "image_url": "https://huggingface.co/blog/assets/inference-providers/welcome-deepinfra.jpg",
-      "trending_score": 0.0023,
+      "trending_score": 0.0003,
       "mention_count": 2,
       "related_ids": []
     },
@@ -563,7 +560,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -582,7 +579,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -602,7 +599,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -622,7 +619,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0013,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -641,7 +638,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/biomolecule-1.webp",
-      "trending_score": 0.0015,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -661,7 +658,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -680,7 +677,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -699,7 +696,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -718,7 +715,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -738,7 +735,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -758,7 +755,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -777,7 +774,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -797,7 +794,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -817,7 +814,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -837,7 +834,7 @@
         "Content"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/adobe-ai-agents-wpp-nvidia.jpg",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -857,7 +854,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -876,7 +873,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -895,7 +892,7 @@
         "Governance"
       ],
       "image_url": "https://media.wired.com/photos/69efb98c62f06e966778ac07/191:100/w_1280,c_limit/GettyImages-491588398.jpg",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -913,7 +910,7 @@
       "image_url": null,
       "id": "bf7073427d71b3ff",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -933,7 +930,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -952,7 +949,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -971,7 +968,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -990,7 +987,7 @@
         "Coding"
       ],
       "image_url": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-logo.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1009,7 +1006,7 @@
         "Governance"
       ],
       "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8orBo4nhDOM/v1/1200x800.jpg",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1027,7 +1024,7 @@
       "image_url": null,
       "id": "563f3b4043e7971d",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -1049,7 +1046,7 @@
         "Coding"
       ],
       "image_url": "https://pbs.twimg.com/media/HGxS00ubIAEDGlV?format=jpg&name=large",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1088,7 +1085,7 @@
       "image_url": null,
       "id": "aab3a43fde791a0c",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -1107,7 +1104,7 @@
       "image_url": null,
       "id": "330777892e36ae31",
       "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null
@@ -1128,7 +1125,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1147,7 +1144,7 @@
         "Models"
       ],
       "image_url": "http://www.techmeme.com/img/techmeme_sq328.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1188,7 +1185,7 @@
         "Skills"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1248,7 +1245,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1324,7 +1321,7 @@
         "Governance"
       ],
       "image_url": "https://lh3.googleusercontent.com/3q6uiTEWOv5PKJQYWgYLxCgohyndMqdWTFiwFDbxSzk-tW0HeannPdF7kvqR2hmE_tvSeryfw4IvG7gwuZ11rBgIYGvapEQvHO9RRJXw4JCqyme6uA=w528-h297-n-nu-rw-lo",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1344,7 +1341,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },

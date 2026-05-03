@@ -6,84 +6,84 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 02 May 2026 18:09:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 18:05:38 GMT</lastBuildDate>
     <item>
       <title>Chat with Qwen (with Deep Research and Web Dev)</title>
       <link>https://chat.qwen.ai</link>
       <description>Qwen launched a public chat interface with Deep Research and Web Dev modes, exposing its agentic research and code-generation capabilities directly to end users via chat.qwen.ai.</description>
-      <pubDate>Sat, 02 May 2026 18:09:23 +0000</pubDate>
+      <pubDate>Sat, 02 May 2026 18:09:23 GMT</pubDate>
       <guid isPermaLink="true">https://chat.qwen.ai</guid>
-      <category>Models,Agents</category>
+      <category>Models, Agents</category>
     </item>
     <item>
       <title>NCSC-NZ + Five Eyes issue joint guidance on careful adoption of agentic AI</title>
       <link>https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf</link>
-      <description>New Zealand's National Cyber Security Centre, alongside Five Eyes partners, released joint guidance on agentic AI deployment. The document warns that LLM-powered agents inherit prompt-injection and data-poisoning risks and outlines security expectations across sectors.</description>
-      <pubDate>Sat, 02 May 2026 06:09:23 +0000</pubDate>
+      <description>New Zealand&#x27;s National Cyber Security Centre, alongside Five Eyes partners, released joint guidance on agentic AI deployment. The document warns that LLM-powered agents inherit prompt-injection and data-poisoning risks and outlines security expectations across sectors.</description>
+      <pubDate>Sat, 02 May 2026 06:09:23 GMT</pubDate>
       <guid isPermaLink="true">https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf</guid>
-      <category>Governance,Agents</category>
+      <category>Governance, Agents</category>
     </item>
     <item>
       <title>Pentagon strikes AI deals with seven big tech firms after shunning Anthropic</title>
       <link>https://www.rnz.co.nz/news/world/594041/pentagon-strikes-deals-with-seven-big-tech-companies-after-shunning-anthropic</link>
-      <description>The US Department of Defense awarded AI contracts to seven major tech vendors but excluded Anthropic, reportedly due to Anthropic's restrictions on military use. The deals widen access to frontier models for defence applications.</description>
-      <pubDate>Sat, 02 May 2026 04:09:23 +0000</pubDate>
+      <description>The US Department of Defense awarded AI contracts to seven major tech vendors but excluded Anthropic, reportedly due to Anthropic&#x27;s restrictions on military use. The deals widen access to frontier models for defence applications.</description>
+      <pubDate>Sat, 02 May 2026 04:09:23 GMT</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/world/594041/pentagon-strikes-deals-with-seven-big-tech-companies-after-shunning-anthropic</guid>
-      <category>Governance,Models</category>
+      <category>Governance, Models</category>
     </item>
     <item>
       <title>Anthropic opens Sydney office, names Theo Hourmouzis GM for Australia and New Zealand</title>
       <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
-      <description>Anthropic has formalised its Australia/New Zealand presence with a Sydney office and ex-Snowflake VP Theo Hourmouzis as General Manager. The move signals deeper enterprise sales motion in the region, alongside partnerships such as TrendAI's Claude Opus 4.7 deployment.</description>
-      <pubDate>Sat, 02 May 2026 00:09:23 +0000</pubDate>
+      <description>Anthropic has formalised its Australia/New Zealand presence with a Sydney office and ex-Snowflake VP Theo Hourmouzis as General Manager. The move signals deeper enterprise sales motion in the region, alongside partnerships such as TrendAI&#x27;s Claude Opus 4.7 deployment.</description>
+      <pubDate>Sat, 02 May 2026 00:09:23 GMT</pubDate>
       <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
-      <category>Governance,Models</category>
+      <category>Governance, Models</category>
     </item>
     <item>
       <title>OpenAI to expand ChatGPT ads pilot to Australia, New Zealand and Canada</title>
       <link>https://digiday.com/marketing/openai-starts-laying-foundations-for-chatgpt-ads-in-eu</link>
       <description>OpenAI is broadening its ChatGPT advertising pilot beyond the US into Australia, New Zealand and Canada in the coming weeks. Updated privacy terms now allow user data sharing with advertisers for targeted placements.</description>
-      <pubDate>Fri, 01 May 2026 22:09:23 +0000</pubDate>
+      <pubDate>Fri, 01 May 2026 22:09:23 GMT</pubDate>
       <guid isPermaLink="true">https://digiday.com/marketing/openai-starts-laying-foundations-for-chatgpt-ads-in-eu</guid>
-      <category>Content,Governance</category>
+      <category>Content, Governance</category>
     </item>
     <item>
       <title>TrendAI deepens Anthropic partnership using Claude Opus 4.7 for vulnerability research</title>
       <link>https://securitybrief.co.nz/story/trendai-deepens-anthropic-tie-up-with-claude-opus-4-7</link>
-      <description>TrendAI expanded its Anthropic partnership, using Claude Opus 4.7 to power agentic vulnerability research workflows. Marketed as a regional AI-security play tied to Anthropic's new A/NZ presence.</description>
-      <pubDate>Fri, 01 May 2026 20:09:23 +0000</pubDate>
+      <description>TrendAI expanded its Anthropic partnership, using Claude Opus 4.7 to power agentic vulnerability research workflows. Marketed as a regional AI-security play tied to Anthropic&#x27;s new A/NZ presence.</description>
+      <pubDate>Fri, 01 May 2026 20:09:23 GMT</pubDate>
       <guid isPermaLink="true">https://securitybrief.co.nz/story/trendai-deepens-anthropic-tie-up-with-claude-opus-4-7</guid>
-      <category>Agents,Models</category>
+      <category>Agents, Models</category>
     </item>
     <item>
       <title>Custom Voices and Voice Library</title>
       <link>https://x.ai/news/grok-custom-voices</link>
       <description>xAI has launched custom voice creation and a Voice Library for Grok, enabling users to design personalised AI voices and select from curated voice options for text-to-speech and interactive applications.</description>
-      <pubDate>Fri, 01 May 2026 17:37:57 +0000</pubDate>
+      <pubDate>Fri, 01 May 2026 17:37:57 GMT</pubDate>
       <guid isPermaLink="true">https://x.ai/news/grok-custom-voices</guid>
-      <category>Models,Content</category>
+      <category>Models, Content</category>
     </item>
     <item>
       <title>Nemotron Labs: What OpenClaw Agents Mean for Every Organization</title>
       <link>https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/</link>
-      <description>By early 2026, the open-source OpenClaw agent project crossed 100,000 GitHub stars. NVIDIA's Nemotron Labs examines how OpenClaw's modular, composable approach to autonomous AI agents can be applied across enterprise workflows, from supply chain orchestration to customer operations.</description>
-      <pubDate>Thu, 30 Apr 2026 20:00:39 +0000</pubDate>
+      <description>By early 2026, the open-source OpenClaw agent project crossed 100,000 GitHub stars. NVIDIA&#x27;s Nemotron Labs examines how OpenClaw&#x27;s modular, composable approach to autonomous AI agents can be applied across enterprise workflows, from supply chain orchestration to customer operations.</description>
+      <pubDate>Thu, 30 Apr 2026 20:00:39 GMT</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/</guid>
       <category>Agents</category>
     </item>
     <item>
-      <title>Andrew Ng launches "AI Prompting for Everyone" course</title>
+      <title>Andrew Ng launches &quot;AI Prompting for Everyone&quot; course</title>
       <link>https://x.com/AndrewYNg/status/2049886895530967534</link>
       <description>Andrew Ng announced a new course teaching prompting techniques applicable across ChatGPT, Gemini, and Claude. Covers deep research, attaching docs and images for context, and developing intuition for model behaviour.</description>
-      <pubDate>Thu, 30 Apr 2026 20:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 20:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/AndrewYNg/status/2049886895530967534</guid>
-      <category>Skills,Content</category>
+      <category>Skills, Content</category>
     </item>
     <item>
       <title>Build AI-Powered Games with NVIDIA DLSS 4.5, RTX, and Unreal Engine 5</title>
       <link>https://developer.nvidia.com/blog/build-ai-powered-games-with-nvidia-dlss-4-5-rtx-and-unreal-engine-5/</link>
       <description>Today, game developers can begin integrating NVIDIA DLSS 4.5 with Dynamic Multi Frame Generation, Multi Frame Generation 6X, and the second-generation...</description>
-      <pubDate>Thu, 30 Apr 2026 17:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 17:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/build-ai-powered-games-with-nvidia-dlss-4-5-rtx-and-unreal-engine-5/</guid>
       <category>Models</category>
     </item>
@@ -91,31 +91,31 @@
       <title>How to Build, Run, and Scale High-Quality Creator Workflows in ComfyUI</title>
       <link>https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/</link>
       <description>NVIDIA details production-ready patterns for deploying ComfyUI at scale — covering GPU resource management, workflow orchestration, and quality controls for teams running image and video generation pipelines in enterprise environments.</description>
-      <pubDate>Thu, 30 Apr 2026 16:16:04 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 16:16:04 GMT</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/how-to-build-run-and-scale-high-quality-creator-workflows-in-comfyui/</guid>
-      <category>Content,Automation</category>
+      <category>Content, Automation</category>
     </item>
     <item>
       <title>Automating GPU Kernel Translation with AI Agents: cuTile Python to cuTile.jl</title>
       <link>https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/</link>
       <description>NVIDIA demonstrates using AI agents to automatically translate GPU kernels from cuTile Python to cuTile.jl, enabling cross-language GPU portability. The approach reduces manual porting effort and could generalise to other language pairs in the CUDA ecosystem.</description>
-      <pubDate>Thu, 30 Apr 2026 15:54:38 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 15:54:38 GMT</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/automating-gpu-kernel-translation-with-ai-agents-cutile-python-to-cutile-jl/</guid>
-      <category>Agents,Coding</category>
+      <category>Agents, Coding</category>
     </item>
     <item>
       <title>OpenAI rolls out GPT-5.5-Cyber for critical cybersecurity defenders</title>
       <link>https://x.com/sama/status/2049712078836170843</link>
       <description>Sam Altman announced the rollout of GPT-5.5-Cyber, a cybersecurity-focused model for critical defenders, with ecosystem and government collaboration. The post drew over 10k likes and 696k views, signalling significant interest in domain-specialised frontier models.</description>
-      <pubDate>Thu, 30 Apr 2026 15:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 15:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/sama/status/2049712078836170843</guid>
-      <category>Models,Governance</category>
+      <category>Models, Governance</category>
     </item>
     <item>
-      <title>Logan Kilpatrick: Google "pushing Gemini full gas" against OpenAI hype</title>
+      <title>Logan Kilpatrick: Google &quot;pushing Gemini full gas&quot; against OpenAI hype</title>
       <link>https://x.com/OfficialLoganK/status/2049683099672547499</link>
-      <description>Google AI lead Logan Kilpatrick said the team is "pushing Gemini full gas," responding to the wave of attention around OpenAI announcements this week. The comment came alongside the GPT-5.5 rollout and Musk-OpenAI trial coverage.</description>
-      <pubDate>Thu, 30 Apr 2026 14:00:00 +0000</pubDate>
+      <description>Google AI lead Logan Kilpatrick said the team is &quot;pushing Gemini full gas,&quot; responding to the wave of attention around OpenAI announcements this week. The comment came alongside the GPT-5.5 rollout and Musk-OpenAI trial coverage.</description>
+      <pubDate>Thu, 30 Apr 2026 14:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049683099672547499</guid>
       <category>Models</category>
     </item>
@@ -123,7 +123,7 @@
       <title>Enabling a new model for healthcare with AI co-clinician</title>
       <link>https://deepmind.google/blog/ai-co-clinician/</link>
       <description>Google DeepMind publishes research on an AI co-clinician framework, exploring how AI can augment clinical decision-making while keeping human oversight central. The paper outlines evaluation criteria and an architecture for AI-assisted care intended for real-world deployment.</description>
-      <pubDate>Thu, 30 Apr 2026 12:14:15 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 12:14:15 GMT</pubDate>
       <guid isPermaLink="true">https://deepmind.google/blog/ai-co-clinician/</guid>
       <category>Models</category>
     </item>
@@ -131,23 +131,23 @@
       <title>Chollet: AI automates tasks, not jobs — cheaper tasks expand demand</title>
       <link>https://x.com/fchollet/status/2049644995293163830</link>
       <description>François Chollet argues that AI is automating individual tasks rather than wholesale jobs — citing translators and customer support reps as examples where end-to-end automation has not arrived. He notes that cheaper tasks historically increase demand for the surrounding work, citing radiologists.</description>
-      <pubDate>Thu, 30 Apr 2026 11:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 11:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/fchollet/status/2049644995293163830</guid>
-      <category>Governance,Automation</category>
+      <category>Governance, Automation</category>
     </item>
     <item>
       <title>OpenAI DevDay 2026 announced for September 29 in San Francisco</title>
       <link>https://x.com/sama/status/2049534651702956103</link>
-      <description>OpenAI confirmed DevDay 2026 will be held on September 29 in San Francisco, the company's flagship developer event where new APIs and models are typically unveiled.</description>
-      <pubDate>Thu, 30 Apr 2026 03:00:00 +0000</pubDate>
+      <description>OpenAI confirmed DevDay 2026 will be held on September 29 in San Francisco, the company&#x27;s flagship developer event where new APIs and models are typically unveiled.</description>
+      <pubDate>Thu, 30 Apr 2026 03:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/sama/status/2049534651702956103</guid>
-      <category>Models,Coding</category>
+      <category>Models, Coding</category>
     </item>
     <item>
       <title>Grok Speech to Text and Text to Speech APIs</title>
       <link>https://x.ai/news/grok-stt-and-tts-apis</link>
-      <description>xAI launches Speech-to-Text and Text-to-Speech APIs for Grok, enabling developers to add voice input and output to applications via the Grok API. This extends xAI's developer platform toward multimodal voice capabilities alongside the existing language and vision APIs.</description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <description>xAI launches Speech-to-Text and Text-to-Speech APIs for Grok, enabling developers to add voice input and output to applications via the Grok API. This extends xAI&#x27;s developer platform toward multimodal voice capabilities alongside the existing language and vision APIs.</description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.ai/news/grok-stt-and-tts-apis</guid>
       <category>Models</category>
     </item>
@@ -155,15 +155,15 @@
       <title>Introducing Advanced Account Security</title>
       <link>https://openai.com/index/advanced-account-security</link>
       <description>OpenAI introduces Advanced Account Security with phishing-resistant login (passkeys/hardware keys), stronger account recovery, and enhanced protections against account takeover — particularly relevant for enterprise customers and API users managing sensitive workloads.</description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://openai.com/index/advanced-account-security</guid>
       <category>Governance</category>
     </item>
     <item>
       <title>Where the goblins came from</title>
       <link>https://openai.com/index/where-the-goblins-came-from</link>
-      <description>OpenAI explains the root cause of quirky 'goblin' personality artifacts in GPT-5 outputs, tracing how reinforcement learning fine-tuning phases can inadvertently introduce unintended model behaviours, and details the mitigations applied to resolve them.</description>
-      <pubDate>Wed, 29 Apr 2026 20:00:00 +0000</pubDate>
+      <description>OpenAI explains the root cause of quirky &#x27;goblin&#x27; personality artifacts in GPT-5 outputs, tracing how reinforcement learning fine-tuning phases can inadvertently introduce unintended model behaviours, and details the mitigations applied to resolve them.</description>
+      <pubDate>Wed, 29 Apr 2026 20:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://openai.com/index/where-the-goblins-came-from</guid>
       <category>Models</category>
     </item>
@@ -171,23 +171,23 @@
       <title>AI evals are becoming the new compute bottleneck</title>
       <link>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</link>
       <description>Hugging Face researchers argue that as model training costs fall, evaluation costs are emerging as the dominant compute bottleneck. Running rigorous evals at scale now consumes more compute than training for some use cases, prompting a rethink of eval efficiency, tooling, and benchmark design across the industry.</description>
-      <pubDate>Wed, 29 Apr 2026 16:45:09 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 16:45:09 GMT</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/evaleval/eval-costs-bottleneck</guid>
-      <category>Models,Coding</category>
+      <category>Models, Coding</category>
     </item>
     <item>
       <title>Powering AI Factories with NVIDIA Enterprise Reference Architectures</title>
       <link>https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/</link>
       <description>NVIDIA publishes enterprise reference architectures for AI factories — validated hardware-software blueprints for deploying agentic AI systems at scale with reliability and performance guarantees. The designs target organisations building production AI infrastructure for reasoning, automation, and intelligent decision-making workloads.</description>
-      <pubDate>Wed, 29 Apr 2026 16:41:57 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 16:41:57 GMT</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/</guid>
-      <category>Agents,Automation</category>
+      <category>Agents, Automation</category>
     </item>
     <item>
-      <title>Granite 4.1 LLMs: How They're Built</title>
+      <title>Granite 4.1 LLMs: How They&#x27;re Built</title>
       <link>https://huggingface.co/blog/ibm-granite/granite-4-1</link>
       <description>IBM shares training details for the Granite 4.1 LLM series, covering architecture, dataset curation, and alignment techniques. The post emphasises reliability and factual accuracy for enterprise business applications, positioning Granite as a controllable, enterprise-safe alternative to frontier consumer models.</description>
-      <pubDate>Wed, 29 Apr 2026 15:01:48 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 15:01:48 GMT</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/ibm-granite/granite-4-1</guid>
       <category>Models</category>
     </item>
@@ -195,57 +195,57 @@
       <title>Google AI Studio adds multi-chat sessions and integrated Search Grounding for the Gemini API</title>
       <link>https://x.com/OfficialLoganK/status/2049521160430457315</link>
       <description>Google AI Studio now supports running parallel Gemini chat sessions side-by-side, and Search Grounding is integrated directly into the Gemini API. Logan Kilpatrick teased more launches before Google I/O.</description>
-      <pubDate>Wed, 29 Apr 2026 08:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 08:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049521160430457315</guid>
-      <category>Models,Coding</category>
+      <category>Models, Coding</category>
     </item>
     <item>
       <title>Cybersecurity in the Intelligence Age</title>
       <link>https://openai.com/index/cybersecurity-in-the-intelligence-age</link>
       <description>OpenAI outlines a five-part action plan for strengthening cybersecurity using AI: democratising AI-powered cyber defence, protecting critical systems, combating adversarial AI use, building international norms, and partnering with governments. The post frames AI as both a threat vector and the primary defence tool for the intelligence era.</description>
-      <pubDate>Wed, 29 Apr 2026 04:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 04:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://openai.com/index/cybersecurity-in-the-intelligence-age</guid>
       <category>Governance</category>
     </item>
     <item>
       <title>Google launches Grounding With Exa for Gemini — agentic web search across billions of pages, partnership with Exa Labs</title>
       <link>https://x.com/OfficialLoganK/status/2049358795055546642</link>
-      <description>Google partnered with Exa Labs to ship "Grounding With Exa" inside Gemini, giving Gemini agentic web search across billions of indexed sites. Aimed at Gemini API developers building agents that need broad web retrieval.</description>
-      <pubDate>Wed, 29 Apr 2026 04:00:00 +0000</pubDate>
+      <description>Google partnered with Exa Labs to ship &quot;Grounding With Exa&quot; inside Gemini, giving Gemini agentic web search across billions of indexed sites. Aimed at Gemini API developers building agents that need broad web retrieval.</description>
+      <pubDate>Wed, 29 Apr 2026 04:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049358795055546642</guid>
-      <category>Agents,Models</category>
+      <category>Agents, Models</category>
     </item>
     <item>
       <title>DeepInfra on Hugging Face Inference Providers</title>
       <link>https://huggingface.co/blog/inference-providers-deepinfra</link>
-      <description>Hugging Face adds DeepInfra as an official inference provider, giving users direct access to a wide catalog of open models via DeepInfra's infrastructure from the HF hub. This extends the inference ecosystem alongside existing partners like Together AI and Fireworks AI, simplifying multi-provider model deployment.</description>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face adds DeepInfra as an official inference provider, giving users direct access to a wide catalog of open models via DeepInfra&#x27;s infrastructure from the HF hub. This extends the inference ecosystem alongside existing partners like Together AI and Fireworks AI, simplifying multi-provider model deployment.</description>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-deepinfra</guid>
-      <category>Models,Automation</category>
+      <category>Models, Automation</category>
     </item>
     <item>
       <title>TUANZ launches 2026 Digital Priorities Report: warns NZ innovation gap widening, urges national AI workforce framework</title>
       <link>https://www.rnz.co.nz/news/business/593697/tuanz-seeks-bold-leadership-from-government-over-ai-worker-training-national-framework</link>
-      <description>TUANZ released its 2026 Digital Priorities Report calling on government to lead on AI worker training, mandatory cybersecurity standards treating AI as digital employees under zero-trust, a national digital clearing house, and national digital ID. Report warns NZ has dropped to 23rd in the Network Readiness Index and that "Shadow AI" is expanding the attack surface.</description>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description>TUANZ released its 2026 Digital Priorities Report calling on government to lead on AI worker training, mandatory cybersecurity standards treating AI as digital employees under zero-trust, a national digital clearing house, and national digital ID. Report warns NZ has dropped to 23rd in the Network Readiness Index and that &quot;Shadow AI&quot; is expanding the attack surface.</description>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/business/593697/tuanz-seeks-bold-leadership-from-government-over-ai-worker-training-national-framework</guid>
       <category>Governance</category>
     </item>
     <item>
-      <title>Musk testifies in OpenAI trial: 'it is not okay to steal a charity'; judge warns both sides on social media</title>
+      <title>Musk testifies in OpenAI trial: &#x27;it is not okay to steal a charity&#x27;; judge warns both sides on social media</title>
       <link>http://www.techmeme.com/260428/p42#a260428p42</link>
-      <description>Elon Musk took the witness stand in the federal trial against OpenAI, arguing its nonprofit-to-for-profit conversion sets a dangerous precedent for charitable organisations. The presiding judge separately warned both Musk and Sam Altman to 'control your propensity to use social media to make things worse outside this courtroom'.</description>
-      <pubDate>Tue, 28 Apr 2026 21:20:00 +0000</pubDate>
+      <description>Elon Musk took the witness stand in the federal trial against OpenAI, arguing its nonprofit-to-for-profit conversion sets a dangerous precedent for charitable organisations. The presiding judge separately warned both Musk and Sam Altman to &#x27;control your propensity to use social media to make things worse outside this courtroom&#x27;.</description>
+      <pubDate>Tue, 28 Apr 2026 21:20:00 GMT</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260428/p42#a260428p42</guid>
       <category>Governance</category>
     </item>
     <item>
       <title>China unveils Lingshen supercomputer targeting 2+ exaFLOPS using domestic CPU-only architecture</title>
       <link>http://www.techmeme.com/260428/p37#a260428p37</link>
-      <description>China's National Supercomputing Center in Shenzhen unveiled the Lingshen project, aiming for over 2 exaFLOPS of performance using exclusively domestically manufactured processors. The initiative is part of China's wider effort to build sovereign AI compute infrastructure independent of NVIDIA and other US suppliers.</description>
-      <pubDate>Tue, 28 Apr 2026 20:05:00 +0000</pubDate>
+      <description>China&#x27;s National Supercomputing Center in Shenzhen unveiled the Lingshen project, aiming for over 2 exaFLOPS of performance using exclusively domestically manufactured processors. The initiative is part of China&#x27;s wider effort to build sovereign AI compute infrastructure independent of NVIDIA and other US suppliers.</description>
+      <pubDate>Tue, 28 Apr 2026 20:05:00 GMT</pubDate>
       <guid isPermaLink="true">http://www.techmeme.com/260428/p37#a260428p37</guid>
-      <category>Models,Governance</category>
+      <category>Models, Governance</category>
     </item>
   </channel>
 </rss>
