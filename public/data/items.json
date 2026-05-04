@@ -1,15 +1,243 @@
 {
-  "generated_at": "2026-05-03T18:09:03.060266Z",
-  "next_refresh_at": "2026-05-04T18:00:00Z",
+  "generated_at": "2026-05-04T18:09:35Z",
+  "next_refresh_at": "2026-05-05T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "newsflash": [
-    "e2a608c4c68d4da6"
-  ],
-  "daily_summary": "NIST's Center for AI Standards and Innovation released its first formal evaluation of DeepSeek V4 Pro, calling it the most capable Chinese model to date but roughly eight months behind leading US systems. WSJ reported that OpenAI staff have raised alarms over ChatGPT failing to escalate user disclosures of imminent violence, exposing gaps in safety incident response. Palo Alto Networks moved to acquire AI gateway startup Portkey for $120M-$140M, signalling that securing enterprise agent traffic is becoming its own product category.",
   "cover_image_url": "/data/cover.svg",
-  "cover_image_mobile_url": "/data/cover-mobile.png",
-  "cover_slice_urls": [],
+  "newsflash": [
+    "97d4fb13d552b36f",
+    "5a636d86e25a49fb",
+    "728a4d52e0da61a6",
+    "9ac1ee44dad66df6",
+    "7834e75059f0008a"
+  ],
+  "daily_summary": "Google published its April 2026 AI monthly recap, covering Gemini 3.1 Ultra's 2-million-token context window, Veo 3 video generation improvements, and deeper Workspace integrations. The Pentagon's exclusion of Anthropic from classified AI agreements continued to generate commentary, with Anthropic contesting its 'supply-chain risk' designation in court after refusing to allow its models in autonomous weapons systems. Frontier model activity is quiet today — GPT-5.5, Claude Opus 4.7, and Gemini 3.1 remain the current leading edge from late April.",
   "items": [
+    {
+      "id": "97d4fb13d552b36f",
+      "url": "https://www.nzherald.co.nz/business/companies/banking-finance/bnzs-books-take-352m-hit-as-bank-accounts-for-fact-ai-is-seeing-software-age-increasingly-quickly/premium/LWFI34WBXFE3DHR2VBQG7FW334",
+      "title": "BNZ books a $352m write-down as AI accelerates legacy software obsolescence",
+      "title_translated": null,
+      "source": "nzherald",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-04T20:00:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Bank of New Zealand recorded a $352 million write-down on legacy systems, citing AI-driven advancements that are rapidly aging existing software and lifting upgrade costs. The disclosure is the first material AI-related impairment in NZ banking and may foreshadow similar moves at peers.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "5a636d86e25a49fb",
+      "url": "https://www.reseller.co.nz/article/4166259/microsoft-helps-beca-to-add-ai-level-for-nzgd.html",
+      "title": "Beca uses Microsoft Azure and GPT-5.1 to add AI to New Zealand Geospatial Data platform",
+      "title_translated": null,
+      "source": "reseller-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-04T18:00:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Engineering firm Beca, working with Microsoft, integrated Azure OpenAI's GPT-5.1 into its BEYON system to add AI capabilities to the New Zealand Geospatial Data platform. The deployment focuses on natural-language querying of national infrastructure datasets.",
+      "tags": [
+        "Automation",
+        "Models"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "728a4d52e0da61a6",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "title": "The latest AI news we announced in April 2026",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-04T17:00:00Z",
+      "first_seen_at": "2026-05-04T18:09:35Z",
+      "summary": "Google's monthly AI updates recap for April 2026, covering Gemini 3.1 Ultra launch with 2M-token context window, Veo 3 video generation advances, and integrations across Google Workspace and Search.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "728a4d52e0da61a6",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "title": "Google recaps April 2026 AI updates across translation, developer tools, and Workspace",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-04T17:00:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Google published its April 2026 AI roundup, covering Gemini-driven translation upgrades, developer-tooling improvements, and new Workspace integrations. The recap consolidates announcements rather than surfacing net-new releases.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
+      "image_source": "og_image",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "9ac1ee44dad66df6",
+      "url": "https://www.calcalistech.com/ctechnews/article/dy5obf581",
+      "title": "Cisco acquires Astrix Security for ~$400M to monitor AI agent permissions",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-04T16:40:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Cisco is acquiring Israeli startup Astrix Security, an Anthropic and Menlo Ventures-backed company that monitors and controls permissions granted to AI agents. The deal underscores how managing autonomous-agent identities is becoming a discrete enterprise security category.",
+      "tags": [
+        "Agents",
+        "Governance"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "7834e75059f0008a",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-04/crypto-investor-haun-raises-1-billion-for-funds-expands-to-ai-agents",
+      "title": "Katie Haun closes $1B across two funds to back AI agent and financial-services startups",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-04T15:20:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Former Andreessen Horowitz partner Katie Haun raised $1 billion across two funds to invest in early- and later-stage companies at the intersection of financial services, AI, and alternative assets. The expansion beyond crypto reflects renewed conviction in agentic AI applications.",
+      "tags": [
+        "Agents"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c2755565b4e6aab4",
+      "url": "https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html",
+      "title": "Sierra raises $950M Series E at $15.8B valuation for AI customer-service agents",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-04T15:15:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Bret Taylor's Sierra closed $950 million in Series E funding led by Tiger Global and GV at a $15.8 billion valuation, up from $10 billion in 2025. The company builds AI agents for customer service and reports rapid enterprise adoption.",
+      "tags": [
+        "Agents"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a68610812323c75e",
+      "url": "https://www.anthropic.com/news/anthropic-financial-services-partnership",
+      "title": "Anthropic announces $1.5B joint venture with Blackstone, Goldman Sachs, and Hellman & Friedman to deploy Claude across PE-backed companies",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-04T14:30:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Anthropic unveiled a $1.5 billion joint venture with Blackstone, Goldman Sachs, and Hellman & Friedman to industrialise Claude deployments across the firms' private-equity portfolios. The JV targets workflow rebuilds in customer support, finance, and coding rather than raw model access, signalling a shift toward managed enterprise AI deployment.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 4,
+      "related_ids": []
+    },
+    {
+      "id": "9659759a62228f67",
+      "url": "https://x.com/i/status/2051318581691142533",
+      "title": "Compute Optimal Tokenization research sweeps tokenizers, params, and data across LLM compute budgets",
+      "title_translated": null,
+      "source": "TomLimi",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-05-04T13:30:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "Tomasz Limisiewicz announced \"Compute Optimal Tokenization\" research, sweeping tokenizers, model parameters, and training data across compute budgets to derive Chinchilla-style guidance for tokenizer choice. The work suggests tokenizer design is an underappreciated lever for compute efficiency at frontier scale.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 0.3725,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b36c5a725ff9280e",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-deployment-company-tpg-softbank",
+      "title": "OpenAI launches $10B \"Deployment Company\" JV with TPG and SoftBank to industrialise AI rollouts",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-04T13:00:00Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "OpenAI is forming a $10 billion joint venture with private-equity firms including TPG and SoftBank to deploy AI across roughly 2,000 portfolio companies. The vehicle mirrors Anthropic's smaller PE deal and emphasises selling end-to-end workflow transformation rather than API access.",
+      "tags": [
+        "Models",
+        "Automation"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 1.0,
+      "mention_count": 3,
+      "related_ids": []
+    },
+    {
+      "id": "89f78b7ddf368aa2",
+      "url": "https://github.com/aattaran/deepclaude",
+      "title": "DeepClaude — Claude Code agent loop integrated with DeepSeek V4 Pro",
+      "title_translated": null,
+      "source": "hackernews",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-03T22:13:20Z",
+      "first_seen_at": "2026-05-04T18:08:21.475811Z",
+      "summary": "DeepClaude pairs Claude Code's agent loop with DeepSeek V4 Pro for code generation, attempting to combine Claude's tool-use orchestration with a cheaper Chinese open-weights backend. The project trended on Hacker News with 600+ points.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "image_url": null,
+      "image_source": "none",
+      "trending_score": 0.3129,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "64d97dbebd8f6ab1",
       "url": "https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro",
@@ -27,7 +255,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.5863,
+      "trending_score": 0.0793,
       "mention_count": 1,
       "related_ids": []
     },
@@ -47,7 +275,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.5624,
+      "trending_score": 0.0761,
       "mention_count": 1,
       "related_ids": []
     },
@@ -69,7 +297,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.5508,
+      "trending_score": 0.0745,
       "mention_count": 1,
       "related_ids": []
     },
@@ -90,7 +318,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.3416,
+      "trending_score": 0.0462,
       "mention_count": 1,
       "related_ids": []
     },
@@ -111,7 +339,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.4463,
+      "trending_score": 0.0603,
       "mention_count": 1,
       "related_ids": []
     },
@@ -132,7 +360,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.2072,
+      "trending_score": 0.028,
       "mention_count": 2,
       "related_ids": []
     },
@@ -153,7 +381,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0877,
+      "trending_score": 0.0119,
       "mention_count": 2,
       "related_ids": []
     },
@@ -174,7 +402,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.1256,
+      "trending_score": 0.017,
       "mention_count": 2,
       "related_ids": []
     },
@@ -195,7 +423,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0532,
+      "trending_score": 0.0072,
       "mention_count": 2,
       "related_ids": []
     },
@@ -216,7 +444,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0357,
+      "trending_score": 0.0048,
       "mention_count": 1,
       "related_ids": []
     },
@@ -236,7 +464,7 @@
         "Content"
       ],
       "image_url": "https://x.ai/news/grok-custom-voices/opengraph-image-1dmibn.png?090657c897727150",
-      "trending_score": 0.0578,
+      "trending_score": 0.0078,
       "mention_count": 1,
       "related_ids": []
     },
@@ -255,7 +483,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/nemotron-labs-openclaw-1920x1080-1.jpg",
-      "trending_score": 0.0095,
+      "trending_score": 0.0013,
       "mention_count": 1,
       "related_ids": []
     },
@@ -275,7 +503,7 @@
         "Content"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.002,
+      "trending_score": 0.0003,
       "mention_count": 2,
       "related_ids": []
     },
@@ -296,7 +524,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0074,
+      "trending_score": 0.001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -315,7 +543,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/image4-6.webp",
-      "trending_score": 0.0074,
+      "trending_score": 0.001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -335,7 +563,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/workstation-tech-blog-600x338-1-500x282.gif",
-      "trending_score": 0.007,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": []
     },
@@ -355,7 +583,7 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Automate-Agent-Workflow.webp",
-      "trending_score": 0.0068,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": []
     },
@@ -375,7 +603,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0013,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -394,7 +622,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -413,7 +641,7 @@
         "Models"
       ],
       "image_url": "https://lh3.googleusercontent.com/z2sN_eil5tgap-Ji1W_4l1xnbfLRghzxdXzyCMdnKFVW1xTfgm0o8bpg9pNwE4RcHTR2QGEGhGx7LFn7Q6bg-LEPBW20d4Djo3Erii8PBYYrWz36=w528-h297-n-nu-rw-lo",
-      "trending_score": 0.005,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": []
     },
@@ -433,7 +661,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -453,7 +681,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -472,7 +700,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-stt-and-tts-apis/opengraph-image-1w4o4b.png?0fdbe00a983a8d52",
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -491,7 +719,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -510,7 +738,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0013,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -530,7 +758,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png",
-      "trending_score": 0.0014,
+      "trending_score": 0.0002,
       "mention_count": 3,
       "related_ids": []
     },
@@ -550,7 +778,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory.webp",
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -569,7 +797,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-1.png",
-      "trending_score": 0.0011,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -589,7 +817,7 @@
         "Coding"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -608,7 +836,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0004,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -628,7 +856,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -648,7 +876,7 @@
         "Automation"
       ],
       "image_url": "https://huggingface.co/blog/assets/inference-providers/welcome-deepinfra.jpg",
-      "trending_score": 0.0003,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -667,7 +895,7 @@
         "Governance"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -686,7 +914,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -706,7 +934,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -726,7 +954,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -745,7 +973,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/biomolecule-1.webp",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -765,7 +993,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -784,7 +1012,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -803,7 +1031,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -822,7 +1050,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -842,7 +1070,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -862,7 +1090,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -881,7 +1109,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -901,7 +1129,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1674,6 +1902,25 @@
       "related_ids": []
     },
     {
+      "id": "b156fcbc8e043598",
+      "url": "http://www.techmeme.com/260424/p44#a260424p44",
+      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T20:10:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "d51658229d495c24",
       "url": "https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister",
       "title": "NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI",
@@ -1754,45 +2001,6 @@
       "related_ids": []
     },
     {
-      "id": "8e494cf5218b0f60",
-      "url": "https://x.com/i/status/2047728242707046599",
-      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
-      "title_translated": null,
-      "source": "x-governance",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-24T23:00:00Z",
-      "first_seen_at": "2026-04-24T18:15:11Z",
-      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "b156fcbc8e043598",
-      "url": "http://www.techmeme.com/260424/p44#a260424p44",
-      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T20:10:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "8131ce6e063313c5",
       "url": "http://www.techmeme.com/260424/p43#a260424p43",
       "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
@@ -1813,23 +2021,24 @@
       "related_ids": []
     },
     {
-      "id": "caecb50726ec83a1",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "title": "8 Gemini tips for organizing your space (and life)",
+      "id": "8e494cf5218b0f60",
+      "url": "https://x.com/i/status/2047728242707046599",
+      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
       "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
+      "source": "x-governance",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-24T19:00:00Z",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "published_at": "2026-04-24T23:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
       "tags": [
-        "Models"
+        "Governance"
       ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "cover_fallback"
     },
     {
       "id": "c2e9c3f0479e1b68",
@@ -1846,6 +2055,45 @@
         "Governance"
       ],
       "image_url": "https://www.reuters.com/resizer/v2/KIK4AUMDLBLZ3MA7ULN3KENZZQ.jpg?auth=4daeda6a00bb880345fa05de17b38bfaba770f66458d51fd3a707542e01f98ee&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "858699580058a9a4",
+      "url": "http://www.techmeme.com/260424/p33#a260424p33",
+      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T16:45:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "caecb50726ec83a1",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T19:00:00Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1904,26 +2152,6 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "858699580058a9a4",
-      "url": "http://www.techmeme.com/260424/p33#a260424p33",
-      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T16:45:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -2881,7 +3109,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "trending_score": 0.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -3762,225 +3990,6 @@
       "related_ids": [],
       "image_url": "https://unavatar.io/x/ylecun",
       "image_type": "avatar"
-    },
-    {
-      "id": "cded0d0ae6dfe183",
-      "url": "https://x.com/i/status/2046494659644399749",
-      "title": "OpenAI Images v2 rolling out to all ChatGPT accounts",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-21T09:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "OpenAI Images v2, an upgraded image generation capability, is now available across all ChatGPT tiers. Confirmed via Logan Kilpatrick on X.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/OfficialLoganK",
-      "image_type": "avatar"
-    },
-    {
-      "id": "56ebdace8acca49f",
-      "url": "https://x.com/i/status/2046464332444160074",
-      "title": "Anthropic launches Claude Design, hiring senior designers at $400K+",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-21T08:00:00Z",
-      "first_seen_at": "2026-04-21T11:06:57.669467Z",
-      "summary": "Anthropic announces Claude Design and is hiring senior designers at $400K+ compensation. Signals a design-first product direction for Claude alongside the engineering-centric Claude Code push.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/OfficialLoganK",
-      "image_type": "avatar"
-    },
-    {
-      "id": "23cd8736e18ef22a",
-      "url": "https://technewzealand.org.nz/2026/04/21/when-ai-quietly-shifts-what-organisations-value/",
-      "title": "When AI quietly shifts what organisations value",
-      "title_translated": null,
-      "source": "tech-nz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-21T03:59:15Z",
-      "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Tech New Zealand examines how generative AI embedded in education practice can gradually reshape institutional values — a \"value drift\" similar to how social media quietly rewrote norms around privacy. Relevant for Aotearoa organisations adopting AI without explicit policy guardrails.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://technewzealand.org.nz/wp-content/uploads/sites/44/2026/04/EdTech-Website-Event-Banner-23-1024x455.png"
-    },
-    {
-      "id": "b3d0897aba68e123",
-      "url": "https://docs.openclaw.ai/providers/anthropic",
-      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
-      "title_translated": null,
-      "source": "hn-ai",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-21T03:43:03Z",
-      "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Anthropic has updated its provider documentation to permit OpenClaw-style Claude CLI integrations after a prior restriction. The move re-opens a popular path for local agent tooling that had been in limbo for two weeks. HN front page with 465 points.",
-      "tags": [
-        "Coding",
-        "Skills",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://clawdhub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DProviders%26title%3DAnthropic%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclawdhub%252FdpADRo8IUoiDztzJ%252Fassets%252Fpixel-lobster.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DdpADRo8IUoiDztzJ%2526q%253D85%2526s%253D8fdf719fb6d3eaad7c65231385bf28e5%26primaryColor%3D%2523FF5A36%26lightColor%3D%2523FF8A6B%26darkColor%3D%2523FF5A36%26backgroundLight%3D%2523ffffff%26backgroundDark%3D%25230e0c0d&w=1200&q=100"
-    },
-    {
-      "id": "dac127f4fb18d708",
-      "url": "https://x.com/i/status/2046393908629004443",
-      "title": "Google: Gemini expands in Chrome to more Asia-Pacific countries with summarization and image editing",
-      "title_translated": null,
-      "source": "google-x",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-21T02:00:00Z",
-      "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "Google announced Gemini features in Chrome are expanding to more Asia-Pacific countries, adding page summarization, image editing, and broader integrations. The rollout extends Google's browser-native AI layer to a wider international audience as part of Chrome's AI-first roadmap.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/google-x",
-      "image_type": "avatar"
-    },
-    {
-      "id": "477e516231cd562d",
-      "url": "https://www.ft.com/content/87ea0ced-bf3c-4822-8dda-437241570ded",
-      "title": "Jeff Bezos' Project Prometheus nears $10B fundraising deal at $38B valuation",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-21T01:25:01Z",
-      "first_seen_at": "2026-04-21T03:06:26.082027Z",
-      "summary": "Jeff Bezos' AI industrial venture Project Prometheus is nearing completion of a $10 billion fundraising round at a $38 billion post-money valuation, following an initial $6.2 billion raise in November 2025. The company focuses on applying AI to industrial applications, positioning it as a major new frontier AI player alongside established labs.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc142aba1-b453-4312-96e2-c86dad5b8c42.jpg?source=next-barrier-page"
-    },
-    {
-      "id": "5a62757c703dd941",
-      "url": "https://theaicorner.co.nz/p/anthropic-board-director-nz-has-5-years-not-20",
-      "title": "Anthropic board director Chris Liddell: NZ has 5 years — not 20 — to adapt to AI",
-      "title_translated": null,
-      "source": "theaicorner",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-21T01:00:00Z",
-      "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "Chris Liddell, Anthropic board director and NEXT Foundation chairman, warned New Zealand it has 5 years — not 20 — to adapt or risk falling behind in the AI era. His comments during Microsoft's Auckland AI summit frame AI readiness as a national emergency.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2e471680-c77a-4665-8b9a-b72ea8db7b8e/The_AI_Corner__Logo_1200_x_630_.png?t=1756538663"
-    },
-    {
-      "id": "767083dc76ef5a32",
-      "url": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
-      "title": "How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas",
-      "title_translated": null,
-      "source": "huggingface",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-21T00:40:10Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Guide on building Korean AI agents using NVIDIA Nemotron with synthetic personas to ensure demographic accuracy and cultural relevance in AI systems.",
-      "tags": [
-        "Agents"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/build-korean-agents-with-nemotron-personas.png"
-    },
-    {
-      "id": "95a943a002619f61",
-      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
-      "title": "Moonshot Kimi K2.6: world's leading Open Model refreshes to catch up to Opus 4.6",
-      "title_translated": null,
-      "source": "latent-space",
-      "source_tier": 2,
-      "region": "cn",
-      "published_at": "2026-04-21T00:19:33Z",
-      "first_seen_at": "2026-04-21T01:03:55.742300Z",
-      "summary": "Moonshot released Kimi K2.6, a 1T-parameter MoE open model with 32B active parameters, achieving strong performance on coding and agent benchmarks. Capabilities in long-horizon execution and multi-agent coordination.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://substackcdn.com/image/fetch/$s_!t76W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba3bb8e1-94f7-4acd-a98b-e7d2ce0d577e_2886x1483.png"
-    },
-    {
-      "id": "9eb37fbe11286fd6",
-      "url": "https://technewzealand.org.nz/category/nztech-newsletter/",
-      "title": "NZTech newsletter: \"When AI quietly shifts what organisations value\"",
-      "title_translated": null,
-      "source": "nztech",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-21T00:00:00Z",
-      "first_seen_at": "2026-04-25T18:10:00.094110Z",
-      "summary": "NZTech's 21 April newsletter argues that the most consequential AI effects on Kiwi organisations are not headline product launches but slow shifts in what teams come to value: speed of synthesis, willingness to delegate judgement, tolerance for ambiguous output. Frames this as a leadership rather than tooling problem.",
-      "tags": [
-        "Skills",
-        "Content"
-      ],
-      "image_url": null,
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "373897d12f779670",
-      "url": "https://huggingface.co/blog/cybersecurity-openness",
-      "title": "AI and the Future of Cybersecurity: Why Openness Matters",
-      "title_translated": null,
-      "source": "huggingface",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-21T00:00:00Z",
-      "first_seen_at": "2026-04-21T20:48:22Z",
-      "summary": "HuggingFace argues that open AI models are essential for cybersecurity: open weights let defenders audit, adapt, and harden AI systems without vendor lock-in, while closed models create opaque attack surfaces. The post surveys open-source security tooling built on HF-hosted models and calls for the community to prioritise security benchmarks alongside capability evals.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png"
     }
   ]
 }

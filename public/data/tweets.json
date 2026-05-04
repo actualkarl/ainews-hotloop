@@ -1,4 +1,115 @@
 {
-  "generated_at": "2026-05-03T18:09:20.018192Z",
-  "tweets": []
+  "generated_at": "2026-05-04T18:10:00.599587Z",
+  "tweets": [
+    {
+      "id": "2051290591737323786",
+      "handle": "AndrewCurran_",
+      "author_name": "Andrew Curran",
+      "url": "https://x.com/AndrewCurran_/status/2051290591737323786",
+      "text": "Anthropic officially announces $1.5B JV with Wall Street firms (Blackstone, Goldman, Hellman & Friedman) to sell AI tools to PE-backed companies.",
+      "published_at": "2026-05-04T13:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051310352890302630",
+      "handle": "rohanpaul_ai",
+      "author_name": "Rohan Paul",
+      "url": "https://x.com/rohanpaul_ai/status/2051310352890302630",
+      "text": "OpenAI launches $10B \"Deployment Company\" JV with PE firms like TPG and SoftBank to deploy AI in businesses; Anthropic's similar $1.5B deal noted.",
+      "published_at": "2026-05-04T14:45:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051318922805436896",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2051318922805436896",
+      "text": "OpenAI plans something nice for everyone who applied to the GPT-5.5 party but couldn't attend.",
+      "published_at": "2026-05-04T15:18:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051318581691142533",
+      "handle": "TomLimi",
+      "author_name": "Tomasz Limisiewicz",
+      "url": "https://x.com/TomLimi/status/2051318581691142533",
+      "text": "New research on Compute Optimal Tokenization for LLMs, sweeping tokenizers, params, and data across compute budgets.",
+      "published_at": "2026-05-04T15:17:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051354922969698316",
+      "handle": "vladtenev",
+      "author_name": "Vlad Tenev",
+      "url": "https://x.com/vladtenev/status/2051354922969698316",
+      "text": "AGI development is huge; working to let everyday investors access private AI companies like OpenAI.",
+      "published_at": "2026-05-04T17:42:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051339318883459117",
+      "handle": "coreyganim",
+      "author_name": "Corey Ganim",
+      "url": "https://x.com/coreyganim/status/2051339318883459117",
+      "text": "Andrej Karpathy's \"second brain\" architecture using Claude—raw inputs, wiki organization, outputs folder, and CLAUDE.md manual.",
+      "published_at": "2026-05-04T16:40:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051334413448053094",
+      "handle": "himanshu",
+      "author_name": "himanshu",
+      "url": "https://x.com/himanshu/status/2051334413448053094",
+      "text": "Introducing Physera, a lab rethinking AI stacks for efficient models, behavioral simulations, and multimodal environments.",
+      "published_at": "2026-05-04T16:21:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051347785761616101",
+      "handle": "GaryMarcus",
+      "author_name": "Gary Marcus",
+      "url": "https://x.com/GaryMarcus/status/2051347785761616101",
+      "text": "OpenAI's nonprofit-to-for-profit switch misled donors, employees, and the public—not just Elon Musk.",
+      "published_at": "2026-05-04T17:14:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051316654915686852",
+      "handle": "Shawnife",
+      "author_name": "Shawn",
+      "url": "https://x.com/Shawnife/status/2051316654915686852",
+      "text": "12 things Claude can do that most people haven't tried yet.",
+      "published_at": "2026-05-04T15:09:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051350188724273397",
+      "handle": "brenz",
+      "author_name": "brenz.",
+      "url": "https://x.com/brenz/status/2051350188724273397",
+      "text": "Claude \"Cowork\" setup: folders for context (sobre-mi, outputs, templates) to ditch long prompts forever.",
+      "published_at": "2026-05-04T17:24:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }

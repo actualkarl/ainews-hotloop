@@ -6,19 +6,107 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 03 May 2026 18:09:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 18:09:35 +0000</lastBuildDate>
+    <item>
+      <title>BNZ books a $352m write-down as AI accelerates legacy software obsolescence</title>
+      <link>https://www.nzherald.co.nz/business/companies/banking-finance/bnzs-books-take-352m-hit-as-bank-accounts-for-fact-ai-is-seeing-software-age-increasingly-quickly/premium/LWFI34WBXFE3DHR2VBQG7FW334</link>
+      <description>Bank of New Zealand recorded a $352 million write-down on legacy systems, citing AI-driven advancements that are rapidly aging existing software and lifting upgrade costs. The disclosure is the first material AI-related impairment in NZ banking and may foreshadow similar moves at peers.</description>
+      <pubDate>Mon, 04 May 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nzherald.co.nz/business/companies/banking-finance/bnzs-books-take-352m-hit-as-bank-accounts-for-fact-ai-is-seeing-software-age-increasingly-quickly/premium/LWFI34WBXFE3DHR2VBQG7FW334</guid>
+      <category>Governance, Automation</category>
+    </item>
+    <item>
+      <title>Beca uses Microsoft Azure and GPT-5.1 to add AI to New Zealand Geospatial Data platform</title>
+      <link>https://www.reseller.co.nz/article/4166259/microsoft-helps-beca-to-add-ai-level-for-nzgd.html</link>
+      <description>Engineering firm Beca, working with Microsoft, integrated Azure OpenAI&#x27;s GPT-5.1 into its BEYON system to add AI capabilities to the New Zealand Geospatial Data platform. The deployment focuses on natural-language querying of national infrastructure datasets.</description>
+      <pubDate>Mon, 04 May 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.reseller.co.nz/article/4166259/microsoft-helps-beca-to-add-ai-level-for-nzgd.html</guid>
+      <category>Automation, Models</category>
+    </item>
+    <item>
+      <title>The latest AI news we announced in April 2026</title>
+      <link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</link>
+      <description>Google&#x27;s monthly AI updates recap for April 2026, covering Gemini 3.1 Ultra launch with 2M-token context window, Veo 3 video generation advances, and integrations across Google Workspace and Search.</description>
+      <pubDate>Mon, 04 May 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Google recaps April 2026 AI updates across translation, developer tools, and Workspace</title>
+      <link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</link>
+      <description>Google published its April 2026 AI roundup, covering Gemini-driven translation upgrades, developer-tooling improvements, and new Workspace integrations. The recap consolidates announcements rather than surfacing net-new releases.</description>
+      <pubDate>Mon, 04 May 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>Cisco acquires Astrix Security for ~$400M to monitor AI agent permissions</title>
+      <link>https://www.calcalistech.com/ctechnews/article/dy5obf581</link>
+      <description>Cisco is acquiring Israeli startup Astrix Security, an Anthropic and Menlo Ventures-backed company that monitors and controls permissions granted to AI agents. The deal underscores how managing autonomous-agent identities is becoming a discrete enterprise security category.</description>
+      <pubDate>Mon, 04 May 2026 16:40:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.calcalistech.com/ctechnews/article/dy5obf581</guid>
+      <category>Agents, Governance</category>
+    </item>
+    <item>
+      <title>Katie Haun closes $1B across two funds to back AI agent and financial-services startups</title>
+      <link>https://www.bloomberg.com/news/articles/2026-05-04/crypto-investor-haun-raises-1-billion-for-funds-expands-to-ai-agents</link>
+      <description>Former Andreessen Horowitz partner Katie Haun raised $1 billion across two funds to invest in early- and later-stage companies at the intersection of financial services, AI, and alternative assets. The expansion beyond crypto reflects renewed conviction in agentic AI applications.</description>
+      <pubDate>Mon, 04 May 2026 15:20:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-04/crypto-investor-haun-raises-1-billion-for-funds-expands-to-ai-agents</guid>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>Sierra raises $950M Series E at $15.8B valuation for AI customer-service agents</title>
+      <link>https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html</link>
+      <description>Bret Taylor&#x27;s Sierra closed $950 million in Series E funding led by Tiger Global and GV at a $15.8 billion valuation, up from $10 billion in 2025. The company builds AI agents for customer service and reports rapid enterprise adoption.</description>
+      <pubDate>Mon, 04 May 2026 15:15:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html</guid>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>Anthropic announces $1.5B joint venture with Blackstone, Goldman Sachs, and Hellman &amp; Friedman to deploy Claude across PE-backed companies</title>
+      <link>https://www.anthropic.com/news/anthropic-financial-services-partnership</link>
+      <description>Anthropic unveiled a $1.5 billion joint venture with Blackstone, Goldman Sachs, and Hellman &amp; Friedman to industrialise Claude deployments across the firms&#x27; private-equity portfolios. The JV targets workflow rebuilds in customer support, finance, and coding rather than raw model access, signalling a shift toward managed enterprise AI deployment.</description>
+      <pubDate>Mon, 04 May 2026 14:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-financial-services-partnership</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>Compute Optimal Tokenization research sweeps tokenizers, params, and data across LLM compute budgets</title>
+      <link>https://x.com/i/status/2051318581691142533</link>
+      <description>Tomasz Limisiewicz announced &quot;Compute Optimal Tokenization&quot; research, sweeping tokenizers, model parameters, and training data across compute budgets to derive Chinchilla-style guidance for tokenizer choice. The work suggests tokenizer design is an underappreciated lever for compute efficiency at frontier scale.</description>
+      <pubDate>Mon, 04 May 2026 13:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/i/status/2051318581691142533</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>OpenAI launches $10B &quot;Deployment Company&quot; JV with TPG and SoftBank to industrialise AI rollouts</title>
+      <link>https://www.bloomberg.com/news/articles/2026-05-04/openai-deployment-company-tpg-softbank</link>
+      <description>OpenAI is forming a $10 billion joint venture with private-equity firms including TPG and SoftBank to deploy AI across roughly 2,000 portfolio companies. The vehicle mirrors Anthropic&#x27;s smaller PE deal and emphasises selling end-to-end workflow transformation rather than API access.</description>
+      <pubDate>Mon, 04 May 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-04/openai-deployment-company-tpg-softbank</guid>
+      <category>Models, Automation</category>
+    </item>
+    <item>
+      <title>DeepClaude — Claude Code agent loop integrated with DeepSeek V4 Pro</title>
+      <link>https://github.com/aattaran/deepclaude</link>
+      <description>DeepClaude pairs Claude Code&#x27;s agent loop with DeepSeek V4 Pro for code generation, attempting to combine Claude&#x27;s tool-use orchestration with a cheaper Chinese open-weights backend. The project trended on Hacker News with 600+ points.</description>
+      <pubDate>Sun, 03 May 2026 22:13:20 +0000</pubDate>
+      <guid isPermaLink="true">https://github.com/aattaran/deepclaude</guid>
+      <category>Coding, Agents</category>
+    </item>
     <item>
       <title>NIST CAISI evaluation: DeepSeek V4 Pro trails leading US AI models by about eight months</title>
       <link>https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro</link>
-      <description>NIST's Center for AI Standards and Innovation (CAISI) assessed DeepSeek V4 Pro as the most capable Chinese model to date but found it lags top US systems by roughly eight months on capability benchmarks. The evaluation is the first formal US government performance gap measurement for a Chinese frontier model.</description>
+      <description>NIST&#x27;s Center for AI Standards and Innovation (CAISI) assessed DeepSeek V4 Pro as the most capable Chinese model to date but found it lags top US systems by roughly eight months on capability benchmarks. The evaluation is the first formal US government performance gap measurement for a Chinese frontier model.</description>
       <pubDate>Sun, 03 May 2026 05:45:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro</guid>
       <category>Models, Governance</category>
     </item>
     <item>
-      <title>OpenAI employees raise alarm over ChatGPT's failure to escalate violence threats to law enforcement</title>
+      <title>OpenAI employees raise alarm over ChatGPT&#x27;s failure to escalate violence threats to law enforcement</title>
       <link>https://www.wsj.com/us-news/chatgpt-mass-shooting-openai-78a436d1</link>
-      <description>Internal OpenAI staff, per WSJ reporting, flagged that ChatGPT failed to escalate or alert authorities when users described real-world violence plans, including a recent mass shooting case. The disclosures highlight gaps in OpenAI's safety review and incident-response protocols for users disclosing imminent harm.</description>
+      <description>Internal OpenAI staff, per WSJ reporting, flagged that ChatGPT failed to escalate or alert authorities when users described real-world violence plans, including a recent mass shooting case. The disclosures highlight gaps in OpenAI&#x27;s safety review and incident-response protocols for users disclosing imminent harm.</description>
       <pubDate>Sun, 03 May 2026 05:15:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.wsj.com/us-news/chatgpt-mass-shooting-openai-78a436d1</guid>
       <category>Governance</category>
@@ -34,7 +122,7 @@
     <item>
       <title>NZ Maritime Operations Centre upgrade adds AI for alarm consolidation and monitoring</title>
       <link>https://www.rnz.co.nz/news/national/594089/new-zealand-s-maritime-operations-centre-gets-state-of-the-art-upgrade</link>
-      <description>Wellington's Maritime Operations Centre is rolling out an AI layer that consolidates the hundreds-to-thousands of alarms operators face into the two or three that actually need attention, per Kordia CEO Neil Livingston. He framed the system as assisting rather than replacing human operators in safety-critical maritime monitoring.</description>
+      <description>Wellington&#x27;s Maritime Operations Centre is rolling out an AI layer that consolidates the hundreds-to-thousands of alarms operators face into the two or three that actually need attention, per Kordia CEO Neil Livingston. He framed the system as assisting rather than replacing human operators in safety-critical maritime monitoring.</description>
       <pubDate>Sat, 02 May 2026 23:16:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/national/594089/new-zealand-s-maritime-operations-centre-gets-state-of-the-art-upgrade</guid>
       <category>Automation, Governance</category>
@@ -50,7 +138,7 @@
     <item>
       <title>NCSC-NZ + Five Eyes issue joint guidance on careful adoption of agentic AI</title>
       <link>https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf</link>
-      <description>New Zealand's National Cyber Security Centre, alongside Five Eyes partners, released joint guidance on agentic AI deployment. The document warns that LLM-powered agents inherit prompt-injection and data-poisoning risks and outlines security expectations across sectors.</description>
+      <description>New Zealand&#x27;s National Cyber Security Centre, alongside Five Eyes partners, released joint guidance on agentic AI deployment. The document warns that LLM-powered agents inherit prompt-injection and data-poisoning risks and outlines security expectations across sectors.</description>
       <pubDate>Sat, 02 May 2026 06:09:23 +0000</pubDate>
       <guid isPermaLink="true">https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf</guid>
       <category>Governance, Agents</category>
@@ -58,7 +146,7 @@
     <item>
       <title>Pentagon strikes AI deals with seven big tech firms after shunning Anthropic</title>
       <link>https://www.rnz.co.nz/news/world/594041/pentagon-strikes-deals-with-seven-big-tech-companies-after-shunning-anthropic</link>
-      <description>The US Department of Defense awarded AI contracts to seven major tech vendors but excluded Anthropic, reportedly due to Anthropic's restrictions on military use. The deals widen access to frontier models for defence applications.</description>
+      <description>The US Department of Defense awarded AI contracts to seven major tech vendors but excluded Anthropic, reportedly due to Anthropic&#x27;s restrictions on military use. The deals widen access to frontier models for defence applications.</description>
       <pubDate>Sat, 02 May 2026 04:09:23 +0000</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/world/594041/pentagon-strikes-deals-with-seven-big-tech-companies-after-shunning-anthropic</guid>
       <category>Governance, Models</category>
@@ -66,7 +154,7 @@
     <item>
       <title>Anthropic opens Sydney office, names Theo Hourmouzis GM for Australia and New Zealand</title>
       <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
-      <description>Anthropic has formalised its Australia/New Zealand presence with a Sydney office and ex-Snowflake VP Theo Hourmouzis as General Manager. The move signals deeper enterprise sales motion in the region, alongside partnerships such as TrendAI's Claude Opus 4.7 deployment.</description>
+      <description>Anthropic has formalised its Australia/New Zealand presence with a Sydney office and ex-Snowflake VP Theo Hourmouzis as General Manager. The move signals deeper enterprise sales motion in the region, alongside partnerships such as TrendAI&#x27;s Claude Opus 4.7 deployment.</description>
       <pubDate>Sat, 02 May 2026 00:09:23 +0000</pubDate>
       <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
       <category>Governance, Models</category>
@@ -82,7 +170,7 @@
     <item>
       <title>TrendAI deepens Anthropic partnership using Claude Opus 4.7 for vulnerability research</title>
       <link>https://securitybrief.co.nz/story/trendai-deepens-anthropic-tie-up-with-claude-opus-4-7</link>
-      <description>TrendAI expanded its Anthropic partnership, using Claude Opus 4.7 to power agentic vulnerability research workflows. Marketed as a regional AI-security play tied to Anthropic's new A/NZ presence.</description>
+      <description>TrendAI expanded its Anthropic partnership, using Claude Opus 4.7 to power agentic vulnerability research workflows. Marketed as a regional AI-security play tied to Anthropic&#x27;s new A/NZ presence.</description>
       <pubDate>Fri, 01 May 2026 20:09:23 +0000</pubDate>
       <guid isPermaLink="true">https://securitybrief.co.nz/story/trendai-deepens-anthropic-tie-up-with-claude-opus-4-7</guid>
       <category>Agents, Models</category>
@@ -98,13 +186,13 @@
     <item>
       <title>Nemotron Labs: What OpenClaw Agents Mean for Every Organization</title>
       <link>https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/</link>
-      <description>By early 2026, the open-source OpenClaw agent project crossed 100,000 GitHub stars. NVIDIA's Nemotron Labs examines how OpenClaw's modular, composable approach to autonomous AI agents can be applied across enterprise workflows, from supply chain orchestration to customer operations.</description>
+      <description>By early 2026, the open-source OpenClaw agent project crossed 100,000 GitHub stars. NVIDIA&#x27;s Nemotron Labs examines how OpenClaw&#x27;s modular, composable approach to autonomous AI agents can be applied across enterprise workflows, from supply chain orchestration to customer operations.</description>
       <pubDate>Thu, 30 Apr 2026 20:00:39 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/</guid>
       <category>Agents</category>
     </item>
     <item>
-      <title>Andrew Ng launches "AI Prompting for Everyone" course</title>
+      <title>Andrew Ng launches &quot;AI Prompting for Everyone&quot; course</title>
       <link>https://x.com/AndrewYNg/status/2049886895530967534</link>
       <description>Andrew Ng announced a new course teaching prompting techniques applicable across ChatGPT, Gemini, and Claude. Covers deep research, attaching docs and images for context, and developing intuition for model behaviour.</description>
       <pubDate>Thu, 30 Apr 2026 20:00:00 +0000</pubDate>
@@ -114,7 +202,7 @@
     <item>
       <title>NVIDIA ships TensorRT for RTX runtime to speed up Unreal Engine NNE inference</title>
       <link>https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/</link>
-      <description>NVIDIA released a TensorRT for RTX runtime integration for Unreal Engine's Neural Network Engine (NNE), letting game developers run on-device neural inference for graphics, animation, and AI gameplay using the same engine path. The runtime targets the consumer RTX install base for shipped titles.</description>
+      <description>NVIDIA released a TensorRT for RTX runtime integration for Unreal Engine&#x27;s Neural Network Engine (NNE), letting game developers run on-device neural inference for graphics, animation, and AI gameplay using the same engine path. The runtime targets the consumer RTX install base for shipped titles.</description>
       <pubDate>Thu, 30 Apr 2026 17:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/speed-up-unreal-engine-nne-inference-with-nvidia-tensorrt-for-rtx-runtime/</guid>
       <category>Models, Coding</category>
@@ -152,100 +240,12 @@
       <category>Models, Governance</category>
     </item>
     <item>
-      <title>Logan Kilpatrick: Google "pushing Gemini full gas" against OpenAI hype</title>
+      <title>Logan Kilpatrick: Google &quot;pushing Gemini full gas&quot; against OpenAI hype</title>
       <link>https://x.com/OfficialLoganK/status/2049683099672547499</link>
-      <description>Google AI lead Logan Kilpatrick said the team is "pushing Gemini full gas," responding to the wave of attention around OpenAI announcements this week. The comment came alongside the GPT-5.5 rollout and Musk-OpenAI trial coverage.</description>
+      <description>Google AI lead Logan Kilpatrick said the team is &quot;pushing Gemini full gas,&quot; responding to the wave of attention around OpenAI announcements this week. The comment came alongside the GPT-5.5 rollout and Musk-OpenAI trial coverage.</description>
       <pubDate>Thu, 30 Apr 2026 14:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049683099672547499</guid>
       <category>Models</category>
-    </item>
-    <item>
-      <title>Enabling a new model for healthcare with AI co-clinician</title>
-      <link>https://deepmind.google/blog/ai-co-clinician/</link>
-      <description>Google DeepMind publishes research on an AI co-clinician framework, exploring how AI can augment clinical decision-making while keeping human oversight central. The paper outlines evaluation criteria and an architecture for AI-assisted care intended for real-world deployment.</description>
-      <pubDate>Thu, 30 Apr 2026 12:14:15 +0000</pubDate>
-      <guid isPermaLink="true">https://deepmind.google/blog/ai-co-clinician/</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Chollet: AI automates tasks, not jobs — cheaper tasks expand demand</title>
-      <link>https://x.com/fchollet/status/2049644995293163830</link>
-      <description>François Chollet argues that AI is automating individual tasks rather than wholesale jobs — citing translators and customer support reps as examples where end-to-end automation has not arrived. He notes that cheaper tasks historically increase demand for the surrounding work, citing radiologists.</description>
-      <pubDate>Thu, 30 Apr 2026 11:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/fchollet/status/2049644995293163830</guid>
-      <category>Governance, Automation</category>
-    </item>
-    <item>
-      <title>OpenAI DevDay 2026 announced for September 29 in San Francisco</title>
-      <link>https://x.com/sama/status/2049534651702956103</link>
-      <description>OpenAI confirmed DevDay 2026 will be held on September 29 in San Francisco, the company's flagship developer event where new APIs and models are typically unveiled.</description>
-      <pubDate>Thu, 30 Apr 2026 03:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/sama/status/2049534651702956103</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>Grok Speech to Text and Text to Speech APIs</title>
-      <link>https://x.ai/news/grok-stt-and-tts-apis</link>
-      <description>xAI launches Speech-to-Text and Text-to-Speech APIs for Grok, enabling developers to add voice input and output to applications via the Grok API. This extends xAI's developer platform toward multimodal voice capabilities alongside the existing language and vision APIs.</description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-stt-and-tts-apis</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Introducing Advanced Account Security</title>
-      <link>https://openai.com/index/advanced-account-security</link>
-      <description>OpenAI introduces Advanced Account Security with phishing-resistant login (passkeys/hardware keys), stronger account recovery, and enhanced protections against account takeover — particularly relevant for enterprise customers and API users managing sensitive workloads.</description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/advanced-account-security</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Where the goblins came from</title>
-      <link>https://openai.com/index/where-the-goblins-came-from</link>
-      <description>OpenAI explains the root cause of quirky 'goblin' personality artifacts in GPT-5 outputs, tracing how reinforcement learning fine-tuning phases can inadvertently introduce unintended model behaviours, and details the mitigations applied to resolve them.</description>
-      <pubDate>Wed, 29 Apr 2026 20:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/where-the-goblins-came-from</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>AI evals are becoming the new compute bottleneck</title>
-      <link>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</link>
-      <description>Hugging Face researchers argue that as model training costs fall, evaluation costs are emerging as the dominant compute bottleneck. Running rigorous evals at scale now consumes more compute than training for some use cases, prompting a rethink of eval efficiency, tooling, and benchmark design across the industry.</description>
-      <pubDate>Wed, 29 Apr 2026 16:45:09 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/evaleval/eval-costs-bottleneck</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>Powering AI Factories with NVIDIA Enterprise Reference Architectures</title>
-      <link>https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/</link>
-      <description>NVIDIA publishes enterprise reference architectures for AI factories — validated hardware-software blueprints for deploying agentic AI systems at scale with reliability and performance guarantees. The designs target organisations building production AI infrastructure for reasoning, automation, and intelligent decision-making workloads.</description>
-      <pubDate>Wed, 29 Apr 2026 16:41:57 +0000</pubDate>
-      <guid isPermaLink="true">https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/</guid>
-      <category>Agents, Automation</category>
-    </item>
-    <item>
-      <title>Granite 4.1 LLMs: How They're Built</title>
-      <link>https://huggingface.co/blog/ibm-granite/granite-4-1</link>
-      <description>IBM shares training details for the Granite 4.1 LLM series, covering architecture, dataset curation, and alignment techniques. The post emphasises reliability and factual accuracy for enterprise business applications, positioning Granite as a controllable, enterprise-safe alternative to frontier consumer models.</description>
-      <pubDate>Wed, 29 Apr 2026 15:01:48 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/ibm-granite/granite-4-1</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>Google AI Studio adds multi-chat sessions and integrated Search Grounding for the Gemini API</title>
-      <link>https://x.com/OfficialLoganK/status/2049521160430457315</link>
-      <description>Google AI Studio now supports running parallel Gemini chat sessions side-by-side, and Search Grounding is integrated directly into the Gemini API. Logan Kilpatrick teased more launches before Google I/O.</description>
-      <pubDate>Wed, 29 Apr 2026 08:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049521160430457315</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>Cybersecurity in the Intelligence Age</title>
-      <link>https://openai.com/index/cybersecurity-in-the-intelligence-age</link>
-      <description>OpenAI outlines a five-part action plan for strengthening cybersecurity using AI: democratising AI-powered cyber defence, protecting critical systems, combating adversarial AI use, building international norms, and partnering with governments. The post frames AI as both a threat vector and the primary defence tool for the intelligence era.</description>
-      <pubDate>Wed, 29 Apr 2026 04:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/cybersecurity-in-the-intelligence-age</guid>
-      <category>Governance</category>
     </item>
   </channel>
 </rss>
