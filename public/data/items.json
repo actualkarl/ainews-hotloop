@@ -74,27 +74,6 @@
       "related_ids": []
     },
     {
-      "id": "728a4d52e0da61a6",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "title": "Google recaps April 2026 AI updates across translation, developer tools, and Workspace",
-      "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-05-04T17:00:00Z",
-      "first_seen_at": "2026-05-04T18:08:21.475811Z",
-      "summary": "Google published its April 2026 AI roundup, covering Gemini-driven translation upgrades, developer-tooling improvements, and new Workspace integrations. The recap consolidates announcements rather than surfacing net-new releases.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
-      "image_source": "og_image",
-      "trending_score": 1.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "9ac1ee44dad66df6",
       "url": "https://www.calcalistech.com/ctechnews/article/dy5obf581",
       "title": "Cisco acquires Astrix Security for ~$400M to monitor AI agent permissions",

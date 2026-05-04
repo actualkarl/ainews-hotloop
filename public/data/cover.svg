@@ -21,9 +21,9 @@
   <rect width="1200" height="630" fill="url(#rose)"/>
   <rect width="1200" height="630" fill="url(#teal)"/>
   <g font-family="-apple-system, 'SF Pro Display', 'Inter', system-ui, sans-serif">
-    <text x="80" y="110" font-size="28" font-weight="600" fill="#0B1220" fill-opacity="0.55" letter-spacing="4">AINEWS · 2026-05-04</text>
+    <text x="80" y="110" font-size="28" font-weight="600" fill="#0B1220" fill-opacity="0.55" letter-spacing="4">AINEWS · 2026-05-05</text>
     <text x="80" y="250" font-size="64" font-weight="800" fill="#0B1220" style="line-height:1.15">
-      <tspan x="80" dy="0">Chat with Qwen (with Deep Research and</tspan><tspan x="80" dy="1.15em">Web Dev)</tspan>
+      <tspan x="80" dy="0">BNZ books a $352m write-down as AI</tspan><tspan x="80" dy="1.15em">accelerates legacy software</tspan><tspan x="80" dy="1.15em">obsolescence…</tspan>
     </text>
     <g transform="translate(80, 540)">
       <circle cx="10" cy="10" r="10" fill="#FF5B6E"/>

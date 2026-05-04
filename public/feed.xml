@@ -32,14 +32,6 @@
       <category>Models</category>
     </item>
     <item>
-      <title>Google recaps April 2026 AI updates across translation, developer tools, and Workspace</title>
-      <link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</link>
-      <description>Google published its April 2026 AI roundup, covering Gemini-driven translation upgrades, developer-tooling improvements, and new Workspace integrations. The recap consolidates announcements rather than surfacing net-new releases.</description>
-      <pubDate>Mon, 04 May 2026 17:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</guid>
-      <category>Models, Content</category>
-    </item>
-    <item>
       <title>Cisco acquires Astrix Security for ~$400M to monitor AI agent permissions</title>
       <link>https://www.calcalistech.com/ctechnews/article/dy5obf581</link>
       <description>Cisco is acquiring Israeli startup Astrix Security, an Anthropic and Menlo Ventures-backed company that monitors and controls permissions granted to AI agents. The deal underscores how managing autonomous-agent identities is becoming a discrete enterprise security category.</description>
@@ -245,6 +237,14 @@
       <description>Google AI lead Logan Kilpatrick said the team is &quot;pushing Gemini full gas,&quot; responding to the wave of attention around OpenAI announcements this week. The comment came alongside the GPT-5.5 rollout and Musk-OpenAI trial coverage.</description>
       <pubDate>Thu, 30 Apr 2026 14:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/OfficialLoganK/status/2049683099672547499</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Enabling a new model for healthcare with AI co-clinician</title>
+      <link>https://deepmind.google/blog/ai-co-clinician/</link>
+      <description>Google DeepMind publishes research on an AI co-clinician framework, exploring how AI can augment clinical decision-making while keeping human oversight central. The paper outlines evaluation criteria and an architecture for AI-assisted care intended for real-world deployment.</description>
+      <pubDate>Thu, 30 Apr 2026 12:14:15 +0000</pubDate>
+      <guid isPermaLink="true">https://deepmind.google/blog/ai-co-clinician/</guid>
       <category>Models</category>
     </item>
   </channel>
