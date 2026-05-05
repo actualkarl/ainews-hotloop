@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-05-05T18:07:27Z",
+  "generated_at": "2026-05-05T18:11:27.926794Z",
   "next_refresh_at": "2026-05-06T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "cover_image_url": "/data/cover.svg",
+  "cover_image_url": "/data/cover.png",
+  "cover_image_mobile_url": "/data/cover-mobile.png",
   "newsflash": [
-    "01a8b52eee8198f5",
-    "0d33f723ee92a5de",
+    "6c1b0177b8fdc8c4",
+    "0521b68e1d361b3d",
     "4d00acf2f95f7c31",
-    "6c1b0177b8fdc8c4"
+    "0d33f723ee92a5de",
+    "3bbc92d9c76ebc83"
   ],
-  "daily_summary": "OpenAI made GPT-5.5 Instant the new default model for all ChatGPT users on May 5, delivering 52.5% fewer hallucinations on high-stakes topics and personalization features drawing on past conversations and Gmail for Plus and Pro users. NVIDIA published three substantive agentic infrastructure pieces in a single day: a ServiceNow enterprise partnership for autonomous agents, a developer guide to in-vehicle AI agent architecture, and a framework for managing multi-agent system complexity through extreme co-design. OpenAI also announced a collaboration with PwC to automate CFO-level finance workflows using AI agents, extending the enterprise push beyond its own tools.",
+  "daily_summary": "OpenAI shipped GPT-5.5 Instant alongside its system card, refreshing the Instant tier with stronger personalisation and clearer responses. Source health is steady across T1 labs; NZ-specific signal includes a Parliamentary warning on AI ROI and a Massey University study on creative-industry job displacement.",
   "items": [
     {
       "id": "6c1b0177b8fdc8c4",
@@ -27,9 +29,28 @@
         "Automation"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": [],
       "trending_score": 1.0
+    },
+    {
+      "id": "0521b68e1d361b3d",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-05T16:00:00Z",
+      "first_seen_at": "2026-05-05T18:11:27.926794Z",
+      "summary": "Google announced a partnership with XPRIZE and Range Media Partners on a $3.5 million Future Vision film competition. The contest invites filmmakers to create works that imagine positive AI futures, with Google providing AI tooling for entrants.",
+      "tags": [
+        "Content"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "4d00acf2f95f7c31",
@@ -47,7 +68,7 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": [],
       "trending_score": 1.0
     },
@@ -66,9 +87,28 @@
         "Agents"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": [],
       "trending_score": 1.0
+    },
+    {
+      "id": "3bbc92d9c76ebc83",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "title": "GPT-5.5 Instant System Card",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-05T10:00:00Z",
+      "first_seen_at": "2026-05-05T18:11:27.926794Z",
+      "summary": "OpenAI published the system card for GPT-5.5 Instant, documenting capabilities, evaluations, and safety testing for the new variant. The card details performance benchmarks and the model's positioning relative to other GPT-5 variants.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "01a8b52eee8198f5",
@@ -85,11 +125,70 @@
         "Models"
       ],
       "image_url": null,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
       "trending_score": 1.0
+    },
+    {
+      "id": "42d356f36bddceaf",
+      "url": "https://newsroom.co.nz/2026/05/05/nz-firms-warned-overseas-businesses-arent-getting-a-return-on-ai-mps-report",
+      "title": "NZ firms warned overseas businesses aren't getting a return on AI - MPs report",
+      "title_translated": null,
+      "source": "newsroom-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-05T05:00:00Z",
+      "first_seen_at": "2026-05-05T18:11:27.926794Z",
+      "summary": "A NZ Parliamentary report cautions local businesses that overseas AI investments often fail to generate returns, while still encouraging domestic adoption. The report references international evidence showing many enterprise AI deployments underperform on ROI.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.549,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "4c991a54f7643799",
+      "url": "https://www.massey.ac.nz/about/news/pilot-study-shows-generative-ai-use-in-creative-industries-impacts-entry-level-roles",
+      "title": "Massey University study: generative AI is replacing entry-level creative roles in NZ",
+      "title_translated": null,
+      "source": "massey-nz",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-05-05T03:00:00Z",
+      "first_seen_at": "2026-05-05T18:11:27.926794Z",
+      "summary": "A Massey University pilot study finds generative AI is displacing junior roles in New Zealand creative industries, with productivity gains often captured by overseas firms rather than local agencies.",
+      "tags": [
+        "Content",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.9294,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "e530f83e223f4cff",
+      "url": "https://www.risknz.org.nz/five-eyes-warning-dont-give-agentic-ai-the-keys-to-sensitive-data",
+      "title": "Five Eyes guidance: don't give agentic AI the keys to sensitive data",
+      "title_translated": null,
+      "source": "risknz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-05T02:00:00Z",
+      "first_seen_at": "2026-05-05T18:11:27.926794Z",
+      "summary": "Five Eyes intelligence agencies (US, UK, Canada, Australia, NZ) issued joint guidance urging organisations to limit agentic AI access to sensitive data. The guidance is directly relevant to NZ insurers and government agencies considering autonomous workflows.",
+      "tags": [
+        "Governance",
+        "Agents"
+      ],
+      "image_url": null,
+      "trending_score": 0.4275,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "2b843178b595da18",
@@ -107,9 +206,9 @@
         "Automation"
       ],
       "image_url": null,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.5674
+      "trending_score": 0.7113
     },
     {
       "id": "8e669a2b06fe440e",
@@ -127,9 +226,9 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Agentic-AI.webp",
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.5635
+      "trending_score": 0.7064
     },
     {
       "id": "97d4fb13d552b36f",
@@ -148,7 +247,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.2608,
+      "trending_score": 0.2593,
       "mention_count": 1,
       "related_ids": []
     },
@@ -169,7 +268,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.2207,
+      "trending_score": 0.2195,
       "mention_count": 1,
       "related_ids": []
     },
@@ -188,7 +287,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
-      "trending_score": 0.4062,
+      "trending_score": 0.4039,
       "mention_count": 1,
       "related_ids": []
     },
@@ -209,7 +308,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.1975,
+      "trending_score": 0.1964,
       "mention_count": 1,
       "related_ids": []
     },
@@ -229,7 +328,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.1767,
+      "trending_score": 0.1758,
       "mention_count": 1,
       "related_ids": []
     },
@@ -249,7 +348,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.1755,
+      "trending_score": 0.1745,
       "mention_count": 1,
       "related_ids": []
     },
@@ -270,7 +369,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.5378,
+      "trending_score": 0.5348,
       "mention_count": 4,
       "related_ids": []
     },
@@ -290,7 +389,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0506,
+      "trending_score": 0.0503,
       "mention_count": 1,
       "related_ids": []
     },
@@ -311,7 +410,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.2132,
+      "trending_score": 0.212,
       "mention_count": 3,
       "related_ids": []
     },
@@ -332,7 +431,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0425,
+      "trending_score": 0.0422,
       "mention_count": 1,
       "related_ids": []
     },
@@ -353,7 +452,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0108,
+      "trending_score": 0.0107,
       "mention_count": 1,
       "related_ids": []
     },
@@ -416,7 +515,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0063,
+      "trending_score": 0.0062,
       "mention_count": 1,
       "related_ids": []
     },
@@ -437,7 +536,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0082,
+      "trending_score": 0.0081,
       "mention_count": 1,
       "related_ids": []
     },
@@ -2000,6 +2099,25 @@
       "related_ids": []
     },
     {
+      "id": "b156fcbc8e043598",
+      "url": "http://www.techmeme.com/260424/p44#a260424p44",
+      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T20:10:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "d51658229d495c24",
       "url": "https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister",
       "title": "NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI",
@@ -2080,45 +2198,6 @@
       "related_ids": []
     },
     {
-      "id": "8e494cf5218b0f60",
-      "url": "https://x.com/i/status/2047728242707046599",
-      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
-      "title_translated": null,
-      "source": "x-governance",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-24T23:00:00Z",
-      "first_seen_at": "2026-04-24T18:15:11Z",
-      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "b156fcbc8e043598",
-      "url": "http://www.techmeme.com/260424/p44#a260424p44",
-      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T20:10:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "8131ce6e063313c5",
       "url": "http://www.techmeme.com/260424/p43#a260424p43",
       "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
@@ -2139,23 +2218,24 @@
       "related_ids": []
     },
     {
-      "id": "caecb50726ec83a1",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "title": "8 Gemini tips for organizing your space (and life)",
+      "id": "8e494cf5218b0f60",
+      "url": "https://x.com/i/status/2047728242707046599",
+      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
       "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
+      "source": "x-governance",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-24T19:00:00Z",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "published_at": "2026-04-24T23:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
       "tags": [
-        "Models"
+        "Governance"
       ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "cover_fallback"
     },
     {
       "id": "c2e9c3f0479e1b68",
@@ -2172,6 +2252,45 @@
         "Governance"
       ],
       "image_url": "https://www.reuters.com/resizer/v2/KIK4AUMDLBLZ3MA7ULN3KENZZQ.jpg?auth=4daeda6a00bb880345fa05de17b38bfaba770f66458d51fd3a707542e01f98ee&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "858699580058a9a4",
+      "url": "http://www.techmeme.com/260424/p33#a260424p33",
+      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T16:45:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "caecb50726ec83a1",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T19:00:00Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -2230,26 +2349,6 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "858699580058a9a4",
-      "url": "http://www.techmeme.com/260424/p33#a260424p33",
-      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T16:45:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -3886,106 +3985,6 @@
       "related_ids": [],
       "image_url": "/data/images/health-nz-develops-bropilot-culturally-grounded-m-ori-versio.png",
       "image_type": "generated"
-    },
-    {
-      "id": "9353c534ed8e85f2",
-      "url": "https://www.reseller.co.nz/article/4161687/microsoft-exclusive-integrator-avanade-set-to-expand-to-new-zealand.html",
-      "title": "Avanade (Microsoft's exclusive AI/cloud integrator) expanding to New Zealand by July",
-      "title_translated": null,
-      "source": "reseller",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-22T06:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Avanade, Microsoft's exclusive global systems integrator for AI and cloud, is opening a New Zealand operation by July 2026. The move increases enterprise AI implementation capacity in NZ as demand for Microsoft Copilot and Azure AI deployments accelerates.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://www.reseller.co.nz/wp-content/uploads/2026/04/4161687-0-41751800-1776819663-Jeyan_Jeevaratnam.png?w=1024"
-    },
-    {
-      "id": "115d2bb21f326adb",
-      "url": "https://www.reuters.com/world/asia-pacific/australia-new-zealand-central-banks-monitoring-anthropics-mythos-release-2026-04-22",
-      "title": "NZ and Australian central banks monitoring Anthropic Claude Mythos over cyber threat risk",
-      "title_translated": null,
-      "source": "reuters",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-22T00:00:00Z",
-      "first_seen_at": "2026-04-24T18:15:11Z",
-      "summary": "New Zealand's Reserve Bank and Australia's central bank announced they are actively monitoring Anthropic's Claude Mythos AI model for cyber threats to banking and critical infrastructure. Both institutions are coordinating with domestic regulators on the developing risk posed by a model that can detect thousands of previously unknown software vulnerabilities.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "7e96c59684fecfda",
-      "url": "https://www.beehive.govt.nz/release/new-pilot-helps-small-businesses-harness-ai",
-      "title": "New pilot helps small businesses harness AI",
-      "title_translated": null,
-      "source": "beehive-govt",
-      "source_tier": 1,
-      "region": "nz",
-      "published_at": "2026-04-22T00:00:00Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "The NZ Government announced a pilot programme to help small and medium-sized businesses adopt AI tools, part of the broader MBIE AI strategy released earlier this year.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/images/new-pilot-helps-small-businesses-harness-ai.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_type": "generated"
-    },
-    {
-      "id": "3efc4342b784ee3a",
-      "url": "https://openai.com/index/introducing-openai-privacy-filter",
-      "title": "Introducing OpenAI Privacy Filter",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T00:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "OpenAI released an open-weight model for detecting and redacting personally identifiable information (PII) in text, claiming state-of-the-art accuracy on standard benchmarks. Designed for privacy-preserving pipelines that need to scrub user data before forwarding to LLMs.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
-    },
-    {
-      "id": "7694e1f914850915",
-      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "title_translated": null,
-      "source": "simonwillison",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-21T20:32:24Z",
-      "first_seen_at": "2026-04-21T21:16:54Z",
-      "summary": "Simon Willison tested ChatGPT Images 2.0 with a Where's-Waldo-style prompt and compares output against gpt-image-1. Sam Altman claimed on the livestream that the leap was equivalent to jumping from GPT-3 to GPT-5; Simon's review adds nuance from real prompts.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
     }
   ]
 }

@@ -397,6 +397,106 @@
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://media.rnztools.nz/rnz/image/upload/s--tdnZ5H7z--/t_tohu-badge-facebook/v1723675579/4KLGGX5_Housing_04_jpg?_a=BACCd2AD"
+    },
+    {
+      "id": "9353c534ed8e85f2",
+      "url": "https://www.reseller.co.nz/article/4161687/microsoft-exclusive-integrator-avanade-set-to-expand-to-new-zealand.html",
+      "title": "Avanade (Microsoft's exclusive AI/cloud integrator) expanding to New Zealand by July",
+      "title_translated": null,
+      "source": "reseller",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T06:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "Avanade, Microsoft's exclusive global systems integrator for AI and cloud, is opening a New Zealand operation by July 2026. The move increases enterprise AI implementation capacity in NZ as demand for Microsoft Copilot and Azure AI deployments accelerates.",
+      "tags": [
+        "Governance"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://www.reseller.co.nz/wp-content/uploads/2026/04/4161687-0-41751800-1776819663-Jeyan_Jeevaratnam.png?w=1024"
+    },
+    {
+      "id": "115d2bb21f326adb",
+      "url": "https://www.reuters.com/world/asia-pacific/australia-new-zealand-central-banks-monitoring-anthropics-mythos-release-2026-04-22",
+      "title": "NZ and Australian central banks monitoring Anthropic Claude Mythos over cyber threat risk",
+      "title_translated": null,
+      "source": "reuters",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "New Zealand's Reserve Bank and Australia's central bank announced they are actively monitoring Anthropic's Claude Mythos AI model for cyber threats to banking and critical infrastructure. Both institutions are coordinating with domestic regulators on the developing risk posed by a model that can detect thousands of previously unknown software vulnerabilities.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 0.0,
+      "mention_count": 2,
+      "related_ids": [],
+      "image_source": "cover_fallback"
+    },
+    {
+      "id": "7e96c59684fecfda",
+      "url": "https://www.beehive.govt.nz/release/new-pilot-helps-small-businesses-harness-ai",
+      "title": "New pilot helps small businesses harness AI",
+      "title_translated": null,
+      "source": "beehive-govt",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-24T01:49:24.227860Z",
+      "summary": "The NZ Government announced a pilot programme to help small and medium-sized businesses adopt AI tools, part of the broader MBIE AI strategy released earlier this year.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "/data/images/new-pilot-helps-small-businesses-harness-ai.png",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_type": "generated"
+    },
+    {
+      "id": "3efc4342b784ee3a",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "title": "Introducing OpenAI Privacy Filter",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-22T00:00:00Z",
+      "first_seen_at": "2026-04-22T19:11:41.953245Z",
+      "summary": "OpenAI released an open-weight model for detecting and redacting personally identifiable information (PII) in text, claiming state-of-the-art accuracy on standard benchmarks. Designed for privacy-preserving pipelines that need to scrub user data before forwarding to LLMs.",
+      "tags": [
+        "Governance",
+        "Models"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/9wR7uKQ9cCyJSZcN9PJCb/c42551ed6a31a9be9ada24fed80a862a/SEO-Introducing-OpenAi-Filter.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "id": "7694e1f914850915",
+      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "title_translated": null,
+      "source": "simonwillison",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-21T20:32:24Z",
+      "first_seen_at": "2026-04-21T21:16:54Z",
+      "summary": "Simon Willison tested ChatGPT Images 2.0 with a Where's-Waldo-style prompt and compares output against gpt-image-1. Sam Altman claimed on the livestream that the leap was equivalent to jumping from GPT-3 to GPT-5; Simon's review adds nuance from real prompts.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
     }
   ]
 }
