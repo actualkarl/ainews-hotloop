@@ -1,17 +1,37 @@
 {
-  "generated_at": "2026-05-06T18:09:52.701709Z",
+  "generated_at": "2026-05-06T18:15:21.917326Z",
   "next_refresh_at": "2026-05-07T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "cover_image_url": "/data/cover.png",
-  "cover_image_mobile_url": "/data/cover-mobile.png",
+  "cover_image_url": "/data/cover.svg",
   "newsflash": [
+    "ea86a83eb336b9cd",
     "e4ae65a9c2eb9a2e",
     "dc6ae17819b70674",
     "9bcec59458e97e4d",
     "57a55fcb205568a6"
   ],
-  "daily_summary": "NVIDIA published its Spectrum-X Ethernet pitch alongside the new Multipath Reliable Connection protocol co-developed with AMD, Broadcom, Intel, Microsoft, and OpenAI — framing Ethernet as ready for million-accelerator AI factories. xAI announced a compute partnership with Anthropic, an unusual cross-lab arrangement that underscores how tight frontier-training capacity has become. OpenAI separately argued in new B2B Signals research that durable Codex-powered agent infrastructure, not one-shot prompts, is now the marker of frontier enterprise AI adoption.",
+  "daily_summary": "Google shipped Multi-Token Prediction drafters for Gemma 4 (up to 3x faster inference), xAI confirmed it is providing Anthropic access to the Colossus 1 cluster of over 220,000 NVIDIA GPUs as Claude's user base continues to grow, and NVIDIA detailed the Spectrum-X Ethernet fabric for million-accelerator AI factories. Anthropic's separately announced 10 financial-services agent templates — covering pitchbooks to insurance claims — went live on the same day as the Colossus compute deal, underscoring the company's accelerating push into enterprise verticals.",
   "items": [
+    {
+      "id": "ea86a83eb336b9cd",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+      "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T16:00:00Z",
+      "first_seen_at": "2026-05-06T18:15:21.917326Z",
+      "summary": "Google released Multi-Token Prediction (MTP) drafters for the Gemma 4 family, delivering up to 3x faster inference without quality loss. A lightweight drafter predicts multiple tokens ahead while the larger model verifies them in parallel using speculative decoding; available under Apache 2.0 with support for Hugging Face, vLLM, SGLang, and Ollama.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "e4ae65a9c2eb9a2e",
       "url": "https://x.ai/news/anthropic-compute-partnership",
@@ -91,6 +111,26 @@
       "related_ids": []
     },
     {
+      "id": "0001057cafdd5edc",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T00:00:00Z",
+      "first_seen_at": "2026-05-06T18:15:21.917326Z",
+      "summary": "OpenAI launched ChatGPT 26, seeking 26 students and recent graduates already building with AI. The cohort — the first to go through college with ChatGPT — gets invited to OpenAI HQ in June 2026 for a summit; applications closed April 5.",
+      "tags": [
+        "Skills",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.7199,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "6c1b0177b8fdc8c4",
       "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
       "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
@@ -108,7 +148,7 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.5113
+      "trending_score": 0.5074
     },
     {
       "id": "0521b68e1d361b3d",
@@ -125,7 +165,7 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-      "trending_score": 0.3724,
+      "trending_score": 0.3696,
       "mention_count": 1,
       "related_ids": []
     },
@@ -147,7 +187,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.4699
+      "trending_score": 0.4664
     },
     {
       "id": "0d33f723ee92a5de",
@@ -166,7 +206,27 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.4649
+      "trending_score": 0.4614
+    },
+    {
+      "id": "8147e5470addb193",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "title": "Anthropic: Agents for financial services and insurance",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-05T12:00:00Z",
+      "first_seen_at": "2026-05-06T18:15:21.917326Z",
+      "summary": "Anthropic released 10 preconfigured Claude agent templates for banks, asset managers, and insurers: pitchbooks, earnings analysis, credit memos, underwriting, KYC, month-end close, and insurance claims. Integrates with Moody's, Dun & Bradstreet, and Microsoft 365; Claude scored 88% accuracy on insurance claims versus human experts.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "image_url": null,
+      "trending_score": 0.2648,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "3bbc92d9c76ebc83",
@@ -183,7 +243,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2259,
+      "trending_score": 0.2242,
       "mention_count": 1,
       "related_ids": []
     },
@@ -206,7 +266,7 @@
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
-      "trending_score": 0.285
+      "trending_score": 0.2829
     },
     {
       "id": "42d356f36bddceaf",
@@ -223,7 +283,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0745,
+      "trending_score": 0.0739,
       "mention_count": 1,
       "related_ids": []
     },
@@ -243,7 +303,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1261,
+      "trending_score": 0.1251,
       "mention_count": 1,
       "related_ids": []
     },
@@ -263,7 +323,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.058,
+      "trending_score": 0.0575,
       "mention_count": 1,
       "related_ids": []
     },
@@ -285,7 +345,7 @@
       "image_url": null,
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0965
+      "trending_score": 0.0957
     },
     {
       "id": "8e669a2b06fe440e",
@@ -305,7 +365,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Agentic-AI.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0958
+      "trending_score": 0.0951
     },
     {
       "id": "97d4fb13d552b36f",
@@ -324,7 +384,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0352,
+      "trending_score": 0.0349,
       "mention_count": 1,
       "related_ids": []
     },
@@ -345,7 +405,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0298,
+      "trending_score": 0.0295,
       "mention_count": 1,
       "related_ids": []
     },
@@ -364,7 +424,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
-      "trending_score": 0.0548,
+      "trending_score": 0.0544,
       "mention_count": 1,
       "related_ids": []
     },
@@ -385,7 +445,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0266,
+      "trending_score": 0.0264,
       "mention_count": 1,
       "related_ids": []
     },
@@ -405,7 +465,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0238,
+      "trending_score": 0.0237,
       "mention_count": 1,
       "related_ids": []
     },
@@ -425,7 +485,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0237,
+      "trending_score": 0.0235,
       "mention_count": 1,
       "related_ids": []
     },
@@ -446,7 +506,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0725,
+      "trending_score": 0.072,
       "mention_count": 4,
       "related_ids": []
     },
@@ -487,7 +547,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0288,
+      "trending_score": 0.0285,
       "mention_count": 3,
       "related_ids": []
     },
@@ -529,7 +589,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0015,
+      "trending_score": 0.0014,
       "mention_count": 1,
       "related_ids": []
     },
@@ -739,6 +799,26 @@
       ],
       "image_url": "https://x.ai/news/grok-custom-voices/opengraph-image-1dmibn.png?090657c897727150",
       "trending_score": 0.0001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "09bf4382e37b388d",
+      "url": "https://www.rbnz.govt.nz/hub/publications/analytical-note/2026/assessing-ai-and-robotics-exposure-in-the-nz-labour-market-using-llms",
+      "title": "RBNZ: Assessing AI and Robotics Exposure in the New Zealand Labour Market Using LLMs",
+      "title_translated": null,
+      "source": "rbnz",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-05-01T00:00:00Z",
+      "first_seen_at": "2026-05-06T18:15:21.917326Z",
+      "summary": "Reserve Bank of New Zealand published research using LLMs to measure AI and robotics exposure across NZ occupations. Highest exposure falls on professional, managerial, and administrative roles at middle-to-upper income levels; methodology maps task-level vulnerability using LLM-based scoring rather than prior O*NET-style surveys.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "image_url": null,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -2759,6 +2839,26 @@
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
+    },
+    {
+      "id": "cd4d54c88f29ac90",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "title": "Stanford AI Index 2026: AI agents jump from 12% to 66% success on real computer tasks",
+      "title_translated": null,
+      "source": "stanford-hai",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T00:00:00Z",
+      "first_seen_at": "2026-05-06T18:15:21.917326Z",
+      "summary": "Stanford's 2026 AI Index documents agent success on OSWorld (real computer tasks) jumping from 12% to 66.3%, within 6 points of human performance. Terminal-Bench real-world task success hit 77.3%; SWE-bench coding reached near 100% of human baseline in one year. Separately, 89% of AI agent projects never reach production.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "3d462a37e82b391b",
