@@ -6,14 +6,46 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 05 May 2026 18:11:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 18:09:52 +0000</lastBuildDate>
+    <item>
+      <title>xAI: New Compute Partnership with Anthropic</title>
+      <link>https://x.ai/news/anthropic-compute-partnership</link>
+      <description>xAI announced a compute partnership with Anthropic — the two frontier labs will share infrastructure, with xAI providing Anthropic with access to its training capacity. The deal is unusual given the labs&#x27; otherwise opposed positioning on AI safety, and signals how acute compute scarcity is for every frontier player.</description>
+      <pubDate>Wed, 06 May 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/anthropic-compute-partnership</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI Factories</title>
+      <link>https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/</link>
+      <description>NVIDIA detailed Spectrum-X Ethernet as the scale-out fabric for gigascale AI training clusters, with the new Multipath Reliable Connection (MRC) protocol developed with AMD, Broadcom, Intel, Microsoft, and OpenAI. The pitch is that Ethernet, hardened with MRC and Spectrum-X switches, can match InfiniBand for AI factories that approach a million accelerators.</description>
+      <pubDate>Wed, 06 May 2026 11:30:20 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Adding Benchmaxxer Repellant to the Open ASR Leaderboard</title>
+      <link>https://huggingface.co/blog/open-asr-leaderboard-private-data</link>
+      <description>Hugging Face is hardening its Open ASR Leaderboard against benchmark gaming by introducing a private holdout split. Speech-recognition models will now be evaluated on data they cannot have trained on, reducing the value of overfitting to public test sets and giving more credible relative rankings.</description>
+      <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/open-asr-leaderboard-private-data</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>OpenAI: How frontier enterprises are building an AI advantage</title>
+      <link>https://openai.com/index/introducing-b2b-signals</link>
+      <description>OpenAI published a B2B Signals research note on how leading enterprises deepen AI adoption. The piece argues frontier customers are scaling Codex-powered agentic workflows beyond pilot use and treating durable agent infrastructure — not one-shot prompts — as the source of competitive advantage.</description>
+      <pubDate>Wed, 06 May 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/introducing-b2b-signals</guid>
+      <category>Agents, Automation</category>
+    </item>
     <item>
       <title>NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises</title>
       <link>https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/</link>
       <description>NVIDIA and ServiceNow are partnering to deliver autonomous AI agents into enterprise environments, combining NVIDIA&#x27;s AI infrastructure with ServiceNow&#x27;s workflow platform. The collaboration targets agentic AI deployment at scale, moving beyond simple prompts to multi-step task execution inside enterprise systems.</description>
       <pubDate>Tue, 05 May 2026 17:00:40 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/</guid>
-      <category>Agents,Automation</category>
+      <category>Agents, Automation</category>
     </item>
     <item>
       <title>Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.</title>
@@ -29,7 +61,7 @@
       <description>NVIDIA&#x27;s developer blog provides a technical walkthrough of building multimodal agentic AI for automotive cockpits, covering the full cloud-to-car architecture. The guide addresses how in-vehicle agents can reason, plan, and respond across voice, vision, and sensor inputs using NVIDIA&#x27;s DriveOS stack.</description>
       <pubDate>Tue, 05 May 2026 16:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/</guid>
-      <category>Agents,Coding</category>
+      <category>Agents, Coding</category>
     </item>
     <item>
       <title>Building for the Rising Complexity of Agentic Systems with Extreme Co-Design</title>
@@ -69,7 +101,7 @@
       <description>A Massey University pilot study finds generative AI is displacing junior roles in New Zealand creative industries, with productivity gains often captured by overseas firms rather than local agencies.</description>
       <pubDate>Tue, 05 May 2026 03:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.massey.ac.nz/about/news/pilot-study-shows-generative-ai-use-in-creative-industries-impacts-entry-level-roles</guid>
-      <category>Content,Governance</category>
+      <category>Content, Governance</category>
     </item>
     <item>
       <title>Five Eyes guidance: don&#x27;t give agentic AI the keys to sensitive data</title>
@@ -77,7 +109,7 @@
       <description>Five Eyes intelligence agencies (US, UK, Canada, Australia, NZ) issued joint guidance urging organisations to limit agentic AI access to sensitive data. The guidance is directly relevant to NZ insurers and government agencies considering autonomous workflows.</description>
       <pubDate>Tue, 05 May 2026 02:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.risknz.org.nz/five-eyes-warning-dont-give-agentic-ai-the-keys-to-sensitive-data</guid>
-      <category>Governance,Agents</category>
+      <category>Governance, Agents</category>
     </item>
     <item>
       <title>OpenAI and PwC collaborate to reimagine the office of the CFO</title>
@@ -85,7 +117,7 @@
       <description>OpenAI and PwC have announced a partnership to deploy AI agents across enterprise finance functions, targeting forecasting, reporting, and internal controls. The collaboration positions AI agents as the primary interface for CFO-level decision workflows, building on PwC&#x27;s existing enterprise client base.</description>
       <pubDate>Mon, 04 May 2026 21:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://openai.com/index/openai-pwc-finance-collaboration</guid>
-      <category>Agents,Automation</category>
+      <category>Agents, Automation</category>
     </item>
     <item>
       <title>Optimize Supply Chain Decision Systems Using NVIDIA cuOpt Agent Skills</title>
@@ -93,7 +125,7 @@
       <description>NVIDIA&#x27;s cuOpt library has introduced &#x27;Agent Skills&#x27; — modular AI capabilities that let agents autonomously solve supply chain optimization problems including vehicle routing, scheduling, and capacity allocation. The post demonstrates integrating cuOpt skills into agent pipelines for real-time decision support under volatile demand.</description>
       <pubDate>Mon, 04 May 2026 20:55:05 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/optimize-supply-chain-decision-systems-using-nvidia-cuopt-agent-skills/</guid>
-      <category>Agents,Automation</category>
+      <category>Agents, Automation</category>
     </item>
     <item>
       <title>BNZ books a $352m write-down as AI accelerates legacy software obsolescence</title>
@@ -101,7 +133,7 @@
       <description>Bank of New Zealand recorded a $352 million write-down on legacy systems, citing AI-driven advancements that are rapidly aging existing software and lifting upgrade costs. The disclosure is the first material AI-related impairment in NZ banking and may foreshadow similar moves at peers.</description>
       <pubDate>Mon, 04 May 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nzherald.co.nz/business/companies/banking-finance/bnzs-books-take-352m-hit-as-bank-accounts-for-fact-ai-is-seeing-software-age-increasingly-quickly/premium/LWFI34WBXFE3DHR2VBQG7FW334</guid>
-      <category>Governance,Automation</category>
+      <category>Governance, Automation</category>
     </item>
     <item>
       <title>Beca uses Microsoft Azure and GPT-5.1 to add AI to New Zealand Geospatial Data platform</title>
@@ -109,7 +141,7 @@
       <description>Engineering firm Beca, working with Microsoft, integrated Azure OpenAI&#x27;s GPT-5.1 into its BEYON system to add AI capabilities to the New Zealand Geospatial Data platform. The deployment focuses on natural-language querying of national infrastructure datasets.</description>
       <pubDate>Mon, 04 May 2026 18:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.reseller.co.nz/article/4166259/microsoft-helps-beca-to-add-ai-level-for-nzgd.html</guid>
-      <category>Automation,Models</category>
+      <category>Automation, Models</category>
     </item>
     <item>
       <title>The latest AI news we announced in April 2026</title>
@@ -125,7 +157,7 @@
       <description>Cisco is acquiring Israeli startup Astrix Security, an Anthropic and Menlo Ventures-backed company that monitors and controls permissions granted to AI agents. The deal underscores how managing autonomous-agent identities is becoming a discrete enterprise security category.</description>
       <pubDate>Mon, 04 May 2026 16:40:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.calcalistech.com/ctechnews/article/dy5obf581</guid>
-      <category>Agents,Governance</category>
+      <category>Agents, Governance</category>
     </item>
     <item>
       <title>Katie Haun closes $1B across two funds to back AI agent and financial-services startups</title>
@@ -149,7 +181,7 @@
       <description>Anthropic unveiled a $1.5 billion joint venture with Blackstone, Goldman Sachs, and Hellman &amp; Friedman to industrialise Claude deployments across the firms&#x27; private-equity portfolios. The JV targets workflow rebuilds in customer support, finance, and coding rather than raw model access, signalling a shift toward managed enterprise AI deployment.</description>
       <pubDate>Mon, 04 May 2026 14:30:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-financial-services-partnership</guid>
-      <category>Models,Agents</category>
+      <category>Models, Agents</category>
     </item>
     <item>
       <title>Compute Optimal Tokenization research sweeps tokenizers, params, and data across LLM compute budgets</title>
@@ -165,7 +197,7 @@
       <description>OpenAI is forming a $10 billion joint venture with private-equity firms including TPG and SoftBank to deploy AI across roughly 2,000 portfolio companies. The vehicle mirrors Anthropic&#x27;s smaller PE deal and emphasises selling end-to-end workflow transformation rather than API access.</description>
       <pubDate>Mon, 04 May 2026 13:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-05-04/openai-deployment-company-tpg-softbank</guid>
-      <category>Models,Automation</category>
+      <category>Models, Automation</category>
     </item>
     <item>
       <title>DeepClaude — Claude Code agent loop integrated with DeepSeek V4 Pro</title>
@@ -173,7 +205,7 @@
       <description>DeepClaude pairs Claude Code&#x27;s agent loop with DeepSeek V4 Pro for code generation, attempting to combine Claude&#x27;s tool-use orchestration with a cheaper Chinese open-weights backend. The project trended on Hacker News with 600+ points.</description>
       <pubDate>Sun, 03 May 2026 22:13:20 +0000</pubDate>
       <guid isPermaLink="true">https://github.com/aattaran/deepclaude</guid>
-      <category>Coding,Agents</category>
+      <category>Coding, Agents</category>
     </item>
     <item>
       <title>NIST CAISI evaluation: DeepSeek V4 Pro trails leading US AI models by about eight months</title>
@@ -181,7 +213,7 @@
       <description>NIST&#x27;s Center for AI Standards and Innovation (CAISI) assessed DeepSeek V4 Pro as the most capable Chinese model to date but found it lags top US systems by roughly eight months on capability benchmarks. The evaluation is the first formal US government performance gap measurement for a Chinese frontier model.</description>
       <pubDate>Sun, 03 May 2026 05:45:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nist.gov/news-events/news/2026/05/caisi-evaluation-deepseek-v4-pro</guid>
-      <category>Models,Governance</category>
+      <category>Models, Governance</category>
     </item>
     <item>
       <title>OpenAI employees raise alarm over ChatGPT&#x27;s failure to escalate violence threats to law enforcement</title>
@@ -197,7 +229,7 @@
       <description>Palo Alto Networks is buying AI infrastructure startup Portkey for an estimated $120M-$140M, expanding its security stack into the AI gateway category that brokers, observes, and rate-limits LLM calls for enterprise agent deployments. Portkey was previously backed by Elevation Capital.</description>
       <pubDate>Sun, 03 May 2026 05:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://economictimes.indiatimes.com/tech/startups/palo-alto-networks-to-acquire-elevation-capital-backed-ai-app-infra-startup-portkey/articleshow/130668555.cms</guid>
-      <category>Agents,Automation,Governance</category>
+      <category>Agents, Automation, Governance</category>
     </item>
     <item>
       <title>NZ Maritime Operations Centre upgrade adds AI for alarm consolidation and monitoring</title>
@@ -205,7 +237,7 @@
       <description>Wellington&#x27;s Maritime Operations Centre is rolling out an AI layer that consolidates the hundreds-to-thousands of alarms operators face into the two or three that actually need attention, per Kordia CEO Neil Livingston. He framed the system as assisting rather than replacing human operators in safety-critical maritime monitoring.</description>
       <pubDate>Sat, 02 May 2026 23:16:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/national/594089/new-zealand-s-maritime-operations-centre-gets-state-of-the-art-upgrade</guid>
-      <category>Automation,Governance</category>
+      <category>Automation, Governance</category>
     </item>
     <item>
       <title>Chat with Qwen (with Deep Research and Web Dev)</title>
@@ -213,39 +245,7 @@
       <description>Qwen launched a public chat interface with Deep Research and Web Dev modes, exposing its agentic research and code-generation capabilities directly to end users via chat.qwen.ai.</description>
       <pubDate>Sat, 02 May 2026 18:09:23 +0000</pubDate>
       <guid isPermaLink="true">https://chat.qwen.ai</guid>
-      <category>Models,Agents</category>
-    </item>
-    <item>
-      <title>NCSC-NZ + Five Eyes issue joint guidance on careful adoption of agentic AI</title>
-      <link>https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf</link>
-      <description>New Zealand&#x27;s National Cyber Security Centre, alongside Five Eyes partners, released joint guidance on agentic AI deployment. The document warns that LLM-powered agents inherit prompt-injection and data-poisoning risks and outlines security expectations across sectors.</description>
-      <pubDate>Sat, 02 May 2026 06:09:23 +0000</pubDate>
-      <guid isPermaLink="true">https://www.ncsc.govt.nz/assets/guidance/Documents/Careful-adoption-of-agentic-AI-services_FINAL.pdf</guid>
-      <category>Governance,Agents</category>
-    </item>
-    <item>
-      <title>Pentagon strikes AI deals with seven big tech firms after shunning Anthropic</title>
-      <link>https://www.rnz.co.nz/news/world/594041/pentagon-strikes-deals-with-seven-big-tech-companies-after-shunning-anthropic</link>
-      <description>The US Department of Defense awarded AI contracts to seven major tech vendors but excluded Anthropic, reportedly due to Anthropic&#x27;s restrictions on military use. The deals widen access to frontier models for defence applications.</description>
-      <pubDate>Sat, 02 May 2026 04:09:23 +0000</pubDate>
-      <guid isPermaLink="true">https://www.rnz.co.nz/news/world/594041/pentagon-strikes-deals-with-seven-big-tech-companies-after-shunning-anthropic</guid>
-      <category>Governance,Models</category>
-    </item>
-    <item>
-      <title>Anthropic opens Sydney office, names Theo Hourmouzis GM for Australia and New Zealand</title>
-      <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
-      <description>Anthropic has formalised its Australia/New Zealand presence with a Sydney office and ex-Snowflake VP Theo Hourmouzis as General Manager. The move signals deeper enterprise sales motion in the region, alongside partnerships such as TrendAI&#x27;s Claude Opus 4.7 deployment.</description>
-      <pubDate>Sat, 02 May 2026 00:09:23 +0000</pubDate>
-      <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
-      <category>Governance,Models</category>
-    </item>
-    <item>
-      <title>OpenAI to expand ChatGPT ads pilot to Australia, New Zealand and Canada</title>
-      <link>https://digiday.com/marketing/openai-starts-laying-foundations-for-chatgpt-ads-in-eu</link>
-      <description>OpenAI is broadening its ChatGPT advertising pilot beyond the US into Australia, New Zealand and Canada in the coming weeks. Updated privacy terms now allow user data sharing with advertisers for targeted placements.</description>
-      <pubDate>Fri, 01 May 2026 22:09:23 +0000</pubDate>
-      <guid isPermaLink="true">https://digiday.com/marketing/openai-starts-laying-foundations-for-chatgpt-ads-in-eu</guid>
-      <category>Content,Governance</category>
+      <category>Models, Agents</category>
     </item>
   </channel>
 </rss>

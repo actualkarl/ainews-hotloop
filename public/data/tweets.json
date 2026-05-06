@@ -1,4 +1,71 @@
 {
-  "generated_at": "2026-05-05T18:12:03.300714Z",
-  "tweets": []
+  "generated_at": "2026-05-06T18:10:47.025574Z",
+  "tweets": [
+    {
+      "id": "2052059553542328829",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "text": "Announcing OpenAI's new open networking protocol — Multipath Reliable Connection (MRC) — for AI training clusters. Co-developed with AMD, Broadcom, Intel, Microsoft, and NVIDIA.",
+      "published_at": "2026-05-06T08:00:00Z",
+      "url": "https://x.com/gdb/status/2052059553542328829",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051792390005117355",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "text": "Welcoming @rrcyrus to OpenAI — excited about agentic workflows for detection and response.",
+      "published_at": "2026-05-05T22:00:00Z",
+      "url": "https://x.com/gdb/status/2051792390005117355",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051759920467312940",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "text": "GPT-5.5 Instant is rolling out in ChatGPT — smarter, more personalised, more concise, with a more natural tone.",
+      "published_at": "2026-05-05T20:30:00Z",
+      "url": "https://x.com/gdb/status/2051759920467312940",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051755456310501618",
+      "handle": "alliekmiller",
+      "author_name": "Allie K. Miller",
+      "text": "The problem is when 'Google-style' use of ChatGPT is the ceiling of people's AI capabilities. It's the equivalent of using a 20-year-old Dell laptop today.",
+      "published_at": "2026-05-05T20:06:00Z",
+      "url": "https://x.com/alliekmiller/status/2051755456310501618",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051753244813332704",
+      "handle": "alliekmiller",
+      "author_name": "Allie K. Miller",
+      "text": "My agent team handled 11 tasks in parallel across calendar, Slack, and Gmail in under 11 minutes. Horizontal, flexible agent flywheel beats one-shot ChatGPT use.",
+      "published_at": "2026-05-05T19:57:00Z",
+      "url": "https://x.com/alliekmiller/status/2051753244813332704",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2051728186824904743",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "text": "Gemini API File Search update: now multi-modal (Gemini Embedding 2), custom metadata, inline citations. Free storage and embedding.",
+      "published_at": "2026-05-05T18:18:00Z",
+      "url": "https://x.com/OfficialLoganK/status/2051728186824904743",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }
