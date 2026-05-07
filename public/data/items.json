@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-05-07T18:07:34.936754Z",
+  "generated_at": "2026-05-07T18:10:24.565410Z",
   "next_refresh_at": "2026-05-08T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "cover_image_url": "/data/cover.png",
-  "cover_image_mobile_url": "/data/cover-mobile.png",
+  "cover_image_url": "/data/cover.svg",
   "newsflash": [
     "66179aed9b93d91c",
     "b72f345c79599aed",
@@ -11,7 +10,7 @@
     "fa002821b90d7a82",
     "24a3c172de484200"
   ],
-  "daily_summary": "OpenAI shipped GPT-Realtime-2 with GPT-5-class reasoning for voice agents in the API, alongside a faster Whisper and a 70-language Realtime-Translate model that together raise the production bar for spoken interfaces. xAI followed with connectors on Grok Web and an API tier for Grok Imagine's quality mode, narrowing the agent-and-image gap with Anthropic and OpenAI. On the New Zealand side, Datagrid signalled plans for the country's first AI factory near Invercargill while NCSC joined a Five Eyes advisory warning channel partners about agentic AI risks before they ship to clients.",
+  "daily_summary": "Anthropic's Code with Claude SF event delivered a cluster of developer-facing announcements: a SpaceX Colossus 1 compute deal doubling Claude rate limits, Claude Code Routines for async overnight pipelines, Claude Design for visual prototyping, and connectors to creative software from Adobe to Blender. The throughline is Anthropic pushing Claude firmly into agentic, autonomous workflows across code, design, and creative production.",
   "items": [
     {
       "id": "66179aed9b93d91c",
@@ -69,7 +68,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.5001,
+      "trending_score": 0.4981,
       "mention_count": 1,
       "related_ids": []
     },
@@ -109,7 +108,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.5569,
+      "trending_score": 0.5547,
       "mention_count": 2,
       "related_ids": []
     },
@@ -168,7 +167,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.8372,
+      "trending_score": 0.8339,
       "mention_count": 1,
       "related_ids": []
     },
@@ -188,7 +187,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.7703,
+      "trending_score": 0.7672,
       "mention_count": 1,
       "related_ids": []
     },
@@ -207,7 +206,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.7087,
+      "trending_score": 0.7059,
       "mention_count": 1,
       "related_ids": []
     },
@@ -226,7 +225,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.652,
+      "trending_score": 0.6495,
       "mention_count": 1,
       "related_ids": []
     },
@@ -246,7 +245,27 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
-      "trending_score": 0.4844,
+      "trending_score": 0.4825,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "f53c308cf32bbf51",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T16:00:00Z",
+      "first_seen_at": "2026-05-07T18:10:24.565410Z",
+      "summary": "Anthropic signed a deal with SpaceX to use all capacity at Colossus 1 in Memphis — 300MW, over 220,000 NVIDIA GPUs including H100, H200, and GB200s. This directly doubles Claude Pro, Max, Team, and Enterprise five-hour rate limits, removes peak-hour throttling, and opens discussion of orbital AI compute at multiple gigawatts.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 0.3721,
       "mention_count": 1,
       "related_ids": []
     },
@@ -266,7 +285,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.3736,
+      "trending_score": 0.3721,
       "mention_count": 1,
       "related_ids": []
     },
@@ -286,8 +305,68 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/anthropic-compute-partnership/opengraph-image-18dp32.png?8f753eead431203b",
-      "trending_score": 0.4338,
+      "trending_score": 0.4321,
       "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "0dba0c3d7be35ac4",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T14:00:00Z",
+      "first_seen_at": "2026-05-07T18:10:24.565410Z",
+      "summary": "Anthropic Labs launched Claude Design, a product for creating polished visual outputs — designs, prototypes, slides, and one-pagers — through collaboration with Claude. It sits alongside Claude Code as a Labs-track product for non-coding creative workflows.",
+      "tags": [
+        "Content",
+        "Skills"
+      ],
+      "image_url": null,
+      "trending_score": 0.315,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "270c90d14572851f",
+      "url": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+      "title": "Enabling Claude Code to work more autonomously",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T13:00:00Z",
+      "first_seen_at": "2026-05-07T18:10:24.565410Z",
+      "summary": "Anthropic introduced Routines in Claude Code — async automations that let developers set up overnight pipelines and wake to pull requests ready to merge. Code Review is now built in and used by Anthropic's own teams. The redesigned desktop app adds session sidebar, drag-and-drop workspace, integrated terminal, SSH support, and faster diffs.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "image_url": null,
+      "trending_score": 0.2898,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "8330c219eab8f928",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "title": "Claude for Creative Work",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T13:00:00Z",
+      "first_seen_at": "2026-05-07T18:10:24.565410Z",
+      "summary": "Anthropic launched connectors linking Claude to Adobe, Blender, Autodesk Fusion, Ableton, Resolume, Affinity by Canva, SketchUp, and Splice — plus art school partnerships at RISD, Ringling, and Goldsmiths. Designers can now create and modify 3D models, batch-automate production tasks, and control VJ tools through natural language.",
+      "tags": [
+        "Skills",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.2898,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -305,7 +384,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/ethernet-press-spectrum-x-corp-blog-1920x1080-1.jpg",
-      "trending_score": 0.3242,
+      "trending_score": 0.3229,
       "mention_count": 2,
       "related_ids": []
     },
@@ -324,7 +403,7 @@
         "Models"
       ],
       "image_url": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png",
-      "trending_score": 0.2085,
+      "trending_score": 0.2077,
       "mention_count": 1,
       "related_ids": []
     },
@@ -344,7 +423,26 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.1918,
+      "trending_score": 0.1911,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "fa2c3aa6e5eb1946",
+      "url": "https://technewzealand.org.nz/2026/05/06/ai-blueprint-for-aotearoa-a-refreshed-vision-to-2030/",
+      "title": "AI Blueprint for Aotearoa: a refreshed vision to 2030",
+      "title_translated": null,
+      "source": "technewzealand",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-06T00:00:00Z",
+      "first_seen_at": "2026-05-07T18:10:24.565410Z",
+      "summary": "New Zealand's AI Blueprint Working Group launched a refreshed national AI roadmap targeting global AI leadership by 2030. Six priority sectors: agriculture, AEC, creative industries, education, environment, and health. Key finding: AI uptake is growing but trust is not keeping pace with usage.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.049,
       "mention_count": 1,
       "related_ids": []
     },
@@ -364,7 +462,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0985,
+      "trending_score": 0.0981,
       "mention_count": 1,
       "related_ids": []
     },
@@ -386,7 +484,7 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0694
+      "trending_score": 0.0691
     },
     {
       "id": "0521b68e1d361b3d",
@@ -403,7 +501,7 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-      "trending_score": 0.0506,
+      "trending_score": 0.0504,
       "mention_count": 1,
       "related_ids": []
     },
@@ -425,7 +523,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0638
+      "trending_score": 0.0636
     },
     {
       "id": "0d33f723ee92a5de",
@@ -444,7 +542,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0631
+      "trending_score": 0.0629
     },
     {
       "id": "8147e5470addb193",
@@ -462,7 +560,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0362,
+      "trending_score": 0.0361,
       "mention_count": 1,
       "related_ids": []
     },
@@ -481,7 +579,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0307,
+      "trending_score": 0.0305,
       "mention_count": 1,
       "related_ids": []
     },
@@ -504,7 +602,7 @@
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
-      "trending_score": 0.0387
+      "trending_score": 0.0385
     },
     {
       "id": "42d356f36bddceaf",
@@ -541,7 +639,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0171,
+      "trending_score": 0.017,
       "mention_count": 1,
       "related_ids": []
     },
@@ -561,7 +659,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0079,
+      "trending_score": 0.0078,
       "mention_count": 1,
       "related_ids": []
     },
@@ -583,7 +681,7 @@
       "image_url": null,
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0131
+      "trending_score": 0.013
     },
     {
       "id": "8e669a2b06fe440e",
@@ -911,7 +1009,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0002,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -2494,25 +2592,6 @@
       "related_ids": []
     },
     {
-      "id": "b156fcbc8e043598",
-      "url": "http://www.techmeme.com/260424/p44#a260424p44",
-      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T20:10:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "d51658229d495c24",
       "url": "https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister",
       "title": "NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI",
@@ -2593,26 +2672,6 @@
       "related_ids": []
     },
     {
-      "id": "8131ce6e063313c5",
-      "url": "http://www.techmeme.com/260424/p43#a260424p43",
-      "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T19:05:03-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "image_url": "https://www.reuters.com/resizer/v2/C24JKRJIMBOVHP4PKMJB7V3JP4.jpg?auth=19cd12ff4beb2309fa30196b3ffe2125eedfdbee0f33ecc1eebc43f549d85c6d&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "8e494cf5218b0f60",
       "url": "https://x.com/i/status/2047728242707046599",
       "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
@@ -2633,40 +2692,40 @@
       "image_source": "cover_fallback"
     },
     {
-      "id": "c2e9c3f0479e1b68",
-      "url": "http://www.techmeme.com/260424/p42#a260424p42",
-      "title": "Diplomatic cable: US State Department has ordered a global push to bring attention to what it says are efforts by Chinese companies to steal IP from US AI labs (Raphael Satter/Reuters)",
+      "id": "b156fcbc8e043598",
+      "url": "http://www.techmeme.com/260424/p44#a260424p44",
+      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
       "region": "us",
-      "published_at": "2026-04-24T18:55:01-04:00",
+      "published_at": "2026-04-24T20:10:01-04:00",
       "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"bor",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
       "tags": [
         "Governance"
       ],
-      "image_url": "https://www.reuters.com/resizer/v2/KIK4AUMDLBLZ3MA7ULN3KENZZQ.jpg?auth=4daeda6a00bb880345fa05de17b38bfaba770f66458d51fd3a707542e01f98ee&height=1005&width=1920&quality=80&smart=true",
+      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
     {
-      "id": "858699580058a9a4",
-      "url": "http://www.techmeme.com/260424/p33#a260424p33",
-      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "id": "8131ce6e063313c5",
+      "url": "http://www.techmeme.com/260424/p43#a260424p43",
+      "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
       "region": "us",
-      "published_at": "2026-04-24T16:45:01-04:00",
+      "published_at": "2026-04-24T19:05:03-04:00",
       "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;padding:0;",
       "tags": [
         "Models",
-        "Content"
+        "Governance"
       ],
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
+      "image_url": "https://www.reuters.com/resizer/v2/C24JKRJIMBOVHP4PKMJB7V3JP4.jpg?auth=19cd12ff4beb2309fa30196b3ffe2125eedfdbee0f33ecc1eebc43f549d85c6d&height=1005&width=1920&quality=80&smart=true",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -2686,6 +2745,25 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "c2e9c3f0479e1b68",
+      "url": "http://www.techmeme.com/260424/p42#a260424p42",
+      "title": "Diplomatic cable: US State Department has ordered a global push to bring attention to what it says are efforts by Chinese companies to steal IP from US AI labs (Raphael Satter/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T18:55:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"bor",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://www.reuters.com/resizer/v2/KIK4AUMDLBLZ3MA7ULN3KENZZQ.jpg?auth=4daeda6a00bb880345fa05de17b38bfaba770f66458d51fd3a707542e01f98ee&height=1005&width=1920&quality=80&smart=true",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -2744,6 +2822,26 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "858699580058a9a4",
+      "url": "http://www.techmeme.com/260424/p33#a260424p33",
+      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T16:45:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
