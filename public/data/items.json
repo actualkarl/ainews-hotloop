@@ -1,17 +1,255 @@
 {
-  "generated_at": "2026-05-06T18:15:21.917326Z",
-  "next_refresh_at": "2026-05-07T18:00:00Z",
+  "generated_at": "2026-05-07T18:07:34.936754Z",
+  "next_refresh_at": "2026-05-08T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "cover_image_url": "/data/cover.svg",
+  "cover_image_url": "/data/cover.png",
+  "cover_image_mobile_url": "/data/cover-mobile.png",
   "newsflash": [
-    "ea86a83eb336b9cd",
-    "e4ae65a9c2eb9a2e",
-    "dc6ae17819b70674",
-    "9bcec59458e97e4d",
-    "57a55fcb205568a6"
+    "66179aed9b93d91c",
+    "b72f345c79599aed",
+    "83e20b8924638b5c",
+    "fa002821b90d7a82",
+    "24a3c172de484200"
   ],
-  "daily_summary": "Google shipped Multi-Token Prediction drafters for Gemma 4 (up to 3x faster inference), xAI confirmed it is providing Anthropic access to the Colossus 1 cluster of over 220,000 NVIDIA GPUs as Claude's user base continues to grow, and NVIDIA detailed the Spectrum-X Ethernet fabric for million-accelerator AI factories. Anthropic's separately announced 10 financial-services agent templates — covering pitchbooks to insurance claims — went live on the same day as the Colossus compute deal, underscoring the company's accelerating push into enterprise verticals.",
+  "daily_summary": "OpenAI shipped GPT-Realtime-2 with GPT-5-class reasoning for voice agents in the API, alongside a faster Whisper and a 70-language Realtime-Translate model that together raise the production bar for spoken interfaces. xAI followed with connectors on Grok Web and an API tier for Grok Imagine's quality mode, narrowing the agent-and-image gap with Anthropic and OpenAI. On the New Zealand side, Datagrid signalled plans for the country's first AI factory near Invercargill while NCSC joined a Five Eyes advisory warning channel partners about agentic AI risks before they ship to clients.",
   "items": [
+    {
+      "id": "66179aed9b93d91c",
+      "url": "https://x.ai/news/grok-imagine-quality-mode",
+      "title": "Grok Imagine Quality Mode API",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T19:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "xAI exposed Grok Imagine Quality Mode through the API, giving developers programmatic access to the higher-fidelity image generation tier previously limited to the Grok app. Pricing is per-image at the higher quality cost band.",
+      "tags": [
+        "Content",
+        "Models"
+      ],
+      "image_url": "https://x.ai/news/grok-imagine-quality-mode/opengraph-image-efrhnk.png?82c9f5ad48211444",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b72f345c79599aed",
+      "url": "https://x.ai/news/grok-connectors",
+      "title": "Connectors now on Grok Web",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T18:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "xAI rolled connectors out to Grok on the web, letting users link Gmail, Google Drive, GitHub, and other services so Grok can search and act across them. Mirrors agent-style integrations already shipped by ChatGPT and Claude.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "image_url": "https://x.ai/news/grok-connectors/opengraph-image-1dejzx.png?c4a30430a6130720",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "dcadb723e7889c43",
+      "url": "https://scale.com/leaderboard/swe_atlas_refactoring",
+      "title": "Scale AI launches SWE Atlas Refactoring Leaderboard — Claude Opus 4.7 leads",
+      "title_translated": null,
+      "source": "testingcatalog",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-05-07T17:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "Scale AI published a new SWE Atlas Refactoring leaderboard scoring how well coding agents perform multi-file refactors on real repos. Claude Code with Opus 4.7 currently tops the board, followed by Codex and GPT-5 variants.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 0.5001,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "83e20b8924638b5c",
+      "url": "https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/",
+      "title": "Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T16:02:58Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "NVIDIA describes NCCL Inspector, a Prometheus-compatible tool for live-monitoring NVIDIA Collective Communications Library traffic across multi-GPU training jobs. It surfaces stragglers and failed all-reduces faster than log-scraping, useful for teams running large distributed training.",
+      "tags": [
+        "Coding",
+        "Models"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "1c57be74476f58fb",
+      "url": "https://x.com/GoogleDeepMind/status/2052403306257940967",
+      "title": "DeepMind: AlphaEvolve Gemini-powered coding agent accelerating quantum, biotech, logistics",
+      "title_translated": null,
+      "source": "demishassabis",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-05-07T15:30:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "Google DeepMind highlighted AlphaEvolve, a Gemini-powered coding agent that iteratively proposes and tests algorithm changes. They credit it with measurable speedups in quantum simulation, protein workflows, and logistics scheduling.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 0.5569,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "fa002821b90d7a82",
+      "url": "https://openai.com/index/parloa",
+      "title": "Parloa builds service agents customers want to talk to",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T11:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "OpenAI case study on Parloa using its Realtime API to run multilingual phone-and-chat customer-service agents at scale for enterprises. Parloa reports faster handoffs and higher containment when GPT-class voice models replace legacy IVR.",
+      "tags": [
+        "Agents",
+        "Automation"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "24a3c172de484200",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "title": "Advancing voice intelligence with new models in the API",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T10:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "OpenAI shipped GPT-Realtime-2 with GPT-5-class reasoning for low-latency voice agents, plus a faster Whisper variant and a new Realtime-Translate model covering 70 source languages and 13 outputs. The release targets production voice agents in the API and presages a ChatGPT Voice upgrade.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "/data/cover-mobile.png",
+      "trending_score": 1.0,
+      "mention_count": 4,
+      "related_ids": []
+    },
+    {
+      "id": "ef4badf84e6492ca",
+      "url": "https://www.securitysolutionsmedia.com/2026/05/07/commvault-warns-anz-organisations-are-scaling-ai-faster-than-they-can-secure-it",
+      "title": "Commvault warns ANZ organisations are scaling AI faster than they can secure it",
+      "title_translated": null,
+      "source": "securitysolutionsmedia",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-07T10:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "A Commvault report says Australian and New Zealand organisations are deploying AI faster than they can build resilience or governance for it, with model and data backup, lineage, and rollback emerging as gaps. Practitioners are urged to extend disaster recovery plans to AI assets.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.8372,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "611445fcf433601b",
+      "url": "https://www.reseller.co.nz/article/4168114/ncsc-and-five-eyes-cyber-agencies-warn-channel-partners-over-agentic-ai-risks-report.html",
+      "title": "NCSC and Five Eyes cyber agencies warn channel partners over agentic AI risks",
+      "title_translated": null,
+      "source": "reseller.co.nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-07T09:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "New Zealand's NCSC joined Five Eyes counterparts in a joint advisory urging IT channel partners to harden controls before deploying agentic AI for clients. The guidance flags identity, action-scope, and audit-trail gaps as the highest-risk areas.",
+      "tags": [
+        "Governance",
+        "Agents"
+      ],
+      "image_url": null,
+      "trending_score": 0.7703,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a8f2d3805afe6fc5",
+      "url": "https://www.interest.co.nz/technology/138386/ai-factory-race-reaches-new-zealand-angus-dowell-says-it-raises-broad-ranging",
+      "title": "AI factory race reaches New Zealand: Datagrid plans build near Invercargill",
+      "title_translated": null,
+      "source": "interest.co.nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-07T08:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "Singapore-based Datagrid is planning what would be New Zealand's first dedicated AI training data centre near Invercargill, leveraging Southland power. Coverage flags broad questions over grid impact, water use, and economic returns.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.7087,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "a4c45e36cd073768",
+      "url": "https://www.ruralnewsgroup.co.nz/rural-news/rural-agribusiness/aimer-farming-ai-pasture-technology-mpi-investment",
+      "title": "Government invests in Aimer Farming AI for pasture decisions",
+      "title_translated": null,
+      "source": "ruralnewsgroup.co.nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-07T07:00:00Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "MPI is co-funding Aimer Farming's AI platform that recommends rotational grazing decisions from pasture imagery and weather data. The deal is one of the few NZ government commitments to applied AI in primary production.",
+      "tags": [
+        "Automation"
+      ],
+      "image_url": null,
+      "trending_score": 0.652,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "463b01d5793bbfd3",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T19:06:55Z",
+      "first_seen_at": "2026-05-07T18:07:34.936754Z",
+      "summary": "ServiceNow-AI on Hugging Face documents subtle numerical drift between vLLM V0 and V1 that silently broke RL training reward signals. The post argues teams should validate inference parity before tuning RL hyperparameters when migrating engines.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
+      "trending_score": 0.4844,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "ea86a83eb336b9cd",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
@@ -28,7 +266,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.3736,
       "mention_count": 1,
       "related_ids": []
     },
@@ -48,7 +286,7 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/anthropic-compute-partnership/opengraph-image-18dp32.png?8f753eead431203b",
-      "trending_score": 1.0,
+      "trending_score": 0.4338,
       "mention_count": 2,
       "related_ids": []
     },
@@ -67,7 +305,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/ethernet-press-spectrum-x-corp-blog-1920x1080-1.jpg",
-      "trending_score": 1.0,
+      "trending_score": 0.3242,
       "mention_count": 2,
       "related_ids": []
     },
@@ -86,7 +324,7 @@
         "Models"
       ],
       "image_url": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png",
-      "trending_score": 1.0,
+      "trending_score": 0.2085,
       "mention_count": 1,
       "related_ids": []
     },
@@ -106,7 +344,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 1.0,
+      "trending_score": 0.1918,
       "mention_count": 1,
       "related_ids": []
     },
@@ -126,7 +364,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.7199,
+      "trending_score": 0.0985,
       "mention_count": 1,
       "related_ids": []
     },
@@ -148,7 +386,7 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.5074
+      "trending_score": 0.0694
     },
     {
       "id": "0521b68e1d361b3d",
@@ -165,7 +403,7 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-      "trending_score": 0.3696,
+      "trending_score": 0.0506,
       "mention_count": 1,
       "related_ids": []
     },
@@ -187,7 +425,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.4664
+      "trending_score": 0.0638
     },
     {
       "id": "0d33f723ee92a5de",
@@ -206,7 +444,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.4614
+      "trending_score": 0.0631
     },
     {
       "id": "8147e5470addb193",
@@ -224,7 +462,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.2648,
+      "trending_score": 0.0362,
       "mention_count": 1,
       "related_ids": []
     },
@@ -243,7 +481,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2242,
+      "trending_score": 0.0307,
       "mention_count": 1,
       "related_ids": []
     },
@@ -266,7 +504,7 @@
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
-      "trending_score": 0.2829
+      "trending_score": 0.0387
     },
     {
       "id": "42d356f36bddceaf",
@@ -283,7 +521,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0739,
+      "trending_score": 0.0101,
       "mention_count": 1,
       "related_ids": []
     },
@@ -303,7 +541,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1251,
+      "trending_score": 0.0171,
       "mention_count": 1,
       "related_ids": []
     },
@@ -323,7 +561,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0575,
+      "trending_score": 0.0079,
       "mention_count": 1,
       "related_ids": []
     },
@@ -345,7 +583,7 @@
       "image_url": null,
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0957
+      "trending_score": 0.0131
     },
     {
       "id": "8e669a2b06fe440e",
@@ -365,7 +603,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Agentic-AI.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0951
+      "trending_score": 0.013
     },
     {
       "id": "97d4fb13d552b36f",
@@ -384,7 +622,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0349,
+      "trending_score": 0.0048,
       "mention_count": 1,
       "related_ids": []
     },
@@ -405,7 +643,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0295,
+      "trending_score": 0.004,
       "mention_count": 1,
       "related_ids": []
     },
@@ -424,7 +662,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
-      "trending_score": 0.0544,
+      "trending_score": 0.0074,
       "mention_count": 1,
       "related_ids": []
     },
@@ -445,7 +683,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0264,
+      "trending_score": 0.0036,
       "mention_count": 1,
       "related_ids": []
     },
@@ -465,7 +703,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0237,
+      "trending_score": 0.0032,
       "mention_count": 1,
       "related_ids": []
     },
@@ -485,7 +723,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0235,
+      "trending_score": 0.0032,
       "mention_count": 1,
       "related_ids": []
     },
@@ -506,7 +744,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.072,
+      "trending_score": 0.0098,
       "mention_count": 4,
       "related_ids": []
     },
@@ -526,7 +764,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0068,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": []
     },
@@ -547,7 +785,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0285,
+      "trending_score": 0.0039,
       "mention_count": 3,
       "related_ids": []
     },
@@ -568,7 +806,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0057,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -589,7 +827,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0014,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -609,7 +847,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0014,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -631,7 +869,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0014,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -652,7 +890,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -673,7 +911,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0011,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -694,7 +932,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -715,7 +953,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -736,7 +974,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0003,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -757,7 +995,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -778,7 +1016,7 @@
       ],
       "image_url": "/data/cover-mobile.png",
       "image_source": "cover_fallback",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -798,7 +1036,7 @@
         "Content"
       ],
       "image_url": "https://x.ai/news/grok-custom-voices/opengraph-image-1dmibn.png?090657c897727150",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -2256,6 +2494,25 @@
       "related_ids": []
     },
     {
+      "id": "b156fcbc8e043598",
+      "url": "http://www.techmeme.com/260424/p44#a260424p44",
+      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T20:10:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "d51658229d495c24",
       "url": "https://community.scoop.co.nz/2026/04/no-rethink-on-us-drones-on-right-path-for-now-says-new-defence-minister",
       "title": "NZ Defence: no rethink on US drones; reportedly switched targeting tech from Anthropic to OpenAI",
@@ -2336,45 +2593,6 @@
       "related_ids": []
     },
     {
-      "id": "8e494cf5218b0f60",
-      "url": "https://x.com/i/status/2047728242707046599",
-      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
-      "title_translated": null,
-      "source": "x-governance",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-24T23:00:00Z",
-      "first_seen_at": "2026-04-24T18:15:11Z",
-      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "b156fcbc8e043598",
-      "url": "http://www.techmeme.com/260424/p44#a260424p44",
-      "title": "A US judge dismisses Elon Musk's fraud claims in his lawsuit against OpenAI at his request, and plans to proceed to trial on other claims (Jonathan Stempel/Reuters)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T20:10:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;paddi",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://www.reuters.com/resizer/v2/KNU6OPNZQJMXBEW7Z3IXGLJSZA.jpg?auth=7e7c9dfbe4b9d1c52e55084049debd96e9bf09a7a688ebed8d4fe1093b66da4f&height=1005&width=1920&quality=80&smart=true",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
       "id": "8131ce6e063313c5",
       "url": "http://www.techmeme.com/260424/p43#a260424p43",
       "title": "The US CFTC sues New York, accusing the state of invading its authority to regulate prediction markets by filing lawsuits against Coinbase and Gemini (Jonathan Stempel/Reuters)",
@@ -2395,23 +2613,24 @@
       "related_ids": []
     },
     {
-      "id": "caecb50726ec83a1",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "title": "8 Gemini tips for organizing your space (and life)",
+      "id": "8e494cf5218b0f60",
+      "url": "https://x.com/i/status/2047728242707046599",
+      "title": "Sanders and AOC introduce AI Data Center Moratorium Act",
       "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
+      "source": "x-governance",
+      "source_tier": 3,
       "region": "us",
-      "published_at": "2026-04-24T19:00:00Z",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "published_at": "2026-04-24T23:00:00Z",
+      "first_seen_at": "2026-04-24T18:15:11Z",
+      "summary": "Senators Bernie Sanders and Alexandria Ocasio-Cortez introduced the AI Data Center Moratorium Act, calling for a pause on major AI data center construction and frontier AI development to allow time for safety evaluation. Marks the first significant US legislative attempt to slow frontier AI expansion.",
       "tags": [
-        "Models"
+        "Governance"
       ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
+      "image_url": "/data/cover-mobile.png",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "cover_fallback"
     },
     {
       "id": "c2e9c3f0479e1b68",
@@ -2428,6 +2647,45 @@
         "Governance"
       ],
       "image_url": "https://www.reuters.com/resizer/v2/KIK4AUMDLBLZ3MA7ULN3KENZZQ.jpg?auth=4daeda6a00bb880345fa05de17b38bfaba770f66458d51fd3a707542e01f98ee&height=1005&width=1920&quality=80&smart=true",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "858699580058a9a4",
+      "url": "http://www.techmeme.com/260424/p33#a260424p33",
+      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
+      "title_translated": null,
+      "source": "techmeme",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-04-24T16:45:01-04:00",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "caecb50726ec83a1",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-04-24T19:00:00Z",
+      "first_seen_at": "2026-04-25T00:19:31.627394Z",
+      "summary": "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_ss.width-1300.png",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -2486,26 +2744,6 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "858699580058a9a4",
-      "url": "http://www.techmeme.com/260424/p33#a260424p33",
-      "title": "ComfyUI, which gives creators granular control over image, video, and audio outputs from diffusion models, raised $30M at a $500M valuation (Marina Temkin/TechCrunch)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-24T16:45:01-04:00",
-      "first_seen_at": "2026-04-25T00:19:31.627394Z",
-      "summary": "<IMG WIDTH=11 HEIGHT=12 SRC=\"http://www.techmeme.com/img/pml.png\" STYLE=\"border:none;",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/fall-guys.png?resize=1200,675",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -3041,850 +3279,6 @@
       "mention_count": 1,
       "related_ids": [],
       "image_type": "generated"
-    },
-    {
-      "id": "1b0938288101b6f8",
-      "url": "https://openai.com/index/introducing-gpt-5-5/",
-      "title": "GPT-5.5",
-      "title_translated": null,
-      "source": "hnrss",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-23T18:01:39Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Article URL: https://openai.com/index/introducing-gpt-5-5/ Comments URL: https://news.ycombinator.com/item?id=47879092 Points: 1387 # Comments: 910",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "fe370f3118dcd626",
-      "url": "https://blog.meshcore.io/2026/04/23/the-split",
-      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
-      "title_translated": null,
-      "source": "hnrss",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-23T16:55:13Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "The MeshCore project has split following disputes over the project's trademark and contributions of AI-generated code. Highlights governance friction as open-source projects grapple with AI-tool usage norms.",
-      "tags": [
-        "Coding",
-        "Governance"
-      ],
-      "image_url": "https://blog.meshcore.io/assets/images/icon.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "85b0ca3c45b5c993",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "title": "An update on recent Claude Code quality reports",
-      "title_translated": null,
-      "source": "anthropic",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T14:50:00Z",
-      "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "Anthropic confirms and resolves three issues degrading Claude Code quality since March 2026: reduced default reasoning effort, a caching bug causing context loss, and a verbosity-reduction prompt hurting coding performance. All three now fixed.",
-      "tags": [
-        "Coding",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 8,
-      "related_ids": [],
-      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/3f522820d47355885631ebda60e5d1f3e5c0fbc2-2000x1050.heif"
-    },
-    {
-      "id": "d39f323dca4db435",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
-      "title": "Meta Plans to Cut 10% of Workers to Offset AI Spending",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-23T13:47:00Z",
-      "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "Meta will cut ~8,000 jobs (10% of workforce) on May 20 and leave 6,000 roles unfilled to offset AI infrastructure costs. AI is writing 4x more code than engineers at Meta — layoffs framed explicitly as an AI-productivity dividend.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 4,
-      "related_ids": [],
-      "image_url": "/data/images/meta-plans-to-cut-10-of-workers-to-offset-ai-spending.png",
-      "image_type": "generated"
-    },
-    {
-      "id": "1336fec95b3824cd",
-      "url": "https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything",
-      "title": "Quoting Maggie Appleton",
-      "title_translated": null,
-      "source": "simonwillison",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-23T13:35:37Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have…",
-      "tags": [
-        "Coding"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "4e2d46ca7b7754de",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-in-app-labels/",
-      "title": "Tag, You’re It: GeForce NOW Levels Up Game Discovery With Xbox Game Pass and Ubisoft+ Labels",
-      "title_translated": null,
-      "source": "nvidia",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T13:00:51Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "GeForce NOW is doubling down on what matters most: gamers. This week’s upgrades bring smarter libraries, making it easier than ever for gamers to turn a PC collection into a cloud-powered flex. It starts with giving existing libraries time to shine. Gamers can bring the games they love to the cloud, stream them…",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/gfn-thursday-feature-launch-library-nv-blog-1280x680-logo.jpg",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "da8232909c412961",
-      "url": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/",
-      "title": "Making Sense of the Early Universe",
-      "title_translated": null,
-      "source": "nvidia",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T13:00:22Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "This Spring Astronomy Day, here’s a look at how AI and GPUs are helping astronomers work through volumes of cosmic data.",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/AstroUCSC_IntroPoster_v2.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "4286eb4691c1507d",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-      "title": "How our TPUs power increasingly demanding AI workloads",
-      "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T12:00:00Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "Google released an explainer video on how its TPU generations have scaled to power increasingly demanding AI workloads. Educational, but a marker that Google continues to position TPUs as competitive with NVIDIA for training the largest models.",
-      "tags": [
-        "Content"
-      ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "a07eb39dec044669",
-      "url": "https://openai.com/index/gpt-5-5-system-card",
-      "title": "GPT-5.5 System Card",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T11:00:00Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "OpenAI published the GPT-5.5 system card with safety evaluations, red-teaming results, and capability benchmarks. Reports improvements in agentic coding and scientific research, with the bio-risk evaluations separately covered in a bug bounty challenge.",
-      "tags": [
-        "Models",
-        "Agents",
-        "Coding"
-      ],
-      "image_url": "/data/images/gpt-5-5-system-card.png",
-      "trending_score": 0.0,
-      "mention_count": 3,
-      "related_ids": [],
-      "image_type": "generated"
-    },
-    {
-      "id": "dfe7e0c6ff398140",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "title": "Introducing GPT-5.5",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T11:00:00Z",
-      "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "OpenAI launches GPT-5.5, its most capable model, optimised for agentic coding, computer use, and long-context scientific research. Scores 82.7% on Terminal-Bench 2.0 and 85% on ARC-AGI-2 while matching GPT-5.4 latency. Priced at $5/1M input and $30/1M output — double GPT-5.4 pricing.",
-      "tags": [
-        "Models",
-        "Coding",
-        "Agents"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 10,
-      "related_ids": [],
-      "image_url": "/data/images/introducing-gpt-5-5.png",
-      "image_type": "generated"
-    },
-    {
-      "id": "a8336fe361e14b12",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "Meta's MSL lab introduced Muse Spark, framing it as a step toward what Meta is calling personal superintelligence. Details are thin on capability specs; the branding positions it squarely against OpenAI's consumer play.",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=8Ofzm8o9mjYQ7kNvwGtULFT&_nc_oc=AdqJLti-c523yAElssrDxTU02XgXBpkMF1ja100mgNhNxDxnb71BhtLrYS_HFkdHUMs&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=wSc-0O757M3ykrDuzFJPxw&oh=00_Af1AoGbTytxuVDiYPm3tYVZEp5RMgoUUg8Yt3Dv0-4n4TQ&oe=6A0515EC",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "9fab69c8c968c73d",
-      "url": "https://openai.com/academy/codex-automations",
-      "title": "Automations",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "tags": [
-        "Coding",
-        "Automation"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "533227aa43914c8e",
-      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "title": "Top 10 uses for Codex at work",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "tags": [
-        "Coding",
-        "Automation"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "277cf65bf8c8d0a7",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
-      "title": "Plugins and skills",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "tags": [
-        "Coding",
-        "Skills",
-        "Automation"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "40d5894d1daf7129",
-      "url": "https://openai.com/academy/working-with-codex",
-      "title": "Working with Codex",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "tags": [
-        "Coding"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "72f200cf8d8a54af",
-      "url": "https://openai.com/academy/codex-settings",
-      "title": "Codex settings",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "tags": [
-        "Coding",
-        "Automation"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "34f009d107cc6ed8",
-      "url": "https://openai.com/academy/what-is-codex",
-      "title": "What is Codex?",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "tags": [
-        "Coding"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "0bd514e3244e4be3",
-      "url": "https://openai.com/academy/codex-how-to-start",
-      "title": "How to get started with Codex",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T10:00:00Z",
-      "first_seen_at": "2026-04-24T10:48:27.170713Z",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "tags": [
-        "Coding"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "cover_fallback"
-    },
-    {
-      "id": "fd02f90b4d79825b",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
-      "title": "Google invests in first data center in the Austrian Alps",
-      "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T09:00:00Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "Google announced its first Austrian data center in Kronstorf, generating 100 direct jobs. Part of Google's push to expand EU AI compute capacity ahead of EU AI Act enforcement milestones.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "fb6a27e6b6291374",
-      "url": "https://www.rnz.co.nz/news/business/592939/microsoft-announces-boost-in-nz-ai-training",
-      "title": "Microsoft doubles NZ AI upskilling commitment to train 200,000 Kiwis",
-      "title_translated": null,
-      "source": "rnz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-23T09:00:00Z",
-      "first_seen_at": "2026-04-23T20:41:23.681708Z",
-      "summary": "Microsoft has doubled its New Zealand AI upskilling target to 200,000 people, expanding beyond basic digital literacy to real-world AI skills. Announced by Satya Nadella, targeting workforce readiness for AI-driven productivity.",
-      "tags": [
-        "Skills",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--nTavqkEY--/t_tohu-badge-facebook/v1661033484/4LMPJPT_54470630_m_jpg?_a=BACCd2AD"
-    },
-    {
-      "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
-      "title": "[AINews] Tasteful Tokenmaxxing",
-      "source": "latent-space",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-23T02:45:37Z",
-      "summary": "AI leaders debate optimal token consumption — serial depth vs parallel breadth in model runs, and implications for code quality as AI-generated software volume explodes. Discussion of tokenmaxxing as a deliberate strategy vs efficiency.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "mention_count": 1,
-      "id": "afb716a2daffcda4",
-      "title_translated": null,
-      "first_seen_at": "2026-04-23T23:06:52Z",
-      "related_ids": [],
-      "trending_score": 0.0,
-      "image_url": "https://substackcdn.com/image/fetch/$s_!4_2l!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb2b6f77-150d-4fb4-a74a-259318cba0dd_1698x1172.png"
-    },
-    {
-      "id": "b597d1973c66b098",
-      "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit",
-      "title": "NZ Government publishes Public Service AI Toolkit",
-      "title_translated": null,
-      "source": "digital-govt-nz",
-      "source_tier": 1,
-      "region": "nz",
-      "published_at": "2026-04-23T00:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "digital.govt.nz consolidates a public-service AI toolkit: agency policy template, records-management guidance, and reference to NZ's AI strategy. First centralised resource for public-sector AI adoption in 2026.",
-      "tags": [
-        "Governance",
-        "Skills"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "d2f04a645a936fa0",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-23T00:00:00Z",
-      "first_seen_at": "2026-04-24T01:49:24.227860Z",
-      "summary": "OpenAI is running a red-teaming challenge to find universal jailbreaks for GPT-5.5's bio safety guardrails, with rewards up to $25,000. Shows OpenAI is taking bio-risk evals seriously for its latest frontier model.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "image_url": "/data/images/gpt-5-5-bio-bug-bounty.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_type": "generated"
-    },
-    {
-      "url": "https://www.ncsc.govt.nz/protect-your-organisation/the-implications-of-frontier-ai-models-for-cyber-defence/",
-      "title": "NZ NCSC: Implications of Frontier AI Models for Cyber Defence",
-      "source": "ncsc-nz",
-      "source_tier": 1,
-      "region": "nz",
-      "published_at": "2026-04-23T00:00:00Z",
-      "summary": "New Zealand's National Cyber Security Centre publishes guidance for senior leaders on how frontier AI models create dual-use cyber risks: enabling attackers to find vulnerabilities faster while offering defenders AI-assisted code review and vulnerability detection.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "mention_count": 1,
-      "id": "9ba6a1fafa2cc94b",
-      "title_translated": null,
-      "first_seen_at": "2026-04-23T23:06:52Z",
-      "related_ids": [],
-      "trending_score": 0.0,
-      "image_url": "/data/images/nz-ncsc-implications-of-frontier-ai-models-for-cyber-defence.png",
-      "image_type": "generated"
-    },
-    {
-      "id": "29ee52dce1758d6e",
-      "url": "https://x.com/i/status/2047017964105597009",
-      "title": "OpenAI workspace agents launch — shared agents for multi-step workflows across tools and teams",
-      "title_translated": null,
-      "source": "sama",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-22T20:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Sam Altman endorsed OpenAI's new workspace agents in ChatGPT, calling them 'cool' and predicting most companies will want them. Greg Brockman confirmed they run on cloud-hosted Codex infrastructure with Slack integration and support for recurring long-running tasks.",
-      "tags": [
-        "Agents",
-        "Coding"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/sama",
-      "image_type": "avatar"
-    },
-    {
-      "id": "a0f97af1ab63b85b",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA details running Gemma 4 locally on RTX PCs and the DGX Spark desktop, including supported open models in the RTX AI Garage. Positions local agentic AI on consumer hardware as a practical path for developers and enterprises wanting on-premise inference.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/eevee-nv-blog-1280x680-1.jpg"
-    },
-    {
-      "id": "2815eb572abf549b",
-      "url": "https://blogs.nvidia.com/blog/ai-future-open-and-proprietary/",
-      "title": "The Future of AI Is Open and Proprietary",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA argues the AI landscape will be defined by open and proprietary models coexisting — open weights enabling customisation and sovereignty while closed frontier models deliver maximum raw capability. A perspective piece from a key infrastructure player on AI's structural future.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg"
-    },
-    {
-      "id": "bc30b236bf7907bd",
-      "url": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/",
-      "title": "How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA outlines how the OpenShell agent runtime enforces security-by-design for autonomous AI agents, covering sandboxing, policy enforcement, and auditability. Addresses a critical production gap as enterprises move from demos to live agentic deployments.",
-      "tags": [
-        "Agents",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/agentic-ai-visual-nemoclaw-opie-r2-1680x938.png"
-    },
-    {
-      "id": "7a8af0096afd1855",
-      "url": "https://blogs.nvidia.com/blog/power-flexible-ai-factories-energy-grid/",
-      "title": "Blowing Off Steam: How Power-Flexible AI Factories Can Stabilize the Global Energy Grid",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA proposes that AI data centres with power-flexible workloads could serve as grid stabilisers — absorbing surplus renewable energy during off-peak periods and throttling during grid stress. Frames large-scale AI infrastructure as a potential ally in energy grid management.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/02/Copy-of-Blog-1280x680.pptx-2.jpg"
-    },
-    {
-      "id": "41d5dfcfa2484348",
-      "url": "https://blogs.nvidia.com/blog/build-robots-with-ai/",
-      "title": "From Simulation to Production: How to Build Robots With AI",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "NVIDIA guide covering the full pipeline from simulation-based robot training to production deployment using Isaac Lab, Omniverse, and foundation models. Practical reference for teams building physical AI systems across manufacturing, logistics, and service robotics.",
-      "tags": [
-        "Agents",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-models-and-frameworks-1920x1080-1-1680x945.gif"
-    },
-    {
-      "id": "44d2c49ccebbcd11",
-      "url": "https://x.ai/news/grok-business",
-      "title": "Introducing Grok Business and Grok Enterprise",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI announced Grok Business and Grok Enterprise tiers with team management, higher usage limits, and enterprise-grade controls. Positions Grok as a direct competitor to OpenAI Teams and Anthropic's enterprise offerings in the commercial AI market.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491"
-    },
-    {
-      "id": "1ab5b5461c7c1c91",
-      "url": "https://x.ai/news/us-gov-dept-of-war",
-      "title": "xAI partners with US Department of War to apply Grok to military applications",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI announced a partnership with the US Department of War to deploy Grok for military applications, joining other frontier labs with government defence contracts. Adds xAI to the growing roster of AI companies providing capabilities to national security programmes.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e"
-    },
-    {
-      "id": "16be76934336ff4d",
-      "url": "https://x.ai/news/el-salvador-partnership",
-      "title": "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI and the El Salvador government launched what they describe as the world's first nationwide AI education programme, using Grok to deliver AI literacy across the country's education system. Positions xAI as both a commercial and geopolitical actor in global AI adoption.",
-      "tags": [
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/el-salvador-partnership/opengraph-image-a4id79.png?af3ffb6a20040211"
-    },
-    {
-      "id": "ea34d2b67722ab5f",
-      "url": "https://x.ai/news/grok-4-1-fast",
-      "title": "Grok 4.1 Fast and Agent Tools API",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI released Grok 4.1 Fast, an optimised variant tuned for lower latency in production pipelines, alongside an Agent Tools API enabling external tool calls and multi-step reasoning. Targets developers building real-time agentic applications requiring fast inference.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a"
-    },
-    {
-      "id": "e65262c197927255",
-      "url": "https://x.ai/news/grok-goes-global",
-      "title": "Grok goes Global with KSA",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI expanded Grok access to Saudi Arabia as part of a broader global rollout, partnering with local entities to provide AI capabilities regionally. Part of xAI's push to compete internationally against OpenAI and Anthropic beyond the US market.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/grok-goes-global/opengraph-image-1hc9y2.png?90f5f7a4ae2d2121"
-    },
-    {
-      "id": "55765f0baff44519",
-      "url": "https://x.ai/news/onegov",
-      "title": "Expanding xAI for Government with GSA OneGov",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI expanded its government programme through a partnership with the GSA's OneGov platform, making Grok available to US federal agencies through existing procurement channels. Builds on the initial xAI for Government announcement with a concrete federal acquisition pathway.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/onegov/opengraph-image-1hepv9.png?a627c3d2277f3233"
-    },
-    {
-      "id": "dd4f31afe8358c1c",
-      "url": "https://x.ai/news/government",
-      "title": "Announcing xAI for Government",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "xAI formally announced a government programme bringing Grok to federal and state agencies, emphasising security, compliance, and enterprise controls. Positions xAI as a direct competitor to Microsoft/OpenAI and Google in the government AI market.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://x.ai/news/government/opengraph-image-lqj1b7.png?f1aa0f448e8273c9"
-    },
-    {
-      "id": "350cc9107a36541f",
-      "url": "https://ai.meta.com/blog/scaling-how-we-build-test-advanced-ai/",
-      "title": "Scaling How We Build and Test Our Most Advanced AI",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Meta describes its internal methodology for scaling AI development and testing, including evaluation frameworks, red-teaming processes, and infrastructure for assessing increasingly capable models. Adds transparency to Meta's AI safety and capability evaluation approach.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=Ju3IackF430Q7kNvwFBTu7q&_nc_oc=AdrXrXAAULayAsG0V8mz83vQKX8b3b7q2RYNOTMa2erJX8-uNNYE1Bg5Evr0sBfBtAQ&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RMFb5tIUyhhqaQ1poXn2xg&_nc_ss=7a20f&oh=00_Af0s4gm4ajP_y6y0WJ-enq-ukVyfsVt0_HIps9qHlCX0EQ&oe=6A0387EE"
-    },
-    {
-      "id": "1ee4ff978d2edba9",
-      "url": "https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/",
-      "title": "How Alta Daily Uses Meta's Segment Anything to Reimagine the Digital Closet",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Fashion startup Alta Daily uses Meta's Segment Anything Model to automatically extract and categorise clothing items from photos for a digital wardrobe app. A commercial use case demonstrating SAM's reach into consumer product applications beyond research.",
-      "tags": [
-        "Content",
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/658967078_993415586351079_325919381939729048_n.gif?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=FD9jqO43oIIQ7kNvwGhxeMf&_nc_oc=AdpBCkur8KJ6goLpl3nXNHcYNSJJTf2pRERTCRq5CMotRQaUgR3FAcmWXYgqqNU1-Mo&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=B77mkxV5iAXhdyomqupkLQ&_nc_ss=7a20f&oh=00_Af3O1ZpjaNNl4ubxlZ1n4DOez-VxSOMcwz080bVac9n_5g&oe=6A036C52"
-    },
-    {
-      "id": "4f7644b6b48ca01b",
-      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
-      "title": "SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Meta released SAM 3.1, adding multiplexing (simultaneous multi-object tracking) and global reasoning to its Segment Anything Model for real-time video. Faster and more accessible than SAM 3.0, with improved accuracy in complex scenes.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=OQF0YD6bwmIQ7kNvwFegFh3&_nc_oc=AdrZyZokBD94I9hUaushIKcm3N7sm1NOSriddKJ-sLWy0XTLkedXUbveJg-prQvN70M&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=jBIjXSzAOYeM4hrY3XfGBw&_nc_ss=7a20f&oh=00_Af0XCNzeBk_FgXJJo0-y2gdkTVcteT5FcFhEVvyogFO8vw&oe=6A038A61"
-    },
-    {
-      "id": "51b61252710c259d",
-      "url": "https://ai.meta.com/blog/meta-mtia-scale-ai-chips-for-billions/",
-      "title": "Four MTIA Chips in Two Years: Scaling AI Experiences for Billions",
-      "title_translated": null,
-      "source": "meta-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-22T19:11:41.953245Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "Meta released its fourth MTIA (Meta Training and Inference Accelerator) chip in two years, each generation purpose-built for scaling AI inference at the billions-of-users level. Demonstrates Meta's aggressive pace in custom silicon alongside its open-model strategy.",
-      "tags": [
-        "Models"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=HgHNcKCHqUgQ7kNvwG1L3vC&_nc_oc=AdpBp4mNBT7vn0IRKtYkco02RPmjBJkgiU9sHrrbbrTcDrpH-HSq3Qbu7AYjfstkI90&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=W-tR6q2uMeYim-DWmT1UdA&_nc_ss=7a20f&oh=00_Af0miZ-T6QRYJVkqiFP3Za31kcKolqGjrB2d86UiEdtXFA&oe=6A03856C"
-    },
-    {
-      "id": "77a1719a394c087b",
-      "url": "https://x.com/i/status/2047006540549509248",
-      "title": "Chollet: Judging AGI by human mimicry is a category error — learn what wasn't taught",
-      "title_translated": null,
-      "source": "fchollet",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-22T19:00:00Z",
-      "first_seen_at": "2026-04-22T19:11:41.953245Z",
-      "summary": "François Chollet argues that evaluating AGI by how well it mimics human behaviour is a category error. True AGI should be judged by how well it learns to do things it was never explicitly taught — a framing that challenges LLM-centric definitions and current benchmark culture.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_url": "https://unavatar.io/x/fchollet",
-      "image_type": "avatar"
     }
   ]
 }
