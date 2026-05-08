@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-05-08T18:09:00.939732Z",
+  "generated_at": "2026-05-08T18:11:02.507541Z",
   "next_refresh_at": "2026-05-09T18:00:00Z",
   "schedule": "daily 06:00 NZT",
-  "cover_image_url": "/data/cover.svg",
+  "cover_image_url": "/data/cover.png",
+  "cover_image_mobile_url": "/data/cover-mobile.png",
   "newsflash": [
     "16a7a9abad56fed1",
     "2eaaedaf0247c01d",
     "eb2b94e2dae76507",
-    "9d091522e5c08418"
+    "9d091522e5c08418",
+    "f8a813170ec59e5c"
   ],
-  "daily_summary": "NVIDIA-DEV released Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding — NVIDIA researchers demonstrate grammar-constrained decoding to substantially improve bash . Also notable: EMO: Pretraining mixture of experts for emergent modularity from huggingface, and Streaming Tokens and Tools: Multi-Turn Agentic Har from nvidia-dev.",
+  "daily_summary": "xAI dominated the day with a coordinated push of Grok Business and Grok Enterprise tiers, a faster Grok 4.1 Fast model with an Agent Tools API, plus high-profile deals with the US Department of War and a country-wide Grok-in-schools rollout in El Salvador. Meta countered with SAM 3.1 for real-time video tracking and a public roadmap of four MTIA chip generations shipped in two years, while NVIDIA published a Bash-grammar-constrained decoding technique for small models and Slurm-aware scheduling for GB200 NVL72. OpenAI quietly previewed GPT-5.5-Cyber for critical-infrastructure defenders.",
   "items": [
     {
       "id": "16a7a9abad56fed1",
@@ -28,7 +30,7 @@
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers.jpg",
       "trending_score": 1.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -47,7 +49,7 @@
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
       "trending_score": 1.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -67,7 +69,7 @@
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
       "trending_score": 1.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -87,6 +89,65 @@
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
       "trending_score": 1.0,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "84c586895575a450",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa",
+      "title": "MedQA: Fine-Tuning a Clinical AI on AMD ROCm — No CUDA Required",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-08T07:54:18Z",
+      "first_seen_at": "2026-05-08T18:11:02.507541Z",
+      "summary": "A hackathon team writes up fine-tuning a clinical question-answering model on AMD MI300X GPUs using ROCm, demonstrating a CUDA-free path for medical-domain LLMs. The post documents reproducible training scripts and a small evaluation harness for clinical tasks.",
+      "tags": [
+        "Models",
+        "Coding"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/medqa",
+      "trending_score": 0.6997,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "1280c6f1acb9c5c3",
+      "url": "https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/",
+      "title": "AI avatars to deliver real-time NZ Sign Language translations",
+      "title_translated": null,
+      "source": "1news",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-08T03:00:00Z",
+      "first_seen_at": "2026-05-08T18:11:02.507541Z",
+      "summary": "An NZ-led project is nearing completion on AI avatars that produce real-time New Zealand Sign Language translations, aimed at situations where a live interpreter is unavailable. The Deaf community has been involved in design, and trials are planned across public services.",
+      "tags": [
+        "Content",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.465,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "46934190dc624ae2",
+      "url": "https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/",
+      "title": "NZ organisations accelerate AI adoption amid growing resilience and governance gaps",
+      "title_translated": null,
+      "source": "scoop-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-07T22:00:00Z",
+      "first_seen_at": "2026-05-08T18:11:02.507541Z",
+      "summary": "A new report on New Zealand enterprises finds AI is being deployed faster than security and governance practices can keep up, especially in cybersecurity tooling and customer operations. The authors call for board-level AI risk frameworks and reporting standards.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.3065,
       "mention_count": 1,
       "related_ids": []
     },
@@ -105,8 +166,8 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72.webp",
-      "trending_score": 0.5817,
-      "mention_count": 1,
+      "trending_score": 0.732,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -125,7 +186,27 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column.webp",
-      "trending_score": 0.58,
+      "trending_score": 0.7298,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "7b26ce177eb3240d",
+      "url": "https://x.com/gdb/status/2052507037674737812",
+      "title": "OpenAI previews GPT-5.5-Cyber for critical-infrastructure defenders",
+      "title_translated": null,
+      "source": "gdb",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-05-07T20:00:00Z",
+      "first_seen_at": "2026-05-08T18:11:02.507541Z",
+      "summary": "OpenAI president Greg Brockman announced a limited preview of GPT-5.5-Cyber, a security-tuned variant of GPT-5.5 designed to help critical-infrastructure operators detect and patch code vulnerabilities. It ships with the Trusted Access for Cyber programme for vetted defenders.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.0865,
       "mention_count": 1,
       "related_ids": []
     },
@@ -144,8 +225,8 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2019/06/DC-skyline.jpg",
-      "trending_score": 0.4886,
-      "mention_count": 1,
+      "trending_score": 0.6148,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -164,7 +245,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-imagine-quality-mode/opengraph-image-efrhnk.png?82c9f5ad48211444",
-      "trending_score": 0.4788,
+      "trending_score": 0.4774,
       "mention_count": 1,
       "related_ids": []
     },
@@ -184,7 +265,27 @@
         "Automation"
       ],
       "image_url": "https://x.ai/news/grok-connectors/opengraph-image-1dejzx.png?c4a30430a6130720",
-      "trending_score": 0.4405,
+      "trending_score": 0.4393,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "1472dc322ed92b08",
+      "url": "https://x.com/AndrewYNg/status/2052422157310083493",
+      "title": "Andrew Ng + CopilotKit: course on building UI-generating AI agents",
+      "title_translated": null,
+      "source": "AndrewYNg",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-05-07T17:00:00Z",
+      "first_seen_at": "2026-05-08T18:11:02.507541Z",
+      "summary": "Andrew Ng announced a DeepLearning.AI short course with CopilotKit on building agents that generate dynamic UIs — charts, forms, whiteboards — directly inside chat. The course covers component-based, compositional, and third-party app integration patterns.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 0.0674,
       "mention_count": 1,
       "related_ids": []
     },
@@ -204,7 +305,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0675,
+      "trending_score": 0.0674,
       "mention_count": 1,
       "related_ids": []
     },
@@ -224,7 +325,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring.webp",
-      "trending_score": 0.3744,
+      "trending_score": 0.3734,
       "mention_count": 1,
       "related_ids": []
     },
@@ -243,8 +344,8 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mJxE5IB6sh4Q7kNvwFMKSJy&_nc_oc=AdqSp6KzpSTPxin3MWV-S9W2b1ekh8wk7_iQh8uGJt-xWBAsSOWMBbBn8bOQAfi74eY&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=b6TjHUgPWNF9U46GhumHMg&_nc_ss=7920f&oh=00_Af4e2Uf8JnoN7KoqC2q99fSY6OZ3w1sZw2m8Xqn1V450CA&oe=6A186A21",
-      "trending_score": 0.3729,
-      "mention_count": 1,
+      "trending_score": 0.4692,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -263,7 +364,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0752,
+      "trending_score": 0.075,
       "mention_count": 2,
       "related_ids": []
     },
@@ -283,7 +384,27 @@
         "Agents"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zhaYfDvOf30Q7kNvwF7VWNX&_nc_oc=Adq0gDSHUIHA8SK5O5FOMJnK3B_eHqGBZPCCaSwy3Lk1690gLL01WSPfplO1idSvSAA&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=fJu1SXYAzRssae2fGDxo5Q&_nc_ss=7920f&oh=00_Af4PTLEKCjn46ePiXMAo6xuGoSbAn8qGjYT_7dlEgF9wkQ&oe=6A186BEC",
-      "trending_score": 0.3156,
+      "trending_score": 0.3972,
+      "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "cc44277993ff54c4",
+      "url": "https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets",
+      "title": "OpenAI expands ChatGPT ads pilot to New Zealand, UK, Japan, South Korea",
+      "title_translated": null,
+      "source": "rmndigital",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-07T12:00:00Z",
+      "first_seen_at": "2026-05-08T18:11:02.507541Z",
+      "summary": "OpenAI is broadening its ChatGPT advertising pilot to New Zealand, the UK, Japan, South Korea, and Canada/Australia, targeting Free and Go plan users with sponsored answers. It marks the first time ads will appear inside ChatGPT for NZ-based free users.",
+      "tags": [
+        "Content",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.1332,
       "mention_count": 1,
       "related_ids": []
     },
@@ -303,7 +424,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.2458,
+      "trending_score": 0.2451,
       "mention_count": 1,
       "related_ids": []
     },
@@ -323,8 +444,8 @@
         "Agents"
       ],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a",
-      "trending_score": 0.2262,
-      "mention_count": 1,
+      "trending_score": 0.2846,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -343,7 +464,7 @@
         "Content"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.3688,
+      "trending_score": 0.3678,
       "mention_count": 4,
       "related_ids": []
     },
@@ -362,7 +483,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1131,
+      "trending_score": 0.1128,
       "mention_count": 1,
       "related_ids": []
     },
@@ -382,7 +503,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.104,
+      "trending_score": 0.1037,
       "mention_count": 1,
       "related_ids": []
     },
@@ -401,7 +522,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0957,
+      "trending_score": 0.0954,
       "mention_count": 1,
       "related_ids": []
     },
@@ -420,7 +541,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0881,
+      "trending_score": 0.0878,
       "mention_count": 1,
       "related_ids": []
     },
@@ -440,7 +561,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
-      "trending_score": 0.0654,
+      "trending_score": 0.0652,
       "mention_count": 1,
       "related_ids": []
     },
@@ -460,7 +581,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0505,
+      "trending_score": 0.0503,
       "mention_count": 1,
       "related_ids": []
     },
@@ -480,7 +601,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0505,
+      "trending_score": 0.0503,
       "mention_count": 1,
       "related_ids": []
     },
@@ -500,7 +621,7 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/anthropic-compute-partnership/opengraph-image-18dp32.png?8f753eead431203b",
-      "trending_score": 0.0586,
+      "trending_score": 0.0584,
       "mention_count": 2,
       "related_ids": []
     },
@@ -519,7 +640,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=0NttciPwNvUQ7kNvwGFDsB3&_nc_oc=AdqRP7EJtHGcla86zSwkqwHgtGICd95VHgC9KSQ9RGlAwE-PbN4YvJWy9SgwNsGgi8I&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RWMG_Rqr7LbL-JlvA70ukQ&_nc_ss=7920f&oh=00_Af76Evfs6Eqn3TacOg9X_QRzS71SnWmVc13v-I9njcbI9w&oe=6A1867AE",
-      "trending_score": 0.0427,
+      "trending_score": 0.0426,
       "mention_count": 1,
       "related_ids": []
     },
@@ -539,7 +660,7 @@
         "Skills"
       ],
       "image_url": null,
-      "trending_score": 0.0427,
+      "trending_score": 0.0426,
       "mention_count": 1,
       "related_ids": []
     },
@@ -559,7 +680,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0393,
+      "trending_score": 0.0392,
       "mention_count": 1,
       "related_ids": []
     },
@@ -579,7 +700,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0393,
+      "trending_score": 0.0392,
       "mention_count": 1,
       "related_ids": []
     },
@@ -598,7 +719,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/ethernet-press-spectrum-x-corp-blog-1920x1080-1.jpg",
-      "trending_score": 0.0438,
+      "trending_score": 0.0437,
       "mention_count": 2,
       "related_ids": []
     },
@@ -617,8 +738,8 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491",
-      "trending_score": 0.0306,
-      "mention_count": 1,
+      "trending_score": 0.0385,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -636,7 +757,7 @@
         "Models"
       ],
       "image_url": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png",
-      "trending_score": 0.0282,
+      "trending_score": 0.0281,
       "mention_count": 1,
       "related_ids": []
     },
@@ -656,7 +777,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0259,
+      "trending_score": 0.0258,
       "mention_count": 1,
       "related_ids": []
     },
@@ -675,7 +796,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0067,
+      "trending_score": 0.0066,
       "mention_count": 1,
       "related_ids": []
     },
@@ -717,7 +838,7 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0094
+      "trending_score": 0.0093
     },
     {
       "id": "0521b68e1d361b3d",
@@ -792,8 +913,8 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=jJn1RULkZIoQ7kNvwG2mY_3&_nc_oc=AdrxnumD_gm--eaScL7yAf7mSx_afFuO3QRt5ozYbZB7NPHDZeenq-aGwKHyM7ZHeyI&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=hTjVUosH-UojlIiL8cLLSQ&_nc_ss=7920f&oh=00_Af64sfr3waKana7oMxV_mbTmvoz4STLAeTexwussrpW6bw&oe=6A18652C",
-      "trending_score": 0.0058,
-      "mention_count": 1,
+      "trending_score": 0.0073,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -812,8 +933,8 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg",
-      "trending_score": 0.0049,
-      "mention_count": 1,
+      "trending_score": 0.0062,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -851,8 +972,8 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e",
-      "trending_score": 0.0041,
-      "mention_count": 1,
+      "trending_score": 0.0052,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -1194,8 +1315,8 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/eevee-nv-blog-1280x680-1.jpg",
-      "trending_score": 0.0007,
-      "mention_count": 1,
+      "trending_score": 0.0008,
+      "mention_count": 2,
       "related_ids": []
     },
     {
@@ -1214,8 +1335,8 @@
         "Skills"
       ],
       "image_url": "https://x.ai/news/el-salvador-partnership/opengraph-image-a4id79.png?af3ffb6a20040211",
-      "trending_score": 0.0006,
-      "mention_count": 1,
+      "trending_score": 0.0007,
+      "mention_count": 2,
       "related_ids": []
     },
     {

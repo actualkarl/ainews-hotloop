@@ -1,13 +1,13 @@
 {
-  "top_headline": "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
+  "top_headline": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
   "top_headlines": [
-    "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
-    "Scaling Biomolecular Modeling Using Context Parallelism in NVIDIA BioNeMo",
-    "AI evals are becoming the new compute bottleneck",
-    "Granite 4.1 LLMs: How They’re Built"
+    "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
+    "Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding",
+    "Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo",
+    "Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling"
   ],
-  "top_fingerprint": "powering ai factories with nvidia enterprise reference architectures || scaling biomolecular modeling using context parallelism in nvidia bionemo || ai evals are becoming the new compute bottleneck || granite 4.1 llms: how they’re built",
-  "generated_at": "2026-04-29T17:38:36.120948Z",
-  "model": "gpt-image-2 1536x1024 low",
+  "top_fingerprint": "powering the next american century: us energy secretary chris wright and nvidia’s ian buck on the genesis mission || improving bash generation in small language models with grammar-constrained decoding || streaming tokens and tools: multi-turn agentic harness support in nvidia dynamo || achieving peak system and workload efficiency on nvidia gb200 nvl72 with slurm block scheduling",
+  "generated_at": "2026-05-08T17:37:58.974684Z",
+  "model": "gemini-2.5-flash-image 1248x832→1536x1024 (lanczos)",
   "regen_reason": "top-4 headlines changed"
 }

@@ -1,4 +1,126 @@
 {
-  "generated_at": "2026-05-08T18:09:00.939732Z",
-  "tweets": []
+  "generated_at": "2026-05-08T18:14:02.892618Z",
+  "tweets": [
+    {
+      "id": "2052783746009440658",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2052783746009440658",
+      "text": "GPT-5.5 in low-reasoning mode is great — efficient and succinct. Outperforms Opus and Kimi on real-world dev tasks without needing extra compute.",
+      "published_at": "2026-05-08T03:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052754523702088179",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2052754523702088179",
+      "text": "GPT-5.5 low-reasoning mode is now my default for fast iteration loops.",
+      "published_at": "2026-05-08T01:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052583338561683775",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2052583338561683775",
+      "text": "GPT-5.5-Cyber: a security-tuned variant in limited preview for critical-infrastructure defenders. Works with Trusted Access for Cyber to detect and patch code vulnerabilities.",
+      "published_at": "2026-05-07T22:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052507037674737812",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2052507037674737812",
+      "text": "Announcing GPT-5.5-Cyber preview for vetted defenders of critical infrastructure.",
+      "published_at": "2026-05-07T20:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052505389154115845",
+      "handle": "fchollet",
+      "author_name": "François Chollet",
+      "url": "https://x.com/fchollet/status/2052505389154115845",
+      "text": "Three concrete agentic-coding wins: 1) ad-hoc data visualisations 2) ad-hoc data annotation UIs 3) ad-hoc CLIs for existing code, with visual elements. Agents make custom dataset creation and quantitative analysis routine.",
+      "published_at": "2026-05-07T20:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052462428663992564",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2052462428663992564",
+      "text": "Generational split on AI input: voice for young and old, typing for middle-aged. Realtime voice progress will likely shift the middle.",
+      "published_at": "2026-05-07T19:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052462271667028211",
+      "handle": "sama",
+      "author_name": "Sam Altman",
+      "url": "https://x.com/sama/status/2052462271667028211",
+      "text": "people are really starting to use voice to interact with AI, especially when they have a lot of context to dump. GPT-Realtime-2 comes to the API today; it is a pretty big step forward.",
+      "published_at": "2026-05-07T19:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052448850796011931",
+      "handle": "OfficialLoganK",
+      "author_name": "Logan Kilpatrick",
+      "url": "https://x.com/OfficialLoganK/status/2052448850796011931",
+      "text": "Voice-to-voice translate model is wild. Multilingual realtime, full duplex.",
+      "published_at": "2026-05-07T18:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052438194625593804",
+      "handle": "gdb",
+      "author_name": "Greg Brockman",
+      "url": "https://x.com/gdb/status/2052438194625593804",
+      "text": "GPT-Realtime-2 brings GPT-5-class reasoning to voice agents — real-time listening with complex problem-solving in conversation. Pairs with Realtime-Translate and Realtime-Whisper for next-gen audio interfaces.",
+      "published_at": "2026-05-07T18:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052422157310083493",
+      "handle": "AndrewYNg",
+      "author_name": "Andrew Ng",
+      "url": "https://x.com/AndrewYNg/status/2052422157310083493",
+      "text": "New short course with CopilotKit on building agents that generate dynamic UIs in chat — charts, forms, whiteboards. Component-based, compositional, third-party integration patterns covered.",
+      "published_at": "2026-05-07T17:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2052199234607182077",
+      "handle": "ID_AA_Carmack",
+      "author_name": "John Carmack",
+      "url": "https://x.com/ID_AA_Carmack/status/2052199234607182077",
+      "text": "Re-reading classic RL papers and noting how much of recent agentic work is rediscovery with bigger compute.",
+      "published_at": "2026-05-07T03:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }
