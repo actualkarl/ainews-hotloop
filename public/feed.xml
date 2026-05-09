@@ -1,251 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>ainews — Karl's daily AI news</title>
-<link>https://ainews.hotloop.ai</link>
-<description>Daily AI news, deduped + tagged for hotloop's workflows</description>
-<language>en</language>
-<atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Fri, 08 May 2026 18:11:02 +0000</lastBuildDate>
-<item>
-<title>Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding</title>
-<link>https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/</link>
-<description>NVIDIA researchers demonstrate grammar-constrained decoding to substantially improve bash script generation in small language models, enabling reliable shell command output without fine-tuning on proprietary data. The approach enforces syntactic validity at inference time, cutting hallucinated flags and invalid pipelines.</description>
-<pubDate>Fri, 08 May 2026 17:13:33 +0000</pubDate>
-<guid isPermaLink="true">https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/</guid>
-<category>Coding / Models</category>
-</item>
-<item>
-<title>EMO: Pretraining mixture of experts for emergent modularity</title>
-<link>https://huggingface.co/blog/allenai/emo</link>
-<description>AllenAI introduces EMO (Emergent Modularity via Pretraining), a mixture-of-experts approach where modules emerge naturally during pretraining without explicit routing supervision. The method shows improved specialisation and benchmark performance versus dense baselines.</description>
-<pubDate>Fri, 08 May 2026 16:03:50 +0000</pubDate>
-<guid isPermaLink="true">https://huggingface.co/blog/allenai/emo</guid>
-<category>Models</category>
-</item>
-<item>
-<title>Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo</title>
-<link>https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/</link>
-<description>NVIDIA Dynamo now supports streaming tokens and multi-turn tool calls in agentic harnesses, allowing assistant reasoning turns to interleave with tool invocations and return structured results across conversation turns. This directly enables production-grade agent loops on Dynamo inference infrastructure.</description>
-<pubDate>Fri, 08 May 2026 15:59:16 +0000</pubDate>
-<guid isPermaLink="true">https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/</guid>
-<category>Agents / Automation</category>
-</item>
-<item>
-<title>See what happens when creative legends use AI to make ads for small businesses.</title>
-<link>https://blog.google/company-news/inside-google/company-announcements/the-small-brief/</link>
-<description>Google launched The Small Brief, an initiative where ad industry veterans use Google AI to create breakthrough advertising campaigns for small local businesses, demonstrating AI-assisted creative production at the agency level.</description>
-<pubDate>Fri, 08 May 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.google/company-news/inside-google/company-announcements/the-small-brief/</guid>
-<category>Content / Automation</category>
-</item>
-<item>
-<title>MedQA: Fine-Tuning a Clinical AI on AMD ROCm — No CUDA Required</title>
-<link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa</link>
-<description>A hackathon team writes up fine-tuning a clinical question-answering model on AMD MI300X GPUs using ROCm, demonstrating a CUDA-free path for medical-domain LLMs. The post documents reproducible training scripts and a small evaluation harness for clinical tasks.</description>
-<pubDate>Fri, 08 May 2026 07:54:18 +0000</pubDate>
-<guid isPermaLink="true">https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa</guid>
-<category>Models / Coding</category>
-</item>
-<item>
-<title>AI avatars to deliver real-time NZ Sign Language translations</title>
-<link>https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/</link>
-<description>An NZ-led project is nearing completion on AI avatars that produce real-time New Zealand Sign Language translations, aimed at situations where a live interpreter is unavailable. The Deaf community has been involved in design, and trials are planned across public services.</description>
-<pubDate>Fri, 08 May 2026 03:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/</guid>
-<category>Content / Governance</category>
-</item>
-<item>
-<title>NZ organisations accelerate AI adoption amid growing resilience and governance gaps</title>
-<link>https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/</link>
-<description>A new report on New Zealand enterprises finds AI is being deployed faster than security and governance practices can keep up, especially in cybersecurity tooling and customer operations. The authors call for board-level AI risk frameworks and reporting standards.</description>
-<pubDate>Thu, 07 May 2026 22:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/</guid>
-<category>Governance</category>
-</item>
-<item>
-<title>Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling</title>
-<link>https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</link>
-<description>NVIDIA's GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
-<pubDate>Thu, 07 May 2026 21:20:14 +0000</pubDate>
-<guid isPermaLink="true">https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</guid>
-<category>Automation</category>
-</item>
-<item>
-<title>Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer</title>
-<link>https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/</link>
-<description>NVIDIA Model Optimizer enables post-training quantization (PTQ) to run large models on consumer RTX GPUs with reduced VRAM and faster inference, covering INT8/INT4/FP8 recipes for popular architectures.</description>
-<pubDate>Thu, 07 May 2026 21:18:06 +0000</pubDate>
-<guid isPermaLink="true">https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/</guid>
-<category>Models / Coding</category>
-</item>
-<item>
-<title>OpenAI previews GPT-5.5-Cyber for critical-infrastructure defenders</title>
-<link>https://x.com/gdb/status/2052507037674737812</link>
-<description>OpenAI president Greg Brockman announced a limited preview of GPT-5.5-Cyber, a security-tuned variant of GPT-5.5 designed to help critical-infrastructure operators detect and patch code vulnerabilities. It ships with the Trusted Access for Cyber programme for vetted defenders.</description>
-<pubDate>Thu, 07 May 2026 20:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://x.com/gdb/status/2052507037674737812</guid>
-<category>Models / Governance</category>
-</item>
-<item>
-<title>Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission</title>
-<link>https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</link>
-<description>US Energy Secretary Chris Wright and NVIDIA's Ian Buck discussed AI's role in powering America's energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
-<pubDate>Thu, 07 May 2026 19:14:38 +0000</pubDate>
-<guid isPermaLink="true">https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</guid>
-<category>Governance</category>
-</item>
-<item>
-<title>Grok Imagine Quality Mode API</title>
-<link>https://x.ai/news/grok-imagine-quality-mode</link>
-<description>xAI exposed Grok Imagine Quality Mode through the API, giving developers programmatic access to the higher-fidelity image generation tier previously limited to the Grok app. Pricing is per-image at the higher quality cost band.</description>
-<pubDate>Thu, 07 May 2026 19:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://x.ai/news/grok-imagine-quality-mode</guid>
-<category>Content / Models</category>
-</item>
-<item>
-<title>Connectors now on Grok Web</title>
-<link>https://x.ai/news/grok-connectors</link>
-<description>xAI rolled connectors out to Grok on the web, letting users link Gmail, Google Drive, GitHub, and other services so Grok can search and act across them. Mirrors agent-style integrations already shipped by ChatGPT and Claude.</description>
-<pubDate>Thu, 07 May 2026 18:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://x.ai/news/grok-connectors</guid>
-<category>Agents / Automation</category>
-</item>
-<item>
-<title>Andrew Ng + CopilotKit: course on building UI-generating AI agents</title>
-<link>https://x.com/AndrewYNg/status/2052422157310083493</link>
-<description>Andrew Ng announced a DeepLearning.AI short course with CopilotKit on building agents that generate dynamic UIs — charts, forms, whiteboards — directly inside chat. The course covers component-based, compositional, and third-party app integration patterns.</description>
-<pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://x.com/AndrewYNg/status/2052422157310083493</guid>
-<category>Agents / Coding</category>
-</item>
-<item>
-<title>Scale AI launches SWE Atlas Refactoring Leaderboard — Claude Opus 4.7 leads</title>
-<link>https://scale.com/leaderboard/swe_atlas_refactoring</link>
-<description>Scale AI published a new SWE Atlas Refactoring leaderboard scoring how well coding agents perform multi-file refactors on real repos. Claude Code with Opus 4.7 currently tops the board, followed by Codex and GPT-5 variants.</description>
-<pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://scale.com/leaderboard/swe_atlas_refactoring</guid>
-<category>Coding / Models</category>
-</item>
-<item>
-<title>Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus</title>
-<link>https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/</link>
-<description>NVIDIA describes NCCL Inspector, a Prometheus-compatible tool for live-monitoring NVIDIA Collective Communications Library traffic across multi-GPU training jobs. It surfaces stragglers and failed all-reduces faster than log-scraping, useful for teams running large distributed training.</description>
-<pubDate>Thu, 07 May 2026 16:02:58 +0000</pubDate>
-<guid isPermaLink="true">https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/</guid>
-<category>Coding / Models</category>
-</item>
-<item>
-<title>SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning</title>
-<link>https://ai.meta.com/blog/segment-anything-model-3/</link>
-<description>Meta AI released SAM 3.1, an updated Segment Anything Model with faster real-time video detection and tracking, multiplexing support for concurrent streams, and global reasoning that improves accuracy on complex scene segmentation.</description>
-<pubDate>Thu, 07 May 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://ai.meta.com/blog/segment-anything-model-3/</guid>
-<category>Models</category>
-</item>
-<item>
-<title>DeepMind: AlphaEvolve Gemini-powered coding agent accelerating quantum, biotech, logistics</title>
-<link>https://x.com/GoogleDeepMind/status/2052403306257940967</link>
-<description>Google DeepMind highlighted AlphaEvolve, a Gemini-powered coding agent that iteratively proposes and tests algorithm changes. They credit it with measurable speedups in quantum simulation, protein workflows, and logistics scheduling.</description>
-<pubDate>Thu, 07 May 2026 15:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://x.com/GoogleDeepMind/status/2052403306257940967</guid>
-<category>Agents / Coding</category>
-</item>
-<item>
-<title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-<link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-<description>Meta AI unveiled Muse Spark, positioned as a step toward personal superintelligence — an AI system designed to act as a persistent personal agent that scales with individual context, goals, and workflows over time.</description>
-<pubDate>Thu, 07 May 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-<category>Models / Agents</category>
-</item>
-<item>
-<title>OpenAI expands ChatGPT ads pilot to New Zealand, UK, Japan, South Korea</title>
-<link>https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets</link>
-<description>OpenAI is broadening its ChatGPT advertising pilot to New Zealand, the UK, Japan, South Korea, and Canada/Australia, targeting Free and Go plan users with sponsored answers. It marks the first time ads will appear inside ChatGPT for NZ-based free users.</description>
-<pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets</guid>
-<category>Content / Governance</category>
-</item>
-<item>
-<title>Parloa builds service agents customers want to talk to</title>
-<link>https://openai.com/index/parloa</link>
-<description>OpenAI case study on Parloa using its Realtime API to run multilingual phone-and-chat customer-service agents at scale for enterprises. Parloa reports faster handoffs and higher containment when GPT-class voice models replace legacy IVR.</description>
-<pubDate>Thu, 07 May 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://openai.com/index/parloa</guid>
-<category>Agents / Automation</category>
-</item>
-<item>
-<title>Grok 4.1 Fast and Agent Tools API</title>
-<link>https://x.ai/news/grok-4-1-fast</link>
-<description>xAI released Grok 4.1 Fast, an optimised fast-inference variant of its Grok 4 model, along with an Agent Tools API enabling developers to build agentic pipelines with Grok's reasoning and tool-use capabilities.</description>
-<pubDate>Thu, 07 May 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
-<category>Models / Agents</category>
-</item>
-<item>
-<title>Advancing voice intelligence with new models in the API</title>
-<link>https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api</link>
-<description>OpenAI shipped GPT-Realtime-2 with GPT-5-class reasoning for low-latency voice agents, plus a faster Whisper variant and a new Realtime-Translate model covering 70 source languages and 13 outputs. The release targets production voice agents in the API and presages a ChatGPT Voice upgrade.</description>
-<pubDate>Thu, 07 May 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api</guid>
-<category>Models / Content</category>
-</item>
-<item>
-<title>Commvault warns ANZ organisations are scaling AI faster than they can secure it</title>
-<link>https://www.securitysolutionsmedia.com/2026/05/07/commvault-warns-anz-organisations-are-scaling-ai-faster-than-they-can-secure-it</link>
-<description>A Commvault report says Australian and New Zealand organisations are deploying AI faster than they can build resilience or governance for it, with model and data backup, lineage, and rollback emerging as gaps. Practitioners are urged to extend disaster recovery plans to AI assets.</description>
-<pubDate>Thu, 07 May 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.securitysolutionsmedia.com/2026/05/07/commvault-warns-anz-organisations-are-scaling-ai-faster-than-they-can-secure-it</guid>
-<category>Governance</category>
-</item>
-<item>
-<title>NCSC and Five Eyes cyber agencies warn channel partners over agentic AI risks</title>
-<link>https://www.reseller.co.nz/article/4168114/ncsc-and-five-eyes-cyber-agencies-warn-channel-partners-over-agentic-ai-risks-report.html</link>
-<description>New Zealand's NCSC joined Five Eyes counterparts in a joint advisory urging IT channel partners to harden controls before deploying agentic AI for clients. The guidance flags identity, action-scope, and audit-trail gaps as the highest-risk areas.</description>
-<pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.reseller.co.nz/article/4168114/ncsc-and-five-eyes-cyber-agencies-warn-channel-partners-over-agentic-ai-risks-report.html</guid>
-<category>Governance / Agents</category>
-</item>
-<item>
-<title>AI factory race reaches New Zealand: Datagrid plans build near Invercargill</title>
-<link>https://www.interest.co.nz/technology/138386/ai-factory-race-reaches-new-zealand-angus-dowell-says-it-raises-broad-ranging</link>
-<description>Singapore-based Datagrid is planning what would be New Zealand's first dedicated AI training data centre near Invercargill, leveraging Southland power. Coverage flags broad questions over grid impact, water use, and economic returns.</description>
-<pubDate>Thu, 07 May 2026 08:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.interest.co.nz/technology/138386/ai-factory-race-reaches-new-zealand-angus-dowell-says-it-raises-broad-ranging</guid>
-<category>Governance</category>
-</item>
-<item>
-<title>Government invests in Aimer Farming AI for pasture decisions</title>
-<link>https://www.ruralnewsgroup.co.nz/rural-news/rural-agribusiness/aimer-farming-ai-pasture-technology-mpi-investment</link>
-<description>MPI is co-funding Aimer Farming's AI platform that recommends rotational grazing decisions from pasture imagery and weather data. The deal is one of the few NZ government commitments to applied AI in primary production.</description>
-<pubDate>Thu, 07 May 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ruralnewsgroup.co.nz/rural-news/rural-agribusiness/aimer-farming-ai-pasture-technology-mpi-investment</guid>
-<category>Automation</category>
-</item>
-<item>
-<title>vLLM V0 to V1: Correctness Before Corrections in RL</title>
-<link>https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections</link>
-<description>ServiceNow-AI on Hugging Face documents subtle numerical drift between vLLM V0 and V1 that silently broke RL training reward signals. The post argues teams should validate inference parity before tuning RL hyperparameters when migrating engines.</description>
-<pubDate>Wed, 06 May 2026 19:06:55 +0000</pubDate>
-<guid isPermaLink="true">https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections</guid>
-<category>Models / Coding</category>
-</item>
-<item>
-<title>Higher usage limits for Claude and a compute deal with SpaceX</title>
-<link>https://www.anthropic.com/news/higher-limits-spacex</link>
-<description>Anthropic signed a deal with SpaceX to use all capacity at Colossus 1 in Memphis — 300MW, over 220,000 NVIDIA GPUs including H100, H200, and GB200s. This directly doubles Claude Pro, Max, Team, and Enterprise five-hour rate limits, removes peak-hour throttling, and opens discussion of orbital AI compute at multiple gigawatts.</description>
-<pubDate>Wed, 06 May 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.anthropic.com/news/higher-limits-spacex</guid>
-<category>Models / Coding</category>
-</item>
-<item>
-<title>Accelerating Gemma 4: faster inference with multi-token prediction drafters</title>
-<link>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</link>
-<description>Google released Multi-Token Prediction (MTP) drafters for the Gemma 4 family, delivering up to 3x faster inference without quality loss. A lightweight drafter predicts multiple tokens ahead while the larger model verifies them in parallel using speculative decoding; available under Apache 2.0 with support for Hugging Face, vLLM, SGLang, and Ollama.</description>
-<pubDate>Wed, 06 May 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</guid>
-<category>Models / Coding</category>
-</item>
-</channel>
+  <channel>
+    <title>ainews — Karl&apos;s daily AI news</title>
+    <link>https://ainews.hotloop.ai</link>
+    <description>Daily AI news, deduped + tagged for hotloop&apos;s workflows</description>
+    <language>en</language>
+    <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 May 2026 18:05:32 +0000</lastBuildDate>
+    <item>
+      <title>Greg Brockman highlights GPT-Realtime-2 powering live audio translation in browser</title>
+      <link>https://x.com/gdb/status/2053134883040514350</link>
+      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI's realtime voice stack and adjacent third-party agent integrations.</description>
+      <pubDate>Sat, 09 May 2026 12:13:28 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/gdb/status/2053134883040514350</guid>
+      <category>Models, Content</category>
+    </item>
+    <item>
+      <title>Sam Altman opens public feedback on next OpenAI flagship model</title>
+      <link>https://x.com/sama/status/2053151542916894775</link>
+      <description>Sam Altman asked X what users most want improved in the next OpenAI flagship, framing the post as part of the planning loop for the o-series successor. The thread drew thousands of responses and is being used as a soft signal for capability priorities.</description>
+      <pubDate>Sat, 09 May 2026 11:13:28 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/sama/status/2053151542916894775</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>FIS partners with Anthropic on AI for anti-money-laundering investigations</title>
+      <link>https://www.bankinfosecurity.com/fis-anthropic-pitch-ai-for-money-laundering-probes-a-31606</link>
+      <description>Financial-services platform FIS announced a partnership with Anthropic to deploy Claude-powered agents for anti-money-laundering investigations and case triage. The pitch targets banks looking to compress AML alert backlogs while keeping human-in-the-loop adjudication.</description>
+      <pubDate>Sat, 09 May 2026 10:13:28 +0000</pubDate>
+      <guid isPermaLink="true">https://www.bankinfosecurity.com/fis-anthropic-pitch-ai-for-money-laundering-probes-a-31606</guid>
+      <category>Agents, Governance</category>
+    </item>
+    <item>
+      <title>NZ Public Service AI Toolkit adds policy template + AI records-management guidance</title>
+      <link>https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</link>
+      <description>New Zealand's digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE's 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
+      <pubDate>Sat, 09 May 2026 08:13:28 +0000</pubDate>
+      <guid isPermaLink="true">https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>RBNZ flags advanced AI cyber risk to NZ borrowers and lenders</title>
+      <link>https://www.interest.co.nz/banking/138390/reserve-bank-says-ai-could-potentially-hit-borrowers-ability-repay-loans-and</link>
+      <description>The Reserve Bank of New Zealand says advanced AI models capable of automating cyber attacks could amplify operational risk to borrowers and regulated entities, threatening loan repayments. RBNZ is coordinating with peer agencies including the Reserve Bank of Australia to monitor the threat surface.</description>
+      <pubDate>Sat, 09 May 2026 04:13:28 +0000</pubDate>
+      <guid isPermaLink="true">https://www.interest.co.nz/banking/138390/reserve-bank-says-ai-could-potentially-hit-borrowers-ability-repay-loans-and</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Grok Voice Think Fast 1.0</title>
+      <link>https://x.ai/news/grok-voice-think-fast-1</link>
+      <description>xAI has released Grok Voice Think Fast 1.0, a new voice model designed for low-latency real-time conversational AI. The model is optimized for speed-first voice interactions where responsiveness matters more than extended reasoning, complementing xAI’s existing voice lineup.</description>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/grok-voice-think-fast-1</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet</title>
+      <link>https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</link>
+      <description>Fashion startup Alta Daily has integrated Meta’s Segment Anything Model into its digital closet app, enabling one-click garment segmentation and background removal at production scale. The case study shows how SAM’s zero-shot segmentation generalises to consumer applications beyond the research setting.</description>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</guid>
+      <category>Content, Models</category>
+    </item>
+    <item>
+      <title>Akamai surges on big LLM deal — Anthropic signs $1.8B edge-inference contract, largest in Akamai history</title>
+      <link>https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552</link>
+      <description>Anthropic has signed a seven-year, $1.8 billion infrastructure deal with Akamai to run Claude inference across 4,300 edge locations in 130 countries — the largest contract in Akamai’s 27-year history. The deal reflects Anthropic’s strategy to distribute inference beyond hyperscale cloud providers; Akamai stock surged 26% on the announcement.</description>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models</title>
+      <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b</link>
+      <description>CyberSecQwen-4B is a 4-billion parameter security-focused model from the AMD developer hackathon, optimized for local deployment on edge hardware. It demonstrates that small, specialized models can outperform larger general-purpose models on defensive cyber benchmarks without requiring cloud infrastructure or data exfiltration risks.</description>
+      <pubDate>Fri, 08 May 2026 17:41:05 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
+      <title>Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding</title>
+      <link>https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/</link>
+      <description>NVIDIA researchers demonstrate grammar-constrained decoding to substantially improve bash script generation in small language models, enabling reliable shell command output without fine-tuning on proprietary data. The approach enforces syntactic validity at inference time, cutting hallucinated flags and invalid pipelines.</description>
+      <pubDate>Fri, 08 May 2026 17:13:33 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>EMO: Pretraining mixture of experts for emergent modularity</title>
+      <link>https://huggingface.co/blog/allenai/emo</link>
+      <description>AllenAI introduces EMO (Emergent Modularity via Pretraining), a mixture-of-experts approach where modules emerge naturally during pretraining without explicit routing supervision. The method shows improved specialisation and benchmark performance versus dense baselines.</description>
+      <pubDate>Fri, 08 May 2026 16:03:50 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/allenai/emo</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>Streaming Tokens and Tools: Multi-Turn Agentic Harness Support in NVIDIA Dynamo</title>
+      <link>https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/</link>
+      <description>NVIDIA Dynamo now supports streaming tokens and multi-turn tool calls in agentic harnesses, allowing assistant reasoning turns to interleave with tool invocations and return structured results across conversation turns. This directly enables production-grade agent loops on Dynamo inference infrastructure.</description>
+      <pubDate>Fri, 08 May 2026 15:59:16 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/streaming-tokens-and-tools-multi-turn-agentic-harness-support-in-nvidia-dynamo/</guid>
+      <category>Agents, Automation</category>
+    </item>
+    <item>
+      <title>See what happens when creative legends use AI to make ads for small businesses.</title>
+      <link>https://blog.google/company-news/inside-google/company-announcements/the-small-brief/</link>
+      <description>Google launched The Small Brief, an initiative where ad industry veterans use Google AI to create breakthrough advertising campaigns for small local businesses, demonstrating AI-assisted creative production at the agency level.</description>
+      <pubDate>Fri, 08 May 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/company-news/inside-google/company-announcements/the-small-brief/</guid>
+      <category>Content, Automation</category>
+    </item>
+    <item>
+      <title>OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work</title>
+      <link>https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</link>
+      <description>NVIDIA has deployed OpenAI’s GPT-5.5 to power Codex across its own engineering workflows, with internal teams using the AI coding agent to accelerate software development at scale. The blog details how GPT-5.5’s enhanced agentic capabilities make it the backbone of Codex’s latest production release on NVIDIA’s infrastructure.</description>
+      <pubDate>Fri, 08 May 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</guid>
+      <category>Coding, Agents</category>
+    </item>
+    <item>
+      <title>MedQA: Fine-Tuning a Clinical AI on AMD ROCm — No CUDA Required</title>
+      <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa</link>
+      <description>A hackathon team writes up fine-tuning a clinical question-answering model on AMD MI300X GPUs using ROCm, demonstrating a CUDA-free path for medical-domain LLMs. The post documents reproducible training scripts and a small evaluation harness for clinical tasks.</description>
+      <pubDate>Fri, 08 May 2026 07:54:18 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
+      <title>AI avatars to deliver real-time NZ Sign Language translations</title>
+      <link>https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/</link>
+      <description>An NZ-led project is nearing completion on AI avatars that produce real-time New Zealand Sign Language translations, aimed at situations where a live interpreter is unavailable. The Deaf community has been involved in design, and trials are planned across public services.</description>
+      <pubDate>Fri, 08 May 2026 03:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/</guid>
+      <category>Content, Governance</category>
+    </item>
+    <item>
+      <title>NZ organisations accelerate AI adoption amid growing resilience and governance gaps</title>
+      <link>https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/</link>
+      <description>A new report on New Zealand enterprises finds AI is being deployed faster than security and governance practices can keep up, especially in cybersecurity tooling and customer operations. The authors call for board-level AI risk frameworks and reporting standards.</description>
+      <pubDate>Thu, 07 May 2026 22:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling</title>
+      <link>https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</link>
+      <description>NVIDIA's GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
+      <pubDate>Thu, 07 May 2026 21:20:14 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</guid>
+      <category>Automation</category>
+    </item>
+    <item>
+      <title>Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer</title>
+      <link>https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/</link>
+      <description>NVIDIA Model Optimizer enables post-training quantization (PTQ) to run large models on consumer RTX GPUs with reduced VRAM and faster inference, covering INT8/INT4/FP8 recipes for popular architectures.</description>
+      <pubDate>Thu, 07 May 2026 21:18:06 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/</guid>
+      <category>Models, Coding</category>
+    </item>
+    <item>
+      <title>OpenAI previews GPT-5.5-Cyber for critical-infrastructure defenders</title>
+      <link>https://x.com/gdb/status/2052507037674737812</link>
+      <description>OpenAI president Greg Brockman announced a limited preview of GPT-5.5-Cyber, a security-tuned variant of GPT-5.5 designed to help critical-infrastructure operators detect and patch code vulnerabilities. It ships with the Trusted Access for Cyber programme for vetted defenders.</description>
+      <pubDate>Thu, 07 May 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/gdb/status/2052507037674737812</guid>
+      <category>Models, Governance</category>
+    </item>
+    <item>
+      <title>Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission</title>
+      <link>https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</link>
+      <description>US Energy Secretary Chris Wright and NVIDIA's Ian Buck discussed AI's role in powering America's energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
+      <pubDate>Thu, 07 May 2026 19:14:38 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Grok Imagine Quality Mode API</title>
+      <link>https://x.ai/news/grok-imagine-quality-mode</link>
+      <description>xAI exposed Grok Imagine Quality Mode through the API, giving developers programmatic access to the higher-fidelity image generation tier previously limited to the Grok app. Pricing is per-image at the higher quality cost band.</description>
+      <pubDate>Thu, 07 May 2026 19:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/grok-imagine-quality-mode</guid>
+      <category>Content, Models</category>
+    </item>
+    <item>
+      <title>Connectors now on Grok Web</title>
+      <link>https://x.ai/news/grok-connectors</link>
+      <description>xAI rolled connectors out to Grok on the web, letting users link Gmail, Google Drive, GitHub, and other services so Grok can search and act across them. Mirrors agent-style integrations already shipped by ChatGPT and Claude.</description>
+      <pubDate>Thu, 07 May 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.ai/news/grok-connectors</guid>
+      <category>Agents, Automation</category>
+    </item>
+    <item>
+      <title>Andrew Ng + CopilotKit: course on building UI-generating AI agents</title>
+      <link>https://x.com/AndrewYNg/status/2052422157310083493</link>
+      <description>Andrew Ng announced a DeepLearning.AI short course with CopilotKit on building agents that generate dynamic UIs — charts, forms, whiteboards — directly inside chat. The course covers component-based, compositional, and third-party app integration patterns.</description>
+      <pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/AndrewYNg/status/2052422157310083493</guid>
+      <category>Agents, Coding</category>
+    </item>
+    <item>
+      <title>Scale AI launches SWE Atlas Refactoring Leaderboard — Claude Opus 4.7 leads</title>
+      <link>https://scale.com/leaderboard/swe_atlas_refactoring</link>
+      <description>Scale AI published a new SWE Atlas Refactoring leaderboard scoring how well coding agents perform multi-file refactors on real repos. Claude Code with Opus 4.7 currently tops the board, followed by Codex and GPT-5 variants.</description>
+      <pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://scale.com/leaderboard/swe_atlas_refactoring</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus</title>
+      <link>https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/</link>
+      <description>NVIDIA describes NCCL Inspector, a Prometheus-compatible tool for live-monitoring NVIDIA Collective Communications Library traffic across multi-GPU training jobs. It surfaces stragglers and failed all-reduces faster than log-scraping, useful for teams running large distributed training.</description>
+      <pubDate>Thu, 07 May 2026 16:02:58 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/</guid>
+      <category>Coding, Models</category>
+    </item>
+    <item>
+      <title>SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning</title>
+      <link>https://ai.meta.com/blog/segment-anything-model-3/</link>
+      <description>Meta AI released SAM 3.1, an updated Segment Anything Model with faster real-time video detection and tracking, multiplexing support for concurrent streams, and global reasoning that improves accuracy on complex scene segmentation.</description>
+      <pubDate>Thu, 07 May 2026 16:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://ai.meta.com/blog/segment-anything-model-3/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>DeepMind: AlphaEvolve Gemini-powered coding agent accelerating quantum, biotech, logistics</title>
+      <link>https://x.com/GoogleDeepMind/status/2052403306257940967</link>
+      <description>Google DeepMind highlighted AlphaEvolve, a Gemini-powered coding agent that iteratively proposes and tests algorithm changes. They credit it with measurable speedups in quantum simulation, protein workflows, and logistics scheduling.</description>
+      <pubDate>Thu, 07 May 2026 15:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/GoogleDeepMind/status/2052403306257940967</guid>
+      <category>Agents, Coding</category>
+    </item>
+    <item>
+      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
+      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+      <description>Meta AI unveiled Muse Spark, positioned as a step toward personal superintelligence — an AI system designed to act as a persistent personal agent that scales with individual context, goals, and workflows over time.</description>
+      <pubDate>Thu, 07 May 2026 14:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>OpenAI expands ChatGPT ads pilot to New Zealand, UK, Japan, South Korea</title>
+      <link>https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets</link>
+      <description>OpenAI is broadening its ChatGPT advertising pilot to New Zealand, the UK, Japan, South Korea, and Canada/Australia, targeting Free and Go plan users with sponsored answers. It marks the first time ads will appear inside ChatGPT for NZ-based free users.</description>
+      <pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets</guid>
+      <category>Content, Governance</category>
+    </item>
+  </channel>
 </rss>
