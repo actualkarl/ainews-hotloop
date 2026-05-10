@@ -116,14 +116,16 @@ function App() {
       });
   }, [items, activeTag, activeRegions, windowId]);
 
-  // Walks the trending list so the hero banner anchors to a story actually on
-  // the page; HeroBanner falls through to the SVG when nothing has an image.
+  // Hero picks the highest-trending item with a *real* photo, not a logo
+  // wordmark — those look weak as a banner. Falls through to whichever item
+  // has any image if no photo exists, then to the SVG inside HeroBanner.
   const heroItem = React.useMemo(() => {
     const ranked = [...items].sort((a, b) => {
       if (b.importance !== a.importance) return b.importance - a.importance;
       return a.timeAgoMins - b.timeAgoMins;
     });
-    return ranked.find(i => i.image_url) || ranked[0] || null;
+    const isPhoto = i => i.image_url && i.image_source !== 'logo';
+    return ranked.find(isPhoto) || ranked.find(i => i.image_url) || ranked[0] || null;
   }, [items]);
 
   const activeFilterCount =

@@ -139,6 +139,7 @@ function normalizeItem(raw) {
     id: raw.id,
     url: raw.url,
     image_url: raw.image_url || null,
+    image_source: raw.image_source || null,
     image_type: raw.image_type || 'photo',
     title: raw.title_translated || raw.title,
     summary: raw.summary || '',

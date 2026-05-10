@@ -25,10 +25,11 @@
         "Models",
         "Content"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/xai.svg",
       "trending_score": 0.3369,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "534cb8b49952fe87",
@@ -44,10 +45,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/xai.svg",
       "trending_score": 0.3099,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "0d8fc50742a07c83",
@@ -64,10 +66,11 @@
         "Agents",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.8554,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "b597d1973c66b098",
@@ -83,10 +86,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/govt-nz.svg",
       "trending_score": 1.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "0813b58294433ca7",
@@ -102,10 +106,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/rbnz.svg",
       "trending_score": 0.5189,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "c6c586873e55a0ba",
@@ -141,10 +146,11 @@
         "Content",
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/meta.svg",
       "trending_score": 0.7298,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "5ee6832a4405e209",
@@ -161,10 +167,11 @@
         "Models",
         "Agents"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.5345,
       "mention_count": 3,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "2754aaae10ffc4e9",
@@ -398,10 +405,11 @@
         "Models",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/xai.svg",
       "trending_score": 0.0118,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "f626f2921fa126e4",
@@ -477,10 +485,11 @@
         "Agents",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/xai.svg",
       "trending_score": 0.0092,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "dcadb723e7889c43",
@@ -497,10 +506,11 @@
         "Coding",
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0092,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "83e20b8924638b5c",
@@ -556,10 +566,11 @@
         "Agents",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/xai.svg",
       "trending_score": 0.0102,
       "mention_count": 2,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "a8336fe361e14b12",
@@ -596,10 +607,11 @@
         "Content",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0182,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "fa002821b90d7a82",
@@ -752,10 +764,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/deepmind.svg",
       "trending_score": 0.0134,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "463b01d5793bbfd3",
@@ -792,10 +805,11 @@
         "Models",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.0069,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "ea86a83eb336b9cd",
@@ -812,10 +826,11 @@
         "Models",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/google.svg",
       "trending_score": 0.0069,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "e4ae65a9c2eb9a2e",
@@ -871,10 +886,11 @@
         "Content",
         "Skills"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.0058,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "270c90d14572851f",
@@ -891,10 +907,11 @@
         "Coding",
         "Agents"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.0053,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "8330c219eab8f928",
@@ -911,10 +928,11 @@
         "Skills",
         "Content"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.0053,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "dc6ae17819b70674",
@@ -1027,10 +1045,11 @@
         "Skills",
         "Content"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0018,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "6c1b0177b8fdc8c4",
@@ -1164,10 +1183,11 @@
         "Agents",
         "Automation"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.0007,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "1ab5b5461c7c1c91",
@@ -1221,12 +1241,13 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "mention_count": 2,
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
-      "trending_score": 0.0007
+      "trending_score": 0.0007,
+      "image_source": "logo"
     },
     {
       "id": "42d356f36bddceaf",
@@ -1302,10 +1323,11 @@
         "Agents",
         "Automation"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0002
+      "trending_score": 0.0002,
+      "image_source": "logo"
     },
     {
       "id": "8e669a2b06fe440e",
@@ -1363,8 +1385,8 @@
         "Automation",
         "Models"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/openai.svg",
+      "image_source": "logo",
       "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
@@ -1403,8 +1425,8 @@
         "Agents",
         "Governance"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
@@ -1464,8 +1486,8 @@
         "Models",
         "Agents"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0002,
       "mention_count": 4,
       "related_ids": []
@@ -1484,8 +1506,8 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/xai.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1505,8 +1527,8 @@
         "Models",
         "Automation"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/openai.svg",
+      "image_source": "logo",
       "trending_score": 0.0001,
       "mention_count": 3,
       "related_ids": []
@@ -1566,8 +1588,8 @@
         "Coding",
         "Agents"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1587,8 +1609,8 @@
         "Models",
         "Governance"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/deepseek.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1607,8 +1629,8 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/openai.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1671,8 +1693,8 @@
         "Models",
         "Agents"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/qwen.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1692,8 +1714,8 @@
         "Governance",
         "Agents"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/ncsc-nz.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
@@ -1713,8 +1735,8 @@
         "Governance",
         "Models"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
@@ -1734,8 +1756,8 @@
         "Governance",
         "Models"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
@@ -1755,8 +1777,8 @@
         "Content",
         "Governance"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/openai.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
@@ -1776,8 +1798,8 @@
         "Agents",
         "Models"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -1817,10 +1839,11 @@
         "Governance",
         "Automation"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/rbnz.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "ecfc70d2143c166e",
@@ -1876,8 +1899,8 @@
         "Models",
         "Coding"
       ],
-      "image_url": null,
-      "image_source": "none",
+      "image_url": "/images/logos/nvidia.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
@@ -2072,10 +2095,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "8b7276cd935e3184",
@@ -2091,10 +2115,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "565ca109c9e02f51",
@@ -2189,10 +2214,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 2,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "dc3bdc358a297d10",
@@ -2267,10 +2293,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "91ed947acf2ac2d2",
@@ -2287,10 +2314,11 @@
         "Models",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/nvidia.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "a6667f2f9dae6746",
@@ -2307,10 +2335,11 @@
         "Models",
         "Agents"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/nvidia.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "47b3958d8435aa0d",
@@ -2365,10 +2394,11 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/anthropic.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "d60fcda35a545cce",
@@ -2403,10 +2433,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/deepmind.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "0ff444850a32f480",
@@ -2423,10 +2454,11 @@
         "Models",
         "Agents"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "1a4f1c3fbf13cbbe",
@@ -2443,10 +2475,11 @@
         "Agents",
         "Automation"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "a5ed862bc0021f14",
@@ -2542,10 +2575,11 @@
         "Models",
         "Content"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/microsoft.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "b2fd5485d1885f2d",
@@ -2596,13 +2630,14 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "id": "bf7073427d71b3ff",
       "first_seen_at": "2026-04-27T22:21:39Z",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "title_translated": null
+      "title_translated": null,
+      "image_source": "logo"
     },
     {
       "id": "ed4a6f7c27369a7d",
@@ -2637,10 +2672,11 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "6dab30f065ef7986",
@@ -2710,13 +2746,14 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/deepmind.svg",
       "id": "563f3b4043e7971d",
       "first_seen_at": "2026-04-27T22:21:39Z",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "title_translated": null
+      "title_translated": null,
+      "image_source": "logo"
     },
     {
       "id": "ce4ac038dd21dd0d",
@@ -2790,13 +2827,14 @@
       "tags": [
         "Models"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/deepmind.svg",
       "id": "330777892e36ae31",
       "first_seen_at": "2026-04-27T22:21:39Z",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "title_translated": null
+      "title_translated": null,
+      "image_source": "logo"
     },
     {
       "id": "b5d18c04f7f67bab",
@@ -2813,10 +2851,11 @@
         "Models",
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "id": "4a313bcd56c65dc3",
@@ -2910,13 +2949,14 @@
         "Agents",
         "Coding"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/deepmind.svg",
       "id": "ff52c1488d8ab631",
       "first_seen_at": "2026-04-27T22:21:39Z",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "title_translated": null
+      "title_translated": null,
+      "image_source": "logo"
     },
     {
       "id": "03bc92bbf2ccc638",
@@ -2933,10 +2973,11 @@
         "Agents",
         "Automation"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/mistral.svg",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
+      "related_ids": [],
+      "image_source": "logo"
     },
     {
       "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
@@ -2949,13 +2990,14 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/meta.svg",
       "id": "d867737c665b69d1",
       "first_seen_at": "2026-04-27T22:21:39Z",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "title_translated": null
+      "title_translated": null,
+      "image_source": "logo"
     },
     {
       "id": "e5fc1e095f7b2eec",
@@ -2987,13 +3029,14 @@
       "tags": [
         "Governance"
       ],
-      "image_url": null,
+      "image_url": "/images/logos/openai.svg",
       "id": "aba3999211db1823",
       "first_seen_at": "2026-04-27T22:21:39Z",
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
-      "title_translated": null
+      "title_translated": null,
+      "image_source": "logo"
     },
     {
       "id": "6dae1ac749b9f887",
@@ -3130,8 +3173,8 @@
         "Governance",
         "Models"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/anthropic.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
@@ -3151,8 +3194,8 @@
         "Governance",
         "Automation"
       ],
-      "image_url": "/data/cover-mobile.png",
-      "image_source": "cover_fallback",
+      "image_url": "/images/logos/xai.svg",
+      "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []

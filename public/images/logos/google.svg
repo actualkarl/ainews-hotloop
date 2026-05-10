@@ -1,7 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Google">
-  <rect width="256" height="256" fill="#FFFFFF"/>
-  <circle cx="216" cy="40" r="14" fill="#4285F4" opacity="0.9"/>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="700" fill="#202124" text-anchor="middle">
-    <text x="128" y="148" font-size="44" letter-spacing="-0.5">Google</text>
+  <defs>
+    <radialGradient id="aurora1" cx="0.25" cy="0.32" r="0.55" fx="0.18" fy="0.28">
+      <stop offset="0" stop-color="#4285F4" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#4285F4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4285F4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora2" cx="0.78" cy="0.78" r="0.55" fx="0.85" fy="0.82">
+      <stop offset="0" stop-color="#EA4335" stop-opacity="0.65"/>
+      <stop offset="0.55" stop-color="#EA4335" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#EA4335" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.08 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="#0A0A0F"/>
+  <rect width="256" height="256" fill="url(#aurora1)"/>
+  <rect width="256" height="256" fill="url(#aurora2)"/>
+  <rect width="256" height="256" fill="url(#vignette)"/>
+  <rect width="256" height="256" filter="url(#grain)" opacity="0.4"/>
+  <g transform="translate(72 72) scale(4.667)" fill="#FFFFFF">
+    <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
   </g>
 </svg>

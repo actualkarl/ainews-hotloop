@@ -12,4 +12,5 @@ __pycache__/
 a47ab14b-*.png
 prefetch-candidates.json
 archive/
+.cache/
 

@@ -1,7 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Anthropic">
-  <rect width="256" height="256" fill="#F5F4EE"/>
-  <circle cx="216" cy="40" r="14" fill="#D97757" opacity="0.9"/>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="700" fill="#191919" text-anchor="middle">
-    <text x="128" y="148" font-size="36" letter-spacing="-0.5">Anthropic</text>
+  <defs>
+    <radialGradient id="aurora1" cx="0.25" cy="0.32" r="0.55" fx="0.18" fy="0.28">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#D97757" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora2" cx="0.78" cy="0.78" r="0.55" fx="0.85" fy="0.82">
+      <stop offset="0" stop-color="#7A3B1E" stop-opacity="0.65"/>
+      <stop offset="0.55" stop-color="#7A3B1E" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#7A3B1E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.08 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="#0A0A0F"/>
+  <rect width="256" height="256" fill="url(#aurora1)"/>
+  <rect width="256" height="256" fill="url(#aurora2)"/>
+  <rect width="256" height="256" fill="url(#vignette)"/>
+  <rect width="256" height="256" filter="url(#grain)" opacity="0.4"/>
+  <g transform="translate(72 72) scale(4.667)" fill="#F2D8C5">
+    <path d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z"/>
   </g>
 </svg>

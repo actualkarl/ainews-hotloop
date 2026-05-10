@@ -1,7 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Techmeme">
-  <rect width="256" height="256" fill="#E2731D"/>
-  <circle cx="216" cy="40" r="14" fill="#FFFFFF" opacity="0.9"/>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="700" fill="#FFFFFF" text-anchor="middle">
-    <text x="128" y="148" font-size="44" letter-spacing="-0.5">Techmeme</text>
-  </g>
+  <defs>
+    <radialGradient id="aurora1" cx="0.25" cy="0.32" r="0.55" fx="0.18" fy="0.28">
+      <stop offset="0" stop-color="#E2731D" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#E2731D" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#E2731D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora2" cx="0.78" cy="0.78" r="0.55" fx="0.85" fy="0.82">
+      <stop offset="0" stop-color="#A14A0F" stop-opacity="0.65"/>
+      <stop offset="0.55" stop-color="#A14A0F" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#A14A0F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.08 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="#0A0A0F"/>
+  <rect width="256" height="256" fill="url(#aurora1)"/>
+  <rect width="256" height="256" fill="url(#aurora2)"/>
+  <rect width="256" height="256" fill="url(#vignette)"/>
+  <rect width="256" height="256" filter="url(#grain)" opacity="0.4"/>
+  <text x="128" y="144" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="44" letter-spacing="-1" fill="#FFFFFF" text-anchor="middle">Techmeme</text>
 </svg>
