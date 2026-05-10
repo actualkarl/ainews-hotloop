@@ -10,4 +10,6 @@ secrets.env
 __pycache__/
 *.consumed.json
 a47ab14b-*.png
+prefetch-candidates.json
+archive/
 

@@ -134,107 +134,6 @@ button { font-family: inherit; }
   font-variant-numeric: tabular-nums;
 }
 
-/* ---------- Breaking strip ---------- */
-.breaking {
-  background: var(--color-surface-card);
-  border: var(--border-hairline) solid var(--color-border-subtle);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  margin-bottom: 16px;
-}
-.breaking__label {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
-  background: var(--color-surface-muted);
-  border-bottom: var(--border-hairline) solid var(--color-border-subtle);
-}
-.breaking__pulse { position: relative; width: 10px; height: 10px; display: inline-block; flex-shrink: 0; }
-.breaking__pulse-dot {
-  position: absolute;
-  inset: 2px;
-  border-radius: 9999px;
-  background: var(--color-human);
-}
-.breaking__pulse-ring {
-  position: absolute;
-  inset: 0;
-  border-radius: 9999px;
-  background: var(--color-human);
-  opacity: 0.5;
-  animation: pulse-ring 1.6s var(--easing-default) infinite;
-}
-@keyframes pulse-ring {
-  0%   { transform: scale(0.6); opacity: 0.6; }
-  80%  { transform: scale(2.4); opacity: 0; }
-  100% { transform: scale(2.4); opacity: 0; }
-}
-.breaking__label-text {
-  font-size: var(--text-xs);
-  font-weight: var(--weight-semibold);
-  letter-spacing: var(--tracking-widest);
-  text-transform: uppercase;
-  color: var(--color-human);
-}
-.breaking__time {
-  margin-left: auto;
-  font-size: var(--text-xs);
-  color: var(--color-text-muted);
-  font-variant-numeric: tabular-nums;
-}
-.breaking__grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1px;
-  background: var(--color-border-subtle);
-}
-.breaking__card {
-  background: var(--color-surface-card);
-  padding: 18px 20px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  transition: background var(--duration-fast) var(--easing-default);
-  grid-column: span 2;
-}
-/* Items 4 & 5 each span 3 cols so the second row has no orphan */
-.breaking__card:nth-child(4),
-.breaking__card:nth-child(5) { grid-column: span 3; }
-.breaking__card:hover { background: var(--color-surface-muted); }
-.breaking__card-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.breaking__card-title {
-  font-size: var(--text-md);
-  font-weight: var(--weight-medium);
-  letter-spacing: -0.01em;
-  line-height: 1.3;
-  margin: 0;
-  text-wrap: pretty;
-  color: var(--color-text-primary);
-}
-.breaking__card--lead .breaking__card-title { font-size: 20px; letter-spacing: -0.015em; }
-.breaking__card-summary {
-  font-size: var(--text-sm);
-  color: var(--color-text-secondary);
-  line-height: 1.5;
-  margin: 0;
-  text-wrap: pretty;
-}
-@media (max-width: 900px) {
-  .breaking__grid { grid-template-columns: 1fr 1fr; }
-  /* Reset card 4 explicitly — its span-3 has higher specificity than .breaking__card alone */
-  .breaking__card,
-  .breaking__card:nth-child(4) { grid-column: span 1; }
-  .breaking__card:nth-child(5) { grid-column: span 2; }
-}
-@media (max-width: 700px) {
-  .breaking__grid { grid-template-columns: 1fr; }
-  .breaking__card,
-  .breaking__card:nth-child(4),
-  .breaking__card:nth-child(5) { grid-column: span 1; }
-}
-
 /* ---------- Filter bar ---------- */
 .filterbar {
   margin-bottom: 24px;
@@ -886,22 +785,32 @@ button { font-family: inherit; }
   font-variant-numeric: tabular-nums;
 }
 
-/* ---------- Inline feed-meta (count + reset above the feed) ---------- */
-.feed-meta {
+/* ---------- Section heading above the feed (title + count + reset) ---------- */
+.feed-section-head {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 16px 0 12px;
+  align-items: baseline;
+  gap: 16px;
+  margin: 24px 0 12px;
+  flex-wrap: wrap;
+}
+.feed-section-head__title {
+  font-size: var(--text-xl, 22px);
+  font-weight: var(--weight-semibold, 600);
+  letter-spacing: -0.015em;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+.feed-section-head__count {
   font-size: var(--text-sm);
   color: var(--color-text-secondary);
+  margin-left: auto;
 }
-.feed-meta__count-num {
+.feed-section-head__count-num {
   font-weight: var(--weight-medium);
   color: var(--color-text-primary);
   font-variant-numeric: tabular-nums;
 }
-.feed-meta__reset {
+.feed-section-head__reset {
   border: 0;
   background: transparent;
   color: var(--color-text-muted);
@@ -910,7 +819,14 @@ button { font-family: inherit; }
   cursor: pointer;
   padding: 4px 0;
 }
-.feed-meta__reset:hover { color: var(--color-text-primary); }
+.feed-section-head__reset:hover { color: var(--color-text-primary); }
+
+/* News card fallback image — softer presentation when no real photo. */
+.news-card__image--fallback img {
+  background: var(--color-surface-muted, #1e293b);
+  object-fit: cover;
+  opacity: 0.85;
+}
 
 @media (max-width: 720px) {
   .topbar__nav { display: none; }

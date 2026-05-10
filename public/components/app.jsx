@@ -21,14 +21,13 @@ function App() {
   const [loading, setLoading] = React.useState(false);
   const [generatedAt, setGeneratedAt] = React.useState(null);
   const [nextRefreshAt, setNextRefreshAt] = React.useState(null);
-  const [showBreaking, setShowBreaking] = React.useState(true);
   const [newsflashIds, setNewsflashIds] = React.useState([]);
   const [dailySummary, setDailySummary] = React.useState('');
   const [newsflashDismissed, setNewsflashDismissed] = React.useState(false);
   const [tweets, setTweets] = React.useState([]);
   const [xfeedDismissed, setXfeedDismissed] = React.useState(false);
   const [tweaks, setTweaks] = React.useState(() => {
-    const defaults = window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid', showBreaking: true };
+    const defaults = window.TWEAK_DEFAULTS || { dark: false, density: 'comfortable', layout: 'grid' };
     try {
       const stored = JSON.parse(localStorage.getItem('ainews:tweaks') || 'null');
       if (stored && typeof stored === 'object') return { ...defaults, ...stored };
@@ -111,8 +110,21 @@ function App() {
       .filter(i => i.timeAgoMins <= win.maxMins)
       .filter(i => !activeTag || i.tags.includes(activeTag))
       .filter(i => activeRegions.size === 0 || (i.region && activeRegions.has(i.region)))
-      .sort((a, b) => a.timeAgoMins - b.timeAgoMins);
+      .sort((a, b) => {
+        if (b.importance !== a.importance) return b.importance - a.importance;
+        return a.timeAgoMins - b.timeAgoMins;
+      });
   }, [items, activeTag, activeRegions, windowId]);
+
+  // Walks the trending list so the hero banner anchors to a story actually on
+  // the page; HeroBanner falls through to the SVG when nothing has an image.
+  const heroImageUrl = React.useMemo(() => {
+    const ranked = [...items].sort((a, b) => {
+      if (b.importance !== a.importance) return b.importance - a.importance;
+      return a.timeAgoMins - b.timeAgoMins;
+    });
+    return ranked.find(i => i.image_url)?.image_url || null;
+  }, [items]);
 
   const activeFilterCount =
     (activeTag ? 1 : 0) +
@@ -132,16 +144,6 @@ function App() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [drawerOpen]);
-
-  const breaking = React.useMemo(() => {
-    return [...items]
-      .filter(i => i.timeAgoMins < 60 * 24)
-      .sort((a, b) => {
-        if (b.importance !== a.importance) return b.importance - a.importance;
-        return a.timeAgoMins - b.timeAgoMins;
-      })
-      .slice(0, 5);
-  }, [items]);
 
   const feedItems = filtered;
 
@@ -180,7 +182,10 @@ function App() {
         onOpenFilters={() => setDrawerOpen(true)}
       />
       <XFeedTicker tweets={tweets} dismissed={xfeedDismissed} onDismiss={() => setXfeedDismissed(true)} />
-      <HeroBanner generatedAt={generatedAt} />
+      <HeroBanner
+        generatedAt={generatedAt}
+        heroImageUrl={heroImageUrl}
+      />
       <main className="main">
         <div className="main__inner">
           <PageHeader total={items.length} fresh={items.filter(i => i.timeAgoMins < 60).length} />
@@ -189,16 +194,13 @@ function App() {
             <DailySummary text={dailySummary} />
           )}
 
-          {showBreaking && tweaks.showBreaking !== false && breaking.length > 0 && (
-            <BreakingStrip items={breaking} />
-          )}
-
-          <div className="feed-meta">
-            <span className="feed-meta__count">
-              <span className="feed-meta__count-num">{feedItems.length}</span> stor{feedItems.length === 1 ? 'y' : 'ies'} showing
+          <div className="feed-section-head">
+            <h2 className="feed-section-head__title">Trending today</h2>
+            <span className="feed-section-head__count">
+              <span className="feed-section-head__count-num">{feedItems.length}</span> stor{feedItems.length === 1 ? 'y' : 'ies'}
             </span>
             {activeFilterCount > 0 && (
-              <button className="feed-meta__reset" onClick={resetAllFilters}>Reset filters</button>
+              <button className="feed-section-head__reset" onClick={resetAllFilters}>Reset filters</button>
             )}
           </div>
 
@@ -476,13 +478,6 @@ function TweaksPanel({ tweaks, onChange, onClose }) {
             onChange={v => onChange({ layout: v })}
           />
         </TweakField>
-        <TweakField label="Trending strip">
-          <SegmentedControl
-            value={tweaks.showBreaking ? 'on' : 'off'}
-            options={[{ v: 'on', l: 'Show' }, { v: 'off', l: 'Hide' }]}
-            onChange={v => onChange({ showBreaking: v === 'on' })}
-          />
-        </TweakField>
       </div>
     </aside>
   );
@@ -513,15 +508,20 @@ function SegmentedControl({ value, options, onChange }) {
   );
 }
 
-function HeroBanner({ generatedAt }) {
+const HERO_FALLBACK_SRC = '/images/hero-fallback.svg';
+
+function HeroBanner({ generatedAt, heroImageUrl }) {
   const d = generatedAt || new Date();
   const dateStr = d.toLocaleDateString('en-NZ', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  const src = heroImageUrl || HERO_FALLBACK_SRC;
   return (
     <div className="hero-banner">
-      <picture>
-        <source media="(max-width: 768px)" srcSet="/images/hero_mobile.png" />
-        <img src="/images/hero_desktop.png" alt="" className="hero-banner__img" />
-      </picture>
+      <img
+        src={src}
+        alt=""
+        className="hero-banner__img"
+        onError={e => { e.currentTarget.src = HERO_FALLBACK_SRC; }}
+      />
       <div className="hero-banner__overlay" aria-hidden="true" />
       <div className="hero-banner__text">
         <span className="hero-banner__date">{dateStr}</span>

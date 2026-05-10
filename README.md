@@ -14,9 +14,6 @@ populated by the `ainews` Claude Code routine on the Mac mini (no API costs).
 - **Pipeline**: `~/Library/CloudStorage/.../Creator Workspace/Routines/ainews/routine.md`
   — fetches sources, dedups, classifies, scores, writes items.json, runs
   `wrangler deploy`, then sends a 400-word brief to Telegram.
-- **Refresh button**: site posts `/api/refresh` to the same Worker, which
-  sends a Telegram ping to `@clovaagent_bot` prompting Karl to run
-  `/routine run ainews` locally.
 
 ## Tag vocabulary (fixed, 7)
 

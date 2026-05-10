@@ -1,5 +1,5 @@
 // Feed components for the ainews.hotloop.ai site.
-// Provides: TagChip, TagBadge, NewsCard, BreakingStrip, TimeBadge, SourcePill,
+// Provides: TagChip, TagBadge, NewsCard, TimeBadge, SourcePill,
 // RegionBadge, TierBadge, normalizeItem, makeSearchIndex.
 
 const TAG_COLORS = {
@@ -78,15 +78,22 @@ function SourcePill({ citation }) {
 
 function NewsCard({ item, density, featured }) {
   const fresh = item.timeAgoMins < 120;
+  const FALLBACK_IMG = '/images/hero-fallback.svg';
+  const cardImg = item.image_url || FALLBACK_IMG;
+  const isFallback = !item.image_url;
   return (
     <article className={"news-card" + (featured ? " news-card--featured" : "") + (density === 'compact' ? " news-card--compact" : "")}>
-      {item.image_url && density !== 'compact' && (
-        <div className={"news-card__image" + (item.image_type === 'avatar' ? ' news-card__image--avatar' : '')}>
+      {density !== 'compact' && (
+        <div className={
+          "news-card__image"
+          + (item.image_type === 'avatar' && !isFallback ? ' news-card__image--avatar' : '')
+          + (isFallback ? ' news-card__image--fallback' : '')
+        }>
           <img
-            src={item.image_url}
+            src={cardImg}
             alt=""
             loading="lazy"
-            onError={e => { e.currentTarget.parentElement.style.display = 'none'; }}
+            onError={e => { e.currentTarget.src = FALLBACK_IMG; }}
           />
         </div>
       )}
@@ -110,42 +117,6 @@ function NewsCard({ item, density, featured }) {
         </div>
       </footer>
     </article>
-  );
-}
-
-function BreakingStrip({ items, onOpen }) {
-  if (!items || items.length === 0) return null;
-  const shown = items.slice(0, 5);
-  return (
-    <section className="breaking">
-      <div className="breaking__label">
-        <span className="breaking__pulse">
-          <span className="breaking__pulse-dot" />
-          <span className="breaking__pulse-ring" />
-        </span>
-        <span className="breaking__label-text">What's trending</span>
-        <span className="breaking__time">Top {items.length} from the last 24h</span>
-      </div>
-      <div className="breaking__grid">
-        {shown.map((item, i) => (
-          <article
-            key={item.id}
-            className={"breaking__card" + (i === 0 ? " breaking__card--lead" : "")}
-            onClick={() => onOpen && onOpen(item)}
-          >
-            <div className="breaking__card-meta">
-              {item.tags.slice(0, 1).map(t => <TagBadge key={t} label={t} />)}
-              <RegionBadge region={item.region} />
-              <TimeBadge mins={item.timeAgoMins} fresh />
-            </div>
-            <h3 className="breaking__card-title">
-              {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a> : item.title}
-            </h3>
-            {i === 0 && item.summary && <p className="breaking__card-summary">{item.summary}</p>}
-          </article>
-        ))}
-      </div>
-    </section>
   );
 }
 
@@ -307,7 +278,7 @@ function makeSearchIndex(items) {
 }
 
 Object.assign(window, {
-  TagChip, TagBadge, NewsCard, BreakingStrip, NewsflashBanner, DailySummary,
+  TagChip, TagBadge, NewsCard, NewsflashBanner, DailySummary,
   XFeedTicker, TimeBadge, SourcePill, RegionBadge, TAG_COLORS, REGION_LABELS,
   formatAgo, normalizeItem, makeSearchIndex,
 });

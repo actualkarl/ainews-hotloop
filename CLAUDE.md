@@ -1,0 +1,44 @@
+# ainews.hotloop.ai
+
+Daily AI news aggregator. Goal: **fully autonomous daily updates** — research → publish, no human in the loop. Anything that requires Karl to click or type during a routine run is a regression.
+
+## Pipeline
+
+1. **`ainews-prefetch` (cron `30 5 * * *` NZ)** — runs `prefetch.py`. Pure Python, no permission surface. Fetches RSS + web sources, dedupes, enriches og:images. Writes `prefetch-candidates.json` and pushes the same payload to Cloudflare KV. **No daily cover-image generation** (removed 2026-05-10 — was a flaky maintenance liability; hero now anchors to the top story's og:image, falls through to a shared SVG).
+
+2. **`ainews-routine` (cron `0 6 * * *` NZ)** — Claude Code session. Reads candidates from KV, classifies/summarises/picks newsflash, writes `items.json` + `tweets.json`, refreshes wrangler OAuth (STEP 10), deploys, git push, Telegram ping (STEP 13). The SKILL body lives at `~/Documents/Claude/Scheduled/ainews-routine/SKILL.md`, mirrored from `routine.md` (in Creator Workspace).
+
+## Hero + image fallback
+
+- Hero = the highest-trending item that has a real og:image. Derived **client-side** in `app.jsx::App` (see `heroImageUrl` useMemo). The banner cascades down the trending list, so it always reflects the day's actual lead story.
+- When no item has an og:image (rare — early-morning runs before enrichment): hero falls back to `public/images/hero-fallback.svg`.
+- Per-card fallback: `NewsCard` in `feed.jsx` renders the same `hero-fallback.svg` for any item without an og:image. One asset, two callsites.
+- The frontend no longer reads `cover_image_url` / `cover_image_mobile_url` from items.json. Routine should not write those keys.
+
+## Frontend
+
+- React app in `public/components/app.jsx`.
+- Feed is sorted **importance desc → recency asc** by default. Section heading: "Trending today" (replaces the old `BreakingStrip` "What's trending" component, which was removed 2026-05-10 — two trending sections was one too many).
+
+## Secrets
+
+| What | Where | Notes |
+|---|---|---|
+| Cloudflare API token (prefetch KV) | `~/.openclaw/ainews-secrets.env` `CLOUDFLARE_API_TOKEN` | Static token, scope: `Account → Workers KV Storage → Edit` for account `97f9fae52c8c337245f0c1cfff7e5cd3`. Replaces the wrangler-OAuth path that was failing 401 every run before 2026-05-10. |
+| Cloudflare auth (wrangler deploy) | `~/.wrangler/config/default.toml` (OAuth) | Headless-incompatible; refresh via `/oauth2/token` inline (routine STEP 10). |
+| Telegram bot | `~/.openclaw/openclaw.json` `channels.telegram.botToken` | Karl's chat_id is `69302279` |
+| GitHub auth | `gh auth` (Mac keychain) | `gh auth git-credential` helper wired in routine STEP 11 |
+
+## Headless gotchas
+
+- **Wrangler refuses OAuth in non-interactive mode.** It demands `CLOUDFLARE_API_TOKEN` env var. Routine STEP 10 refreshes the access_token via `https://dash.cloudflare.com/oauth2/token` (using `refresh_token` from `default.toml` + wrangler's public `client_id 54d11594-84e4-41aa-b438-e81b8fa78ee7`) and exports it inline before `wrangler deploy`. The Cloudflare dash domain ASN-blocks the Dispatch sandbox unless you send a real-browser User-Agent header.
+- **scheduled-tasks MCP `update_scheduled_task` with `fireAt`** silently no-ops on tasks that already carry a cron. For one-shot manual fires, use `create_scheduled_task` (proven to dispatch reliably).
+- **AINewsDeploy cloud env doesn't reach this routine.** It applies to Anthropic-hosted remote sessions only. Don't conflate; secrets must live somewhere local.
+
+## Manual interventions
+
+- **Telegram ping for manual deploys:** Dispatch can send directly via the bot token — see the auto-memory's `reference_telegram_dispatch.md`. Pattern: `🗞 ainews.hotloop.ai — <what shipped>` + live URL.
+
+## Backups
+
+`~/Documents/ainews-migration-backups/2026-04-24/` — pre-migration snapshots of `~/.claude/settings.json`, project-local `.claude/settings.local.json`, `routine.md`, `openclaw.json`. Use to roll back if a future change breaks autonomy.

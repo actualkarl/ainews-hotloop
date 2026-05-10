@@ -15,7 +15,6 @@ Fetch strategy (reduces ~25 sources → ~10-12 effective fetches):
 Does NOT handle X/Twitter searches or NZ Grok searches — those still need Claude.
 """
 
-import base64
 import hashlib
 import json
 import os
@@ -33,12 +32,6 @@ from urllib.parse import urljoin
 import requests
 
 try:
-    from PIL import Image
-    _PIL_AVAILABLE = True
-except ImportError:
-    _PIL_AVAILABLE = False
-
-try:
     from bs4 import BeautifulSoup
     _BS4_AVAILABLE = True
 except ImportError:
@@ -49,88 +42,13 @@ except ImportError:
 REPO_DIR = Path(__file__).parent
 ITEMS_JSON = REPO_DIR / "public" / "data" / "items.json"
 CANDIDATES_JSON = REPO_DIR / "prefetch-candidates.json"
-COVER_IMAGE = REPO_DIR / "public" / "data" / "cover.png"
-COVER_IMAGE_MOBILE = REPO_DIR / "public" / "data" / "cover-mobile.png"
-COVER_META = REPO_DIR / "public" / "data" / "cover-meta.json"
-SLICES_DIR = REPO_DIR / "public" / "data" / "slices"
 SECRETS_ENV = Path.home() / ".openclaw" / "ainews-secrets.env"
-OPENCLAW_JSON = Path.home() / ".openclaw" / "openclaw.json"
-
-# Slice geometry — must match the Polaroid grid in COVER_PROMPT.
-SLICE_COLS = 3
-SLICE_ROWS = 2
-SLICE_COUNT = SLICE_COLS * SLICE_ROWS  # 6 Polaroids, one per cell
 
 # og:image enrichment: per-item timeout + total wall-clock cap so one bad batch
 # of slow domains never blocks the whole run.
 ENRICH_PER_ITEM_TIMEOUT = 10
 ENRICH_TOTAL_BUDGET_S = 60
 ENRICH_USER_AGENT = "Mozilla/5.0 AINewsBot/1.0"
-
-# ── Daily cover-banner config ─────────────────────────────────────────────────
-# ONE image per day, generated off the top trending candidate.
-# Primary: gpt-image-2 low 1536x1024 ≈ $0.006/image = $2.19/year.
-# Fallbacks (all reach for the same visual slot):
-#   gpt-image-1 low 1536x1024 ≈ $0.011, dall-e-3 standard 1792x1024 ≈ $0.080.
-# If ALL image-gen fails, caller should fall back to the existing SVG cover.
-
-COVER_TIMEOUT = 120
-COVER_PRIMARY = {"model": "gpt-image-2", "size": "1536x1024", "quality": "low"}
-COVER_FALLBACKS = [
-    {"model": "gpt-image-1", "size": "1536x1024", "quality": "low"},
-    {"model": "gpt-image-1", "size": "1024x1024", "quality": "low"},
-    {"model": "dall-e-3", "size": "1792x1024", "quality": "standard"},
-]
-COVER_PROMPT_TEMPLATE = (
-    "Editorial mood-board photograph, detective-investigation aesthetic. "
-    "Dark corkboard or black velvet background with subtle texture.\n\n"
-    "CENTER of the composition: a stylised anatomical brain illustration, "
-    "rendered as a diagram or pinned specimen, with red-string 'neurons' "
-    "radiating outward from it like investigation threads. The brain is the "
-    "focal anchor — centered both horizontally and vertically so a square "
-    "mobile crop frames it cleanly.\n\n"
-    "Around the brain (scattered on the corkboard, NOT overlapping the brain "
-    "itself): six Polaroid-style instant photos, slightly rotated at varied "
-    "angles (-10° to +10°), corners sometimes overlapping each other or "
-    "peeking under string, pinned with gold/brass pushpins. The red string "
-    "connects the brain to each Polaroid like neural pathways.\n\n"
-    "Each Polaroid has a handwritten-in-black-marker label on its white bottom "
-    "strip. Labels (EXACTLY as written):\n"
-    "{labels_block}\n\n"
-    "For each Polaroid, render a minimal editorial illustration of the label's "
-    "theme — abstract motifs, objects, or metaphors. Muted palette — warm "
-    "cream Polaroid frames, rose (#FF5B6E) and teal (#14B8BF) accents in the "
-    "brain, photos, and string. Slight chaos and grain; informality is the "
-    "point. Shot from directly above, flat lay. 3:2 landscape.\n\n"
-    "No real human faces or identifiable likenesses. No real brand logos or "
-    "trademarked symbols. No text outside the handwritten Polaroid labels."
-)
-
-# Max chars per Polaroid label — long headlines get truncated with ellipsis so
-# the model can render them legibly on a Polaroid's white bottom strip.
-LABEL_MAX_CHARS = 55
-
-
-def _shorten_label(title: str) -> str:
-    """Trim a headline to fit a Polaroid label. Preserves word boundaries."""
-    t = re.sub(r"\s+", " ", (title or "").strip())
-    if len(t) <= LABEL_MAX_CHARS:
-        return t
-    # Cut at last space before the limit, append ellipsis.
-    cut = t[: LABEL_MAX_CHARS - 1].rsplit(" ", 1)[0]
-    return f"{cut}…"
-
-
-def _build_cover_prompt(titles: list[str]) -> str:
-    """Assemble the Polaroid-banner prompt for the given headlines.
-
-    Expects up to 6 titles. If fewer are supplied, pads with generic
-    "AI news update" labels so the 3×2 grid is still complete."""
-    labels = [_shorten_label(t) for t in (titles or [])[:SLICE_COUNT]]
-    while len(labels) < SLICE_COUNT:
-        labels.append("AI news update")
-    block = "\n".join(f'{i+1}. "{lbl}"' for i, lbl in enumerate(labels))
-    return COVER_PROMPT_TEMPLATE.format(labels_block=block)
 
 # ── Cloudflare KV config ───────────────────────────────────────────────────────
 
@@ -140,10 +58,25 @@ KV_KEY = "prefetch-candidates"
 
 
 def _cf_token() -> str | None:
-    """Return a Cloudflare bearer token. Checks env first, then wrangler config."""
-    token = __import__("os").environ.get("CLOUDFLARE_API_TOKEN")
+    """Return a Cloudflare bearer token.
+
+    Order: env → ainews-secrets.env (static API token) → wrangler OAuth.
+    Static tokens are preferred — wrangler's OAuth refresh isn't headless-safe.
+    """
+    token = os.environ.get("CLOUDFLARE_API_TOKEN")
     if token:
-        return token
+        return token.strip()
+    try:
+        if SECRETS_ENV.exists():
+            for line in SECRETS_ENV.read_text().splitlines():
+                m = re.match(
+                    r'\s*(?:export\s+)?CLOUDFLARE_API_TOKEN\s*=\s*"?([^"\s]+)"?',
+                    line,
+                )
+                if m:
+                    return m.group(1).strip()
+    except Exception:
+        pass
     wrangler_config = Path.home() / ".wrangler" / "config" / "default.toml"
     if wrangler_config.exists():
         try:
@@ -245,277 +178,6 @@ def slugify(text: str, max_len: int = 60) -> str:
     """URL-safe slug from text, truncated to max_len."""
     t = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return t[:max_len].rstrip("-") or "item"
-
-
-def _openai_key() -> str | None:
-    """Resolve the OpenAI API key. Order: env → secrets.env → openclaw.json."""
-    k = os.environ.get("OPENAI_API_KEY")
-    if k:
-        return k.strip()
-    # secrets.env (simple `export OPENAI_API_KEY="..."` style)
-    try:
-        if SECRETS_ENV.exists():
-            for line in SECRETS_ENV.read_text().splitlines():
-                m = re.match(r'\s*(?:export\s+)?OPENAI_API_KEY\s*=\s*"?([^"\s]+)"?', line)
-                if m:
-                    return m.group(1).strip()
-    except Exception:
-        pass
-    # openclaw.json fallback
-    try:
-        if OPENCLAW_JSON.exists():
-            d = json.loads(OPENCLAW_JSON.read_text())
-            v = d.get("models", {}).get("providers", {}).get("openai", {}).get("apiKey")
-            if v:
-                return v.strip()
-    except Exception:
-        pass
-    return None
-
-
-def _openai_org() -> str | None:
-    """Resolve the OpenAI organization ID (optional).
-    Order: env → secrets.env → openclaw.json. When present, gets sent as the
-    OpenAI-Organization header so every request is explicitly attributed to
-    the intended org. Absence is fine — API uses the account's default org."""
-    v = os.environ.get("OPENAI_ORG_ID") or os.environ.get("OPENAI_ORGANIZATION")
-    if v:
-        return v.strip()
-    try:
-        if SECRETS_ENV.exists():
-            for line in SECRETS_ENV.read_text().splitlines():
-                m = re.match(r'\s*(?:export\s+)?OPENAI_ORG(?:_ID|ANIZATION)?\s*=\s*"?([^"\s]+)"?', line)
-                if m:
-                    return m.group(1).strip()
-    except Exception:
-        pass
-    try:
-        if OPENCLAW_JSON.exists():
-            d = json.loads(OPENCLAW_JSON.read_text())
-            v2 = d.get("models", {}).get("providers", {}).get("openai", {}).get("organization")
-            if v2:
-                return v2.strip()
-    except Exception:
-        pass
-    return None
-
-
-def generate_cover(titles: list[str], api_key: str, out_path: Path = COVER_IMAGE) -> tuple[bool, str | None, str | None]:
-    """Generate the daily Polaroid-mood-board banner. Tries gpt-image-2 →
-    gpt-image-1 → dall-e-3. Writes to out_path. Accepts up to 6 headlines
-    (the top stories of the day) and uses them as the Polaroid labels.
-    Returns (success, model_used, error_message)."""
-    clean_titles = [t.replace('"', "").replace("'", "").strip() for t in (titles or []) if t]
-    prompt = _build_cover_prompt(clean_titles)
-    org_id = _openai_org()
-    last_err: str | None = None
-    for cfg in [COVER_PRIMARY, *COVER_FALLBACKS]:
-        body: dict = {"model": cfg["model"], "prompt": prompt,
-                      "size": cfg["size"], "n": 1}
-        if cfg["model"].startswith("dall-e"):
-            body["response_format"] = "b64_json"
-        if "quality" in cfg:
-            body["quality"] = cfg["quality"]
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        }
-        if org_id:
-            headers["OpenAI-Organization"] = org_id
-        try:
-            resp = requests.post(
-                "https://api.openai.com/v1/images/generations",
-                headers=headers,
-                json=body,
-                timeout=COVER_TIMEOUT,
-            )
-            if resp.status_code in (400, 403, 404):
-                last_err = f"{cfg['model']} {cfg['size']}: HTTP {resp.status_code}"
-                continue
-            if not resp.ok:
-                last_err = f"{cfg['model']} {cfg['size']}: HTTP {resp.status_code} {resp.text[:200]}"
-                continue
-            payload = resp.json()
-            data = payload.get("data", [])
-            if not data:
-                last_err = f"{cfg['model']}: empty data"
-                continue
-            entry = data[0]
-            b64 = entry.get("b64_json")
-            out_path.parent.mkdir(parents=True, exist_ok=True)
-            if b64:
-                out_path.write_bytes(base64.b64decode(b64))
-            elif entry.get("url"):
-                img_resp = requests.get(entry["url"], timeout=COVER_TIMEOUT)
-                img_resp.raise_for_status()
-                out_path.write_bytes(img_resp.content)
-            else:
-                last_err = f"{cfg['model']}: no b64 or url in response"
-                continue
-            label = f"{cfg['model']} {cfg['size']} {cfg.get('quality','')}".strip()
-            return True, label, None
-        except Exception as e:
-            last_err = f"{cfg['model']}: {e}"
-            continue
-    return False, None, last_err
-
-
-def cover_was_written_today() -> bool:
-    """Legacy mtime idempotency — retained for --cover-only convenience but
-    NOT used by main(). main() now decides via headline-diff (see
-    read_cover_meta / write_cover_meta). This check was too strict because it
-    skipped regen whenever the news moved within a single UTC day."""
-    if not COVER_IMAGE.exists():
-        return False
-    mtime = datetime.fromtimestamp(COVER_IMAGE.stat().st_mtime, tz=timezone.utc)
-    return mtime.date() == datetime.now(timezone.utc).date()
-
-
-def read_cover_meta() -> dict:
-    """Read cover-meta.json. Returns {} on any error (file missing, corrupt)."""
-    try:
-        if COVER_META.exists():
-            return json.loads(COVER_META.read_text())
-    except Exception:
-        pass
-    return {}
-
-
-def write_cover_meta(meta: dict) -> None:
-    """Persist cover-meta.json atomically. Never raises."""
-    try:
-        tmp = COVER_META.with_suffix(".json.tmp")
-        tmp.write_text(json.dumps(meta, indent=2, ensure_ascii=False))
-        tmp.replace(COVER_META)
-    except Exception as e:
-        print(f"[prefetch] cover-meta write failed: {e}", flush=True)
-
-
-def _cover_headline_norm(title: str) -> str:
-    """Normalize a headline for stable comparison: collapse whitespace, lowercase."""
-    return re.sub(r"\s+", " ", (title or "").strip()).lower()
-
-
-def crop_cover_to_mobile(
-    src: Path = COVER_IMAGE,
-    dst: Path = COVER_IMAGE_MOBILE,
-    target: int = 1024,
-) -> tuple[bool, str | None]:
-    """Center-crop the daily cover.png to a mobile-friendly square PNG.
-
-    Source is typically 1536×1024 (gpt-image-2). A center-square crop becomes
-    1024×1024 — works as a mobile hero in both portrait and landscape viewports;
-    the frontend can CSS-crop further if needed.
-
-    Idempotent: if dst already exists and was written on the same UTC day as src,
-    skip the re-crop. Returns (success, error_message). Never raises — a crop
-    failure should not fail the whole prefetch run.
-    """
-    if not src.exists():
-        return False, f"source {src.name} does not exist"
-    if not _PIL_AVAILABLE:
-        return False, "Pillow not installed — run `pip3.13 install --break-system-packages Pillow`"
-
-    # Idempotency: if dst is newer than src, the crop is still in sync with
-    # the current cover.png. Same-day is NOT enough — a mid-day regen of
-    # cover.png needs to trigger a fresh crop.
-    if dst.exists():
-        src_mtime = src.stat().st_mtime
-        dst_mtime = dst.stat().st_mtime
-        if dst_mtime >= src_mtime:
-            return True, "crop already in sync with cover.png"
-
-    try:
-        with Image.open(src) as img:
-            w, h = img.size
-            side = min(w, h)
-            left = (w - side) // 2
-            top = (h - side) // 2
-            cropped = img.crop((left, top, left + side, top + side))
-            if side != target:
-                cropped = cropped.resize((target, target), Image.LANCZOS)
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            # PIL default PNG — preserves source, no recompression artifacts.
-            cropped.save(dst, format="PNG", optimize=True)
-        return True, None
-    except Exception as e:
-        return False, f"crop failed: {e}"
-
-
-def slice_cover_into_tiles(
-    src: Path = COVER_IMAGE,
-    out_dir: Path = SLICES_DIR,
-) -> tuple[bool, list[str], str | None]:
-    """Slice the Polaroid cover into 6 tiles (3 cols × 2 rows).
-
-    The cover is prompted to render six Polaroids in a 3×2 grid, so a straight
-    grid crop produces one tile per Polaroid (with its white frame, slight
-    rotation, and corkboard background all included in the crop — that's a
-    feature, not a bug; reinforces the mood-board look when used as a story
-    thumbnail).
-
-    Writes `slice-{row}-{col}.png` into `out_dir`. Returns
-    (success, list_of_public_urls, error_message). Never raises."""
-    if not src.exists():
-        return False, [], f"source {src.name} does not exist"
-    if not _PIL_AVAILABLE:
-        return False, [], "Pillow not installed — run `pip3.13 install --break-system-packages Pillow`"
-
-    try:
-        out_dir.mkdir(parents=True, exist_ok=True)
-        urls: list[str] = []
-        with Image.open(src) as img:
-            W, H = img.size
-            cell_w = W // SLICE_COLS
-            cell_h = H // SLICE_ROWS
-            for row in range(SLICE_ROWS):
-                for col in range(SLICE_COLS):
-                    box = (
-                        col * cell_w,
-                        row * cell_h,
-                        (col + 1) * cell_w,
-                        (row + 1) * cell_h,
-                    )
-                    tile = img.crop(box)
-                    fname = f"slice-{row}-{col}.png"
-                    tile.save(out_dir / fname, format="PNG", optimize=True)
-                    urls.append(f"/data/slices/{fname}")
-        return True, urls, None
-    except Exception as e:
-        return False, [], f"slice failed: {e}"
-
-
-def assign_cover_to_items(
-    items: list[dict],
-    cover_url: str = "/data/cover-mobile.png",
-) -> int:
-    """Assign the daily cover banner (center-cropped on the brain) to every
-    item missing an `image_url`.
-
-    The cover-mobile.png is a 1024×1024 center crop of the wide banner — the
-    brain motif lives at the center of the banner, so the mobile crop is
-    brain-centered and scales as a square article thumbnail. Baked Polaroid
-    labels stay visible and scale with the image. Items that already have an
-    og:image / twitter:image / avatar keep those untouched.
-
-    Returns the number of items that got the cover assigned."""
-    assigned = 0
-    for item in items:
-        if item.get("image_url"):
-            continue
-        item["image_url"] = cover_url
-        item["image_source"] = "cover_fallback"
-        assigned += 1
-    return assigned
-
-
-# Kept for API stability — earlier code called assign_slices_to_items. Now a
-# thin alias. Slicing still runs (slice_cover_into_tiles populates
-# public/data/slices/ for any frontend that wants them), but the default
-# fallback is the whole cover.
-def assign_slices_to_items(items: list[dict], slice_urls: list[str]) -> int:
-    """Deprecated — use assign_cover_to_items. Retained for backward compat."""
-    return assign_cover_to_items(items)
 
 
 def tokenize(text: str) -> set:
@@ -1075,105 +737,6 @@ def main():
             flush=True,
         )
 
-    # ── Daily cover banner (ONE gpt-image-2 call, headline-diff idempotent) ───
-    # Regen whenever the top candidate's headline changes. cover-meta.json
-    # tracks the last headline we rendered for; if it matches the current top,
-    # we skip (cheap). If different, we regen. At $0.006/regen this stays
-    # ~$0.01–0.02/day even when the news moves multiple times.
-    cover_status: dict = {"generated": False, "model": None, "error": None}
-    slice_urls: list[str] = []
-    if candidates:
-        # Top 6 headlines — one per Polaroid in the mood-board banner.
-        top_titles = [c.get("title", "") for c in candidates[: SLICE_COUNT] if c.get("title")]
-        current_title = top_titles[0] if top_titles else "AI news"
-        # Headline-diff idempotency: we regen when the SET of top-6 headlines
-        # changes, not just the #1. Joining them gives a stable fingerprint.
-        current_fingerprint = " || ".join(_cover_headline_norm(t) for t in top_titles)
-
-        prev_meta = read_cover_meta()
-        prev_fingerprint = prev_meta.get("top_fingerprint", "") or \
-            _cover_headline_norm(prev_meta.get("top_headline", ""))
-        cover_png_exists = COVER_IMAGE.exists()
-
-        needs_regen = (
-            not cover_png_exists
-            or not prev_fingerprint
-            or prev_fingerprint != current_fingerprint
-        )
-
-        if not needs_regen:
-            cover_status = {"generated": False, "reused": True, "model": None,
-                            "top_headline": current_title,
-                            "top_headlines": top_titles,
-                            "error": "top-6 headlines unchanged since last regen"}
-            print(f"[prefetch] cover: top-6 headlines unchanged — skipping regen", flush=True)
-        else:
-            api_key = _openai_key()
-            if not api_key:
-                cover_status["error"] = "no OpenAI key"
-                print(f"[prefetch] cover: no OpenAI key — SVG fallback remains", flush=True)
-            else:
-                reason = "first run / no prior cover" if not prev_fingerprint else "top-6 headlines changed"
-                print(f"[prefetch] cover: regenerating ({reason}) — Polaroid mood-board "
-                      f"with {len(top_titles)} labels...", flush=True)
-                ok, model_used, err = generate_cover(top_titles, api_key)
-                if ok:
-                    cover_status.update({"generated": True, "model": model_used,
-                                         "title": current_title, "top_headline": current_title,
-                                         "top_headlines": top_titles,
-                                         "error": None})
-                    # Persist what we just rendered for — drives next-run diff
-                    write_cover_meta({
-                        "top_headline": current_title,
-                        "top_headlines": top_titles,
-                        "top_fingerprint": current_fingerprint,
-                        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-                        "model": model_used,
-                        "regen_reason": reason,
-                    })
-                    print(f"[prefetch] cover ✓ {COVER_IMAGE.name} via {model_used}", flush=True)
-                else:
-                    cover_status["error"] = err
-                    print(f"[prefetch] cover ✗ all models failed: {err}  (SVG fallback remains)",
-                          flush=True)
-
-    # ── Mobile-cropped companion (same source, zero extra API cost) ───────────
-    # Run whenever cover.png exists — idempotent by same-day mtime.
-    mobile_ok, mobile_err = crop_cover_to_mobile()
-    if mobile_ok:
-        cover_status["mobile_crop"] = "ok" if not mobile_err else mobile_err
-        if not mobile_err:
-            print(f"[prefetch] cover-mobile ✓ {COVER_IMAGE_MOBILE.name} (1024×1024 center crop)",
-                  flush=True)
-        else:
-            # "already cropped today" — fine.
-            print(f"[prefetch] cover-mobile: {mobile_err}", flush=True)
-    else:
-        cover_status["mobile_crop_error"] = mobile_err
-        print(f"[prefetch] cover-mobile ✗ {mobile_err} (desktop cover.png still available)",
-              flush=True)
-
-    # ── Slice the cover into 6 Polaroid tiles, then fall back to them for
-    #    any item still missing image_url. 100% image coverage, zero extra
-    #    API calls. Regens in lockstep with the cover — if the cover was
-    #    reused, we also reuse existing slices (still stable, still matching
-    #    the current cover.png).
-    slice_ok, slice_urls, slice_err = slice_cover_into_tiles()
-    if slice_ok:
-        cover_status["slices"] = slice_urls
-        cover_status["slice_count"] = len(slice_urls)
-        print(f"[prefetch] slices ✓ {len(slice_urls)} Polaroid tiles → public/data/slices/",
-              flush=True)
-        # Assign slice URLs to items missing image_url (deterministic hash map)
-        sliced = assign_slices_to_items(candidates, slice_urls)
-        if sliced:
-            print(f"[prefetch] slice fallback: {sliced} items got a Polaroid thumbnail",
-                  flush=True)
-    else:
-        cover_status["slice_error"] = slice_err
-        print(f"[prefetch] slices ✗ {slice_err}", flush=True)
-
-    # Compute final image_url coverage for the Final Report (after slice fallback).
     total_c = len(candidates)
     with_image = sum(1 for c in candidates if c.get("image_url"))
     image_coverage_pct = round(100.0 * with_image / total_c, 1) if total_c else 0.0
@@ -1188,10 +751,6 @@ def main():
         "enrich_stats": enrich_stats,
         "image_coverage_pct": image_coverage_pct,
         "skipped_sources": SKIPPED_SOURCES,
-        "cover_status": cover_status,
-        "cover_image_url": "/data/cover.png" if COVER_IMAGE.exists() else None,
-        "cover_image_mobile_url": "/data/cover-mobile.png" if COVER_IMAGE_MOBILE.exists() else None,
-        "cover_slice_urls": slice_urls,  # empty list if slicing failed
     }
     payload_json = json.dumps(output, indent=2)
     tmp = CANDIDATES_JSON.with_suffix(".json.tmp")
@@ -1251,28 +810,9 @@ def backfill_items():
     print(f"[backfill] wrote {ITEMS_JSON}", flush=True)
 
 
-def cover_only():
-    """Run only the mobile-crop step on the existing cover.png. For testing."""
-    if not COVER_IMAGE.exists():
-        print(f"[cover-only] {COVER_IMAGE} does not exist — nothing to crop", flush=True)
-        return
-    ok, err = crop_cover_to_mobile()
-    if ok and not err:
-        from PIL import Image as _I
-        with _I.open(COVER_IMAGE_MOBILE) as im:
-            print(f"[cover-only] ✓ wrote {COVER_IMAGE_MOBILE} ({im.size[0]}×{im.size[1]}, mode={im.mode})",
-                  flush=True)
-    elif ok and err:
-        print(f"[cover-only] no-op: {err}", flush=True)
-    else:
-        print(f"[cover-only] FAILED: {err}", flush=True)
-
-
 if __name__ == "__main__":
     import sys
     if "--backfill-items" in sys.argv:
         backfill_items()
-    elif "--cover-only" in sys.argv:
-        cover_only()
     else:
         main()
