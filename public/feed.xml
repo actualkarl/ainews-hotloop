@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ainews — Karl’s daily AI news</title>
+    <title>ainews — Karl's daily AI news</title>
     <link>https://ainews.hotloop.ai</link>
-    <description>Daily AI news, deduped + tagged for hotloop’s workflows</description>
+    <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 10 May 2026 18:10:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 18:11:00 +0000</lastBuildDate>
     <item>
       <title>NZ Optometrists Board issues AI guidelines for eyecare practice</title>
       <link>https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules</link>
-      <description>The Optometrists and Dispensing Opticians Board (ODOB) released guidelines for AI use in NZ optometry, aligning with UK approaches and pointing practitioners to the Privacy Commissioner&#x27;s resources. Local research includes Dr. James Lewis training a neural network on 27,000+ ocular images to detect ptosis, with the article flagging equity and bias risks in datasets like OCT analysis.</description>
+      <description>The Optometrists and Dispensing Opticians Board (ODOB) released guidelines for AI use in NZ optometry, aligning with UK approaches and pointing practitioners to the Privacy Commissioner&apos;s resources. Local research includes Dr. James Lewis training a neural network on 27,000+ ocular images to detect ptosis, with the article flagging equity and bias risks in datasets like OCT analysis.</description>
       <pubDate>Sun, 10 May 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules</guid>
       <category>Governance</category>
@@ -34,7 +34,7 @@
     <item>
       <title>Greg Brockman highlights GPT-Realtime-2 powering live audio translation in browser</title>
       <link>https://x.com/gdb/status/2053134883040514350</link>
-      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI&#x27;s realtime voice stack and adjacent third-party agent integrations.</description>
+      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI&apos;s realtime voice stack and adjacent third-party agent integrations.</description>
       <pubDate>Sat, 09 May 2026 12:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/gdb/status/2053134883040514350</guid>
       <category>Models, Content</category>
@@ -58,7 +58,7 @@
     <item>
       <title>NZ Public Service AI Toolkit adds policy template + AI records-management guidance</title>
       <link>https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</link>
-      <description>New Zealand&#x27;s digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE&#x27;s 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
+      <description>New Zealand&apos;s digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE&apos;s 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
       <pubDate>Sat, 09 May 2026 08:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</guid>
       <category>Governance</category>
@@ -178,7 +178,7 @@
     <item>
       <title>Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling</title>
       <link>https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</link>
-      <description>NVIDIA&#x27;s GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
+      <description>NVIDIA&apos;s GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
       <pubDate>Thu, 07 May 2026 21:20:14 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</guid>
       <category>Automation</category>
@@ -202,7 +202,7 @@
     <item>
       <title>Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission</title>
       <link>https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</link>
-      <description>US Energy Secretary Chris Wright and NVIDIA&#x27;s Ian Buck discussed AI&#x27;s role in powering America&#x27;s energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
+      <description>US Energy Secretary Chris Wright and NVIDIA&apos;s Ian Buck discussed AI&apos;s role in powering America&apos;s energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
       <pubDate>Thu, 07 May 2026 19:14:38 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</guid>
       <category>Governance</category>

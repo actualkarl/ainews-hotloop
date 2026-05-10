@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-10T18:10:16Z",
-  "next_refresh_at": "2026-05-11T01:00:00Z",
-  "schedule": "twice daily 06:00 + 13:00 NZT",
+  "generated_at": "2026-05-10T18:11:00Z",
+  "next_refresh_at": "2026-05-11T18:00:00Z",
+  "schedule": "daily 06:00 NZT",
   "newsflash": [
     "de7ee2873104457d"
   ],
-  "daily_summary": "OpenAI's Trusted Access programme expanded with GPT-5.5 and a security-tuned GPT-5.5-Cyber for verified defenders, while the company also published guardrails for running Codex agents safely in production. Anthropic spun up a joint enterprise AI services venture with Blackstone, Hellman & Friedman and Goldman Sachs to push Claude further into the Fortune 500. On the threat side, Experian reported that 40% of the 5,000 breaches it serviced in 2025 involved AI-powered tactics, and warned agentic AI is set to drive 2026's identity-theft wave.",
+  "daily_summary": "The NZ Optometrists and Dispensing Opticians Board released AI guidelines for eyecare practice, aligning with UK approaches and flagging equity and bias risks in ocular imaging datasets — the kind of domain-specific governance activity that signals AI is working its way through every regulated profession. On the research front, OncoAgent, a hackathon project published on Hugging Face, demonstrates a privacy-preserving multi-agent clinical decision support system fine-tuned on 266k oncological cases with a Zero-PHI policy for on-premises hospital deployment. Otherwise quiet across the frontier labs today.",
   "items": [
     {
       "id": "de7ee2873104457d",
@@ -41,7 +41,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.7681,
+      "trending_score": 0.7673,
       "mention_count": 1,
       "related_ids": []
     },
@@ -61,7 +61,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
-      "trending_score": 0.4455,
+      "trending_score": 0.4451,
       "mention_count": 1,
       "related_ids": []
     },
@@ -81,7 +81,7 @@
         "Content"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0453,
+      "trending_score": 0.0452,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -101,7 +101,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0417,
+      "trending_score": 0.0416,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -122,7 +122,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.115,
+      "trending_score": 0.1149,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -142,7 +142,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 0.1947,
+      "trending_score": 0.1945,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -162,7 +162,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.0698,
+      "trending_score": 0.0697,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -182,7 +182,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0981,
+      "trending_score": 0.098,
       "mention_count": 1,
       "related_ids": []
     },
@@ -202,7 +202,7 @@
         "Models"
       ],
       "image_url": "/images/logos/meta.svg",
-      "trending_score": 0.0981,
+      "trending_score": 0.098,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -223,7 +223,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0719,
+      "trending_score": 0.0718,
       "mention_count": 3,
       "related_ids": [],
       "image_source": "logo"
@@ -244,7 +244,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b.png",
-      "trending_score": 0.058,
+      "trending_score": 0.0579,
       "mention_count": 1,
       "related_ids": []
     },
@@ -264,7 +264,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers.jpg",
-      "trending_score": 0.0704,
+      "trending_score": 0.0703,
       "mention_count": 2,
       "related_ids": []
     },
@@ -283,7 +283,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "trending_score": 0.0639,
+      "trending_score": 0.0638,
       "mention_count": 2,
       "related_ids": []
     },
@@ -303,7 +303,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
-      "trending_score": 0.0635,
+      "trending_score": 0.0634,
       "mention_count": 2,
       "related_ids": []
     },
@@ -323,7 +323,7 @@
         "Automation"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
-      "trending_score": 0.0585,
+      "trending_score": 0.0584,
       "mention_count": 2,
       "related_ids": []
     },
@@ -521,7 +521,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-imagine-quality-mode/opengraph-image-efrhnk.png?82c9f5ad48211444",
-      "trending_score": 0.0088,
+      "trending_score": 0.0087,
       "mention_count": 1,
       "related_ids": []
     },
@@ -541,7 +541,7 @@
         "Automation"
       ],
       "image_url": "https://x.ai/news/grok-connectors/opengraph-image-1dejzx.png?c4a30430a6130720",
-      "trending_score": 0.0081,
+      "trending_score": 0.008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -861,7 +861,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0018,
+      "trending_score": 0.0017,
       "mention_count": 1,
       "related_ids": []
     },
