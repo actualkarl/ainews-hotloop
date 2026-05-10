@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ainews — Karl&apos;s daily AI news</title>
+    <title>ainews — Karl’s daily AI news</title>
     <link>https://ainews.hotloop.ai</link>
-    <description>Daily AI news, deduped + tagged for hotloop&apos;s workflows</description>
+    <description>Daily AI news, deduped + tagged for hotloop’s workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 09 May 2026 18:05:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 18:10:16 +0000</lastBuildDate>
+    <item>
+      <title>NZ Optometrists Board issues AI guidelines for eyecare practice</title>
+      <link>https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules</link>
+      <description>The Optometrists and Dispensing Opticians Board (ODOB) released guidelines for AI use in NZ optometry, aligning with UK approaches and pointing practitioners to the Privacy Commissioner&#x27;s resources. Local research includes Dr. James Lewis training a neural network on 27,000+ ocular images to detect ptosis, with the article flagging equity and bias risks in datasets like OCT analysis.</description>
+      <pubDate>Sun, 10 May 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>Experian: 40% of data breaches in 2025 were AI-powered</title>
+      <link>https://www.bloomberg.com/graphics/2026-ai-identity-theft-scams/</link>
+      <description>Experian reports 40% of the 5,000 data breaches it serviced in 2025 involved AI-powered tactics, and forecasts agentic AI will drive a fresh wave of identity theft and scams through 2026. The piece urges firms to harden authentication and synthetic-media detection ahead of agent-driven fraud at scale.</description>
+      <pubDate>Sun, 10 May 2026 09:00:41 +0000</pubDate>
+      <guid isPermaLink="true">https://www.bloomberg.com/graphics/2026-ai-identity-theft-scams/</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support</title>
+      <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper</link>
+      <description>OncoAgent proposes a dual-tier multi-agent architecture for oncology clinical decision support, splitting reasoning across an on-device tier for sensitive patient data and a cloud tier for general medical knowledge. The paper claims competitive accuracy on cancer-staging benchmarks while keeping protected health information off third-party model servers.</description>
+      <pubDate>Sat, 09 May 2026 18:09:28 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper</guid>
+      <category>Agents, Models</category>
+    </item>
     <item>
       <title>Greg Brockman highlights GPT-Realtime-2 powering live audio translation in browser</title>
       <link>https://x.com/gdb/status/2053134883040514350</link>
-      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI's realtime voice stack and adjacent third-party agent integrations.</description>
+      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI&#x27;s realtime voice stack and adjacent third-party agent integrations.</description>
       <pubDate>Sat, 09 May 2026 12:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/gdb/status/2053134883040514350</guid>
       <category>Models, Content</category>
@@ -34,7 +58,7 @@
     <item>
       <title>NZ Public Service AI Toolkit adds policy template + AI records-management guidance</title>
       <link>https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</link>
-      <description>New Zealand's digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE's 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
+      <description>New Zealand&#x27;s digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE&#x27;s 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
       <pubDate>Sat, 09 May 2026 08:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</guid>
       <category>Governance</category>
@@ -112,6 +136,14 @@
       <category>Content, Automation</category>
     </item>
     <item>
+      <title>OpenAI: Running Codex safely</title>
+      <link>https://openai.com/index/running-codex-safely</link>
+      <description>OpenAI documents the controls it ships for safer Codex deployments, covering sandboxed execution, approval workflows for destructive actions, network egress policies and agent-specific telemetry. The post is aimed at platform teams onboarding coding agents who need a defensible baseline for production use.</description>
+      <pubDate>Fri, 08 May 2026 12:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/running-codex-safely</guid>
+      <category>Coding, Governance</category>
+    </item>
+    <item>
       <title>OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work</title>
       <link>https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</link>
       <description>NVIDIA has deployed OpenAI’s GPT-5.5 to power Codex across its own engineering workflows, with internal teams using the AI coding agent to accelerate software development at scale. The blog details how GPT-5.5’s enhanced agentic capabilities make it the backbone of Codex’s latest production release on NVIDIA’s infrastructure.</description>
@@ -146,7 +178,7 @@
     <item>
       <title>Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling</title>
       <link>https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</link>
-      <description>NVIDIA's GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
+      <description>NVIDIA&#x27;s GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
       <pubDate>Thu, 07 May 2026 21:20:14 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</guid>
       <category>Automation</category>
@@ -170,7 +202,7 @@
     <item>
       <title>Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission</title>
       <link>https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</link>
-      <description>US Energy Secretary Chris Wright and NVIDIA's Ian Buck discussed AI's role in powering America's energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
+      <description>US Energy Secretary Chris Wright and NVIDIA&#x27;s Ian Buck discussed AI&#x27;s role in powering America&#x27;s energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
       <pubDate>Thu, 07 May 2026 19:14:38 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</guid>
       <category>Governance</category>
@@ -214,38 +246,6 @@
       <pubDate>Thu, 07 May 2026 16:02:58 +0000</pubDate>
       <guid isPermaLink="true">https://developer.nvidia.com/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/</guid>
       <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>SAM 3.1: Faster and More Accessible Real-Time Video Detection and Tracking With Multiplexing and Global Reasoning</title>
-      <link>https://ai.meta.com/blog/segment-anything-model-3/</link>
-      <description>Meta AI released SAM 3.1, an updated Segment Anything Model with faster real-time video detection and tracking, multiplexing support for concurrent streams, and global reasoning that improves accuracy on complex scene segmentation.</description>
-      <pubDate>Thu, 07 May 2026 16:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://ai.meta.com/blog/segment-anything-model-3/</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>DeepMind: AlphaEvolve Gemini-powered coding agent accelerating quantum, biotech, logistics</title>
-      <link>https://x.com/GoogleDeepMind/status/2052403306257940967</link>
-      <description>Google DeepMind highlighted AlphaEvolve, a Gemini-powered coding agent that iteratively proposes and tests algorithm changes. They credit it with measurable speedups in quantum simulation, protein workflows, and logistics scheduling.</description>
-      <pubDate>Thu, 07 May 2026 15:30:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/GoogleDeepMind/status/2052403306257940967</guid>
-      <category>Agents, Coding</category>
-    </item>
-    <item>
-      <title>Introducing Muse Spark: Scaling Towards Personal Superintelligence</title>
-      <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
-      <description>Meta AI unveiled Muse Spark, positioned as a step toward personal superintelligence — an AI system designed to act as a persistent personal agent that scales with individual context, goals, and workflows over time.</description>
-      <pubDate>Thu, 07 May 2026 14:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://ai.meta.com/blog/introducing-muse-spark-msl/</guid>
-      <category>Models, Agents</category>
-    </item>
-    <item>
-      <title>OpenAI expands ChatGPT ads pilot to New Zealand, UK, Japan, South Korea</title>
-      <link>https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets</link>
-      <description>OpenAI is broadening its ChatGPT advertising pilot to New Zealand, the UK, Japan, South Korea, and Canada/Australia, targeting Free and Go plan users with sponsored answers. It marks the first time ads will appear inside ChatGPT for NZ-based free users.</description>
-      <pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.rmndigital.com/openai-expands-chatgpt-advertising-pilot-to-major-global-markets</guid>
-      <category>Content, Governance</category>
     </item>
   </channel>
 </rss>

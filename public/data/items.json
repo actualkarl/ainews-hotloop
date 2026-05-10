@@ -1,15 +1,70 @@
 {
-  "generated_at": "2026-05-09T18:05:32Z",
-  "next_refresh_at": "2026-05-10T18:00:00Z",
-  "schedule": "daily 06:00 NZT",
+  "generated_at": "2026-05-10T18:10:16Z",
+  "next_refresh_at": "2026-05-11T01:00:00Z",
+  "schedule": "twice daily 06:00 + 13:00 NZT",
   "newsflash": [
-    "c6c586873e55a0ba",
-    "1ee4ff978d2edba9",
-    "5ee6832a4405e209"
+    "de7ee2873104457d"
   ],
-  "daily_summary": "xAI launched Grok Voice Think Fast 1.0, a speed-optimized voice model for low-latency conversations. Separately, Anthropic signed a seven-year, $1.8 billion infrastructure deal with Akamai — the largest contract in Akamai’s 27-year history — to run Claude inference across 4,300 edge locations globally. Google also made Gemini 3.1 Flash-Lite generally available at $0.25 per million input tokens, the fastest and cheapest model in the Gemini 3 series.",
-  "cover_image_url": "/data/cover.svg",
+  "daily_summary": "OpenAI's Trusted Access programme expanded with GPT-5.5 and a security-tuned GPT-5.5-Cyber for verified defenders, while the company also published guardrails for running Codex agents safely in production. Anthropic spun up a joint enterprise AI services venture with Blackstone, Hellman & Friedman and Goldman Sachs to push Claude further into the Fortune 500. On the threat side, Experian reported that 40% of the 5,000 breaches it serviced in 2025 involved AI-powered tactics, and warned agentic AI is set to drive 2026's identity-theft wave.",
   "items": [
+    {
+      "id": "de7ee2873104457d",
+      "url": "https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules",
+      "title": "NZ Optometrists Board issues AI guidelines for eyecare practice",
+      "title_translated": null,
+      "source": "nzoptics",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-10T20:00:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "The Optometrists and Dispensing Opticians Board (ODOB) released guidelines for AI use in NZ optometry, aligning with UK approaches and pointing practitioners to the Privacy Commissioner's resources. Local research includes Dr. James Lewis training a neural network on 27,000+ ocular images to detect ptosis, with the article flagging equity and bias risks in datasets like OCT analysis.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "304c39a0647e65ce",
+      "url": "https://www.bloomberg.com/graphics/2026-ai-identity-theft-scams/",
+      "title": "Experian: 40% of data breaches in 2025 were AI-powered",
+      "title_translated": null,
+      "source": "bloomberg",
+      "source_tier": 2,
+      "region": "us",
+      "published_at": "2026-05-10T09:00:41Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "Experian reports 40% of the 5,000 data breaches it serviced in 2025 involved AI-powered tactics, and forecasts agentic AI will drive a fresh wave of identity theft and scams through 2026. The piece urges firms to harden authentication and synthetic-media detection ahead of agent-driven fraud at scale.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.7681,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "720e95603af970ca",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+      "title": "OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-09T18:09:28Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "OncoAgent proposes a dual-tier multi-agent architecture for oncology clinical decision support, splitting reasoning across an on-device tier for sensitive patient data and a cloud tier for general medical knowledge. The paper claims competitive accuracy on cancer-staging benchmarks while keeping protected health information off third-party model servers.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
+      "trending_score": 0.4455,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "fd0b73cb70af6e07",
       "url": "https://x.com/gdb/status/2053134883040514350",
@@ -26,7 +81,7 @@
         "Content"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.3369,
+      "trending_score": 0.0453,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -46,7 +101,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.3099,
+      "trending_score": 0.0417,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -67,7 +122,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.8554,
+      "trending_score": 0.115,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -87,7 +142,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 1.0,
+      "trending_score": 0.1947,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -107,7 +162,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.5189,
+      "trending_score": 0.0698,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -127,7 +182,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.7298,
+      "trending_score": 0.0981,
       "mention_count": 1,
       "related_ids": []
     },
@@ -147,7 +202,7 @@
         "Models"
       ],
       "image_url": "/images/logos/meta.svg",
-      "trending_score": 0.7298,
+      "trending_score": 0.0981,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -168,7 +223,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.5345,
+      "trending_score": 0.0719,
       "mention_count": 3,
       "related_ids": [],
       "image_source": "logo"
@@ -189,7 +244,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b.png",
-      "trending_score": 0.4312,
+      "trending_score": 0.058,
       "mention_count": 1,
       "related_ids": []
     },
@@ -209,7 +264,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers.jpg",
-      "trending_score": 0.5236,
+      "trending_score": 0.0704,
       "mention_count": 2,
       "related_ids": []
     },
@@ -228,7 +283,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "trending_score": 0.4753,
+      "trending_score": 0.0639,
       "mention_count": 2,
       "related_ids": []
     },
@@ -248,7 +303,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
-      "trending_score": 0.4723,
+      "trending_score": 0.0635,
       "mention_count": 2,
       "related_ids": []
     },
@@ -268,8 +323,28 @@
         "Automation"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
-      "trending_score": 0.435,
+      "trending_score": 0.0585,
       "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "66be1220771465af",
+      "url": "https://openai.com/index/running-codex-safely",
+      "title": "OpenAI: Running Codex safely",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-08T12:30:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "OpenAI documents the controls it ships for safer Codex deployments, covering sandboxed execution, approval workflows for destructive actions, network egress policies and agent-specific telemetry. The post is aimed at platform teams onboarding coding agents who need a defensible baseline for production use.",
+      "tags": [
+        "Coding",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.0376,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -288,7 +363,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png",
-      "trending_score": 0.2685,
+      "trending_score": 0.0361,
       "mention_count": 1,
       "related_ids": []
     },
@@ -308,7 +383,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/medqa",
-      "trending_score": 0.0954,
+      "trending_score": 0.0128,
       "mention_count": 1,
       "related_ids": []
     },
@@ -328,7 +403,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0634,
+      "trending_score": 0.0085,
       "mention_count": 1,
       "related_ids": []
     },
@@ -347,7 +422,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0418,
+      "trending_score": 0.0056,
       "mention_count": 1,
       "related_ids": []
     },
@@ -366,7 +441,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72.webp",
-      "trending_score": 0.0998,
+      "trending_score": 0.0134,
       "mention_count": 2,
       "related_ids": []
     },
@@ -386,7 +461,7 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column.webp",
-      "trending_score": 0.0995,
+      "trending_score": 0.0134,
       "mention_count": 2,
       "related_ids": []
     },
@@ -406,7 +481,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0118,
+      "trending_score": 0.0016,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -426,7 +501,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2019/06/DC-skyline.jpg",
-      "trending_score": 0.0838,
+      "trending_score": 0.0113,
       "mention_count": 2,
       "related_ids": []
     },
@@ -446,7 +521,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-imagine-quality-mode/opengraph-image-efrhnk.png?82c9f5ad48211444",
-      "trending_score": 0.0651,
+      "trending_score": 0.0088,
       "mention_count": 1,
       "related_ids": []
     },
@@ -466,7 +541,7 @@
         "Automation"
       ],
       "image_url": "https://x.ai/news/grok-connectors/opengraph-image-1dejzx.png?c4a30430a6130720",
-      "trending_score": 0.0599,
+      "trending_score": 0.0081,
       "mention_count": 1,
       "related_ids": []
     },
@@ -486,7 +561,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0092,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": [],
       "image_source": null
@@ -507,7 +582,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0092,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -528,7 +603,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring.webp",
-      "trending_score": 0.0509,
+      "trending_score": 0.0068,
       "mention_count": 1,
       "related_ids": []
     },
@@ -547,7 +622,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mJxE5IB6sh4Q7kNvwFMKSJy&_nc_oc=AdqSp6KzpSTPxin3MWV-S9W2b1ekh8wk7_iQh8uGJt-xWBAsSOWMBbBn8bOQAfi74eY&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=b6TjHUgPWNF9U46GhumHMg&_nc_ss=7920f&oh=00_Af4e2Uf8JnoN7KoqC2q99fSY6OZ3w1sZw2m8Xqn1V450CA&oe=6A186A21",
-      "trending_score": 0.064,
+      "trending_score": 0.0086,
       "mention_count": 2,
       "related_ids": []
     },
@@ -567,7 +642,7 @@
         "Coding"
       ],
       "image_url": "/images/logos/deepmind.svg",
-      "trending_score": 0.0102,
+      "trending_score": 0.0014,
       "mention_count": 2,
       "related_ids": [],
       "image_source": "logo"
@@ -588,8 +663,28 @@
         "Agents"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zhaYfDvOf30Q7kNvwF7VWNX&_nc_oc=Adq0gDSHUIHA8SK5O5FOMJnK3B_eHqGBZPCCaSwy3Lk1690gLL01WSPfplO1idSvSAA&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=fJu1SXYAzRssae2fGDxo5Q&_nc_ss=7920f&oh=00_Af4PTLEKCjn46ePiXMAo6xuGoSbAn8qGjYT_7dlEgF9wkQ&oe=6A186BEC",
-      "trending_score": 0.0542,
+      "trending_score": 0.0073,
       "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "a505eac8f113b659",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "title": "OpenAI launches GPT-5.5 and GPT-5.5-Cyber under Trusted Access for cyber defenders",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T13:00:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "OpenAI extended its Trusted Access programme with GPT-5.5 and GPT-5.5-Cyber, a model variant tuned for verified security professionals doing vulnerability research and incident response. Access is gated through identity checks and use-case review to limit dual-use abuse.",
+      "tags": [
+        "Models",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.0053,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -608,10 +703,29 @@
         "Governance"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0182,
+      "trending_score": 0.0024,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
+    },
+    {
+      "id": "a6fcbba288389a6b",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title": "OpenAI introduces Trusted Contact safety feature in ChatGPT",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T11:00:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "ChatGPT users can now nominate a Trusted Contact who is alerted if the model detects serious indicators of self-harm or acute distress in a conversation. The feature is opt-in and runs alongside OpenAI's existing crisis-response workflows.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.0045,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "id": "fa002821b90d7a82",
@@ -629,7 +743,27 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0334,
+      "trending_score": 0.0045,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b19ec562c455e753",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "title": "OpenAI begins testing ads in ChatGPT",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-07T10:00:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "OpenAI is running ad trials inside ChatGPT for free-tier users, with labelled placements separated from answer content and an opt-out for paid subscribers. The pilot is the company's first formal step into ad-supported revenue alongside its consumer subscription.",
+      "tags": [
+        "Governance",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.0041,
       "mention_count": 1,
       "related_ids": []
     },
@@ -649,7 +783,7 @@
         "Agents"
       ],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a",
-      "trending_score": 0.0388,
+      "trending_score": 0.0052,
       "mention_count": 2,
       "related_ids": []
     },
@@ -669,7 +803,7 @@
         "Content"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0502,
+      "trending_score": 0.0067,
       "mention_count": 4,
       "related_ids": []
     },
@@ -688,7 +822,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0154,
+      "trending_score": 0.0021,
       "mention_count": 1,
       "related_ids": []
     },
@@ -708,7 +842,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0141,
+      "trending_score": 0.0019,
       "mention_count": 1,
       "related_ids": []
     },
@@ -727,7 +861,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.013,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": []
     },
@@ -746,7 +880,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.012,
+      "trending_score": 0.0016,
       "mention_count": 1,
       "related_ids": []
     },
@@ -765,7 +899,7 @@
         "Models"
       ],
       "image_url": "/images/logos/deepmind.svg",
-      "trending_score": 0.0134,
+      "trending_score": 0.0018,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -786,7 +920,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
-      "trending_score": 0.0089,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": []
     },
@@ -806,7 +940,7 @@
         "Coding"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0069,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -827,7 +961,7 @@
         "Coding"
       ],
       "image_url": "/images/logos/google.svg",
-      "trending_score": 0.0069,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -848,7 +982,7 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/anthropic-compute-partnership/opengraph-image-18dp32.png?8f753eead431203b",
-      "trending_score": 0.008,
+      "trending_score": 0.0011,
       "mention_count": 2,
       "related_ids": []
     },
@@ -867,7 +1001,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=0NttciPwNvUQ7kNvwGFDsB3&_nc_oc=AdqRP7EJtHGcla86zSwkqwHgtGICd95VHgC9KSQ9RGlAwE-PbN4YvJWy9SgwNsGgi8I&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RWMG_Rqr7LbL-JlvA70ukQ&_nc_ss=7920f&oh=00_Af76Evfs6Eqn3TacOg9X_QRzS71SnWmVc13v-I9njcbI9w&oe=6A1867AE",
-      "trending_score": 0.0058,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -887,7 +1021,7 @@
         "Skills"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0058,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -908,7 +1042,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0053,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -929,7 +1063,7 @@
         "Content"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0053,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -949,8 +1083,28 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/ethernet-press-spectrum-x-corp-blog-1920x1080-1.jpg",
-      "trending_score": 0.006,
+      "trending_score": 0.0008,
       "mention_count": 2,
+      "related_ids": []
+    },
+    {
+      "id": "99b1170ac1453321",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "title": "DeepMind: AlphaEvolve scales Gemini-powered coding agent across business and science",
+      "title_translated": null,
+      "source": "deepmind",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T10:43:49Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "DeepMind shared deployment results for AlphaEvolve, its Gemini-backed coding agent, claiming material wins in datacenter scheduling, infrastructure optimisation and select scientific search problems. The post positions AlphaEvolve as DeepMind's flagship example of an agent shipping outside research labs.",
+      "tags": [
+        "Agents",
+        "Coding"
+      ],
+      "image_url": null,
+      "trending_score": 0.0006,
+      "mention_count": 1,
       "related_ids": []
     },
     {
@@ -968,7 +1122,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491",
-      "trending_score": 0.0053,
+      "trending_score": 0.0007,
       "mention_count": 2,
       "related_ids": []
     },
@@ -987,7 +1141,26 @@
         "Models"
       ],
       "image_url": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png",
-      "trending_score": 0.0038,
+      "trending_score": 0.0005,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ca7758ca2a2c3977",
+      "url": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "title": "OpenAI explains how ChatGPT learns from the world while protecting privacy",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-06T08:00:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "OpenAI published a detailed walk-through of how it filters personal data out of training corpora, retains less of it post-training, and gives users controls over whether their conversations improve future models. The post is aimed at enterprise privacy reviewers and regulators.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.0005,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1007,7 +1180,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0035,
+      "trending_score": 0.0005,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1026,7 +1199,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1046,7 +1219,7 @@
         "Content"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1069,7 +1242,7 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0013
+      "trending_score": 0.0002
     },
     {
       "id": "0521b68e1d361b3d",
@@ -1086,7 +1259,7 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1108,7 +1281,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0012
+      "trending_score": 0.0002
     },
     {
       "id": "0d33f723ee92a5de",
@@ -1127,7 +1300,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0012
+      "trending_score": 0.0002
     },
     {
       "id": "51b61252710c259d",
@@ -1144,7 +1317,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=jJn1RULkZIoQ7kNvwG2mY_3&_nc_oc=AdrxnumD_gm--eaScL7yAf7mSx_afFuO3QRt5ozYbZB7NPHDZeenq-aGwKHyM7ZHeyI&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=hTjVUosH-UojlIiL8cLLSQ&_nc_ss=7920f&oh=00_Af64sfr3waKana7oMxV_mbTmvoz4STLAeTexwussrpW6bw&oe=6A18652C",
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1164,7 +1337,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg",
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1184,7 +1357,7 @@
         "Automation"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1204,7 +1377,7 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e",
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1223,7 +1396,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1246,7 +1419,7 @@
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "image_source": "logo"
     },
     {
@@ -1264,7 +1437,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1284,7 +1457,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0003,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1304,7 +1477,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1326,7 +1499,7 @@
       "image_url": "/images/logos/openai.svg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "image_source": "logo"
     },
     {
@@ -1347,7 +1520,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/Agentic-AI.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0002
+      "trending_score": 0.0
     },
     {
       "id": "97d4fb13d552b36f",
@@ -1366,7 +1539,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1387,7 +1560,7 @@
       ],
       "image_url": "/images/logos/openai.svg",
       "image_source": "logo",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1406,7 +1579,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1427,7 +1600,27 @@
       ],
       "image_url": "/images/logos/anthropic.svg",
       "image_source": "logo",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "d6e3ffe7d6770535",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "title": "Google adds event-driven Webhooks to Gemini API for long-running jobs",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-04T15:30:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "Google's Gemini API now supports event-driven webhooks, letting developers register a callback URL and stop polling for the status of long-running generation or batch jobs. The change targets agent and pipeline builders who need lower-latency completion signals at scale.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "image_url": null,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1447,7 +1640,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1467,7 +1660,7 @@
       ],
       "image_url": null,
       "image_source": "none",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1488,7 +1681,7 @@
       ],
       "image_url": "/images/logos/anthropic.svg",
       "image_source": "logo",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 4,
       "related_ids": []
     },
@@ -1513,6 +1706,26 @@
       "related_ids": []
     },
     {
+      "id": "ba2481e5e2dcdf31",
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "title": "Anthropic forms enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-04T13:00:00Z",
+      "first_seen_at": "2026-05-10T18:10:16Z",
+      "summary": "Anthropic announced a joint venture with Blackstone, Hellman & Friedman and Goldman Sachs to stand up an enterprise AI services company. The vehicle pairs Anthropic's models with the financial firms' enterprise distribution to push Claude deeper into Fortune 500 deployments.",
+      "tags": [
+        "Governance",
+        "Agents"
+      ],
+      "image_url": null,
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "b36c5a725ff9280e",
       "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-deployment-company-tpg-softbank",
       "title": "OpenAI launches $10B \"Deployment Company\" JV with TPG and SoftBank to industrialise AI rollouts",
@@ -1529,7 +1742,7 @@
       ],
       "image_url": "/images/logos/openai.svg",
       "image_source": "logo",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 3,
       "related_ids": []
     },
@@ -1549,7 +1762,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/eevee-nv-blog-1280x680-1.jpg",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1569,7 +1782,7 @@
         "Skills"
       ],
       "image_url": "https://x.ai/news/el-salvador-partnership/opengraph-image-a4id79.png?af3ffb6a20040211",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -3156,68 +3369,6 @@
       "image_url": "/data/cover-mobile.png",
       "trending_score": 0.0,
       "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "64c8a51aa02d249c",
-      "url": "https://www.thepost.co.nz/nz-news/360990602/warning-too-dangerous-ai-knocking-new-zealands-door",
-      "title": "NZ media flags Anthropic Claude Mythos Preview as \"too dangerous\", urges domestic guardrails",
-      "title_translated": null,
-      "source": "thepost",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-26T05:00:00Z",
-      "first_seen_at": "2026-04-26T18:09:39.418644Z",
-      "summary": "The Post frames Anthropic's Claude Mythos Preview as a high-risk frontier release reaching New Zealand without local regulatory infrastructure. References the central-bank monitoring posture established last week and pushes for NZ-side governance rather than relying on US/AU regulators.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "image_url": "/images/logos/anthropic.svg",
-      "image_source": "logo",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "2db00192268bb68c",
-      "url": "https://www.thepost.co.nz/politics/360987049/how-are-mps-using-ai-party-using-it-most-mp-his-own-ai-server-and-one-using-grok-question-time",
-      "title": "NZ MPs and AI in Parliament: which party uses it most, an MP running his own AI server, and Grok in Question Time",
-      "title_translated": null,
-      "source": "thepost",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-26T03:00:00Z",
-      "first_seen_at": "2026-04-26T18:09:39.418644Z",
-      "summary": "The Post investigates how New Zealand MPs use AI tools day-to-day in Parliament. The piece names the party with the highest AI adoption, identifies an MP self-hosting an LLM, and documents Grok being used to formulate questions during Question Time. First substantive look at AI usage inside the Beehive.",
-      "tags": [
-        "Governance",
-        "Automation"
-      ],
-      "image_url": "/images/logos/xai.svg",
-      "image_source": "logo",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "717a1241cb1bf6e7",
-      "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
-      "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
-      "title_translated": null,
-      "source": "nvidia-genai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-26T00:00:00Z",
-      "first_seen_at": "2026-05-01T18:09:22.052015Z",
-      "summary": "At Hannover Messe 2026, NVIDIA and industrial partners demonstrated AI-driven manufacturing including robotic assembly, predictive maintenance, and digital twin workflows powered by the Omniverse platform.",
-      "tags": [
-        "Automation",
-        "Agents"
-      ],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/hmi-1920x1080-1.jpg",
-      "trending_score": 0.0,
-      "mention_count": 1,
       "related_ids": []
     }
   ]
