@@ -2,11 +2,20 @@
 
 Daily AI news aggregator. Goal: **fully autonomous daily updates** — research → publish, no human in the loop. Anything that requires Karl to click or type during a routine run is a regression.
 
-## Pipeline
+## Pipeline (twice daily NZ)
 
-1. **`ainews-prefetch` (cron `30 5 * * *` NZ)** — runs `prefetch.py`. Pure Python, no permission surface. Fetches RSS + web sources, dedupes, enriches og:images. Writes `prefetch-candidates.json` and pushes the same payload to Cloudflare KV. **No daily cover-image generation** (removed 2026-05-10 — was a flaky maintenance liability; hero now anchors to the top story's og:image, falls through to a shared SVG).
+The routine runs **twice a day** to keep the site fresh through the US news cycle. Both runs are identical pipelines (full re-rank + summary regen + Telegram + commit + deploy), distinguished only by a filename suffix on the brief.
 
-2. **`ainews-routine` (cron `0 6 * * *` NZ)** — Claude Code session. Reads candidates from KV, classifies/summarises/picks newsflash, writes `items.json` + `tweets.json`, refreshes wrangler OAuth (STEP 10), deploys, git push, Telegram ping (STEP 13). The SKILL body lives at `~/Documents/Claude/Scheduled/ainews-routine/SKILL.md`, mirrored from `routine.md` (in Creator Workspace).
+1. **Morning** — `ainews-prefetch` `30 5 * * *` + `ainews-routine` `0 6 * * *` NZ.
+2. **Afternoon** — `ainews-prefetch-pm` `30 12 * * *` + `ainews-routine-pm` `0 13 * * *` NZ.
+
+Run window resolves at STEP 1.2.5: `RUN_WINDOW=am` if NZ-hour < 12 else `pm`; `FILENAME_SUFFIX=""` (am) or `"-pm"` (pm). Brief writes to `Routines/ainews/entries/YYYY-MM-DD{SUFFIX}.md` and `Nova Inbox/AINEWS_brief_YYYY-MM-DD{SUFFIX}.md`. Telegram label: "Morning brief" vs "Afternoon update — N new items since morning". `state.last_run_window` records which one fired last.
+
+`prefetch.py` is pure Python, no permission surface — fetches RSS + web sources, dedupes, enriches og:images, assigns logo fallbacks for items without an og:image. Writes `prefetch-candidates.json` and pushes the same payload to Cloudflare KV.
+
+The Claude Code session (morning or afternoon) reads candidates from KV, classifies/summarises/picks newsflash, writes `items.json` + `tweets.json`, refreshes wrangler OAuth (STEP 10), deploys, git push, sends Telegram (STEP 13). Each SKILL.md lives at `~/Documents/Claude/Scheduled/ainews-{routine,routine-pm,prefetch,prefetch-pm}/SKILL.md`. Source of truth for the prompt is `routine.md` in Creator Workspace.
+
+**Token-burn target: Sonnet 4.6 for both runs.** Set in Claude Desktop's global model. Opus 4.7 was overkill for editorial work and ~3× more expensive.
 
 ## Hero + image fallback
 
