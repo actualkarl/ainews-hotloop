@@ -118,12 +118,12 @@ function App() {
 
   // Walks the trending list so the hero banner anchors to a story actually on
   // the page; HeroBanner falls through to the SVG when nothing has an image.
-  const heroImageUrl = React.useMemo(() => {
+  const heroItem = React.useMemo(() => {
     const ranked = [...items].sort((a, b) => {
       if (b.importance !== a.importance) return b.importance - a.importance;
       return a.timeAgoMins - b.timeAgoMins;
     });
-    return ranked.find(i => i.image_url)?.image_url || null;
+    return ranked.find(i => i.image_url) || ranked[0] || null;
   }, [items]);
 
   const activeFilterCount =
@@ -184,7 +184,7 @@ function App() {
       <XFeedTicker tweets={tweets} dismissed={xfeedDismissed} onDismiss={() => setXfeedDismissed(true)} />
       <HeroBanner
         generatedAt={generatedAt}
-        heroImageUrl={heroImageUrl}
+        heroItem={heroItem}
       />
       <main className="main">
         <div className="main__inner">
@@ -510,25 +510,34 @@ function SegmentedControl({ value, options, onChange }) {
 
 const HERO_FALLBACK_SRC = '/images/hero-fallback.svg';
 
-function HeroBanner({ generatedAt, heroImageUrl }) {
+function HeroBanner({ generatedAt, heroItem }) {
   const d = generatedAt || new Date();
   const dateStr = d.toLocaleDateString('en-NZ', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-  const src = heroImageUrl || HERO_FALLBACK_SRC;
-  return (
-    <div className="hero-banner">
+  const src = (heroItem && heroItem.image_url) || HERO_FALLBACK_SRC;
+  const headline = heroItem && heroItem.title ? heroItem.title : "Today's Intelligence Brief";
+  const href = heroItem && heroItem.url ? heroItem.url : null;
+
+  const inner = (
+    <>
+      <div className="hero-banner__bar">
+        <span className="hero-banner__eyebrow">Top story · {dateStr}</span>
+        <h2 className="hero-banner__title">{headline}</h2>
+      </div>
       <img
         src={src}
         alt=""
         className="hero-banner__img"
         onError={e => { e.currentTarget.src = HERO_FALLBACK_SRC; }}
       />
-      <div className="hero-banner__overlay" aria-hidden="true" />
-      <div className="hero-banner__text">
-        <span className="hero-banner__date">{dateStr}</span>
-        <h2 className="hero-banner__title">AI News — Today's Intelligence Brief</h2>
-        <p className="hero-banner__sub">The signals that matter, sourced and summarised.</p>
-      </div>
-    </div>
+    </>
+  );
+
+  return href ? (
+    <a className="hero-banner hero-banner--link" href={href} target="_blank" rel="noreferrer">
+      {inner}
+    </a>
+  ) : (
+    <div className="hero-banner">{inner}</div>
   );
 }
 

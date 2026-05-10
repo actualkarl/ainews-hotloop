@@ -1084,59 +1084,60 @@ button { font-family: inherit; }
 /* ---------- Hero banner ---------- */
 .hero-banner {
   position: relative;
+  display: block;
   height: 350px;
   overflow: hidden;
   flex-shrink: 0;
+  background: #0a0404;
+  text-decoration: none;
+  color: inherit;
 }
+.hero-banner--link { cursor: pointer; }
+.hero-banner--link:hover .hero-banner__img { transform: scale(1.02); filter: brightness(0.92) contrast(1.05); }
 .hero-banner__img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.85) contrast(1.05);
+  filter: brightness(0.78) contrast(1.05);
+  transition: transform var(--duration-base, 250ms) var(--easing-default, ease), filter var(--duration-base, 250ms) var(--easing-default, ease);
 }
-.hero-banner__overlay {
+.hero-banner__bar {
   position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, transparent 30%, #0a0404 100%);
-  pointer-events: none;
-}
-.hero-banner__text {
-  position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
-  padding: 0 32px 28px;
-  max-width: 1280px;
-  margin: 0 auto;
+  z-index: 2;
+  padding: 18px 32px 22px;
+  background: linear-gradient(to bottom, rgba(10, 4, 4, 0.92) 0%, rgba(10, 4, 4, 0.85) 60%, rgba(10, 4, 4, 0) 100%);
   display: flex;
   flex-direction: column;
   gap: 6px;
+  max-width: 100%;
 }
-.hero-banner__date {
+.hero-banner__eyebrow {
   font-size: var(--text-xs);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-semibold, 600);
   letter-spacing: var(--tracking-widest);
   text-transform: uppercase;
-  color: #e8a0a0;
+  color: #f0c8c8;
+  opacity: 0.95;
 }
 .hero-banner__title {
-  font-size: 26px;
-  font-weight: var(--weight-medium);
+  font-size: 28px;
+  font-weight: var(--weight-semibold, 600);
   letter-spacing: -0.02em;
   line-height: 1.2;
-  color: #f5f0ed;
+  color: #fbf7f5;
   margin: 0;
-}
-.hero-banner__sub {
-  font-size: var(--text-sm);
-  color: #a89b8c;
-  margin: 0;
+  text-wrap: balance;
+  max-width: 1100px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 @media (max-width: 768px) {
-  .hero-banner { height: 280px; }
-  .hero-banner__text { padding: 0 16px 20px; }
+  .hero-banner { height: 260px; }
+  .hero-banner__bar { padding: 14px 16px 18px; }
   .hero-banner__title { font-size: 20px; }
 }
 
