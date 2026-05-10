@@ -25,7 +25,7 @@
         "Models",
         "Content"
       ],
-      "image_url": "/images/logos/xai.svg",
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.3369,
       "mention_count": 1,
       "related_ids": [],
@@ -45,7 +45,7 @@
       "tags": [
         "Models"
       ],
-      "image_url": "/images/logos/xai.svg",
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.3099,
       "mention_count": 1,
       "related_ids": [],
@@ -405,7 +405,7 @@
         "Models",
         "Governance"
       ],
-      "image_url": "/images/logos/xai.svg",
+      "image_url": "/images/logos/openai.svg",
       "trending_score": 0.0118,
       "mention_count": 1,
       "related_ids": [],
@@ -485,11 +485,11 @@
         "Agents",
         "Coding"
       ],
-      "image_url": "/images/logos/xai.svg",
+      "image_url": null,
       "trending_score": 0.0092,
       "mention_count": 1,
       "related_ids": [],
-      "image_source": "logo"
+      "image_source": null
     },
     {
       "id": "dcadb723e7889c43",
@@ -566,7 +566,7 @@
         "Agents",
         "Coding"
       ],
-      "image_url": "/images/logos/xai.svg",
+      "image_url": "/images/logos/deepmind.svg",
       "trending_score": 0.0102,
       "mention_count": 2,
       "related_ids": [],
@@ -1506,8 +1506,8 @@
       "tags": [
         "Models"
       ],
-      "image_url": "/images/logos/xai.svg",
-      "image_source": "logo",
+      "image_url": null,
+      "image_source": null,
       "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []

@@ -409,10 +409,12 @@ DOMAIN_TO_LOGO = {
 }
 
 # Aggregator domains forward to keyword-based matching against the article
-# title + summary, since the source domain is generic.
+# title + summary, since the source domain is generic. Twitter/X counts: a
+# tweet from @sama on x.com is OpenAI content, not "xAI content".
 AGGREGATOR_DOMAINS = {
     "techmeme.com", "news.ycombinator.com", "ycombinator.com",
     "reddit.com", "old.reddit.com",
+    "x.com", "twitter.com",
 }
 
 # Keyword → logo slug. Compiled once. Word-bounded, case-insensitive.
