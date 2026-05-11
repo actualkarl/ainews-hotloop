@@ -6,7 +6,23 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 11 May 2026 18:09:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 18:11:20 +0000</lastBuildDate>
+    <item>
+      <title>RNZ: NZ&#x27;s AI-in-government framework called &#x27;Pollyanna-ish&#x27; as AI illiteracy risk grows</title>
+      <link>https://www.rnz.co.nz/news/political/594827/polyanna-policy-is-nz-s-framework-for-ai-use-in-government-overly-optimistic</link>
+      <description>RNZ reports critics calling NZ&#x27;s public-sector AI framework overly optimistic, with warnings that widespread &#x27;AI illiteracy&#x27; across agencies could undercut productivity gains and create governance gaps. The piece frames the Public Service AI Framework as principles-heavy but light on accountability and capability uplift.</description>
+      <pubDate>Mon, 11 May 2026 22:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.rnz.co.nz/news/political/594827/polyanna-policy-is-nz-s-framework-for-ai-use-in-government-overly-optimistic</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>RBNZ warns concentration in frontier AI providers is a systemic risk to NZ financial system</title>
+      <link>https://newswire.co.nz/2026/05/reserve-bank-warns-concentrated-ai-providers-and-frontier-models-like-anthropics-mythos-could-test-new-zealands-financial-system</link>
+      <description>The Reserve Bank of New Zealand flagged dependency on a small number of frontier AI providers — naming Anthropic&#x27;s Mythos among the systemically important models — as a stability risk for NZ banks and insurers. The warning escalates the RBNZ&#x27;s earlier cyber-risk note and pushes regulated institutions to map third-party AI exposure.</description>
+      <pubDate>Mon, 11 May 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://newswire.co.nz/2026/05/reserve-bank-warns-concentrated-ai-providers-and-frontier-models-like-anthropics-mythos-could-test-new-zealands-financial-system</guid>
+      <category>Governance</category>
+    </item>
     <item>
       <title>How enterprises are scaling AI</title>
       <link>https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai</link>
@@ -14,6 +30,22 @@
       <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai</guid>
       <category>Automation, Agents</category>
+    </item>
+    <item>
+      <title>OpenAI launches DeployCo to embed frontier AI in enterprises</title>
+      <link>https://openai.com/index/openai-launches-the-deployment-company</link>
+      <description>OpenAI launched the OpenAI Deployment Company (DeployCo), a majority-owned standalone unit with $4B+ in committed funding from 19 investors led by TPG, designed to embed Forward Deployed Engineers in enterprises. To staff it on day one, OpenAI agreed to acquire applied-AI consultancy Tomoro, adding ~150 specialists. The unit echoes Palantir&#x27;s services playbook and targets the integration gap between frontier models and operational workflows.</description>
+      <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://openai.com/index/openai-launches-the-deployment-company</guid>
+      <category>Automation, Agents</category>
+    </item>
+    <item>
+      <title>AI-powered Google Finance rolls out across Europe</title>
+      <link>https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/</link>
+      <description>Google is expanding its AI-rebuilt Finance product across Europe with full local-language support. The redesign adds conversational research, advanced charting, and broader market coverage, pushing Gemini-backed financial information into a region where Google&#x27;s previous Finance UI lagged competitors.</description>
+      <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/</guid>
+      <category>Content, Models</category>
     </item>
     <item>
       <title>&#x27;Your Career Starts at the Beginning of the AI Revolution,&#x27; NVIDIA CEO Tells Graduates</title>
@@ -214,38 +246,6 @@
       <pubDate>Thu, 07 May 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/gdb/status/2052507037674737812</guid>
       <category>Models, Governance</category>
-    </item>
-    <item>
-      <title>Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission</title>
-      <link>https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</link>
-      <description>US Energy Secretary Chris Wright and NVIDIA&#x27;s Ian Buck discussed AI&#x27;s role in powering America&#x27;s energy future at the SCSP AI+ Expo, arguing that AI-driven demand requires and will accelerate new energy infrastructure investment.</description>
-      <pubDate>Thu, 07 May 2026 19:14:38 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Grok Imagine Quality Mode API</title>
-      <link>https://x.ai/news/grok-imagine-quality-mode</link>
-      <description>xAI exposed Grok Imagine Quality Mode through the API, giving developers programmatic access to the higher-fidelity image generation tier previously limited to the Grok app. Pricing is per-image at the higher quality cost band.</description>
-      <pubDate>Thu, 07 May 2026 19:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-imagine-quality-mode</guid>
-      <category>Content, Models</category>
-    </item>
-    <item>
-      <title>Connectors now on Grok Web</title>
-      <link>https://x.ai/news/grok-connectors</link>
-      <description>xAI rolled connectors out to Grok on the web, letting users link Gmail, Google Drive, GitHub, and other services so Grok can search and act across them. Mirrors agent-style integrations already shipped by ChatGPT and Claude.</description>
-      <pubDate>Thu, 07 May 2026 18:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-connectors</guid>
-      <category>Agents, Automation</category>
-    </item>
-    <item>
-      <title>Andrew Ng + CopilotKit: course on building UI-generating AI agents</title>
-      <link>https://x.com/AndrewYNg/status/2052422157310083493</link>
-      <description>Andrew Ng announced a DeepLearning.AI short course with CopilotKit on building agents that generate dynamic UIs — charts, forms, whiteboards — directly inside chat. The course covers component-based, compositional, and third-party app integration patterns.</description>
-      <pubDate>Thu, 07 May 2026 17:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/AndrewYNg/status/2052422157310083493</guid>
-      <category>Agents, Coding</category>
     </item>
   </channel>
 </rss>

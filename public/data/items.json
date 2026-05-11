@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-05-11T18:09:27Z",
+  "generated_at": "2026-05-11T18:11:20.274878Z",
   "next_refresh_at": "2026-05-12T18:00:00Z",
-  "schedule": "daily 06:00 NZT",
+  "schedule": "daily 06:00 + 13:00 NZT",
   "newsflash": [
-    "2a6999bc8c1adf45"
+    "26573bd4b9533896",
+    "40b6190fd80408cd",
+    "2a6999bc8c1adf45",
+    "e7455462824dd896",
+    "0cfd73d98838bfc1"
   ],
-  "daily_summary": "OpenAI officially launched its Deployment Company today — a $10 billion joint venture with TPG, Brookfield, and Bain Capital designed to embed OpenAI engineers directly inside private-equity portfolio companies, marking the lab's most aggressive enterprise push to date. Separately, OpenAI published a practical framework for how enterprises move from early AI experiments to compounding business impact, covering governance, workflow design, and quality at scale. NVIDIA CEO Jensen Huang, speaking at Carnegie Mellon University's commencement, told graduates they are entering the world at 'an extraordinary moment' as a new AI industry is born — a signal of how firmly frontier AI has entered mainstream institutional narratives.",
+  "daily_summary": "OpenAI launched the OpenAI Deployment Company (DeployCo) — a $4B-backed enterprise unit staffed by Forward Deployed Engineers and bootstrapped by an acquisition of Tomoro's ~150 applied-AI specialists, mirroring Palantir's services-as-revenue playbook for enterprise-AI integration. Google expanded its AI-rebuilt Finance product across Europe with full local-language support. In New Zealand, the Reserve Bank escalated its AI commentary, warning that concentration among frontier providers (Anthropic's Mythos among them) is now a systemic risk, while RNZ reports critics calling the public-sector AI framework 'Pollyanna-ish.'",
   "items": [
+    {
+      "id": "26573bd4b9533896",
+      "url": "https://www.rnz.co.nz/news/political/594827/polyanna-policy-is-nz-s-framework-for-ai-use-in-government-overly-optimistic",
+      "title": "RNZ: NZ's AI-in-government framework called 'Pollyanna-ish' as AI illiteracy risk grows",
+      "title_translated": null,
+      "source": "rnz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-11T22:00:00Z",
+      "first_seen_at": "2026-05-11T18:11:20.274878Z",
+      "summary": "RNZ reports critics calling NZ's public-sector AI framework overly optimistic, with warnings that widespread 'AI illiteracy' across agencies could undercut productivity gains and create governance gaps. The piece frames the Public Service AI Framework as principles-heavy but light on accountability and capability uplift.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "40b6190fd80408cd",
+      "url": "https://newswire.co.nz/2026/05/reserve-bank-warns-concentrated-ai-providers-and-frontier-models-like-anthropics-mythos-could-test-new-zealands-financial-system",
+      "title": "RBNZ warns concentration in frontier AI providers is a systemic risk to NZ financial system",
+      "title_translated": null,
+      "source": "newswire-nz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-11T20:00:00Z",
+      "first_seen_at": "2026-05-11T18:11:20.274878Z",
+      "summary": "The Reserve Bank of New Zealand flagged dependency on a small number of frontier AI providers — naming Anthropic's Mythos among the systemically important models — as a stability risk for NZ banks and insurers. The warning escalates the RBNZ's earlier cyber-risk note and pushes regulated institutions to map third-party AI exposure.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "2a6999bc8c1adf45",
       "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
@@ -28,6 +70,46 @@
       "related_ids": []
     },
     {
+      "id": "e7455462824dd896",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "title": "OpenAI launches DeployCo to embed frontier AI in enterprises",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-11T06:00:00Z",
+      "first_seen_at": "2026-05-11T18:11:20.274878Z",
+      "summary": "OpenAI launched the OpenAI Deployment Company (DeployCo), a majority-owned standalone unit with $4B+ in committed funding from 19 investors led by TPG, designed to embed Forward Deployed Engineers in enterprises. To staff it on day one, OpenAI agreed to acquire applied-AI consultancy Tomoro, adding ~150 specialists. The unit echoes Palantir's services playbook and targets the integration gap between frontier models and operational workflows.",
+      "tags": [
+        "Automation",
+        "Agents"
+      ],
+      "image_url": "/images/logos/openai.svg",
+      "trending_score": 1.0,
+      "mention_count": 3,
+      "related_ids": []
+    },
+    {
+      "id": "0cfd73d98838bfc1",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "title": "AI-powered Google Finance rolls out across Europe",
+      "title_translated": null,
+      "source": "google-ai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-11T06:00:00Z",
+      "first_seen_at": "2026-05-11T18:11:20.274878Z",
+      "summary": "Google is expanding its AI-rebuilt Finance product across Europe with full local-language support. The redesign adds conversational research, advanced charting, and broader market coverage, pushing Gemini-backed financial information into a region where Google's previous Finance UI lagged competitors.",
+      "tags": [
+        "Content",
+        "Models"
+      ],
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "ff802092810fe8fa",
       "url": "https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/",
       "title": "'Your Career Starts at the Beginning of the AI Revolution,' NVIDIA CEO Tells Graduates",
@@ -42,7 +124,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/26-cmu-commencement-20-KL_-13_16x9-scaled.jpg",
-      "trending_score": 0.6151,
+      "trending_score": 0.6135,
       "mention_count": 1,
       "related_ids": []
     },
@@ -61,7 +143,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.26,
+      "trending_score": 0.2594,
       "mention_count": 1,
       "related_ids": []
     },
@@ -80,7 +162,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1041,
+      "trending_score": 0.1038,
       "mention_count": 1,
       "related_ids": []
     },
@@ -100,7 +182,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
-      "trending_score": 0.0604,
+      "trending_score": 0.0602,
       "mention_count": 1,
       "related_ids": []
     },
@@ -161,7 +243,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0156,
+      "trending_score": 0.0155,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -181,7 +263,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 0.0264,
+      "trending_score": 0.0263,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -201,7 +283,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.0095,
+      "trending_score": 0.0094,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -283,7 +365,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b.png",
-      "trending_score": 0.0079,
+      "trending_score": 0.0078,
       "mention_count": 1,
       "related_ids": []
     },
@@ -322,7 +404,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "trending_score": 0.0087,
+      "trending_score": 0.0086,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1239,7 +1321,7 @@
       ],
       "image_url": null,
       "trending_score": 0.0,
-      "mention_count": 1,
+      "mention_count": 2,
       "related_ids": []
     },
     {
