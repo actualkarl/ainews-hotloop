@@ -1,12 +1,51 @@
 {
-  "generated_at": "2026-05-10T18:11:00Z",
-  "next_refresh_at": "2026-05-11T18:00:00Z",
+  "generated_at": "2026-05-11T18:09:27Z",
+  "next_refresh_at": "2026-05-12T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "newsflash": [
-    "de7ee2873104457d"
+    "2a6999bc8c1adf45"
   ],
-  "daily_summary": "The NZ Optometrists and Dispensing Opticians Board released AI guidelines for eyecare practice, aligning with UK approaches and flagging equity and bias risks in ocular imaging datasets — the kind of domain-specific governance activity that signals AI is working its way through every regulated profession. On the research front, OncoAgent, a hackathon project published on Hugging Face, demonstrates a privacy-preserving multi-agent clinical decision support system fine-tuned on 266k oncological cases with a Zero-PHI policy for on-premises hospital deployment. Otherwise quiet across the frontier labs today.",
+  "daily_summary": "OpenAI officially launched its Deployment Company today — a $10 billion joint venture with TPG, Brookfield, and Bain Capital designed to embed OpenAI engineers directly inside private-equity portfolio companies, marking the lab's most aggressive enterprise push to date. Separately, OpenAI published a practical framework for how enterprises move from early AI experiments to compounding business impact, covering governance, workflow design, and quality at scale. NVIDIA CEO Jensen Huang, speaking at Carnegie Mellon University's commencement, told graduates they are entering the world at 'an extraordinary moment' as a new AI industry is born — a signal of how firmly frontier AI has entered mainstream institutional narratives.",
   "items": [
+    {
+      "id": "2a6999bc8c1adf45",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "How enterprises are scaling AI",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-11T10:00:00Z",
+      "first_seen_at": "2026-05-11T18:09:27Z",
+      "summary": "OpenAI's new enterprise resource maps the path from early AI experiments to compounding business impact, covering trust-building, governance frameworks, workflow design, and quality-at-scale. The guide draws on patterns from OpenAI's largest enterprise deployments and is aimed at organisations moving from pilot to production. It covers how to select the right model for a task, manage responsible deployment, and measure ROI across business functions.",
+      "tags": [
+        "Automation",
+        "Agents"
+      ],
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/33wbWUELa8LqPj0SZWOxeL/86a395af69191bb11da7342b92a803d9/How_enterprises_are_scaling_AI.png?w=1600&h=900&fit=fill",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ff802092810fe8fa",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/",
+      "title": "'Your Career Starts at the Beginning of the AI Revolution,' NVIDIA CEO Tells Graduates",
+      "title_translated": null,
+      "source": "nvidia",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-10T22:00:50Z",
+      "first_seen_at": "2026-05-11T18:09:27Z",
+      "summary": "NVIDIA CEO Jensen Huang delivered the keynote at Carnegie Mellon University's 128th commencement, telling graduates they are entering the world at 'an extraordinary moment' as a new AI industry is born. Huang positioned the current era — a new era of science and discovery — as generational, urging new engineers and scientists to embrace their role in building it. The speech signals NVIDIA's continued push to frame AI infrastructure as a foundational societal layer, not just a technology cycle.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/26-cmu-commencement-20-KL_-13_16x9-scaled.jpg",
+      "trending_score": 0.6151,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "de7ee2873104457d",
       "url": "https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules",
@@ -22,7 +61,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.26,
       "mention_count": 1,
       "related_ids": []
     },
@@ -41,7 +80,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.7673,
+      "trending_score": 0.1041,
       "mention_count": 1,
       "related_ids": []
     },
@@ -61,7 +100,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
-      "trending_score": 0.4451,
+      "trending_score": 0.0604,
       "mention_count": 1,
       "related_ids": []
     },
@@ -81,7 +120,7 @@
         "Content"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0452,
+      "trending_score": 0.0061,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -101,7 +140,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0416,
+      "trending_score": 0.0056,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -122,7 +161,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.1149,
+      "trending_score": 0.0156,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -142,7 +181,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 0.1945,
+      "trending_score": 0.0264,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -162,7 +201,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.0697,
+      "trending_score": 0.0095,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -182,7 +221,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.098,
+      "trending_score": 0.0133,
       "mention_count": 1,
       "related_ids": []
     },
@@ -202,7 +241,7 @@
         "Models"
       ],
       "image_url": "/images/logos/meta.svg",
-      "trending_score": 0.098,
+      "trending_score": 0.0133,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -223,7 +262,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0718,
+      "trending_score": 0.0097,
       "mention_count": 3,
       "related_ids": [],
       "image_source": "logo"
@@ -244,7 +283,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b.png",
-      "trending_score": 0.0579,
+      "trending_score": 0.0079,
       "mention_count": 1,
       "related_ids": []
     },
@@ -264,7 +303,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers.jpg",
-      "trending_score": 0.0703,
+      "trending_score": 0.0095,
       "mention_count": 2,
       "related_ids": []
     },
@@ -283,7 +322,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "trending_score": 0.0638,
+      "trending_score": 0.0087,
       "mention_count": 2,
       "related_ids": []
     },
@@ -303,7 +342,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
-      "trending_score": 0.0634,
+      "trending_score": 0.0086,
       "mention_count": 2,
       "related_ids": []
     },
@@ -323,7 +362,7 @@
         "Automation"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
-      "trending_score": 0.0584,
+      "trending_score": 0.0079,
       "mention_count": 2,
       "related_ids": []
     },
@@ -343,7 +382,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0376,
+      "trending_score": 0.0051,
       "mention_count": 1,
       "related_ids": []
     },
@@ -363,7 +402,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png",
-      "trending_score": 0.0361,
+      "trending_score": 0.0049,
       "mention_count": 1,
       "related_ids": []
     },
@@ -383,7 +422,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/medqa",
-      "trending_score": 0.0128,
+      "trending_score": 0.0017,
       "mention_count": 1,
       "related_ids": []
     },
@@ -403,7 +442,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0085,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": []
     },
@@ -422,7 +461,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0056,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -441,7 +480,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72.webp",
-      "trending_score": 0.0134,
+      "trending_score": 0.0018,
       "mention_count": 2,
       "related_ids": []
     },
@@ -461,7 +500,7 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column.webp",
-      "trending_score": 0.0134,
+      "trending_score": 0.0018,
       "mention_count": 2,
       "related_ids": []
     },
@@ -481,7 +520,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0016,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -501,7 +540,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2019/06/DC-skyline.jpg",
-      "trending_score": 0.0113,
+      "trending_score": 0.0015,
       "mention_count": 2,
       "related_ids": []
     },
@@ -521,7 +560,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-imagine-quality-mode/opengraph-image-efrhnk.png?82c9f5ad48211444",
-      "trending_score": 0.0087,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": []
     },
@@ -541,7 +580,7 @@
         "Automation"
       ],
       "image_url": "https://x.ai/news/grok-connectors/opengraph-image-1dejzx.png?c4a30430a6130720",
-      "trending_score": 0.008,
+      "trending_score": 0.0011,
       "mention_count": 1,
       "related_ids": []
     },
@@ -561,7 +600,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": null
@@ -582,7 +621,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -603,7 +642,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring.webp",
-      "trending_score": 0.0068,
+      "trending_score": 0.0009,
       "mention_count": 1,
       "related_ids": []
     },
@@ -622,7 +661,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mJxE5IB6sh4Q7kNvwFMKSJy&_nc_oc=AdqSp6KzpSTPxin3MWV-S9W2b1ekh8wk7_iQh8uGJt-xWBAsSOWMBbBn8bOQAfi74eY&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=b6TjHUgPWNF9U46GhumHMg&_nc_ss=7920f&oh=00_Af4e2Uf8JnoN7KoqC2q99fSY6OZ3w1sZw2m8Xqn1V450CA&oe=6A186A21",
-      "trending_score": 0.0086,
+      "trending_score": 0.0012,
       "mention_count": 2,
       "related_ids": []
     },
@@ -642,7 +681,7 @@
         "Coding"
       ],
       "image_url": "/images/logos/deepmind.svg",
-      "trending_score": 0.0014,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": [],
       "image_source": "logo"
@@ -663,7 +702,7 @@
         "Agents"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zhaYfDvOf30Q7kNvwF7VWNX&_nc_oc=Adq0gDSHUIHA8SK5O5FOMJnK3B_eHqGBZPCCaSwy3Lk1690gLL01WSPfplO1idSvSAA&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=fJu1SXYAzRssae2fGDxo5Q&_nc_ss=7920f&oh=00_Af4PTLEKCjn46ePiXMAo6xuGoSbAn8qGjYT_7dlEgF9wkQ&oe=6A186BEC",
-      "trending_score": 0.0073,
+      "trending_score": 0.001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -683,7 +722,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0053,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": []
     },
@@ -703,7 +742,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0024,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -723,7 +762,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0045,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": []
     },
@@ -743,7 +782,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0045,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": []
     },
@@ -763,7 +802,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0041,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": []
     },
@@ -783,7 +822,7 @@
         "Agents"
       ],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a",
-      "trending_score": 0.0052,
+      "trending_score": 0.0007,
       "mention_count": 2,
       "related_ids": []
     },
@@ -803,7 +842,7 @@
         "Content"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0067,
+      "trending_score": 0.0009,
       "mention_count": 4,
       "related_ids": []
     },
@@ -822,7 +861,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0021,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": []
     },
@@ -842,7 +881,7 @@
         "Agents"
       ],
       "image_url": null,
-      "trending_score": 0.0019,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": []
     },
@@ -861,7 +900,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0017,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -880,7 +919,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.0016,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -899,7 +938,7 @@
         "Models"
       ],
       "image_url": "/images/logos/deepmind.svg",
-      "trending_score": 0.0018,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -920,7 +959,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ServiceNow-AI/correctness-before-corrections.png",
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -940,7 +979,7 @@
         "Coding"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -961,7 +1000,7 @@
         "Coding"
       ],
       "image_url": "/images/logos/google.svg",
-      "trending_score": 0.0009,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -982,7 +1021,7 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/anthropic-compute-partnership/opengraph-image-18dp32.png?8f753eead431203b",
-      "trending_score": 0.0011,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1001,7 +1040,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/668130848_1453339552354697_3291493920555502062_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=0NttciPwNvUQ7kNvwGFDsB3&_nc_oc=AdqRP7EJtHGcla86zSwkqwHgtGICd95VHgC9KSQ9RGlAwE-PbN4YvJWy9SgwNsGgi8I&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=RWMG_Rqr7LbL-JlvA70ukQ&_nc_ss=7920f&oh=00_Af76Evfs6Eqn3TacOg9X_QRzS71SnWmVc13v-I9njcbI9w&oe=6A1867AE",
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1021,7 +1060,7 @@
         "Skills"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1042,7 +1081,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1063,7 +1102,7 @@
         "Content"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1083,7 +1122,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/ethernet-press-spectrum-x-corp-blog-1920x1080-1.jpg",
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1103,7 +1142,7 @@
         "Coding"
       ],
       "image_url": null,
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1122,7 +1161,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-business/opengraph-image-12bro3.png?b1e1e466620d1491",
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1141,7 +1180,7 @@
         "Models"
       ],
       "image_url": "https://huggingface.co/blog/assets/open-asr-leaderboard-private-data/thumbnail.png",
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1160,7 +1199,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1180,7 +1219,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0005,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1199,7 +1238,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1219,7 +1258,7 @@
         "Content"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1242,7 +1281,7 @@
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-servicenow-logos-1.jpg",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0002
+      "trending_score": 0.0
     },
     {
       "id": "0521b68e1d361b3d",
@@ -1259,7 +1298,7 @@
         "Content"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1281,7 +1320,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/FeatureImage.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0002
+      "trending_score": 0.0
     },
     {
       "id": "0d33f723ee92a5de",
@@ -1300,7 +1339,7 @@
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image3.webp",
       "mention_count": 2,
       "related_ids": [],
-      "trending_score": 0.0002
+      "trending_score": 0.0
     },
     {
       "id": "51b61252710c259d",
@@ -1317,7 +1356,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/649719916_2147323009439466_6866394022243367245_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=jJn1RULkZIoQ7kNvwG2mY_3&_nc_oc=AdrxnumD_gm--eaScL7yAf7mSx_afFuO3QRt5ozYbZB7NPHDZeenq-aGwKHyM7ZHeyI&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=hTjVUosH-UojlIiL8cLLSQ&_nc_ss=7920f&oh=00_Af64sfr3waKana7oMxV_mbTmvoz4STLAeTexwussrpW6bw&oe=6A18652C",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1337,7 +1376,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-SAG_0177-edit-169-scaled.jpg",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1357,7 +1396,7 @@
         "Automation"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -1377,7 +1416,7 @@
         "Governance"
       ],
       "image_url": "https://x.ai/news/us-gov-dept-of-war/opengraph-image-1k5r9s.png?3816f7aeb6822f9e",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1396,7 +1435,7 @@
         "Models"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1419,7 +1458,7 @@
       "related_ids": [
         "3bbc92d9c76ebc83"
       ],
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "image_source": "logo"
     },
     {
@@ -1743,7 +1782,7 @@
       "image_url": "/images/logos/openai.svg",
       "image_source": "logo",
       "trending_score": 0.0,
-      "mention_count": 3,
+      "mention_count": 4,
       "related_ids": []
     },
     {
@@ -2890,486 +2929,6 @@
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
-    },
-    {
-      "id": "6dab30f065ef7986",
-      "url": "https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything",
-      "title": "Speech translation in Google Meet is now rolling out to mobile devices",
-      "title_translated": null,
-      "source": "simonwillison",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T17:37:47Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "Speech translation in Google Meet is now rolling out to mobile devices I just encountered this feature via a \"try this out now\" prompt in a Google Meet meeting. It kind-of worked! This is Google's implementation of the ultimate sci-fi translation app, where two people can talk to each other in two separate languages and Meet translates from one to the other and - with a short delay - repeats the t",
-      "tags": [
-        "Content"
-      ],
-      "image_url": null,
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "32e780a4e5b21031",
-      "url": "http://www.techmeme.com/260427/p33#a260427p33",
-      "title": "GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits (Mario Rodriguez/The GitHub Blog)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T17:01:51Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "Mario Rodriguez / The GitHub Blog : GitHub says all Copilot plans will move to usage-based billing on June 1, replacing premium requests with monthly GitHub AI Credits &nbsp; &mdash;&nbsp; Starting June 1, your Copilot usage will consume GitHub AI Credits.&nbsp; &mdash;&nbsp; TL;DR: Today, we are announcing that all GitHub Copilot plans will transition to usage-based billing on June 1, 2026.",
-      "tags": [
-        "Coding"
-      ],
-      "image_url": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-logo.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "09d0516a33a18a9c",
-      "url": "http://www.techmeme.com/260427/p32#a260427p32",
-      "title": "The EU unveils new proposals under the DMA aimed at opening up Android to rivals' AI services; Google says the measures are \"unwarranted intervention\" (Samuel Stolton/Bloomberg)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T16:55:01Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "Samuel Stolton / Bloomberg : The EU unveils new proposals under the DMA aimed at opening up Android to rivals' AI services; Google says the measures are &ldquo;unwarranted intervention&rdquo; &nbsp; &mdash;&nbsp; Google was targeted by European Union watchdogs who unveiled a slate of proposals aimed at prising open its Android ecosystem to rivals' AI services.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8orBo4nhDOM/v1/1200x800.jpg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "url": "http://www.techmeme.com/260427/p31#a260427p31",
-      "title": "600+ Google and DeepMind employees sign open letter demanding Pichai bar DOD from using Google AI for classified military work",
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T16:35:01Z",
-      "summary": "More than 600 Google and DeepMind employees signed a letter to CEO Sundar Pichai demanding he reject classified AI contracts with the US Department of Defense as Google negotiates to deploy Gemini in Pentagon settings. Over 100 DeepMind researchers separately sent an internal letter barring use of DeepMind research in weapons development or autonomous targeting.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/images/logos/deepmind.svg",
-      "id": "563f3b4043e7971d",
-      "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "title_translated": null,
-      "image_source": "logo"
-    },
-    {
-      "id": "ce4ac038dd21dd0d",
-      "url": "http://www.techmeme.com/260427/p29#a260427p29",
-      "title": "The founder of car rental platform PocketOS says a Cursor agent using Claude Opus 4.6 accidentally deleted a production database while in a staging environment (Jer/@lifeof_jer)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T15:35:02Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "Jer / @lifeof_jer : The founder of car rental platform PocketOS says a Cursor agent using Claude Opus 4.6 accidentally deleted a production database while in a staging environment &nbsp; &mdash;&nbsp; An AI Agent Just Destroyed Our Production Data. It Confessed in Writing.",
-      "tags": [
-        "Models",
-        "Agents",
-        "Coding"
-      ],
-      "image_url": "https://pbs.twimg.com/media/HGxS00ubIAEDGlV?format=jpg&name=large",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "09fbde33a9099508",
-      "url": "https://x.com/AndrewYNg/status/2048793852702757151",
-      "title": "Andrew Ng: AI-native software engineering teams operate very differently",
-      "title_translated": null,
-      "source": "AndrewYNg",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-27T15:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "Andrew Ng essay on how AI-native engineering teams collapse the engineer/PM ratio, why generalists win, and how coding agents shift bottlenecks to design, marketing, and legal. Useful frame for hotloop-style team design conversations.",
-      "tags": [
-        "Coding",
-        "Skills"
-      ],
-      "image_url": "https://unavatar.io/x/AndrewYNg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "url": "http://www.techmeme.com/260427/p28#a260427p28",
-      "title": "Canva Magic Layers silently replaced 'Palestine' in user designs; company says issue is fixed",
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T14:40:07Z",
-      "summary": "Canva's newly launched Magic Layers feature automatically replaced the word 'Palestine' in user designs, sparking a viral backlash on X. Canva said it 'moved quickly to investigate and fix' the issue. The incident highlights risks of AI content moderation embedded directly in creative tools.",
-      "tags": [
-        "Governance",
-        "Content"
-      ],
-      "image_url": null,
-      "id": "aab3a43fde791a0c",
-      "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "title_translated": null
-    },
-    {
-      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
-      "title": "Ex-DeepMind Principal Scientist David Silver raises $1.1B seed at $5.1B valuation for Ineffable Intelligence",
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "eu",
-      "published_at": "2026-04-27T14:25:01Z",
-      "summary": "David Silver, who led DeepMind's reinforcement learning team and co-created AlphaZero, has raised $1.1B at a $5.1B valuation for UK startup Ineffable Intelligence — the largest seed round in European history. The lab aims to build AI 'superlearners' that acquire knowledge without human data via RL. Backers include Sequoia, Lightspeed, NVIDIA, Google, DST Global, and the UK Sovereign AI Fund.",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "/images/logos/deepmind.svg",
-      "id": "330777892e36ae31",
-      "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "title_translated": null,
-      "image_source": "logo"
-    },
-    {
-      "id": "b5d18c04f7f67bab",
-      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "title": "OpenAI available at FedRAMP Moderate",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T14:00:00Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "id": "4a313bcd56c65dc3",
-      "url": "http://www.techmeme.com/260427/p26#a260427p26",
-      "title": "Microsoft and OpenAI remove a clause that would have given Microsoft IP rights until OpenAI achieved \"AGI\"; Microsoft retains use of OpenAI's models until 2032 (Aaron Holmes/The Information)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T13:55:01Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "Aaron Holmes / The Information : Microsoft and OpenAI remove a clause that would have given Microsoft IP rights until OpenAI achieved &ldquo;AGI&rdquo;; Microsoft retains use of OpenAI's models until 2032 &nbsp; &mdash;&nbsp; Microsoft and OpenAI amended the terms of their arrangement, allowing OpenAI to sell its models on competing cloud providers, the companies said on Monday.",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "http://www.techmeme.com/img/techmeme_sq328.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "8e0d5b774aa9dcac",
-      "url": "http://www.techmeme.com/260427/p24#a260427p24",
-      "title": "Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI (OpenAI)",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T13:10:02Z",
-      "first_seen_at": "2026-04-27T22:06:28Z",
-      "summary": "OpenAI : Microsoft and OpenAI amend their deal to let OpenAI serve all its products across any cloud provider; Microsoft will no longer pay a revenue share to OpenAI &nbsp; &mdash;&nbsp; Amended agreement provides long-term clarity.&nbsp; &mdash;&nbsp; The rapid pace of innovation requires us to continue to evolve our partnership to benefit our customers and both companies.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5sMBiZdiwBzV2SqR3iLo80/55329fd0accaa73127e712ac86621c6a/oai-ms-16x9.png?w=1600&h=900&fit=fill",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "20769b8fc97e26a0",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "title_translated": null,
-      "source": "google-ai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T13:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "Google and Kaggle launch a free intensive on building agents with Gemini and Vertex AI, scheduled for June 2026. Aimed at developers shifting from chat-completions to agentic workflows.",
-      "tags": [
-        "Agents",
-        "Coding",
-        "Skills"
-      ],
-      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "a109e941dbd2eed8",
-      "url": "https://www.1news.co.nz/2026/04/27/us-vows-crackdown-on-chinese-firms-exploiting-ai-models",
-      "title": "1News: US vows crackdown on Chinese firms 'exploiting' AI models",
-      "title_translated": null,
-      "source": "1news-nz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-27T13:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "1News reports US administration commitments to act against Chinese AI firms accused by Anthropic and others of model distillation. Follows DeepSeek V4 release; reframes the supply-chain governance debate from a NZ-Pacific viewpoint.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "url": "https://github.com/dirac-run/dirac",
-      "title": "Open-source Dirac agent tops TerminalBench 2.0 at 65.2% using Gemini-3-flash-preview",
-      "source": "hackernews",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T12:35:55Z",
-      "summary": "Community-built open-source agent Dirac scored 65.2% on TerminalBench 2.0 with Gemini-3-flash-preview, beating Google's official 47.8% and closed-source leader Junie CLI's 64.3%. The project includes steps to avoid the benchmark gaming recently documented by researchers. HN discussion at 663 points.",
-      "tags": [
-        "Agents",
-        "Coding"
-      ],
-      "image_url": "/images/logos/deepmind.svg",
-      "id": "ff52c1488d8ab631",
-      "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "title_translated": null,
-      "image_source": "logo"
-    },
-    {
-      "id": "03bc92bbf2ccc638",
-      "url": "https://mistral.ai/news/workflows",
-      "title": "Mistral launches Workflows in public preview — automated multi-step AI pipelines for business operations",
-      "title_translated": null,
-      "source": "mistral",
-      "source_tier": 1,
-      "region": "eu",
-      "published_at": "2026-04-27T12:00:00Z",
-      "first_seen_at": "2026-04-28T21:54:08Z",
-      "summary": "Mistral AI released Workflows in public preview, a native orchestration layer enabling automated multi-step AI pipelines built on its models. Targets enterprise business process automation, competing directly with OpenAI's Symphony and Anthropic's agent frameworks.",
-      "tags": [
-        "Agents",
-        "Automation"
-      ],
-      "image_url": "/images/logos/mistral.svg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
-      "title": "China's NDRC orders Meta to cancel its $2B acquisition of AI agent startup Manus",
-      "source": "hackernews",
-      "source_tier": 2,
-      "region": "cn",
-      "published_at": "2026-04-27T11:43:59Z",
-      "summary": "China's National Development and Reform Commission ordered Meta to unwind its $2B acquisition of Chinese-founded AI agent startup Manus, citing tech sovereignty concerns after a months-long probe. Co-founders have been banned from leaving China. The deal, announced in December 2025, had already been partially integrated into Meta AI.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/images/logos/meta.svg",
-      "id": "d867737c665b69d1",
-      "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "title_translated": null,
-      "image_source": "logo"
-    },
-    {
-      "id": "e5fc1e095f7b2eec",
-      "url": "https://www.rnz.co.nz/news/world/593527/elon-musk-s-trial-against-sam-altman-to-reveal-the-ongoing-power-struggle-for-openai",
-      "title": "RNZ on Musk vs Altman trial: ongoing power struggle for OpenAI",
-      "title_translated": null,
-      "source": "rnz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-27T11:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "RNZ frames the upcoming Musk vs Altman trial as the next public chapter of the OpenAI control fight, following the dismissal of fraud claims earlier this week. NZ pickup of the global story for domestic readers.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "url": "https://app.oravys.com/blog/mercor-breach-2026",
-      "title": "Lapsus$ hack of Mercor exposed 4TB of voice and biometric data from 40,000 AI contractors",
-      "source": "hackernews",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-27T09:57:10Z",
-      "summary": "A new analysis of the April Mercor breach (via LiteLLM supply chain attack) details how Lapsus$ stole 4TB of biometric data — including voice samples and ID documents — from 40,000 AI data contractors serving OpenAI, Anthropic, and Meta. Six class-action lawsuits have been filed. Mercor disputes the claims.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/images/logos/openai.svg",
-      "id": "aba3999211db1823",
-      "first_seen_at": "2026-04-27T22:21:39Z",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "title_translated": null,
-      "image_source": "logo"
-    },
-    {
-      "id": "6dae1ac749b9f887",
-      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
-      "title": "Announcing our partnership with the Republic of Korea",
-      "title_translated": null,
-      "source": "deepmind",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T07:00:06Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "Google DeepMind announces a strategic AI partnership with the South Korean government covering research collaboration, AI safety standards, and Gemini deployment in Korean public services. Part of the wider sovereign-AI push by frontier labs in Asia.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "https://lh3.googleusercontent.com/3q6uiTEWOv5PKJQYWgYLxCgohyndMqdWTFiwFDbxSzk-tW0HeannPdF7kvqR2hmE_tvSeryfw4IvG7gwuZ11rBgIYGvapEQvHO9RRJXw4JCqyme6uA=w528-h297-n-nu-rw-lo",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "414538245782acfe",
-      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T06:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "OpenAI and Microsoft formalise the next stage of their partnership: continued Azure compute commitment, expanded model access for Microsoft products, and revised IP arrangements. Signals continued tight coupling despite the Anthropic-Google deal.",
-      "tags": [
-        "Governance",
-        "Models"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "d8324489b8675b49",
-      "url": "https://channellife.co.nz/story/lancom-joins-aws-anthropic-reseller-programme-for-bedrock",
-      "title": "Lancom joins AWS Anthropic reseller programme for Bedrock",
-      "title_translated": null,
-      "source": "channellife-nz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-27T03:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "NZ-based Lancom signs on as an AWS reseller for Anthropic Claude via Amazon Bedrock, leaning on a security/compliance positioning for enterprise customers. First explicit NZ channel partner on the Anthropic-via-Bedrock path.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "a97b57794a66ff80",
-      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
-      "title_translated": null,
-      "source": "huggingface",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T00:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "Hugging Face publishes an integration guide for OpenAI's open-weight Privacy Filter PII redaction model in production web stacks. Covers latency tradeoffs, batching, and deployment on HF Inference Endpoints.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "image_url": "https://huggingface.co/blog/assets/openai-privacy-filter-web-apps/thumbnail.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "f9ff221789e0942d",
-      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "title": "An open-source spec for orchestration: Symphony",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T00:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "OpenAI publishes Symphony, an open spec for multi-agent orchestration designed for use with Codex and other agent runtimes. Defines schemas for agent handoff, tool routing, and execution traces — direct competitor surface to Anthropic MCP and Google A2A.",
-      "tags": [
-        "Agents",
-        "Coding",
-        "Skills"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "d385c9eee6daddf4",
-      "url": "https://openai.com/index/choco",
-      "title": "Choco automates food distribution with AI agents",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-27T00:00:00Z",
-      "first_seen_at": "2026-04-27T18:13:35.698099Z",
-      "summary": "OpenAI customer story: Berlin-based Choco deploys agents on the OpenAI stack to automate order intake and supplier matching across European food distributors. Concrete agentic deployment in a non-tech vertical.",
-      "tags": [
-        "Agents",
-        "Automation"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
     }
   ]
 }
