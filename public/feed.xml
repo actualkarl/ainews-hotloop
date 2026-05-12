@@ -6,11 +6,67 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 11 May 2026 18:11:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 18:09:31 +0000</lastBuildDate>
     <item>
-      <title>RNZ: NZ&#x27;s AI-in-government framework called &#x27;Pollyanna-ish&#x27; as AI illiteracy risk grows</title>
+      <title>RNZ: NZDF still drafting AI directive months after rolling out tech</title>
+      <link>https://www.rnz.co.nz/news/national/594967/nzdf-still-drafting-ai-directive-months-after-rollng-out-tech</link>
+      <description>New Zealand Defence Force has deployed AI tools but is still drafting its official AI directive, amid plans to boost defence spending. Highlights a governance lag between deployment and policy.</description>
+      <pubDate>Tue, 12 May 2026 22:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.rnz.co.nz/news/national/594967/nzdf-still-drafting-ai-directive-months-after-rollng-out-tech</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>NZ Herald: AI could rewrite the working week, but who benefits — Andrew Barnes</title>
+      <link>https://www.nzherald.co.nz/nz/ai-could-rewrite-the-working-week-but-who-benefits-andrew-barnes/premium/7H7FA7QTQVC7BGSHXHOLCGQNXQ</link>
+      <description>Andrew Barnes argues AI could enable shorter workweeks by handling routine tasks, but asks whether productivity gains accrue to workers or leadership.</description>
+      <pubDate>Tue, 12 May 2026 20:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.nzherald.co.nz/nz/ai-could-rewrite-the-working-week-but-who-benefits-andrew-barnes/premium/7H7FA7QTQVC7BGSHXHOLCGQNXQ</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>BusinessDesk: New Zealand's real AI problem is fear, not failure</title>
+      <link>https://businessdesk.co.nz/article/opinion/new-zealands-real-ai-problem-fear-not-failure</link>
+      <description>Opinion piece argues NZ has avoided major AI scandals but is hindered by excessive caution, potentially stalling adoption and innovation across business and the public sector.</description>
+      <pubDate>Tue, 12 May 2026 19:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://businessdesk.co.nz/article/opinion/new-zealands-real-ai-problem-fear-not-failure</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>IT Brief: Smudge warns AI chatbots flatter users instead of telling truth</title>
+      <link>https://itbrief.co.nz/story/smudge-warns-ai-chatbots-flatter-users-not-tell-truth</link>
+      <description>NZ software firm Smudge warns that consumer AI chatbots optimise for user approval rather than candour, based on local project experience. Calls for explicit guardrails when LLMs are placed in user-feedback loops.</description>
+      <pubDate>Tue, 12 May 2026 18:30:00 +0000</pubDate>
+      <guid isPermaLink="true">https://itbrief.co.nz/story/smudge-warns-ai-chatbots-flatter-users-not-tell-truth</guid>
+      <category>Content</category>
+    </item>
+    <item>
+      <title>Mark Gurman: Google unveils Android with Gemini Intelligence and Googlebook laptops with Dell/HP</title>
+      <link>https://x.com/markgurman/status/2054245988626493765</link>
+      <description>Mark Gurman reports Google has unveiled Android with Gemini Intelligence and a new Googlebook laptop platform partnering with Dell and HP, positioning a frontal challenge to Apple's MacBook line.</description>
+      <pubDate>Tue, 12 May 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://x.com/markgurman/status/2054245988626493765</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>NVIDIA and SAP Bring Trust to Specialized Agents</title>
+      <link>https://blogs.nvidia.com/blog/sap-specialized-agents/</link>
+      <description>Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen Huang joined SAP CEO Christian Klein’s keynote by video — SAP and NVIDIA’s expanded collaboration helps enterprises run specialized agents with security and governance controls.</description>
+      <pubDate>Tue, 12 May 2026 12:30:56 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/sap-specialized-agents/</guid>
+      <category>Agents, Governance</category>
+    </item>
+    <item>
+      <title>Building Blocks for Foundation Model Training and Inference on AWS</title>
+      <link>https://huggingface.co/blog/amazon/foundation-model-building-blocks</link>
+      <description></description>
+      <pubDate>Mon, 11 May 2026 23:18:26 +0000</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/blog/amazon/foundation-model-building-blocks</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>RNZ: NZ's AI-in-government framework called 'Pollyanna-ish' as AI illiteracy risk grows</title>
       <link>https://www.rnz.co.nz/news/political/594827/polyanna-policy-is-nz-s-framework-for-ai-use-in-government-overly-optimistic</link>
-      <description>RNZ reports critics calling NZ&#x27;s public-sector AI framework overly optimistic, with warnings that widespread &#x27;AI illiteracy&#x27; across agencies could undercut productivity gains and create governance gaps. The piece frames the Public Service AI Framework as principles-heavy but light on accountability and capability uplift.</description>
+      <description>RNZ reports critics calling NZ's public-sector AI framework overly optimistic, with warnings that widespread 'AI illiteracy' across agencies could undercut productivity gains and create governance gaps. The piece frames the Public Service AI Framework as principles-heavy but light on accountability and capability uplift.</description>
       <pubDate>Mon, 11 May 2026 22:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.rnz.co.nz/news/political/594827/polyanna-policy-is-nz-s-framework-for-ai-use-in-government-overly-optimistic</guid>
       <category>Governance</category>
@@ -18,15 +74,23 @@
     <item>
       <title>RBNZ warns concentration in frontier AI providers is a systemic risk to NZ financial system</title>
       <link>https://newswire.co.nz/2026/05/reserve-bank-warns-concentrated-ai-providers-and-frontier-models-like-anthropics-mythos-could-test-new-zealands-financial-system</link>
-      <description>The Reserve Bank of New Zealand flagged dependency on a small number of frontier AI providers — naming Anthropic&#x27;s Mythos among the systemically important models — as a stability risk for NZ banks and insurers. The warning escalates the RBNZ&#x27;s earlier cyber-risk note and pushes regulated institutions to map third-party AI exposure.</description>
+      <description>The Reserve Bank of New Zealand flagged dependency on a small number of frontier AI providers — naming Anthropic's Mythos among the systemically important models — as a stability risk for NZ banks and insurers. The warning escalates the RBNZ's earlier cyber-risk note and pushes regulated institutions to map third-party AI exposure.</description>
       <pubDate>Mon, 11 May 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://newswire.co.nz/2026/05/reserve-bank-warns-concentrated-ai-providers-and-frontier-models-like-anthropics-mythos-could-test-new-zealands-financial-system</guid>
       <category>Governance</category>
     </item>
     <item>
+      <title>Introducing NVIDIA Fleet Intelligence for Real-Time GPU Fleet Visibility and Optimization</title>
+      <link>https://developer.nvidia.com/blog/introducing-nvidia-fleet-intelligence-for-real-time-gpu-fleet-visibility-and-optimization/</link>
+      <description>The compute capability of large GPU fleets presents unprecedented opportunities to innovate and provide value to customers in record time. Yet these...</description>
+      <pubDate>Mon, 11 May 2026 19:44:27 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/introducing-nvidia-fleet-intelligence-for-real-time-gpu-fleet-visibility-and-optimization/</guid>
+      <category>Automation</category>
+    </item>
+    <item>
       <title>How enterprises are scaling AI</title>
       <link>https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai</link>
-      <description>OpenAI&#x27;s new enterprise resource maps the path from early AI experiments to compounding business impact, covering trust-building, governance frameworks, workflow design, and quality-at-scale. The guide draws on patterns from OpenAI&#x27;s largest enterprise deployments and is aimed at organisations moving from pilot to production. It covers how to select the right model for a task, manage responsible deployment, and measure ROI across business functions.</description>
+      <description>OpenAI's new enterprise resource maps the path from early AI experiments to compounding business impact, covering trust-building, governance frameworks, workflow design, and quality-at-scale. The guide draws on patterns from OpenAI's largest enterprise deployments and is aimed at organisations moving from pilot to production. It covers how to select the right model for a task, manage responsible deployment, and measure ROI across business functions.</description>
       <pubDate>Mon, 11 May 2026 10:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai</guid>
       <category>Automation, Agents</category>
@@ -34,7 +98,7 @@
     <item>
       <title>OpenAI launches DeployCo to embed frontier AI in enterprises</title>
       <link>https://openai.com/index/openai-launches-the-deployment-company</link>
-      <description>OpenAI launched the OpenAI Deployment Company (DeployCo), a majority-owned standalone unit with $4B+ in committed funding from 19 investors led by TPG, designed to embed Forward Deployed Engineers in enterprises. To staff it on day one, OpenAI agreed to acquire applied-AI consultancy Tomoro, adding ~150 specialists. The unit echoes Palantir&#x27;s services playbook and targets the integration gap between frontier models and operational workflows.</description>
+      <description>OpenAI launched the OpenAI Deployment Company (DeployCo), a majority-owned standalone unit with $4B+ in committed funding from 19 investors led by TPG, designed to embed Forward Deployed Engineers in enterprises. To staff it on day one, OpenAI agreed to acquire applied-AI consultancy Tomoro, adding ~150 specialists. The unit echoes Palantir's services playbook and targets the integration gap between frontier models and operational workflows.</description>
       <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://openai.com/index/openai-launches-the-deployment-company</guid>
       <category>Automation, Agents</category>
@@ -42,15 +106,15 @@
     <item>
       <title>AI-powered Google Finance rolls out across Europe</title>
       <link>https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/</link>
-      <description>Google is expanding its AI-rebuilt Finance product across Europe with full local-language support. The redesign adds conversational research, advanced charting, and broader market coverage, pushing Gemini-backed financial information into a region where Google&#x27;s previous Finance UI lagged competitors.</description>
+      <description>Google is expanding its AI-rebuilt Finance product across Europe with full local-language support. The redesign adds conversational research, advanced charting, and broader market coverage, pushing Gemini-backed financial information into a region where Google's previous Finance UI lagged competitors.</description>
       <pubDate>Mon, 11 May 2026 06:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/</guid>
       <category>Content, Models</category>
     </item>
     <item>
-      <title>&#x27;Your Career Starts at the Beginning of the AI Revolution,&#x27; NVIDIA CEO Tells Graduates</title>
+      <title>'Your Career Starts at the Beginning of the AI Revolution,' NVIDIA CEO Tells Graduates</title>
       <link>https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</link>
-      <description>NVIDIA CEO Jensen Huang delivered the keynote at Carnegie Mellon University&#x27;s 128th commencement, telling graduates they are entering the world at &#x27;an extraordinary moment&#x27; as a new AI industry is born. Huang positioned the current era — a new era of science and discovery — as generational, urging new engineers and scientists to embrace their role in building it. The speech signals NVIDIA&#x27;s continued push to frame AI infrastructure as a foundational societal layer, not just a technology cycle.</description>
+      <description>NVIDIA CEO Jensen Huang delivered the keynote at Carnegie Mellon University's 128th commencement, telling graduates they are entering the world at 'an extraordinary moment' as a new AI industry is born. Huang positioned the current era — a new era of science and discovery — as generational, urging new engineers and scientists to embrace their role in building it. The speech signals NVIDIA's continued push to frame AI infrastructure as a foundational societal layer, not just a technology cycle.</description>
       <pubDate>Sun, 10 May 2026 22:00:50 +0000</pubDate>
       <guid isPermaLink="true">https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</guid>
       <category>Models</category>
@@ -58,7 +122,7 @@
     <item>
       <title>NZ Optometrists Board issues AI guidelines for eyecare practice</title>
       <link>https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules</link>
-      <description>The Optometrists and Dispensing Opticians Board (ODOB) released guidelines for AI use in NZ optometry, aligning with UK approaches and pointing practitioners to the Privacy Commissioner&#x27;s resources. Local research includes Dr. James Lewis training a neural network on 27,000+ ocular images to detect ptosis, with the article flagging equity and bias risks in datasets like OCT analysis.</description>
+      <description>The Optometrists and Dispensing Opticians Board (ODOB) released guidelines for AI use in NZ optometry, aligning with UK approaches and pointing practitioners to the Privacy Commissioner's resources. Local research includes Dr. James Lewis training a neural network on 27,000+ ocular images to detect ptosis, with the article flagging equity and bias risks in datasets like OCT analysis.</description>
       <pubDate>Sun, 10 May 2026 20:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://www.nzoptics.co.nz/live-articles/ai-in-eyecare-tools-tensions-and-shaping-the-rules</guid>
       <category>Governance</category>
@@ -82,7 +146,7 @@
     <item>
       <title>Greg Brockman highlights GPT-Realtime-2 powering live audio translation in browser</title>
       <link>https://x.com/gdb/status/2053134883040514350</link>
-      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI&#x27;s realtime voice stack and adjacent third-party agent integrations.</description>
+      <description>OpenAI president Greg Brockman amplified a demo of GPT-Realtime-2 driving real-time audio translation inside Chrome — usable on YouTube, livestreams and meetings. The post signals continued investment in OpenAI's realtime voice stack and adjacent third-party agent integrations.</description>
       <pubDate>Sat, 09 May 2026 12:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://x.com/gdb/status/2053134883040514350</guid>
       <category>Models, Content</category>
@@ -106,7 +170,7 @@
     <item>
       <title>NZ Public Service AI Toolkit adds policy template + AI records-management guidance</title>
       <link>https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</link>
-      <description>New Zealand&#x27;s digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE&#x27;s 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
+      <description>New Zealand's digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE's 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
       <pubDate>Sat, 09 May 2026 08:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</guid>
       <category>Governance</category>
@@ -182,70 +246,6 @@
       <pubDate>Fri, 08 May 2026 15:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://blog.google/company-news/inside-google/company-announcements/the-small-brief/</guid>
       <category>Content, Automation</category>
-    </item>
-    <item>
-      <title>OpenAI: Running Codex safely</title>
-      <link>https://openai.com/index/running-codex-safely</link>
-      <description>OpenAI documents the controls it ships for safer Codex deployments, covering sandboxed execution, approval workflows for destructive actions, network egress policies and agent-specific telemetry. The post is aimed at platform teams onboarding coding agents who need a defensible baseline for production use.</description>
-      <pubDate>Fri, 08 May 2026 12:30:00 +0000</pubDate>
-      <guid isPermaLink="true">https://openai.com/index/running-codex-safely</guid>
-      <category>Coding, Governance</category>
-    </item>
-    <item>
-      <title>OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work</title>
-      <link>https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</link>
-      <description>NVIDIA has deployed OpenAI’s GPT-5.5 to power Codex across its own engineering workflows, with internal teams using the AI coding agent to accelerate software development at scale. The blog details how GPT-5.5’s enhanced agentic capabilities make it the backbone of Codex’s latest production release on NVIDIA’s infrastructure.</description>
-      <pubDate>Fri, 08 May 2026 12:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/</guid>
-      <category>Coding, Agents</category>
-    </item>
-    <item>
-      <title>MedQA: Fine-Tuning a Clinical AI on AMD ROCm — No CUDA Required</title>
-      <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa</link>
-      <description>A hackathon team writes up fine-tuning a clinical question-answering model on AMD MI300X GPUs using ROCm, demonstrating a CUDA-free path for medical-domain LLMs. The post documents reproducible training scripts and a small evaluation harness for clinical tasks.</description>
-      <pubDate>Fri, 08 May 2026 07:54:18 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>AI avatars to deliver real-time NZ Sign Language translations</title>
-      <link>https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/</link>
-      <description>An NZ-led project is nearing completion on AI avatars that produce real-time New Zealand Sign Language translations, aimed at situations where a live interpreter is unavailable. The Deaf community has been involved in design, and trials are planned across public services.</description>
-      <pubDate>Fri, 08 May 2026 03:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.1news.co.nz/2026/05/08/ai-avatars-to-deliver-real-time-nz-sign-language-translations/</guid>
-      <category>Content, Governance</category>
-    </item>
-    <item>
-      <title>NZ organisations accelerate AI adoption amid growing resilience and governance gaps</title>
-      <link>https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/</link>
-      <description>A new report on New Zealand enterprises finds AI is being deployed faster than security and governance practices can keep up, especially in cybersecurity tooling and customer operations. The authors call for board-level AI risk frameworks and reporting standards.</description>
-      <pubDate>Thu, 07 May 2026 22:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://business.scoop.co.nz/2026/05/07/new-zealand-organisations-accelerate-ai-adoption-amid-growing-resilience-and-governance-gaps/</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Achieving Peak System and Workload Efficiency on NVIDIA GB200 NVL72 with Slurm Block Scheduling</title>
-      <link>https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</link>
-      <description>NVIDIA&#x27;s GB200 NVL72 rack achieves peak efficiency via Slurm block scheduling that aligns GPU NVLink coherence zones with job boundaries, reducing cross-rack communication overhead for large training runs.</description>
-      <pubDate>Thu, 07 May 2026 21:20:14 +0000</pubDate>
-      <guid isPermaLink="true">https://developer.nvidia.com/blog/achieving-peak-system-and-workload-efficiency-on-nvidia-gb200-nvl72-with-slurm-block-scheduling/</guid>
-      <category>Automation</category>
-    </item>
-    <item>
-      <title>Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer</title>
-      <link>https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/</link>
-      <description>NVIDIA Model Optimizer enables post-training quantization (PTQ) to run large models on consumer RTX GPUs with reduced VRAM and faster inference, covering INT8/INT4/FP8 recipes for popular architectures.</description>
-      <pubDate>Thu, 07 May 2026 21:18:06 +0000</pubDate>
-      <guid isPermaLink="true">https://developer.nvidia.com/blog/model-quantization-post-training-quantization-using-nvidia-model-optimizer/</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>OpenAI previews GPT-5.5-Cyber for critical-infrastructure defenders</title>
-      <link>https://x.com/gdb/status/2052507037674737812</link>
-      <description>OpenAI president Greg Brockman announced a limited preview of GPT-5.5-Cyber, a security-tuned variant of GPT-5.5 designed to help critical-infrastructure operators detect and patch code vulnerabilities. It ships with the Trusted Access for Cyber programme for vetted defenders.</description>
-      <pubDate>Thu, 07 May 2026 20:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.com/gdb/status/2052507037674737812</guid>
-      <category>Models, Governance</category>
     </item>
   </channel>
 </rss>

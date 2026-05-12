@@ -1,4 +1,93 @@
 {
-  "generated_at": "2026-05-11T18:11:40.042142Z",
-  "tweets": []
+  "generated_at": "2026-05-12T18:10:09.367993Z",
+  "tweets": [
+    {
+      "id": "2054245988626493765",
+      "handle": "markgurman",
+      "author_name": "Mark Gurman",
+      "url": "https://x.com/markgurman/status/2054245988626493765",
+      "text": "Google unveils Android with Gemini Intelligence and a new Googlebook laptop platform with Dell and HP — a direct challenge to Apple's MacBook line.",
+      "published_at": "2026-05-12T17:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054249903103017205",
+      "handle": "StockMKTNewz",
+      "author_name": "StockMKTNewz",
+      "url": "https://x.com/StockMKTNewz/status/2054249903103017205",
+      "text": "Anthropic is enhancing Claude for legal professionals to handle more legal tasks.",
+      "published_at": "2026-05-12T17:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054258313270071463",
+      "handle": "eladgil",
+      "author_name": "Elad Gil",
+      "url": "https://x.com/eladgil/status/2054258313270071463",
+      "text": "First AI-driven take-private: Long Lake AI acquires Amex Global Business Travel for $6.3B.",
+      "published_at": "2026-05-12T18:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054177862689640693",
+      "handle": "zodchiii",
+      "author_name": "zodchiii",
+      "url": "https://x.com/zodchiii/status/2054177862689640693",
+      "text": "Three Anthropic engineers share what it takes to ship production-ready AI agents — context engineering, memory, and supervision are the recurring threads.",
+      "published_at": "2026-05-12T13:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054256540786241843",
+      "handle": "jackcoder0",
+      "author_name": "jackcoder0",
+      "url": "https://x.com/jackcoder0/status/2054256540786241843",
+      "text": "Tips for Claude: always start with a CLAUDE.md for persistent memory, then layer skills on top.",
+      "published_at": "2026-05-12T17:45:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054250558861738298",
+      "handle": "jackcoder0",
+      "author_name": "jackcoder0",
+      "url": "https://x.com/jackcoder0/status/2054250558861738298",
+      "text": "Eight prompts that unlock Claude's full potential for business and creative workflows.",
+      "published_at": "2026-05-12T17:35:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054251704053342535",
+      "handle": "ns123abc",
+      "author_name": "ns123abc",
+      "url": "https://x.com/ns123abc/status/2054251704053342535",
+      "text": "CoreWeave's revenue depends heavily on OpenAI — what happens if those payments falter?",
+      "published_at": "2026-05-12T17:38:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054203827159523459",
+      "handle": "StockMKTNewz",
+      "author_name": "StockMKTNewz",
+      "url": "https://x.com/StockMKTNewz/status/2054203827159523459",
+      "text": "AI-chip names are up ~320% in the past year, outrunning the S&P 500 by a wide margin.",
+      "published_at": "2026-05-12T15:30:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }
