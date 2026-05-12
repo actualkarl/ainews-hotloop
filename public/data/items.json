@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T18:09:31.631753Z",
-  "next_refresh_at": "2026-05-13T01:00:00Z",
-  "schedule": "daily 06:00 + 13:00 NZT",
+  "generated_at": "2026-05-12T18:30:00Z",
+  "next_refresh_at": "2026-05-13T18:00:00Z",
+  "schedule": "daily 06:00 NZT",
   "newsflash": [
     "fe439172e05cd1ba",
     "f7f4bb2a7f0b4adb",
@@ -9,7 +9,7 @@
     "97c7fcb7ab747cf0",
     "66eff5a7d83dd62f"
   ],
-  "daily_summary": "Three substantive US-product items: NVIDIA and SAP announced jointly-vetted 'specialized agents' at SAP Sapphire, with Jensen Huang on stage, formalising a trust layer for vertical agents inside enterprise SAP stacks. NVIDIA's developer arm shipped Fleet Intelligence, a real-time GPU fleet optimisation product aimed at large training and inference operators. In New Zealand, RNZ reports the NZDF is still drafting its AI directive months after deploying AI tools, underscoring the governance lag local agencies are running, while NZ Herald's Andrew Barnes asks who actually captures the AI productivity dividend if it materialises.",
+  "daily_summary": "Anthropic pushed deep into the legal vertical today with Claude for Legal — 20 MCP connectors, 12 practice-area plugins, and a bidirectional Thomson Reuters CoCounsel integration — signalling that vertical AI bundling is the next enterprise battleground. On the infrastructure side, NVIDIA and SAP announced joint governance controls for enterprise agents at SAP Sapphire, while French startup White Circle raised $11M from backers across OpenAI, Anthropic, and DeepMind to monitor AI safety in production, underscoring growing enterprise demand for AI observability tooling.",
   "items": [
     {
       "id": "fe439172e05cd1ba",
@@ -102,7 +102,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.4987,
+      "trending_score": 0.4848,
       "mention_count": 1,
       "related_ids": []
     },
@@ -127,6 +127,45 @@
       "related_ids": []
     },
     {
+      "id": "2d9a614e78f6ecd5",
+      "url": "https://techfundingnews.com/french-startup-white-circle-secures-11m-from-openai-anthropic-deepmind-leaders-to-monitor-and-secure-enterprise-ai/",
+      "title": "White Circle raises $11M to monitor and secure enterprise AI in production",
+      "title_translated": null,
+      "source": "techfundingnews",
+      "source_tier": 2,
+      "region": "eu",
+      "published_at": "2026-05-12T10:00:00Z",
+      "first_seen_at": "2026-05-12T18:30:00Z",
+      "summary": "French startup White Circle raised $11M seed from operators and investors at OpenAI, Anthropic, DeepMind, Hugging Face, Mistral, Datadog, and Sentry. Founded by Denis Shilov after his 2024 universal jailbreak exposed safety flaws in major models, White Circle helps enterprises monitor, control, and secure AI systems in production.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.8115,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "e230627483062333",
+      "url": "https://www.artificiallawyer.com/2026/05/12/claude-for-legal-launches-may-reshape-the-legal-tech-world/",
+      "title": "Anthropic launches Claude for Legal with 20+ connectors and 12 practice-area plugins",
+      "title_translated": null,
+      "source": "anthropic",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-12T08:00:00Z",
+      "first_seen_at": "2026-05-12T18:30:00Z",
+      "summary": "Anthropic formally launched Claude for Legal, releasing 20+ MCP connectors (DocuSign, Ironclad, iManage, NetDocuments, LexisNexis, Thomson Reuters CoCounsel, Harvey, Box, Everlaw) and 12 practice-area plugins covering M&A, employment, privacy, and corporate work. Thomson Reuters also announced a bidirectional MCP integration connecting CoCounsel — rebuilt on Claude — back to Claude as a callable tool, and Microsoft 365 embeds Claude across Word, Outlook, Excel, and PowerPoint for legal teams.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "image_url": null,
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
       "id": "7c1a813822f725a1",
       "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
       "title": "Building Blocks for Foundation Model Training and Inference on AWS",
@@ -141,7 +180,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png",
-      "trending_score": 0.685,
+      "trending_score": 0.6658,
       "mention_count": 1,
       "related_ids": []
     },
@@ -160,7 +199,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.3072,
+      "trending_score": 0.2985,
       "mention_count": 1,
       "related_ids": []
     },
@@ -179,7 +218,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.26,
+      "trending_score": 0.2527,
       "mention_count": 1,
       "related_ids": []
     },
@@ -198,7 +237,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/data-center-2.webp",
-      "trending_score": 0.5089,
+      "trending_score": 0.4946,
       "mention_count": 1,
       "related_ids": []
     },
@@ -218,7 +257,7 @@
         "Agents"
       ],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/33wbWUELa8LqPj0SZWOxeL/86a395af69191bb11da7342b92a803d9/How_enterprises_are_scaling_AI.png?w=1600&h=900&fit=fill",
-      "trending_score": 0.226,
+      "trending_score": 0.2197,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "branded_card"
@@ -239,7 +278,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.2372,
+      "trending_score": 0.2306,
       "mention_count": 3,
       "related_ids": []
     },
@@ -259,7 +298,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp",
-      "trending_score": 0.1619,
+      "trending_score": 0.1574,
       "mention_count": 1,
       "related_ids": []
     },
@@ -278,7 +317,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/26-cmu-commencement-20-KL_-13_16x9-scaled.jpg",
-      "trending_score": 0.0832,
+      "trending_score": 0.0809,
       "mention_count": 1,
       "related_ids": []
     },
@@ -297,7 +336,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0352,
+      "trending_score": 0.0342,
       "mention_count": 1,
       "related_ids": []
     },
@@ -316,7 +355,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0141,
+      "trending_score": 0.0137,
       "mention_count": 1,
       "related_ids": []
     },
@@ -336,7 +375,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
-      "trending_score": 0.0082,
+      "trending_score": 0.0079,
       "mention_count": 1,
       "related_ids": []
     },
@@ -376,7 +415,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0008,
+      "trending_score": 0.0007,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -397,7 +436,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0021,
+      "trending_score": 0.002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -417,7 +456,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 0.0036,
+      "trending_score": 0.0035,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -437,7 +476,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.0013,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -457,7 +496,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0018,
+      "trending_score": 0.0017,
       "mention_count": 1,
       "related_ids": []
     },
@@ -477,7 +516,7 @@
         "Models"
       ],
       "image_url": "/images/logos/meta.svg",
-      "trending_score": 0.0018,
+      "trending_score": 0.0017,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -519,7 +558,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b.png",
-      "trending_score": 0.0011,
+      "trending_score": 0.001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -558,7 +597,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "trending_score": 0.0012,
+      "trending_score": 0.0011,
       "mention_count": 2,
       "related_ids": []
     },
@@ -578,7 +617,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
-      "trending_score": 0.0012,
+      "trending_score": 0.0011,
       "mention_count": 2,
       "related_ids": []
     },
@@ -598,7 +637,7 @@
         "Automation"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
-      "trending_score": 0.0011,
+      "trending_score": 0.001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -638,7 +677,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png",
-      "trending_score": 0.0007,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": []
     },
