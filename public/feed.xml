@@ -6,7 +6,63 @@
     <description>Daily AI news, deduped + tagged for hotloop's workflows</description>
     <language>en</language>
     <atom:link href="https://ainews.hotloop.ai/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 12 May 2026 18:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 18:09:27 +0000</lastBuildDate>
+    <item>
+      <title>NVIDIA: Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials</title>
+      <link>https://developer.nvidia.com/blog/accelerated-x-ray-analysis-for-nanoscale-imaging-xani-of-novel-materials/</link>
+      <description>NVIDIA details a CUDA-accelerated pipeline for X-ray free-electron laser data analysis at nanoscale, enabling researchers to track structural and electron dynamics in fusion materials and semiconductors at production rates rather than days-long batches.</description>
+      <pubDate>Wed, 13 May 2026 16:39:20 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/accelerated-x-ray-analysis-for-nanoscale-imaging-xani-of-novel-materials/</guid>
+      <category>Models</category>
+    </item>
+    <item>
+      <title>NVIDIA: Transform Video Into Searchable, Actionable Intelligence with AI Agents and Skills</title>
+      <link>https://developer.nvidia.com/blog/transform-video-into-instantly-searchable-actionable-intelligence-with-ai-agents-and-skills/</link>
+      <description>NVIDIA released NuRec, a reference workflow that combines vision-language models, multimodal embeddings, and an agent runtime to convert raw video archives into queryable knowledge bases. Aimed at security, manufacturing, and media-archive use cases where humans currently scrub footage manually.</description>
+      <pubDate>Wed, 13 May 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/transform-video-into-instantly-searchable-actionable-intelligence-with-ai-agents-and-skills/</guid>
+      <category>Agents, Content</category>
+    </item>
+    <item>
+      <title>NVIDIA partners with Ineffable Intelligence to build reinforcement-learning infrastructure</title>
+      <link>https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/</link>
+      <description>NVIDIA and startup Ineffable Intelligence announced a joint effort to build the GPU-accelerated training and inference stack RL agents need to scale beyond toy environments. The partnership ships open primitives for environment-step parallelism and trajectory storage targeting frontier-scale RL workloads.</description>
+      <pubDate>Wed, 13 May 2026 13:00:57 +0000</pubDate>
+      <guid isPermaLink="true">https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/</guid>
+      <category>Models, Agents</category>
+    </item>
+    <item>
+      <title>University of Auckland: NZ's AI data centre boom — who benefits?</title>
+      <link>https://www.auckland.ac.nz/en/news/2026/05/13/nz-s-ai-data-centre-boom--who-benefits-.html</link>
+      <description>A University of Auckland piece examines Singapore-based Datagrid's planned 'AI factory' data centre near Invercargill, asking how much of the economic value actually accrues to New Zealand versus flowing to the offshore operator. Frames the project against the global hyperscaler land-grab.</description>
+      <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.auckland.ac.nz/en/news/2026/05/13/nz-s-ai-data-centre-boom--who-benefits-.html</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>HINZ: Medical Products Bill introduces risk-based framework for software and AI regulation</title>
+      <link>https://www.hinz.org.nz/news/727150/Medical-Products-Bill-to-introduce-risk-based-framework-for-software-and-AI-regulation-.htm</link>
+      <description>Health Informatics NZ reports the Medical Products Bill will bring software and AI used in clinical settings under a new risk-tiered regulatory regime — New Zealand's first concrete legislative move on AI in healthcare. Vendors and DHB tooling will both fall in scope.</description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.hinz.org.nz/news/727150/Medical-Products-Bill-to-introduce-risk-based-framework-for-software-and-AI-regulation-.htm</guid>
+      <category>Governance</category>
+    </item>
+    <item>
+      <title>University of Canterbury: AI-powered system to transform water use for farmers</title>
+      <link>https://www.canterbury.ac.nz/news-and-events/news/2026/ai-powered-system-set-to-transform-water-use-for-farmers-</link>
+      <description>University of Canterbury researchers built an AI-driven soil-moisture monitor designed to optimise irrigation for NZ farmers, reducing water waste on-farm while maintaining yield. Pitched as a practical primary-sector use case rather than a research-only prototype.</description>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.canterbury.ac.nz/news-and-events/news/2026/ai-powered-system-set-to-transform-water-use-for-farmers-</guid>
+      <category>Automation</category>
+    </item>
+    <item>
+      <title>1News: AI songs top music charts, NZ creatives fear losing control</title>
+      <link>https://www.1news.co.nz/2026/05/13/ai-songs-top-music-charts-nz-creatives-fear-losing-control</link>
+      <description>AI-generated track 'Celebrate Me' hit number one on iTunes both in New Zealand and globally. Local musicians and rights bodies warn that generative-audio tools like Suno are training on their catalogue without consent and that NZ copyright law currently offers them no enforceable claim.</description>
+      <pubDate>Wed, 13 May 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.1news.co.nz/2026/05/13/ai-songs-top-music-charts-nz-creatives-fear-losing-control</guid>
+      <category>Content, Governance</category>
+    </item>
     <item>
       <title>RNZ: NZDF still drafting AI directive months after rolling out tech</title>
       <link>https://www.rnz.co.nz/news/national/594967/nzdf-still-drafting-ai-directive-months-after-rollng-out-tech</link>
@@ -38,6 +94,14 @@
       <pubDate>Tue, 12 May 2026 18:30:00 +0000</pubDate>
       <guid isPermaLink="true">https://itbrief.co.nz/story/smudge-warns-ai-chatbots-flatter-users-not-tell-truth</guid>
       <category>Content</category>
+    </item>
+    <item>
+      <title>NVIDIA: How to Eliminate Pipeline Friction in AI Model Serving</title>
+      <link>https://developer.nvidia.com/blog/how-to-eliminate-pipeline-friction-in-ai-model-serving/</link>
+      <description>A technical walkthrough of common bottlenecks teams hit moving trained models into production — export formats, hardware mismatches, version skew — with concrete TensorRT, Triton, and CUDA-graph recipes to compress the path from prototype to inference at scale.</description>
+      <pubDate>Tue, 12 May 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://developer.nvidia.com/blog/how-to-eliminate-pipeline-friction-in-ai-model-serving/</guid>
+      <category>Models</category>
     </item>
     <item>
       <title>Mark Gurman: Google unveils Android with Gemini Intelligence and Googlebook laptops with Dell/HP</title>
@@ -182,70 +246,6 @@
       <pubDate>Sat, 09 May 2026 10:13:28 +0000</pubDate>
       <guid isPermaLink="true">https://www.bankinfosecurity.com/fis-anthropic-pitch-ai-for-money-laundering-probes-a-31606</guid>
       <category>Agents, Governance</category>
-    </item>
-    <item>
-      <title>NZ Public Service AI Toolkit adds policy template + AI records-management guidance</title>
-      <link>https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</link>
-      <description>New Zealand's digital.govt.nz refreshed its Public Service AI Toolkit with a customisable AI policy template for agencies and new guidance on records management for AI systems. The update aligns with MBIE's 2025 national AI strategy and gives public-sector teams a documented starting point for responsible AI adoption.</description>
-      <pubDate>Sat, 09 May 2026 08:13:28 +0000</pubDate>
-      <guid isPermaLink="true">https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/artificial-intelligence/public-service-ai-toolkit</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>RBNZ flags advanced AI cyber risk to NZ borrowers and lenders</title>
-      <link>https://www.interest.co.nz/banking/138390/reserve-bank-says-ai-could-potentially-hit-borrowers-ability-repay-loans-and</link>
-      <description>The Reserve Bank of New Zealand says advanced AI models capable of automating cyber attacks could amplify operational risk to borrowers and regulated entities, threatening loan repayments. RBNZ is coordinating with peer agencies including the Reserve Bank of Australia to monitor the threat surface.</description>
-      <pubDate>Sat, 09 May 2026 04:13:28 +0000</pubDate>
-      <guid isPermaLink="true">https://www.interest.co.nz/banking/138390/reserve-bank-says-ai-could-potentially-hit-borrowers-ability-repay-loans-and</guid>
-      <category>Governance</category>
-    </item>
-    <item>
-      <title>Grok Voice Think Fast 1.0</title>
-      <link>https://x.ai/news/grok-voice-think-fast-1</link>
-      <description>xAI has released Grok Voice Think Fast 1.0, a new voice model designed for low-latency real-time conversational AI. The model is optimized for speed-first voice interactions where responsiveness matters more than extended reasoning, complementing xAI’s existing voice lineup.</description>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://x.ai/news/grok-voice-think-fast-1</guid>
-      <category>Models</category>
-    </item>
-    <item>
-      <title>How Alta Daily Uses Meta’s Segment Anything to Reimagine the Digital Closet</title>
-      <link>https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</link>
-      <description>Fashion startup Alta Daily has integrated Meta’s Segment Anything Model into its digital closet app, enabling one-click garment segmentation and background removal at production scale. The case study shows how SAM’s zero-shot segmentation generalises to consumer applications beyond the research setting.</description>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://ai.meta.com/blog/alta-daily-fashion-app-segment-anything/</guid>
-      <category>Content, Models</category>
-    </item>
-    <item>
-      <title>Akamai surges on big LLM deal — Anthropic signs $1.8B edge-inference contract, largest in Akamai history</title>
-      <link>https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552</link>
-      <description>Anthropic has signed a seven-year, $1.8 billion infrastructure deal with Akamai to run Claude inference across 4,300 edge locations in 130 countries — the largest contract in Akamai’s 27-year history. The deal reflects Anthropic’s strategy to distribute inference beyond hyperscale cloud providers; Akamai stock surged 26% on the announcement.</description>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://www.theregister.com/networks/2026/05/09/akamai-surges-on-big-llm-deal-as-cloudflare-dims/5237552</guid>
-      <category>Models, Agents</category>
-    </item>
-    <item>
-      <title>CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models</title>
-      <link>https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b</link>
-      <description>CyberSecQwen-4B is a 4-billion parameter security-focused model from the AMD developer hackathon, optimized for local deployment on edge hardware. It demonstrates that small, specialized models can outperform larger general-purpose models on defensive cyber benchmarks without requiring cloud infrastructure or data exfiltration risks.</description>
-      <pubDate>Fri, 08 May 2026 17:41:05 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b</guid>
-      <category>Models, Coding</category>
-    </item>
-    <item>
-      <title>Improving Bash Generation in Small Language Models with Grammar-Constrained Decoding</title>
-      <link>https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/</link>
-      <description>NVIDIA researchers demonstrate grammar-constrained decoding to substantially improve bash script generation in small language models, enabling reliable shell command output without fine-tuning on proprietary data. The approach enforces syntactic validity at inference time, cutting hallucinated flags and invalid pipelines.</description>
-      <pubDate>Fri, 08 May 2026 17:13:33 +0000</pubDate>
-      <guid isPermaLink="true">https://developer.nvidia.com/blog/improving-bash-generation-in-small-language-models-with-grammar-constrained-decoding/</guid>
-      <category>Coding, Models</category>
-    </item>
-    <item>
-      <title>EMO: Pretraining mixture of experts for emergent modularity</title>
-      <link>https://huggingface.co/blog/allenai/emo</link>
-      <description>AllenAI introduces EMO (Emergent Modularity via Pretraining), a mixture-of-experts approach where modules emerge naturally during pretraining without explicit routing supervision. The method shows improved specialisation and benchmark performance versus dense baselines.</description>
-      <pubDate>Fri, 08 May 2026 16:03:50 +0000</pubDate>
-      <guid isPermaLink="true">https://huggingface.co/blog/allenai/emo</guid>
-      <category>Models</category>
     </item>
   </channel>
 </rss>

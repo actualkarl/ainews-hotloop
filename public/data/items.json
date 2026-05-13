@@ -1,16 +1,152 @@
 {
-  "generated_at": "2026-05-12T18:30:00Z",
-  "next_refresh_at": "2026-05-13T18:00:00Z",
+  "generated_at": "2026-05-13T18:09:27Z",
+  "next_refresh_at": "2026-05-14T18:00:00Z",
   "schedule": "daily 06:00 NZT",
   "newsflash": [
-    "fe439172e05cd1ba",
-    "f7f4bb2a7f0b4adb",
-    "ec6836f4c7d92b8f",
-    "97c7fcb7ab747cf0",
-    "66eff5a7d83dd62f"
+    "ecae3000dbcf463a",
+    "9ab085135683d21c",
+    "b420541c3e698bc2",
+    "da37e09becee972a",
+    "56763959929563c4"
   ],
-  "daily_summary": "Anthropic pushed deep into the legal vertical today with Claude for Legal — 20 MCP connectors, 12 practice-area plugins, and a bidirectional Thomson Reuters CoCounsel integration — signalling that vertical AI bundling is the next enterprise battleground. On the infrastructure side, NVIDIA and SAP announced joint governance controls for enterprise agents at SAP Sapphire, while French startup White Circle raised $11M from backers across OpenAI, Anthropic, and DeepMind to monitor AI safety in production, underscoring growing enterprise demand for AI observability tooling.",
+  "daily_summary": "Quiet day for frontier-lab news but a busy one for New Zealand. The University of Auckland questioned who actually benefits from Datagrid's planned 'AI factory' data centre near Invercargill, while a Medical Products Bill moves to bring clinical software and AI under a risk-tiered regime — NZ's first real legislative move on AI in healthcare. Globally, NVIDIA shipped NuRec, a reference workflow for turning raw video into queryable agent-driven intelligence.",
   "items": [
+    {
+      "id": "ecae3000dbcf463a",
+      "url": "https://developer.nvidia.com/blog/accelerated-x-ray-analysis-for-nanoscale-imaging-xani-of-novel-materials/",
+      "title": "NVIDIA: Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-13T16:39:20Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "NVIDIA details a CUDA-accelerated pipeline for X-ray free-electron laser data analysis at nanoscale, enabling researchers to track structural and electron dynamics in fusion materials and semiconductors at production rates rather than days-long batches.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/hpc-accelerated-x-ray-analysis.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "9ab085135683d21c",
+      "url": "https://developer.nvidia.com/blog/transform-video-into-instantly-searchable-actionable-intelligence-with-ai-agents-and-skills/",
+      "title": "NVIDIA: Transform Video Into Searchable, Actionable Intelligence with AI Agents and Skills",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-13T15:00:00Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "NVIDIA released NuRec, a reference workflow that combines vision-language models, multimodal embeddings, and an agent runtime to convert raw video archives into queryable knowledge bases. Aimed at security, manufacturing, and media-archive use cases where humans currently scrub footage manually.",
+      "tags": [
+        "Agents",
+        "Content"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/robotics-social-nurec-devpage-kv-li-1600x900-1.webp",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "b420541c3e698bc2",
+      "url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
+      "title": "NVIDIA partners with Ineffable Intelligence to build reinforcement-learning infrastructure",
+      "title_translated": null,
+      "source": "nvidia",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-13T13:00:57Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "NVIDIA and startup Ineffable Intelligence announced a joint effort to build the GPU-accelerated training and inference stack RL agents need to scale beyond toy environments. The partnership ships open primitives for environment-step parallelism and trajectory storage targeting frontier-scale RL workloads.",
+      "tags": [
+        "Models",
+        "Agents"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/agentic-logo-lockup-Ineffable-press-1920x1080-1-scaled.png",
+      "trending_score": 1.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "da37e09becee972a",
+      "url": "https://www.auckland.ac.nz/en/news/2026/05/13/nz-s-ai-data-centre-boom--who-benefits-.html",
+      "title": "University of Auckland: NZ's AI data centre boom — who benefits?",
+      "title_translated": null,
+      "source": "auckland-uni",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-13T12:00:00Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "A University of Auckland piece examines Singapore-based Datagrid's planned 'AI factory' data centre near Invercargill, asking how much of the economic value actually accrues to New Zealand versus flowing to the offshore operator. Frames the project against the global hyperscaler land-grab.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.9865,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "56763959929563c4",
+      "url": "https://www.hinz.org.nz/news/727150/Medical-Products-Bill-to-introduce-risk-based-framework-for-software-and-AI-regulation-.htm",
+      "title": "HINZ: Medical Products Bill introduces risk-based framework for software and AI regulation",
+      "title_translated": null,
+      "source": "hinz",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-13T10:00:00Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "Health Informatics NZ reports the Medical Products Bill will bring software and AI used in clinical settings under a new risk-tiered regulatory regime — New Zealand's first concrete legislative move on AI in healthcare. Vendors and DHB tooling will both fall in scope.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.835,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "474b364b4ce8f649",
+      "url": "https://www.canterbury.ac.nz/news-and-events/news/2026/ai-powered-system-set-to-transform-water-use-for-farmers-",
+      "title": "University of Canterbury: AI-powered system to transform water use for farmers",
+      "title_translated": null,
+      "source": "canterbury-uni",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-13T09:00:00Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "University of Canterbury researchers built an AI-driven soil-moisture monitor designed to optimise irrigation for NZ farmers, reducing water waste on-farm while maintaining yield. Pitched as a practical primary-sector use case rather than a research-only prototype.",
+      "tags": [
+        "Automation"
+      ],
+      "image_url": null,
+      "trending_score": 0.7683,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "19c7cab95b5c2df5",
+      "url": "https://www.1news.co.nz/2026/05/13/ai-songs-top-music-charts-nz-creatives-fear-losing-control",
+      "title": "1News: AI songs top music charts, NZ creatives fear losing control",
+      "title_translated": null,
+      "source": "1news",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-13T08:00:00Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "AI-generated track 'Celebrate Me' hit number one on iTunes both in New Zealand and globally. Local musicians and rights bodies warn that generative-audio tools like Suno are training on their catalogue without consent and that NZ copyright law currently offers them no enforceable claim.",
+      "tags": [
+        "Content",
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.7068,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "id": "fe439172e05cd1ba",
       "url": "https://www.rnz.co.nz/news/national/594967/nzdf-still-drafting-ai-directive-months-after-rollng-out-tech",
@@ -26,7 +162,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.6144,
       "mention_count": 1,
       "related_ids": []
     },
@@ -45,7 +181,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.26,
       "mention_count": 1,
       "related_ids": []
     },
@@ -64,7 +200,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.2392,
       "mention_count": 1,
       "related_ids": []
     },
@@ -83,7 +219,26 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.2295,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "06280a62d3371987",
+      "url": "https://developer.nvidia.com/blog/how-to-eliminate-pipeline-friction-in-ai-model-serving/",
+      "title": "NVIDIA: How to Eliminate Pipeline Friction in AI Model Serving",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-12T18:00:00Z",
+      "first_seen_at": "2026-05-13T18:09:27Z",
+      "summary": "A technical walkthrough of common bottlenecks teams hit moving trained models into production — export formats, hardware mismatches, version skew — with concrete TensorRT, Triton, and CUDA-graph recipes to compress the path from prototype to inference at scale.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1.webp",
+      "trending_score": 0.4402,
       "mention_count": 1,
       "related_ids": []
     },
@@ -102,7 +257,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.4848,
+      "trending_score": 0.0675,
       "mention_count": 1,
       "related_ids": []
     },
@@ -122,7 +277,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/logo-lockup-blog-SAP-1920x1080-1.jpg",
-      "trending_score": 1.0,
+      "trending_score": 0.2787,
       "mention_count": 1,
       "related_ids": []
     },
@@ -141,7 +296,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.8115,
+      "trending_score": 0.113,
       "mention_count": 1,
       "related_ids": []
     },
@@ -161,7 +316,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 1.0,
+      "trending_score": 0.1913,
       "mention_count": 1,
       "related_ids": []
     },
@@ -180,7 +335,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png",
-      "trending_score": 0.6658,
+      "trending_score": 0.0927,
       "mention_count": 1,
       "related_ids": []
     },
@@ -199,7 +354,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.2985,
+      "trending_score": 0.0416,
       "mention_count": 1,
       "related_ids": []
     },
@@ -218,7 +373,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.2527,
+      "trending_score": 0.0352,
       "mention_count": 1,
       "related_ids": []
     },
@@ -237,7 +392,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/data-center-2.webp",
-      "trending_score": 0.4946,
+      "trending_score": 0.0689,
       "mention_count": 1,
       "related_ids": []
     },
@@ -257,7 +412,7 @@
         "Agents"
       ],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/33wbWUELa8LqPj0SZWOxeL/86a395af69191bb11da7342b92a803d9/How_enterprises_are_scaling_AI.png?w=1600&h=900&fit=fill",
-      "trending_score": 0.2197,
+      "trending_score": 0.0306,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "branded_card"
@@ -278,7 +433,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.2306,
+      "trending_score": 0.0321,
       "mention_count": 3,
       "related_ids": []
     },
@@ -298,7 +453,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp",
-      "trending_score": 0.1574,
+      "trending_score": 0.0219,
       "mention_count": 1,
       "related_ids": []
     },
@@ -317,7 +472,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/26-cmu-commencement-20-KL_-13_16x9-scaled.jpg",
-      "trending_score": 0.0809,
+      "trending_score": 0.0113,
       "mention_count": 1,
       "related_ids": []
     },
@@ -336,7 +491,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0342,
+      "trending_score": 0.0048,
       "mention_count": 1,
       "related_ids": []
     },
@@ -355,7 +510,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0137,
+      "trending_score": 0.0019,
       "mention_count": 1,
       "related_ids": []
     },
@@ -375,7 +530,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
-      "trending_score": 0.0079,
+      "trending_score": 0.0011,
       "mention_count": 1,
       "related_ids": []
     },
@@ -395,7 +550,7 @@
         "Content"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0008,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -415,7 +570,7 @@
         "Models"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -436,7 +591,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.002,
+      "trending_score": 0.0003,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -456,7 +611,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 0.0035,
+      "trending_score": 0.0005,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -476,7 +631,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.0012,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -496,7 +651,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-voice-think-fast-1/opengraph-image-civ86w.png?046ff02f66357bd7",
-      "trending_score": 0.0017,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -516,7 +671,7 @@
         "Models"
       ],
       "image_url": "/images/logos/meta.svg",
-      "trending_score": 0.0017,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -537,7 +692,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/anthropic.svg",
-      "trending_score": 0.0013,
+      "trending_score": 0.0002,
       "mention_count": 3,
       "related_ids": [],
       "image_source": "logo"
@@ -558,7 +713,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b.png",
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -578,7 +733,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/person-desk-three-computers.jpg",
-      "trending_score": 0.0013,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -597,7 +752,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/zw0eFl6MyYg-hmcPSBfYw.png",
-      "trending_score": 0.0011,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -617,7 +772,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/02/MoE-nvidia-technical-blog.png",
-      "trending_score": 0.0011,
+      "trending_score": 0.0002,
       "mention_count": 2,
       "related_ids": []
     },
@@ -637,7 +792,7 @@
         "Automation"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
-      "trending_score": 0.001,
+      "trending_score": 0.0001,
       "mention_count": 2,
       "related_ids": []
     },
@@ -657,7 +812,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0007,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -677,7 +832,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/logo-lockup-codex-tech-blog-v-1920x1080-5175350.png",
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -697,7 +852,7 @@
         "Coding"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/medqa",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -717,7 +872,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -736,7 +891,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -755,7 +910,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/nvidia-gb200-nvl72.webp",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": [],
       "image_source": "branded_card"
@@ -776,7 +931,7 @@
         "Coding"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/cube-column.webp",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -816,7 +971,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2019/06/DC-skyline.jpg",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -836,7 +991,7 @@
         "Models"
       ],
       "image_url": "https://x.ai/news/grok-imagine-quality-mode/opengraph-image-efrhnk.png?82c9f5ad48211444",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -856,7 +1011,7 @@
         "Automation"
       ],
       "image_url": "https://x.ai/news/grok-connectors/opengraph-image-1dejzx.png?c4a30430a6130720",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -918,7 +1073,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/NVIDIA-NCCL-Inspector-Real-Time-Performance-Monitoring.webp",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "branded_card"
@@ -938,7 +1093,7 @@
         "Models"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/583339165_852765810541557_5592130597432767690_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=mJxE5IB6sh4Q7kNvwFMKSJy&_nc_oc=AdqSp6KzpSTPxin3MWV-S9W2b1ekh8wk7_iQh8uGJt-xWBAsSOWMBbBn8bOQAfi74eY&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=b6TjHUgPWNF9U46GhumHMg&_nc_ss=7920f&oh=00_Af4e2Uf8JnoN7KoqC2q99fSY6OZ3w1sZw2m8Xqn1V450CA&oe=6A186A21",
-      "trending_score": 0.0002,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -979,7 +1134,7 @@
         "Agents"
       ],
       "image_url": "https://scontent.fakl2-1.fna.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=zhaYfDvOf30Q7kNvwF7VWNX&_nc_oc=Adq0gDSHUIHA8SK5O5FOMJnK3B_eHqGBZPCCaSwy3Lk1690gLL01WSPfplO1idSvSAA&_nc_zt=14&_nc_ht=scontent.fakl2-1.fna&_nc_gid=fJu1SXYAzRssae2fGDxo5Q&_nc_ss=7920f&oh=00_Af4PTLEKCjn46ePiXMAo6xuGoSbAn8qGjYT_7dlEgF9wkQ&oe=6A186BEC",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -999,7 +1154,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1039,7 +1194,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1059,7 +1214,7 @@
         "Automation"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1079,7 +1234,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -1099,7 +1254,7 @@
         "Agents"
       ],
       "image_url": "https://x.ai/news/grok-4-1-fast/opengraph-image-1m6qpu.png?27737abbfc2fbd4a",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 2,
       "related_ids": []
     },
@@ -1119,7 +1274,7 @@
         "Content"
       ],
       "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 4,
       "related_ids": []
     },
@@ -2650,266 +2805,6 @@
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
-    },
-    {
-      "id": "565ca109c9e02f51",
-      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
-      "title": "AI evals are becoming the new compute bottleneck",
-      "title_translated": null,
-      "source": "huggingface",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-29T16:45:09Z",
-      "first_seen_at": "2026-04-29T18:07:21Z",
-      "summary": "Hugging Face researchers argue that as model training costs fall, evaluation costs are emerging as the dominant compute bottleneck. Running rigorous evals at scale now consumes more compute than training for some use cases, prompting a rethink of eval efficiency, tooling, and benchmark design across the industry.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png",
-      "trending_score": 0.0,
-      "mention_count": 3,
-      "related_ids": []
-    },
-    {
-      "id": "3ea9b02b0083101a",
-      "url": "https://developer.nvidia.com/blog/powering-ai-factories-with-nvidia-enterprise-reference-architectures/",
-      "title": "Powering AI Factories with NVIDIA Enterprise Reference Architectures",
-      "title_translated": null,
-      "source": "nvidia-dev",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-29T16:41:57Z",
-      "first_seen_at": "2026-04-29T18:07:21Z",
-      "summary": "NVIDIA publishes enterprise reference architectures for AI factories — validated hardware-software blueprints for deploying agentic AI systems at scale with reliability and performance guarantees. The designs target organisations building production AI infrastructure for reasoning, automation, and intelligent decision-making workloads.",
-      "tags": [
-        "Agents",
-        "Automation"
-      ],
-      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/AI-Factory.webp",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "3fdfbee0f4329f1f",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-      "title": "Granite 4.1 LLMs: How They're Built",
-      "title_translated": null,
-      "source": "huggingface",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-29T15:01:48Z",
-      "first_seen_at": "2026-04-29T18:07:21Z",
-      "summary": "IBM shares training details for the Granite 4.1 LLM series, covering architecture, dataset curation, and alignment techniques. The post emphasises reliability and factual accuracy for enterprise business applications, positioning Granite as a controllable, enterprise-safe alternative to frontier consumer models.",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/ibm-granite/granite-4-1.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_source": "branded_card"
-    },
-    {
-      "id": "34a4bb57aecfc359",
-      "url": "https://x.com/OfficialLoganK/status/2049521160430457315",
-      "title": "Google AI Studio adds multi-chat sessions and integrated Search Grounding for the Gemini API",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-29T08:00:00Z",
-      "first_seen_at": "2026-04-29T18:11:07.721289Z",
-      "summary": "Google AI Studio now supports running parallel Gemini chat sessions side-by-side, and Search Grounding is integrated directly into the Gemini API. Logan Kilpatrick teased more launches before Google I/O.",
-      "tags": [
-        "Models",
-        "Coding"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "180302e63d71fe71",
-      "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "title": "Cybersecurity in the Intelligence Age",
-      "title_translated": null,
-      "source": "openai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-29T04:00:00Z",
-      "first_seen_at": "2026-04-29T18:07:21Z",
-      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity using AI: democratising AI-powered cyber defence, protecting critical systems, combating adversarial AI use, building international norms, and partnering with governments. The post frames AI as both a threat vector and the primary defence tool for the intelligence era.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "id": "dc3bdc358a297d10",
-      "url": "https://x.com/OfficialLoganK/status/2049358795055546642",
-      "title": "Google launches Grounding With Exa for Gemini — agentic web search across billions of pages, partnership with Exa Labs",
-      "title_translated": null,
-      "source": "OfficialLoganK",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-29T04:00:00Z",
-      "first_seen_at": "2026-04-29T18:11:07.721289Z",
-      "summary": "Google partnered with Exa Labs to ship \"Grounding With Exa\" inside Gemini, giving Gemini agentic web search across billions of indexed sites. Aimed at Gemini API developers building agents that need broad web retrieval.",
-      "tags": [
-        "Agents",
-        "Models"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "82356b62524ebed4",
-      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
-      "title": "DeepInfra on Hugging Face Inference Providers",
-      "title_translated": null,
-      "source": "huggingface",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-29T00:00:00Z",
-      "first_seen_at": "2026-04-29T18:07:21Z",
-      "summary": "Hugging Face adds DeepInfra as an official inference provider, giving users direct access to a wide catalog of open models via DeepInfra's infrastructure from the HF hub. This extends the inference ecosystem alongside existing partners like Together AI and Fireworks AI, simplifying multi-provider model deployment.",
-      "tags": [
-        "Models",
-        "Automation"
-      ],
-      "image_url": "https://huggingface.co/blog/assets/inference-providers/welcome-deepinfra.jpg",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "b9a193c338d03faa",
-      "url": "https://www.rnz.co.nz/news/business/593697/tuanz-seeks-bold-leadership-from-government-over-ai-worker-training-national-framework",
-      "title": "TUANZ launches 2026 Digital Priorities Report: warns NZ innovation gap widening, urges national AI workforce framework",
-      "title_translated": null,
-      "source": "rnz.co.nz",
-      "source_tier": 2,
-      "region": "nz",
-      "published_at": "2026-04-29T00:00:00Z",
-      "first_seen_at": "2026-04-29T18:11:07.721289Z",
-      "summary": "TUANZ released its 2026 Digital Priorities Report calling on government to lead on AI worker training, mandatory cybersecurity standards treating AI as digital employees under zero-trust, a national digital clearing house, and national digital ID. Report warns NZ has dropped to 23rd in the Network Readiness Index and that \"Shadow AI\" is expanding the attack surface.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "3ffd03977d2b7ee2",
-      "url": "http://www.techmeme.com/260428/p42#a260428p42",
-      "title": "Musk testifies in OpenAI trial: 'it is not okay to steal a charity'; judge warns both sides on social media",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-28T21:20:00Z",
-      "first_seen_at": "2026-04-28T21:54:08Z",
-      "summary": "Elon Musk took the witness stand in the federal trial against OpenAI, arguing its nonprofit-to-for-profit conversion sets a dangerous precedent for charitable organisations. The presiding judge separately warned both Musk and Sam Altman to 'control your propensity to use social media to make things worse outside this courtroom'.",
-      "tags": [
-        "Governance"
-      ],
-      "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "id": "91ed947acf2ac2d2",
-      "url": "http://www.techmeme.com/260428/p37#a260428p37",
-      "title": "China unveils Lingshen supercomputer targeting 2+ exaFLOPS using domestic CPU-only architecture",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "cn",
-      "published_at": "2026-04-28T20:05:00Z",
-      "first_seen_at": "2026-04-28T21:54:08Z",
-      "summary": "China's National Supercomputing Center in Shenzhen unveiled the Lingshen project, aiming for over 2 exaFLOPS of performance using exclusively domestically manufactured processors. The initiative is part of China's wider effort to build sovereign AI compute infrastructure independent of NVIDIA and other US suppliers.",
-      "tags": [
-        "Models",
-        "Governance"
-      ],
-      "image_url": "/images/logos/nvidia.svg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "id": "a6667f2f9dae6746",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
-      "title": "NVIDIA launches Nemotron 3 Nano Omni: unified vision, audio, and language model with 9x agent throughput",
-      "title_translated": null,
-      "source": "nvidia",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-28T20:00:00Z",
-      "first_seen_at": "2026-04-28T21:54:08Z",
-      "summary": "NVIDIA released Nemotron 3 Nano Omni, an open multimodal model that handles screens, documents, audio, video, and text within a single integrated reasoning loop. NVIDIA claims 9x higher throughput than comparable open omni models, targeting AI agent applications that previously required multiple fragmented model chains.",
-      "tags": [
-        "Models",
-        "Agents"
-      ],
-      "image_url": "/images/logos/nvidia.svg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "id": "47b3958d8435aa0d",
-      "url": "https://developer.nvidia.com/blog/scaling-biomolecular-modeling-using-context-parallelism-in-nvidia-bionemo/",
-      "title": "Scaling Biomolecular Modeling Using Context Parallelism in NVIDIA BioNeMo",
-      "title_translated": null,
-      "source": "nvidia-dev",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-28T19:00:00Z",
-      "first_seen_at": "2026-04-29T18:07:21Z",
-      "summary": "NVIDIA BioNeMo adopts context parallelism to scale biomolecular modeling across multiple GPUs, enabling longer protein sequences and more complex biological structures than single-GPU memory permits. The approach distributes attention computation across devices, pushing the frontier for AI-driven drug discovery workloads.",
-      "tags": [
-        "Models"
-      ],
-      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/biomolecule-1.webp",
-      "trending_score": 0.0,
-      "mention_count": 2,
-      "related_ids": []
-    },
-    {
-      "id": "0c470e4ec924a0e0",
-      "url": "http://www.techmeme.com/260428/p36#a260428p36",
-      "title": "Sources: Apple plans on-device AI photo overhaul for iOS 27 — extend, enhance, and reframe using local models",
-      "title_translated": null,
-      "source": "techmeme",
-      "source_tier": 2,
-      "region": "us",
-      "published_at": "2026-04-28T18:30:00Z",
-      "first_seen_at": "2026-04-28T21:54:08Z",
-      "summary": "Apple is overhauling iOS 27's Photos app with on-device AI models capable of extending scene boundaries, enhancing image quality, and reframing compositions without cloud processing. The initiative targets competitive parity with Android's AI photography features while preserving privacy.",
-      "tags": [
-        "Content",
-        "Models"
-      ],
-      "image_url": null,
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
     }
   ]
 }
