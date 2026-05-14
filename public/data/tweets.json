@@ -1,4 +1,137 @@
 {
-  "generated_at": "2026-05-13T18:09:27Z",
-  "tweets": []
+  "generated_at": "2026-05-14T18:10:43.912288Z",
+  "tweets": [
+    {
+      "id": "2054917146510233604",
+      "handle": "anujcodes_21",
+      "author_name": "Anuj",
+      "url": "https://x.com/anujcodes_21/status/2054917146510233604",
+      "text": "Anthropic's free 28-minute workshop on advanced Claude prompting is better than most paid courses. Watch it now.",
+      "published_at": "2026-05-14T08:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054975360941359258",
+      "handle": "Polymarket",
+      "author_name": "Polymarket",
+      "url": "https://x.com/Polymarket/status/2054975360941359258",
+      "text": "Anthropic launches $200M AI partnership with the Gates Foundation focused on health and education.",
+      "published_at": "2026-05-14T15:20:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054983194936582434",
+      "handle": "Polymarket",
+      "author_name": "Polymarket",
+      "url": "https://x.com/Polymarket/status/2054983194936582434",
+      "text": "OpenAI is reportedly preparing legal action against Apple over their strained Siri partnership.",
+      "published_at": "2026-05-14T16:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054972276756365637",
+      "handle": "9to5mac",
+      "author_name": "9to5Mac",
+      "url": "https://x.com/9to5mac/status/2054972276756365637",
+      "text": "Report: OpenAI weighing legal action against Apple over the strained Siri/ChatGPT integration.",
+      "published_at": "2026-05-14T15:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054972944645009651",
+      "handle": "cb_doge",
+      "author_name": "DogeDesigner",
+      "url": "https://x.com/cb_doge/status/2054972944645009651",
+      "text": "Class-action lawsuit hits OpenAI: alleges ChatGPT shared user data with Google and Meta via tracking pixels.",
+      "published_at": "2026-05-14T15:05:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054967649914822805",
+      "handle": "WhaleInsider",
+      "author_name": "Whale Insider",
+      "url": "https://x.com/WhaleInsider/status/2054967649914822805",
+      "text": "OpenAI considering legal action against Apple, citing unmet partnership expectations.",
+      "published_at": "2026-05-14T14:45:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054956845836423175",
+      "handle": "SocketSecurity",
+      "author_name": "Socket",
+      "url": "https://x.com/SocketSecurity/status/2054956845836423175",
+      "text": "Our AI scanner detected malware injected into the popular npm package node-ipc within minutes of publication.",
+      "published_at": "2026-05-14T14:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054941785495896442",
+      "handle": "Cointelegraph",
+      "author_name": "Cointelegraph",
+      "url": "https://x.com/Cointelegraph/status/2054941785495896442",
+      "text": "WSJ: Anthropic's Mythos AI uncovered macOS security flaws that bypass Apple's protections.",
+      "published_at": "2026-05-14T13:00:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054975534539370708",
+      "handle": "skirano",
+      "author_name": "Pietro Schirano",
+      "url": "https://x.com/skirano/status/2054975534539370708",
+      "text": "MagicPath 2.0 is live: multiplayer canvas where humans and AI agents (Claude, Codex) build prototypes together in real time.",
+      "published_at": "2026-05-14T15:25:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054979238605054036",
+      "handle": "MechanizeWork",
+      "author_name": "Mechanize",
+      "url": "https://x.com/MechanizeWork/status/2054979238605054036",
+      "text": "Frontier AI coding benchmark: GPT-5.5 leads in building a Game Boy Advance emulator from scratch; Claude and Gemini close behind.",
+      "published_at": "2026-05-14T15:40:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054969782282183152",
+      "handle": "AnthropicAI",
+      "author_name": "Anthropic",
+      "url": "https://x.com/AnthropicAI/status/2054969782282183152",
+      "text": "New: a free 28-minute workshop on advanced Claude prompting, taught by our prompt engineers.",
+      "published_at": "2026-05-14T14:50:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    },
+    {
+      "id": "2054957919469461547",
+      "handle": "alliekmiller",
+      "author_name": "Allie K. Miller",
+      "url": "https://x.com/alliekmiller/status/2054957919469461547",
+      "text": "AI agent anatomy: brain (LLM), planning, tools, memory, loop, guardrails. It's basically a while-loop with intelligence.",
+      "published_at": "2026-05-14T14:05:00Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "reply_count": 0
+    }
+  ]
 }
