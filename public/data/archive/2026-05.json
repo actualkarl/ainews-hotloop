@@ -1,4 +1,5 @@
 {
+  "month": "2026-05",
   "items": [
     {
       "id": "db67618a1fb2f432",
@@ -22,7 +23,7 @@
     {
       "id": "e59e6f351c8b5541",
       "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals/",
-      "title": "Microsoft adjusts GitHub Copilot plans and pricing — Opus 4.7 restricted to Pro+",
+      "title": "Microsoft adjusts GitHub Copilot plans and pricing \u2014 Opus 4.7 restricted to Pro+",
       "title_translated": null,
       "source": "techmeme",
       "source_tier": 2,
@@ -121,7 +122,7 @@
     {
       "id": "f8363d42b74365e2",
       "url": "https://www.latent.space/p/noetik",
-      "title": "Training Transformers to solve 95% failure rate of Cancer Trials — Noetik",
+      "title": "Training Transformers to solve 95% failure rate of Cancer Trials \u2014 Noetik",
       "title_translated": null,
       "source": "latent-space",
       "source_tier": 2,
@@ -167,7 +168,7 @@
       "region": "us",
       "published_at": "2026-04-20T14:00:00Z",
       "first_seen_at": "2026-04-21T06:22:26.022873Z",
-      "summary": "François Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics — echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
+      "summary": "Fran\u00e7ois Chollet argues AI coding tools like LLMs shift jobs toward higher-complexity work rather than eliminating them, driven by competitive advantage dynamics \u2014 echoing Aaron Levie's view that AI raises the floor for what developers tackle.",
       "tags": [
         "Governance"
       ],
@@ -389,7 +390,7 @@
       "region": "nz",
       "published_at": "2026-04-20T22:00:00Z",
       "first_seen_at": "2026-04-21T03:01:52Z",
-      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute — the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
+      "summary": "A New Zealand tenant relied on an AI assistant to calculate her rental bond dispute \u2014 the AI suggested a $40,000 claim; the Tenancy Tribunal awarded $80. The case is circulating as a cautionary example of LLM hallucination risk in legal contexts.",
       "tags": [
         "Governance"
       ],
@@ -497,6 +498,47 @@
       "mention_count": 1,
       "related_ids": [],
       "image_url": "https://static.simonwillison.net/static/2026/image-fc93bd-q100.jpg"
+    },
+    {
+      "id": "bdc3ad0f7ec5d0fa",
+      "url": "https://x.ai/news/grok-custom-voices",
+      "title": "Custom Voices and Voice Library",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-01T17:37:57Z",
+      "first_seen_at": "2026-05-01T18:09:22.052015Z",
+      "summary": "xAI has launched custom voice creation and a Voice Library for Grok, enabling users to design personalised AI voices and select from curated voice options for text-to-speech and interactive applications.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://x.ai/news/grok-custom-voices/opengraph-image-1dmibn.png?090657c897727150",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "09bf4382e37b388d",
+      "url": "https://www.rbnz.govt.nz/hub/publications/analytical-note/2026/assessing-ai-and-robotics-exposure-in-the-nz-labour-market-using-llms",
+      "title": "RBNZ: Assessing AI and Robotics Exposure in the New Zealand Labour Market Using LLMs",
+      "title_translated": null,
+      "source": "rbnz",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-05-01T00:00:00Z",
+      "first_seen_at": "2026-05-06T18:15:21.917326Z",
+      "summary": "Reserve Bank of New Zealand published research using LLMs to measure AI and robotics exposure across NZ occupations. Highest exposure falls on professional, managerial, and administrative roles at middle-to-upper income levels; methodology maps task-level vulnerability using LLM-based scoring rather than prior O*NET-style surveys.",
+      "tags": [
+        "Governance",
+        "Automation"
+      ],
+      "image_url": "/images/logos/rbnz.svg",
+      "trending_score": 0.0,
+      "mention_count": 1,
+      "related_ids": [],
+      "image_source": "logo"
     }
   ]
 }

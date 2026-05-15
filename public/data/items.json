@@ -1,16 +1,173 @@
 {
-  "generated_at": "2026-05-14T18:10:09.453952Z",
-  "next_refresh_at": "2026-05-15T18:00:00Z",
-  "schedule": "daily 06:00 NZT",
+  "generated_at": "2026-05-15T18:12:31.030Z",
+  "next_refresh_at": "2026-05-16T01:00:00Z",
+  "schedule": "twice daily 06:00 + 13:00 NZT",
   "newsflash": [
-    "39638dd1f1e95054",
-    "e75599732a196da2",
-    "c3d82ed59d77535b",
-    "f0537f300adc048d",
-    "d6f6970b30183c40"
+    "876e492c0fa01820",
+    "baeb7ae75753a1c1",
+    "7c9e6db472dd3de9",
+    "ff9a42787c4e98e8",
+    "071ef486161ea852"
   ],
-  "daily_summary": "Anthropic dominated Thursday with two announcements: a $200 million partnership with the Gates Foundation to push Claude into global health and education, and a Wall Street Journal scoop on its Mythos research agent finding macOS flaws that bypass Apple's defences. OpenAI is reportedly weighing legal action against Apple over the strained Siri/ChatGPT deal, and is separately facing a class action over tracking pixels in ChatGPT. NVIDIA shipped Nemotron 3 Nano Omni, a unified vision-audio-language model for agent workloads.",
+  "daily_summary": "OpenAI extended Codex to the ChatGPT mobile app, letting users steer agent runs from their phone while the work continues on a laptop or devbox. xAI shipped two consequential launches: a coding CLI (Grok Build Early Beta) and commercial Grok Speech-to-Text and Text-to-Speech APIs priced beneath comparable Whisper-class tiers. Inside Aotearoa, a Crown briefing released to the NZ Herald flagged generative AI risks to Maori cultural sovereignty, while the Beehive announced extra funding to help small businesses adopt AI tools.",
   "items": [
+    {
+      "id": "d483d378f3d0313d",
+      "url": "https://www.thepress.co.nz/nz-news/361003606/how-ai-slop-threatening-integrity-upcoming-general-election",
+      "title": "The Press: AI-generated content threatens integrity of NZ general election",
+      "title_translated": null,
+      "source": "thepress",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-15T05:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "The Press reports a rise in AI-generated fake images, sites and videos of NZ politicians ahead of the general election, citing examples voters are struggling to distinguish from real material. The piece quotes researchers calling for clearer attribution rules and platform takedown processes.",
+      "tags": [
+        "Governance",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.5482,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "36cacc685c2dcd2b",
+      "url": "https://campaignbrief.co.nz/2026/05/15/ideally-acquires-ai-startup-aether-to-turn-research-into-ready-to-share-decks",
+      "title": "Ideally acquires NZ AI startup Aether to auto-generate research decks",
+      "title_translated": null,
+      "source": "campaignbrief",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-15T04:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "Market research platform Ideally has acquired Aotearoa AI startup Aether, which converts raw research data into branded, ready-to-share decks. The deal absorbs Aether’s automation pipeline into Ideally’s core product.",
+      "tags": [
+        "Automation",
+        "Content"
+      ],
+      "image_url": null,
+      "trending_score": 0.5043,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "bfbd1f45ace91554",
+      "url": "https://www.nzherald.co.nz/nz/politics/government-briefing-flags-ai-risks-for-maori-culture-stories-and-data/Y7RSEKDK5BDJFNR42XYNLZ3XAI",
+      "title": "NZ Herald: Government briefing flags AI risks to Maori culture, stories and data",
+      "title_translated": null,
+      "source": "nzherald",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-15T03:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "A government briefing obtained by the NZ Herald warns that generative AI poses material risks to Maori cultural sovereignty, including misuse of stories, language and identifiable data. Officials flagged the gap between current Crown AI guidance and Maori data governance expectations.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.464,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "db34d69038fcfcbd",
+      "url": "https://www.beehive.govt.nz/release/more-kiwi-businesses-get-ai-support",
+      "title": "NZ government expands AI support funding for small businesses",
+      "title_translated": null,
+      "source": "beehive",
+      "source_tier": 1,
+      "region": "nz",
+      "published_at": "2026-05-15T02:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "The New Zealand government announced extra funding to help more small businesses adopt AI tools, and pointed to two new AI offerings from Business Mentors New Zealand. The release positions the spend as part of MBIE’s broader AI strategy for private-sector adoption.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.8538,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "35d7b69e81c9c561",
+      "url": "https://thespinoff.co.nz/business/15-05-2026/why-this-ai-data-centre-might-be-new-zealands-most-important-climate-project",
+      "title": "Spinoff: Datagrid NZ data centre framed as a climate win versus offshore build",
+      "title_translated": null,
+      "source": "thespinoff",
+      "source_tier": 2,
+      "region": "nz",
+      "published_at": "2026-05-15T01:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "The Spinoff argues Datagrid’s proposed Southland AI data centre would emit far less than an equivalent facility in China, with the gap equivalent to taking around half a million cars off the road each year. Karl-relevant given the ongoing local debate over who actually benefits from the NZ data centre buildout.",
+      "tags": [
+        "Governance"
+      ],
+      "image_url": null,
+      "trending_score": 0.3928,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "baeb7ae75753a1c1",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "title": "OpenAI previews a personal finance experience in ChatGPT",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-15T00:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "OpenAI is rolling out a personal finance preview to ChatGPT Pro users in the US. Subscribers can securely link bank, brokerage and credit accounts to get AI-summarised cashflow, spending breakdowns and tax-aware suggestions inside the chat interface.",
+      "tags": [
+        "Content",
+        "Automation"
+      ],
+      "image_url": "https://openai.com/images/og/openai-logo.png",
+      "trending_score": 0.7227,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ff9a42787c4e98e8",
+      "url": "https://x.ai/news/grok-stt-and-tts-apis",
+      "title": "xAI ships Grok Speech-to-Text and Text-to-Speech APIs",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T22:30:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "xAI publishes commercial Grok speech APIs covering streaming STT and TTS with voice cloning. Pricing is positioned beneath comparable OpenAI and ElevenLabs tiers, with API parity for the major Whisper-style endpoints.",
+      "tags": [
+        "Models",
+        "Content"
+      ],
+      "image_url": "https://x.ai/og-image.png",
+      "trending_score": 0.6378,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "7c9e6db472dd3de9",
+      "url": "https://x.ai/news/grok-build-cli",
+      "title": "xAI launches Grok Build Early Beta coding CLI",
+      "title_translated": null,
+      "source": "xai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T22:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "xAI ships an early beta of Grok Build, a command-line coding agent comparable in surface area to Claude Code and Codex CLI. It runs locally, edits files in place and is initially available to Grok Heavy subscribers.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "image_url": "https://x.ai/og-image.png",
+      "trending_score": 0.6118,
+      "mention_count": 1,
+      "related_ids": []
+    },
     {
       "url": "https://channellife.co.nz/story/boomi-red-hat-team-up-for-agentic-ai-stack",
       "title": "Boomi and Red Hat partner on agentic AI stack targeting NZ enterprises",
@@ -29,7 +186,46 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.3059
+    },
+    {
+      "id": "326607290d218cfb",
+      "url": "https://openai.com/index/sea-david-chen",
+      "title": "Sea Limited deploys OpenAI Codex across engineering teams",
+      "title_translated": null,
+      "source": "openai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T20:30:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "Sea Limited CPO David Chen describes rolling out Codex across Shopee and Garena engineering teams to accelerate AI-native development in Southeast Asia. The case study covers internal adoption mechanics, review workflows and the productivity numbers Sea is publishing.",
+      "tags": [
+        "Coding"
+      ],
+      "image_url": "https://openai.com/images/og/openai-logo.png",
+      "trending_score": 0.5399,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "876e492c0fa01820",
+      "url": "https://x.com/OpenAI/status/2055016850849993072",
+      "title": "OpenAI previews Codex inside the ChatGPT mobile app",
+      "title_translated": null,
+      "source": "OpenAI",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T20:06:12Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "OpenAI is previewing Codex inside the ChatGPT mobile app: users can start new coding work, review outputs, steer execution and approve next steps from their phone while the agent keeps running on a laptop, Mac mini or devbox. Greg Brockman framed it as a step toward universal agent usage.",
+      "tags": [
+        "Coding",
+        "Agents"
+      ],
+      "image_url": "https://unavatar.io/twitter/OpenAI",
+      "trending_score": 0.6591,
+      "mention_count": 2,
+      "related_ids": []
     },
     {
       "url": "https://www.rnz.co.nz/news/business/595187/nz-s-approach-to-ai-continues-to-favour-slop-over-substance",
@@ -48,7 +244,27 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.2589
+    },
+    {
+      "id": "cb7236bf370ab3a3",
+      "url": "https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/",
+      "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI Scale-Up",
+      "title_translated": null,
+      "source": "nvidia-dev",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T19:24:35Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "NVIDIA details how the Vera Rubin platform handles non-deterministic agent inference, where action trajectories vary by run. The blog covers KV-cache management, speculative decoding paths and scheduler changes designed for multi-step tool-using agents at production scale.",
+      "tags": [
+        "Agents",
+        "Models"
+      ],
+      "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/vera-rubin-agentic-ai.jpg",
+      "trending_score": 0.493,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "url": "https://www.insurancebusinessmag.com/nz/news/breaking-news/ai-push-puts-human-judgement-back-at-the-centre-of-insurance-575235.aspx",
@@ -68,7 +284,65 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.2382
+    },
+    {
+      "id": "071ef486161ea852",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context",
+      "title_translated": null,
+      "source": "huggingface",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T18:55:01Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "IBM releases Granite Embedding R2, an Apache 2.0 multilingual embedding family supporting 32K context across 17 languages. The release targets enterprise retrieval workloads with improved multilingual recall and matches or beats prior open embedding baselines on MIRACL.",
+      "tags": [
+        "Models"
+      ],
+      "image_url": "https://huggingface.co/blog/assets/ibm-granite/granite-embedding-multilingual-r2/thumbnail.png",
+      "trending_score": 0.4732,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "3dd84bd3646c7e72",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
+      "title": "NVIDIA highlights self-improving agents on RTX PCs and DGX Spark",
+      "title_translated": null,
+      "source": "nvidia-genai",
+      "source_tier": 1,
+      "region": "us",
+      "published_at": "2026-05-14T17:00:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "NVIDIA shows Nous Research’s self-improving agent stack running on consumer RTX PCs and DGX Spark workstations. The piece walks through tool-use loops, local fine-tuning passes and how desktop hardware now handles workflows that previously needed cloud GPUs.",
+      "tags": [
+        "Agents"
+      ],
+      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/hermes-rtx-ai-garage.jpg",
+      "trending_score": 0.4033,
+      "mention_count": 1,
+      "related_ids": []
+    },
+    {
+      "id": "ab3fc2137889e4f0",
+      "url": "https://x.com/AndrewYNg/status/2054964560403300359",
+      "title": "Andrew Ng launches Transformers in Practice course with AMD",
+      "title_translated": null,
+      "source": "AndrewYNg",
+      "source_tier": 3,
+      "region": "us",
+      "published_at": "2026-05-14T16:43:00Z",
+      "first_seen_at": "2026-05-15T18:12:31.030Z",
+      "summary": "DeepLearning.AI’s new Transformers in Practice course, taught by Sharon Zhou and produced with AMD, walks through token-by-token generation, attention, quantization and inference optimisation. Aimed at developers who want intuition for transformer behaviour and deployment trade-offs.",
+      "tags": [
+        "Skills",
+        "Models"
+      ],
+      "image_url": "https://unavatar.io/twitter/AndrewYNg",
+      "trending_score": 0.0656,
+      "mention_count": 1,
+      "related_ids": []
     },
     {
       "url": "https://www.anthropic.com/news/claude-prompting-workshop-2026",
@@ -87,7 +361,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.3711
     },
     {
       "url": "https://www.anthropic.com/news/gates-foundation-partnership",
@@ -107,7 +381,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.3414
     },
     {
       "url": "https://9to5mac.com/2026/05/14/openai-considers-legal-action-apple-siri-partnership/",
@@ -127,7 +401,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.1445
     },
     {
       "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
@@ -147,7 +421,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.2659
     },
     {
       "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
@@ -167,7 +441,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 1.0
+      "trending_score": 0.255
     },
     {
       "url": "https://www.wsj.com/tech/ai/anthropic-mythos-ai-macos-security-flaws-2026",
@@ -187,7 +461,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 0.8342
+      "trending_score": 0.1125
     },
     {
       "url": "https://www.classaction.org/news/openai-faces-class-action-over-chatgpt-tracking-pixels-2026-05",
@@ -206,7 +480,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 0.7675
+      "trending_score": 0.1035
     },
     {
       "url": "https://socket.dev/blog/node-ipc-malware-detected-2026-05-14",
@@ -226,7 +500,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 0.7362
+      "trending_score": 0.0993
     },
     {
       "url": "https://huggingface.co/blog/continuous_async",
@@ -246,7 +520,7 @@
       "mention_count": 1,
       "related_ids": [],
       "title_translated": null,
-      "trending_score": 0.7251
+      "trending_score": 0.0978
     },
     {
       "id": "ecae3000dbcf463a",
@@ -263,7 +537,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/hpc-accelerated-x-ray-analysis.webp",
-      "trending_score": 0.3932,
+      "trending_score": 0.053,
       "mention_count": 1,
       "related_ids": []
     },
@@ -283,7 +557,7 @@
         "Content"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/robotics-social-nurec-devpage-kv-li-1600x900-1.webp",
-      "trending_score": 0.3425,
+      "trending_score": 0.0462,
       "mention_count": 1,
       "related_ids": []
     },
@@ -303,7 +577,7 @@
         "Agents"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/agentic-logo-lockup-Ineffable-press-1920x1080-1-scaled.png",
-      "trending_score": 0.2903,
+      "trending_score": 0.0392,
       "mention_count": 1,
       "related_ids": []
     },
@@ -322,7 +596,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1334,
+      "trending_score": 0.018,
       "mention_count": 1,
       "related_ids": []
     },
@@ -341,7 +615,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.1129,
+      "trending_score": 0.0152,
       "mention_count": 1,
       "related_ids": []
     },
@@ -360,7 +634,7 @@
         "Automation"
       ],
       "image_url": null,
-      "trending_score": 0.1039,
+      "trending_score": 0.014,
       "mention_count": 1,
       "related_ids": []
     },
@@ -380,7 +654,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0956,
+      "trending_score": 0.0129,
       "mention_count": 1,
       "related_ids": []
     },
@@ -399,7 +673,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0831,
+      "trending_score": 0.0112,
       "mention_count": 1,
       "related_ids": []
     },
@@ -418,7 +692,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0352,
+      "trending_score": 0.0047,
       "mention_count": 1,
       "related_ids": []
     },
@@ -437,7 +711,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0323,
+      "trending_score": 0.0044,
       "mention_count": 1,
       "related_ids": []
     },
@@ -456,7 +730,7 @@
         "Content"
       ],
       "image_url": null,
-      "trending_score": 0.031,
+      "trending_score": 0.0042,
       "mention_count": 1,
       "related_ids": []
     },
@@ -475,7 +749,7 @@
         "Models"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1.webp",
-      "trending_score": 0.0595,
+      "trending_score": 0.008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -494,7 +768,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0091,
+      "trending_score": 0.0012,
       "mention_count": 1,
       "related_ids": []
     },
@@ -514,7 +788,7 @@
         "Governance"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/logo-lockup-blog-SAP-1920x1080-1.jpg",
-      "trending_score": 0.0377,
+      "trending_score": 0.0051,
       "mention_count": 1,
       "related_ids": []
     },
@@ -533,7 +807,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0153,
+      "trending_score": 0.0021,
       "mention_count": 1,
       "related_ids": []
     },
@@ -553,7 +827,7 @@
         "Models"
       ],
       "image_url": null,
-      "trending_score": 0.0259,
+      "trending_score": 0.0035,
       "mention_count": 1,
       "related_ids": []
     },
@@ -572,7 +846,7 @@
         "Models"
       ],
       "image_url": "https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png",
-      "trending_score": 0.0125,
+      "trending_score": 0.0017,
       "mention_count": 1,
       "related_ids": []
     },
@@ -591,7 +865,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0056,
+      "trending_score": 0.0008,
       "mention_count": 1,
       "related_ids": []
     },
@@ -610,7 +884,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0048,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": []
     },
@@ -629,7 +903,7 @@
         "Automation"
       ],
       "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/data-center-2.webp",
-      "trending_score": 0.0093,
+      "trending_score": 0.0013,
       "mention_count": 1,
       "related_ids": []
     },
@@ -649,7 +923,7 @@
         "Agents"
       ],
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/33wbWUELa8LqPj0SZWOxeL/86a395af69191bb11da7342b92a803d9/How_enterprises_are_scaling_AI.png?w=1600&h=900&fit=fill",
-      "trending_score": 0.0041,
+      "trending_score": 0.0006,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "branded_card"
@@ -670,7 +944,7 @@
         "Agents"
       ],
       "image_url": "/images/logos/openai.svg",
-      "trending_score": 0.0043,
+      "trending_score": 0.0006,
       "mention_count": 3,
       "related_ids": []
     },
@@ -690,7 +964,7 @@
         "Models"
       ],
       "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp",
-      "trending_score": 0.003,
+      "trending_score": 0.0004,
       "mention_count": 1,
       "related_ids": []
     },
@@ -709,7 +983,7 @@
         "Models"
       ],
       "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/05/26-cmu-commencement-20-KL_-13_16x9-scaled.jpg",
-      "trending_score": 0.0015,
+      "trending_score": 0.0002,
       "mention_count": 1,
       "related_ids": []
     },
@@ -728,7 +1002,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0006,
+      "trending_score": 0.0001,
       "mention_count": 1,
       "related_ids": []
     },
@@ -747,7 +1021,7 @@
         "Governance"
       ],
       "image_url": null,
-      "trending_score": 0.0003,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -767,7 +1041,7 @@
         "Models"
       ],
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper.png",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": []
     },
@@ -848,7 +1122,7 @@
         "Governance"
       ],
       "image_url": "/images/logos/govt-nz.svg",
-      "trending_score": 0.0001,
+      "trending_score": 0.0,
       "mention_count": 1,
       "related_ids": [],
       "image_source": "logo"
@@ -2724,86 +2998,6 @@
       "image_source": "logo",
       "trending_score": 0.0,
       "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "bdc3ad0f7ec5d0fa",
-      "url": "https://x.ai/news/grok-custom-voices",
-      "title": "Custom Voices and Voice Library",
-      "title_translated": null,
-      "source": "xai",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-05-01T17:37:57Z",
-      "first_seen_at": "2026-05-01T18:09:22.052015Z",
-      "summary": "xAI has launched custom voice creation and a Voice Library for Grok, enabling users to design personalised AI voices and select from curated voice options for text-to-speech and interactive applications.",
-      "tags": [
-        "Models",
-        "Content"
-      ],
-      "image_url": "https://x.ai/news/grok-custom-voices/opengraph-image-1dmibn.png?090657c897727150",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "09bf4382e37b388d",
-      "url": "https://www.rbnz.govt.nz/hub/publications/analytical-note/2026/assessing-ai-and-robotics-exposure-in-the-nz-labour-market-using-llms",
-      "title": "RBNZ: Assessing AI and Robotics Exposure in the New Zealand Labour Market Using LLMs",
-      "title_translated": null,
-      "source": "rbnz",
-      "source_tier": 1,
-      "region": "nz",
-      "published_at": "2026-05-01T00:00:00Z",
-      "first_seen_at": "2026-05-06T18:15:21.917326Z",
-      "summary": "Reserve Bank of New Zealand published research using LLMs to measure AI and robotics exposure across NZ occupations. Highest exposure falls on professional, managerial, and administrative roles at middle-to-upper income levels; methodology maps task-level vulnerability using LLM-based scoring rather than prior O*NET-style surveys.",
-      "tags": [
-        "Governance",
-        "Automation"
-      ],
-      "image_url": "/images/logos/rbnz.svg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": [],
-      "image_source": "logo"
-    },
-    {
-      "id": "ecfc70d2143c166e",
-      "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
-      "title": "Nemotron Labs: What OpenClaw Agents Mean for Every Organization",
-      "title_translated": null,
-      "source": "nvidia",
-      "source_tier": 1,
-      "region": "us",
-      "published_at": "2026-04-30T20:00:39Z",
-      "first_seen_at": "2026-05-01T18:09:22.052015Z",
-      "summary": "By early 2026, the open-source OpenClaw agent project crossed 100,000 GitHub stars. NVIDIA's Nemotron Labs examines how OpenClaw's modular, composable approach to autonomous AI agents can be applied across enterprise workflows, from supply chain orchestration to customer operations.",
-      "tags": [
-        "Agents"
-      ],
-      "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/04/nemotron-labs-openclaw-1920x1080-1.jpg",
-      "trending_score": 0.0,
-      "mention_count": 1,
-      "related_ids": []
-    },
-    {
-      "id": "1ae228e61cc02b26",
-      "url": "https://x.com/AndrewYNg/status/2049886895530967534",
-      "title": "Andrew Ng launches \"AI Prompting for Everyone\" course",
-      "title_translated": null,
-      "source": "AndrewYNg",
-      "source_tier": 3,
-      "region": "us",
-      "published_at": "2026-04-30T20:00:00Z",
-      "first_seen_at": "2026-04-30T18:07:31Z",
-      "summary": "Andrew Ng announced a new course teaching prompting techniques applicable across ChatGPT, Gemini, and Claude. Covers deep research, attaching docs and images for context, and developing intuition for model behaviour.",
-      "tags": [
-        "Skills",
-        "Content"
-      ],
-      "image_url": "/data/cover-mobile.png",
-      "trending_score": 0.0,
-      "mention_count": 2,
       "related_ids": []
     }
   ]
